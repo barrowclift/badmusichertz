@@ -1,0 +1,35 @@
+# Site settings
+title: Bad Music Hertz
+email: "&#109;&#097;&#114;&#099;&#064;&#098;&#097;&#114;&#114;&#111;&#119;&#099;&#108;&#105;&#102;&#116;&#046;&#109;&#101;"
+twitter_username: badmusichertz
+description: Scrutinizing and celebrating great music one record at a time
+baseurl: "" # The subpath of your site, e.g. /blog/
+url: "http://mpmd.github.io" # The base hostname & protocol for your site
+host: localhost
+
+permalink: /post/:title # Permalink posts sorted by date with directories is awful.
+paginate_path: "/page/:num" # Home older/previous pages go here
+
+# Build settings
+markdown: kramdown
+paginate: 5 # 5 Number of posts to be shown on each each paginated page.
+
+defaults:
+  - # POST SPECIFIC VARIABLES
+    scope:
+      path: ""      # empty string for all files
+      type: "posts"   # limit to posts
+    values:
+      viewing-single-page: true # *NOT* Being viewed from home, a specific article page
+      use-blurred-background: true # Default to showing blurred album art backdrop
+      share-image:  # assume a default post doesn't have an image, /images/assets/${share-image}
+  - # SITE-WIDE VARIABLES
+    scope:
+      path: "" # all files
+    values:
+      anchors: true # We want sections to be anchorable by default for everything
+
+# =========== PLUGINS ===========
+
+gems:
+  - jemoji
