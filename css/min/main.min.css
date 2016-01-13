@@ -840,12 +840,7 @@ body:before {
         max-width: 529px;
     }
     .album-art {
-        max-width: 618px;
-    }
-    .ios-one-screen, .ios-two-screens, .ios-three-screens {
-        max-width: 28vw;
-        margin-left: 2vw;
-        margin-right: 2vw;
+        max-width: 607px;
     }
 
 
