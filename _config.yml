@@ -4,7 +4,7 @@ email: "&#109;&#097;&#114;&#099;&#064;&#098;&#097;&#114;&#114;&#111;&#119;&#099;
 twitter_username: badmusichertz
 description: Scrutinizing and celebrating great music one record at a time
 baseurl: "" # The subpath of your site, e.g. /blog/
-url: "http://mpmd.github.io" # The base hostname & protocol for your site
+url: "http://badmusichertz" # The base hostname & protocol for your site
 host: localhost
 
 permalink: /post/:title # Permalink posts sorted by date with directories is awful.
