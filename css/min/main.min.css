@@ -22,13 +22,13 @@ CONTENTS
 
 /* Font Families (input and textarea included to fix Windows issues) */
 html, input, textarea {
-    font-family: "Avenir Next", "Lucida Sans Unicode", "Lucida Grande", sans-serif
+    font-family: "Avenir Next", "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
     font-smoothing: antialiased;
 }
 h1, h2, h3, h4, h5, h6, time, #bottom-banner {
-    font-family: "Adelle Sans", "Trebuchet MS", Helvetica, sans-serif
+    font-family: "Adelle Sans", "Trebuchet MS", Helvetica, sans-serif;
 }
 
 
