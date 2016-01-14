@@ -20,61 +20,15 @@ CONTENTS
         Bottom Banner
 ========================================================================================================== */
 
-/* FONTS -------------------------------------------------------------------- */
-
-@font-face {
-    font-family: 'Adelle Sans';
-        src: url('/fonts/adellesans-bold-webfont.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Adelle Sans';
-        src: url('/fonts/adellesans-semibold-webfont.ttf') format('truetype');
-    font-weight: 600;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Adelle Sans';
-        src: url('/fonts/adellesans-italic-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: italic;
-}
-@font-face {
-    font-family: 'Adelle Sans';
-        src: url('/fonts/adellesans-regular-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Avenir Next';
-        src: url('/fonts/avenir-next-regular.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Avenir Next';
-        src: url('/fonts/avenir-next-bold.otf') format('opentype');
-    font-weight: bold;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Avenir Next';
-        src: url('/fonts/avenir-next-italic.otf') format('opentype');
-    font-weight: normal;
-    font-style: italic;
-}
-
-
 /* Font Families (input and textarea included to fix Windows issues) */
 html, input, textarea {
-    font-family: "Avenir Next", sans-serif;
+    font-family: "Avenir Next", "Lucida Sans Unicode", "Lucida Grande", sans-serif
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
     font-smoothing: antialiased;
 }
 h1, h2, h3, h4, h5, h6, time, #bottom-banner {
-    font-family: "Adelle Sans", sans-serif;
+    font-family: "Adelle Sans", "Trebuchet MS", Helvetica, sans-serif
 }
 
 
@@ -328,8 +282,7 @@ button {
 
 
 /* Smooth hover-transition buttons & Generic round button (RSS, Archive, etc.) */
-.button-hover, .button-default,
-.social-site-button, .experience-company-button, .news-logo-button, .round-button {
+.button-hover, .button-default, .social-site-button {
     position: relative;
     display: inline-block;
 }
@@ -346,7 +299,8 @@ button {
     opacity: 1;
 }
 .round-button img,
-.icon-button img {
+.icon-button img,
+.social-site-button img {
     position: absolute;
     left: 0;
     top: 0;
@@ -603,7 +557,7 @@ article hr, footer hr {
 
 .archive-album-art {
     /*width: 98px;*/
-    width: 22.5vw;
+    width: 30vw;
     margin-bottom:-5px;
     margin-right:-5px;
 }
@@ -840,7 +794,7 @@ body:before {
         max-width: 529px;
     }
     .album-art {
-        max-width: 607px;
+        max-width: 609px;
     }
 
 
@@ -946,8 +900,8 @@ body:before {
 
     /* ----- ROOT ELEMENTS ----- */
     main {
-        padding-left: 5%;
-        padding-right: 5%;
+        padding-left: 2.5em;
+        padding-right: 2.5em;
         max-width: 529px;
     }
     .fat-page main {

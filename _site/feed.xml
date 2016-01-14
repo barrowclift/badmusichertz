@@ -3,10 +3,10 @@
   <channel>
     <title>Bad Music Hertz</title>
     <description>Scrutinizing and celebrating great music one record at a time</description>
-    <link>http://mpmd.github.io/</link>
-    <atom:link href="http://mpmd.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 12 Jan 2016 23:46:29 -0500</pubDate>
-    <lastBuildDate>Tue, 12 Jan 2016 23:46:29 -0500</lastBuildDate>
+    <link>http://badmusichertz/</link>
+    <atom:link href="http://badmusichertz/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 14 Jan 2016 01:14:32 -0500</pubDate>
+    <lastBuildDate>Thu, 14 Jan 2016 01:14:32 -0500</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -59,8 +59,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Sat, 09 Jan 2016 06:19:44 -0500</pubDate>
-        <link>http://mpmd.github.io/post/broken-bride</link>
-        <guid isPermaLink="true">http://mpmd.github.io/post/broken-bride</guid>
+        <link>http://badmusichertz/post/broken-bride</link>
+        <guid isPermaLink="true">http://badmusichertz/post/broken-bride</guid>
         
         
         <category>ludo</category>
@@ -121,8 +121,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Fri, 08 Jan 2016 06:19:44 -0500</pubDate>
-        <link>http://mpmd.github.io/post/divers</link>
-        <guid isPermaLink="true">http://mpmd.github.io/post/divers</guid>
+        <link>http://badmusichertz/post/divers</link>
+        <guid isPermaLink="true">http://badmusichertz/post/divers</guid>
         
         
         <category>joanna newsome</category>
@@ -183,8 +183,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Sun, 20 Dec 2015 06:19:44 -0500</pubDate>
-        <link>http://mpmd.github.io/post/pet-sounds</link>
-        <guid isPermaLink="true">http://mpmd.github.io/post/pet-sounds</guid>
+        <link>http://badmusichertz/post/pet-sounds</link>
+        <guid isPermaLink="true">http://badmusichertz/post/pet-sounds</guid>
         
         
         <category>the beach boys</category>
