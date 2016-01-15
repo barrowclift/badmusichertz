@@ -28,12 +28,9 @@
 
 	<link rel="stylesheet" href="{{ "/css/min/reset.min.css" | prepend: site.baseurl }}" type="text/css" />
 	<link rel="stylesheet" href="{{ "/css/min/bigfoot-number.min.css" | prepend: site.baseurl }}" type="text/css" />
-	<link rel="stylesheet" href="{{ "/css/min/main.min.css" | prepend: site.baseurl }}" type="text/css" />
-	<link rel="stylesheet" href="{{ "/css/min/anchor.min.css" | prepend: site.baseurl }}" type="text/css" />
+	<link rel="stylesheet" href="{{ "/css/min/style.min.css" | prepend: site.baseurl }}" type="text/css" />
 	{% if page.album-style %}
 	<link rel="stylesheet" href="{{ site.baseurl }}/css/album-specific/min/{{ page.album-style }}.min.css" type="text/css" />
-	{% else %}
-	<link rel="stylesheet" href="{{ "/css/min/theme-default.min.css" | prepend: site.baseurl }}" type="text/css" />
 	{% endif %}
 	{% for style in page.page-specific %}
 	<link rel="stylesheet" href="{{ site.baseurl }}/css/page-specific/min/{{ style }}" type="text/css" />
@@ -81,8 +78,8 @@
 
 	<title>{{site.title}}{% if page.title %}: {{ page.title }}{% endif %}</title>
 	
-	<!-- <meta name="twitter:card" content="summary" />
-	<meta name="twitter:site" content="@barrowclift" />
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:site" content="@{{ site.twitter_username }}" />
 	<meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{site.title}}{% endif %}" />
 	<meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 200 }}{% else %}{{ site.description }}{% endif %}" />
 	{% if page.share-image %}
@@ -91,7 +88,6 @@
 	<meta name="twitter:image" content="{{ site.url }}/images/logo/logo-600x314@2x.png" />
 	{% endif %}
 	<meta name="twitter:url" content="{{ site.url }}{{ page.url | append: '/' | replace:'index.html','' | prepend: site.baseurl | replace: '//', '/' }}" />
-	<meta property="fb:admins" content="1665270112" /> -->
 
 	<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
 

@@ -25,7 +25,7 @@ anchors: false
 			<h2>
 				<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 			</h2>
-			<time itemprop="dateCreated">{{ post.date | date: "%A, %B %-d, %Y" }}<span class="time-line"> by </span><span class="time-break"><br></span>Marc Barrowclift</time>
+			<time itemprop="dateCreated">{{ post.date | date: "%A, %B %-d, %Y" }}<span class="hide-when-small"> by </span><span class="show-when-small"><br></span>Marc Barrowclift</time>
 			{% endif %}
 		</header>
 

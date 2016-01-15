@@ -12,7 +12,7 @@ layout: default
 		<h2 class="center">
 			{{ page.title }}
 		</h2>
-		<time itemprop="dateCreated" class="center">{{ page.date | date: "%A, %B %-d, %Y" }}<span class="time-line"> by </span><span class="time-break"><br></span>Marc Barrowclift</time>
+		<time itemprop="dateCreated" class="center">{{ page.date | date: "%A, %B %-d, %Y" }}<span class="hide-when-small"> by </span><span class="show-when-small"><br></span>{{ page.author }}</time>
 	</header>
 
 	{{ content }}
