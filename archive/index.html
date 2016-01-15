@@ -1,14 +1,13 @@
 ---
 layout: default
 fat: true
-title: Archive
+title: "Archive"
 ---
+<h2 class="pad-bottom">{{ page.title }}</h2>
 
-<h2 class="static-bottom-pad center">{{ page.title }}</h2>
-
-<div class="large-bottom-pad">
+<div class="pad-bottom">
 	{% for post in site.posts %}
-	<a class="text-link" href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
+	<a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
 		<img class="archive-album-art" src="/images/album-art/{{ post.album-art }}-small.jpg">
 	</a>
 	{% endfor %}

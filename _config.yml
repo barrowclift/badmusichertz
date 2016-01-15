@@ -12,7 +12,7 @@ paginate_path: "/page/:num" # Home older/previous pages go here
 
 # Build settings
 markdown: kramdown
-paginate: 5 # 5 Number of posts to be shown on each each paginated page.
+paginate: 5 # Number of posts to be shown on each each paginated page.
 
 defaults:
   - # POST SPECIFIC VARIABLES

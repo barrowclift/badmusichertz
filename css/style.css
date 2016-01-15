@@ -135,20 +135,20 @@ main {
 
 /* NAVBAR ---------------------------------------------------------- */
 
-menu {
+menu,
+menu ul,
+menu ul li {
     display: inline-block;
+}
+menu {
     text-align: left;
     width: 100%;
 }
     /* ---------- MAIN MENU SPACING, MINOR STYLING. AND POSITIONING */
     menu ul {
-        /* Allows us to absolutely position the sub menus according to this main
-        menu bar */
-        display: inline;
         list-style-type: none;
         text-align: right;
         float: right;
-        
         margin-right: 0px;
         margin-top: 15px;
         padding-left: 0px;
@@ -157,7 +157,6 @@ menu {
     /* ---------- SUBMENU SPACING, SUB AND MAIN STYLE, AND POSITIONING */
     menu ul li {
         max-width: 143.5px;
-        display: inline-block;
         margin-bottom: 0.25em;
         margin-right: 5vw;
     }
@@ -234,6 +233,9 @@ blockquote > :last-child {
 
 /* STREAM NAVIGATION -------------------------------------------------------- */
 
+#bottom-navigation {
+    padding-bottom: 51px;
+}
 #navigation-previous {
     display: inline-block;
     float: left;
@@ -395,13 +397,10 @@ something to center. */
 .normal-top-pad {
     margin-top: 20px;
 }
-.static-bottom-pad {
-    padding-bottom: 20px;
-}
-.large-top-pad {
+.pad-top {
     margin-top: 35px;
 }
-.large-bottom-pad {
+.pad-bottom {
     margin-bottom: 35px;
 }
 
@@ -452,6 +451,7 @@ something to center. */
 compensate */
 #website-title {
     padding-left: 5%;
+    display: inline-block;
 }
 
 /* PAGE FOOTER ------------------------------------------------------------ */
@@ -764,8 +764,8 @@ menu ul li ul {
 
 
     /* ----- STREAM NAVIGATION ----- */
-    #actions {
-        padding-top: 31px;
+    #bottom-navigation {
+        padding-bottom: 82px;
     }
 
 
@@ -828,10 +828,10 @@ menu ul li ul {
     .normal-top-pad {
         margin-top: 26px;
     }
-    .large-top-pad {
+    .pad-top {
         margin-top: 45px;
     }
-    .large-bottom-pad {
+    .pad-bottom {
         margin-bottom: 45px;
     }
     .hide-when-small {
@@ -897,12 +897,10 @@ menu ul li ul {
     }
     h3, h4, h5, menu ul,
     #bottom-navigation {
-        font-size: 27px;
-        line-height: 27px;
+        font-size: 27px;51       line-height: 27px;
     }
         h4, #bottom-navigation {
-            line-height: 39px;
-        }
+            line-height: 39px;51       }
         h5 {
             line-height: 33px;
         }
@@ -990,14 +988,16 @@ menu ul li ul {
 
 
     /* ----- STREAM NAVIGATION ----- */
-
+    #bottom-navigation {
+        padding-bottom: 86px;
+    }
 
     /* ----- IMAGES & VIDEO ----- */
     figcaption {
         padding-top: 10px;
     }
     .inline {
-    	max-width: 595px;
+        max-width: 595px;
     }
     .album-art {
         max-width: 695px;
@@ -1055,10 +1055,10 @@ menu ul li ul {
     .normal-top-pad {
         margin-top: 32px;
     }
-    .large-top-pad {
+    .pad-top {
         margin-top: 50px;
     }
-    .large-bottom-pad {
+    .pad-bottom {
         margin-bottom: 50px;
     }
 
