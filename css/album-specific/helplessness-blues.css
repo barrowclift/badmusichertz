@@ -1,38 +1,37 @@
 /* Highlight Color ----------------------------------------------------------- */
 /* Safari */
 ::selection {
-    background: #A89776;
+    background: #E0BF70;
     color: #F8F7F5;
 }
 /* Firefox */
 ::-moz-selection {
-    background: #A89776;
+    background: #E0BF70;
     color: #F8F7F5;
 }
 
 /* Links ----------------------------------------------------------- */
 a {
-    color: #A89776;
-    font-weight: bold;
+    color: #9A5132;
     -webkit-transition: color .2s linear;
     transition: color .2s linear;
 }
 /* unvisited link */
 a:link {
-    color: #A89776;
+    color: #9A5132;
 }
 /* visited link */
 a:visited {
-    color: #A89776;
+    color: #9A5132;
 }
 a:hover {
-    color: #E0CA9F;
+    color: #CD5A39;
     -webkit-transition: color .2s linear;
     transition: color .2s linear;
 }
 
 h2 a, h1 a, menu ul li a {
-    color: #A89776;
+    color: #9A5132;
     -webkit-transition: color .2s ease;
     transition: color .2s ease;
 }
@@ -43,34 +42,34 @@ h2 a:visited, h1 a:visited, menu ul li a:visited {
     color: #333333;
 }
 h2 a:hover, h1 a:hover, menu ul li a:hover {
-    color: #A89776;
+    color: #9A5132;
     -webkit-transition: color .2s ease;
     transition: color .2s ease;
 }
 
 #page-footer-text span a:hover {
-    color: #A89776;
+    color: #9A5132;
 }
 
 /* Footnotes button ----------------------------------------------------------- */
 .bigfoot-footnote__button,
 .bigfoot-footnote__button:link,
 .bigfoot-footnote__button:visited {
-    background-color: #A89776;
+    background-color: #9A5132;
 }
 
 .bigfoot-footnote__button:hover,
 .bigfoot-footnote__button:focus {
     outline: none;
-    background-color: #E0CA9F;
+    background-color: #CD5A39;
 }
 
 .bigfoot-footnote__button:active {
-    background-color: #E0CA9F;
+    background-color: #CD5A39;
 }
 
 .bigfoot-footnote__button.is-active {
-    background-color: #E0CA9F;
+    background-color: #CD5A39;
     -webkit-transition-delay: 0.1s;
     transition-delay: 0.1s;
 }
@@ -85,15 +84,13 @@ The album art backdrop
  */
 #content {
     background-color: #F8F7F5;
-    background-position: right;
 }
 
 @media (min-width: 43.75rem) {
     #content {
-        background-color: #A89776;
+        background-color: #9A5132;
     }
 }
-
 main {
     background-color: #F8F7F5;
 }
@@ -102,5 +99,5 @@ main {
 The logo's "record label" color
  */
 #title #album-color {
-    background-color: #A89776;
+    background-color: #9A5132;
 }

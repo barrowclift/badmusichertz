@@ -1,11 +1,10 @@
 ---
 layout: post
 title: "Broken Bride"
-author: "Marc Barrowclift"
-album-art: "broken-bride"
-use-blurred-background: false
+author: "Michael Barrowclift"
+album-name: "broken-bride"
+use-blurred-background: False
 album-art-hidden-text: "So Bride, Much Broken"
-album-style: "broken-bride"
 date: 2016-01-09 11:19:44
 categories:
   - LUDO

@@ -1,22 +1,22 @@
 /*
 CONTENT:
-    Font families
-    Font sizes
-    Root elements
-    Navbar
-    Headers
-    Paragraph elements
-    Stream navigation
-    Images & video
-    Footnotes
-    Dividers
-    Tables
-    Buttons
-    Positioning & showing
-    Title
-    Page Footer
-    Anchors
-    Default color scheme
+    Font families ---
+    Font sizes  ---
+    Root elements ---
+    Navbar ---
+    Headers ---
+    Paragraph elements ---
+    Stream navigation ---
+    Images & video ---
+    Footnotes ---
+    Dividers ---
+    Tables ---
+    Buttons ---
+    Positioning & showing ---
+    Title ---
+    Page Footer ---
+    Anchors ---
+    Default color scheme ---
 */
 
 /* FONTS FAMILIES ------------------------------------------------------------------- */
@@ -144,7 +144,6 @@ menu {
     text-align: left;
     width: 100%;
 }
-    /* ---------- MAIN MENU SPACING, MINOR STYLING. AND POSITIONING */
     menu ul {
         list-style-type: none;
         text-align: right;
@@ -153,8 +152,6 @@ menu {
         margin-top: 15px;
         padding-left: 0px;
     }
-    
-    /* ---------- SUBMENU SPACING, SUB AND MAIN STYLE, AND POSITIONING */
     menu ul li {
         max-width: 143.5px;
         margin-bottom: 0.25em;
@@ -224,8 +221,6 @@ ol li > :last-child, ul li > :last-child {
 
 blockquote {
     padding-left: 15px;
-    border-left: 4px solid #e8e8e8;
-    color: #848484;
 }
 blockquote > :last-child {
     margin-bottom: 0;
@@ -543,6 +538,11 @@ article hr, footer hr {
     background: linear-gradient(to right,  #F8F7F5 0%,#D6D6D6 25%,#D6D6D6 50%,#D6D6D6 75%,#F8F7F5 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F8F7F5', endColorstr='#F8F7F5',GradientType=1 ); /* IE6-9 */
 }
+blockquote {
+    border-left: 2px solid #D6D6D6;
+    color: #848484;
+    -webkit-border-image: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #F8F7F5), color-stop(0.5, #D6D6D6), color-stop(0.5, #D6D6D6), color-stop(1, #F8F7F5)) 0 100%;
+}
 
 
 /* Highlight Color */
@@ -575,9 +575,13 @@ a:hover {
     -webkit-transition: color .2s linear;
     transition: color .2s linear;
 }
+article a {
+    font-weight: 600;
+}
 /* Header Links */
 h2 a, h1 a, menu ul li a {
     color: #333333;
+    font-weight: bold;
     -webkit-transition: color .2s ease;
     transition: color .2s ease;
 }

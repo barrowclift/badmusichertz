@@ -3,12 +3,16 @@ layout: default
 fat: true
 title: "Archive"
 ---
+
+<link rel="stylesheet" href="{{ site.baseurl }}/css/min/hint.min.css" type="text/css" />
 <h2 class="pad-bottom">{{ page.title }}</h2>
 
 <div class="pad-bottom">
 	{% for post in site.posts %}
-	<a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
-		<img class="archive-album-art" src="/images/album-art/{{ post.album-art }}-small.jpg">
-	</a>
+	<span class="hint--top hint--rounded hint--bounce" style="margin-right:-2px;margin-left:-2px;" data-hint="{{ post.title }}">
+		<a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
+			<img class="archive-album-art" src="/images/album-art/{{ post.album-name }}-small.jpg">
+		</a>
+	</span>
 	{% endfor %}
 </div>

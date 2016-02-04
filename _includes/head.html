@@ -29,8 +29,8 @@
 	<link rel="stylesheet" href="{{ "/css/min/reset.min.css" | prepend: site.baseurl }}" type="text/css" />
 	<link rel="stylesheet" href="{{ "/css/min/bigfoot-number.min.css" | prepend: site.baseurl }}" type="text/css" />
 	<link rel="stylesheet" href="{{ "/css/min/style.min.css" | prepend: site.baseurl }}" type="text/css" />
-	{% if page.album-style %}
-	<link rel="stylesheet" href="{{ site.baseurl }}/css/album-specific/min/{{ page.album-style }}.min.css" type="text/css" />
+	{% if page.album-name %}
+	<link rel="stylesheet" href="{{ site.baseurl }}/css/album-specific/min/{{ page.album-name }}.min.css" type="text/css" />
 	{% endif %}
 	{% for style in page.page-specific %}
 	<link rel="stylesheet" href="{{ site.baseurl }}/css/page-specific/min/{{ style }}" type="text/css" />

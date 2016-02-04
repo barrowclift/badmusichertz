@@ -28,8 +28,8 @@ anchors: false
 			{% endif %}
 		</header>
 
-		<a href="/images/album-art/{{ post.album-art }}.jpg" {% if post.album-art-hidden-text %}title="{{post.album-art-hidden-text}}"{% endif %}>
-			<img src="/images/album-art/{{ post.album-art }}.jpg" class="inline" {% if post.title %}alt="{{ post.title }}'s album art"{% else %}alt="The album's cover"{% endif %} />
+		<a href="{{ post.url }}" {% if post.album-art-hidden-text %}title="{{post.album-art-hidden-text}}"{% endif %}>
+			<img src="/images/album-art/{{ post.album-name }}.jpg" class="inline" {% if post.title %}alt="{{ post.title }}'s album art"{% else %}alt="The album's cover"{% endif %} />
 		</a>
 
 		{% if post.banner-image %}
