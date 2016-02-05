@@ -50,6 +50,7 @@
 	<script type="text/javascript" src="/scripts/jquery-2.1.1.min.js"></script>
 	<script type="text/javascript" src="/scripts/bigfoot.min.js"></script>
 	<script type="text/javascript" src="/scripts/anchor.min.js"></script>
+	<script type="text/javascript" src="/scripts/imageBlurWhileLoading.js"></script>
 	<script>
 		$.bigfoot({
 			// Uncomment to hide inline footnotes from home view
@@ -137,15 +138,27 @@
 
 <div class="pad-bottom">
 	
-	<span class="hint--top hint--rounded hint--bounce" style="margin-right:-2px;margin-left:-2px;" data-hint="Helplessness Blues">
+	<span class="hint--top hint--rounded hint--bounce" data-hint="Helplessness Blues">
 		<a href="/post/helplessness-blues">
-			<img class="archive-album-art" src="/images/album-art/helplessness-blues-small.jpg">
+			<!-- <img src="/images/album-art/helplessness-blues-tiny.jpg" class="archive-album-art"> -->
+			<div class="archive-album-art">
+				<div class="placeholder" data-large="/images/album-art/helplessness-blues-small.jpg">
+					<img src="/images/album-art/helplessness-blues-tiny.jpg" class="img-small">
+					<div style="padding-bottom: 100%;"></div>
+				</div>
+			</div>
 		</a>
 	</span>
 	
-	<span class="hint--top hint--rounded hint--bounce" style="margin-right:-2px;margin-left:-2px;" data-hint="Broken Bride">
+	<span class="hint--top hint--rounded hint--bounce" data-hint="Broken Bride">
 		<a href="/post/broken-bride">
-			<img class="archive-album-art" src="/images/album-art/broken-bride-small.jpg">
+			<!-- <img src="/images/album-art/broken-bride-tiny.jpg" class="archive-album-art"> -->
+			<div class="archive-album-art">
+				<div class="placeholder" data-large="/images/album-art/broken-bride-small.jpg">
+					<img src="/images/album-art/broken-bride-tiny.jpg" class="img-small">
+					<div style="padding-bottom: 100%;"></div>
+				</div>
+			</div>
 		</a>
 	</span>
 	

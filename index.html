@@ -10,41 +10,19 @@ anchors: false
 
 	<article>
 		<header role="header">
-			{% if post.link %}
-			<!-- <h2><a href="{{ post.link }}">{{ post.title }} <span class="link-arrow">➤</span></a></h2> -->
-			<h2>
-				<a href="{{ post.link }}">{{ post.title }} ↦</a>
-			</h2>
-			<time itemprop="dateCreated">{{ post.date | date: "%A, %B %-d, %Y" }}
-				<span>
-					<a href="{{ post.url | prepend: site.baseurl }}">∞</a>
-				</span>
-			</time>
-			{% else %}
 			<h2>
 				<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 			</h2>
 			<time itemprop="dateCreated">{{ post.date | date: "%A, %B %-d, %Y" }}<span class="hide-when-small"> by </span><span class="show-when-small"><br></span>Marc Barrowclift</time>
-			{% endif %}
 		</header>
 
 		<a href="{{ post.url }}" {% if post.album-art-hidden-text %}title="{{post.album-art-hidden-text}}"{% endif %}>
-			<img src="/images/album-art/{{ post.album-name }}.jpg" class="inline" {% if post.title %}alt="{{ post.title }}'s album art"{% else %}alt="The album's cover"{% endif %} />
+			<!-- <img src="/images/album-art/{{ post.album-name }}.jpg" class="inline" {% if post.title %}alt="{{ post.title }}'s album art"{% else %}alt="The album's cover"{% endif %} /> -->
+			<div class="placeholder" data-large="/images/album-art/{{ post.album-name }}.jpg">
+				<img src="/images/album-art/{{ post.album-name }}-tiny.jpg" class="img-small">
+				<div style="padding-bottom: 100%;"></div>
+			</div>
 		</a>
-
-		{% if post.banner-image %}
-		<figure>
-			<p>
-				{% if post.banner-link %}
-				<a href="{{post.banner-link}}" {% if post.banner-hover %}title="{{post.banner-hover}}"{% endif %}>
-					<img src="/images/assets/{{ post.banner-image-small }}" alt="" class="edge-to-edge" /></a>
-				</a>
-				{% else %}
-				<img src="/images/assets/{{ post.banner-image-small }}" alt="" class="edge-to-edge" /></a>
-				{% endif %}
-			</p>
-		</figure>
-		{% endif %}
 
 		{{ post.content }}
 	</article>
