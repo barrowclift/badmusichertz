@@ -318,7 +318,7 @@ video {
     padding-left: 0px;
 }
 .footnotes ol li {
-    margin-bottom: -4px;
+    margin-bottom: 20px;
 }
 .footnotes ol > :last-child {
     margin-bottom: 0px;
@@ -327,6 +327,9 @@ video {
 .footnotes ol {
     margin-top: 0px;
     padding-top: 0px;
+}
+.footnotes ol li:last-child {
+    margin-bottom: 0 !important;
 }
 
 /* DIVIDERS ----------------------------------------------------------------- */
@@ -796,7 +799,7 @@ menu ul li ul {
         margin-left: 18px;
     }
     .footnotes ol li {
-        margin-bottom: -8px;
+        margin-bottom: 26px;
     }
 
 
@@ -1019,7 +1022,7 @@ menu ul li ul {
         margin-left: 20px;
     }
     .footnotes ol li {
-        margin-bottom: -10px;
+        margin-bottom: 32px;
     }
 
 

@@ -3,6 +3,7 @@ layout: default
 anchors: false
 ---
 {% assign count=0 %}
+<h2 style="padding-top:75px;">Coming soon!</h2>
 {% for post in paginator.posts %}
 	{% if count > 0 %}
 	<hr />
@@ -17,11 +18,7 @@ anchors: false
 		</header>
 
 		<a href="{{ post.url }}" {% if post.album-art-hidden-text %}title="{{post.album-art-hidden-text}}"{% endif %}>
-			<!-- <img src="/images/album-art/{{ post.album-name }}.jpg" class="inline" {% if post.title %}alt="{{ post.title }}'s album art"{% else %}alt="The album's cover"{% endif %} /> -->
-			<div class="placeholder" data-large="/images/album-art/{{ post.album-name }}.jpg">
-				<img src="/images/album-art/{{ post.album-name }}-tiny.jpg" class="img-small">
-				<div style="padding-bottom: 100%;"></div>
-			</div>
+			<img src="/images/album-art/{{ post.album-name }}/cover.jpg" class="inline" {% if post.title %}alt="{{ post.title }}'s album art"{% else %}alt="The album's cover"{% endif %} />
 		</a>
 
 		{{ post.content }}

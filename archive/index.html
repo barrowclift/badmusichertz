@@ -9,15 +9,9 @@ title: "Archive"
 
 <div class="pad-bottom">
 	{% for post in site.posts %}
-	<span class="hint--top hint--rounded hint--bounce" data-hint="{{ post.title }}">
+	<span class="hint--top hint--rounded hint--bounce" style="margin-right:-2px;margin-left:-2px;" data-hint="{{ post.title }}">
 		<a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
-			<!-- <img src="/images/album-art/{{ post.album-name }}-tiny.jpg" class="archive-album-art"> -->
-			<div class="archive-album-art">
-				<div class="placeholder" data-large="/images/album-art/{{ post.album-name }}-small.jpg">
-					<img src="/images/album-art/{{ post.album-name }}-tiny.jpg" class="img-small">
-					<div style="padding-bottom: 100%;"></div>
-				</div>
-			</div>
+			<img src="/images/album-art/{{ post.album-name }}.jpg" class="archive-album-art">
 		</a>
 	</span>
 	{% endfor %}
