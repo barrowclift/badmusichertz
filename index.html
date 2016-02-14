@@ -13,7 +13,7 @@ anchors: false
 			<h2>
 				<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 			</h2>
-			<time itemprop="dateCreated">{{ post.date | date: "%A, %B %-d, %Y" }}<span class="hide-when-small"> by </span><span class="show-when-small"><br></span>Marc Barrowclift</time>
+			<time itemprop="dateCreated">{{ post.date | date: "%A, %B %-d, %Y" }}<span class="hide-when-small"> by </span><span class="show-when-small"><br></span>{{ post.author }}</time>
 		</header>
 
 		<a href="{{ post.url }}" {% if post.album-art-hidden-text %}title="{{post.album-art-hidden-text}}"{% endif %}>
