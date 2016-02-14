@@ -72,7 +72,7 @@
 	{% if page.share-image %}
 	<meta property="og:image" content="/images/album-art/{{ page.album-name }}/cover.jpg"/>
 	{% else %}
-	<meta property="og:image" content="{{ site.url }}/images/logo/logo-600x315@2x.png"/>
+	<meta property="og:image" content="{{ site.url }}/images/logo/logo-600x315.png"/>
 	{% endif %}
 	<meta property="og:site_name" content="{{ site.title }}" />
 	<meta property="fb:admins" content="1665270112" />
@@ -86,7 +86,7 @@
 	{% if page.share-image %}
 	<meta name="twitter:image" content="/images/album-art/{{ page.album-name }}/cover.jpg" />
 	{% else %}
-	<meta name="twitter:image" content="{{ site.url }}/images/logo/logo-600x315@2x.png" />
+	<meta name="twitter:image" content="{{ site.url }}/images/logo/logo-600x315.png" />
 	{% endif %}
 	<meta name="twitter:url" content="{{ site.url }}{{ page.url | replace:'index.html','' | prepend: site.baseurl | replace: '//', '/' }}" />
 
