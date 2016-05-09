@@ -113,17 +113,23 @@ body, main {
 html, body {
     height: 100%;
 }
-main {
-    /* IE 11 does not fully support main, ignores max-width otherwise */
-    display: block;
-
-    position: relative;
+main, .standard-page-width, .profile-column {
+    max-width: 463px;
     padding-left: 5%;
     padding-right: 5%;
-    padding-bottom: 81px;
-    max-width: 463px;
+}
+main, .standard-page-width, .profile-column {
+    /* IE 11 does not fully support main, ignores max-width otherwise */
+    display: block;
+    position: relative;
     width: auto;
     margin: 0 auto;
+}
+main {
+    padding-bottom: 81px;
+}
+.full-width-page main {
+    max-width: 100%;
 }
 
 
@@ -224,6 +230,11 @@ blockquote {
 }
 blockquote > :last-child {
     margin-bottom: 0;
+}
+
+.profile-column {
+    display: inline-block;
+    vertical-align:top;
 }
 
 /* STREAM NAVIGATION -------------------------------------------------------- */
@@ -420,18 +431,19 @@ something to center. */
     height: 32px;
 }
 #logo {
-    margin-bottom: -3px;
+    margin-bottom: -1px;
 }
 /* Exists for the album color "hover" effect on title OR logo hover */
 #logo-container {
     margin-right: -6px;
+    padding-top: 1px;
 }
 #title #album-color {
     position: relative;
     width: 11px;
     height: 11px;
-    left: 13px;
-    top: -20px;
+    left: 11px;
+    top: -22px;
     z-index: -1;
     opacity: 0;
     -webkit-transition: opacity .2s linear;
@@ -709,11 +721,13 @@ menu ul li ul {
 
 
     /* ----- ROOT ELEMENTS ----- */
-    main {
+    main, .standard-page-width {
         padding-left: 2.5em;
         padding-right: 2.5em;
-        padding-bottom: 75px;
         max-width: 529px;
+    }
+    main {
+        padding-bottom: 75px;
     }
     .fat-page main {
         max-width: 648px;
@@ -767,6 +781,18 @@ menu ul li ul {
     }
     #archive-list {
         margin-top: 18px;
+    }
+    .profile-column {
+        width: 39vw;
+        max-width: 555px;
+        padding-left:0;
+        padding-right:0;
+    }
+    .profile-column.left {
+        margin-left: 35px;
+    }
+    .profile-column.right {
+        margin-right: 35px;
     }
 
 
@@ -855,17 +881,15 @@ menu ul li ul {
         width: 55px;
         height: 55px;
     }
-    #logo {
-        margin-bottom: -6px;
-    }
     #logo-container {
         margin-right: -11px;
+        padding-top: 0px;
     }
     #title #album-color {
         width: 20px;
         height: 20px;
-        left: 22px;
-        top: -32px;
+        left: 19px;
+        top: -36px;
     }
     #website-title {
         padding-left: 0;
@@ -904,10 +928,12 @@ menu ul li ul {
     }
     h3, h4, h5, menu ul,
     #bottom-navigation {
-        font-size: 27px;51       line-height: 27px;
+        font-size: 27px;
+        line-height: 27px;
     }
         h4, #bottom-navigation {
-            line-height: 39px;51       }
+            line-height: 39px;
+        }
         h5 {
             line-height: 33px;
         }
@@ -946,10 +972,12 @@ menu ul li ul {
 
 
     /* ----- ROOT ELEMENTS ----- */
-    main {
+    main, .standard-page-width {
         max-width: 595px;
         padding-left: 50px;
         padding-right: 50px;
+    }
+    main {
         padding-bottom: 80px;
     }
     .fat-page main {
@@ -991,6 +1019,10 @@ menu ul li ul {
     }
     #archive-list {
         margin-top: 28px;
+    }
+    .profile-column {
+        width: 37vw;
+        max-width: 555px;
     }
 
 
@@ -1076,24 +1108,27 @@ menu ul li ul {
         height: 64px;
     }
     #logo-container {   
-        margin-right: -14px;
+        margin-right: -13px;
     }
     #title #album-color {
         width: 25px;
         height: 25px;
-        left: 24px;
-        top: -38px;
+        left: 20px;
+        top: -44px;
+    }
+    #website-title {
+        padding-top: 6px;
     }
     
 
     /* ----- PAGE FOOTER ----- */
     #page-footer {
-        height: 30px;
-        margin-top: -30px;
+        height: 36px;
+        margin-top: -36px;
     }
     .reserved-mode main {
-        padding-bottom: 30px;
-        padding-left: 30px;
-        padding-right: 30px;
+        padding-bottom: 36px;
+        padding-left: 36px;
+        padding-right: 36px;
     }
 }
