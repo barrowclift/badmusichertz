@@ -1,0 +1,103 @@
+/* Highlight Color ----------------------------------------------------------- */
+/* Safari */
+::selection {
+    background: #BBD5B2;
+    color: black;
+}
+/* Firefox */
+::-moz-selection {
+    background: #BBD5B2;
+    color: black;
+}
+
+/* Links ----------------------------------------------------------- */
+a {
+    color: #9DB396;
+    -webkit-transition: color .2s linear;
+    transition: color .2s linear;
+}
+/* unvisited link */
+a:link {
+    color: #9DB396;
+}
+/* visited link */
+a:visited {
+    color: #9DB396;
+}
+a:hover {
+    color: #8B856A;
+    -webkit-transition: color .2s linear;
+    transition: color .2s linear;
+}
+
+h2 a, h1 a, menu ul li a {
+    color: #9DB396;
+    -webkit-transition: color .2s ease;
+    transition: color .2s ease;
+}
+h2, h2 a:link, h1 a:link, menu ul li a:link {
+    color: #333333;
+}
+h2 a:visited, h1 a:visited, menu ul li a:visited {
+    color: #333333;
+}
+h2 a:hover, h1 a:hover, menu ul li a:hover {
+    color: #9DB396;
+    -webkit-transition: color .2s ease;
+    transition: color .2s ease;
+}
+
+#page-footer-text span a:hover {
+    color: #9DB396;
+}
+
+/* Footnotes button ----------------------------------------------------------- */
+.bigfoot-footnote__button,
+.bigfoot-footnote__button:link,
+.bigfoot-footnote__button:visited {
+    background-color: #9DB396;
+}
+
+.bigfoot-footnote__button:hover,
+.bigfoot-footnote__button:focus {
+    outline: none;
+    background-color: #8B856A;
+}
+
+.bigfoot-footnote__button:active {
+    background-color: #8B856A;
+}
+
+.bigfoot-footnote__button.is-active {
+    background-color: #8B856A;
+    -webkit-transition-delay: 0.1s;
+    transition-delay: 0.1s;
+}
+
+.bigfoot-footnote__content {
+    background: #FDFCFA;
+}
+
+/* Main Elements ----------------------------------------------------------- */
+/*
+The album art backdrop
+ */
+#content {
+    background-color: #F8F7F5;
+}
+
+@media (min-width: 43.75rem) {
+    #content {
+        background-color: #9DB396;
+    }
+}
+main {
+    background-color: #F8F7F5;
+}
+
+/*
+The logo's "record label" color
+ */
+#title #album-color {
+    background-color: #9DB396;
+}
