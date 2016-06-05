@@ -85,6 +85,15 @@ The album art backdrop
 #content {
     background-color: #F8F7F5;
 }
+article header {
+    background-position: top;
+}
+h2 {
+    color: #002030;
+}
+time {
+    color: #503A24;
+}
 
 @media (min-width: 43.75rem) {
     #content {

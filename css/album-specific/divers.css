@@ -1,12 +1,12 @@
 /* Highlight Color ----------------------------------------------------------- */
 /* Safari */
 ::selection {
-    background: #BBD5B2;
+    background: #BAE0D1;
     color: black;
 }
 /* Firefox */
 ::-moz-selection {
-    background: #BBD5B2;
+    background: #BAE0D1;
     color: black;
 }
 
@@ -25,13 +25,13 @@ a:visited {
     color: #9DB396;
 }
 a:hover {
-    color: #8B856A;
+    color: #BAE0D1;
     -webkit-transition: color .2s linear;
     transition: color .2s linear;
 }
 
 h2 a, h1 a, menu ul li a {
-    color: #9DB396;
+    color: #BAE0D1;
     -webkit-transition: color .2s ease;
     transition: color .2s ease;
 }
@@ -42,13 +42,13 @@ h2 a:visited, h1 a:visited, menu ul li a:visited {
     color: #333333;
 }
 h2 a:hover, h1 a:hover, menu ul li a:hover {
-    color: #9DB396;
+    color: #BAE0D1;
     -webkit-transition: color .2s ease;
     transition: color .2s ease;
 }
 
 #page-footer-text span a:hover {
-    color: #9DB396;
+    color: #BAE0D1;
 }
 
 /* Footnotes button ----------------------------------------------------------- */
@@ -61,15 +61,15 @@ h2 a:hover, h1 a:hover, menu ul li a:hover {
 .bigfoot-footnote__button:hover,
 .bigfoot-footnote__button:focus {
     outline: none;
-    background-color: #8B856A;
+    background-color: #BAE0D1;
 }
 
 .bigfoot-footnote__button:active {
-    background-color: #8B856A;
+    background-color: #BAE0D1;
 }
 
 .bigfoot-footnote__button.is-active {
-    background-color: #8B856A;
+    background-color: #BAE0D1;
     -webkit-transition-delay: 0.1s;
     transition-delay: 0.1s;
 }
@@ -85,10 +85,23 @@ The album art backdrop
 #content {
     background-color: #F8F7F5;
 }
+h2 {
+    color: #F1D08E;
+}
+time {
+    color: #BAE0D1;
+}
 
 @media (min-width: 43.75rem) {
     #content {
         background-color: #9DB396;
+    }
+    /* ----- DEFAULT COLOR THEME ----- */
+    h2 {
+        color: black;
+    }
+    time {
+        color: #848484;
     }
 }
 main {
@@ -99,5 +112,5 @@ main {
 The logo's "record label" color
  */
 #title #album-color {
-    background-color: #9DB396;
+    background-color: #BAE0D1;
 }

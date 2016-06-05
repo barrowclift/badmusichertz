@@ -108,6 +108,16 @@ figcaption, .weak {
     color: #979797;
 }
 
+@media (min-width: 43.75rem) {
+    /* ----- DEFAULT COLOR THEME ----- */
+    h2 {
+        color: black;
+    }
+    time {
+        color: #848484;
+    }
+}
+
 article hr, footer hr {
     clear: both;
     border: none;

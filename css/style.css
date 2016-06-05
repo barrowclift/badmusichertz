@@ -63,7 +63,7 @@ h1 { /* Page Headers */
     line-height: 32px;
 }
 h2 { /* Post Titles */
-    font-size: 24px;
+    font-size: 28px;
     line-height: 24px;
 }
 h3, h4, h5, menu ul {
@@ -189,7 +189,7 @@ h3 {
 
 time {
     display: block;
-    padding-top: 5px;
+    padding-top: 8px;
 }
 /* Only add the padding when on the home screen, otherwise the order of album
 art + article data flips and the padding isn't necessary. */
@@ -737,6 +737,8 @@ menu ul li ul {
     /* ----- NAVBAR ----- */
     menu {
         text-align: center;
+        height: 110px;
+        padding-top: 10px;
     }
     menu ul {
         text-align: left;
@@ -986,8 +988,11 @@ menu ul li ul {
 
 
     /* ----- NAVBAR ----- */
+    menu {
+        height: 130px;
+    }
     menu ul {
-        padding-left: 50px;
+        padding-left: 70px;
     }
 
 

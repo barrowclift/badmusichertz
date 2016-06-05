@@ -21,9 +21,31 @@
 
 			{% if page.viewing-single-page and page.use-blurred-background %}
 			<style>
+				article header {
+					background-image: url('/images/album-art/{{ page.album-name }}/blur.jpg');
+					width: 100vw;
+					margin-top: -4px;
+					padding-bottom: 13px;
+					display: inline-block;
+					margin-left: -30vw;
+					margin-right: -30vw;
+				}
+				time {
+    				font-weight: 600;
+				}
 				@media (min-width: 43.75rem) {
 					#content {
-						background-image: url('/images/album-art/{{ page.album-name }}/blur.jpg');	
+						background-image: url('/images/album-art/{{ page.album-name }}/blur.jpg');
+					}
+					article header {
+						width: 100%;
+						display: block;
+						background-image: none;
+						margin-left: 0vw;
+						margin-right: 0vw;
+					}
+					time {
+						font-weight: 500;
 					}
 				}
 			</style>
