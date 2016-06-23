@@ -4,6 +4,7 @@ layout: post
 use-blurred-background: True
 album-name: "divers"
 album-art-hidden-text: "Another fantastic album cover, I find myself yearning to explore the foggy dream garden every time I look at it"
+theme-color: "#9DB396"
 
 title: "Divers"
 author: "Marc Barrowclift"

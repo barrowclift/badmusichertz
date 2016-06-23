@@ -22,7 +22,11 @@
 	<meta name="msapplication-TileColor" content="#840000" />
 	<meta name="msapplication-TileImage" content="{{ "/images/logo/mstile-144x144.png" | prepend: site.baseurl }}" />
 	<meta name="msapplication-config" content="{{ "/images/logo/browserconfig.xml" | prepend: site.baseurl }}" />
+	{% if page.theme-color %}
+	<meta name="theme-color" content="{{ page.theme-color }}" />
+	{% else %}
 	<meta name="theme-color" content="#840000" />
+	{% endif %}
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
