@@ -4,7 +4,8 @@ layout: post
 use-blurred-background: True
 album-name: "helplessness-blues"
 album-art-hidden-text: "By far one of my favorite album covers as well. There's so much abstract scenes, characters, and emotions going on it's hard to know where to look first."
-theme-color: "#9A5132"
+primary-color: "#E0BF70"
+secondary-color: "#C29159"
 
 title: "Helplessness Blues"
 author: "Marc Barrowclift"
@@ -30,7 +31,8 @@ It had been three years since I had first heard "Lovers in Japan" and immediatel
 
 There it remained sitting in my iTunes library for the next few months until I stumbled across something curious while searching for the lyrics to "Montezuma" and "Grown Ocean" (the album's closer, which I had in the meantime discovered with the related videos section on YouTube) on songmeanings.com. There a fan [left a comment](http://songmeanings.com/songs/view/3530822107858864351/?&specific_com=73016045044#comments) on "Grown Ocean"'s lyrics that changed the way I perceive music and ultimately prompted me to give *Helplessness Blues* the crucial second listen. He had left a comment about how "Grown Ocean" continued a story, a character, from the previous songs, therefore making the songs in the album connected. The bulb lit, it all made sense now. The album was an ordered, coherent *whole*, not just a thoughtless collection of individual, "hit" pandering songs an artist threw together like my terrible iTunes playlists. Songs can be individual threads used to weave together a grand sonical tapestry of the mind, the whole stronger than any of their parts. All my life I had viewed music as the occasional good song that would get up in front of you for a quick, pitiful lap dance and leave you with an empty feeling afterwards known all too well in a world of zero calorie drinks, cheap thrills, and instant gratification. His comment shown forth like a gloriously illuminated lighthouse, a promise there could be something more not just in this album but in all music. With his comment in hand I immediately dove into my dusty, lonesome digital copy of *Helplessness Blues*, now with eyes opened to a new world of possibilities, and listened to it for what would truly be the first time.
 
-### Enter the Prodigal Son
+Enter the Prodigal Son
+----------------------
 
 Over the course of the album we pass by what seems like a plethora of unidentified different characters for each song until we are formally introduced to a son in Bitter Dancer. This character, mirroring the one from the famous [biblical story](https://en.wikipedia.org/wiki/Parable_of_the_Prodigal_Son) in many respects, suddenly puts the album in context as we realize the majority of the various seemingly unique characters thus far are actually the same, the prodigal son from Bitter Dancer.
 
@@ -38,13 +40,15 @@ To explain, let's look at "Montezuma"; we see a young man grimly realizing his c
 
 Here we see the son surprisingly deciding to not let all these life shattering events get him down, no, "what good is it to sing *helplessness blues*?" after all? He'll strive out there and make a new Innisfree for himself! He thinks to himself "Why should I wait for anyone else?" and dreams of an orchard (a pure representation of an opportunity to work hard) where he can work to prove his own self worth. Through it all he holds the belief that his love will "keep me on the shelf" and return to his arms when he's victorious. For the rest of the album we follow his emotional journey as he strives to achieve this dream.
 
-### The Hardships
+The Hardships
+-------------
 
 Through the glimmering, bubbling rivers in the instrumental "The Cascades" we realize we're listening to a traditional musical-style interlude to indicate time passing. It's been a considerable while since the son lost his fortune and left to create his own Innisfree. Through this and "Lorelai" there's still a soundscape of optimism and hopefulness, but particularly in "Lorelai" and "Someone You'd Admire" we begin to see that facade the son put on through the whole album begin to crumble. In "Lorelai" the son's lyrical speech begins to take up hints of cynicism towards the way his lover left him (He "was old news to you", just "old news"), while in "Someone You'd Admire" we see the son for the first time having difficulties actually following through on his vow to become an hard working, enlightened man in *Helplessness Blues*. We begin to realize that the part of him we have seen that just "wants only to be someone you'd admire" has been fighting a new dark side we are only just beginning to see that "would as soon just throw you on the fire".
 
 At this point, the train is at full steam towards a sharp turn and there's no going back. The listeners all know where this sad tale is going. The shimmering hopefulness and the last sliver of innocence displayed by the son through the album even in the mist of a spoiled past, revoked fortune, and lost love is about to fall apart. The son as we know him is going to vanish.
 
-### The Collapse
+The Collapse
+------------
 
 This is it, "The Shrine / An Argument", the two part movement that turns away almost everyone I've shared the record with as it did me in my initial listen. It's easy to be caught off guard by it if careful attention had not been paid to the underlying emotional narrative up to this point. Throughout the entire album &#8212; though it's been filled with melancholy and hardship &#8212; it's still remained lighthearted and *beautiful*. Then enters "The Shrine / An Argument" like a splash of icy cold water; suddenly we're met with an abrasive sonic tone sung to us by someone that is clearly not well and dangerous to himself and those around him. The idealistic son we've followed this entire time is crashing; he's stealing money from wishing fountains (it should be noted this could also be seen metaphorically as leaching off the dreams of still innocent children now that his own dream has died), harassing and stealing from his old lover, and other self destructive acts. He's spiraling out of control and things couldn't get any worse.
 
@@ -52,7 +56,8 @@ Everything stops.
 
 A bone chilling, eerie calm seeps into the song, making us even more fearful and uncomfortable than the earlier madness. It's quiet and soft but something's horribly, terribly wrong. The son calmly claims the "green apples hanging from my tree" belong "*only to me*". The dream he tried so hard to achieve to make his father proud, to rid himself of borrowers guilt, and most importantly to win back his lost lover is revoked. It was and is all only for him now, nobody else matters. With this selfish regression complete (and now without innocence to use as a crutch), he lays down on the beach as the tide comes in and attempts drowning himself as the ear splitting saxophone solo you've heard so much about begins. Everything's come to this, ambivalent suicide and the most ugly, vial, heinous sounds you could ever possibly imagine. You may not even notice the instruments fading out one by one until you're left with a sole violin crying out it's final note.
 
-### The Aftermath
+The Aftermath
+-------------
 
 What's this? Just a guitar and a sole vocalist wondering why the stars are in the sky? What the hell happened!? You can't just switch back to music like this after what we have just been through and heard! *What the hell happened*?
 
@@ -64,7 +69,8 @@ To top it all off he realizes now he can never return to Innisfree again. He's l
 
 What now?
 
-### Grown Ocean
+Grown Ocean
+-----------
 
 Unbridled musical bliss bursts forth throwing us off our feet. After such a quiet, subdued song (especially in he face of the lush precedent set by all the previous songs on the album) "Grown Ocean" thunders in like a trumpeting, glorious wake up call to the soul. At once all the worries we held from the previous couple songs melt away. It's remarkable, we don't even need to hear what the son has to say in the album's final song to know what he feels, the sheer happiness is literally bursting at the seams through the music, as if it's barely able to contain it. Clearly the son has discovered a new purpose in life, but what could it be?
 

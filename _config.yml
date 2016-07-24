@@ -8,7 +8,7 @@ host: localhost
 
 permalink: /post/:title # Permalink posts sorted by date with directories is awful.
 paginate_path: "/page/:num" # Home older/previous pages go here
-paginate: 5 # Number of posts to be shown on each each paginated page.
+paginate: 6 # Number of posts to be shown on each each paginated page.
 
 markdown: kramdown
 highlighter: rouge

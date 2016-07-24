@@ -54,10 +54,10 @@
 }
 
 #contact-form #submit-button {
-    width: 100px;
+    /*width: 100px;*/
     border: none;
     display: block;
-    float: right;
+    /*float: right;*/
     margin-bottom: 0px;
     background-color: #848484;
     color: #F8F7F5;
@@ -65,7 +65,7 @@
     -webkit-transition: background-color 0.25s ease;
     transition: background-color 0.25s ease;
 
-    margin-right:-10px;
+    /*margin-right:-10px;*/
 
     /* css 3 */
     border-radius: 4px;

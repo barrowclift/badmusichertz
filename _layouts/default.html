@@ -22,18 +22,20 @@
 			{% if page.viewing-single-page and page.use-blurred-background %}
 			<style>
 				article header {
-					background-image: url('/images/album-art/{{ page.album-name }}/blur.jpg');
+					background-image: url('/images/album-art/{{ page.album-name }}/dark-blur.jpg');
+					background-size:cover;
+					background-position:bottom;
 					width: 100vw;
-					margin-top: -4px;
-					padding-bottom: 13px;
 					display: inline-block;
 					margin-left: -30vw;
 					margin-right: -30vw;
+					color:{{ page.primary-color }};
 				}
 				time {
     				font-weight: 600;
+    				color:{{ page.secondary-color }};
 				}
-				@media (min-width: 43.75rem) {
+				@media (min-width: 900px) {
 					#content {
 						background-image: url('/images/album-art/{{ page.album-name }}/blur.jpg');
 					}
@@ -43,14 +45,27 @@
 						background-image: none;
 						margin-left: 0vw;
 						margin-right: 0vw;
+
+						/*display: inline-block;
+						height: auto;
+						width: 100vw;
+						max-width: 1600px;
+						max-height: none;
+						margin-left: -20vw;
+						margin-right: -20vw;
+						max-width:795px;*/
 					}
-					time {
+					main {
+					    max-width:700px;
+					    margin: 0 auto;
+					}
+					/*time {
 						font-weight: 500;
-					}
+					}*/
 				}
 			</style>
 			{% endif %}
-			<div id="content" class="center {% if page.viewing-single-page != true %}reserved-mode{% endif %} {% if page.fat %}fat-page{% endif %} {% if page.full-width %}full-width-page{% endif %}">
+			<div id="content" class="center {% if page.viewing-single-page != true %}reserved-mode{% endif %} {% if page.fat %}wide-page{% endif %} {% if page.full-width %}full-width-page{% endif %}">
 				<main>
 
 					{{ content }}			
@@ -59,7 +74,26 @@
 			</div>
 		</div>
 
-		{% include footer.html %}
+		{% if paginator.next_page or paginator.previous_page %}
+		<div id="bottom-navigation">
+			<h4 id="navigation-previous">
+				<a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">
+					<img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+					{% if paginator.next_page %}
+					< Older
+					{% endif %}
+				</a>
+			</h4>
+			<h4 id="navigation-next">
+				<a href="{{ paginator.previous_page_path | replace: 'index.html', '/' | prepend: site.baseurl | replace: '//', '/' }}">
+					{% if paginator.previous_page %}
+					Newer >
+					{% endif %}
+					<img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+				</a>
+			</h4>
+		</div>
+		{% endif %}
 
 	</body>
 </html>

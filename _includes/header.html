@@ -1,16 +1,15 @@
 <menu>
 	<header id="website-title">
-		<h1>
-			<a href="{{ "/" | prepend: site.baseurl }}" id="title">
-				<div id="logo-container">
-					<img id="logo" src="{{ "/images/logo/logo.svg" | prepend: site.baseurl }}" alt="Bad Music Hertz logo">
-					<div id="album-color"></div>
-				</div>
-				<span class="hide-when-small">ad music hertz</span>
-			</a>
-		</h1>
+		<a href="{{ "/" | prepend: site.baseurl }}" id="title">
+			<div id="logo-container">
+				<img id="logo" src="{{ "/images/logo/logo.svg" | prepend: site.baseurl }}" alt="Bad Music Hertz logo">
+				<div id="album-color"></div>
+			</div>
+			<span class="hide-when-small">ad music hertz</span>
+		</a>
 	</header>
 	<ul>
+		<li class="hover"><a href="{{ "/archive/" | prepend: site.baseurl }}">Archive</a></li>
 		<li class="hover"><a href="{{ "/about/" | prepend: site.baseurl }}">About</a></li>
 		<li class="hover"><a href="{{ "/contact/" | prepend: site.baseurl }}">Contact</a></li>
 	</ul>

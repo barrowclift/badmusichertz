@@ -5,14 +5,30 @@ title: "Archive"
 ---
 
 <link rel="stylesheet" href="{{ site.baseurl }}/css/min/hint.min.css" type="text/css" />
-<h2 class="pad-bottom">{{ page.title }}</h2>
+<h1>{{ page.title }}</h1>
 
-<div class="pad-bottom">
+<div>
+	<p style="text-align:center">
 	{% for post in site.posts %}
-	<span class="hint--top hint--rounded hint--bounce" style="margin-right:-2px;margin-left:-2px;" data-hint="{{ post.title }}">
+	<span class="hint--top hint--rounded hint--bounce" data-hint="{{ post.title }}">
 		<a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
 			<img src="/images/album-art/{{ post.album-name }}/small.jpg" class="archive-album-art">
 		</a>
 	</span>
 	{% endfor %}
+	{% for post in site.posts %}
+	<span class="hint--top hint--rounded hint--bounce" data-hint="{{ post.title }}">
+		<a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
+			<img src="/images/album-art/{{ post.album-name }}/small.jpg" class="archive-album-art">
+		</a>
+	</span>
+	{% endfor %}
+	{% for post in site.posts %}
+	<span class="hint--top hint--rounded hint--bounce" data-hint="{{ post.title }}">
+		<a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
+			<img src="/images/album-art/{{ post.album-name }}/small.jpg" class="archive-album-art">
+		</a>
+	</span>
+	{% endfor %}
+</p>
 </div>

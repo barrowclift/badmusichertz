@@ -2,10 +2,14 @@
 layout: default
 anchors: false
 title: "Contact"
+viewing-single-page: true
 page-specific:
   - contact-form.min.css
 ---
-<form id="contact-form" class="normal-top-pad" action="//formspree.io/&#109;&#097;&#098;&#097;&#114;&#114;&#111;&#119;&#099;&#108;&#105;&#102;&#116;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;" method="POST">
+
+<h1>{{ page.title }}</h1>
+<p style="text-align:center">Want to get in touch? We'll be happy to hear from you.</p>
+<form id="contact-form" action="//formspree.io/&#109;&#097;&#098;&#097;&#114;&#114;&#111;&#119;&#099;&#108;&#105;&#102;&#116;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;" method="POST">
     <input type="hidden" name="_next" value="/contact/thank-you/" />
     <input type="email" name="_replyto" placeholder="Your email address" />
     <textarea rows="15" type="text" name="message" placeholder="Your message"></textarea>

@@ -2,46 +2,16 @@
 layout: default
 anchors: false
 ---
-{% assign count=0 %}
 {% for post in paginator.posts %}
-	{% if count > 0 %}
-	<hr />
-	{% endif %}
-
-	<article>
+	<a href="{{ post.url }}">
+	<div class="review" style="background-image: url('/images/album-art/{{ post.album-name }}/dark-blur.jpg');">
+		<img src="/images/album-art/{{ post.album-name }}/cover.jpg" class="inline" {% if post.album-art-hidden-text %}title="{{post.album-art-hidden-text}}"{% endif %} {% if post.title %}alt="{{ post.title }}'s album art"{% else %}alt="The album's cover"{% endif %} />
 		<header role="header">
-			<h2>
-				<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-			</h2>
-			<time itemprop="dateCreated">{{ post.date | date: "%A, %B %-d, %Y" }}<span class="hide-when-small"> by </span><span class="show-when-small"><br></span>{{ post.author }}</time>
+			<h1>
+				<span style="color:{{ post.primary-color }}" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</span>
+				<time style="color:{{ post.secondary-color }}" itemprop="dateCreated">Review by {{ post.author }}<br>{{ post.date | date: "%A, %B %-d, %Y" }}</time>
+			</h1>
 		</header>
-
-		<a href="{{ post.url }}" {% if post.album-art-hidden-text %}title="{{post.album-art-hidden-text}}"{% endif %}>
-			<img src="/images/album-art/{{ post.album-name }}/cover.jpg" class="inline" {% if post.title %}alt="{{ post.title }}'s album art"{% else %}alt="The album's cover"{% endif %} />
-		</a>
-
-		{{ post.content }}
-	</article>
-	{% assign count=count | plus:1 %}
-{% endfor %}
-
-<div class="pad-top">
-	<div id="bottom-navigation">
-		<div id="navigation-previous">
-			<a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">
-				<img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-				{% if paginator.next_page %}
-				&#8592; Older
-				{% endif %}
-			</a>
-		</div>
-		<div id="navigation-next">
-			<a href="{{ paginator.previous_page_path | replace: 'index.html', '/' | prepend: site.baseurl | replace: '//', '/' }}">
-				{% if paginator.previous_page %}
-				Newer &#8594;
-				{% endif %}
-				<img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-			</a>
-		</div>
 	</div>
-</div>
+	</a>
+{% endfor %}
