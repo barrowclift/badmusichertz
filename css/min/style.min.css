@@ -1,22 +1,25 @@
 /*
-CONTENT:
+TABLE OF CONTENTS:
     Font families ---
-    Font sizes & Kerning ---
+    Font sizes & kerning ---
     Page ---
     Navbar ---
-    Headers ---
-    Paragraph elements ---
-    Stream navigation ---
+    Logo ---
+    Writing layout ---
     Images & video ---
     Footnotes ---
     Dividers ---
+    Blog navigation ---
+    Actions Sheet ---
     Tables ---
-    Buttons ---
-    Positioning & showing ---
-    Title ---
+    Forms & Buttons ---
+    Positioning ---
     Page Footer ---
     Anchors ---
-    Default color scheme ---
+    Code ---
+
+Small devices (iPhones)
+Font size: 14px, ~Margin&Padding: 21px
 */
 
 /* FONTS FAMILIES ------------------------------------------------------------------- */
@@ -24,6 +27,12 @@ CONTENT:
 /* Font Families (input and textarea explicitly included to fix Windows issues) */
 html, input, textarea {
     font-family: "Avenir Next", "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
+    /* Font rendering in OS X Firefox is TERRIBLE. This makes the browser tolerable */
+    -moz-osx-font-smoothing: grayscale;
+    /* Default text rendering in WebKit is *way* too heavy, in my opinion. This thins
+       the text a bit and makes it more crisp and pleasing to read. */
+    -webkit-font-smoothing: antialiased;
 }
 h1, h2, h3, h4, h5, h6, time, #page-footer {
     font-family: "Adelle Sans", "Trebuchet MS", Helvetica, sans-serif;
@@ -35,14 +44,9 @@ h1, h2, h3, h4, h5, h6, time, #page-footer {
 html {
     font-size: 14px;
 }
-/*menu ul {
-    font-size: 1.2em;
-    line-height: 1.5rem;
-    margin: 0.75rem 0;
-}*/
 h1 {
-    font-size: 2.5em; /* 14px from <p> * 2.5 */
-    line-height: 3rem; /* 21px * 2 */
+    font-size: 2.5em; /* 14px font size from <p> * 2.5 */
+    line-height: 3rem; /* 21px line height * 2 */
     margin-top: 3rem; /* 21px * 2 */
     margin-bottom: 0px;
 }
@@ -251,7 +255,7 @@ time {
 
 .review {
 	padding-top:2.5rem;
-	padding-bottom:1.5rem;
+	padding-bottom:2rem;
 	background-position: center;
 	background-size:cover;
 	padding-left:5%;
@@ -295,6 +299,12 @@ h2 time {
 }
 .profile-column h2 {
 	margin-bottom:1rem;
+}
+.review header time {
+    margin-bottom:0;
+}
+.review header {
+    margin-bottom:0;
 }
 
 
@@ -888,7 +898,7 @@ Font size: 19px, ~Margin&Padding: 28.5px
 
     .review {
     	padding-top:2.5rem;
-    	padding-bottom:1.5rem;
+    	padding-bottom:2rem;
     	background-position: center;
     	background-size:cover;
     	padding-left:5%;
@@ -1229,7 +1239,13 @@ Font size: 21px, ~Margin&Padding: 31.5px
         max-width: 595px;
     }
     .album-art {
-        max-width: 795px;
+        max-width: 700px;
+        margin-top: 2rem;
+        border-radius: 4px;
+        margin-bottom: 2rem;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.18);
+        -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.18);
+        -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.18);
     }
     .avatar {
         width:200px;
@@ -1370,6 +1386,7 @@ Font size: 21px, ~Margin&Padding: 31.5px
             margin: 0.75rem auto;
             margin-left: 0.575rem;
             margin-right: 0.575rem;
+            padding-bottom: 2.25rem;
             display: inline-block;
             border-radius: 4px;
             max-width: 860px;

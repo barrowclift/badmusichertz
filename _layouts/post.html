@@ -1,10 +1,10 @@
 ---
 layout: default
 ---
+<a href="/images/album-art/{{ page.album-name }}/large.jpg" {% if page.album-art-hidden-text %}title="{{page.album-art-hidden-text}}"{% endif %}>
+	<img src="/images/album-art/{{ page.album-name }}/large.jpg" class="album-art" {% if page.title %}alt="{{ page.title }}'s album art"{% else %}alt="The album's cover"{% endif %} />
+</a>
 <article>
-	<a href="/images/album-art/{{ page.album-name }}/large.jpg" {% if page.album-art-hidden-text %}title="{{page.album-art-hidden-text}}"{% endif %}>
-		<img src="/images/album-art/{{ page.album-name }}/large.jpg" class="album-art" {% if page.title %}alt="{{ page.title }}'s album art"{% else %}alt="The album's cover"{% endif %} />
-	</a>
 	<header role="header">
 		<h1>
 			{{ page.title }}

@@ -1,7 +1,7 @@
 #contact-form {
     width: 100%;
     margin-left:-10px;
-    max-width: 600px;
+    max-width: 700px;
 
     position: relative;
     display: inline-block;
@@ -38,7 +38,7 @@
 }
 
 #contact-form textarea {
-    max-width: 600px;
+    max-width: 700px;
 
     /* css 3 */
     border-radius: 4px;
