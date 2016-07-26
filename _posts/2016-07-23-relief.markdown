@@ -4,6 +4,8 @@ layout: post
 use-blurred-background: True
 album-name: "relief"
 album-art-hidden-text: ""
+anchors: True
+
 primary-color: "#EBF5EA"
 secondary-color: "#FBF6CE"
 

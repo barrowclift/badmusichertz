@@ -3,12 +3,15 @@ layout: post
 
 use-blurred-background: False
 album-name: "broken-bride"
+anchors: True
+
 primary-color: "#FCFDFD"
 secondary-color: "#759D9A"
 
 title: "Broken Bride"
 author: "Michael Barrowclift"
 date: 2016-02-14 11:48:15
+anchors: True
 
 categories:
   - LUDO

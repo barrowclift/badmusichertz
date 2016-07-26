@@ -4,6 +4,8 @@ layout: post
 use-blurred-background: True
 album-name: "divers"
 album-art-hidden-text: "Another fantastic album cover, I find myself yearning to explore the foggy dream garden every time I look at it"
+anchors: True
+
 primary-color: "#BAE0D1"
 secondary-color: "#9DB396"
 

@@ -406,15 +406,15 @@ something to center. */
 .normal-top-pad {
     margin-top: 20px;
 }
-.pad-top {
+.margin-top {
     margin-top: 35px;
 }
-.pad-bottom {
+.margin-bottom {
     margin-bottom: 35px;
 }
 
 
-.hide-when-small {
+.hide-when-iphone {
     display: none;
     visibility: hidden;
 }
@@ -863,13 +863,13 @@ menu ul li ul {
     .normal-top-pad {
         margin-top: 26px;
     }
-    .pad-top {
+    .margin-top {
         margin-top: 45px;
     }
-    .pad-bottom {
+    .margin-bottom {
         margin-bottom: 45px;
     }
-    .hide-when-small {
+    .hide-when-iphone {
         display: inline;
         visibility: visible;
     }
@@ -1099,10 +1099,10 @@ menu ul li ul {
     .normal-top-pad {
         margin-top: 32px;
     }
-    .pad-top {
+    .margin-top {
         margin-top: 50px;
     }
-    .pad-bottom {
+    .margin-bottom {
         margin-bottom: 50px;
     }
 
