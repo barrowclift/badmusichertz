@@ -2,7 +2,7 @@
 layout: default
 ---
 <a href="/images/album-art/{{ page.album-name }}/large.jpg" {% if page.album-art-hidden-text %}title="{{page.album-art-hidden-text}}"{% endif %}>
-	<img src="/images/album-art/{{ page.album-name }}/large.jpg" class="album-art" {% if page.title %}alt="{{ page.title }}'s album art"{% else %}alt="The album's cover"{% endif %} />
+	<img src="/images/album-art/{{ page.album-name }}/post.jpg" class="album-art" {% if page.title %}alt="{{ page.title }}'s album art"{% else %}alt="The album's cover"{% endif %} />
 </a>
 <article>
 	<header style="background-image: url('/images/album-art/{{ page.album-name }}/dark-blur.jpg'); color:{{ page.primary-color }};" role="header">
