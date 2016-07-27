@@ -19,14 +19,10 @@
 	<link rel="manifest" href="{{ "/images/logo/manifest.json" | prepend: site.baseurl }}" />
 
 	<meta name="application-name" content="Bad Music Hertz" />
-	<meta name="msapplication-TileColor" content="#840000" />
+	<meta name="msapplication-TileColor" content="#F8F7F5" />
 	<meta name="msapplication-TileImage" content="{{ "/images/logo/mstile-144x144.png" | prepend: site.baseurl }}" />
 	<meta name="msapplication-config" content="{{ "/images/logo/browserconfig.xml" | prepend: site.baseurl }}" />
-	{% if page.theme-color %}
-	<meta name="theme-color" content="{{ page.theme-color }}" />
-	{% else %}
-	<meta name="theme-color" content="#840000" />
-	{% endif %}
+	<meta name="theme-color" content="#F8F7F5" />
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -47,7 +43,7 @@
 	<script>
 		$.bigfoot({
 			// Uncomment to hide inline footnotes from home view
-			// {% if page.viewing-single-page %}
+			// {% if page.article %}
 			// actionOriginalFN: "ignore",
 			// {% endif %}
 			actionOriginalFN: "ignore",
@@ -68,7 +64,7 @@
 	<link rel="next" href="{{ site.url }}/page/2/" />
 
 	<meta property="og:locale" content="en_US" />
-	<meta property="og:type" content="{% if page.viewing-single-page %}article{% else %}website{% endif %}" />
+	<meta property="og:type" content="{% if page.article %}article{% else %}website{% endif %}" />
 	<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{site.title}}{% endif %}" />
 	<meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
 	<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">

@@ -3,7 +3,6 @@ layout: post
 
 use-blurred-background: False
 album-name: "broken-bride"
-anchors: True
 
 primary-color: "#FCFDFD"
 secondary-color: "#759D9A"

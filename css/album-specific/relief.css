@@ -1,17 +1,17 @@
 /* PAGE CONTAINERS & WRITING ELEMENTS ----------------------------------------------------------- */
 #content {
-    background-color: #A1C0B8;
+	background-color: #5C8680;
 }
 
 /* HIGHLIGHT ----------------------------------------------------------- */
 /* Safari */
 ::selection {
-    background: #BAE0D1;
+    background: #A2BBA9;
     color: black;
 }
 /* Firefox */
 ::-moz-selection {
-    background: #BAE0D1;
+    background: #A2BBA9;
     color: black;
 }
 
@@ -20,21 +20,21 @@
 a, a:link, a:visited,
 menu ul li a:hover,
 #website-title a:hover {
-    color: #9DB396;
+    color: #798C7E;
 }
 a:hover {
-    color: #BAE0D1;
+    color: #A2BBA9;
 }
 
 #title #album-color,
 .bigfoot-footnote__button,
 .bigfoot-footnote__button:link,
 .bigfoot-footnote__button:visited {
-    background-color: #9DB396;
+    background-color: #798C7E;
 }
 .bigfoot-footnote__button:hover,
 .bigfoot-footnote__button:focus,
 .bigfoot-footnote__button:active,
 .bigfoot-footnote__button.is-active {
-    background-color: #BAE0D1;
+    background-color: #A2BBA9;
 }

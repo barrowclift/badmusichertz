@@ -1,22 +1,23 @@
 /*
-CONTENT:
+TABLE OF CONTENTS:
     Font families ---
-    Font sizes  ---
-    Root elements ---
+    Font sizes & kerning ---
+    Page ---
     Navbar ---
-    Headers ---
-    Paragraph elements ---
-    Stream navigation ---
+    Writing core ---
+    Article cards ---
     Images & video ---
     Footnotes ---
     Dividers ---
+    Blog navigation ---
     Tables ---
-    Buttons ---
-    Positioning & showing ---
-    Title ---
-    Page Footer ---
+    Forms & Buttons ---
+    Positioning & Showing ---
     Anchors ---
-    Default color scheme ---
+    Theme ---
+
+Small devices (iPhones)
+Font size: 14px, ~Margin&Padding: 21px
 */
 
 /* FONTS FAMILIES ------------------------------------------------------------------- */
@@ -24,405 +25,156 @@ CONTENT:
 /* Font Families (input and textarea explicitly included to fix Windows issues) */
 html, input, textarea {
     font-family: "Avenir Next", "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
+    /* Font rendering in OS X Firefox is TERRIBLE. This makes the browser tolerable */
+    -moz-osx-font-smoothing: grayscale;
+    /* Default text rendering in WebKit is *way* too heavy, in my opinion. This thins
+       the text a bit and makes it more crisp and pleasing to read. */
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
-    font-smoothing: antialiased;
 }
 h1, h2, h3, h4, h5, h6, time, #page-footer {
     font-family: "Adelle Sans", "Trebuchet MS", Helvetica, sans-serif;
 }
 
-/* FONT SIZES ------------------------------------------------------------------- */
+/* FONT SIZES & KERNING ------------------------------------------------------------------- */
 
-/* Weights, kerning, etc. */
+/* ----- SIZES ----- */
 html {
-    -webkit-font-smoothing: antialiased;
+    font-size: 14px;
 }
+h1 {
+    font-size: 2.5em; /* 14px font size from <p> * 2.5 */
+    line-height: 3rem; /* 21px line height * 2 */
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+    header h1 {
+        margin-top: 1rem;
+    }
+h2 {
+    font-size: 2em; /* 14px from <p> * 2 */
+    line-height: 2.625rem; /* 21px * 1.75 */
+    margin: 2.625rem 0; /* 21px * 1.75 */
+}
+h3 {
+    font-size: 1.5em; /* 14px from <p> * 1.5 */
+    line-height: 2.25rem; /* 21px * 1.5 */
+    margin: 2.25rem 0; /* 21px * 1.5 */
+}
+h4, menu ul {
+    font-size: 1.25em; /* 14px from <p> * 1.25 */
+    line-height: 1.875rem; /* 21px * 1.25 */
+    margin: 1.875rem 0; /* 21px * 1.25 */
+}
+h5 {
+    font-size: 1em; /* 14px from <p> */
+    line-height: 1.5rem; /* 21px */
+    margin: 1.5rem 0; /* 21px */
+}
+h6 {
+    font-size: 0.75em; /* 14px from <p> * 0.75 */
+    line-height: 1.125rem; /* 21px * 0.75 */
+    margin: 1.125rem 0; /* 21px * 0.75 */
+}
+p, blockquote, ol, ul, table, ol li, ul li {
+    line-height: 1.5rem;
+    margin: 1.5rem 0;
+}
+    ol, ul {
+        padding-left: 2.25rem; /* 21px * 1.5 */
+    }
+time {
+    font-size: 0.5em;
+    line-height: 2rem; /* 21px */
+    margin-top: 0.375rem; /* 21px * 0.25 */
+    margin-bottom: 0;
+}
+.footnotes ol li p,
+.footnotes ol,
+figcaption, pre > code, code,
+input, select, textarea, button {
+    font-size: 0.9em; /* 13px */
+    line-height: 1.25rem;
+    margin: 1.25rem 0;
+}
+    pre, pre > code {
+        line-height: 1.2rem; /* 21 * 0.875 */
+    }
+.bigfoot-footnote__content p {
+    line-height: 1.275rem; /* font-size: 85%, 0.85 * base line height 21px for iPhone */
+}
+small {
+    font-size: 0.75em;
+}
+
+
+/* ----- KERNING ----- */
 input, textarea {
     /* Better experience for user while entering text */
     letter-spacing: 1px !important;
 }
-menu ul {
-    letter-spacing: 0.1px;
-}
 figcaption {
     letter-spacing: 0.0625em;
 }
-h2, h3,
-table th, strong {
-    font-weight: bold;
-}
-blockquote, em {
-    font-style: italic;
-}
 
+/* PAGE ------------------------------------------------------------ */
 
-/* Sizes */
-h1 { /* Page Headers */
-    font-size: 45px;
-    line-height: 32px;
-}
-h2 { /* Post Titles */
-    font-size: 28px;
-    line-height: 24px;
-}
-h3, h4, h5, menu ul {
-    font-size: 19px;
-}
-    h3, menu ul {
-        line-height: 19px;
-    }
-    h4 {
-        line-height: 31px;
-    }
-    h5 {
-        line-height: 23px;
-    }
-time,
-p, blockquote, ol, ul,
-table, #page-footer-text span {
-    font-size: 14px;
-}
-    #archive-list {
-        line-height: 14px;
-    }
-    time,
-    p, blockquote, ol, ul,
-    table, #page-footer-text span {
-        line-height: 22px;
-    }
-.footnotes ol li p,
-.footnotes ol,
-figcaption,
-input, select, textarea, button {
-    font-size: 12px;
-}
-    .footnotes ol li p, /* The inline footnote text */
-    .footnotes ol { /* The number in the list */
-        line-height: 20px;
-    }
-    figcaption {
-        line-height: 23px;
-    }
-
-/* ROOT ELEMENTS ------------------------------------------------------------ */
-
-body, main {
-    text-align: center;
-}
+/* ----- STICKY NAVIGATION FOOTER ----- */
 html, body {
     height: 100%;
 }
-main, .standard-page-width, .profile-column {
-    max-width: 463px;
+#wrap {
+    min-height: 100%;
+}
+#content {
+    /* 
+    padding-bottom: 2.825rem;
+    overflow: auto;
+    */
+}
+main a:nth-child(2) .article-card {
+    /* padding-bottom: 1.675rem !important; */
+}
+/* Opera Fix */
+body:before {
+    content: "";
+    height: 100%;
+    float: left;
+    width: 0;
+    margin-top: -32767px;
+}
+
+
+/* ----- PAGE CONTAINERS ----- */
+article, .reading-width {
+    max-width: 500px;
+    margin: 0 auto;
+}
+article {
     padding-left: 5%;
     padding-right: 5%;
 }
-main, .standard-page-width, .profile-column {
+main {
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 0;
+
     /* IE 11 does not fully support main, ignores max-width otherwise */
     display: block;
     position: relative;
     width: auto;
-    margin: 0 auto;
 }
-main {
-    padding-bottom: 81px;
+.wide-page {
+    max-width: 1640px;
 }
-.full-width-page main {
-    max-width: 100%;
-}
-
-
-/* Preparing for blurred album art background in post view */
-#content {
-    background-size: cover;
-    background-position: center;
+.review-page main {
+    padding-bottom: 2.5rem;
 }
 
 /* NAVBAR ---------------------------------------------------------- */
 
-menu,
-menu ul,
-menu ul li {
-    display: inline-block;
-}
-menu {
-    text-align: left;
-    width: 100%;
-}
-    menu ul {
-        list-style-type: none;
-        text-align: right;
-        float: right;
-        margin-right: 0px;
-        margin-top: 15px;
-        padding-left: 0px;
-    }
-    menu ul li {
-        max-width: 143.5px;
-        margin-bottom: 0.25em;
-        margin-right: 5vw;
-    }
-
-/* HEADERS ------------------------------------------------------------------- */
-
-h1, h2, time {
-    text-align: center;
-}
-h3 {
-    text-align: left;
-}
-
-
-h1 {
-    margin-top: 5px;
-    margin-bottom: 8px;
-}
-h2 {
-    padding-top: 20px;
-}
-h3 { 
-    margin-top: 35px;
-    margin-bottom: 15px;
-}
-
-
-time {
-    display: block;
-    padding-top: 8px;
-}
-/* Only add the padding when on the home screen, otherwise the order of album
-art + article data flips and the padding isn't necessary. */
-.reserved-mode main article header time {
-    padding-bottom: 21px;
-}
-
-/* PARAGRAPH ELEMENTS ------------------------------------------------------- */
-
-p, ol, ul {
-    text-align: left;
-}
-
-
-p {
-    margin-top: 20px;
-}
-ol, ul {
-    margin-top: 20px;
-    padding-left: 30px;
-}
-ol {
-    list-style-type: decimal;
-}
-ul {
-    list-style-type: initial;
-}
-ol li, ul li {
-    margin-bottom: 12px;
-}
-ol li > :last-child, ul li > :last-child {
-    margin-bottom: 0px;
-}
-
-
-blockquote {
-    padding-left: 15px;
-}
-blockquote > :last-child {
-    margin-bottom: 0;
-}
-
-.profile-column {
-    display: inline-block;
-    vertical-align:top;
-}
-
-/* STREAM NAVIGATION -------------------------------------------------------- */
-
-#bottom-navigation {
-    padding-bottom: 51px;
-}
-#navigation-previous {
-    display: inline-block;
-    float: left;
-    text-align: left;
-}
-#navigation-next {
-    display: inline-block;
-    float: right;
-    text-align: right;
-}
-
-/* IMAGES & VIDEO ----------------------------------------------------------- */
-
-img {
-    max-width: 100%;
-    max-height: 100%;
-    width: auto\9;
-}
-article img {
-    display: block;
-    text-align: center;
-    margin: 0 auto;
-}
-
-
-figure {
-    padding-top: 14px;
-    padding-bottom: 14px;
-}
-figure p {
-    text-align: center;
-}
-figcaption {
-    display: block;
-    text-align: center;
-    width: auto;
-    margin: 0 auto;
-    padding-top: 0px;
-}
-
-
-/****** ALL IMAGES TYPES FOR USE IN BLOG ******/
-/* Normal, inline images extend to the exact width of the text, no more no less
-ever. This should be the default choice for post images. */
-.inline,
-/* Album art fuctions as inline images in almost all ways exact they spill
-beyond the text widths in post view to match the width of text AND it's
-padding. */
-.album-art {
-    display: inline-block;
-    height: auto;
-    width: 100vw;
-    max-width: 1600px;
-    max-height: none;
-    margin-left: -20vw;
-    margin-right: -20vw;
-}
-
-
-.archive-album-art {
-    width: 30vw;
-    margin-bottom:-5px;
-    margin-right:-5px;
-}
-
-
-.avatar {
-    border-radius: 50%;
-    width: 125px;
-}
-
-
-video {
-    top: 0;
-    left: 0;
-    max-width: 100%;
-    width: 100%;
-    height: auto;
-}
-
-/* FOOTNOTES ---------------------------------------------------------------- */
-
-.footnotes ol {
-    margin-left: 16px;
-    padding-left: 0px;
-}
-.footnotes ol li {
-    margin-bottom: 20px;
-}
-.footnotes ol > :last-child {
-    margin-bottom: 0px;
-}
-.footnote-processed p,
-.footnotes ol {
-    margin-top: 0px;
-    padding-top: 0px;
-}
-.footnotes ol li:last-child {
-    margin-bottom: 0 !important;
-}
-
-/* DIVIDERS ----------------------------------------------------------------- */
-
-hr, article hr, footer hr {
-    clear: both;
-    border: none;
-}
-hr {
-    margin-top: 50px;
-    margin-bottom: 30px;
-    display: inline-block;
-    height: auto;
-    width: 100vw;
-    max-width: 1600px;
-    max-height: none;
-    margin-left: -30vw;
-    margin-right: -30vw;
-}
-article hr, footer hr {
-    margin-top: 35px;
-    margin-bottom: 35px;
-    width: 70%;
-}
-
-/* TABLES ------------------------------------------------------------------- */
-
-table {
-    width: 100%;
-    margin-top: 20px;
-    margin-bottom: 24px;
-    word-break: normal;
-    word-break: keep-all;
-}
-hr:before, hr:after {
-    display: table;
-    content: "";
-}
-hr:after {
-    clear: both;
-}
-
-/* BUTTONS ------------------------------------------------------------------ */
-
-button {
-    height: 25px;
-}
-
-/* POSITIONING & SHOWING -------------------------------------------------------------- */
-
-/* NOT ideal, but makes the non-blog page markup slightly nicer to handle, and
-there are times we need to fiddle with the margin and width to truely get
-something to center. */
-.center {
-    text-align: center;
-    width: auto;
-    margin: 0 auto;
-}
-
-
-/* Relic from barrowclift.me release 3.0. Again, NOT ideal and needs to be
- fixed/removed as much as possible in future refactors.*/
-.normal-top-pad {
-    margin-top: 20px;
-}
-.margin-top {
-    margin-top: 35px;
-}
-.margin-bottom {
-    margin-bottom: 35px;
-}
-
-
-.hide-when-iphone {
-    display: none;
-    visibility: hidden;
-}
-.show-when-small {
-    display: inline;
-}
-
-/* TITLE ----------------------------------------------------------- */
+/* ----- LOGO ----- */
 
 /* Website "Record Player" Logo */
 #logo, #logo-container {
@@ -443,7 +195,7 @@ something to center. */
     width: 11px;
     height: 11px;
     left: 11px;
-    top: -22px;
+    top: -24px;
     z-index: -1;
     opacity: 0;
     -webkit-transition: opacity .2s linear;
@@ -452,86 +204,434 @@ something to center. */
 #title:hover #album-color {
     opacity: 1;
 }
-#title:hover {
-    color: #333333;
-}
-
 
 /* We want the "ad music hertz" to disappear on small devices and pad a bit to
 compensate */
 #website-title {
     padding-left: 5%;
+    margin-top: 0.65rem;
+    margin-bottom: 0.65rem;
     display: inline-block;
 }
 
-/* PAGE FOOTER ------------------------------------------------------------ */
+/* ----- MENU ----- */
 
-/* The root containers for all non-bottom banner site elements */
-#wrap {
-    min-height: 100%;
+menu {
+    text-align: left;
+    width: 100%;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 200;
 }
-#page-footer {
-    position: relative;
-    height: 48px;
-    margin-top: -48px; /* Negative value of footer height */
-    clear: both;
+menu ul {
+    list-style-type: none;
+    text-align: right;
+    float: right;
+    margin-top: 0;
+    padding-left: 0;
+    margin-right: 5%;
+    margin-bottom: 0;
+    visibility: visible;
+    display: inline-block;
 }
-/* Immediate child element of wrap. Since it rests inside wrap the padding
-height is part of the 100%, thus forcing the bottom banner to rest at the
-bottom of the page. */
-.reserved-mode main {
-    padding-bottom: 48px;
+menu ul li {
+    margin-bottom: 0;
+    margin-left: 5vw;
+    text-align:center;
+    margin-top: 1.25rem;
+    display: inline-block;
+    font-weight: bold;
 }
-#page-footer-text {
-    height: auto;
+menu header a {
+    -webkit-transition: color .2s linear;
+    transition: color .2s linear;
+}
+#content {
+    /* Pushing all content below floating navbar */
+    padding-top: 3.75rem;
+}
+
+/* WRITING CORE ------------------------------------------------------------------- */
+
+article header {
+    /* Nudging the header up a bit to remove any gaps between the album art and the
+    header while on iPhones only when viewing an article */
+    margin-top: -4px;
+    background-size:cover;
+    background-position:bottom;
+    width: 100vw;
+    display: inline-block;
+    margin-left: -30vw;
+    margin-right: -30vw;
+}
+h1, time {
     text-align: center;
 }
-/* Opera Fix */
-body:before {
-    content: "";
-    height: 100%;
+h1 {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+h2, h3, h4, h5, h6,
+p, ol, ul {
+    text-align: left;
+}
+time {
+    display: block;
+}
+h1, h2, h3,
+table th, strong {
+    font-weight: bold;
+}
+blockquote, em {
+    font-style: italic;
+}
+
+ol {
+    list-style-type: decimal;
+}
+ul {
+    list-style-type: initial;
+}
+
+a {
+    -webkit-transition: color .2s linear;
+    transition: color .2s linear;
+}
+
+blockquote {
+    padding-left: 1rem;
+}
+blockquote > :last-child {
+    margin-bottom: 0;
+}
+
+/* ARTICLE CARDS ------------------------------------------------------------------- */
+
+.article-card {
+    padding-top: 2.5rem;
+    padding-bottom: 1rem;
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.article-card img {
+    width: 90%;
+    border-radius: 4px;
+}
+.article-card h1 {
+    margin-top: 1rem;
+}
+
+/* IMAGES & VIDEO ----------------------------------------------------------- */
+
+#content {
+    /* The blurred album art background in post view */
+    background-size: cover;
+    background-position: center;
+}
+
+figure p {
+    text-align: center;
+}
+figcaption {
+    padding: 0 5%;
+    margin-top: -0.75rem;
+    margin-bottom: 1.5rem;
+    font-style: italic;
+}
+
+video {
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+/****** ALL IMAGES TYPES FOR USE IN BLOG ******/
+/* Normal, inline images extend to the exact width of the text, no more no less
+ever. This should be the default choice for post images. */
+.inline,
+/* Album art fuctions as inline images in almost all ways exact they spill
+beyond the text widths in post view to match the width of text AND it's
+padding. */
+.album-art {
+    display: inline-block;
+    height: auto;
+    width: 100vw;
+    max-width: 1600px;
+    max-height: none;
+    margin-left: -20vw;
+    margin-right: -20vw;
+}
+
+.archive-album-art {
+    width: 30vw;
+    margin:0.15rem;
+    border-radius:4px;
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 125px;
+}
+
+/* FOOTNOTES ---------------------------------------------------------------- */
+
+.footnotes ol {
+    margin-left: 16px;
+    padding-left: 0px;
+}
+.footnote-processed p {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.bigfoot-footnote__button.is-active {
+    -webkit-transition-delay: 0.1s;
+    transition-delay: 0.1s;
+}
+
+/* DIVIDERS ----------------------------------------------------------------- */
+
+hr, article hr, footer hr {
+    clear: both;
+    border: none;
+}
+hr {
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    height: 2px;
+    display: inline-block;
+    height: auto;
+    width: 100vw;
+    max-width: 1600px;
+    max-height: none;
+    margin-left: -30vw;
+    margin-right: -30vw;
+}
+article hr, footer hr {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    height: 1px;
+    width: 70%;
+}
+
+/* BLOG NAVIGATION -------------------------------------------------------- */
+
+#navigation-previous {
+    display: inline-block;
     float: left;
-    width: 0;
-    margin-top: -32767px;
+    text-align: left;
+    margin-left:5%;
+}
+#navigation-next {
+    display: inline-block;
+    float: right;
+    text-align: right;
+    margin-right: 5%;
+}
+#bottom-navigation h4 {
+    margin-top: 0.5rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+#bottom-navigation {
+    position: relative;
+    bottom: 0;
+    margin-top: -2.825rem;
+    height: 2.825rem;
+    clear: both;
+    z-index: 9999;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+/* TABLES ------------------------------------------------------------------- */
+
+table {
+    width: 100%;
+    word-break: normal;
+    word-break: keep-all;
+    border-collapse: collapse;
+    overflow-x: auto;
+}
+hr:before, hr:after {
+    display: table;
+    content: "";
+}
+hr:after {
+    clear: both;
+}
+td {
+    border-width: 1px;
+    border-right: none;
+    border-left: none;
+}
+th, td {
+    padding: 0 1rem;
+}
+th:first-child {
+    border-top-left-radius: 4px;
+}
+th:last-child {
+    border-top-right-radius: 4px;
+}
+
+/* FORMS & BUTTONS ------------------------------------------------------------------ */
+
+form {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: -1rem;
+}
+form, input, button, textarea {
+    display: inline-block;
+    width: 100%;
+}
+input, button, textarea {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 0.75rem;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+input, textarea {
+    padding: 0.5rem;
+}
+button {
+    height: 22px;
+    border: none;
+    padding-left: 0.55rem;
+    padding-right: 0.55rem;
+    font-weight: bold;
+    -webkit-transition: background-color 0.25s ease;
+    transition: background-color 0.25s ease;
+}
+input:focus, textarea:focus {
+    outline: 0;
+}
+
+/* POSITIONING & SHOWING -------------------------------------------------------------- */
+
+.center {
+    text-align: center;
+    width: auto;
+    margin: 0 auto;
+}
+
+.hide-when-iphone,
+.show-when-imac {
+    display: none;
+    visibility: hidden;
+}
+.hide-when-imac {
+    display: inline;
+}
+
+.two-column {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 2rem;
+    max-width: 500px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.two-column h2 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
 }
 
 /* ANCHORS ----------------------------------------------------------- */
 
 .anchor {
-    color: currentcolor;
     text-decoration: none;
+    font-weight: bold;
     padding: 0 .34em;
     opacity: 0;
-    transition: opacity .2s ease-in-out;
     float: none;
     margin-left: 0em;
+}
+a.anchor {
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
 }
 .anchored:hover .anchor,
 .anchored .anchor:hover {
     opacity: 1;
 }
 
-/* DEFAULT COLOR THEME ----------------------------------------------------------- */
+/* THEME ----------------------------------------------------------- */
 
-html {
+html, main {
     background-color: #F8F7F5;
+    color: #333333;
 }
-h4, time,
-figcaption, .weak {
+time, figcaption, .weak {
     color: #848484;
 }
 
+/* iOS Translucency */
+menu, #bottom-navigation {
+    background-color: RGBA(248, 247, 245, 0.9);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+}
 
-/* The logo's "record label" color */
+/* Standard drop shadows */
+menu, #bottom-navigation, .archive-album-art, .avatar {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12), 0 2px 10px 0 rgba(0, 0, 0, 0.10);
+    -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12), 0 2px 10px 0 rgba(0, 0, 0, 0.10);
+    -moz-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12), 0 2px 10px 0 rgba(0, 0, 0, 0.10);
+}
+
+/* Post header drop shadow */
+article header {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12), 0 2px 10px 0 rgba(0, 0, 0, 0.10), inset 0px 0px 20px RGBA(51, 51, 51, 0.5);
+    -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12), 0 2px 10px 0 rgba(0, 0, 0, 0.10), inset 0px 0px 20px RGBA(51, 51, 51, 0.5);
+    -moz-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12), 0 2px 10px 0 rgba(0, 0, 0, 0.10), inset 0px 0px 20px RGBA(51, 51, 51, 0.5);
+}
+
+/* Logo */
+#title:hover {
+    color: #333333;
+}
 #title #album-color {
+    /* The logo's "record label" color */
     background-color: #840000;
 }
 
+.archive-album-art:hover {
+    -webkit-box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.20), 0 4px 12px 0 rgba(0, 0, 0, 0.28);
+    -moz-box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.20), 0 4px 12px 0 rgba(0, 0, 0, 0.28);
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.20), 0 4px 12px 0 rgba(0, 0, 0, 0.28);
+
+    -webkit-transition: -webkit-box-shadow 0.25s ease 0s; 
+    -moz-transition: -moz-box-shadow 0.25s ease 0s; 
+    -o-transition: -o-box-shadow 0.25s ease 0s; 
+    transition: box-shadow 0.25s ease 0s;
+}
+
+.article-card {
+    box-shadow: inset 0px 0px 20px RGBA(51, 51, 51, 0.5);
+}
+.article-card img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.18);
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.18);
+    -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.18);
+
+    -webkit-transition: -webkit-box-shadow 0.25s ease 0s; 
+    -moz-transition: -moz-box-shadow 0.25s ease 0s; 
+    -o-transition: -o-box-shadow 0.25s ease 0s; 
+    transition: box-shadow 0.25s ease 0s;
+}
 
 /* Dividers */
 hr {
     background-color: #848484;
-    height: 2px;
     background: #848484; /* Old browsers */
     background: -moz-linear-gradient(left,  #F8F7F5 0%, #848484 25%, #848484 50%, #848484 75%, #F8F7F5 100%); /* FF3.6+ */
     background: -webkit-gradient(linear, left top, right top, color-stop(0%,#F8F7F5), color-stop(25%,#848484), color-stop(50%,#848484), color-stop(75%,#848484), color-stop(100%,#F8F7F5)); /* Chrome,Safari4+ */
@@ -543,7 +643,6 @@ hr {
 }
 article hr, footer hr {
     background-color: #D6D6D6;
-    height: 1px;
     background: #D6D6D6; /* Old browsers */
     background: -moz-linear-gradient(left,  #F8F7F5 0%, #D6D6D6 25%, #D6D6D6 50%, #D6D6D6 75%, #F8F7F5 100%); /* FF3.6+ */
     background: -webkit-gradient(linear, left top, right top, color-stop(0%,#F8F7F5), color-stop(25%,#D6D6D6), color-stop(50%,#D6D6D6), color-stop(75%,#D6D6D6), color-stop(100%,#F8F7F5)); /* Chrome,Safari4+ */
@@ -553,104 +652,121 @@ article hr, footer hr {
     background: linear-gradient(to right,  #F8F7F5 0%,#D6D6D6 25%,#D6D6D6 50%,#D6D6D6 75%,#F8F7F5 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F8F7F5', endColorstr='#F8F7F5',GradientType=1 ); /* IE6-9 */
 }
+
+/* Highlight Color */
+::selection { /* Safari Highlight Color */
+    background: #840000;
+    color: #F8F7F5;
+}
+::-moz-selection { /* Firefox Highlight Color*/
+    background: #840000;
+    color: #F8F7F5;
+}
+
+input, textarea {
+    border: 1px solid #D6D6D6;
+}
+input:focus, textarea:focus {
+    border-color: #D6D6D6;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(214,214,214,0.7);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(214,214,214,0.7);
+}
+input, textarea, button {
+    /* css 3 */
+    border-radius: 4px;
+    /* mozilla */
+    -moz-border-radius: 4px;
+    /* webkit */
+    -webkit-border-radius: 4px;
+}
+button {
+    background-color: #848484;
+    color: #F8F7F5;
+}
+button:hover {
+    background-color: #840000;
+}
+
+/* Links */
+/* Standard Links */
+a, a:link, a:visited {
+    color: #840000;
+}
+a:hover {
+    color: #CF0000;
+}
+
+article a {
+    font-weight: 600;
+}
+
+menu ul li a,
+menu ul li a:link,
+menu ul li a:visited,
+#website-title a:link,
+#website-title a:visited,
+#website-title a {
+    color: #333333;
+}
+menu ul li a:hover,
+#website-title a:hover {
+    color: #840000;
+}
+
+time a, time a:link, time a:visited {
+    color: #840000;
+    font-weight: bold;
+}
+time a:hover {
+    color: #CF0000;
+    -webkit-transition: color .2s linear;
+    transition: color .2s linear;
+}
+
+/* Footer Links */
+#bottom-navigation h4 a {
+    font-weight: bold;
+    color: #333333;
+}
+#bottom-navigation h4 a:hover {
+    color: #840000;
+}
+
+table th {
+    background-color: #E5E5E5;
+    color: #666666;
+}
+td {
+    border: solid #E5E5E5;
+}
+
 blockquote {
     border-left: 2px solid #D6D6D6;
     color: #848484;
     -webkit-border-image: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #F8F7F5), color-stop(0.5, #D6D6D6), color-stop(0.5, #D6D6D6), color-stop(1, #F8F7F5)) 0 100%;
 }
 
-
-/* Highlight Color */
-/* Safari Highlight Color */
-::selection {
-    background: #840000;
-    color: #F8F7F5;
-}
-/* Firefox Highlight Color*/
-::-moz-selection {
-    background: #840000;
-    color: #F8F7F5;
-}
-
-
-/* Links */
-/* Standard Links */
-a {
-    color: #840000;
-    font-weight: bold;
-    -webkit-transition: color .2s linear;
-    transition: color .2s linear;
-}
-/* Unvisited link */
-a:link, a:visited {
-    color: #840000;
-}
-a:hover {
-    color: #CF0000;
-    -webkit-transition: color .2s linear;
-    transition: color .2s linear;
-}
-article a {
-    font-weight: 600;
-}
-/* Header Links */
-h2 a, h1 a, menu ul li a {
-    color: #333333;
-    font-weight: bold;
-    -webkit-transition: color .2s ease;
-    transition: color .2s ease;
-}
-h2, h2 a:link, h1 a:link, menu ul li a:link {
-    color: #333333;
-}
-h2 a:visited, h1 a:visited, menu ul li a:visited {
-    color: #333333;
-}
-h2 a:hover, h1 a:hover, menu ul li a:hover {
-    color: #840000;
-    -webkit-transition: color .2s ease;
-    transition: color .2s ease;
-}
-/* Navbar Links */
-menu ul li ul li:focus,
-menu ul li ul li a,
-menu ul li ul {
-    color: #333333;
-}
-/* Footer Links */
-#page-footer-text span a,
-#bottom-navigation div a {
-    color: #333333;
-}
-#page-footer-text span a:hover,
-#bottom-navigation div a:hover {
-    color: #840000;
-}
-
-
 /* Footnotes */
-.bigfoot-footnote__content,
-.bigfoot-footnote__tooltip {
-    background: #FDFCFA;
-}
 .bigfoot-footnote__button,
 .bigfoot-footnote__button:link,
 .bigfoot-footnote__button:visited {
     background-color: #840000;
+}
+.bigfoot-footnote__content,
+.bigfoot-footnote__tooltip {
+    background: #FDFCFA;
 }
 .bigfoot-footnote__button:hover,
 .bigfoot-footnote__button:focus,
 .bigfoot-footnote__button:active,
 .bigfoot-footnote__button.is-active {
     background-color: #CF0000;
+    -webkit-transition-delay: 0.1s;
+    transition-delay: 0.1s;
 }
 .bigfoot-footnote__button:hover,
 .bigfoot-footnote__button:focus {
     outline: none;
-}
-.bigfoot-footnote__button.is-active {
-    -webkit-transition-delay: 0.1s;
-    transition-delay: 0.1s;
 }
 
 
@@ -659,163 +775,111 @@ menu ul li ul {
 
 
 
-/* Small devices (iPads) */
-@media (min-width: 43.75rem) {
-    /* ----- FONT SIZES ----- */
+/* Tiny devices (width smaller than 320px, the original iPhone screen) */
+@media(max-width: 305px) {
+    /* ----- NAVBAR ----- */
     menu ul {
-        letter-spacing: 0px;
+        visibility: hidden;
+        display: none;
     }
-    h1 {
-        font-size: 75px;
-        line-height: 40px;
+    #logo-container {
+        margin-right: 0;
     }
-    h2 {
-        font-size: 30px;
-        line-height: 30px;
+    #content {
+        padding-top: 53px;
     }
-    h3, h5, h4, menu ul,
-    #bottom-navigation {
-        font-size: 24px;
+    #website-title {
+        text-align: center;
+        display: block;
+        padding-left:0;
+        padding-right:0;
     }
-        menu ul {
-            line-height: 22px;
-        }
-        h3 {
-            line-height: 24px;
-        }
-        h5 {
-            line-height: 28px;
-        }
-        h4, #bottom-navigation {
-            line-height: 32px;
-        }
-    time,
-    p, blockquote, ol, ul,
-    table, #page-footer-text span, .bigfoot-footnote__button {
-        font-size: 16px;
-    }
-        #page-footer-text span {
-            line-height: 16px;
-        }
-        #archive-list {
-            line-height: 20px;
-        }
-        time,
-        p, blockquote, ol, ul,
-        table {
-            line-height: 25px;
-        }
-    .footnotes ol li p,
-    .footnotes ol,
-    figcaption,
-    input, select, textarea, button {
-        font-size: 14px;
-    }
-        .footnotes ol li p,
-        .footnotes ol {
-            line-height: 23px;
-        }
-        figcaption {
-            line-height: 26px;
-        }
+}
 
+/* 
+Medium devices (iPads)
+Font size: 19px, ~Margin&Padding: 28.5px
+*/
+@media (min-width: 700px) {
+    /* ----- FONT SIZES & KERNING ----- */
+    /* Sizes */
+    html {
+        font-size: 19px;
+    }
 
-    /* ----- ROOT ELEMENTS ----- */
-    main, .standard-page-width {
-        padding-left: 2.5em;
-        padding-right: 2.5em;
-        max-width: 529px;
+    
+    /* ----- PAGE ----- */
+    /* Page Containers */
+    article, .reading-width {
+        max-width: 650px;
     }
-    main {
-        padding-bottom: 75px;
+    article {
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
     }
-    .fat-page main {
-        max-width: 648px;
+    .full-page main article {
+        max-width: none;
     }
 
 
     /* ----- NAVBAR ----- */
-    menu {
-        text-align: center;
-        height: 110px;
-        padding-top: 10px;
+    /* Logo */
+    #logo, #logo-container {
+        width: 32px;
+        height: 32px;
     }
+    #logo-container {
+        margin-right: -0.14rem;
+        padding-top: 0px;
+    }
+    #title #album-color {
+        width: 15px;
+        height: 15px;
+        left: 8px;
+        top: -26px;
+    }
+    #website-title {
+        margin-left: 2vw;
+        padding-left: 0;
+        margin-top: 0.75rem;
+        margin-bottom: 0.5rem;
+        float: left;
+    }
+    #website-title a span {
+        font-weight: bold;
+        font-size: 2rem;
+    }
+
+    /* Menu */
     menu ul {
-        text-align: left;
-        float: none;
-        padding-left: 3.5vw;
+        margin-right: 2vw;
     }
     menu ul li {
-        display: block;
-        margin-right: 0px;
+        margin-right: 0;
+        margin-top: 1.35rem;
     }
 
 
-    /* ----- HEADERS ----- */
-    h1 {
-        margin-top: 22px;
-        margin-bottom: 17px;
-    }
-    h2 {
-        padding-top: 26px;
-    }
-    h3 {
-        margin-top: 45px;
-        margin-bottom: 25px;
-    }
-    time {
-        padding-top: 8px;
-    }
-    .reserved-mode main article header time {
-        padding-bottom: 29px;
+    /* ----- WRITING CORE ----- */
+    article header {
+        margin-top: -5px;
     }
 
 
-    /* ----- PARAGRAPH ELEMENTS ----- */
-    p, ol, ul {
-        margin-top: 26px;
-    }
-    ol, ul {
-        padding-left: 40px;
-    }
-    ol li, ul li {
-        margin-bottom: 20px;
-    }
-    #archive-list {
-        margin-top: 18px;
-    }
-    .profile-column {
-        width: 39vw;
-        max-width: 555px;
-        padding-left:0;
-        padding-right:0;
-    }
-    .profile-column.left {
-        margin-left: 35px;
-    }
-    .profile-column.right {
-        margin-right: 35px;
-    }
-
-
-    /* ----- STREAM NAVIGATION ----- */
-    #bottom-navigation {
-        padding-bottom: 82px;
+    /* ----- ARTICLE CARDS ----- */
+    .article-card img {
+        width: 50%;
     }
 
 
     /* ----- IMAGES & VIDEO ----- */
-    figcaption {
-        padding-top: 8px;
-    }
     .inline {
-        max-width: 529px;
-    }
-    .album-art {
-        max-width: 609px;
+        max-width: 650px;
+        margin-left: 0;
+        margin-right: 0;
     }
     .avatar {
-        width:170px;
+        width: 170px;
     }
     .archive-album-art {
         width: 158px;
@@ -826,228 +890,191 @@ menu ul li ul {
     .footnotes ol {
         margin-left: 18px;
     }
-    .footnotes ol li {
-        margin-bottom: 26px;
+
+
+    #content {
+        padding-top: 3.25rem;
     }
 
 
     /* ----- DIVIDERS ----- */
     hr {
-        margin-top: 75px;
-        margin-bottom: 49px;
         max-width: 840px;
         width: 93vw;
         margin-left: -28vw;
         margin-right: -28vw;
     }
     article hr, footer hr {
-        margin-top: 45px;
-        margin-bottom: 45px;
-        max-width: 529px;
+        max-width: 650px;
     }
+
+
+    /* ----- BLOG NAVIGATION ----- */
 
 
     /* ----- TABLES ----- */
-    table {
-        margin-bottom: 32px;
-    }
 
 
-    /* ----- BUTTONS ----- */
+    /* ----- FORMS & BUTTONS ----- */
     button {
-        height: 27px;
+        height: 28px;
     }
 
 
     /* ----- POSITIONING & SHOWING ----- */
-    .normal-top-pad {
-        margin-top: 26px;
-    }
-    .margin-top {
-        margin-top: 45px;
-    }
-    .margin-bottom {
-        margin-bottom: 45px;
-    }
     .hide-when-iphone {
         display: inline;
         visibility: visible;
     }
-    .show-when-small {
-        display: none;
-    }
-
-
-    /* ----- TITLE ----- */
-    #logo, #logo-container {
-        width: 55px;
-        height: 55px;
-    }
-    #logo-container {
-        margin-right: -11px;
-        padding-top: 0px;
-    }
-    #title #album-color {
-        width: 20px;
-        height: 20px;
-        left: 19px;
-        top: -36px;
-    }
-    #website-title {
+    .two-column {
+        width: 43vw;
+        max-width: 390px;
         padding-left: 0;
+        padding-right: 0;
     }
-
-
-    /* ----- PAGE FOOTER ----- */
-    #page-footer {
-        height: 28px;
-        margin-top: -28px;
+    .two-column.left {
+        margin-left: 1rem;
     }
-    .reserved-mode main {
-        padding-bottom: 28px;
-        padding-left: 35px;
-        padding-right: 35px;
+    .two-column.right {
+        margin-right: 1rem;
     }
 
 
     /* ----- ANCHORS ----- */
     .anchor {
         float: left;
-        margin-left: -1.3em;
+        margin-left: -1.2em;
+        padding-right: 0;
     }
+
+
+    /* ----- THEME ----- */
+
+
 }
 
-/* Large devices (Macs) */
-@media (min-width: 56.25em) {
-    /* ----- FONT SIZES ----- */
-    h1 {
-        font-size: 91px;
-        line-height: 60px;
+/* 
+Large devices (Macs)
+Font size: 19px (didn't change), ~Margin&Padding: 28.5px
+*/
+@media (min-width: 900px) {
+    /* ----- PAGE ----- */
+    /* Page Containers */
+    article, .reading-width {
+        max-width: 700px;
     }
-    h2 {
-        font-size: 35px;
-        line-height: 35px;
+    .review-page main {
+        max-width: 700px;
+        margin: 0 auto;
+        background-color: transparent;
+        padding-left: 0;
+        padding-right: 0;
     }
-    h3, h4, h5, menu ul,
-    #bottom-navigation {
-        font-size: 27px;
-        line-height: 27px;
-    }
-        h4, #bottom-navigation {
-            line-height: 39px;
-        }
-        h5 {
-            line-height: 33px;
-        }
-        menu ul {
-            line-height: 27px;
-        }
-    time,
-    p, blockquote, ol, ul,
-    table, #page-footer-text span, .bigfoot-footnote__button {
-        font-size: 18px;
-    }
-        time,
-        p, blockquote, ol, ul,
-        table {
-            line-height: 27px;
-        }
-        #archive-list {
-            line-height: 23px;
-        }
-        #page-footer-text span {
-            line-height: 18px;
-        }
-    .footnotes ol li p,
-    .footnotes ol,
-    figcaption,
-    input, select, textarea, button {
-        font-size: 16px;
-    }
-        figcaption {
-            line-height: 26px;
-        }
-        .footnotes ol li p,
-        .footnotes ol {
-            line-height: 25px;
-        }
-
-
-    /* ----- ROOT ELEMENTS ----- */
-    main, .standard-page-width {
-        max-width: 595px;
-        padding-left: 50px;
-        padding-right: 50px;
+    .review-page article {
+        background-color: #F8F7F5;
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+        border-radius: 4px;
+        padding-bottom: 1rem;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.18);
+        -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.18);
+        -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.18);
     }
     main {
-        padding-bottom: 80px;
-    }
-    .fat-page main {
-        max-width: 764px;
+        margin-top: 1rem;
+        padding-bottom: 1rem;
     }
 
 
     /* ----- NAVBAR ----- */
-    menu {
-        height: 130px;
-    }
     menu ul {
-        padding-left: 70px;
+        margin-right: 1rem;
+    }
+    menu ul li {
+        margin-top: 1.3rem;
+        margin-left: 2.5rem;
+    }
+    #website-title {
+        margin-left: 1rem;
+    }
+    #content {
+        padding-top: 64px;
     }
 
 
-    /* ----- HEADERS ----- */
-    h1 {
-        padding-bottom: 11px;
-    }
-    h2 {
-        padding-top: 32px;
-    }
-    h3 {
-        margin-top: 50px;
-        margin-bottom: 30px;
-    }
-    .reserved-mode main article header time {
-        padding-bottom: 35px;
+    /* ----- WRITING CORE ----- */
+    article header {
+        width: 100%;
+        display: block;
+        background-image: none !important;
+        margin-left: 0vw;
+        margin-right: 0vw;
+        box-shadow: none;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        padding-top: 1rem;
     }
 
 
-    /* ----- PARAGRAPH ELEMENTS ----- */
-    p, ol, ul {
-        margin-top: 32px;
+    /* ----- ARTICLE CARDS ----- */
+    .article-card header {
+        display: inline-block;
+        vertical-align: top;
+        margin-bottom: 0;
+        margin-top: 1rem;
+        margin-left: 0rem;
+        text-align: center;
+        width: 100%;
     }
-    ol, ul {
-        padding-left: 60px;
+    .article-card header h1 {
+        margin-top: 0;
     }
-    ol li, ul li {
-        margin-bottom: 30px;
+    .article-card header h1 span {
+        margin-bottom: 0;
+        min-width: 100%;
     }
-    #archive-list {
-        margin-top: 28px;
+    .article-card header h1 time {
+        margin-bottom: 0;
     }
-    .profile-column {
-        width: 37vw;
-        max-width: 555px;
+    .article-card header h1,
+    .article-card header h1 time {
+        text-align: center;
+    }
+    .article-card img {
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 1rem;
+        width: 20vw;
+        margin: 0 auto;
+        padding-right: 0;
+    }
+    .article-card {
+        padding-left: 0;
+        padding-right: 0;
+        max-width: 44vw;
+        padding-left: 1rem;
+        width: 100%;
+        margin: 0.75rem 0.575rem;
+        display: inline-block;
+        border-radius: 4px;
     }
 
-
-    /* ----- STREAM NAVIGATION ----- */
-    #bottom-navigation {
-        padding-bottom: 86px;
-    }
 
     /* ----- IMAGES & VIDEO ----- */
-    figcaption {
-        padding-top: 10px;
-    }
     .inline {
-        max-width: 595px;
+        max-width: 700px;
     }
     .album-art {
-        max-width: 695px;
+        max-width: 700px;
+        margin-top: 2rem;
+        border-radius: 4px;
+        margin-bottom: 2rem;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.18);
+        -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.18);
+        -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.18);
     }
     .avatar {
-        width:200px;
+        width: 200px;
     }
     .archive-album-art {
         width: 193px;
@@ -1058,82 +1085,94 @@ menu ul li ul {
     .footnotes ol {
         margin-left: 20px;
     }
-    .footnotes ol li {
-        margin-bottom: 32px;
-    }
 
 
     /* ----- DIVIDERS ----- */
     hr {
-        margin-top: 100px;
-        margin-bottom: 69px;
-
         display: inline-block;
         width: 82vw;
         max-width: 1158px;
         min-width: 810px;
     }
     article hr, footer hr {
-        margin-top: 50px;
-        margin-bottom: 50px;
         width: 100%;
         max-width: none;
-        min-width: 595px;
+        min-width: 700px;
     }
+
+
+    /* ----- BLOG NAVIGATION ----- */
 
 
     /* ----- TABLES ----- */
-    table {
-        margin-top: 32px;
-        margin-bottom: 38px;
-    }
 
 
-    /* ----- BUTTONS ----- */
+    /* ----- FORMS & BUTTONS ----- */
     button {
-        height: 29px;
+        height: 30px;
     }
 
 
     /* ----- POSITIONING & SHOWING ----- */
-    .normal-top-pad {
-        margin-top: 32px;
+    .hide-when-imac {
+        display: none;
+        visibility: hidden;
     }
-    .margin-top {
-        margin-top: 50px;
+    .show-when-imac {
+        visibility: visible;
+        display: inline;
     }
-    .margin-bottom {
-        margin-bottom: 50px;
+    .two-column {
+        width: 44vw;
+        max-width: 555px;
     }
 
 
-    /* ----- TITLE ----- */
-    #logo, #logo-container {
-        width: 64px;
-        height: 64px;
-    }
-    #logo-container {   
-        margin-right: -13px;
-    }
-    #title #album-color {
-        width: 25px;
-        height: 25px;
-        left: 20px;
-        top: -44px;
-    }
-    #website-title {
-        padding-top: 6px;
-    }
-    
+    /* ----- ANCHORS ----- */
 
-    /* ----- PAGE FOOTER ----- */
-    #page-footer {
-        height: 36px;
-        margin-top: -36px;
+
+    /* ----- THEME ----- */
+    article header h1 span {
+        color: #333333 !important;
     }
-    .reserved-mode main {
-        padding-bottom: 36px;
-        padding-left: 36px;
-        padding-right: 36px;
+    article header h1 time {
+        color: #848484 !important;
+    }
+    .article-card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.18);
+        -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.18);
+        -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.18);
+    }
+    .article-card:hover {
+        -webkit-box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.20), 0 4px 12px 0 rgba(0, 0, 0, 0.28);
+        -moz-box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.20), 0 4px 12px 0 rgba(0, 0, 0, 0.28);
+        box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.20), 0 4px 12px 0 rgba(0, 0, 0, 0.28);
+    }
+}
+
+/* 
+Super large devices (fullscreen browsing)
+Font size: 19px (didn't change), ~Margin&Padding: 28.5px
+*/
+@media (min-width: 1760px) {
+    /* ----- ARTICLE CARDS ----- */
+    .article-card header {
+        margin-top: 3rem;
+        margin-left: 1.5rem;
+        text-align: left;
+        width: 500px;
+    }
+    .article-card header h1,
+    .article-card header h1 time {
+        text-align: left;
+    }
+    .article-card img {
+        max-width: 255px;
+    }
+    .article-card {
+        width: 100%;
+        padding-bottom: 2.25rem;
+        max-width: 860px;
+        width: 46vw;
     }
 }

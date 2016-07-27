@@ -19,64 +19,7 @@
 
 			{% include header.html %}
 
-			{% if page.viewing-single-page and page.use-blurred-background %}
-			<style>
-				article header {
-					background-image: url('/images/album-art/{{ page.album-name }}/dark-blur.jpg');
-					background-size:cover;
-					background-position:bottom;
-					width: 100vw;
-					display: inline-block;
-					margin-left: -30vw;
-					margin-right: -30vw;
-					color:{{ page.primary-color }};
-				}
-				time {
-    				color:{{ page.secondary-color }};
-				}
-				@media (min-width: 900px) {
-					#content {
-						background-image: url('/images/album-art/{{ page.album-name }}/blur.jpg');
-					}
-					article header {
-						width: 100%;
-						display: block;
-						background-image: none;
-						margin-left: 0vw;
-						margin-right: 0vw;
-
-						box-shadow: none;
-						-webkit-box-shadow: none;
-						-moz-box-shadow: none;
-						padding-top: 1rem;
-					}
-					article header h1 {
-						color: #333333;
-					}
-					article header h1 time {
-						color: #848484 !important;
-					}
-					main {
-					    max-width:700px;
-					    margin: 0 auto;
-					    background-color: transparent;
-					    padding-left: 0;
-					    padding-right: 0;
-					}
-					article {
-						background-color: #F8F7F5;
-						padding-left: 2.5rem;
-						padding-right: 2.5rem;
-						border-radius: 4px;
-						padding-bottom: 1rem;
-						box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.18);
-						-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.18);
-						-moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.18);
-					}
-				}
-			</style>
-			{% endif %}
-			<div id="content" class="center {% if page.viewing-single-page != true %}reserved-mode{% endif %} {% if page.fat %}wide-page{% endif %} {% if page.full-width %}full-width-page{% endif %}">
+			<div id="content" {% if page.use-blurred-background %}style="background-image: url('/images/album-art/{{ page.album-name }}/blur.jpg');"{% endif %} class="center {% if page.review == true %}review-page{% endif %} {% if page.wide-page %}wide-page{% endif %} {% if page.full-page %}full-page{% endif %}">
 				<main>
 
 					{{ content }}			
@@ -85,26 +28,7 @@
 			</div>
 		</div>
 
-		{% if paginator.next_page or paginator.previous_page %}
-		<div id="bottom-navigation">
-			<h4 id="navigation-previous">
-				<a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">
-					<img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-					{% if paginator.next_page %}
-					< Older
-					{% endif %}
-				</a>
-			</h4>
-			<h4 id="navigation-next">
-				<a href="{{ paginator.previous_page_path | replace: 'index.html', '/' | prepend: site.baseurl | replace: '//', '/' }}">
-					{% if paginator.previous_page %}
-					Newer >
-					{% endif %}
-					<img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-				</a>
-			</h4>
-		</div>
-		{% endif %}
+		{% include footer.html %}
 
 	</body>
 </html>

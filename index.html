@@ -4,14 +4,14 @@ anchors: false
 ---
 {% for post in paginator.posts %}
 	<a href="{{ post.url }}">
-	<div class="article-card" style="background-image: url('/images/album-art/{{ post.album-name }}/dark-blur.jpg');">
-		<img src="/images/album-art/{{ post.album-name }}/cover.jpg" class="inline" {% if post.album-art-hidden-text %}title="{{post.album-art-hidden-text}}"{% endif %} {% if post.title %}alt="{{ post.title }}'s album art"{% else %}alt="The album's cover"{% endif %} />
-		<header role="header">
-			<h1>
-				<span style="color:{{ post.primary-color }}" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</span>
-				<time style="color:{{ post.secondary-color }}" itemprop="dateCreated">Review by {{ post.author }}<br>{{ post.date | date: "%A, %B %-d, %Y" }}</time>
-			</h1>
-		</header>
-	</div>
+		<div class="article-card" style="background-image: url('/images/album-art/{{ post.album-name }}/dark-blur.jpg');">
+			<img src="/images/album-art/{{ post.album-name }}/cover.jpg" class="inline" {% if post.album-art-hidden-text %}title="{{post.album-art-hidden-text}}"{% endif %} {% if post.title %}alt="{{ post.title }}'s album art"{% else %}alt="The album's cover"{% endif %} />
+			<header role="header">
+				<h1>
+					<span style="color:{{ post.primary-color }}" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</span>
+					<time style="color:{{ post.secondary-color }}" itemprop="dateCreated">Review by {{ post.author }}<br>{{ post.date | date: "%A, %B %-d, %Y" }}</time>
+				</h1>
+			</header>
+		</div>
 	</a>
 {% endfor %}
