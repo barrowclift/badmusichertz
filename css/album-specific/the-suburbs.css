@@ -1,0 +1,41 @@
+/* PAGE CONTAINERS & WRITING ELEMENTS ----------------------------------------------------------- */
+#content {
+    background-color: #5D5D42;
+    background-position: right;
+}
+
+/* HIGHLIGHT ----------------------------------------------------------- */
+/* Safari */
+::selection {
+    background: #5D5D42;
+    color: white;
+}
+/* Firefox */
+::-moz-selection {
+    background: #5D5D42;
+    color: white;
+}
+
+
+/* LINKS ----------------------------------------------------------- */
+a, a:link, a:visited,
+menu ul li a:hover,
+#website-title a:hover {
+    color: #5D5D42;
+}
+a:hover {
+    color: #77886A;
+}
+
+#title #album-color,
+.bigfoot-footnote__button,
+.bigfoot-footnote__button:link,
+.bigfoot-footnote__button:visited {
+    background-color: #5D5D42;
+}
+.bigfoot-footnote__button:hover,
+.bigfoot-footnote__button:focus,
+.bigfoot-footnote__button:active,
+.bigfoot-footnote__button.is-active {
+    background-color: #77886A;
+}

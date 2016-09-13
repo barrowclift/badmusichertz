@@ -4,8 +4,8 @@ layout: post
 use-blurred-background: False
 album-name: "broken-bride"
 
-primary-color: "#FCFDFD"
-secondary-color: "#759D9A"
+primary-color: "#E3E3E3"
+secondary-color: "#9F9F9F"
 
 title: "Broken Bride"
 author: "Michael Barrowclift"

@@ -5,8 +5,8 @@ use-blurred-background: True
 album-name: "relief"
 album-art-hidden-text: "A Relief could mean everything"
 
-primary-color: "#EBF5EA"
-secondary-color: "#F9F7D1"
+primary-color: "#F9F7D1"
+secondary-color: "#EBF5EA"
 
 title: "Relief"
 author: "Michael Barrowclift"

@@ -107,6 +107,9 @@ input, select, textarea, button {
 small {
     font-size: 0.75em;
 }
+.underline {
+    text-decoration: underline;
+}
 
 
 /* ----- KERNING ----- */
@@ -258,8 +261,8 @@ article header {
     /* Nudging the header up a bit to remove any gaps between the album art and the
     header while on iPhones only when viewing an article */
     margin-top: -4px;
-    background-size:cover;
-    background-position:bottom;
+    background-size: cover;
+    background-position: bottom;
     width: 100vw;
     display: inline-block;
     margin-left: -30vw;
