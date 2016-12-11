@@ -1,12 +1,12 @@
 ---
 layout: post
 
-use-blurred-background: True
 album-name: "the-suburbs"
-album-art-hidden-text: "Another all-time favorite album cover of mine. It looks as if it was printed on a local newspaper, it gives the album’s packaging a sense of purposeful cheapness and disposability."
+album-art-hidden-text: "Another all-time favorite album cover of mine. It looks as if it was printed in a local newspaper, it gives the album’s packaging a sense of purposeful cheapness and disposability."
 
 primary-color: "#A7BFB9"
 secondary-color: "#DBD1C1"
+blurred-background: True
 
 title: "The Suburbs"
 author: "Marc Barrowclift"

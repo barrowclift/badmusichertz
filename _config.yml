@@ -13,7 +13,7 @@ paginate: 6 # Number of posts to be shown on each each paginated page.
 markdown: kramdown
 highlighter: rouge
 show_drafts: False
-future: False
+future: True
 
 kramdown:
   footnote_backlink: "&#x21A9;&#xFE0E;"
@@ -24,14 +24,16 @@ defaults:
       path: ""      # empty string for all files
       type: "posts"   # limit to posts
     values:
-      review: true # *NOT* Being viewed from home, a specific article page
-      use-blurred-background: true # Default to showing blurred album art backdrop
+      review: True # *NOT* Being viewed from home, a specific article page
+      blurred-background: True # Default to showing blurred album art backdrop
+      blurred-card: True # Nearly all album covers look good with the default "blurred card" theme
+      dark-theme: False # Default to light theme
       share-image:  # assume a default post doesn't have an image, /images/assets/${share-image}
   - # SITE-WIDE VARIABLES
     scope:
       path: "" # all files
     values:
-      anchors: true # We want sections to be anchorable by default for everything
+      anchors: True # We want sections to be anchorable by default for everything
 
 gems:
   - jemoji

@@ -11,8 +11,24 @@ article hr, footer hr {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#101010', endColorstr='#101010',GradientType=1 ); /* IE6-9 */
 }
 
-#content {
+.album-art {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+}
+#bottom-navigation, menu {
+    /*background-color: RGBA(4, 4, 5, .75);*/
+    background-color: RGBA(35,35,35,.75);
+}
+#content, html {
     background-color: #101010;
+}
+menu ul li a:link,
+menu ul li a:visited,
+#website-title a,
+#website-title a:link,
+#website-title a:visited {
+    color: #FCFDFD;
 }
 main, .review-page article {
     background-color: #101010;
@@ -82,17 +98,17 @@ menu ul li a {
     background-color: #759D9A;
 }
 .bigfoot-footnote__tooltip {
-    background-color: #313131;
-    border: 1px solid #404040;
+    background-color: #222222;
+    border: 1px solid #292929;
 }
 .bigfoot-footnote,
 .bigfoot-footnote__wrapper {
-    background-color: #404040;
+    background-color: #292929;
 }
 .bigfoot-footnote__tooltip,
 .bigfoot-footnote__wrapper,
 .bigfoot-footnote__content {
-    background-color: #313131;
+    background-color: #222222;
 }
 .bigfoot-footnote__content,
 .bigfoot-footnote__content a {

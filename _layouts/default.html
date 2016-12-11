@@ -19,10 +19,10 @@
 
 			{% include header.html %}
 
-			<div id="content" {% if page.use-blurred-background %}style="background-image: url('/images/album-art/{{ page.album-name }}/blur.jpg');"{% endif %} class="center {% if page.review == true %}review-page{% endif %} {% if page.wide-page %}wide-page{% endif %} {% if page.full-page %}full-page{% endif %}">
+			<div id="content" {% if page.blurred-background %}style="background-image: url('/images/album-art/{{ page.album-name }}/blur.jpg');"{% endif %} class="center {% if page.review == true %}review-page{% endif %} {% if page.wide-page %}wide-page{% endif %} {% if page.full-page %}full-page{% endif %}">
 				<main>
 
-					{{ content }}			
+					{{ content }}
 
 				</main>
 			</div>

@@ -2,7 +2,7 @@
 	<header id="website-title">
 		<a href="{{ "/" | prepend: site.baseurl }}" id="title">
 			<div id="logo-container">
-				<img id="logo" src="{{ "/images/logo/logo.svg" | prepend: site.baseurl }}" alt="Bad Music Hertz logo">
+				<img id="logo" src="{% if page.dark-theme %}{{ "/images/logo/logo-light.svg" | prepend: site.baseurl }}{% else %}{{ "/images/logo/logo.svg" | prepend: site.baseurl }}{% endif %}" alt="Bad Music Hertz logo">
 				<div id="album-color"></div>
 			</div>
 			<span class="hide-when-iphone">ad music hertz</span>

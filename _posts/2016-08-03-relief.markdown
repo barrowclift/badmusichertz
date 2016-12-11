@@ -1,12 +1,12 @@
 ---
 layout: post
 
-use-blurred-background: True
 album-name: "relief"
 album-art-hidden-text: "A Relief could mean everything"
 
 primary-color: "#F9F7D1"
 secondary-color: "#EBF5EA"
+blurred-background: True
 
 title: "Relief"
 author: "Michael Barrowclift"
