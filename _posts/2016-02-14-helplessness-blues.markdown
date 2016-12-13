@@ -11,6 +11,8 @@ blurred-background: True
 title: "Helplessness Blues"
 author: "Marc Barrowclift"
 date: 2016-02-14 11:47:30
+image:
+  path: "/images/album-art/helplessness-blues/large.jpg"
 
 categories:
   - Fleet Foxes
@@ -81,17 +83,17 @@ Perhaps it's both these values together the son has awoken to. He doesn't requir
 
 As the last of the music drops away we are left with just a sparse vocal harmony whispering these final words:
 
-> Wide eyed walker  
-> Don't betray me  
-> I will wake one day, don't delay me  
-> Wide eyed leaver  
+> Wide eyed walker
+> Don't betray me
+> I will wake one day, don't delay me
+> Wide eyed leaver
 > Always going
 
 Despite everything he's learned, there's still the fear that he'll never reconcile with his love (and even if he does that she might leave him again). Our character has grown, surely, but that won't suddenly make life easy. Life will still be full of hardship and despair, but that doesn't make it worth throwing away. [It's part of the nullifying, defeating, negating, repeating joy of life](https://www.youtube.com/watch?v=KHAHgjL0YzQ) and he resolves to be there for every moment of it.
 
 And so ends *Helplessness Blues*. Perhaps when you listen you'll disagree with my interpretation, and that's absolutely fine. Maybe you'll see a more intangible, emotional narrative presented by a multitude of characters, or maybe instead you'll see a collection of songs that broadly deal with determining your purpose in life and coming of age, or you may even see a different narrative at work. Regardless of what you personally take away from the experience, it is no doubt one worth taking in one sitting while resting at a quiet place with a cup of tea and lyrics in hand. I know I will; there's spiritual comfort in knowing as the birthdays continue to rush by I can always drop a needle and hear someone from far away crying:
 
-> So now I am older  
-> Than my mother and father  
-> When they had their daughter  
+> So now I am older
+> Than my mother and father
+> When they had their daughter
 > Now what does that say about me?

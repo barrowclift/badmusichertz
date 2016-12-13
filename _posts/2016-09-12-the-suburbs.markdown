@@ -11,6 +11,8 @@ blurred-background: True
 title: "The Suburbs"
 author: "Marc Barrowclift"
 date: 2016-09-12 21:40:00
+image:
+  path: "/images/album-art/the-suburbs/large.jpg"
 
 categories:
   - Arcade Fire
@@ -31,9 +33,9 @@ A blaring, carnival-like piano throws us head-first into the album's self-titled
 
 This theme of feeling uncomfortably "out of place" in the urban sprawl is further explored in "Modern Man", a breezy daydream song which at times threatens to explode but always stops just shy to again resume the comfortable, monotonous guitar riff. In it, the singer clearly feels something's off about playing the roll of the 9-5 Average Joe but seems to lack the language and emotional experience to fully express himself.
 
-> So I wait my turn, I'm a modern man  
-> And the people behind me they can't understand  
-> Makes me feel like...  
+> So I wait my turn, I'm a modern man
+> And the people behind me they can't understand
+> Makes me feel like...
 > Makes me feel like...
 
 He's clearly on the brink of an epiphany, but every time he gets this far, he's metaphorically or literally pulled aside and told he's "going nowhere". This leads him to inevitably fail and resign himself to his fate by repeating "I'm a modern man" while the song blows away as carelessly as it came.
@@ -44,16 +46,16 @@ I can't help but see the similarities the song has with Katherine Mansfield's ["
 
 Arcade Fire continues exploring other aspects of unchecked urbanization with the increasing ubiquity of technology in "Deep Blue"[^deep-blue]. It's the sonic personification of wanting desperately to unplug from the hyper-stimulating LCDs flooding the world.
 
-> Hey  
-> Put that cell phone down for a while  
-> In the night there is something wild  
+> Hey
+> Put that cell phone down for a while
+> In the night there is something wild
 > Can you hear it breathing?
 
 Following the sad trend set by the album, it's implied that in the end&#8212;like "Modern Man"&#8212;the singer's light is snuffed out as they succumb to technology's siren song along with everyone else.
 
-> And hey  
-> Put the laptop down for a while  
-> In the night there is something wild  
+> And hey
+> Put the laptop down for a while
+> In the night there is something wild
 > I feel it, it's leaving me
 
 Kids These Days
@@ -61,17 +63,17 @@ Kids These Days
 
 It's a rite of passage, once you get into your mid-twenties you'll find yourself occasionally feeling out-of-touch with the "modern kids" nowadays. In *The Suburbs* it's clear the then thirty-year-old Arcade Fire members are no longer the spunky early-twenties rockers they once were. They're wiser for it, to be sure, but with that newfound worldliness comes even further separation from their audience's primary demographic: teenagers. Instead of awkwardly pretending to still be "hip with the kids" like lesser bands have done in the past and failed miserably at, they wear their age like a badge of pride and throughout the album address kids not as fellow teenagers but as adult figures, starting with a scathing commentary on hipsters in the dizzying violin-led piece, "Rococo".
 
-> They built it up just to burn it back down  
-> The wind is blowing all the ashes around  
+> They built it up just to burn it back down
+> The wind is blowing all the ashes around
 > Oh my dear God what is that horrible song they're singing?
 
 I can't help but laugh at that line; by using the stereotypical "old person" response to new music they're fully assuming the role of an adult figure when addressing younger folks in the album, which they follow through on in "Month of May".
 
 As an 'ol fashioned head-banger akin to what you'd hear at a basement or garage show, "Month of May" is easily one of the most accessible songs on the album. In it, Arcade Fire directly addresses teenagers who are facing the same emotional struggles the adults in the album's other songs faced. Like a trusted adult figure, they urge these kids to keep their fighting spirit alive instead of letting it die like every adult on the album has.
 
-> So young, so young  
-> So much pain for someone so young, well  
-> I know it's heavy, I know it ain't light  
+> So young, so young
+> So much pain for someone so young, well
+> I know it's heavy, I know it ain't light
 > But how you gonna lift it with your arms folded tight?
 
 I can't help but appreciate just how well Arcade Fire assumes this role without coming across as condescending or as try-hard guidance consolers. Perhaps what makes it work so well is their complete lack of sugar coating. They practically admit in the song that most aspects of teenage life suck, while at the same time urging kids to open themselves up to the world regardless so they wouldn't miss out on the few precious things in life that are "pure" and "right".
@@ -83,14 +85,14 @@ While songs pertaining to the sprawl are generally focused on the present and fu
 
 In "Suburban War", we see how close relationships such as these came to end through the lens of one particular friend. They were clearly close ("Let's go for a drive and see the town tonight / There's nothing to do but I don't mind when I'm with you"), but eventually stark differences in music preference and his friend's spiteful "war against the suburbs" began to drive them apart.
 
-> But you started a war that we can't win  
-> They keep erasing all the streets we grew up in  
-> Now the music divides us into tribes  
+> But you started a war that we can't win
+> They keep erasing all the streets we grew up in
+> Now the music divides us into tribes
 > You choose your side, <span class="underline">I'll choose my side</span>
 
 Despite things breaking bad between them, he still cares about his old friend and sincerely regrets how things turned out between them ("Now the cities we live in could be distant stars / And I search for you in every passing car"). However, he knows deep down that these hurt feelings will haunt him forever because there's no chance of patching up what they once had; they have both changed so much since then that the person his old friend once knew, quite frankly, doesn't exist anymore.
 
-> All my old friends  
+> All my old friends
 > They don't know me now
 
 The Climax
@@ -108,9 +110,9 @@ As the song draws near it's end, bell-tower like "gongs" sound in the distance, 
 
 Win's love for his old neighborhood friendships, despite all the grief he carries about their end, is palpable. In case there was any doubt about this fondness, on the very last song on the album he idly wishes:
 
-> If I could have it back  
-> All the time that we wasted  
-> I would waste it again  
+> If I could have it back
+> All the time that we wasted
+> I would waste it again
 > Waste it again, and again, and again
 
 This reenforces that he wasn't just blowing hot air while telling the kids "some things are pure and some things are right" in "Month of May". It seems that, despite everything else, these fond memories prevailed in his mind. To be clear, he and Arcade Fire went out of their way to express that this doesn't negate any of the serious concerns they have with the suburbs, but those positive memories *are* there, and they do matter.
