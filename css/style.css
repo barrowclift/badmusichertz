@@ -87,7 +87,7 @@ p, blockquote, ol, ul, table, ol li, ul li {
 time {
     font-size: 0.5em;
     line-height: 2rem; /* 21px */
-    margin-top: 0.375rem; /* 21px * 0.25 */
+    margin-top: 0.5rem; /* 21px * 0.5 */
     margin-bottom: 0;
 }
 .footnotes ol li p,
@@ -131,7 +131,7 @@ html, body {
     min-height: 100%;
 }
 #content {
-    padding-bottom: 2.825rem;
+    /*padding-bottom: 2.825rem;*/
     overflow: auto;
 }
 main a:nth-child(2) .article-card {
@@ -378,8 +378,12 @@ padding. */
 
 .archive-album-art {
     width: 30vw;
-    margin:0.15rem;
-    border-radius:4px;
+    margin: 0.15rem;
+    border-radius: 4px;
+}
+#archive-shelf {
+    margin-left: 1em;
+    margin-right: 1em;
 }
 
 .avatar {
@@ -605,9 +609,9 @@ article header {
     -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12), 0 2px 10px 0 rgba(0, 0, 0, 0.10), inset 0px 0px 20px RGBA(51, 51, 51, 0.5);
     -moz-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12), 0 2px 10px 0 rgba(0, 0, 0, 0.10), inset 0px 0px 20px RGBA(51, 51, 51, 0.5);
 
-    -webkit-transition: -webkit-box-shadow 0.25s ease 0s; 
-    -moz-transition: -moz-box-shadow 0.25s ease 0s; 
-    -o-transition: -o-box-shadow 0.25s ease 0s; 
+    -webkit-transition: -webkit-box-shadow 0.25s ease 0s;
+    -moz-transition: -moz-box-shadow 0.25s ease 0s;
+    -o-transition: -o-box-shadow 0.25s ease 0s;
     transition: box-shadow 0.25s ease 0s;
 }
 
@@ -625,9 +629,9 @@ article header {
     -moz-box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.20), 0 4px 12px 0 rgba(0, 0, 0, 0.28);
     box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.20), 0 4px 12px 0 rgba(0, 0, 0, 0.28);
 
-    -webkit-transition: -webkit-box-shadow 0.25s ease 0s; 
-    -moz-transition: -moz-box-shadow 0.25s ease 0s; 
-    -o-transition: -o-box-shadow 0.25s ease 0s; 
+    -webkit-transition: -webkit-box-shadow 0.25s ease 0s;
+    -moz-transition: -moz-box-shadow 0.25s ease 0s;
+    -o-transition: -o-box-shadow 0.25s ease 0s;
     transition: box-shadow 0.25s ease 0s;
 }
 
@@ -638,9 +642,9 @@ article header {
     -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.18);
     -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.18);
 
-    -webkit-transition: -webkit-box-shadow 0.25s ease 0s; 
-    -moz-transition: -moz-box-shadow 0.25s ease 0s; 
-    -o-transition: -o-box-shadow 0.25s ease 0s; 
+    -webkit-transition: -webkit-box-shadow 0.25s ease 0s;
+    -moz-transition: -moz-box-shadow 0.25s ease 0s;
+    -o-transition: -o-box-shadow 0.25s ease 0s;
     transition: box-shadow 0.25s ease 0s;
 }
 
@@ -811,7 +815,7 @@ blockquote {
     }
 }
 
-/* 
+/*
 Medium devices (iPads)
 Font size: 19px, ~Margin&Padding: 28.5px
 */
@@ -822,7 +826,7 @@ Font size: 19px, ~Margin&Padding: 28.5px
         font-size: 19px;
     }
 
-    
+
     /* ----- PAGE ----- */
     /* Page Containers */
     article, .reading-width {
@@ -968,7 +972,7 @@ Font size: 19px, ~Margin&Padding: 28.5px
 
 }
 
-/* 
+/*
 Large devices (Macs)
 Font size: 19px (didn't change), ~Margin&Padding: 28.5px
 */
@@ -1165,7 +1169,7 @@ Font size: 19px (didn't change), ~Margin&Padding: 28.5px
     }
 }
 
-/* 
+/*
 Super large devices (fullscreen browsing)
 Font size: 19px (didn't change), ~Margin&Padding: 28.5px
 */
