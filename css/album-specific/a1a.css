@@ -1,12 +1,12 @@
 /* PAGE CONTAINERS & WRITING ELEMENTS ----------------------------------------------------------- */
 article hr, footer hr {
-    background-color: RGBA(0, 1, 7, 0.2);
-    background: RGBA(0, 1, 7, 0.2); /* Old browsers */
+    background-color: RGBA(175, 167, 147, 0.5);
+    background: RGBA(175, 167, 147, 0.5); /* Old browsers */
 }
 blockquote {
-    border-color: RGBA(0, 1, 7, 0.2);
-    background-color: RGBA(0, 1, 7, 0.05);
-    color: RGBA(0, 1, 7, 0.625);
+    border-color: RGBA(175, 167, 147, 0.5);
+    background-color: RGBA(175, 167, 147, 0.1);
+    color: RGBA(63, 52, 28, 0.75);
 }
 .album-art {
     box-shadow: none;
