@@ -385,8 +385,8 @@ padding. */
     border-radius: 4px;
 }
 #archive-shelf {
-    margin-left: 1em;
-    margin-right: 1em;
+    margin-left: 0em;
+    margin-right: 0em;
 }
 
 .avatar {
@@ -896,6 +896,10 @@ Font size: 19px, ~Margin&Padding: 28.5px
     }
     .archive-album-art {
         width: 158px;
+    }
+    #archive-shelf {
+        margin-left: 1em;
+        margin-right: 1em;
     }
 
 
