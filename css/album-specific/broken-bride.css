@@ -1,14 +1,7 @@
 /* PAGE CONTAINERS & WRITING ELEMENTS ----------------------------------------------------------- */
 article hr, footer hr {
-    background-color: #FCFDFD;
-    background: #FCFDFD; /* Old browsers */
-    background: -moz-linear-gradient(left,  #101010 0%, #FCFDFD 25%, #FCFDFD 50%, #FCFDFD 75%, #101010 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#101010), color-stop(25%,#FCFDFD), color-stop(50%,#FCFDFD), color-stop(75%,#FCFDFD), color-stop(100%,#101010)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(left,  #101010 0%,#FCFDFD 25%,#FCFDFD 50%,#FCFDFD 75%,#101010 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(left,  #101010 0%,#FCFDFD 25%,#FCFDFD 50%,#FCFDFD 75%,#101010 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(left,  #101010 0%,#FCFDFD 25%,#FCFDFD 50%,#FCFDFD 75%,#101010 100%); /* IE10+ */
-    background: linear-gradient(to right,  #101010 0%,#FCFDFD 25%,#FCFDFD 50%,#FCFDFD 75%,#101010 100%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#101010', endColorstr='#101010',GradientType=1 ); /* IE6-9 */
+    background-color: #9F9F9F;
+    background: #9F9F9F; /* Old browsers */
 }
 
 .album-art {

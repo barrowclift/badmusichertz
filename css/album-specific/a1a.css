@@ -1,19 +1,12 @@
 /* PAGE CONTAINERS & WRITING ELEMENTS ----------------------------------------------------------- */
 article hr, footer hr {
-    background-color: #5F4E29;
-    background: #5F4E29; /* Old browsers */
-    background: -moz-linear-gradient(left,  #FFFEF8 0%, #5F4E29 25%, #5F4E29 50%, #5F4E29 75%, #FFFEF8 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#FFFEF8), color-stop(25%,#5F4E29), color-stop(50%,#5F4E29), color-stop(75%,#5F4E29), color-stop(100%,#FFFEF8)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(left,  #FFFEF8 0%,#5F4E29 25%,#5F4E29 50%,#5F4E29 75%,#FFFEF8 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(left,  #FFFEF8 0%,#5F4E29 25%,#5F4E29 50%,#5F4E29 75%,#FFFEF8 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(left,  #FFFEF8 0%,#5F4E29 25%,#5F4E29 50%,#5F4E29 75%,#FFFEF8 100%); /* IE10+ */
-    background: linear-gradient(to right,  #FFFEF8 0%,#5F4E29 25%,#5F4E29 50%,#5F4E29 75%,#FFFEF8 100%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFEF8', endColorstr='#FFFEF8',GradientType=1 ); /* IE6-9 */
+    background-color: RGBA(0, 1, 7, 0.2);
+    background: RGBA(0, 1, 7, 0.2); /* Old browsers */
 }
 blockquote {
-    border-left: 2px solid #5F4E29;
-    color: #3F341C;
-    -webkit-border-image: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #FFFEF8), color-stop(0.5, #5F4E29), color-stop(0.5, #5F4E29), color-stop(1, #FFFEF8)) 0 100%;
+    border-color: RGBA(0, 1, 7, 0.2);
+    background-color: RGBA(0, 1, 7, 0.05);
+    color: RGBA(0, 1, 7, 0.625);
 }
 .album-art {
     box-shadow: none;
@@ -41,7 +34,7 @@ article header h1 span {
     color: #AA1C0F !important;
 }
 article header h1 time {
-    color: #5F4E29 !important;
+    color: #AFA793 !important;
 }
 
 

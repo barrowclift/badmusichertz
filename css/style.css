@@ -284,7 +284,7 @@ h1, h2, h3,
 table th, strong {
     font-weight: bold;
 }
-blockquote, em, time {
+em, time {
     font-style: italic;
 }
 
@@ -301,10 +301,13 @@ a {
 }
 
 blockquote {
-    padding-left: 1rem;
+    padding-left: 1em;
 }
 blockquote > :last-child {
     margin-bottom: 0;
+}
+blockquote > :first-child {
+    margin-top: 0;
 }
 
 /* ARTICLE CARDS ------------------------------------------------------------------- */
@@ -415,7 +418,7 @@ hr, article hr, footer hr {
 hr {
     margin-top: 3rem;
     margin-bottom: 1.5rem;
-    height: 2px;
+    height: 4px;
     display: inline-block;
     height: auto;
     width: 100vw;
@@ -427,7 +430,7 @@ hr {
 article hr, footer hr {
     margin-top: 3rem;
     margin-bottom: 3rem;
-    height: 1px;
+    height: 2px;
     width: 70%;
 }
 
@@ -586,7 +589,7 @@ html, main {
     margin-bottom: 0.5em;*/
 }
 time, figcaption, .weak {
-    color: #848484;
+    color: #969594;
 }
 
 /* iOS Translucency */
@@ -605,9 +608,9 @@ menu, #bottom-navigation, .archive-album-art, .avatar {
 
 /* Post header drop shadow */
 article header {
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12), 0 2px 10px 0 rgba(0, 0, 0, 0.10), inset 0px 0px 20px RGBA(51, 51, 51, 0.5);
-    -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12), 0 2px 10px 0 rgba(0, 0, 0, 0.10), inset 0px 0px 20px RGBA(51, 51, 51, 0.5);
-    -moz-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12), 0 2px 10px 0 rgba(0, 0, 0, 0.10), inset 0px 0px 20px RGBA(51, 51, 51, 0.5);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12), 0 2px 10px 0 rgba(0, 0, 0, 0.10), inset 0px 0px 20px #969594;
+    -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12), 0 2px 10px 0 rgba(0, 0, 0, 0.10), inset 0px 0px 20px #969594;
+    -moz-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12), 0 2px 10px 0 rgba(0, 0, 0, 0.10), inset 0px 0px 20px #969594;
 
     -webkit-transition: -webkit-box-shadow 0.25s ease 0s;
     -moz-transition: -moz-box-shadow 0.25s ease 0s;
@@ -636,7 +639,7 @@ article header {
 }
 
 .article-card {
-    box-shadow: inset 0px 0px 20px RGBA(51, 51, 51, 0.5);
+    box-shadow: inset 0px 0px 20px #969594;
 
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.18);
     -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.18);
@@ -650,26 +653,12 @@ article header {
 
 /* Dividers */
 hr {
-    background-color: #848484;
-    background: #848484; /* Old browsers */
-    background: -moz-linear-gradient(left,  #F8F7F5 0%, #848484 25%, #848484 50%, #848484 75%, #F8F7F5 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#F8F7F5), color-stop(25%,#848484), color-stop(50%,#848484), color-stop(75%,#848484), color-stop(100%,#F8F7F5)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(left,  #F8F7F5 0%,#848484 25%,#848484 50%,#848484 75%,#F8F7F5 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(left,  #F8F7F5 0%,#848484 25%,#848484 50%,#848484 75%,#F8F7F5 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(left,  #F8F7F5 0%,#848484 25%,#848484 50%,#848484 75%,#F8F7F5 100%); /* IE10+ */
-    background: linear-gradient(to right,  #F8F7F5 0%,#848484 25%,#848484 50%,#848484 75%,#F8F7F5 100%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F8F7F5', endColorstr='#F8F7F5',GradientType=1 ); /* IE6-9 */
+    background-color: #969594;
+    background: #969594; /* Old browsers */
 }
 article hr, footer hr {
-    background-color: #D6D6D6;
-    background: #D6D6D6; /* Old browsers */
-    background: -moz-linear-gradient(left,  #F8F7F5 0%, #D6D6D6 25%, #D6D6D6 50%, #D6D6D6 75%, #F8F7F5 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#F8F7F5), color-stop(25%,#D6D6D6), color-stop(50%,#D6D6D6), color-stop(75%,#D6D6D6), color-stop(100%,#F8F7F5)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(left,  #F8F7F5 0%,#D6D6D6 25%,#D6D6D6 50%,#D6D6D6 75%,#F8F7F5 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(left,  #F8F7F5 0%,#D6D6D6 25%,#D6D6D6 50%,#D6D6D6 75%,#F8F7F5 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(left,  #F8F7F5 0%,#D6D6D6 25%,#D6D6D6 50%,#D6D6D6 75%,#F8F7F5 100%); /* IE10+ */
-    background: linear-gradient(to right,  #F8F7F5 0%,#D6D6D6 25%,#D6D6D6 50%,#D6D6D6 75%,#F8F7F5 100%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F8F7F5', endColorstr='#F8F7F5',GradientType=1 ); /* IE6-9 */
+    background-color: #D0D0CE;
+    background: #D0D0CE; /* Old browsers */
 }
 
 /* Highlight Color */
@@ -683,10 +672,10 @@ article hr, footer hr {
 }
 
 input, textarea {
-    border: 1px solid #D6D6D6;
+    border: 1px solid #D0D0CE;
 }
 input:focus, textarea:focus {
-    border-color: #D6D6D6;
+    border-color: #D0D0CE;
     -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(214,214,214,0.7);
     box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(214,214,214,0.7);
 }
@@ -699,7 +688,7 @@ input, textarea, button {
     -webkit-border-radius: 4px;
 }
 button {
-    background-color: #848484;
+    background-color: #969594;
     color: #F8F7F5;
 }
 button:hover {
@@ -760,9 +749,14 @@ td {
 }
 
 blockquote {
-    border-left: 2px solid #D6D6D6;
-    color: #848484;
-    -webkit-border-image: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #F8F7F5), color-stop(0.5, #D6D6D6), color-stop(0.5, #D6D6D6), color-stop(1, #F8F7F5)) 0 100%;
+    border-left: 2px solid #D0D0CE;
+    background-color: RGBA(0, 0, 0, 0.05);
+    padding: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    color: RGBA(51, 51, 51, 0.75);
 }
 
 /* Footnotes */
@@ -962,8 +956,7 @@ Font size: 19px, ~Margin&Padding: 28.5px
     /* ----- ANCHORS ----- */
     .anchor {
         float: left;
-        margin-left: -1.2em;
-        padding-right: 0;
+        margin-left: -1.3em;
     }
 
 
@@ -1154,7 +1147,7 @@ Font size: 19px (didn't change), ~Margin&Padding: 28.5px
         color: #333333 !important;
     }
     article header h1 time {
-        color: #848484 !important;
+        color: #969594 !important;
         margin-bottom: 3rem;
     }
     .article-card {
