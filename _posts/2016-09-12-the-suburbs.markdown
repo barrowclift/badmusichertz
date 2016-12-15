@@ -11,8 +11,7 @@ blurred-background: True
 title: "The Suburbs"
 author: "Marc Barrowclift"
 date: 2016-09-12 21:40:00
-image:
-  path: "/images/album-art/the-suburbs/large.jpg"
+image: "/images/album-art/the-suburbs/large.jpg"
 
 categories:
   - Arcade Fire
