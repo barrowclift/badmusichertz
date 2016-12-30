@@ -58,7 +58,7 @@
 	{% if page.album-name %}
 	<meta property="og:image" content="{{ site.url }}/images/album-art/{{ page.album-name }}/cover.jpg"/>
 	{% else %}
-	<meta property="og:image" content="{{ site.url }}/images/logo/logo-banner-600x315@2x.png"/>
+	<meta property="og:image" content="{{ site.url }}/images/logo/share-banner.png"/>
 	{% endif %}
 	<meta property="og:site_name" content="{{ site.title }}" />
 	<meta property="fb:admins" content="1665270112" />
@@ -72,7 +72,7 @@
 	{% if page.album-name %}
 	<meta name="twitter:image" content="{{ site.url }}/images/album-art/{{ page.album-name }}/cover.jpg" />
 	{% else %}
-	<meta name="twitter:image" content="{{ site.url }}/images/logo/logo-banner-600x315@2x.png" />
+	<meta name="twitter:image" content="{{ site.url }}/images/logo/share-banner.png" />
 	{% endif %}
 	<meta name="twitter:url" content="{{ site.url }}{{ page.url | replace:'index.html','' | prepend: site.baseurl | replace: '//', '/' }}" />
 
