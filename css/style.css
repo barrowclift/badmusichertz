@@ -49,6 +49,14 @@ h1 {
     margin-top: 3rem;
     margin-bottom: 1rem;
 }
+.article-card header h1 {
+    font-size: 2em;
+    /* 14px font size from <p> * 2.5 */
+    line-height: 1.1em;
+    /* 21px line height * 2 */
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
     header h1 {
         margin-top: 1rem;
     }
@@ -56,6 +64,9 @@ h2 {
     font-size: 2em; /* 14px from <p> * 2 */
     line-height: 2.625rem; /* 21px * 1.75 */
     margin: 2.625rem 0; /* 21px * 1.75 */
+}
+hr + h2 {
+    margin-top: 1.5rem;
 }
 h3 {
     font-size: 1.5em; /* 14px from <p> * 1.5 */
@@ -88,6 +99,14 @@ time {
     font-size: 0.5em;
     line-height: 2rem; /* 21px */
     margin-top: 0.5rem; /* 21px * 0.5 */
+    margin-bottom: 0;
+}
+.article-card header h1 time {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    /* 21px */
+    margin-top: 0.5rem;
+    /* 21px * 0.5 */
     margin-bottom: 0;
 }
 .footnotes ol li p,
@@ -131,12 +150,12 @@ html, body {
     min-height: 100%;
 }
 #content {
-    /*padding-bottom: 2.825rem;*/
+    padding-bottom: 2.825rem;
     overflow: auto;
 }
-main a:nth-child(2) .article-card {
-    /* padding-bottom: 1.675rem !important; */
-}
+/*main a:nth-child(6) .article-card {
+    padding-bottom: 2.825rem !important;
+}*/
 /* Opera Fix */
 body:before {
     content: "";
@@ -284,7 +303,7 @@ h1, h2, h3,
 table th, strong {
     font-weight: bold;
 }
-em, time {
+em {
     font-style: italic;
 }
 
@@ -462,6 +481,12 @@ article hr, footer hr {
     z-index: 9999;
     margin-bottom: 0;
     width: 100%;
+
+    /* Float the navigation menu */
+    /*position: fixed; 
+    bottom: 0;
+    left: 0;
+    right: 0;*/
 }
 
 /* TABLES ------------------------------------------------------------------- */
@@ -705,7 +730,7 @@ a:hover {
 }
 
 article a {
-    font-weight: 600;
+    font-weight: 500;
 }
 
 menu ul li a,
@@ -833,6 +858,13 @@ Font size: 19px, ~Margin&Padding: 28.5px
     .full-page main article {
         max-width: none;
     }
+    main {
+        margin-top: .5rem;
+        padding-bottom: .5rem
+    }
+    /*main a:nth-child(6) .article-card {
+        padding-bottom: 1rem !important;
+    }*/
 
 
     /* ----- NAVBAR ----- */
@@ -880,8 +912,45 @@ Font size: 19px, ~Margin&Padding: 28.5px
 
 
     /* ----- ARTICLE CARDS ----- */
+    .article-card header {
+        display: inline-block;
+        vertical-align: top;
+        margin-bottom: 0;
+        margin-top: 1rem;
+        margin-left: 0rem;
+        text-align: center;
+        width: 100%;
+    }
+    .article-card header h1 {
+        margin-top: 0;
+    }
+    .article-card header h1 span {
+        margin-bottom: 0;
+        min-width: 100%;
+    }
+    .article-card header h1 time {
+        margin-bottom: 0;
+    }
+    .article-card header h1,
+    .article-card header h1 time {
+        text-align: center;
+    }
     .article-card img {
-        width: 50%;
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 1rem;
+        width: 75%;
+        margin: 0 auto;
+        padding-right: 0;
+    }
+    .article-card {
+        padding-left: 0;
+        padding-right: 0;
+        max-width: 46vw;
+        width: 100%;
+        margin: 0.5rem 0.375rem;
+        display: inline-block;
+        border-radius: 1em;
     }
 
 
@@ -965,8 +1034,16 @@ Font size: 19px, ~Margin&Padding: 28.5px
 
 
     /* ----- THEME ----- */
-
-
+    .article-card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.18);
+        -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.18);
+        -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.18);
+    }
+    .article-card:hover {
+        -webkit-box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.20), 0 4px 12px 0 rgba(0, 0, 0, 0.28);
+        -moz-box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.20), 0 4px 12px 0 rgba(0, 0, 0, 0.28);
+        box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.20), 0 4px 12px 0 rgba(0, 0, 0, 0.28);
+    }
 }
 
 /*
@@ -978,6 +1055,10 @@ Font size: 19px (didn't change), ~Margin&Padding: 28.5px
     /* Page Containers */
     article, .reading-width {
         max-width: 700px;
+    }
+    main {
+        margin-top: .75rem;
+        padding-bottom: .75rem;
     }
     .review-page main {
         max-width: 700px;
@@ -995,10 +1076,6 @@ Font size: 19px (didn't change), ~Margin&Padding: 28.5px
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.18);
         -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.18);
         -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.18);
-    }
-    main {
-        margin-top: 1rem;
-        padding-bottom: 1rem;
     }
 
 
@@ -1030,48 +1107,14 @@ Font size: 19px (didn't change), ~Margin&Padding: 28.5px
         -moz-box-shadow: none;
         padding-top: 1rem;
     }
-
+    
 
     /* ----- ARTICLE CARDS ----- */
-    .article-card header {
-        display: inline-block;
-        vertical-align: top;
-        margin-bottom: 0;
-        margin-top: 1rem;
-        margin-left: 0rem;
-        text-align: center;
-        width: 100%;
-    }
-    .article-card header h1 {
-        margin-top: 0;
-    }
-    .article-card header h1 span {
-        margin-bottom: 0;
-        min-width: 100%;
-    }
-    .article-card header h1 time {
-        margin-bottom: 0;
-    }
-    .article-card header h1,
-    .article-card header h1 time {
-        text-align: center;
-    }
     .article-card img {
-        display: inline-block;
-        width: 100%;
-        margin-bottom: 1rem;
         width: 20vw;
-        margin: 0 auto;
-        padding-right: 0;
     }
     .article-card {
-        padding-left: 0;
-        padding-right: 0;
-        max-width: 46vw;
-        width: 100%;
         margin: 0.75rem 0.575rem;
-        display: inline-block;
-        border-radius: 1em;
     }
 
 
@@ -1154,16 +1197,6 @@ Font size: 19px (didn't change), ~Margin&Padding: 28.5px
         color: #969594 !important;
         margin-bottom: 3rem;
     }
-    .article-card {
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.18);
-        -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.18);
-        -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.18);
-    }
-    .article-card:hover {
-        -webkit-box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.20), 0 4px 12px 0 rgba(0, 0, 0, 0.28);
-        -moz-box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.20), 0 4px 12px 0 rgba(0, 0, 0, 0.28);
-        box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.20), 0 4px 12px 0 rgba(0, 0, 0, 0.28);
-    }
 }
 
 /*
@@ -1171,6 +1204,19 @@ Super large devices (fullscreen browsing)
 Font size: 19px (didn't change), ~Margin&Padding: 28.5px
 */
 @media (min-width: 1760px) {
+    .article-card header h1 {
+        font-size: 2.5em; /* 14px font size from <p> * 2.5 */
+        line-height: 3rem; /* 21px line height * 2 */
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+    .article-card header h1 time {
+        font-size: 0.5em;
+        line-height: 2rem; /* 21px */
+        margin-top: 0.5rem; /* 21px * 0.5 */
+        margin-bottom: 0;
+    }
+
     /* ----- ARTICLE CARDS ----- */
     .article-card header {
         margin-top: 3rem;
@@ -1184,6 +1230,7 @@ Font size: 19px (didn't change), ~Margin&Padding: 28.5px
     }
     .article-card img {
         max-width: 255px;
+        margin-left: 2rem;
     }
     .article-card {
         width: 100%;

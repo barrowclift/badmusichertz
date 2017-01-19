@@ -6,8 +6,8 @@ album-art-hidden-text: ""
 
 primary-color: "#AA1C0F"
 secondary-color: "#AFA793"
-color-stop-1: "#FFFCF3"
-color-stop-2: "#FFFEF8"
+color-stop-1: "#F4F1E8"
+color-stop-2: "#EDEAE1"
 blurred-background: False
 blurred-card: False
 

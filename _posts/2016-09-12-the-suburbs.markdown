@@ -118,6 +118,8 @@ This reenforces that he wasn't just blowing hot air while telling the kids "some
 
 The next time you're caught in bumper-to-bumper traffic with an hour or more of a commute to go, or you're having trouble sleeping because you can't help feeling awful about how once-good relationships ended, or you're looking up at the night sky but can't see the stars through the [light pollution](https://en.wikipedia.org/wiki/Light_pollution), consider throwing *The Suburbs* on and letting yourself explore and celebrate these feelings with Arcade Fire. And, if you're so inclined and able, cut the lights.
 
+♫︎
+
 ----------------
 
 [^deep-blue]: Named after IBM's chess computer, code named "[Deep Blue](https://en.wikipedia.org/wiki/Deep_Blue_(chess_computer))". It won it's first-every game against chess grandmaster [Garry Kasparov](https://en.wikipedia.org/wiki/Garry_Kasparov) in 1996, though still ended up losing the overall match until the following year.

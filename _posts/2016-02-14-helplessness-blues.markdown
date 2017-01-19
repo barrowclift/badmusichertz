@@ -96,3 +96,14 @@ And so ends *Helplessness Blues*. Perhaps when you listen you'll disagree with m
 > Than my mother and father  
 > When they had their daughter  
 > Now what does that say about me?
+
+♫︎
+
+------
+
+Scavenger Hunt
+--------------
+
+* The album's brimming with sonic imagery. See if you can hear the train in "Sim Sala Bim" slowly beginning its roll and eventually reaching breakneck speed during the instrumental second half. Also keep an ear out for the bubbling, crystal clear waters in "The Cascades" and the haunting moors in the first half of "The Plains / Bitter Dancer".
+* As the name suggestions, the chaotic saxophone in "The Shrine / An Argument" sounds like it could be imitating a bitter argument between two people, adding yet another layer of sonic imagery to the record.
+* The album makes frequent callbacks to the singer's personal "Innisfree" and the orchard he vows he'd tend there. See if you can pick up on all the times this underlying dream reappears throughout the record.

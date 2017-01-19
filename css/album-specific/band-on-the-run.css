@@ -2,18 +2,27 @@
 article hr, footer hr {
     background-color: #1B1B1B;
     background: #1B1B1B; /* Old browsers */
-    background: -moz-linear-gradient(left,  #08080A 0%, #1B1B1B 25%, #1B1B1B 50%, #1B1B1B 75%, #08080A 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#08080A), color-stop(25%,#1B1B1B), color-stop(50%,#1B1B1B), color-stop(75%,#1B1B1B), color-stop(100%,#08080A)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(left,  #08080A 0%,#1B1B1B 25%,#1B1B1B 50%,#1B1B1B 75%,#08080A 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(left,  #08080A 0%,#1B1B1B 25%,#1B1B1B 50%,#1B1B1B 75%,#08080A 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(left,  #08080A 0%,#1B1B1B 25%,#1B1B1B 50%,#1B1B1B 75%,#08080A 100%); /* IE10+ */
-    background: linear-gradient(to right,  #08080A 0%,#1B1B1B 25%,#1B1B1B 50%,#1B1B1B 75%,#08080A 100%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#08080A', endColorstr='#08080A',GradientType=1 ); /* IE6-9 */
+    background: -moz-linear-gradient(left,  #020202 0%, #1B1B1B 25%, #1B1B1B 50%, #1B1B1B 75%, #020202 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#020202), color-stop(25%,#1B1B1B), color-stop(50%,#1B1B1B), color-stop(75%,#1B1B1B), color-stop(100%,#020202)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left,  #020202 0%,#1B1B1B 25%,#1B1B1B 50%,#1B1B1B 75%,#020202 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left,  #020202 0%,#1B1B1B 25%,#1B1B1B 50%,#1B1B1B 75%,#020202 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left,  #020202 0%,#1B1B1B 25%,#1B1B1B 50%,#1B1B1B 75%,#020202 100%); /* IE10+ */
+    background: linear-gradient(to right,  #020202 0%,#1B1B1B 25%,#1B1B1B 50%,#1B1B1B 75%,#020202 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#020202', endColorstr='#020202',GradientType=1 ); /* IE6-9 */
+}
+article hr, footer hr {
+    background-color: RGBA(252, 252, 250, 0.5);
+    background: RGBA(252, 252, 250, 0.5); /* Old browsers */
 }
 blockquote {
-    border-left: 2px solid #1B1B1B;
-    color: #FCFCFA;
-    -webkit-border-image: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #08080A), color-stop(0.5, #1B1B1B), color-stop(0.5, #1B1B1B), color-stop(1, #08080A)) 0 100%;
+    border-left: 2px solid RGBA(252, 252, 250, 0.5);
+    background-color: #222222;
+    padding: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    color: RGBA(230, 230, 230, 1);
 }
 .album-art {
     box-shadow: none;
@@ -35,10 +44,10 @@ menu ul li a:visited,
 }
 
 #content, html {
-    background-color: #08080A;
+    background-color: #020202;
 }
 main, .review-page article {
-    background-color: #08080A;
+    background-color: #020202;
     color: #FCFCFA;
     box-shadow: none;
     -webkit-box-shadow: none;
@@ -54,7 +63,8 @@ article header h1 span {
     color: #FCFCFA !important;
 }
 article header h1 time {
-    color: #E5B780 !important;
+    /*color: #E5B780 !important;*/
+    color: RGBA(252, 252, 250, 0.5) !important;
 }
 
 
@@ -72,12 +82,13 @@ article header h1 time {
 
 
 /* LINKS ----------------------------------------------------------- */
-a, a:link, a:visited {
+a, a:link, a:visited, .bigfoot-footnote__content a {
     color: #E5B780;
 }
 a:hover,
 menu ul li a:hover,
-#website-title a:hover {
+#website-title a:hover,
+.bigfoot-footnote__content a:hover {
     color: #B7845B;
 }
 #title #album-color {
@@ -116,15 +127,11 @@ menu ul li a {
 .bigfoot-footnote__content {
     background-color: #222222;
 }
-.bigfoot-footnote__content,
-.bigfoot-footnote__content a {
+.bigfoot-footnote__content {
     color: #FCFCFA;
-}
-.bigfoot-footnote__content a:hover {
-    color: #E5B780;
 }
 .bigfoot-footnote__button:after,
 .bigfoot-footnote__button.is-active:after,
 .bigfoot-footnote__button:hover:after {
-    color: #08080A;
+    color: #020202;
 }
