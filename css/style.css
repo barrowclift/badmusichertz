@@ -882,6 +882,9 @@ Font size: 19px, ~Margin&Padding: 28.5px
         padding-bottom: 1rem !important;
         margin-bottom: 0 !important;
     }
+    main a:nth-child(6) .article-card header h1 {
+        margin-bottom: 1rem;
+    }
 
 
     /* ----- NAVBAR ----- */
