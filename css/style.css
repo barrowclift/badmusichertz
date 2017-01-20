@@ -45,9 +45,9 @@ html {
 }
 h1 {
     font-size: 2.5em; /* 14px font size from <p> * 2.5 */
-    line-height: 3rem; /* 21px line height * 2 */
-    margin-top: 3rem;
-    margin-bottom: 1rem;
+    line-height: 1.1875em;
+    margin-top: 2rem;
+    margin-bottom: 0;
 }
 .article-card header h1 {
     font-size: 2em;
@@ -70,13 +70,16 @@ hr + h2 {
 }
 h3 {
     font-size: 1.5em; /* 14px from <p> * 1.5 */
-    line-height: 2.25rem; /* 21px * 1.5 */
-    margin: 2.25rem 0; /* 21px * 1.5 */
+    line-height: 1.1875em;
+    margin: 1.75rem 0;
 }
 h4, menu ul {
     font-size: 1.25em; /* 14px from <p> * 1.25 */
     line-height: 1.875rem; /* 21px * 1.25 */
     margin: 1.875rem 0; /* 21px * 1.25 */
+}
+h4 {
+    margin: 1.625rem 0;
 }
 h5 {
     font-size: 1em; /* 14px from <p> */
@@ -99,7 +102,7 @@ time {
     font-size: 0.5em;
     line-height: 2rem; /* 21px */
     margin-top: 0.5rem; /* 21px * 0.5 */
-    margin-bottom: 0;
+    margin-bottom: 1rem;
 }
 .article-card header h1 time {
     font-size: 1rem;
@@ -150,12 +153,16 @@ html, body {
     min-height: 100%;
 }
 #content {
-    padding-bottom: 2.825rem;
+    padding-bottom: 3.75rem;
     overflow: auto;
 }
-/*main a:nth-child(6) .article-card {
-    padding-bottom: 2.825rem !important;
-}*/
+main a:nth-child(6) .article-card {
+    padding-bottom: 3.75rem !important;
+    margin-bottom: -3.75rem !important;
+}
+main a:nth-child(6) .article-card header h1 {
+    margin-bottom: 2rem;
+}
 /* Opera Fix */
 body:before {
     content: "";
@@ -468,15 +475,15 @@ article hr, footer hr {
     margin-right: 5%;
 }
 #bottom-navigation h4 {
-    margin-top: 0.5rem;
+    margin-top: 1rem;
     padding-bottom: 0;
     margin-bottom: 0;
 }
 #bottom-navigation {
     position: relative;
     bottom: 0;
-    height: 2.825rem;
-    margin-top: -2.825rem;
+    height: 3.75rem;
+    margin-top: -3.75rem;
     clear: both;
     z-index: 9999;
     margin-bottom: 0;
@@ -633,14 +640,14 @@ menu, #bottom-navigation, .archive-album-art, .avatar {
 
 /* Post header drop shadow */
 article header {
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12), 0 2px 10px 0 rgba(0, 0, 0, 0.10), inset 0px 0px 20px #969594;
+    /*box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12), 0 2px 10px 0 rgba(0, 0, 0, 0.10), inset 0px 0px 20px #969594;
     -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12), 0 2px 10px 0 rgba(0, 0, 0, 0.10), inset 0px 0px 20px #969594;
     -moz-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12), 0 2px 10px 0 rgba(0, 0, 0, 0.10), inset 0px 0px 20px #969594;
 
     -webkit-transition: -webkit-box-shadow 0.25s ease 0s;
     -moz-transition: -moz-box-shadow 0.25s ease 0s;
     -o-transition: -o-box-shadow 0.25s ease 0s;
-    transition: box-shadow 0.25s ease 0s;
+    transition: box-shadow 0.25s ease 0s;*/
 }
 
 /* Logo */
@@ -674,6 +681,12 @@ article header {
     -moz-transition: -moz-box-shadow 0.25s ease 0s;
     -o-transition: -o-box-shadow 0.25s ease 0s;
     transition: box-shadow 0.25s ease 0s;
+}
+
+.review-page main {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.18);
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.18);
+    -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.18);
 }
 
 /* Dividers */
@@ -729,7 +742,7 @@ a:hover {
     color: #CF0000;
 }
 
-article a {
+main a {
     font-weight: 500;
 }
 
@@ -865,9 +878,10 @@ Font size: 19px, ~Margin&Padding: 28.5px
         margin-top: .5rem;
         padding-bottom: .5rem
     }
-    /*main a:nth-child(6) .article-card {
+    main a:nth-child(6) .article-card {
         padding-bottom: 1rem !important;
-    }*/
+        margin-bottom: 0 !important;
+    }
 
 
     /* ----- NAVBAR ----- */
@@ -1069,6 +1083,10 @@ Font size: 19px (didn't change), ~Margin&Padding: 28.5px
         background-color: transparent;
         padding-left: 0;
         padding-right: 0;
+
+        box-shadow: none;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
     }
     .review-page article {
         background-color: #F8F7F5;
