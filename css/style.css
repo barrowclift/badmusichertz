@@ -22,9 +22,41 @@ Font size: 14px, ~Margin&Padding: 21px
 
 /* FONTS FAMILIES ------------------------------------------------------------------- */
 
+@font-face {
+  font-family: "Adelle Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/AdelleSans-Regular.otf");
+}
+@font-face {
+  font-family: "Adelle Sans";
+  font-style: italic;
+  font-weight: 400;
+  src: url("/fonts/AdelleSans-Italic.otf");
+}
+@font-face {
+  font-family: "Adelle Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("/fonts/AdelleSans-Bold.otf");
+}
+@font-face {
+  font-family: "Adelle Sans";
+  font-style: italic;
+  font-weight: 700;
+  src: url("/fonts/AdelleSans-BoldItalic.otf");
+}
+@font-face {
+  font-family: "Adelle Sans";
+  font-style: normal;
+  font-weight: 900;
+  src: url("/fonts/AdelleSans-Heavy.otf");
+}
+
 /* Font Families (input and textarea explicitly included to fix Windows issues) */
 html, input, textarea {
-    font-family: "Avenir Next", "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-family: "Adelle Sans";
+    /*font-family: "Adelle Sans", "Trebuchet MS", Helvetica, sans-serif;*/
 
     /* Font rendering in OS X Firefox is TERRIBLE. This makes the browser tolerable */
     -moz-osx-font-smoothing: grayscale;
@@ -32,9 +64,6 @@ html, input, textarea {
        the text a bit and makes it more crisp and pleasing to read. */
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
-}
-h1, h2, h3, h4, h5, h6, time, #page-footer {
-    font-family: "Adelle Sans", "Trebuchet MS", Helvetica, sans-serif;
 }
 
 /* FONT SIZES & KERNING ------------------------------------------------------------------- */
@@ -62,11 +91,8 @@ h1 {
     }
 h2 {
     font-size: 2em; /* 14px from <p> * 2 */
-    line-height: 2.625rem; /* 21px * 1.75 */
-    margin: 2.625rem 0; /* 21px * 1.75 */
-}
-hr + h2 {
-    margin-top: 1.5rem;
+    line-height: 1.1875em;
+    margin: 1.875rem 0; /* 21px * 1.75 */
 }
 h3 {
     font-size: 1.5em; /* 14px from <p> * 1.5 */
@@ -100,9 +126,9 @@ p, blockquote, ol, ul, table, ol li, ul li {
     }
 time {
     font-size: 0.5em;
-    line-height: 2rem; /* 21px */
-    margin-top: 0.5rem; /* 21px * 0.5 */
-    margin-bottom: 1rem;
+    line-height: 1.875rem; /* 21px */
+    /*margin-top: 0.5rem;*/ /* 21px * 0.5 */
+    /*margin-bottom: 1rem;*/
 }
 .article-card header h1 time {
     font-size: 1rem;
@@ -153,12 +179,12 @@ html, body {
     min-height: 100%;
 }
 #content {
-    padding-bottom: 3.75rem;
+    padding-bottom: 3.5rem;
     overflow: auto;
 }
 main a:nth-child(6) .article-card {
-    padding-bottom: 3.75rem !important;
-    margin-bottom: -3.75rem !important;
+    padding-bottom: 3.5rem !important;
+    margin-bottom: -3.5rem !important;
 }
 main a:nth-child(6) .article-card header h1 {
     margin-bottom: 2rem;
@@ -240,6 +266,10 @@ compensate */
     margin-bottom: 0.65rem;
     display: inline-block;
 }
+#website-title span {
+    letter-spacing: 0.025em;
+    margin-left: 0.05em;
+}
 
 /* ----- MENU ----- */
 
@@ -250,6 +280,10 @@ menu {
     right: 0;
     top: 0;
     z-index: 200;
+}
+menu a {
+    font-weight: 900 !important;
+    letter-spacing: 0.025em;
 }
 menu ul {
     list-style-type: none;
@@ -264,7 +298,7 @@ menu ul {
 }
 menu ul li {
     margin-bottom: 0;
-    margin-left: 5vw;
+    margin-left: 4.5vw;
     text-align:center;
     margin-top: 1.25rem;
     display: inline-block;
@@ -276,7 +310,7 @@ menu header a {
 }
 #content {
     /* Pushing all content below floating navbar */
-    padding-top: 3.75rem;
+    padding-top: 3.85rem;
 }
 
 /* WRITING CORE ------------------------------------------------------------------- */
@@ -340,19 +374,11 @@ blockquote > :first-child {
 
 .article-card {
     padding-top: 2.5rem;
-    padding-bottom: 1rem;
+    padding-bottom: 1.25rem;
     background-position: center;
     background-size: cover;
     padding-left: 5%;
     padding-right: 5%;
-
-    /*width: 80%;
-    text-align: center;
-    display: inline-block;
-    border-radius: 1em;
-    margin: 1em;
-    margin-top: 0.5em;
-    margin-bottom: 0.75em;*/
 }
 .article-card img {
     width: 90%;
@@ -454,8 +480,8 @@ hr {
     margin-right: -30vw;
 }
 article hr, footer hr {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
     height: 2px;
     width: 70%;
 }
@@ -482,8 +508,8 @@ article hr, footer hr {
 #bottom-navigation {
     position: relative;
     bottom: 0;
-    height: 3.75rem;
-    margin-top: -3.75rem;
+    height: 3.5rem;
+    margin-top: -3.5rem;
     clear: both;
     z-index: 9999;
     margin-bottom: 0;
@@ -638,18 +664,6 @@ menu, #bottom-navigation, .archive-album-art, .avatar {
     -moz-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12), 0 2px 10px 0 rgba(0, 0, 0, 0.10);
 }
 
-/* Post header drop shadow */
-article header {
-    /*box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12), 0 2px 10px 0 rgba(0, 0, 0, 0.10), inset 0px 0px 20px #969594;
-    -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12), 0 2px 10px 0 rgba(0, 0, 0, 0.10), inset 0px 0px 20px #969594;
-    -moz-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12), 0 2px 10px 0 rgba(0, 0, 0, 0.10), inset 0px 0px 20px #969594;
-
-    -webkit-transition: -webkit-box-shadow 0.25s ease 0s;
-    -moz-transition: -moz-box-shadow 0.25s ease 0s;
-    -o-transition: -o-box-shadow 0.25s ease 0s;
-    transition: box-shadow 0.25s ease 0s;*/
-}
-
 /* Logo */
 #title:hover {
     color: #333333;
@@ -698,6 +712,9 @@ article hr, footer hr {
     background-color: #D0D0CE;
     background: #D0D0CE; /* Old browsers */
 }
+article header h1 time {
+    margin-bottom: 1rem;
+}
 
 /* Highlight Color */
 ::selection { /* Safari Highlight Color */
@@ -742,8 +759,12 @@ a:hover {
     color: #CF0000;
 }
 
-main a {
-    font-weight: 500;
+.review-page main a,
+p a {
+    text-decoration: underline;
+}
+.reversefootnote {
+    text-decoration: none !important;
 }
 
 menu ul li a,
@@ -875,11 +896,11 @@ Font size: 19px, ~Margin&Padding: 28.5px
         max-width: none;
     }
     main {
-        margin-top: .5rem;
-        padding-bottom: .5rem
+        margin-top: 0.75rem;
+        padding-bottom: 0.75rem;
     }
     main a:nth-child(6) .article-card {
-        padding-bottom: 1rem !important;
+        padding-bottom: 1.25rem !important;
         margin-bottom: 0 !important;
     }
     main a:nth-child(6) .article-card header h1 {
@@ -911,7 +932,6 @@ Font size: 19px, ~Margin&Padding: 28.5px
         float: left;
     }
     #website-title a span {
-        font-weight: bold;
         font-size: 2rem;
     }
 
@@ -968,7 +988,7 @@ Font size: 19px, ~Margin&Padding: 28.5px
         padding-right: 0;
         max-width: 46vw;
         width: 100%;
-        margin: 0.5rem 0.375rem;
+        margin: 0.55rem 0.45rem;
         display: inline-block;
         border-radius: 1em;
     }
@@ -1000,6 +1020,9 @@ Font size: 19px, ~Margin&Padding: 28.5px
 
     #content {
         padding-top: 3.25rem;
+    }
+    #content.review-page {
+        padding-top: 2.65rem;
     }
 
 
@@ -1097,6 +1120,7 @@ Font size: 19px (didn't change), ~Margin&Padding: 28.5px
         padding-right: 2.5rem;
         border-radius: 4px;
         padding-bottom: 1rem;
+        padding-top: 1rem;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.18);
         -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.18);
         -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.18);
@@ -1108,14 +1132,14 @@ Font size: 19px (didn't change), ~Margin&Padding: 28.5px
         margin-right: 1rem;
     }
     menu ul li {
-        margin-top: 1.3rem;
+        margin-top: 1.4rem;
         margin-left: 2.5rem;
     }
     #website-title {
         margin-left: 1rem;
     }
     #content {
-        padding-top: 64px;
+        padding-top: 64px !important;
     }
 
 
@@ -1138,7 +1162,7 @@ Font size: 19px (didn't change), ~Margin&Padding: 28.5px
         width: 20vw;
     }
     .article-card {
-        margin: 0.75rem 0.575rem;
+        margin: 0.75rem 0.675rem;
     }
 
 
@@ -1219,7 +1243,7 @@ Font size: 19px (didn't change), ~Margin&Padding: 28.5px
     }
     article header h1 time {
         color: #969594 !important;
-        margin-bottom: 3rem;
+        margin-bottom: 2.5rem;
     }
 }
 
@@ -1261,5 +1285,8 @@ Font size: 19px (didn't change), ~Margin&Padding: 28.5px
         padding-bottom: 2.25rem;
         max-width: 860px;
         width: 46vw;
+    }
+    main a:nth-child(6) .article-card {
+        padding-bottom: 2.25rem !important;
     }
 }

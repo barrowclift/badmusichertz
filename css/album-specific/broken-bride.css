@@ -70,10 +70,6 @@ menu ul li a:hover,
     background-color: #759D9A;
 }
 
-a {
-    text-decoration: underline;
-    font-weight: bold;
-}
 #website-title a,
 menu ul li a {
     text-decoration: none;

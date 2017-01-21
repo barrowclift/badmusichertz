@@ -1,17 +1,17 @@
 {% if paginator.next_page or paginator.previous_page %}
 <div id="bottom-navigation">
 	<h4 id="navigation-previous">
-		<a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">
+		<a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">
 			<img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-			{% if paginator.next_page %}
-			← Older
+			{% if paginator.previous_page %}
+			← Newer
 			{% endif %}
 		</a>
 	</h4>
 	<h4 id="navigation-next">
-		<a href="{{ paginator.previous_page_path | replace: 'index.html', '/' | prepend: site.baseurl | replace: '//', '/' }}">
-			{% if paginator.previous_page %}
-			Newer →
+		<a href="{{ paginator.next_page_path | replace: 'index.html', '/' | prepend: site.baseurl | replace: '//', '/' }}">
+			{% if paginator.next_page %}
+			More →
 			{% endif %}
 			<img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
 		</a>
