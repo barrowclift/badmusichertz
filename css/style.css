@@ -92,7 +92,10 @@ h1 {
 h2 {
     font-size: 2em; /* 14px from <p> * 2 */
     line-height: 1.1875em;
-    margin: 1.875rem 0; /* 21px * 1.75 */
+    margin: 3rem 0; /* 21px * 1.75 */
+}
+hr + h2 {
+    margin-top: 1.5rem;
 }
 h3 {
     font-size: 1.5em; /* 14px from <p> * 1.5 */
@@ -480,8 +483,8 @@ hr {
     margin-right: -30vw;
 }
 article hr, footer hr {
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
     height: 2px;
     width: 70%;
 }
