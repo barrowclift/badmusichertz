@@ -1,111 +1,139 @@
-/* PAGE CONTAINERS & WRITING ELEMENTS ----------------------------------------------------------- */
 article hr, footer hr {
-    background-color: #9F9F9F;
-    background: #9F9F9F; /* Old browsers */
+	background-color: #9F9F9F;
+	background: #9F9F9F; /* Old browsers */
 }
-
 .album-art {
-    box-shadow: none;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
 }
-#bottom-navigation, menu {
-    /*background-color: RGBA(4, 4, 5, .75);*/
-    background-color: RGBA(35,35,35,.75);
+menu {
+	background-color: rgba(25, 25, 25, 0.95);
+}
+.safari menu {
+	background-color: rgba(25, 25, 25, 0.7);
 }
 #content, html {
-    background-color: #101010;
+	background-color: #101010;
 }
 menu ul li a:link,
 menu ul li a:visited,
-#website-title a,
-#website-title a:link,
-#website-title a:visited {
-    color: #FCFDFD;
+#logo span {
+	color: #FCFDFD;
+}
+#logo .record .loud-grooves {
+	stroke: hsl(60, 25%, 94%);
+	fill: hsl(60, 25%, 98%);
+}
+#logo .record .quiet-grooves {
+	fill: hsl(60, 25%, 96%);
+}
+#logo .record .flat-grooves {
+	fill: hsl(60, 25%, 94%);
+}
+#logo .record .runout {
+	stroke: hsl(60, 25%, 94%);
+}
+#logo:hover .record .loud-grooves {
+	stroke: hsl(180, 21%, 65%);
+	fill: hsl(180, 21%, 69%);
+}
+#logo:hover .record .quiet-grooves {
+	fill: hsl(180, 21%, 67%);
+}
+#logo:hover .record .flat-grooves {
+	fill: hsl(180, 21%, 65%);
+}
+#logo:hover .record .runout {
+	stroke: hsl(180, 21%, 65%);
+}
+#logo .label {
+	fill: #759D9A;
+}
+#logo:hover .label {
+	fill: hsl(176, 17%, 75%);
 }
 main, .review-page article {
-    background-color: #101010;
-    color: #FCFDFD;
-    box-shadow: none;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
+	background-color: unset;
+	color: #FCFDFD;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
 }
 article header {
-    background-image: none !important;
-    box-shadow: none;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
+	background-image: none !important;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
 }
 article header h1 span {
-    color: #E3E3E3 !important;
+	color: #E3E3E3 !important;
 }
 article header h1 time {
-    color: #9F9F9F !important;
+	color: #759D9A !important;
 }
 
-
-/* HIGHLIGHT ----------------------------------------------------------- */
 /* Safari */
 ::selection {
-    background: #99CECB;
-    color: #FCFDFD;
+	background: #99CECB;
+	color: #FCFDFD;
 }
 /* Firefox */
 ::-moz-selection {
-    background: #99CECB;
-    color: #FCFDFD;
+	background: #99CECB;
+	color: #FCFDFD;
 }
 
-
-/* LINKS ----------------------------------------------------------- */
 a, a:link, a:visited {
-    color: #FCFDFD;
+	color: #759D9A;
 }
 a:hover,
 menu ul li a:hover,
-#website-title a:hover {
-    color: #759D9A;
+#logo:hover span {
+	color: #9EC0C0;
 }
-#title #album-color {
-    background-color: #759D9A;
+#logo .label {
+	background-color: #759D9A;
 }
 
-#website-title a,
+#logo a,
 menu ul li a {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 .bigfoot-footnote__button,
 .bigfoot-footnote__button:link,
 .bigfoot-footnote__button:visited {
-    background-color: #FCFDFD;
+	background-color: #759D9A;
 }
 .bigfoot-footnote__button:hover,
 .bigfoot-footnote__button:focus,
 .bigfoot-footnote__button:active,
 .bigfoot-footnote__button.is-active {
-    background-color: #759D9A;
+	background-color: #9EC0C0;
 }
 .bigfoot-footnote__tooltip {
-    background-color: #222222;
-    border: 1px solid #292929;
+	background-color: #222222;
+	border: 1px solid #292929;
 }
 .bigfoot-footnote,
 .bigfoot-footnote__wrapper {
-    background-color: #292929;
+	background-color: #292929;
 }
 .bigfoot-footnote__tooltip,
 .bigfoot-footnote__wrapper,
 .bigfoot-footnote__content {
-    background-color: #222222;
+	background-color: #222222;
 }
-.bigfoot-footnote__content,
+.bigfoot-footnote__content {
+	color: #FCFDFD;
+}
 .bigfoot-footnote__content a {
-    color: #FCFDFD;
+	color: #759D9A;
 }
 .bigfoot-footnote__content a:hover {
-    color: #759D9A;
+	color: #9EC0C0;
 }
 .bigfoot-footnote__button:after {
-    color: #101010;
+	color: white;
 }

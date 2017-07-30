@@ -4,7 +4,7 @@ layout: post
 album-name: "broken-bride"
 
 primary-color: "#E3E3E3"
-secondary-color: "#9F9F9F"
+secondary-color: "#759D9A"
 blurred-background: False
 dark-theme: True
 

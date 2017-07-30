@@ -2,6 +2,7 @@
 layout: default
 anchors: false
 ---
+<div id="article-cards">
 {% for post in paginator.posts %}
 	<a href="{{ post.url }}">
 		<div class="article-card" style="{% if post.blurred-card %}background-image: url('/images/album-art/{{ post.album-name }}/dark-blur.jpg');{% else %}background: {{post.color-stop-2}};background: -webkit-linear-gradient({{post.color-stop-1}}, {{post.color-stop-2}});background: -o-linear-gradient({{post.color-stop-1}}, {{post.color-stop-2}});background: -moz-linear-gradient({{post.color-stop-1}}, {{post.color-stop-2}});background: linear-gradient({{post.color-stop-1}}, {{post.color-stop-2}});{% endif %}">
@@ -15,3 +16,4 @@ anchors: false
 		</div>
 	</a>
 {% endfor %}
+</div>

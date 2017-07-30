@@ -5,10 +5,10 @@ layout: default
 	<img src="/images/album-art/{{ page.album-name }}/post.jpg" class="album-art" {% if page.title %}alt="{{ page.title }}'s album art"{% else %}alt="The album's cover"{% endif %} />
 </a>
 <article>
-	<header style="{% if page.blurred-card %}background-image: url('/images/album-art/{{ page.album-name }}/dark-blur.jpg');{% else %}background: {{page.color-stop-2}};background: -webkit-linear-gradient({{page.color-stop-1}}, {{page.color-stop-2}});background: -o-linear-gradient({{page.color-stop-1}}, {{page.color-stop-2}});background: -moz-linear-gradient({{page.color-stop-1}}, {{page.color-stop-2}});background: linear-gradient({{page.color-stop-1}}, {{page.color-stop-2}});{% endif %}" role="header">
+	<header role="header">
 		<h1>
-			<span style="color:{{ page.primary-color }}">{{ page.title }}</span>
-			<time style="color:{{ page.secondary-color }}" itemprop="dateCreated">Review by {{ page.author }}<br>{{ page.date | date: "%A, %B %-d, %Y" }}</time>
+			<span>{{ page.title }}</span>
+			<time itemprop="dateCreated">Review by {{ page.author }}<br>{{ page.date | date: "%A, %B %-d, %Y" }}</time>
 		</h1>
 	</header>
 	{{ content }}

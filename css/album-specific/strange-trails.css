@@ -1,0 +1,116 @@
+#content {
+	background-color: #22211F;
+}
+#content, html, main, .review-page article {
+	background-color: #22211F;
+}
+main, .review-page article {
+	color: #96A695;
+}
+article header h1 span {
+	color: #9F9444;
+}
+article header h1 time {
+	color: #728186;
+}
+
+/* Safari */
+::selection {
+	background: #bda54d;
+}
+/* Firefox */
+::-moz-selection {
+	background: #bda54d;
+}
+
+a, a:link, a:visited {
+	color: #bda54d;
+}
+.review-page main a, p a {
+	text-decoration: none;
+}
+menu ul li a:link,
+menu ul li a:visited,
+#logo span {
+	color: #bda54d;
+}
+a:hover,
+menu ul li a:hover,
+#logo:hover span {
+	color: hsl(47, 46%, 65%);
+}
+
+menu {
+	background-color: rgba(26, 26, 27, 0.95);
+}
+.safari menu {
+	background-color: rgba(26, 26, 27, 0.7);
+}
+#logo .record .loud-grooves {
+	stroke: hsl(47, 46%, 48%);
+	fill: hsl(47, 46%, 52%);
+}
+#logo .record .quiet-grooves {
+	fill: hsl(47, 46%, 50%);
+}
+#logo .record .flat-grooves {
+	fill: hsl(47, 46%, 48%);
+}
+#logo .record .runout {
+	stroke: hsl(47, 46%, 48%);
+}
+#logo:hover .record .loud-grooves {
+	stroke: hsl(47, 46%, 61%);
+	fill: hsl(47, 46%, 65%);
+}
+#logo:hover .record .quiet-grooves {
+	fill: hsl(47, 46%, 63%);
+}
+#logo:hover .record .flat-grooves {
+	fill: hsl(47, 46%, 61%);
+}
+#logo:hover .record .runout {
+	stroke: hsl(47, 46%, 61%);
+}
+#logo .label {
+	fill: hsl(193, 7%, 47%);
+}
+#logo:hover .label {
+	fill: hsl(193, 7%, 60%);
+}
+
+.bigfoot-footnote__button,
+.bigfoot-footnote__button:link,
+.bigfoot-footnote__button:visited {
+	background-color: #bda54d;
+}
+.bigfoot-footnote__button:hover,
+.bigfoot-footnote__button:focus,
+.bigfoot-footnote__button:active,
+.bigfoot-footnote__button.is-active {
+	background-color: hsl(47, 46%, 65%);
+}
+.bigfoot-footnote__tooltip {
+	background-color: #222222;
+	border: 1px solid rgba(255,255,255,0.05);
+}
+.bigfoot-footnote {
+	border: 1px solid rgba(255,255,255,0.025);
+}
+.bigfoot-footnote,
+.bigfoot-footnote__wrapper {
+	background-color: #292929;
+}
+.bigfoot-footnote__tooltip,
+.bigfoot-footnote__wrapper,
+.bigfoot-footnote__content {
+	background-color: #222222;
+}
+.bigfoot-footnote__content {
+	color: #96A695;
+}
+.bigfoot-footnote__button:after,
+.bigfoot-footnote__button.is-active:after,
+.bigfoot-footnote__button:hover:after {
+	color: #020202;
+}

@@ -1,41 +1,56 @@
-/* PAGE CONTAINERS & WRITING ELEMENTS ----------------------------------------------------------- */
 #content {
-    background-color: #5D5D42;
-    background-position: right;
+	background-color: #5D5D42;
+	background-position: right;
 }
 
-/* HIGHLIGHT ----------------------------------------------------------- */
 /* Safari */
 ::selection {
-    background: #5D5D42;
-    color: white;
+	background: #5D5D42;
+	color: white;
 }
 /* Firefox */
 ::-moz-selection {
-    background: #5D5D42;
-    color: white;
+	background: #5D5D42;
+	color: white;
 }
 
-
-/* LINKS ----------------------------------------------------------- */
 a, a:link, a:visited,
 menu ul li a:hover,
-#website-title a:hover {
-    color: #5D5D42;
+#logo:hover span {
+	color: #5D5D42;
+}
+#logo:hover .record .loud-grooves {
+	stroke: hsl(60, 17%, 29%);
+	fill: hsl(60, 17%, 31%);
+}
+#logo:hover .record .quiet-grooves {
+	fill: hsl(60, 17%, 30%);
+}
+#logo:hover .record .flat-grooves {
+	fill: hsl(60, 17%, 29%);
+}
+#logo:hover .record .runout {
+	stroke: hsl(60, 17%, 29%);
+}
+#logo .label {
+	fill: #5D5D42;
+}
+#logo:hover .label {
+	fill: hsl(60, 17%, 62%);
 }
 a:hover {
-    color: #77886A;
+	color: #77886A;
 }
 
 #title #album-color,
 .bigfoot-footnote__button,
 .bigfoot-footnote__button:link,
 .bigfoot-footnote__button:visited {
-    background-color: #5D5D42;
+	background-color: #5D5D42;
 }
 .bigfoot-footnote__button:hover,
 .bigfoot-footnote__button:focus,
 .bigfoot-footnote__button:active,
 .bigfoot-footnote__button.is-active {
-    background-color: #77886A;
+	background-color: #77886A;
 }

@@ -1,109 +1,120 @@
-/* PAGE CONTAINERS & WRITING ELEMENTS ----------------------------------------------------------- */
 article hr, footer hr {
-    background-color: RGBA(175, 167, 147, 0.5);
-    background: RGBA(175, 167, 147, 0.5); /* Old browsers */
+	background-color: rgba(175, 167, 147, 0.5);
+	background: rgba(175, 167, 147, 0.5); /* Old browsers */
 }
-blockquote {
-    border-color: RGBA(175, 167, 147, 0.5);
-    background-color: RGBA(175, 167, 147, 0.1);
-    color: RGBA(63, 52, 28, 0.75);
+menu {
+	background-color: rgba(255, 254, 249, 0.95);
 }
+	.safari menu {
+		background-color: rgba(255, 254, 249, 0.7);
+	}
 .album-art {
-    box-shadow: none;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
 }
-
 #content {
-    background-color: #FFFEF8;
+	background-color: #FFFEF8;
 }
 main, .review-page article {
-    background-color: #FFFEF8;
-    color: #3F341C;
-    box-shadow: none;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
+	background-color: #FFFEF8;
+	color: #3F341C;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
 }
 article header {
-    background-image: none !important;
-    box-shadow: none;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
+	background-image: none !important;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
 }
 article header h1 span {
-    color: #AA1C0F !important;
+	color: #AA1C0F !important;
 }
 article header h1 time {
-    color: #AFA793 !important;
+	color: #AFA793 !important;
 }
 
-
-/* HIGHLIGHT ----------------------------------------------------------- */
 /* Safari */
 ::selection {
-    background: #AA1C0F;
-    color: #FFFEF8;
+	background: #AA1C0F;
+	color: #FFFEF8;
 }
 /* Firefox */
 ::-moz-selection {
-    background: #AA1C0F;
-    color: #FFFEF8;
+	background: #AA1C0F;
+	color: #FFFEF8;
 }
 
-
-/* LINKS ----------------------------------------------------------- */
 a, a:link, a:visited {
-    color: #AA1C0F;
+	color: #AA1C0F;
 }
 a:hover,
 menu ul li a:hover,
-#website-title a:hover {
-    color: #EB2311;
+#logo:hover {
+	color: #EB2311;
 }
-#title #album-color {
-    background-color: #AA1C0F;
+#logo:hover .record .loud-grooves {
+	stroke: hsl(5, 87%, 47%);
+	fill: hsl(5, 87%, 49%);
+}
+#logo:hover .record .quiet-grooves {
+	fill: hsl(5, 87%, 48%);
+}
+#logo:hover .record .flat-grooves {
+	fill: hsl(5, 87%, 47%);
+}
+#logo:hover .record .runout {
+	stroke: hsl(5, 87%, 47%);
+}
+#logo .label {
+	fill: #AA1C0F;
+}
+#logo:hover .label {
+	fill: hsl(5, 84%, 72%);
 }
 
-#website-title a,
+#logo a,
 menu ul li a {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 .bigfoot-footnote__button,
 .bigfoot-footnote__button:link,
 .bigfoot-footnote__button:visited {
-    background-color: #AA1C0F;
+	background-color: #AA1C0F;
 }
 .bigfoot-footnote__button:hover,
 .bigfoot-footnote__button:focus,
 .bigfoot-footnote__button:active,
 .bigfoot-footnote__button.is-active {
-    background-color: #EB2311;
+	background-color: #EB2311;
 }
 .bigfoot-footnote__tooltip {
-    background-color: #FFFFF7;
-    border: 1px solid #FBFBF2;
+	background-color: #FFFFF7;
+	border: 1px solid #FBFBF2;
 }
 .bigfoot-footnote,
 .bigfoot-footnote__wrapper {
-    background-color: #FBFBF2;
+	background-color: #FBFBF2;
 }
 .bigfoot-footnote__tooltip,
 .bigfoot-footnote__wrapper,
 .bigfoot-footnote__content {
-    background-color: #FFFFF7;
+	background-color: #FFFFF7;
 }
 .bigfoot-footnote__content {
-    color: #3F341C;
+	color: #3F341C;
 }
 .bigfoot-footnote__content a {
-    color: #AA1C0F;
+	color: #AA1C0F;
 }
 .bigfoot-footnote__content a:hover {
-    color: #EB2311;
+	color: #EB2311;
 }
 .bigfoot-footnote__button:after,
 .bigfoot-footnote__button.is-active:after,
 .bigfoot-footnote__button:hover:after {
-    color: #FFFEF8;
+	color: #FFFEF8;
 }

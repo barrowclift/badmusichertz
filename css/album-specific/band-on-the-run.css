@@ -1,134 +1,151 @@
-/* PAGE CONTAINERS & WRITING ELEMENTS ----------------------------------------------------------- */
 article hr, footer hr {
-    background-color: #1B1B1B;
-    background: #1B1B1B; /* Old browsers */
-    background: -moz-linear-gradient(left,  #020202 0%, #1B1B1B 25%, #1B1B1B 50%, #1B1B1B 75%, #020202 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#020202), color-stop(25%,#1B1B1B), color-stop(50%,#1B1B1B), color-stop(75%,#1B1B1B), color-stop(100%,#020202)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(left,  #020202 0%,#1B1B1B 25%,#1B1B1B 50%,#1B1B1B 75%,#020202 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(left,  #020202 0%,#1B1B1B 25%,#1B1B1B 50%,#1B1B1B 75%,#020202 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(left,  #020202 0%,#1B1B1B 25%,#1B1B1B 50%,#1B1B1B 75%,#020202 100%); /* IE10+ */
-    background: linear-gradient(to right,  #020202 0%,#1B1B1B 25%,#1B1B1B 50%,#1B1B1B 75%,#020202 100%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#020202', endColorstr='#020202',GradientType=1 ); /* IE6-9 */
+	background-color: #1B1B1B;
+	background: #1B1B1B; /* Old browsers */
+	background: -moz-linear-gradient(left,  #020202 0%, #1B1B1B 25%, #1B1B1B 50%, #1B1B1B 75%, #020202 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#020202), color-stop(25%,#1B1B1B), color-stop(50%,#1B1B1B), color-stop(75%,#1B1B1B), color-stop(100%,#020202)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  #020202 0%,#1B1B1B 25%,#1B1B1B 50%,#1B1B1B 75%,#020202 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  #020202 0%,#1B1B1B 25%,#1B1B1B 50%,#1B1B1B 75%,#020202 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  #020202 0%,#1B1B1B 25%,#1B1B1B 50%,#1B1B1B 75%,#020202 100%); /* IE10+ */
+	background: linear-gradient(to right,  #020202 0%,#1B1B1B 25%,#1B1B1B 50%,#1B1B1B 75%,#020202 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#020202', endColorstr='#020202',GradientType=1 ); /* IE6-9 */
 }
+menu {
+	background-color: rgba(248, 249, 250, 0.95);
+}
+	.safari menu {
+		background-color: rgba(248, 249, 250, 0.7);
+	}
 article hr, footer hr {
-    background-color: RGBA(252, 252, 250, 0.5);
-    background: RGBA(252, 252, 250, 0.5); /* Old browsers */
-}
-blockquote {
-    border-left: 2px solid RGBA(252, 252, 250, 0.5);
-    background-color: #222222;
-    padding: 1rem;
-    border-top-right-radius: 1rem;
-    border-bottom-right-radius: 1rem;
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-    color: RGBA(230, 230, 230, 1);
+	background-color: rgba(252, 252, 250, 0.5);
+	background: rgba(252, 252, 250, 0.5); /* Old browsers */
 }
 .album-art {
-    box-shadow: none;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
 }
-
-#bottom-navigation, menu {
-    /*background-color: RGBA(4, 4, 5, .75);*/
-    /*background-color: RGBA(35,35,35,.75);*/
-    background-color: RGBA(27,27,27,.80);
+menu {
+	background-color: rgba(14, 14, 14, 0.95);
+}
+.safari menu {
+	background-color: rgba(14, 14, 14, 0.7);
 }
 menu ul li a:link,
 menu ul li a:visited,
-#website-title a,
-#website-title a:link,
-#website-title a:visited {
-    color: #FCFCFA;
+#logo span {
+	color: #FCFCFA;
+}
+#logo .record .loud-grooves {
+	stroke: hsl(60, 25%, 94%);
+	fill: hsl(60, 25%, 98%);
+}
+#logo .record .quiet-grooves {
+	fill: hsl(60, 25%, 96%);
+}
+#logo .record .flat-grooves {
+	fill: hsl(60, 25%, 94%);
+}
+#logo .record .runout {
+	stroke: hsl(60, 25%, 94%);
+}
+#logo:hover .record .loud-grooves {
+	stroke: hsl(27, 39%, 52%);
+	fill: hsl(27, 39%, 54%);
+}
+#logo:hover .record .quiet-grooves {
+	fill: hsl(27, 39%, 53%);
+}
+#logo:hover .record .flat-grooves {
+	fill: hsl(27, 39%, 52%);
+}
+#logo:hover .record .runout {
+	stroke: hsl(27, 39%, 52%);
+}
+#logo .label {
+	fill: #E5B780;
+}
+#logo:hover .label {
+	fill: hsl(27, 39%, 79%);
 }
 
 #content, html {
-    background-color: #020202;
+	background-color: rgba(9, 8, 10, 1.00);
 }
 main, .review-page article {
-    background-color: #020202;
-    color: #FCFCFA;
-    box-shadow: none;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
+	background-color: unset;
+	color: #FCFCFA;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
 }
 article header {
-    background-image: none !important;
-    box-shadow: none;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
+	background-image: none !important;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
 }
 article header h1 span {
-    color: #FCFCFA !important;
+	color: #FCFCFA !important;
 }
 article header h1 time {
-    /*color: #E5B780 !important;*/
-    color: RGBA(252, 252, 250, 0.5) !important;
+	color: rgba(252, 252, 250, 0.5) !important;
 }
-
-
-/* HIGHLIGHT ----------------------------------------------------------- */
 /* Safari */
 ::selection {
-    background: #E5B780;
-    color: #FCFCFA;
+	background: #E5B780;
+	color: #FCFCFA;
 }
 /* Firefox */
 ::-moz-selection {
-    background: #E5B780;
-    color: #FCFCFA;
+	background: #E5B780;
+	color: #FCFCFA;
 }
-
-
-/* LINKS ----------------------------------------------------------- */
 a, a:link, a:visited, .bigfoot-footnote__content a {
-    color: #E5B780;
+	color: #E5B780;
 }
 a:hover,
 menu ul li a:hover,
-#website-title a:hover,
+#logo:hover span,
 .bigfoot-footnote__content a:hover {
-    color: #B7845B;
-}
-#title #album-color {
-    background-color: #E5B780;
+	color: #B7845B;
 }
 
-#website-title a,
+#logo a,
 menu ul li a {
-    text-decoration: none;
+	text-decoration: none;
 }
-
 .bigfoot-footnote__button,
 .bigfoot-footnote__button:link,
 .bigfoot-footnote__button:visited {
-    background-color: #E5B780;
+	background-color: #E5B780;
 }
 .bigfoot-footnote__button:hover,
 .bigfoot-footnote__button:focus,
 .bigfoot-footnote__button:active,
 .bigfoot-footnote__button.is-active {
-    background-color: #B7845B;
+	background-color: #B7845B;
 }
 .bigfoot-footnote__tooltip {
-    background-color: #222222;
-    border: 1px solid #292929;
+	background-color: #222222;
+	border: 1px solid rgba(255,255,255,0.05);
+}
+.bigfoot-footnote {
+	border: 1px solid rgba(255,255,255,0.025);
 }
 .bigfoot-footnote,
 .bigfoot-footnote__wrapper {
-    background-color: #292929;
+	background-color: #292929;
 }
 .bigfoot-footnote__tooltip,
 .bigfoot-footnote__wrapper,
 .bigfoot-footnote__content {
-    background-color: #222222;
+	background-color: #222222;
 }
 .bigfoot-footnote__content {
-    color: #FCFCFA;
+	color: #FCFCFA;
 }
 .bigfoot-footnote__button:after,
 .bigfoot-footnote__button.is-active:after,
 .bigfoot-footnote__button:hover:after {
-    color: #020202;
+	color: #020202;
 }
