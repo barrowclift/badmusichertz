@@ -39,3 +39,4 @@ layout: null
 		{% endif %}
 		{% endfor %}
 	</channel>
+</rss>
