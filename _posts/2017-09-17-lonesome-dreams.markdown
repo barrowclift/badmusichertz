@@ -16,7 +16,7 @@ image: "/images/album-art/band-on-the-run/large.jpg"
 
 podcast-title: "1. Lonesome Dreams"
 podcast-filename: "bmh1.mp3"
-podcast-duration: 01:37:49
+podcast-duration: "01:37:49"
 podcast-size-in-bytes: 47437715
 
 categories:
