@@ -12,7 +12,7 @@ title: "Lonesome Dreams"
 author: "The Barrowclift Siblings"
 date: 2017-11-29 21:29:00
 last_modified_at: 2017-11-30 09:31:00
-excerpt: 
+excerpt: Join the Barrowclift siblings in their very first podcast as they analyze and celebrate Lord Huron's debut LP, *Lonesome Dreams*.
 image: "/images/album-art/band-on-the-run/large.jpg"
 
 podcast-title: "1. Lonesome Dreams"
@@ -26,7 +26,7 @@ categories:
   - Listen
 ---
 
-A celebration and analysis of Lord Huron's debut LP *Lonesome Dreams*.
+A celebration and analysis of Lord Huron's debut LP, *Lonesome Dreams*.
 
 * Lord Huron websites
 	- [*Lonesome Dreams* (Internet Archive)](https://web.archive.org/web/20121201170541/http://www.lordhuron.com/)
