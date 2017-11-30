@@ -35,7 +35,7 @@ menu ul li a:hover,
 	fill: #9DB396
 }
 #logo:hover .label {
-	fill: hsl(106, 16%, 80%)
+	fill: rgba(0,0,0,0);
 }
 a:hover {
 	color: #BAE0D1;

@@ -28,7 +28,6 @@ TABLE OF CONTENTS:
 		- Animations
 		- Positioning
 	* Media Queries
-	* Default Theme (Maroon)
 
 Small devices (iPhones)
 Font size: 14px, ~Margin&Padding: 20px
@@ -190,10 +189,20 @@ h1, h2, h3, h4, h5, h6, time {
 	}
 p,
 ol, ul, ol li, ul li,
-small {
+small,
+audio {
 	margin-top: 0;
 	margin-bottom: 1.3em;
 }
+	/**
+	 * Podcast shownotes are just short items, make them tight.
+	 */
+	#podcast ul,
+	#podcast ol,
+	#podcast ol li,
+	#podcast ul li {
+		margin-bottom: 0;
+	}
 time {
 	font-size: 0.5em;
 	margin-top: 0.5em;
@@ -242,6 +251,7 @@ ul {
 
 
 /* ----- TEXT STYLES ----- */
+menu a,
 menu {
 	font-weight: 900;
 }
@@ -256,6 +266,13 @@ h3,h4,h5,h6 {
 }
 time {
 	font-weight: 700;
+}
+
+a {
+	font-weight: 700;
+}
+#podcast a {
+	font-weight: normal;
 }
 
 time,
@@ -394,10 +411,10 @@ compensate*/
  * Unused at the moment
  */
 #logo .label {
-	fill: #ff6b6b;
+	fill: #fa5252;
 }
 #logo:hover .label {
-	fill: #ff8787;
+	fill: rgba(0,0,0,0);
 }
 #Oval-3-Copy {
 	fill: #f8f9fa;
@@ -572,8 +589,12 @@ menu, #bottom-navigation,
 	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12), 0 2px 10px 0 rgba(0, 0, 0, 0.10);
 }
 .article-card:hover img,
-#archive-shelf .album-art:hover {
+#archive-shelf .album-art:hover,
+.avatar:hover {
 	box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.20), 0 4px 12px 0 rgba(0, 0, 0, 0.28);
+}
+.avatar:hover {
+	transform: scale(1.025);
 }
 
 .review-page article,
@@ -584,6 +605,11 @@ menu, #bottom-navigation,
 
 /* IMAGES & VIDEO ------------------------------------------------------------------- */
 
+img {
+	max-width: 100%;
+	width: auto\9;
+	border-radius: 0.25em;
+}
 
 #content {
 	/* The blurred album art background in post view */
@@ -615,9 +641,59 @@ video {
 	height: auto;
 }
 
-.avatar {
+audio {
 	width: 100%;
-	border-radius: 1em;
+}
+
+.avatar {
+	width: 75%;
+	border-radius: 100%;
+	-webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+.avatar:hover {
+	-webkit-filter: none;
+	filter: none;
+}
+
+#listen-on-buttons svg {
+	width: 2.6em;
+	margin-top: 0;
+	margin-bottom: 1.3em;
+	margin-left: 0.65em;
+	margin-right: 0.65em;
+}
+#listen-on-buttons .logo {
+	fill: white;
+}
+#listen-on-buttons .start {
+	stop-color: #9F956B;
+}
+#listen-on-buttons .stop {
+	stop-color: #84794B;
+}
+#listen-on-buttons .apple-podcasts:hover .start {
+	stop-color: #F452FF !important;
+}
+#listen-on-buttons .apple-podcasts:hover .stop {
+	stop-color: #832BC1 !important;
+}
+#listen-on-buttons .overcast:hover .start {
+	stop-color: #FF9402 !important;
+}
+#listen-on-buttons .overcast:hover .stop {
+	stop-color: #FF613C !important;
+}
+#listen-on-buttons .pocketcasts:hover .start {
+	stop-color: #F0564C !important;
+}
+#listen-on-buttons .pocketcasts:hover .stop {
+	stop-color: #E14E50 !important;
+}
+
+.podcast-icon {
+	width: 0.75em;
+	display: inline-block;
 }
 
 
@@ -738,6 +814,12 @@ input, textarea {
 .article-card img {
 	transition: transform .25s ease-in-out, box-shadow .25s ease-in-out;
 }
+.avatar {
+	transition: transform .25s ease-in-out, box-shadow .25s ease-in-out, filter .25s ease-in-out;
+}
+#listen-on-buttons stop {
+	transition: stop-color 0.2s ease-in-out;
+}
 
 
 /* ----- POSITIONING & SHOWING ----- */
@@ -755,7 +837,7 @@ input, textarea {
 	visibility: visible;
 	display: inline;
 }
-.two-column {
+.column {
 	display: inline-block;
 	vertical-align: top;
 	margin-bottom: 1.3em;
@@ -763,12 +845,7 @@ input, textarea {
 	padding-left: 5%;
 	padding-right: 5%;
 }
-.two-column + .spacer {
-	width: 0;
-	display:inline-block;
-	max-width: 3.9em;
-}
-.two-column h2 {
+.column h2 {
 	margin-top: 0.5em;
 	text-align: center;
 }
@@ -990,15 +1067,14 @@ input, textarea {
 	.hide-when-medium {
 		display: inline;
 	}
-	.two-column {
-		width: 40vw;
+	.column {
+		width: 42vw;
 		max-width: 20em;
 		padding-left: 0;
 		padding-right: 0;
+		margin-left: 1.3em;
+		margin-right: 1.3em;
 	}
-	.two-column + .spacer {
-		width: 6vw;
-	}	
 }
 
 /* Large devices (Macs) */
@@ -1018,7 +1094,7 @@ input, textarea {
 
 	/* ----- ARTICLE ----- */
 	.review-page article {
-		background-color: #f8f9fa;
+		background-color: rgba(248, 249, 250, 0.95);
 		padding-left: 2.6em;
 		padding-right: 2.6em;
 		border-radius: 0.25em;
@@ -1070,7 +1146,7 @@ input, textarea {
 		visibility: visible;
 		display: inline;
 	}
-	.two-column {
+	.column {
 		width: 44vw;
 	}
 }

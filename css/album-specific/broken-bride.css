@@ -51,7 +51,7 @@ menu ul li a:visited,
 	fill: #759D9A;
 }
 #logo:hover .label {
-	fill: hsl(176, 17%, 75%);
+	fill: rgba(0,0,0,0);
 }
 main, .review-page article {
 	background-color: unset;

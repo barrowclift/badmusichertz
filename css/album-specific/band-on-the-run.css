@@ -65,7 +65,7 @@ menu ul li a:visited,
 	fill: #E5B780;
 }
 #logo:hover .label {
-	fill: hsl(27, 39%, 79%);
+	fill: rgba(0,0,0,0);
 }
 
 #content, html {

@@ -1,0 +1,41 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://www.rssboard.org/media-rss" version="2.0">
+	<channel>
+		<title>Bad Music Hertz</title>
+		<link>{{ site.url }}</link>
+		<lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+		<language>en-US</language>
+		<generator>Liquid with Jekyll</generator>
+		<itunes:author>Marc Barrowclift, Michael Barrowclift, and Aimee Guarnaccio</itunes:author>
+		<itunes:subtitle>Three siblings celebrating and discussing their favorite records.</itunes:subtitle>
+		<itunes:summary>Three siblings celebrating and discussing their favorite records.</itunes:summary>
+		<description>Three siblings celebrating and discussing their favorite records.</description>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:owner>
+			<itunes:name>badmusichertz@gmail.com</itunes:name>
+			<itunes:email>badmusichertz@gmail.com</itunes:email>
+		</itunes:owner>
+		<itunes:category text="Music"/>
+		<itunes:image href="{{ site.url }}/images/logo/podcast-cover-art.jpg" />
+		{% for post in site.posts %}
+		{% if post.layout == 'podcast' %}
+		<item>
+			<title>{{ post.podcast-title | xml_escape }}</title>
+			<dc:creator>Marc Barrowclift, Michael Barrowclift, and Aimee Guarnaccio</dc:creator>
+			<pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+			<link>{{ post.url | prepend: site.url }}</link>
+			<guid isPermaLink="true">{{ post.podcast-link | xml_escape }}</guid>
+			<itunes:author>Bad Music Hertz</itunes:author>
+			<itunes:subtitle>Celebrating and discussing Lord Huron's debut LP, "Lonesome Dreams".</itunes:subtitle>
+			<itunes:explicit>no</itunes:explicit>
+			<itunes:duration>{{ post.podcast-duration | xml_escape }}</itunes:duration>
+			<itunes:image href="{{ site.url }}/images/logo/podcast-cover-art.jpg"/>
+			<enclosure url="{{ site.shelf-baseurl | xml_escape }}/{{ post.album-name | xml_escape }}/{{ post.podcast-filename | xml_escape }}" length="{{ post.podcast-size-in-bytes | xml_escape }}" type="audio/mpeg"/>
+			<description><![CDATA[{{ post.content | cdata_escape }}]]></description>
+		</item>
+		{% endif %}
+		{% endfor %}
+	</channel>
