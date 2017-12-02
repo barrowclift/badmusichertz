@@ -189,8 +189,7 @@ h1, h2, h3, h4, h5, h6, time {
 	}
 p,
 ol, ul, ol li, ul li,
-small,
-audio {
+small {
 	margin-top: 0;
 	margin-bottom: 1.3em;
 }
@@ -689,6 +688,12 @@ audio {
 }
 #listen-on-buttons .pocketcasts:hover .stop {
 	stop-color: #E14E50 !important;
+}
+#listen-on-buttons .castro:hover .start {
+	stop-color: #00CCBF !important;
+}
+#listen-on-buttons .castro:hover .stop {
+	stop-color: #00B265 !important;
 }
 
 .podcast-icon {
