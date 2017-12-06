@@ -11,7 +11,8 @@ blurred-background: True
 title: "Strange Trails"
 author: "the Barrowclift Siblings"
 date: 2017-12-06 17:10:00
-excerpt: TODO
+last_modified_at: 2017-12-06 17:12:00
+excerpt: Join the Barrowclift siblings as they explore the winding road of Lord Huron's sophomore LP, *Strange Trails*.
 image: "/images/album-art/strange-trails/large.jpg"
 
 podcast-title: "2. Strange Trails"

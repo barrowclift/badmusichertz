@@ -29,7 +29,7 @@ layout: null
 			<link>{{ post.url | prepend: site.url }}</link>
 			<guid isPermaLink="true">{{ site.shelf-baseurl | xml_escape }}/{{ post.album-name | xml_escape }}/{{ post.podcast-filename | xml_escape }}</guid>
 			<itunes:author>Bad Music Hertz</itunes:author>
-			<itunes:subtitle>Celebrating and discussing Lord Huron's debut LP, "Lonesome Dreams".</itunes:subtitle>
+			<itunes:subtitle>{{ post.excerpt }}</itunes:subtitle>
 			<itunes:explicit>no</itunes:explicit>
 			<itunes:duration>{{ post.podcast-duration | xml_escape }}</itunes:duration>
 			<itunes:image href="{{ site.url }}/images/logo/podcast-cover-art.jpg"/>
