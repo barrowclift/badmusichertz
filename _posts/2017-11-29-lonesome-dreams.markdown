@@ -23,6 +23,10 @@ podcast-size-in-bytes: 47437715
 categories:
   - Podcast
   - Lord Huron
+  - Indie Rock
+  - Alternative Rock
+  - Indie Folk
+  - Alternative Pop
   - Listen
 ---
 

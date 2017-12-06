@@ -55,6 +55,12 @@ menu ul li a:hover,
 a:hover {
 	color: #8ea280;
 }
+#listen-on-buttons .start {
+	stop-color: #9F956B;
+}
+#listen-on-buttons .stop {
+	stop-color: #84794B;
+}
 
 #logo .label,
 .bigfoot-footnote__button,

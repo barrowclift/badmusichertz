@@ -76,7 +76,13 @@ menu {
 	fill: hsl(193, 7%, 47%);
 }
 #logo:hover .label {
-	fill: hsl(193, 7%, 60%);
+	fill: rgba(0,0,0,0);;
+}
+#listen-on-buttons .start {
+	stop-color: #bda54d;
+}
+#listen-on-buttons .stop {
+	stop-color: #9b873f;
 }
 
 .bigfoot-footnote__button,
