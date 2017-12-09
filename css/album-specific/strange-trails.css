@@ -5,7 +5,7 @@
 	background-color: #22211F;
 }
 main, .review-page article {
-	color: #96A695;
+	color: #CCCECA;
 }
 article header h1 span {
 	color: #9F9444;
@@ -113,7 +113,7 @@ menu {
 	background-color: #222222;
 }
 .bigfoot-footnote__content {
-	color: #96A695;
+	color: #CCCECA;
 }
 .bigfoot-footnote__button:after,
 .bigfoot-footnote__button.is-active:after,
