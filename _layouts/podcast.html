@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<a href="/images/album-art/{{ page.album-name }}/large.jpg" {% if page.album-art-hidden-text %}title="{{page.album-art-hidden-text}}"{% endif %}>
+<a style="display:block;" href="/images/album-art/{{ page.album-name }}/large.jpg" {% if page.album-art-hidden-text %}title="{{page.album-art-hidden-text}}"{% endif %}>
 	<img src="/images/album-art/{{ page.album-name }}/post.jpg" class="album-art" {% if page.title %}alt="{{ page.title }}'s album art"{% else %}alt="The album's cover"{% endif %} />
 </a>
 <article id="podcast">
@@ -12,7 +12,7 @@ layout: default
 		</h1>
 	</header>
 
-	<link rel="stylesheet" href="{{ site.baseurl }}/css/min/hint-1512833732.min.css" type="text/css" />
+	<link rel="stylesheet" href="{{ site.baseurl }}/css/min/hint-1513123593.min.css" type="text/css" />
 	<div id="listen-on-buttons">
 		<span class="hint--top hint--rounded hint--bounce" data-hint="Listen on Apple Podcasts">
 			<a href="https://itunes.apple.com/us/podcast/bad-music-hertz/id1319023897?mt=2">
