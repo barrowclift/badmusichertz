@@ -28,6 +28,7 @@ categories:
   - Indie Folk
   - Alternative Pop
   - Listen
+  - Album Review
 ---
 
 A celebration and analysis of Lord Huron's debut LP, *Lonesome Dreams*.

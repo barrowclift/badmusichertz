@@ -8,14 +8,47 @@ title: "Shelf"
 <link rel="stylesheet" href="{{ site.baseurl }}/css/min/hint-1513123593.min.css" type="text/css" />
 <h1>{{ page.title }}</h1>
 
-<div id="archive-shelf">
+<h2 style="text-align:center;">Articles</h2>
+<div class="shelf archive">
 	<p style="text-align:center">
 		{% for post in site.posts %}
+		{% if post.layout == 'post' %}
 		<span class="hint--top hint--rounded hint--bounce" data-hint="{{ post.title }}">
 			<a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
 				<img src="/images/album-art/{{ post.album-name }}/small.jpg" class="album-art">
 			</a>
 		</span>
+		{% endif %}
+		{% endfor %}
+	</p>
+</div>
+
+<h2 style="text-align:center;">Podcasts</h2>
+<div class="shelf specials">
+	<p style="text-align:center">
+		{% for post in site.posts %}
+		{% if post.layout == 'podcast' and post.categories contains "Album Review" %}
+		<span class="hint--top hint--rounded hint--bounce" data-hint="{{ post.title }}">
+			<a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
+				<img src="/images/album-art/{{ post.album-name }}/small.jpg" class="album-art">
+			</a>
+		</span>
+		{% endif %}
+		{% endfor %}
+	</p>
+</div>
+
+<h2 style="text-align:center;">Specials</h2>
+<div class="shelf specials">
+	<p style="text-align:center">
+		{% for post in site.posts %}
+		{% if post.categories contains "Special" %}
+		<span class="hint--top hint--rounded hint--bounce" data-hint="{{ post.title }}">
+			<a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
+				<img src="/images/album-art/{{ post.album-name }}/small.jpg" class="album-art">
+			</a>
+		</span>
+		{% endif %}
 		{% endfor %}
 	</p>
 </div>

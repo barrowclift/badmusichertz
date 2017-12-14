@@ -469,15 +469,15 @@ main a:nth-child(6) .article-card header h1 {
 	max-width: 40.25em;
 }
 
-#archive-shelf {
+.shelf {
 	margin-left: 0em;
 	margin-right: 0em;
 }
-	#archive-shelf .album-art {
+	.shelf .album-art {
 		width: 30vw;
 		margin: 0em .13em;
 	}
-	#archive-shelf .album-art:hover {
+	.shelf .album-art:hover {
 		transform: scale(1.06);
 	}
 
@@ -589,12 +589,12 @@ a:hover {
 /* ----- SHADOWS ----- */
 menu, #bottom-navigation,
 .article-card img,
-#archive-shelf .album-art,
+.shelf .album-art,
 .avatar {
 	box-shadow: 0 14px 26px -10px rgba(0, 0, 0, 0.2);
 }
 .article-card:hover img,
-#archive-shelf .album-art:hover,
+.shelf .album-art:hover,
 .avatar:hover {
 	box-shadow: 0 14px 26px -5px rgba(0, 0, 0, 0.3);
 }
@@ -723,34 +723,25 @@ audio {
 	width: 100%;
 	background-color: rgba(248, 247, 245, 0.95);
 }
-	.safari #bottom-navigation { /* Use Safari's lovely translucency, if available (see core.js) */
-		-webkit-backdrop-filter: saturate(180%) blur(20px);
-		backdrop-filter: saturate(180%) blur(20px);
-		background-color: rgba(248, 247, 245, 0.7);
-	}
-	#bottom-navigation h4 {
-		padding-bottom: 0;
-		margin-bottom: 0;
-		margin-top: 0.65em;
-	}
+.safari #bottom-navigation { /* Use Safari's lovely translucency, if available (see core.js) */
+	-webkit-backdrop-filter: saturate(180%) blur(20px);
+	backdrop-filter: saturate(180%) blur(20px);
+	background-color: rgba(248, 247, 245, 0.7);
+}
 	#bottom-navigation a {
 		color: #212529;
 	}
 	#bottom-navigation a:hover {
 		color: #e03131;
 	}
-#navigation-previous {
-	display: inline-block;
-	float: left;
-	text-align: left;
-	margin-left: 5%;
-}
-#navigation-next {
-	display: inline-block;
-	float: right;
-	text-align: right;
-	margin-right: 5%;
-}
+	#bottom-navigation .more {
+		padding-bottom: 0;
+		margin-bottom: 0;
+		margin-top: 0.65em;
+		display: inline-block;
+		width: 100%;
+		text-align: center;
+	}
 
 
 /* ----- FOOTNOTE BUTTONS ----- */
@@ -819,7 +810,7 @@ button {
 input, textarea {
 	transition: all 0.1s ease-in-out;
 }
-#archive-shelf .album-art {
+.shelf .album-art {
 	transition: box-shadow 338ms ease, transform 600ms ease;
 }
 .article-card,
@@ -841,7 +832,8 @@ input, textarea {
 	margin: 0 auto;
 }
 .hide-when-medium,
-.hide-when-small  {
+.hide-when-small,
+.show-when-large  {
 	display: none;
 	visibility: hidden;
 }
@@ -1031,11 +1023,11 @@ input, textarea {
 		margin-bottom: 2.1em;
 	}
 
-	#archive-shelf {
+	.shelf {
 		margin-left: 2.5%;
 		margin-right: 2.5%;
 	}
-		#archive-shelf .album-art {
+		.shelf .album-art {
 			width: 21.5vw;
 			margin: .13em .26em;
 		}
@@ -1130,7 +1122,7 @@ input, textarea {
 	}
 	menu ul li {
 		margin-top: 1.4rem;
-		margin-left: 3.9rem;
+		margin-left: 2.5rem;
 	}
 
 	/* ----- LOGO ----- */
@@ -1150,7 +1142,7 @@ input, textarea {
 	}
 
 	/* ----- ALBUM ART ----- */
-	#archive-shelf .album-art {
+	.shelf .album-art {
 		width: 193px;
 	}
 
@@ -1161,6 +1153,10 @@ input, textarea {
 	.hide-when-medium {
 		display: none;
 		visibility: hidden;
+	}
+	.show-when-large {
+		visibility: visible;
+		display: inline;
 	}
 	.show-when-medium {
 		visibility: visible;

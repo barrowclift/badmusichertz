@@ -28,6 +28,7 @@ categories:
   - Indie Folk
   - Alternative Pop
   - Listen
+  - Album Review
 ---
 
 * Previous episode - [Bad Music Hertz Episode 1: Lonesome Dreams]({{ site.baseurl }}/post/lonesome-dreams)
