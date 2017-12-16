@@ -8,47 +8,105 @@ title: "Shelf"
 <link rel="stylesheet" href="{{ site.baseurl }}/css/min/hint-1513123593.min.css" type="text/css" />
 <h1>{{ page.title }}</h1>
 
-<h2 style="text-align:center;">Articles</h2>
-<div class="shelf archive">
-	<p style="text-align:center">
-		{% for post in site.posts %}
-		{% if post.layout == 'post' %}
-		<span class="hint--top hint--rounded hint--bounce" data-hint="{{ post.title }}">
-			<a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
-				<img src="/images/album-art/{{ post.album-name }}/small.jpg" class="album-art">
-			</a>
-		</span>
-		{% endif %}
-		{% endfor %}
-	</p>
+<style>
+	h1 {
+		margin-top: 1.75em;
+	}
+	.tab-control {
+		margin-bottom: 2.6em;
+	}
+	.tab {
+		width: 31.5vw;
+		display: inline-block;
+		margin-left: -2px;
+		margin-right: -2px;
+		border-radius: 0em;
+		background: linear-gradient(#fa5252, #e03131);
+		cursor: pointer;
+		margin-bottom: 0;
+	}
+	.tab:focus {
+		outline: 0;
+	}
+	.tab.active {
+		background: linear-gradient(#c92a2a, #f03e3e);
+	}
+		.tab.left {
+			border-top-left-radius: 0.25em;
+			border-bottom-left-radius: 0.25em;
+		}
+		.tab.right {
+			border-top-right-radius: 0.25em;
+			border-bottom-right-radius: 0.25em;
+		}
+	@media (min-width: 700px) {
+		.tab {
+			width: 13em;
+		}
+	}
+</style>
+<div class="tab-control">
+	<button id="articles-tab" class="tab left" onclick="showTabView(event,'articles-view')">Article <span class="hide-when-small">Reviews</span></button>
+	<button id="podcasts-tab" class="tab" onclick="showTabView(event,'podcasts-view')">Podcast <span class="hide-when-small">Reviews</span></button>
+	<button id="specials-tab" class="tab right" onclick="showTabView(event, 'specials-view')">Specials</button>
 </div>
+<div>
+	<div class="shelf archive" id="articles-view">
+		<p style="text-align:center">
+			{% for post in site.posts %}
+			{% if post.layout == 'post' %}
+			<span class="hint--top hint--rounded hint--bounce" data-hint="{{ post.title }}">
+				<a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
+					<img src="/images/album-art/{{ post.album-name }}/small.jpg" class="album-art">
+				</a>
+			</span>
+			{% endif %}
+			{% endfor %}
+		</p>
+	</div>
 
-<h2 style="text-align:center;">Podcasts</h2>
-<div class="shelf specials">
-	<p style="text-align:center">
-		{% for post in site.posts %}
-		{% if post.layout == 'podcast' and post.categories contains "Album Review" %}
-		<span class="hint--top hint--rounded hint--bounce" data-hint="{{ post.title }}">
-			<a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
-				<img src="/images/album-art/{{ post.album-name }}/small.jpg" class="album-art">
-			</a>
-		</span>
-		{% endif %}
-		{% endfor %}
-	</p>
-</div>
+	<div class="shelf specials" id="podcasts-view">
+		<p style="text-align:center">
+			{% for post in site.posts %}
+			{% if post.layout == 'podcast' and post.categories contains "Album Review" %}
+			<span class="hint--top hint--rounded hint--bounce" data-hint="{{ post.title }}">
+				<a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
+					<img src="/images/album-art/{{ post.album-name }}/small.jpg" class="album-art">
+				</a>
+			</span>
+			{% endif %}
+			{% endfor %}
+		</p>
+	</div>
 
-<h2 style="text-align:center;">Specials</h2>
-<div class="shelf specials">
-	<p style="text-align:center">
-		{% for post in site.posts %}
-		{% if post.categories contains "Special" %}
-		<span class="hint--top hint--rounded hint--bounce" data-hint="{{ post.title }}">
-			<a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
-				<img src="/images/album-art/{{ post.album-name }}/small.jpg" class="album-art">
-			</a>
-		</span>
-		{% endif %}
-		{% endfor %}
-	</p>
+	<div class="shelf" id="specials-view">
+		<p style="text-align:center">
+			{% for post in site.posts %}
+			{% if post.categories contains "Special" %}
+			<span class="hint--top hint--rounded hint--bounce" data-hint="{{ post.title }}">
+				<a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
+					<img src="/images/album-art/{{ post.album-name }}/small.jpg" class="album-art">
+				</a>
+			</span>
+			{% endif %}
+			{% endfor %}
+		</p>
+	</div>
 </div>
+<script>
+	// https://www.w3schools.com/w3css/w3css_tabulators.asp
+	function showTabView(evt, tabName) {
+	    var i, x, tablinks;
+	    x = document.getElementsByClassName("shelf");
+	    for (i = 0; i < x.length; i++) {
+	        x[i].style.display = "none";
+	    }
+	    tablinks = document.getElementsByClassName("tab");
+	    for (i = 0; i < x.length; i++) {
+	        tablinks[i].className = tablinks[i].className.replace(" active", "");
+	    }
+	    document.getElementById(tabName).style.display = "block";
+	    evt.currentTarget.className += " active";
+	}
+	document.getElementById("articles-tab").click();
+</script>

@@ -463,9 +463,9 @@ main a:nth-child(6) .article-card header h1 {
 /* ----- ALBUM ART ----- */
 .album-art {
 	border-radius: 0.25em;
-	margin-bottom: 0.775em;
-	margin-top: 1.3em;
-	width: 90vw;
+	margin-bottom: 7.9vw;
+	margin-top: 10.1vw;
+	width: 80vw;
 	max-width: 40.25em;
 }
 
