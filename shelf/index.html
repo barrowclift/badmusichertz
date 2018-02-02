@@ -31,6 +31,15 @@ title: "Shelf"
 	.tab.active {
 		background: linear-gradient(#c92a2a, #f03e3e);
 	}
+	.shelf {
+		transition: opacity 0.2s ease;
+		position: absolute;
+		width: 100%;
+	}
+	.hidden {
+		pointer-events: none;
+		opacity: 0;
+	}
 		.tab.left {
 			border-top-left-radius: 0.25em;
 			border-bottom-left-radius: 0.25em;
@@ -42,6 +51,9 @@ title: "Shelf"
 	@media (min-width: 700px) {
 		.tab {
 			width: 13em;
+		}
+		.shelf {
+			width: 95%;
 		}
 	}
 </style>
@@ -99,14 +111,14 @@ title: "Shelf"
 	    var i, x, tablinks;
 	    x = document.getElementsByClassName("shelf");
 	    for (i = 0; i < x.length; i++) {
-	        x[i].style.display = "none";
+	    	x[i].classList.add("hidden");
 	    }
 	    tablinks = document.getElementsByClassName("tab");
 	    for (i = 0; i < x.length; i++) {
-	        tablinks[i].className = tablinks[i].className.replace(" active", "");
+	        tablinks[i].classList.remove("active");
 	    }
-	    document.getElementById(tabName).style.display = "block";
-	    evt.currentTarget.className += " active";
+	    document.getElementById(tabName).classList.remove("hidden");
+	    evt.currentTarget.classList.add("active");
 	}
 	document.getElementById("articles-tab").click();
 </script>
