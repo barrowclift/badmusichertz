@@ -13,10 +13,12 @@ author: "Michael Barrowclift"
 date: 2016-02-14 11:48:15
 image: "/images/album-art/broken-bride/large.jpg"
 
+artist: LUDO
+genres:
+  - Rock
 categories:
-  - LUDO
-  - Pop
-  - Listen
+  - Article
+  - EP review
 ---
 
 Until I was in high school, the music that filled my iTunes library only consisted of Jimmy Buffett, Star Wars soundtracks that I used to play in the background while having epic battles with my LEGO (no shame), and my “Mix” playlist that consisted of songs passed on from my sister when she set up my first mp3 player[^mp3player]. Admittedly, at that time, it did not really interest me to explore music and expand my iTunes library beyond what I had. I only really had an iTunes library as a result my parents and siblings sharing stuff with me. Even with 30+ songs on my mp3 player, I rarely used it[^apology]. Oddly enough, playing music and actually listening to and appreciating it really was a foreign experience for me at the time. Songs to me existed solely only as single entities used for background noise, not as a collective piece of art that could share an experience or tell a story. However, my general disinterest and narrow perception of music started to drastically change when Marc and I started to share the car ride to and from high school. Already a lover of the arts and music, Marc, empowered with a cassette AUX jack, played different types of music that he had discovered. Whether I liked it, in cases of Death Cab for Cutie’s “Trasatlanticism”, or not, such as with the cases of Coldplay, the half hour commute to and from school was the time to learn to appreciate songs and music as a whole. Hit play and let the album roll was the rule of the ride.
@@ -58,6 +60,8 @@ I am ever grateful for Broken Bride and LUDO as they were able to show my high s
 If you are up for taking a romantic, action-packed, apocalyptic, musical adventure through spacetime, pop in your best pair of headphones or earbuds, press play, and enjoy—just be on the look out for the pterodactyls.
 
 [LUDO’s YouTube Channel](https://www.youtube.com/user/TheLudoVideoThing/videos)
+
+♫︎
 
 ----------
 

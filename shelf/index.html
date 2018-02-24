@@ -34,6 +34,7 @@ title: "Shelf"
 	.shelf {
 		transition: opacity 0.2s ease;
 		position: absolute;
+		left: 0;
 		width: 100%;
 	}
 	.hidden {
@@ -77,10 +78,10 @@ title: "Shelf"
 		</p>
 	</div>
 
-	<div class="shelf specials" id="podcasts-view">
+	<div class="shelf specials hidden" id="podcasts-view">
 		<p style="text-align:center">
 			{% for post in site.posts %}
-			{% if post.layout == 'podcast' and post.categories contains "Album Review" %}
+			{% if post.layout == 'podcast' and post.categories contains "Album review" %}
 			<span class="hint--top hint--rounded hint--bounce" data-hint="{{ post.title }}">
 				<a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
 					<img src="/images/album-art/{{ post.album-name }}/small.jpg" class="album-art">
@@ -91,7 +92,7 @@ title: "Shelf"
 		</p>
 	</div>
 
-	<div class="shelf" id="specials-view">
+	<div class="shelf hidden" id="specials-view">
 		<p style="text-align:center">
 			{% for post in site.posts %}
 			{% if post.categories contains "Special" %}

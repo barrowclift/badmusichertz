@@ -15,6 +15,7 @@ blurred-card: False
 title: "The Christmas Draft"
 author: "the Barrowclift Siblings"
 date: 2017-12-13 19:18:00
+last_modified_at: 2018-02-08 11:58:00
 excerpt: With the fire roaring and hot cocoa piping, join the Barrowclift siblings as they go head-to-head to see who can create the best Christmas EP. Whose is the best? You decide!
 image: "/images/album-art/the-christmas-draft/large.jpg"
 
@@ -27,6 +28,7 @@ categories:
   - Podcast
   - Special
   - Draft
+  - Holiday
 ---
 
 Look, up in the sky!
@@ -88,3 +90,5 @@ Honored fond memories of decorating the tree when we were little with an emphasi
 3. ["Emmanuel" - Amy Grant](https://www.youtube.com/watch?v=1_e_AwEPgXA)
 4. ["O Holy Night" - Mariah Carey](https://www.youtube.com/watch?v=bM9UGg1FINk)
 5. ["Have Yourself a Merry Little Christmas" - Judy Garland](https://www.youtube.com/watch?v=jxxTHzERTsk)
+
+♫︎

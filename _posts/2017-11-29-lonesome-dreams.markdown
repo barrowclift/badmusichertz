@@ -20,15 +20,15 @@ podcast-filename: "bmh1.mp3"
 podcast-duration: "01:37:49"
 podcast-size-in-bytes: 47437715
 
+artist: Lord Huron
+genres:
+  - Alternative pop
+  - Alternative rock
+  - Indie folk
+  - Indie rock
 categories:
   - Podcast
-  - Lord Huron
-  - Indie Rock
-  - Alternative Rock
-  - Indie Folk
-  - Alternative Pop
-  - Listen
-  - Album Review
+  - Album review
 ---
 
 A celebration and analysis of Lord Huron's debut LP, *Lonesome Dreams*.
@@ -60,3 +60,5 @@ A celebration and analysis of Lord Huron's debut LP, *Lonesome Dreams*.
 ![A *Lonesome Dreams* tale, *Time to Run* by George Ranger Johnson]({{ site.shelf-baseurl }}/lonesome-dreams/images/book-time-to-run.jpg)
 ![Page 7 of the *Lonesome Dreams* adventure novel]({{ site.shelf-baseurl }}/lonesome-dreams/images/page-7.jpg)
 ![Page 56 of the *Lonesome Dreams* adventure novel]({{ site.shelf-baseurl }}/lonesome-dreams/images/page-56.jpg)
+
+♫︎

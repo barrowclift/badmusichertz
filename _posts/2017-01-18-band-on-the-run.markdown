@@ -15,11 +15,15 @@ date: 2017-01-18 21:50:00
 excerpt: Sure, let's fly out and record our record at Lagos, Nigeria. What could go wrong?
 image: "/images/album-art/band-on-the-run/large.jpg"
 
-categories:
+artist:
   - Wings
   - Paul McCartney
+  - Paul McCartney & Wings
+genres:
   - Rock
-  - Listen
+categories:
+  - Article
+  - Album review
 ---
 
 Paul was in trouble.

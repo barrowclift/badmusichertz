@@ -13,11 +13,15 @@ author: "Michael Barrowclift"
 date: 2016-08-03 19:25:00
 image: "/images/album-art/relief/large.jpg"
 
-categories:
-  - Vacationer
+artist: Vacationer
+genres:
+  - Electro-dream pop
   - Nu-hula
-  - Tropical Pop
-  - Listen
+  - Psychedelic pop
+  - Tropical pop
+categories:
+  - Article
+  - Album review
 ---
 
 Second semester sophomore year of engineering is what separates the men and women from the boys and girls, so to speak. Sink or swim was the name of the game. Weekdays were 17 credit hours of classes, swim team practice, and research work all with the usual routine of a test per week and homework. Weekends were spent picking up all the loose ends that fell through the cracks from the previous week and preparing for the next. To quote my shampoo bottle, "Lather, Rinse, Repeat". Needless to say, I was beat and stuck deep in a rut.
@@ -68,6 +72,8 @@ Vacationer's brilliant choice of exotic samples and atmospheric nature sounds in
 
 > It's the dawn of the time of relief  
 > It could mean everything
+
+♫︎
 
 -----------
 

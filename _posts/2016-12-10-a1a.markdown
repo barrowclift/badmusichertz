@@ -16,9 +16,13 @@ author: "Michael Barrowclift"
 date: 2016-12-10 22:58:00
 image: "/images/album-art/a1a/large.jpg"
 
+artist: Jimmy Buffett
+genres:
+  - Gulf and western
+  - Country
 categories:
-  - Jimmy Buffett
-  - Listen
+  - Article
+  - Album review
 ---
 
 Coconut bras, plush parrot hats, and Hawaiian leis decorate an audience of 35,000 singing along to a 69 year old sporting aviators and sandals&#8212;"why don't we get drunk and screw?". Beyond the concert entrance is [a sea of decorated party buses and cars](https://encrypted.google.com/search?q=jimmy+buffett&hl=en&biw=1381&bih=906&source=lnms&tbm=isch&sa=X&ved=0ahUKEwip-YnVvsvPAhWky4MKHXy2AjoQ_AUICCgD#hl=en&tbm=isch&q=jimmy+buffett+concert+tailgate), where stragglers sing along as they happily bar-hop in the tailgate from one DIY margarita bar to the next. From this scene, it can be hard to believe that this 69 year old pirate began as a "shy ex-altar boy from Alabama". Like many, Jimmy Buffett's roller coaster of a journey began with the toe dip into adulthood&#8212;college.
@@ -111,6 +115,8 @@ In addition to possibly meeting Phillip Clark at one of the bars at Key West in 
 -------------
 
 For an artist with an impressive 29 albums, excluding live recordings and compilation albums, why *A1A*? After all, when taking into account cover songs, the album barely reaches LP length. To put it simply, I believe that the remaining songs in *A1A* encapsulate a special time in Buffett's life. Through songs like "Nautical Wheelers" and "A Pirate Looks at Forty", the album provides the listener with a looking glass into the culture and people of early 70s Key West and, subsequently, the album also gives a fresh glimpse into Buffett's bout of inspiration and creativity from his first years on the island. Furthermore, the sad, sour, retrospective career failure musings in "Dallas", the drunken 'fly by the seat of your pants' wanderings and lifestyle described in "Presents to Send You", and the pit-stop styled autobiographical up's and down's recounted in "Life Is Just A Tire Swing" present an interesting time-locked perspective on Buffett's feelings, life, and worldview at this pivotal time in his life and career. Indeed, this album not only gives a glimpse into the tropical foundation of Buffett's career, but with the album also containing Buffett staples such as "Pirate Looks at Forty", "Trying to Reason with Hurricane Season", "Nautical Wheelers", and "Tin Cup Chalice", I would argue that *A1A* is the tropical foundation of Buffett's career. So, I would encourage you to not dismiss Jimmy Buffett as a goofy, cult artist whose song lines only consist of the subject matters of margaritas and cheeseburgers. Through the crowd of parrotheads up on the stage, there is a pirate, sailor, and pilot behind those aviators who definitely has stories to tell.
+
+♫︎
 
 -------------
 

@@ -13,10 +13,14 @@ author: "Marc Barrowclift"
 date: 2016-05-26 18:05:00
 image: "/images/album-art/divers/large.jpg"
 
+artist: Joanna Newsom
+genres:
+  - Chamber folk
+  - Avant-garde
+  - Baroque pop
 categories:
-  - Joanna Newsom
-  - Baroque
-  - Listen
+  - Article
+  - Album review
 ---
 
 The soundscape and themes in Joanna Newsom's *Divers* are as dense and opaque as the unkempt garden on the cover. Among the sea of white-lab autotune vocals heard on today's radio hits a harpist sporting an old-style nasally voice straight out of [Disney's Snow White](https://www.youtube.com/watch?v=KlUbWNpg1os) seems so foreign that it might take listeners aback if they're not prepared for it. I'd wager not many people can recall the last time they heard a song containing harp instrumentals, let alone songs featuring them as the vocal lead's primary backing instrument. This sheds *Divers* in an almost unworldly glow, as if it exists in a dreamlike plane where time bears no meaning and moves as freely as the wind. This feeling does not seem accidental as time itself is one of the central themes on every single track in *Divers*. The album as a whole seems to resist attempts to pin it down to a sentence-long elevator pitch, Joanna went on record saying that if it were that easy ["I wouldn't have bothered making a record"](http://www.thefader.com/2015/10/19/joanna-newsom-divers-interview). Indeed, the album's lyrics are so layered it can take multiple listens to begin having any idea what she's trying to say deeper than the surface-level. With all the double-meanings at play and the inherit difficulty in following along with the album's frequent use of time travel *Divers* will leave you lost in time and space if you don't take care to follow along. For those that do, what awaits is a grand, never ending opus of love and time whose impact will stay with you long after you lift the needle.

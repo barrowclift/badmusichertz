@@ -13,10 +13,15 @@ author: "Marc Barrowclift"
 date: 2016-09-12 21:40:00
 image: "/images/album-art/the-suburbs/large.jpg"
 
+artist: Arcade Fire
+genres:
+  - Art rock
+  - Baroque pop
+  - Indie rock
+  - Post-punk revival
 categories:
-  - Arcade Fire
-  - Indie
-  - Listen
+  - Article
+  - Album review
 ---
 
 Sometimes, when lying in bed trying to sleep, I find myself slipping back to the past. Memories of old friends before time, differences, and distance took their toll fade back to the foreground to nag at my consciousness. We used to have so much fun together; what on earth happened? Revisiting my old neighborhood afterwards never offered much consolation. The few times my family and I visited since felt... off. Streets have been expanded, new houses built where there once were woods, and neighboring cornfields devoured by the insatiable suburban sprawl to join its sea of pavement and cheap strip malls.

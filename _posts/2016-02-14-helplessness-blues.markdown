@@ -13,10 +13,12 @@ author: "Marc Barrowclift"
 date: 2016-02-14 11:47:30
 image: "/images/album-art/helplessness-blues/large.jpg"
 
-categories:
-  - Fleet Foxes
+artist: Fleet Foxes
+genres:
   - Folk
-  - Listen
+categories:
+  - Article
+  - Album review
 ---
 
 I never finished my first listen of *Helplessness Blues*. Sure, I found the beginning and middle parts pleasant enough but near the tail end of the record a cacophonous, heinous solo not unlike a sax getting stabbed to death prompted me to immediately turn it off and walk away laughing. What a horrible song! What were they thinking? Never listening to this thing again, that's for sure.

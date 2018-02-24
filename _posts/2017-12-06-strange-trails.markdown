@@ -11,7 +11,7 @@ blurred-background: True
 title: "Strange Trails"
 author: "the Barrowclift Siblings"
 date: 2017-12-06 17:10:00
-last_modified_at: 2017-12-06 17:12:00
+last_modified_at: 2018-02-08 12:39:00
 excerpt: Join the Barrowclift siblings as they explore the winding road of Lord Huron's sophomore LP, *Strange Trails*.
 image: "/images/album-art/strange-trails/large.jpg"
 
@@ -20,19 +20,19 @@ podcast-filename: "bmh2.mp3"
 podcast-duration: "02:18:08"
 podcast-size-in-bytes: 66806709
 
+artist: Lord Huron
+genres:
+  - Alternative pop
+  - Alternative rock
+  - Indie folk
+  - Indie rock
 categories:
   - Podcast
-  - Lord Huron
-  - Indie Rock
-  - Alternative Rock
-  - Indie Folk
-  - Alternative Pop
-  - Listen
-  - Album Review
+  - Album review
 ---
 
 * Previous episode - [Bad Music Hertz Episode 1: Lonesome Dreams]({{ site.baseurl }}/post/lonesome-dreams)
-* Michael the Marmot ![]({{ site.shelf-baseurl }}/strange-trails/images/michael-the-marmot.png)
+* Michael the Marmot ![Screenshot of a Skype window with Aimee's avatar as a normal picture and Michael's as that of a fat marmot eating a Cheeto]({{ site.shelf-baseurl }}/strange-trails/images/michael-the-marmot.png)
 * [Strange Trails "Teaser Trailer"](https://www.youtube.com/watch?v=E-n6HR7lXLY)
 * [Strange Trails No. 7 "The World Ender" Comic Book](https://www.merchbar.com/rock-alternative/lord-huron/lord-huron-strange-trails-comic-book)
 * [Paul McCartney's *RAM*](https://itunes.apple.com/us/album/ram/id525824484)
@@ -111,3 +111,5 @@ categories:
 !["Way Out There" cover art]({{ site.shelf-baseurl }}/strange-trails/images/way-out-there.jpg)
 !["Louisa" cover art]({{ site.shelf-baseurl }}/strange-trails/images/louisa.jpg)
 !["The Night We Met" cover art]({{ site.shelf-baseurl }}/strange-trails/images/the-night-we-met.jpg)
+
+♫︎

@@ -1,9 +1,11 @@
 ---
 layout: default
 ---
-<a style="display:block;" href="/images/album-art/{{ page.album-name }}/large.jpg" {% if page.album-art-hidden-text %}title="{{page.album-art-hidden-text}}"{% endif %}>
-	<img src="/images/album-art/{{ page.album-name }}/post.jpg" class="album-art" {% if page.title %}alt="{{ page.title }}'s album art"{% else %}alt="The album's cover"{% endif %} />
-</a>
+<div style="display:block;">
+	<a href="/images/album-art/{{ page.album-name }}/large.jpg" {% if page.album-art-hidden-text %}title="{{page.album-art-hidden-text}}"{% endif %}>
+		<img src="/images/album-art/{{ page.album-name }}/post.jpg" class="album-art" {% if page.title %}alt="{{ page.title }}'s album art"{% else %}alt="The album's cover"{% endif %} />
+	</a>
+</div>
 <article id="podcast">
 	<header role="header">
 		<h1>

@@ -65,7 +65,7 @@ main {
 	/* Pushing all content below floating navbar */
 	padding-top: 3.25em;
 	
-	padding-bottom: 2.6em;
+	padding-bottom: 3.9em;
 	overflow: auto;
 }
 .wide-page {
@@ -283,7 +283,7 @@ a {
 time,
 figcaption,
 .weak {
-	color: #adb5bd;
+	color: rgba(0, 0, 0, 0.25);
 }
 
 em,
@@ -445,15 +445,12 @@ compensate*/
 	width: 90%;
 	border-radius: 0.25em;
 }
-	.article-card:hover img {
-		transform: scale(1.05);
-	}
 
 /* Pad the last article card on mobile ONLY so the album art appears through the
    translucent bottom footer navigation */   
 main a:nth-child(6) .article-card {
-	padding-bottom: 2.6em !important;
-	margin-bottom: -2.6em !important;
+	padding-bottom: 3.8em !important;
+	margin-bottom: -3.8em !important;
 }
 main a:nth-child(6) .article-card header h1 {
 	margin-bottom: 2rem;
@@ -593,7 +590,6 @@ menu, #bottom-navigation,
 .avatar {
 	box-shadow: 0 14px 26px -10px rgba(0, 0, 0, 0.2);
 }
-.article-card:hover img,
 .shelf .album-art:hover,
 .avatar:hover {
 	box-shadow: 0 14px 26px -5px rgba(0, 0, 0, 0.3);
@@ -665,9 +661,9 @@ audio {
 #listen-on-buttons svg {
 	width: 2.6em;
 	margin-top: 0;
-	margin-bottom: 1.3em;
-	margin-left: 0.65em;
-	margin-right: 0.65em;
+	padding-bottom: 1.3em;
+	padding-left: 0.65em;
+	padding-right: 0.65em;
 }
 #listen-on-buttons .logo {
 	fill: white;
@@ -716,8 +712,8 @@ audio {
 #bottom-navigation {
 	position: relative;
 	bottom: 0;
-	height: 2.6em;
-	margin-top: -2.6em;
+	height: 3.9em;
+	margin-top: -3.9em;
 	clear: both;
 	margin-bottom: 0;
 	width: 100%;
@@ -737,7 +733,7 @@ audio {
 	#bottom-navigation .more {
 		padding-bottom: 0;
 		margin-bottom: 0;
-		margin-top: 0.65em;
+		margin-top: 1em;
 		display: inline-block;
 		width: 100%;
 		text-align: center;
@@ -897,7 +893,7 @@ input, textarea {
 	/* ----- ROOT ----- */
 	#content {
 		padding-top: 3.15em;
-		padding-bottom: 3.15em;
+		padding-bottom: 7.8em;
 	}
 	main {
 		margin-bottom: 1.3em;
@@ -976,6 +972,9 @@ input, textarea {
 		transform: scale(1.025);
 		box-shadow: 0 14px 26px -5px rgba(0, 0, 0, 0.4);
 	}
+	.article-card:hover img {
+		box-shadow: 0 14px 26px -5px rgba(0, 0, 0, 0.3);
+	}
 		.article-card img {
 			display: inline-block;
 			width: 100%;
@@ -984,6 +983,9 @@ input, textarea {
 			margin: 0 auto;
 			padding-right: 0;
 		}
+		.article-card:hover img {
+			transform: scale(1.05);
+		}
 		.article-card header {
 			display: inline-block;
 			vertical-align: top;
@@ -991,7 +993,9 @@ input, textarea {
 			margin-top: 1rem;
 			margin-left: 0rem;
 			text-align: center;
-			width: 100%;
+			width: 90%;
+    		margin-left: 5%;
+    		margin-right: 5%;
 		}
 			.article-card header h1 {
 				margin-top: 0;
@@ -1052,8 +1056,11 @@ input, textarea {
 		backdrop-filter: unset;
 		background-color: unset;
 		box-shadow: unset;
-		height: 3.9em;
-		margin-top: -3.9em;
+		height: 7.8em;
+		margin-top: -7.8em;
+	}
+	#bottom-navigation .more {
+		margin-top: 1.95em;
 	}
 
 
@@ -1177,45 +1184,12 @@ input, textarea {
 	}
 }
 
-/* Super large devices (fullscreen browsing) */
 @media (min-width: 1760px) {
-	/* ELEMENTS ----------------------------------- */
-
-	/* ----- ARTICLE CARDS ----- */
 	.article-card {
+		max-width: 31vw;
 		width: 100%;
-		padding-bottom: 2.25rem;
-		max-width: 860px;
-		width: 46vw;
 	}
-		.article-card img {
-			max-width: 255px;
-			margin-left: 2rem;
-		}
-		.article-card header {
-			margin-top: 3rem;
-			margin-left: 1.5rem;
-			text-align: left;
-			width: 480px;
-		}
-			.article-card header h1 {
-				font-size: 2.5em;
-				line-height: 3rem;
-				margin-top: 0;
-				margin-bottom: 1rem;
-			}
-			.article-card header h1 time {
-				font-size: 0.5em;
-				line-height: 2rem;
-				margin-top: 0.5rem;
-				margin-bottom: 0;
-			}
-			.article-card header h1,
-			.article-card header h1 time {
-				text-align: left;
-			}
-
-	main a:nth-child(6) .article-card {
-		padding-bottom: 2.25rem !important;
+	.article-card img {
+		width: 13vw;
 	}
 }
