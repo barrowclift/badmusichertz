@@ -14,7 +14,7 @@ blurred-card: False
 title: "Favorite Video Game Soundtracks"
 author: "the Barrowclift Siblings &amp; Caity Cooper"
 date: 2018-06-24 15:30:00
-last_modified_at: 2018-06-24 15:30:00
+last_modified_at: 2018-06-24 16:33:00
 excerpt: "Marc and Michael with special guest Caity Cooper celebrate their favorite video game soundtracks of all time."
 image: "/images/album-art/favorite-video-game-soundtracks/large.jpg"
 
@@ -119,7 +119,7 @@ __Honorable Mentions:__
 2. *Uncharted II: Among Thieves*
     * ["Nate's Theme 2.0"](https://www.youtube.com/watch?v=nkPF5UiDi4g)
     * ["Helicopter and the Tank"](https://www.youtube.com/watch?v=vev8J3mrazY)
-    * [Warzone"](https://www.youtube.com/watch?v=2wXoWT4oHDI)
+    * ["Warzone"](https://www.youtube.com/watch?v=2wXoWT4oHDI)
 3. *Sonic 3D Blast* for [the pure 16 bit nostalgia](https://www.youtube.com/watch?v=2-lH7ru4wBA&list=PL2B69BAADE72B245D).
 
 ## Marc's Top 3
@@ -128,17 +128,17 @@ __Honorable Mentions:__
 
 __1st Pick:__ *Tony Hawk's Pro Skater 3*
 
-* [Hush](https://www.youtube.com/watch?v=2aD8wVwdCEc)
-* [Ace of Spades](https://www.youtube.com/watch?v=pWB5JZRGl0U)
-* [If You Must](https://www.youtube.com/watch?v=pjDAV6BmN6E)
+* ["Hush"](https://www.youtube.com/watch?v=2aD8wVwdCEc)
+* ["Ace of Spades"](https://www.youtube.com/watch?v=pWB5JZRGl0U)
+* ["If You Must"](https://www.youtube.com/watch?v=pjDAV6BmN6E)
 * [Bam Magera's Skater Clip](https://www.youtube.com/watch?v=dYqnkm06SCk)
 
 __2nd Pick:__ *Pokémon: Black and White*
 
-* [Victory is Right Before Your Eyes!](https://www.youtube.com/watch?v=CudEQjPKSNs&index=34&list=PL9mCMKp0o7xtyh_K9ul8b9lLL5OhC1YY-)
-* [Route 10](https://www.youtube.com/watch?v=kt-ZzBeDHQs&list=PL9mCMKp0o7xtyh_K9ul8b9lLL5OhC1YY-&index=110)
-* [N Decisive Battle](https://www.youtube.com/watch?v=28caQQxNhA4&index=129&list=PL9mCMKp0o7xtyh_K9ul8b9lLL5OhC1YY-)
-* [Ghetsis Battle](https://www.youtube.com/watch?v=ktqqE5cmE8M&list=PL9mCMKp0o7xtyh_K9ul8b9lLL5OhC1YY-&index=131)
+* ["Victory is Right Before Your Eyes!"](https://www.youtube.com/watch?v=CudEQjPKSNs&index=34&list=PL9mCMKp0o7xtyh_K9ul8b9lLL5OhC1YY-)
+* ["Route 10"](https://www.youtube.com/watch?v=kt-ZzBeDHQs&list=PL9mCMKp0o7xtyh_K9ul8b9lLL5OhC1YY-&index=110)
+* ["N Decisive Battle"](https://www.youtube.com/watch?v=28caQQxNhA4&index=129&list=PL9mCMKp0o7xtyh_K9ul8b9lLL5OhC1YY-)
+* ["Ghetsis Battle"](https://www.youtube.com/watch?v=ktqqE5cmE8M&list=PL9mCMKp0o7xtyh_K9ul8b9lLL5OhC1YY-&index=131)
 * [Ending Credits](https://www.youtube.com/watch?v=A9sX4VxOK8g&list=PL9mCMKp0o7xtyh_K9ul8b9lLL5OhC1YY-&index=183)
 
 __3rd Pick:__ *The Legend of Zelda: Twilight Princess* (The [*Twilight Symphony*](http://zreomusic.com/about) fan cover album)
