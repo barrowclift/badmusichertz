@@ -1,0 +1,132 @@
+
+#content {
+	background-color: #7F97E4;
+	background: -webkit-linear-gradient(#7F97E4, #C5D2FC);
+	background: -o-linear-gradient(#7F97E4, #C5D2FC);
+	background: -moz-linear-gradient(#7F97E4, #C5D2FC);
+	background: linear-gradient(#7F97E4, #C5D2FC);
+}
+html {
+	color: #010000;
+}
+
+#podcast ul, #podcast ol {
+	margin-bottom: 1.3em;
+}
+#podcast ul ul,
+#podcast ul ol,
+#podcast ol ul,
+#podcast ol ol {
+	margin-bottom: 0;
+}
+
+/* Safari */
+::selection {
+	background: #E5855A;
+}
+/* Firefox */
+::-moz-selection {
+	background: #E5855A;
+}
+
+menu ul li a:link,
+menu ul li a:visited,
+#logo span {
+	color: #010000;
+}
+menu ul li a:hover,
+#logo:hover span {
+	color: #FFFFFF;
+}
+a, a:link, a:visited {
+	color: #CC693C;
+}
+a:hover {
+	color: #BA482C;
+}
+article a:hover {
+	text-decoration: underline;
+}
+
+#logo .record .loud-grooves {
+	stroke: hsl(0, 100%, 0%);
+	fill: hsl(0, 100%, 5%);
+}
+#logo .record .quiet-grooves {
+	fill: hsl(0, 100%, 0%);
+}
+#logo .record .flat-grooves {
+	fill: hsl(0, 100%, 0%);
+}
+#logo .record .runout {
+	stroke: hsl(0, 100%, 0%);
+}
+#logo .label {
+	fill: rgba(0,0,0,0);
+}
+#logo:hover .record .loud-grooves {
+	stroke: hsl(0, 0%, 97%);
+	fill: hsl(0, 0%, 100%);
+}
+#logo:hover .record .quiet-grooves {
+	fill: hsl(0, 0%, 100%);
+}
+#logo:hover .record .flat-grooves {
+	fill: hsl(0, 0%, 97%);
+}
+#logo:hover .record .runout {
+	stroke: hsl(0, 0%, 97%);
+}
+#logo:hover .label {
+	fill: rgba(0,0,0,0);
+}
+#listen-on-buttons .start {
+	stop-color: #E5855A;
+}
+#listen-on-buttons .stop {
+	stop-color: #CC693C;
+}
+
+.bigfoot-footnote__button,
+.bigfoot-footnote__button:link,
+.bigfoot-footnote__button:visited {
+	background-color: #E8625B;
+}
+.bigfoot-footnote__button:hover,
+.bigfoot-footnote__button:focus,
+.bigfoot-footnote__button:active,
+.bigfoot-footnote__button.is-active {
+	background-color: #F0BCB9;
+}
+
+menu {
+	background-color: #CC693C;
+	border-bottom: 2px solid #010000;
+}
+.safari menu {
+	background-color: #CC693C;
+}
+
+.album-art,
+article {
+	border: 2px solid #010000;
+}
+.review-page article,
+.album-art {
+	border-radius: 0 !important;
+}
+.review-page article,
+.album-art,
+menu {
+	box-shadow: unset;
+}
+
+@media (min-width: 700px) {
+	menu {
+		border-bottom: 3px solid #010000;
+	}
+	.album-art,
+	article {
+		border: 3px solid #010000;
+	}
+}
