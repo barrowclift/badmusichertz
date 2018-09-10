@@ -49,6 +49,26 @@ main {
 	display: inline-block;
 	width: 100%;
 }
+@supports(padding: max(0px)) {
+	menu {
+		padding-left: max(0%, env(safe-area-inset-left)) !important;
+		padding-right: max(0%, env(safe-area-inset-right)) !important;
+	}
+	article {
+		padding-left: max(5%, env(safe-area-inset-left)) !important;
+		padding-right: max(5%, env(safe-area-inset-right)) !important;
+	}
+	menu {
+		padding-left: 0 !important;
+	}
+	menu header {
+		padding-left: max(5%, env(safe-area-inset-left)) !important;
+		margin-left: 0 !important;
+	}
+	menu ul {
+		padding-right: env(safe-area-inset-right) !important;
+	}
+}
 .review-page main {
 	margin: 0 auto;
 	padding-left: 0;
@@ -908,6 +928,12 @@ input, textarea {
 		padding-left: 2.6em;
 		padding-right: 2.6em;
 	}
+	@supports(padding: max(0px)) {
+		article {
+			padding-left: max(2.6em, env(safe-area-inset-left)) !important;
+			padding-right: max(2.6em, env(safe-area-inset-right)) !important;
+		}
+	}
 	.full-page main article {
 		max-width: none;
 	}
@@ -941,6 +967,12 @@ input, textarea {
 		margin-bottom: 0.5rem;
 		float: left;
 	}
+	@supports(padding: max(0px)) {
+		#logo {
+			padding-left: max(2vw, env(safe-area-inset-left)) !important;
+			margin-left: 0 !important;
+		}
+	}
 	.vinyl,
 	.record {
 		width: 32px;
@@ -968,6 +1000,11 @@ input, textarea {
 		border-radius: 1em;
 		box-shadow: 0 14px 26px -10px rgba(0, 0, 0, 0.3);
 	}
+	/*@supports(padding: max(0px)) {
+		.article-card {
+			max-width: 42vw;
+		}
+	}*/
 	.article-card:hover {
 		transform: scale(1.025);
 		box-shadow: 0 14px 26px -5px rgba(0, 0, 0, 0.4);
@@ -994,8 +1031,8 @@ input, textarea {
 			margin-left: 0rem;
 			text-align: center;
 			width: 90%;
-    		margin-left: 5%;
-    		margin-right: 5%;
+			margin-left: 5%;
+			margin-right: 5%;
 		}
 			.article-card header h1 {
 				margin-top: 0;
@@ -1119,6 +1156,12 @@ input, textarea {
 		border-radius: 0.25em;
 		padding-bottom: 1.3em;
 	}
+	@supports(padding: max(0px)) {
+		.review-page article {
+			padding-left: max(2.6em, env(safe-area-inset-left)) !important;
+			padding-right: max(2.6em, env(safe-area-inset-right)) !important;
+		}
+	}
 
 
 	/* NAVBAR ------------------------------------- */
@@ -1135,6 +1178,12 @@ input, textarea {
 	/* ----- LOGO ----- */
 	#logo {
 		margin-left: 1.3rem;
+	}
+	@supports(padding: max(0px)) {
+		#logo {
+			padding-left: max(1.3rem, env(safe-area-inset-left)) !important;
+			margin-left: 0 !important;
+		}
 	}
 
 
