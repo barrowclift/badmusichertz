@@ -27,13 +27,13 @@ layout: null
 			<dc:creator>Marc Barrowclift, Michael Barrowclift, and Aimee Guarnaccio</dc:creator>
 			<pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
 			<link>{{ post.url | prepend: site.url }}</link>
-			<guid isPermaLink="true">{{ site.shelf-baseurl | xml_escape }}/{{ post.album-name | xml_escape }}/{{ post.podcast-filename | xml_escape }}</guid>
+			<guid isPermaLink="true">{{ site.dropbox-baseurl | xml_escape }}/{{ post.album-name | xml_escape }}/{{ post.podcast-filename | xml_escape }}</guid>
 			<itunes:author>Bad Music Hertz</itunes:author>
 			<itunes:subtitle>{{ post.excerpt }}</itunes:subtitle>
 			<itunes:explicit>no</itunes:explicit>
 			<itunes:duration>{{ post.podcast-duration | xml_escape }}</itunes:duration>
 			<itunes:image href="{{ site.url }}/images/logo/podcast-cover-art.jpg"/>
-			<enclosure url="{{ site.shelf-baseurl | xml_escape }}/{{ post.album-name | xml_escape }}/{{ post.podcast-filename | xml_escape }}" length="{{ post.podcast-size-in-bytes | xml_escape }}" type="audio/mpeg"/>
+			<enclosure url="{{ site.dropbox-baseurl | xml_escape }}/{{ post.album-name | xml_escape }}/{{ post.podcast-filename | xml_escape }}" length="{{ post.podcast-size-in-bytes | xml_escape }}" type="audio/mpeg"/>
 			<description><![CDATA[{{ post.content | cdata_escape }}]]></description>
 		</item>
 		{% endif %}

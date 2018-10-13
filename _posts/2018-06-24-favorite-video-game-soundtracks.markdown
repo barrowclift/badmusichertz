@@ -41,7 +41,7 @@ You can find Caity Cooper at [caitycooper.com](http://caitycooper.com). You can 
 
 ## Caity's Top 3
 
-![Mario running away from a fire breathing dragon]({{ site.shelf-baseurl }}/favorite-video-game-soundtracks/images/mario-odyssey.jpg)
+![Mario running away from a fire breathing dragon]({{ site.dropbox-baseurl }}/favorite-video-game-soundtracks/images/mario-odyssey.jpg)
 
 __1st Pick:__ *Final Fantasy X (Remastered)*
 
@@ -88,7 +88,7 @@ __Honorable Mentions:__
 
 ## Michael's Top 3
 
-![Sackboy smiling with his tongue out]({{ site.shelf-baseurl }}/favorite-video-game-soundtracks/images/littlebigplanet.jpg)
+![Sackboy smiling with his tongue out]({{ site.dropbox-baseurl }}/favorite-video-game-soundtracks/images/littlebigplanet.jpg)
 
 __1st Pick:__ *The Last of Us*
 
@@ -124,7 +124,7 @@ __Honorable Mentions:__
 
 ## Marc's Top 3
 
-![Darth Maul with his lightsaber out on a skateboard]({{ site.shelf-baseurl }}/favorite-video-game-soundtracks/images/tony-hawk-pro-skater-3.jpg)
+![Darth Maul with his lightsaber out on a skateboard]({{ site.dropbox-baseurl }}/favorite-video-game-soundtracks/images/tony-hawk-pro-skater-3.jpg)
 
 __1st Pick:__ *Tony Hawk's Pro Skater 3*
 

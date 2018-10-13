@@ -4,7 +4,7 @@ twitter_username: badmusichertz
 description: Scrutinizing and celebrating great music one record at a time
 baseurl: "" # The subpath of your site, e.g. /blog/
 url: "https://badmusichertz.com" # The base hostname & protocol for your site
-shelf-baseurl: "https://shelf.badmusichertz.com"
+dropbox-baseurl: "https://dropbox.badmusichertz.com"
 host: localhost
 
 permalink: /post/:title # Permalink posts sorted by date with directories is awful.
