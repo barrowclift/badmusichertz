@@ -13,7 +13,8 @@ blurred-card: False
 
 title: "Coming-of-Age Singles"
 author: "the Barrowclift Siblings"
-date: 2018-11-10 15:30:00
+date: 2018-11-11 13:30:00
+last_modified_at: 2018-11-11 13:34:00
 excerpt: "Join the Barrowclift siblings as they reminisce about music from their formative teenage years. Complete with mixtapes, iPod playlists, and a mountain of regrets, it's sure to be a rocky trip down memory lane!"
 image: "/images/album-art/coming-of-age-singles/large.jpg"
 
@@ -47,7 +48,7 @@ __Note: Some of the singles picked and sampled throughout the episode contain ex
 3. [The Wallflowers - "One Headlight"](https://open.spotify.com/track/04zllSy1QxiamFFwB4KET8?autoplay=true&v=T)
 4. [Looking Glass - "Brandy You're a Fine Girl"](https://open.spotify.com/track/2BY7ALEWdloFHgQZG6VMLA?autoplay=true&v=T)
 
-![The Looking Glass's self-titled album art]({{ site.shelf-baseurl }}/coming-of-age-singles/images/looking-glass.jpg)
+![The Looking Glass's self-titled album art]({{ site.dropbox-baseurl }}/coming-of-age-singles/images/looking-glass.jpg)
 
 *Mistakes*
 
