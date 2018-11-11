@@ -30,7 +30,7 @@ layout: null
 			<guid isPermaLink="true">{{ site.dropbox-baseurl | xml_escape }}/{{ post.album-name | xml_escape }}/{{ post.podcast-filename | xml_escape }}</guid>
 			<itunes:author>Bad Music Hertz</itunes:author>
 			<itunes:subtitle>{{ post.excerpt }}</itunes:subtitle>
-			<itunes:explicit>no</itunes:explicit>
+			<itunes:explicit>{% if post.podcast-explicit %}yes{% else %}no{% endif %}</itunes:explicit>
 			<itunes:duration>{{ post.podcast-duration | xml_escape }}</itunes:duration>
 			<itunes:image href="{{ site.url }}/images/logo/podcast-cover-art.jpg"/>
 			<enclosure url="{{ site.dropbox-baseurl | xml_escape }}/{{ post.album-name | xml_escape }}/{{ post.podcast-filename | xml_escape }}" length="{{ post.podcast-size-in-bytes | xml_escape }}" type="audio/mpeg"/>

@@ -222,8 +222,6 @@ small {
 	/**
 	 * Podcast shownotes are just short items, make them tight.
 	 */
-	#podcast ul,
-	#podcast ol,
 	#podcast ol li,
 	#podcast ul li {
 		margin-bottom: 0;
@@ -804,7 +802,7 @@ audio {
 #logo span,
 .anchor,
 a {
-	transition: color .2s ease-in-out;
+	transition: color .2s ease;
 }
 #logo .record .loud-grooves {
 	transition: stroke 0.2s ease-in-out, fill 0.2s ease-in-out;
