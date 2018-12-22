@@ -10,7 +10,7 @@ blurred-background: True
 
 title: "Grand Hotel"
 author: "the Barrowclift Siblings"
-date: 2018-12-22 11:50:00
+date: 2018-12-22 11:51:00
 excerpt: "Take a brief Christmas vacation with the Barrowclift siblings as they soak up the warm vibes of The Explorers Club's *Grand Hotel*."
 image: "/images/album-art/coming-of-age-singles/large.jpg"
 
