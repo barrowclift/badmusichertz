@@ -12,6 +12,10 @@
 html {
 	color: #010000;
 }
+hr {
+	background: #010000;
+	background-color: #010000;
+}
 
 #podcast ul, #podcast ol {
 	margin-bottom: 1.3em;

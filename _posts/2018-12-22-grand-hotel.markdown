@@ -101,3 +101,5 @@ Marc's suggested, alternative album order:
 12. "Summer Days, Summer Nights"
 13. "Weight of the World"
 14. "Open the Door"
+
+♫︎

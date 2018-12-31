@@ -43,7 +43,7 @@ html, body {
 }
 html {
 	background-color: #f8f9fa;
-	color: #212529;
+	color: rgba(33, 37, 41, 0.9);
 }
 main {
 	display: inline-block;
@@ -84,7 +84,7 @@ main {
 #content {
 	/* Pushing all content below floating navbar */
 	padding-top: 3.25em;
-	
+
 	padding-bottom: 3.9em;
 	overflow: auto;
 }
@@ -223,7 +223,9 @@ small {
 	 * Podcast shownotes are just short items, make them tight.
 	 */
 	#podcast ol li,
-	#podcast ul li {
+	#podcast ul li,
+	#podcast li ol,
+	#podcast li ul {
 		margin-bottom: 0;
 	}
 time {
@@ -320,7 +322,7 @@ menu a,
 menu a:link,
 menu a:visited,
 #logo {
-	color: #212529;
+	color: rgba(33, 37, 41, 0.9);
 }
 menu a:hover,
 #logo:hover {
@@ -364,7 +366,7 @@ compensate*/
 	margin-bottom: 0.65rem;
 	display: inline-block;
 	cursor: pointer;
-	color: #212529;
+	color: rgba(33, 37, 41, 0.9);
 }
 	#logo:hover {
 		color: #e03131;
@@ -465,7 +467,7 @@ compensate*/
 }
 
 /* Pad the last article card on mobile ONLY so the album art appears through the
-   translucent bottom footer navigation */   
+   translucent bottom footer navigation */
 main a:nth-child(6) .article-card {
 	padding-bottom: 3.8em !important;
 	margin-bottom: -3.8em !important;
@@ -506,8 +508,8 @@ hr {
 	margin: 2.6em 0;
 	padding: 0;
 	width: 100%;
-	background-color: #ced4da;
-	background: #ced4da;
+	background-color: rgba(0, 0, 0, 0.1);
+	background: rgba(0, 0, 0, 0.1);
 }
 blockquote {
 	margin-right: 1.3em;
@@ -743,7 +745,7 @@ audio {
 	background-color: rgba(248, 247, 245, 0.7);
 }
 	#bottom-navigation a {
-		color: #212529;
+		color: rgba(33, 37, 41, 0.9);
 	}
 	#bottom-navigation a:hover {
 		color: #e03131;
@@ -805,24 +807,24 @@ a {
 	transition: color .2s ease;
 }
 #logo .record .loud-grooves {
-	transition: stroke 0.2s ease-in-out, fill 0.2s ease-in-out;
+	transition: stroke 0.2s ease, fill 0.2s ease;
 }
 #logo .record .quiet-grooves,
 #logo .flat-grooves,
 #logo .label {
-	transition: fill 0.2s ease-in-out;
+	transition: fill 0.2s ease;
 }
 #logo .record .runout {
-	transition: stroke 0.2s ease-in-out;
+	transition: stroke 0.2s ease;
 }
 .anchor {
-	transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease;
 }
 button {
-	transition: background-color 0.2s ease-in-out;
+	transition: background-color 0.2s ease;
 }
 input, textarea {
-	transition: all 0.1s ease-in-out;
+	transition: all 0.1s ease;
 }
 .shelf .album-art {
 	transition: box-shadow 338ms ease, transform 600ms ease;
@@ -835,7 +837,7 @@ input, textarea {
 	transition: box-shadow 338ms ease, transform 600ms ease, filter 600ms ease;
 }
 #listen-on-buttons stop {
-	transition: stop-color 0.2s ease-in-out;
+	transition: stop-color 0.2s ease;
 }
 
 
@@ -935,10 +937,10 @@ input, textarea {
 	.full-page main article {
 		max-width: none;
 	}
-	
+
 
 	/* TYPOGRAPHY --------------------------------- */
-	
+
 	/* ----- SIZES, MARGINS, AND WEIGHTS ----- */
 	html {
 		font-size: 19px;
