@@ -12,7 +12,7 @@ title: "Grand Hotel"
 author: "the Barrowclift Siblings"
 date: 2018-12-22 11:51:00
 excerpt: "Take a brief Christmas vacation with the Barrowclift siblings as they soak up the warm vibes of The Explorers Club's *Grand Hotel*."
-image: "/images/album-art/coming-of-age-singles/large.jpg"
+image: "/images/album-art/grand-hotel/large.jpg"
 
 podcast-title: "7. Grand Hotel"
 podcast-filename: "bmh7.mp3"
@@ -101,5 +101,10 @@ Marc's suggested, alternative album order:
 12. "Summer Days, Summer Nights"
 13. "Weight of the World"
 14. "Open the Door"
+
+-----
+
+![Cover art]({{ site.dropbox-baseurl }}/grand-hotel/images/album-art.jpg)
+![Back cover art]({{ site.dropbox-baseurl }}/grand-hotel/images/back-cover.jpg)
 
 ♫︎
