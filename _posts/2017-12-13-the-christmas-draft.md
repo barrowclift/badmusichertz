@@ -5,7 +5,7 @@ album-name: "the-christmas-draft"
 album-art-hidden-text: ""
 
 primary-color: "#4C4C4E"
-secondary-color: "#8B8A8C"
+secondary-color: "#F6F7F9"
 color-stop-1: "#F2BFBD"
 color-stop-2: "#F4F8F9"
 blurred-background: True

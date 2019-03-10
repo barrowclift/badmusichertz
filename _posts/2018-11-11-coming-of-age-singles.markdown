@@ -5,7 +5,7 @@ album-name: "coming-of-age-singles"
 album-art-hidden-text: ""
 
 primary-color: "#3F2F27"
-secondary-color: "#978F89"
+secondary-color: "#E8E9E6"
 color-stop-1: "#AA7D6A"
 color-stop-2: "#FFFFFF"
 blurred-background: True

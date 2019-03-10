@@ -5,7 +5,7 @@ album-name: "favorite-video-game-soundtracks"
 album-art-hidden-text: ""
 
 primary-color: "#393A3E"
-secondary-color: "#B97F5E"
+secondary-color: "#FEF8F8"
 color-stop-1: "#7F97E4"
 color-stop-2: "#FFFFFF"
 blurred-background: False
