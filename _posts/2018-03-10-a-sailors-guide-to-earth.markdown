@@ -13,8 +13,8 @@ author: "the Barrowclift Siblings"
 date: 2018-03-10 13:38:00
 excerpt: "Ahoy, mateys! Join the Barrowclift siblings as they set sail on life's great ocean with Sturgill Simpson's *A Sailor's Guide To Earth*."
 image: "/images/album-art/a-sailors-guide-to-earth/large.jpg"
+episode: 4
 
-podcast-title: "4. A Sailor's Guide to Earth"
 podcast-filename: "bmh4.mp3"
 podcast-duration: "01:47:32"
 podcast-size-in-bytes: 52106195
@@ -67,7 +67,7 @@ categories:
 
 > My paternal grandfather, when he was in the army in World War II — he was over in the South Pacific and he thought he was gonna die. And he wrote a letter to my grandmother and their newborn son, thinking he wasn't gonna come home. And years later, after he was dead, and then once she'd passed, I was at her house and I just decided, "I'm gonna read this letter." And I probably learned more about him in those few pages than I ever could have sitting in a room with him. I remember going down the road on the [tour] bus one day and thinking, "What if I could just write a letter to my kid, telling him exactly who his dad was?" Like, everything I'm going through right now, at this point in my life. It was just like, "Ok, I'm gonna go make this really pure and beautiful thing for my son and incorporate all this music that I loved, outside of and other than country or bluegrass," which is all I've really had a chance to represent up until now.
 >
-> [NPR Interview: Sturgill Simpson Shares His "Guide To Earth"](https://www.npr.org/sections/allsongs/2016/04/15/474220553/all-songs-1-sturgill-simpson-shares-his-guide-to-earth) 
+> [NPR Interview: Sturgill Simpson Shares His "Guide To Earth"](https://www.npr.org/sections/allsongs/2016/04/15/474220553/all-songs-1-sturgill-simpson-shares-his-guide-to-earth)
 
 ---------
 

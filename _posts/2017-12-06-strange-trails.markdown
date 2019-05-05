@@ -14,8 +14,8 @@ date: 2017-12-06 17:10:00
 last_modified_at: 2018-02-08 12:39:00
 excerpt: Join the Barrowclift siblings as they explore the winding road of Lord Huron's sophomore LP, *Strange Trails*.
 image: "/images/album-art/strange-trails/large.jpg"
+episode: 2
 
-podcast-title: "2. Strange Trails"
 podcast-filename: "bmh2.mp3"
 podcast-duration: "02:18:08"
 podcast-size-in-bytes: 66806709

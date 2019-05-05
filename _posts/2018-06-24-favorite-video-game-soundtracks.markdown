@@ -17,8 +17,8 @@ date: 2018-06-24 15:30:00
 last_modified_at: 2018-06-24 16:33:00
 excerpt: "Marc and Michael with special guest Caity Cooper celebrate their favorite video game soundtracks of all time."
 image: "/images/album-art/favorite-video-game-soundtracks/large.jpg"
+episode: 5
 
-podcast-title: "5. Favorite Video Game Soundtracks"
 podcast-filename: "bmh5.mp3"
 podcast-duration: "02:19:28"
 podcast-size-in-bytes: 134395442

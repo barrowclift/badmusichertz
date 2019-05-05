@@ -6,35 +6,38 @@ layout: null
 	<channel>
 		<title>Bad Music Hertz</title>
 		<link>{{ site.url }}</link>
-		<lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
 		<language>en-US</language>
-		<generator>Liquid with Jekyll</generator>
-		<itunes:author>Marc Barrowclift, Michael Barrowclift, and Aimee Guarnaccio</itunes:author>
-		<itunes:subtitle>Three siblings celebrating and discussing their favorite records.</itunes:subtitle>
-		<itunes:summary>Three siblings celebrating and discussing their favorite records.</itunes:summary>
+		<copyright>© {{ site.time | date: "%Y" }} Marc Barrowclift</copyright>
+		<itunes:author>The Barrowclift Sibs</itunes:author>
 		<description>Three siblings celebrating and discussing their favorite records.</description>
-		<itunes:explicit>no</itunes:explicit>
+		<itunes:summary>Three siblings celebrating and discussing their favorite records.</itunes:summary>
+		<itunes:type>episodic</itunes:type>
 		<itunes:owner>
-			<itunes:name>badmusichertz@gmail.com</itunes:name>
+			<itunes:name>The Barrowclift Sibs</itunes:name>
 			<itunes:email>badmusichertz@gmail.com</itunes:email>
 		</itunes:owner>
-		<itunes:category text="Music"/>
 		<itunes:image href="{{ site.url }}/images/logo/podcast-cover-art.jpg" />
+		<itunes:category text="Music"/>
+		<itunes:explicit>no</itunes:explicit>
+		<lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+		<generator>Liquid with Jekyll</generator>
 		{% for post in site.posts %}
 		{% if post.layout == 'podcast' %}
 		<item>
-			<title>{{ post.podcast-title | xml_escape }}</title>
-			<dc:creator>Marc Barrowclift, Michael Barrowclift, and Aimee Guarnaccio</dc:creator>
-			<pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-			<link>{{ post.url | prepend: site.url }}</link>
-			<guid isPermaLink="true">{{ site.dropbox-baseurl | xml_escape }}/{{ post.album-name | xml_escape }}/{{ post.podcast-filename | xml_escape }}</guid>
-			<itunes:author>Bad Music Hertz</itunes:author>
-			<itunes:subtitle>{{ post.excerpt }}</itunes:subtitle>
-			<itunes:explicit>{% if post.podcast-explicit %}yes{% else %}no{% endif %}</itunes:explicit>
-			<itunes:duration>{{ post.podcast-duration | xml_escape }}</itunes:duration>
-			<itunes:image href="{{ site.url }}/images/logo/podcast-cover-art.jpg"/>
-			<enclosure url="{{ site.dropbox-baseurl | xml_escape }}/{{ post.album-name | xml_escape }}/{{ post.podcast-filename | xml_escape }}" length="{{ post.podcast-size-in-bytes | xml_escape }}" type="audio/mpeg"/>
+			<itunes:episodeType>full</itunes:episodeType>
+			<itunes:title>{{ post.title | xml_escape }}</itunes:title>
+			<title>{{ post.episode }}. {{ post.title | xml_escape }}</title>
+			<itunes:episode>{{ post.episode }}</itunes:episode>
+			<itunes:season>1</itunes:season>
 			<description><![CDATA[{{ post.content | cdata_escape }}]]></description>
+			<enclosure url="{{ site.dropbox-baseurl | xml_escape }}/{{ post.album-name | xml_escape }}/{{ post.podcast-filename | xml_escape }}" length="{{ post.podcast-size-in-bytes | xml_escape }}" type="audio/mpeg"/>
+			<guid isPermaLink="true">{{ site.dropbox-baseurl | xml_escape }}/{{ post.album-name | xml_escape }}/{{ post.podcast-filename | xml_escape }}</guid>
+			<link>{{ post.url | prepend: site.url }}</link>
+			<pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+			<itunes:duration>{{ post.podcast-duration | xml_escape }}</itunes:duration>
+			<itunes:explicit>{% if post.podcast-explicit %}yes{% else %}no{% endif %}</itunes:explicit>
+			<dc:creator>The Barrowclift Sibs</dc:creator>
+			<itunes:subtitle>{{ post.excerpt }}</itunes:subtitle>
 		</item>
 		{% endif %}
 		{% endfor %}

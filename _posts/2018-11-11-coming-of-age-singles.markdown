@@ -17,8 +17,8 @@ date: 2018-11-11 13:30:00
 last_modified_at: 2018-11-11 13:34:00
 excerpt: "Join the Barrowclift siblings as they reminisce about music from their formative teenage years. Complete with mixtapes, iPod playlists, and a mountain of regrets, it's sure to be a rocky trip down memory lane!"
 image: "/images/album-art/coming-of-age-singles/large.jpg"
+episode: 6
 
-podcast-title: "6. Coming-of-Age Singles"
 podcast-filename: "bmh6.mp3"
 podcast-duration: "01:35:13"
 podcast-size-in-bytes: 91901518

@@ -18,8 +18,8 @@ date: 2017-12-13 19:18:00
 last_modified_at: 2018-02-08 11:58:00
 excerpt: With the fire roaring and hot cocoa piping, join the Barrowclift siblings as they go head-to-head to see who can create the best Christmas EP. Whose is the best? You decide!
 image: "/images/album-art/the-christmas-draft/large.jpg"
+episode: 3
 
-podcast-title: "3. The Christmas Draft"
 podcast-filename: "bmh3.mp3"
 podcast-duration: "01:22:18"
 podcast-size-in-bytes: 40008891
