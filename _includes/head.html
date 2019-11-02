@@ -83,8 +83,8 @@
 	<meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
 	<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 	<meta property="og:url" content="{{ site.url }}{{ page.url | replace:'index.html','' | prepend: site.baseurl | replace: '//', '/' }}" />
-	{% if page.album-name %}
-	<meta property="og:image" content="{{ site.dropbox-baseurl }}/{{ page.album-name }}/images/album-art.jpg"/>
+	{% if page.image %}
+	<meta property="og:image" content="{{ page.image }}"/>
 	{% else %}
 	<meta property="og:image" content="{{ site.url }}/images/logo/share-banner.png"/>
 	{% endif %}
@@ -95,8 +95,8 @@
 	<meta name="twitter:site" content="@{{ site.twitter_username }}" />
 	<meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{site.title}}{% endif %}" />
 	<meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 200 }}{% else %}{{ site.description }}{% endif %}" />
-	{% if page.album-name %}
-	<meta name="twitter:image" content="{{ site.dropbox-baseurl }}/{{ page.album-name }}/images/album-art.jpg" />
+	{% if page.image %}
+	<meta name="twitter:image" content="{{ page.image }}" />
 	{% else %}
 	<meta name="twitter:image" content="{{ site.dropbox-baseurl }}/images/logo/share-banner.png" />
 	{% endif %}
