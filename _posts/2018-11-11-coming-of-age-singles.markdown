@@ -5,18 +5,15 @@ album-name: "coming-of-age-singles"
 album-art-hidden-text: ""
 
 primary-color: "#3F2F27"
-secondary-color: "#E8E9E6"
-color-stop-1: "#AA7D6A"
-color-stop-2: "#FFFFFF"
-blurred-background: True
-blurred-card: False
+secondary-color: "#9A4D2D"
+blurred-card: True
 
 title: "Coming-of-Age Singles"
 author: "the Barrowclift Siblings"
 date: 2018-11-11 13:30:00
 last_modified_at: 2018-11-11 13:34:00
 excerpt: "Join the Barrowclift siblings as they reminisce about music from their formative teenage years. Complete with mixtapes, iPod playlists, and a mountain of regrets, it's sure to be a rocky trip down memory lane!"
-image: "/images/album-art/coming-of-age-singles/large.jpg"
+image: https://dropbox.badmusichertz.com/coming-of-age-singles/images/podcast-art.jpg
 episode: 6
 
 podcast-filename: "bmh6.mp3"

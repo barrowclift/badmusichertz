@@ -5,7 +5,8 @@ article hr, footer hr {
 menu {
 	background-color: rgba(255, 254, 249, 0.95);
 }
-	.safari menu {
+	.safari menu,
+	.chrome menu {
 		background-color: rgba(255, 254, 249, 0.7);
 	}
 .album-art {

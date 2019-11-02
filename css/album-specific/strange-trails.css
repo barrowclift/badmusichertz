@@ -43,7 +43,8 @@ menu ul li a:hover,
 menu {
 	background-color: rgba(26, 26, 27, 0.95);
 }
-.safari menu {
+.safari menu,
+.chrome menu {
 	background-color: rgba(26, 26, 27, 0.7);
 }
 #logo .record .loud-grooves {

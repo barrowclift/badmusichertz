@@ -69,12 +69,10 @@ layout: null
         <summary type="html">{{ post.excerpt | strip_html | normalize_whitespace | xml_escape }}</summary>
       {% endif %}
 
-      {% assign post_image = post.image.path | default: post.image %}
-      {% if post_image %}
-        {% unless post_image contains "://" %}
-          {% assign post_image = post_image | absolute_url | xml_escape  %}
-        {% endunless %}
-        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="{{ post_image }}" />
+      {% if post.image.path %}
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="{{ post.image.path | xml_escape }}" />
+      {% elsif post.image %}
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="{{ post.image | xml_escape }}" />
       {% endif %}
     </entry>
   {% endfor %}

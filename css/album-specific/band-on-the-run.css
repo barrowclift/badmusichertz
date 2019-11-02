@@ -12,7 +12,8 @@ article hr, footer hr {
 menu {
 	background-color: rgba(248, 249, 250, 0.95);
 }
-	.safari menu {
+	.safari menu,
+	.chrome menu {
 		background-color: rgba(248, 249, 250, 0.7);
 	}
 article hr, footer hr {
@@ -27,7 +28,8 @@ article hr, footer hr {
 menu {
 	background-color: rgba(14, 14, 14, 0.95);
 }
-.safari menu {
+.safari menu,
+.chrome menu {
 	background-color: rgba(14, 14, 14, 0.7);
 }
 menu ul li a:link,

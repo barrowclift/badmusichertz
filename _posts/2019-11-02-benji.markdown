@@ -1,0 +1,64 @@
+---
+layout: podcast
+
+album-name: "benji"
+album-art-hidden-text: ""
+
+primary-color: "#C69F53"
+secondary-color: "#96BBE9"
+blurred-background: True
+
+episode: 8
+title: "Benji"
+author: "the Barrowclift Siblings"
+date: 2019-11-02 20:08:16
+excerpt: Take a drive through Ohio with Marc and Michael as they recover from Mark Kozelek's sobering stories in "Benji"
+image: https://dropbox.badmusichertz.com/benji/images/podcast-art.jpg
+
+podcast-filename: "bmh8.mp3"
+podcast-duration: "01:42:05"
+podcast-size-in-bytes: 49467544
+
+artist: Sun Kil Moon
+categories:
+  - Folk rock
+  - Indie folk
+categories:
+  - Podcast
+  - Album review
+---
+
+You can listen to Sun Kil Moon's *Benji* on:
+
+* [Apple Music](https://music.apple.com/us/album/benji/795192449)
+* [Spotify](https://open.spotify.com/album/4pC2URLdvle8V6Um4qxh46)
+
+Or purchase *Benji* on:
+
+* [iTunes](https://music.apple.com/us/album/benji/795192449)
+* [Amazon Music](https://www.amazon.com/Benji-SUN-KIL-MOON/dp/B00HB3AP9A)
+
+-----
+
+* [Arcade Fire's *The Suburbs*](https://music.apple.com/us/album/the-suburbs/1252757950)
+* [Anthony Fantano @ theneedledrop.com ](https://www.theneedledrop.com)
+    - [Sub Kil Moon - Benji ALBUM REVIEW](https://www.youtube.com/watch?v=ZTIJvNmsQgo)
+* [Beats Music (RIP)](https://en.wikipedia.org/wiki/Beats_Music)
+* [Reddit](https://www.redditinc.com)
+* ["Mumble Folk"]()
+* [Fleet Foxes *Crack Up*](https://music.apple.com/us/album/crack-up/1209098746)
+* [The Explorer's Club *Grand Hotel*](https://itunes.apple.com/us/album/grand-hotel/520454399)
+    - [Bad Music Hertz Episode 7 "Grand Hotel"](/post/grand-hotel)
+* [Dynamic range compression](https://en.wikipedia.org/wiki/Dynamic_range_compression)
+* [Double tracking](https://en.wikipedia.org/wiki/Double_tracking)
+* ["Do They Know It's Christmas" by Band Aid 1984](https://www.youtube.com/watch?v=bjQzJAKxTrE)
+* ["Happy Xmas (War Is Over)" by John & Yoko Plastic Ono Band](https://www.youtube.com/watch?v=yN4Uu0OlmTg)
+* [Sufjan Stevens](https://music.apple.com/us/artist/sufjan-stevens/4273404)
+    - Example Song Title from 2005's [*Illinois*](https://music.apple.com/us/album/illinois/328074546): ["The Black Hawk War, or, How to Demolish an Entire Civilization and Still Feel Good About Yourself in the Morning, or, We Apologize for the Inconvenience but You're Going to Have to Leave Now"](https://music.apple.com/us/album/black-hawk-war-or-how-to-demolish-entire-civilization/328074546?i=328074548)
+* [Tenderloin, San Francisco](https://en.wikipedia.org/wiki/Tenderloin,_San_Francisco)
+
+-----
+
+[![Podcast Cover Art]({{ site.dropbox-baseurl }}/{{ page.album-name }}/images/album-art.jpg)]({{ site.dropbox-baseurl }}/{{ page.album-name }}/images/album-art-original.jpg)
+
+♫︎

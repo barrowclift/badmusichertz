@@ -11,7 +11,7 @@ blurred-background: True
 title: "Divers"
 author: "Marc Barrowclift"
 date: 2016-05-26 18:05:00
-image: "/images/album-art/divers/large.jpg"
+image: https://dropbox.badmusichertz.com/divers/images/album-art.jpg
 
 artist: Joanna Newsom
 genres:
@@ -66,7 +66,7 @@ As it turns out, Joanna's message didn't go unfinished. Those that have already 
 
 > White star, white ship-Nightjar, transmit: trans-  
 > . . .  
-> Sending the first scouts over
+> Sending the first scouts over  
 
 Joanna alluded to this indeed being the case in interviews as she carefully avoids referring to "Time, As a Symptom" as the last song of the album and instead only refers to it as the album's eleventh track. With this being the case, we can't truly say this album has a "start" or "beginning" in the traditional sense; it's a perfect lyrical and musical loop, no beginning or end.
 

@@ -12,7 +12,7 @@ title: "Grand Hotel"
 author: "the Barrowclift Siblings"
 date: 2018-12-22 11:51:00
 excerpt: "Take a brief Christmas vacation with the Barrowclift siblings as they soak up the warm vibes of The Explorers Club's *Grand Hotel*."
-image: "/images/album-art/grand-hotel/large.jpg"
+image: https://dropbox.badmusichertz.com/grand-hotel/images/podcast-art.jpg
 episode: 7
 
 podcast-filename: "bmh7.mp3"

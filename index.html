@@ -5,8 +5,12 @@ anchors: false
 <div id="article-cards">
 {% for post in paginator.posts %}
 	<a href="{{ post.url }}">
-		<div class="article-card" style="{% if post.blurred-card %}background-image: url('/images/album-art/{{ post.album-name }}/dark-blur.jpg');{% else %}background: {{post.color-stop-1}};background: radial-gradient(circle, {{post.color-stop-1}} 35%, {{post.color-stop-2}} 100%);{% endif %}">
-			<img src="/images/album-art/{{ post.album-name }}/cover.jpg" class="inline" {% if post.album-art-hidden-text %}title="{{post.album-art-hidden-text}}"{% endif %} {% if post.title %}alt="{{ post.title }}'s album art"{% else %}alt="The album's cover"{% endif %} />
+		<div class="article-card" style="{% if post.blurred-card %}background-image: url('{{ site.dropbox-baseurl }}/{{ post.album-name }}/images/card-background.jpg');{% else %}background: {{post.color-stop-1}};background: radial-gradient(circle, {{post.color-stop-1}} 35%, {{post.color-stop-2}} 100%);{% endif %}">
+			{% if post.layout == "podcast" %}
+			<img src="{{ site.dropbox-baseurl }}/{{ post.album-name }}/images/podcast-art.jpg" class="inline" {% if post.album-art-hidden-text %}title="{{post.album-art-hidden-text}}"{% endif %} alt="Episode art" />
+			{% else %}
+			<img src="{{ site.dropbox-baseurl }}/{{ post.album-name }}/images/album-art.jpg" class="inline" {% if post.album-art-hidden-text %}title="{{post.album-art-hidden-text}}"{% endif %} {% if post.title %}alt="{{ post.title }}'s album art"{% else %}alt="The album's cover"{% endif %} />
+			{% endif %}
 			<header role="header">
 				<h1>
 					<span style="color:{{ post.primary-color }}" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</span>

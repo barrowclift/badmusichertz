@@ -11,7 +11,7 @@ blurred-background: True
 title: "Relief"
 author: "Michael Barrowclift"
 date: 2016-08-03 19:25:00
-image: "/images/album-art/relief/large.jpg"
+image: https://dropbox.badmusichertz.com/relief/images/album-art.jpg
 
 artist: Vacationer
 genres:
@@ -63,7 +63,7 @@ The Adventurous Vacation
 During childhood, summer was more than just a seasonal change. It meant long sunny evenings, no responsibilities, and&#8212;of course&#8212;freedom from school. As we grow older, the summer months lose their significance. The joy and liberation of the last school bell in early June is replaced with "See you tomorrow, Bob". The three month holy grail vacation no longer exists. However, this feeling of joy and liberation, while less frequent, can still be found through travel. Jimmy Buffett perfectly describes this in reference to his trip to Costa Rica.
 
 > When you are traveling on a trip like this in the right frame of mind, time and space will change. Things that seemed absolutely necessary two days ago slip from your mind. You find yourself looking out the window of the plane, boat, or car and daydreaming about going native. Time becomes something to be used, not saved.  
->
+>  
 > Jimmy Buffett "A Pirate Looks at Fifty"
 
 In "Vision", the fanciful flute and beating hand drum have the power to put anyone in a special kind of bubbly mood&#8212;the type that accompanies the exploration of somewhere new. With the flute being the wandering, daydreaming mind and the steady hand drums being the excited, perky motion of the body, this Vacationer-led exploration takes us to that moment when time and space change. That moment of awe and stupefaction that accompanies the discovery of true, natural beauty&#8212;when the mind struggles to contemplate the power and elegance of nature.  The lure of this beauty starts conjuring the thoughts Jimmy Buffett experienced in Costa Rica&#8212;the thoughts and temptation of abandoning all ties to the modern world, going native, and embracing the "Wild Life".

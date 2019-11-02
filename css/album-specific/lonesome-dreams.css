@@ -3,7 +3,8 @@ html {
 	background-color: #1D2629;
 }
 menu,
-.safari menu {
+.safari menu,
+.chrome menu {
 	background-color: rgba(245, 238, 220, 0.95);
 }
 .review-page article {

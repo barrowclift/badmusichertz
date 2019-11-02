@@ -10,7 +10,8 @@ main {
 menu {
 	background-color: rgba(243, 185, 79, 0.95);
 }
-.safari menu {
+.safari menu,
+.chrome menu {
 	background-color: rgba(243, 185, 79, 0.7);
 }
 

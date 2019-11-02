@@ -338,7 +338,8 @@ menu {
 	z-index: 200;
 	padding-bottom: 0.075rem;
 }
-.safari menu { /* Use Safari's lovely translucency, if available (see core.js) */
+.safari menu,
+.chrome menu { /* Use Safari's lovely translucency, if available (see core.js) */
 	-webkit-backdrop-filter: saturate(180%) blur(20px);
 	backdrop-filter: saturate(180%) blur(20px);
 	background-color: rgba(248, 249, 250, 0.7);
@@ -739,7 +740,8 @@ audio {
 	width: 100%;
 	background-color: rgba(248, 247, 245, 0.95);
 }
-.safari #bottom-navigation { /* Use Safari's lovely translucency, if available (see core.js) */
+.safari #bottom-navigation,
+.chrome #bottom-navigation { /* Use Safari's lovely translucency, if available (see core.js) */
 	-webkit-backdrop-filter: saturate(180%) blur(20px);
 	backdrop-filter: saturate(180%) blur(20px);
 	background-color: rgba(248, 247, 245, 0.7);
@@ -1088,7 +1090,8 @@ input, textarea {
 
 	/* ----- PAGE NAVIGATION ----- */
 	#bottom-navigation,
-	.safari #bottom-navigation {
+	.safari #bottom-navigation,
+	.chrome #bottom-navigation {
 		-webkit-backdrop-filter: unset;
 		backdrop-filter: unset;
 		background-color: unset;

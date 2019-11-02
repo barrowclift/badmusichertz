@@ -11,7 +11,7 @@ blurred-background: True
 title: "Helplessness Blues"
 author: "Marc Barrowclift"
 date: 2016-02-14 11:47:30
-image: "/images/album-art/helplessness-blues/large.jpg"
+image: https://dropbox.badmusichertz.com/helplessness-blues/images/album-art.jpg
 
 artist: Fleet Foxes
 genres:

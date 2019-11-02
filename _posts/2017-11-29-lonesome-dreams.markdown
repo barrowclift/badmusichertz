@@ -13,7 +13,7 @@ author: "The Barrowclift Siblings"
 date: 2017-11-29 21:29:00
 last_modified_at: 2017-11-30 09:31:00
 excerpt: Join the Barrowclift siblings in their very first podcast as they analyze and celebrate Lord Huron's debut LP, *Lonesome Dreams*.
-image: "/images/album-art/band-on-the-run/large.jpg"
+image: https://dropbox.badmusichertz.com/lonesome-dreams/images/podcast-art.jpg
 episode: 1
 
 podcast-filename: "bmh1.mp3"

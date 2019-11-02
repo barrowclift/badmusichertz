@@ -2,8 +2,8 @@
 layout: default
 ---
 <div style="display:block;">
-	<a href="/images/album-art/{{ page.album-name }}/large.jpg" {% if page.album-art-hidden-text %}title="{{page.album-art-hidden-text}}"{% endif %}>
-		<img src="/images/album-art/{{ page.album-name }}/post.jpg" class="album-art" {% if page.title %}alt="{{ page.title }}'s album art"{% else %}alt="The album's cover"{% endif %} />
+	<a href="{{ site.dropbox-baseurl }}/{{ page.album-name }}/images/album-art-original.jpg" {% if page.album-art-hidden-text %}title="{{page.album-art-hidden-text}}"{% endif %}>
+		<img src="{{ site.dropbox-baseurl }}/{{ page.album-name }}/images/{% if page.album-art-article-override %}{{ page.album-art-article-override }}{% else %}album-art.jpg{% endif %}" class="album-art" {% if page.title %}alt="{{ page.title }}'s album art"{% else %}alt="The album's cover"{% endif %} />
 	</a>
 </div>
 <article>

@@ -70,7 +70,7 @@ title: "Shelf"
 			{% if post.layout == 'post' %}
 			<span class="hint--top hint--rounded hint--bounce" data-hint="{{ post.title }}">
 				<a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
-					<img src="/images/album-art/{{ post.album-name }}/small.jpg" class="album-art">
+					<img src="{{ site.dropbox-baseurl }}/{{ post.album-name }}/images/album-art-small.jpg" class="album-art">
 				</a>
 			</span>
 			{% endif %}
@@ -84,7 +84,7 @@ title: "Shelf"
 			{% if post.layout == 'podcast' and post.categories contains "Album review" %}
 			<span class="hint--top hint--rounded hint--bounce" data-hint="{{ post.title }}">
 				<a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
-					<img src="/images/album-art/{{ post.album-name }}/small.jpg" class="album-art">
+					<img src="{{ site.dropbox-baseurl }}/{{ post.album-name }}/images/podcast-art-small.jpg" class="album-art">
 				</a>
 			</span>
 			{% endif %}
@@ -98,7 +98,7 @@ title: "Shelf"
 			{% if post.categories contains "Special" %}
 			<span class="hint--top hint--rounded hint--bounce" data-hint="{{ post.title }}">
 				<a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
-					<img src="/images/album-art/{{ post.album-name }}/small.jpg" class="album-art">
+					<img src="{{ site.dropbox-baseurl }}/{{ post.album-name }}/images/podcast-art-small.jpg" class="album-art">
 				</a>
 			</span>
 			{% endif %}

@@ -14,7 +14,8 @@ blurred-card: False
 title: "A1A"
 author: "Michael Barrowclift"
 date: 2016-12-10 22:58:00
-image: "/images/album-art/a1a/large.jpg"
+image: https://dropbox.badmusichertz.com/a1a/images/album-art.jpg
+album-art-article-override: album-art-article-override.jpg
 
 artist: Jimmy Buffett
 genres:
@@ -28,11 +29,11 @@ categories:
 Coconut bras, plush parrot hats, and Hawaiian leis decorate an audience of 35,000 singing along to a 69 year old sporting aviators and sandals&#8212;"why don't we get drunk and screw?". Beyond the concert entrance is [a sea of decorated party buses and cars](https://encrypted.google.com/search?q=jimmy+buffett&hl=en&biw=1381&bih=906&source=lnms&tbm=isch&sa=X&ved=0ahUKEwip-YnVvsvPAhWky4MKHXy2AjoQ_AUICCgD#hl=en&tbm=isch&q=jimmy+buffett+concert+tailgate), where stragglers sing along as they happily bar-hop in the tailgate from one DIY margarita bar to the next. From this scene, it can be hard to believe that this 69 year old pirate began as a "shy ex-altar boy from Alabama". Like many, Jimmy Buffett's roller coaster of a journey began with the toe dip into adulthood&#8212;college.
 
 > Parents, teachers, coaches, and guidance counselors bombarded me with the same question: "What are you going to do with your life?" I didn't want to think about that when I was fourteen. My teachers called me a daydreamer. They would write comments on the report card like, "He seems to live in a fantasy world and prefers that to paying serious attention to serious subject matters that will prepare him for life." [...] I saw more meaning in the mysteries of the ocean and the planets than in theology or religion. [...] My heroes were not presidents; they were pirates. Emerging from adolescence with a healthy "lack of respect for authorities," and a head full of romanticism and hero worship, I was able to come up with an answer.  
->
+>  
 > Q. What are you going to do with your life?  
->
+>  
 > A. Live a pretty interesting one.  
->
+>  
 >Jimmy Buffett *"A Pirate Looks at Fifty"*
 
 -------------
@@ -48,7 +49,7 @@ However, Buffett's enrollment bought him more than avoidance of the draft. More 
 After forming his own folk group, transferring to the University of Southern Mississippi, and evolving from observer to performer at The Bayou Room, Buffett spent an increasing amount of time in New Orleans, "[making] up for the lost time [he] had spent as an altar boy". Furthermore, his performing experience drastically increased as his weeks consisted of four days performing in the French Quarter with the remaining three days spent doing night classes. Needless to say, time quickly slipped through his fingers like sand, and he soon found himself face to face with the dreadful reality of having a diploma in one hand and a 1A notice[^1A] in the other. Luckily, Buffett had another golden horseshoe up his ass, except this time it was in the shape of a stomach ulcer. With a nice NPQ stamp and a switch to the 1Y draft classification, Buffett was again clear of Vietnam. After marriage, a bar gig, employment at *Billboard* magazine, and a music publisher contract, Buffett headed to his new landlocked life in Nashville.
 
 > I have been called a lot of things in these fifty years on the good old planet Earth, but the thing I believe I am most is lucky.  
->
+>  
 > Jimmy Buffett *"A Pirate Looks at Fifty"*
 
 After a record deal with Barnaby Records&#8212;Buffett, dreaming of his future as a star&#8212;enthusiastically launched his first record *Down to Earth* and left his position at *Billboard*. However, as fast as this good news came, the prospect of Buffett having a big break vanished. His first record failed to sell after a promotion trip to Dallas, Texas, leaving Buffett in debt with no more promotion band. To try to bail out his sinking ship of a new career and pay off his debt, he struggled to get back momentum performing solo again. However, to add extra holes to the ship, Buffett's increased activism in anti-Vietnam protests and his vocal record business grumblings with other struggling performers did not sit well for his industry relations nor his marriage. In the end, his new shiny boat of a career hit rock bottom. All Buffett was left with was debt, a failed marriage, and of course, his luck.
@@ -56,7 +57,7 @@ After a record deal with Barnaby Records&#8212;Buffett, dreaming of his future a
 Queue a deus ex machina in the form of country singer and songwriter, Jerry Jeff Walker. Walker and Buffett connected during Buffett's *Billboard* days, and around the time of Buffett's record flop, Walker paid a visit while in town. Like any friendly visit, the two shared drinks and long talks in which Walker extended an invitation for Buffett to visit him in his new home in Coconut Grove, Miami. After Walker's visit, the sound and name of Coconut Grove stayed with Buffett, evoking [warm thoughts](https://youtu.be/IlOBRLT6c0c) to Buffett's mind. He was reminded of how much he missed his mother: mother ocean and the warm sea salt mist of her waves. He had an escape with Walker, and with some networking with the previous club owners he worked with, he landed a job at the Flick&#8212;a Miami club notorious for its booking difficulty due to its prime location. With an expired TWA credit card left over from his *Billboard* and marriage days and Buffett's sly charming at the ticket counter, the pirate bought a ticket and headed to Miami to board Walker's 1947 Packard&#8212;The Flying Lady.
 
 > When I had left Nashville that morning, it was thirty-one degrees and raining. I was broke and getting a divorce. My career was in cold storage, and I had a cracked front tooth. Four hours later, I was sitting under a cluster of royal palms with a breeze coming off Biscayne Bay. I was barefoot, in shorts and a T-shirt, eating lobster salad and drinking ice-cold beer, laughing and listening to Murphy's stories of Key West.  
->
+>  
 > Jimmy Buffett *"A Pirate Looks at Fifty"*
 
 Over Buffett's two years in Nashville, every day his dry gills called his thoughts back to the ocean. He saw Nashville as a means to an end. From his time as a "normal businessman" at *Billboard* to his brief taste of the touring band lifestyle underneath Barnaby Records, Buffett's sights never deviated from the true goal&#8212;life on an island. The warm sun of Miami&#8212;evaporating worries away&#8212;gave Buffett a clear perspective on his failure in Nashville; his heart, soul, and mind belonged to the culture, climate, and geography of the tropics and the ocean, not to that of the Blue Ridge State. To continue living and working in Nashville would mean the continuation of trying to be someone he was not.
@@ -87,7 +88,7 @@ When Buffett made it to Coconut Grove and reconnected his soul with the tropics,
 > I'm going to teach him how to fuss,  
 > Teach him how to cuss,  
 > And pull the cork out of a bottle of wine.  
->
+>  
 > "Migration" *A1A*
 
 A few years after Buffett's first arrival in Key West, Buffett, with help of 'Fingers' Taylor, formed The Coral Reefer Band, and, in the same year *A1A* dropped, Buffett and the band tackled serious touring and roadwork until 1982.  The saying is that absence makes the heart grow fonder, and, as shown in Buffett's romantic love song for the island, "Tin Cup Chalice", the upcoming serious roadwork for Buffett sure did make his heart grow fonder for Key West. The long ringing high pitched chords and the long-drawn, melancholy harmonica throughout "Tin Cup Chalice" provide a tasteful hint of tropical atmosphere as well as perfectly convey Buffett's homesick caused longing. While the Key West was integral to Buffett's inspiration and success, the subsequent success the island helped facilitate would also be the reason that Buffett would leave the island for touring and roadwork. While Buffett is certainly not resentful at this, in "Tin Cup Chalice", it is clear that his heart and soul are tied to and long to be back in the sea salt air and bright sun of the island.
@@ -96,7 +97,7 @@ A few years after Buffett's first arrival in Key West, Buffett, with help of 'Fi
 > I want to go back down and die beside the sea there.  
 > With a tin cup for a chalice fill it up with good red wine,  
 > And I'm-a chewin' on a honeysuckle vine.  
->
+>  
 > "Tin Cup Chalice" *A1A*
 
 The Stories
@@ -105,7 +106,7 @@ The Stories
 In Key West, Buffett has met some interesting characters each with their own stories to tell. Many of these characters have made their way to serve as inspiration for songs&#8212;most notably Buffett's real pirate friend, Phillip Clark, of the Key West who "A Pirate Looks at Forty" was written for.
 
 > This is a song… I guess I wrote this for an old friend of mine a few years back who could just not find his occupation in the 20th century. So, he just chose to live in a fantasy world and I looked at him and I went well what the hell's wrong with that?  
->
+>  
 > Jimmy Buffett *Feeding Frenzy [Live]*
 
 While this song is written as a eulogy for Clark, I can not help but hear some autobiographical inspiration from the 'helpless romantic' himself. However, autobiographical influence or not, Buffett, with his fascination with and respect for mother ocean and his romantic, heroic interpretation of pirates and the pirate lifestyle, wrote an empathetic tribute to Clark that I am sure would make the pirate smile.
