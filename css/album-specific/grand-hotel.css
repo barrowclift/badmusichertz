@@ -2,7 +2,7 @@
 	background-color: #657447;
 }
 .review-page article {
-	background-color: rgba(255, 255, 255, 0.75);
+	background-color: rgba(248, 249, 250, 0.75);
 }
 
 /* Safari */
@@ -67,5 +67,5 @@ menu {
 }
 .safari menu,
 .chrome menu {
-	background-color: rgba(135, 153, 96, 0.7);
+	background-color: rgba(248, 249, 250, 0.25);
 }
