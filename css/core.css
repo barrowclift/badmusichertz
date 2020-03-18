@@ -244,9 +244,14 @@ blockquote {
 	margin-top: 0;
 	margin-bottom: 1.3em;
 }
-ol, ul,
-blockquote {
+ol, ul {
 	margin-left: 1.95em; /* 1.3 base type bottom margin * 1.5 */
+}
+blockquote {
+	margin-left: 1.3em;
+	font-style: italic;
+	border-left: 0.125rem solid rgba(0, 0, 0, 0.1);
+	padding-left: 0.75rem;
 }
 blockquote > :last-child {
 	margin-bottom: 0;
