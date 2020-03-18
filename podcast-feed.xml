@@ -28,7 +28,6 @@ layout: null
 			<itunes:title>{{ post.title | xml_escape }}</itunes:title>
 			<title>{{ post.episode }}. {{ post.title | xml_escape }}</title>
 			<itunes:episode>{{ post.episode }}</itunes:episode>
-			<itunes:season>1</itunes:season>
 			<description><![CDATA[{{ post.content | cdata_escape }}]]></description>
 			<enclosure url="{{ site.dropbox-baseurl | xml_escape }}/{{ post.album-name | xml_escape }}/{{ post.podcast-filename | xml_escape }}" length="{{ post.podcast-size-in-bytes | xml_escape }}" type="audio/mpeg"/>
 			<guid isPermaLink="true">{{ site.dropbox-baseurl | xml_escape }}/{{ post.album-name | xml_escape }}/{{ post.podcast-filename | xml_escape }}</guid>
