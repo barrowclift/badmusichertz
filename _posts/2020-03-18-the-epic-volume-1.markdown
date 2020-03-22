@@ -16,8 +16,8 @@ excerpt: "Join Marc and Michael as they tackle Kamasi Washington's massive 2015 
 image: https://dropbox.badmusichertz.com/the-epic-volume-1/images/podcast-art.jpg
 
 podcast-filename: "bmh9.mp3"
-podcast-duration: "00:57:07"
-podcast-size-in-bytes: 54909927
+podcast-duration: "00:56:59"
+podcast-size-in-bytes: 55061607
 
 artist: Kamasi Washington
 categories:
