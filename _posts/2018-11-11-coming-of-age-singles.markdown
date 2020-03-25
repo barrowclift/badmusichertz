@@ -5,8 +5,12 @@ album-name: "coming-of-age-singles"
 album-art-hidden-text: ""
 
 primary-color: "#3F2F27"
-secondary-color: "#9A4D2D"
+secondary-color: "#a86545"
 blurred-card: True
+
+color-stop-1: "#E4E6E0"
+color-stop-2: "#3D3028"
+blurred-card: False
 
 title: "Coming-of-Age Singles"
 author: "the Barrowclift Siblings"

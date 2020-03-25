@@ -8,6 +8,10 @@ primary-color: "#FFFFFF"
 secondary-color: "#AAAAAA"
 blurred-background: True
 
+color-stop-1: "#595D5F"
+color-stop-2: "#101417"
+blurred-card: False
+
 episode: 9
 title: "The Epic - Volume 1"
 author: "the Barrowclift Siblings"

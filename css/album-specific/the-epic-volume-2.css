@@ -1,24 +1,24 @@
 html {
-	background-color: #595D5F;
+	background-color: #8F2021;
 }
 .review-page article {
-	background-color: rgba(240, 240, 240, 0.75);
+	background-color: rgba(248, 249, 250, 0.75);
 }
 
 /* Safari */
 ::selection {
-	background: hsla(180, 6%, 19%, 0.9);
+	background: hsl(359, 63%, 34%, 0.99);
 }
 /* Firefox */
 ::-moz-selection {
-	background: hsla(180, 6%, 19%, 0.9);
+	background: hsl(359, 63%, 34%, 0.99);
 }
 
 .review-page article a {
 	text-decoration: underline;
 }
 a, a:link, a:visited {
-	color: #2E3434;
+	color: #8F2021;
 }
 menu ul li a:link,
 menu ul li a:visited,
@@ -31,7 +31,7 @@ menu ul li a:hover,
 }
 #logo:hover span,
 menu ul li a:hover {
-	color: #2E3434;
+	color: #1A2223;
 }
 
 #logo .record .loud-grooves {
@@ -52,48 +52,48 @@ menu ul li a:hover {
 }
 
 #logo:hover .record .loud-grooves {
-	stroke: hsl(180, 6%, 14%);
-	fill: hsl(180, 6%, 19%);
+	stroke: hsl(187, 15%, 10%);
+	fill: hsl(187, 15%, 12%);
 }
 #logo:hover .record .quiet-grooves {
-	fill: hsl(180, 6%, 16%);
+	fill: hsl(187, 15%, 14%);
 }
 #logo:hover .record .flat-grooves {
-	fill: hsl(180, 6%, 14%);
+	fill: hsl(187, 15%, 10%);
 }
 #logo:hover .record .runout {
-	stroke: hsl(180, 6%, 14%);
+	stroke: hsl(187, 15%, 10%);
 }
 #logo:hover .label {
 	fill: rgba(0, 0, 0, 0);
 }
 
 a:hover {
-	color: #595D5F;
+	color: #CE8584;
 }
 #listen-on-buttons .start {
-	stop-color: #595D5F;
+	stop-color: #CE8584;
 }
 #listen-on-buttons .stop {
-	stop-color: #2E3434;
+	stop-color: #8F2021;
 }
 
 .bigfoot-footnote__button,
 .bigfoot-footnote__button:link,
 .bigfoot-footnote__button:visited {
-	background-color: #2E3434;
+	background-color: #CE8584;
 }
 .bigfoot-footnote__button:hover,
 .bigfoot-footnote__button:focus,
 .bigfoot-footnote__button:active,
 .bigfoot-footnote__button.is-active {
-	background-color: #595D5F;
+	background-color: #8F2021;
 }
 
 menu {
-	background-color: rgba(89, 93, 95, 0.95);
+	background-color: hsla(359, 70%, 34%, 0.95);
 }
 .safari menu,
 .chrome menu {
-	background-color: rgba(89, 93, 95, 0.25);
+	background-color: hsla(355, 71%, 0%, 0.25)
 }

@@ -14,8 +14,8 @@ menu {
 	-webkit-box-shadow: none;
 	-moz-box-shadow: none;
 }
-#content {
-	background-color: #FFFEF8;
+html {
+	background-color: #FFFEF8 !important;
 }
 main, .review-page article {
 	background-color: #FFFEF8;

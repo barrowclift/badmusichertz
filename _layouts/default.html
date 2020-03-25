@@ -19,7 +19,12 @@
 
 			{% include header.html %}
 
-			<div id="content" {% if page.blurred-background %}style="background-image: url('{{ site.dropbox-baseurl }}/{{ page.album-name }}/images/blur.{% if page.background-image-extension %}{{page.background-image-extension}}{% else %}jpg{% endif %}');"{% endif %} class="center {% if page.review == true %}review-page{% endif %} {% if page.wide-page %}wide-page{% endif %} {% if page.full-page %}full-page{% endif %}">
+			<div id="content" class="center {% if page.review == true %}review-page{% endif %} {% if page.wide-page %}wide-page{% endif %} {% if page.full-page %}full-page{% endif %}">
+				{% if page.blurred-background %}
+				<img class="background" src="{{ site.dropbox-baseurl }}/{{ page.album-name }}/images/album-art-tiny.{% if page.background-image-extension %}{{page.background-image-extension}}{% else %}jpg{% endif %}"/>
+				<img class="background blurred" src="{{ site.dropbox-baseurl }}/{{ page.album-name }}/images/album-art-tiny.{% if page.background-image-extension %}{{page.background-image-extension}}{% else %}jpg{% endif %}"/>
+				{% endif %}
+
 				<main>
 
 					{{ content }}

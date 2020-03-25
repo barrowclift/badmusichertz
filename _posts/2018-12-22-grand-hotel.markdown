@@ -8,6 +8,10 @@ primary-color: "#E7CA4D"
 secondary-color: "#C9C8AD"
 blurred-background: True
 
+color-stop-1: "#667447"
+color-stop-2: "#232B26"
+blurred-card: False
+
 title: "Grand Hotel"
 author: "the Barrowclift Siblings"
 date: 2018-12-22 11:51:00

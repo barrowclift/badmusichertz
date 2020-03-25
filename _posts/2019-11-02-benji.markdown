@@ -8,6 +8,10 @@ primary-color: "#C69F53"
 secondary-color: "#96BBE9"
 blurred-background: True
 
+color-stop-1: "#315F99"
+color-stop-2: "#222222"
+blurred-card: False
+
 episode: 8
 title: "Benji"
 author: "the Barrowclift Siblings"

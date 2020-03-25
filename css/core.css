@@ -638,10 +638,20 @@ img {
 	border-radius: 0.25em;
 }
 
+.background {
+	position: fixed;
+	z-index: -2;
+	left: 0;
+	top: 0;
+	width: 100vw;
+	height: 100vh;
+}
+.background.blurred {
+	filter: blur(50px);
+	z-index: -1;
+}
 #content {
-	/* The blurred album art background in post view */
-	background-size: cover;
-	background-position: center;
+	background-color: transparent !important;
 }
 
 figure {
