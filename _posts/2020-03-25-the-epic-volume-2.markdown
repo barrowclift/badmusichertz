@@ -24,7 +24,7 @@ podcast-duration: "01:05:07"
 podcast-size-in-bytes: 62918052
 
 artist: Kamasi Washington
-categories:
+genres:
   - Jazz
 categories:
   - Podcast

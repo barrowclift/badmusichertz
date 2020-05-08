@@ -24,7 +24,7 @@ podcast-duration: "01:14:21"
 podcast-size-in-bytes: 71884161
 
 artist: The Explorers Club
-categories:
+genres:
   - Pop
   - Pop rock
   - Rock and roll

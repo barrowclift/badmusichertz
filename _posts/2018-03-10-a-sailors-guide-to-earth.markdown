@@ -20,7 +20,7 @@ podcast-duration: "01:47:32"
 podcast-size-in-bytes: 52106195
 
 artist: Sturgill Simpson
-categories:
+genres:
   - Alternative country
   - Country
   - Country rock

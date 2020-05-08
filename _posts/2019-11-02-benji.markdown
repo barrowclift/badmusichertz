@@ -24,7 +24,7 @@ podcast-duration: "01:42:05"
 podcast-size-in-bytes: 49467544
 
 artist: Sun Kil Moon
-categories:
+genres:
   - Folk rock
   - Indie folk
 categories:

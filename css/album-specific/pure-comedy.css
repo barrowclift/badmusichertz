@@ -1,0 +1,99 @@
+html {
+	background-color: #1F306F;
+}
+.review-page article {
+	background-color: hsla(180, 1%, 95%, 0.75);
+}
+
+/* Safari */
+::selection {
+	background: hsla(227, 56%, 28%, 0.99);
+}
+/* Firefox */
+::-moz-selection {
+	background: hsla(227, 56%, 28%, 0.99);
+}
+
+.review-page article a {
+	text-decoration: underline;
+}
+a, a:link, a:visited {
+	color: #1F306F;
+}
+menu ul li a:link,
+menu ul li a:visited,
+#logo span {
+	color: #DFDFDD;
+}
+menu ul li a:hover,
+#logo:hover span {
+	color: #DFDFDD;
+}
+#logo:hover span,
+menu ul li a:hover {
+	color: #888A89;
+}
+
+#logo .record .flat-grooves {
+	fill: hsl(60, 3%, 87%);
+}
+#logo .record .runout {
+	stroke: hsl(60, 3%, 87%);
+}
+#logo .record .loud-grooves {
+	stroke: hsl(60, 3%, 87%);
+	fill: hsl(60, 3%, 92%);
+}
+#logo .record .quiet-grooves {
+	fill: hsl(60, 3%, 85%);
+}
+#logo .label {
+	fill: #1F305F;
+}
+
+#logo:hover .record .flat-grooves {
+	fill: hsl(150, 1%, 54%);
+}
+#logo:hover .record .runout {
+	stroke: hsl(150, 1%, 54%);
+}
+#logo:hover .record .loud-grooves {
+	stroke: hsl(150, 1%, 54%);
+	fill: hsl(150, 1%, 58%);
+}
+#logo:hover .record .quiet-grooves {
+	fill: hsl(150, 1%, 62%);
+}
+#logo:hover .label {
+	fill: rgba(0, 0, 0, 0);
+}
+
+a:hover {
+	color: #3451A1;
+}
+#listen-on-buttons .start {
+	stop-color: #3451A1;
+}
+#listen-on-buttons .stop {
+	stop-color: #1F306F;
+}
+
+.bigfoot-footnote__button,
+.bigfoot-footnote__button:link,
+.bigfoot-footnote__button:visited {
+	background-color: #3451A1;
+}
+.bigfoot-footnote__button:hover,
+.bigfoot-footnote__button:focus,
+.bigfoot-footnote__button:active,
+.bigfoot-footnote__button.is-active {
+	background-color: #1F306F;
+}
+
+menu {
+	background-color: hsla(227, 75%, 20%, 0.95);
+}
+.safari menu,
+.chrome menu {
+	background-color: hsla(227, 0%, 20%, 0.35);
+}
