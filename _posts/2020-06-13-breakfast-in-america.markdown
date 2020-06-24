@@ -16,12 +16,12 @@ episode: 13
 title: "Breakfast In America"
 author: "the Barrowclift Siblings"
 date: 2020-06-13 07:47:18-0400
-excerpt: "Roll out of bed for a spot of breakfast with Marc & Michael as they chew over Supertramp's 1979 classic, \"Breakfast In America\"."
+excerpt: "Roll out of bed for a spot of breakfast with Marc & Michael as they chew on Supertramp's 1979 classic, \"Breakfast In America\"."
 image: https://dropbox.badmusichertz.com/breakfast-in-america/images/podcast-art.jpg
 
 podcast-filename: "bmh13.mp3"
 podcast-duration: "01:16:50"
-podcast-size-in-bytes: 74350077
+podcast-size-in-bytes: 74350069
 
 artist: Supertramp
 genres:
@@ -43,8 +43,6 @@ Or purchase *Breakfast In America* on:
 * [Amazon Music](https://www.amazon.com/Breakfast-America-Remastered-Supertramp/dp/B00KVYA7LM/ref=tmm_msc_swatch_0?_encoding=UTF8&qid=&sr=)
 
 -----
-
-
 
 * [*I Spy* book series](https://en.wikipedia.org/wiki/I_Spy_(Scholastic)) by [Scholastic](https://en.wikipedia.org/wiki/Scholastic_Corporation)
 * [*Breakfast in America* chart position data](https://www.officialcharts.com/search/albums/breakfast-in-america/)
