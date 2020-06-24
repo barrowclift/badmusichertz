@@ -15,7 +15,7 @@ blurred-card: False
 episode: 13
 title: "Breakfast In America"
 author: "the Barrowclift Siblings"
-date: 2020-06-13 07:47:18-0400
+date: 2020-06-24 09:26:51-0400
 excerpt: "Roll out of bed for a spot of breakfast with Marc & Michael as they chew on Supertramp's 1979 classic, \"Breakfast In America\"."
 image: https://dropbox.badmusichertz.com/breakfast-in-america/images/podcast-art.jpg
 
