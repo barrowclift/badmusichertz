@@ -16,7 +16,7 @@ episode: 13
 title: "Breakfast In America"
 author: "the Barrowclift Siblings"
 date: 2020-06-24 09:26:51-0400
-excerpt: "Roll out of bed for a spot of breakfast with Marc & Michael as they chew on Supertramp's 1979 classic, \"Breakfast In America\"."
+excerpt: "Roll out of bed for a spot of breakfast with Marc &amp; Michael as they chew on Supertramp's 1979 classic, \"Breakfast In America\"."
 image: https://dropbox.badmusichertz.com/breakfast-in-america/images/podcast-art.jpg
 
 podcast-filename: "bmh13.mp3"

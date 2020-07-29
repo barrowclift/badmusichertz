@@ -16,7 +16,7 @@ episode: 12
 title: "Pure Comedy"
 author: "the Barrowclift Siblings"
 date: 2020-05-08 07:47:18-0400
-excerpt: "Reminisce about 2017 with Marc & Michael on Father John Misty's \"Pure Comedy\""
+excerpt: "Reminisce about 2017 with Marc &amp; Michael on Father John Misty's \"Pure Comedy\""
 image: https://dropbox.badmusichertz.com/pure-comedy/images/podcast-art.jpg
 
 podcast-filename: "bmh12.mp3"
