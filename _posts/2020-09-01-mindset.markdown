@@ -1,0 +1,73 @@
+---
+layout: podcast
+
+album-name: "mindset"
+album-art-hidden-text: ""
+
+primary-color: "#F2EDDA"
+secondary-color: "#FFEBA1"
+blurred-background: True
+
+color-stop-1: "#F2C419"
+color-stop-2: "#F2ECD1"
+blurred-card: False
+
+episode: 14
+title: "Mindset"
+author: "the Barrowclift Siblings"
+date: 2020-09-01 19:20:54-0400
+excerpt: "Take some meditation time with Marc &amp; Michael as they reflect on Vacationer's \"Mindset\"."
+image: https://dropbox.badmusichertz.com/mindset/images/podcast-art.jpg
+
+podcast-filename: "bmh14.mp3"
+podcast-duration: "01:30:04"
+podcast-size-in-bytes: 86810422
+
+artist: Mindset
+genres:
+  - Electro-dream pop
+  - Psychedelic pop
+categories:
+  - Podcast
+  - Album review
+---
+
+You can listen to Supertramp's *Breakfast In America* on:
+
+* [Apple Music](https://music.apple.com/us/album/mindset/1480568183)
+* [Spotify](https://open.spotify.com/album/3uZNo4sodT5TzfIaPkF3Iu)
+
+Or purchase *Breakfast In America* on:
+
+* [Amazon Music](https://www.amazon.com/Mindset-Vacationer/dp/B07Y3WLW78/ref=sr_1_10?dchild=1&keywords=vacationer+music&qid=1595985146&sr=8-10)
+
+-----
+
+* [Michael's review on 2014's "Relief"](https://badmusichertz.com/post/relief)
+* Vacationer's Discography leading up to *Mindset*
+  * [*Gone* (2012)](https://music.apple.com/us/album/gone/1443883368)
+  * [*Relief* (2014)](https://music.apple.com/us/album/relief/1443901446)
+* [Phoenix](https://music.apple.com/us/artist/phoenix/5500360)
+  * [*Wolfgang Amadeus Phoenix* (2009)](https://music.apple.com/us/album/wolfgang-amadeus-phoenix/1450828963)
+  * [*Entertainment* (2013)](https://music.apple.com/us/album/bankrupt-deluxe-edition/1451345965)
+* Kenny's other projects
+  * [The Starting Line](https://music.apple.com/us/artist/the-starting-line/14788139)
+  * [Person L](https://music.apple.com/us/artist/person-l/276969135)
+* ["Mindset" Cannabis strain merch](https://www.floatedmag.com/single-post/2018/12/25/Cherry-Kola-Farms-X-Vacationer-Mindset-Cannabis-Strain)
+* [Paul McCartney & Wings'](https://music.apple.com/us/artist/paul-mccartney-wings/254653827) ["Let Me Roll It"](https://music.apple.com/us/album/let-me-roll-it/1443413822?i=1443413968)
+* [WALK THE MOON](https://music.apple.com/us/artist/walk-the-moon/451783136)
+* [Mumford & Sons](https://music.apple.com/us/artist/mumford-sons/307699986)
+* [LUDO](https://music.apple.com/us/artist/ludo/5165285)
+  * [HalLUDOween](https://en.wikipedia.org/wiki/Ludo_(band)#HalLUDOween)
+
+## Quotes
+
+> "And that's one of the things that I really enjoyed, was that first time I'd hear him hunting for a chord change and I'd think 'Man, he's just gone right off the edge because he's not ever gonna get close. He's way out there in some area that's just--he'll never get back. And if he's successful, gets out of there, people are going to say, I've lost my tone center, don't know where the hell I am and stuff. And then, eventually, he'd figure out what it was he wanted to do. A lot of it was just hunting and pecking, the way some of us type."
+>
+> "Tony Asher Interview", AlbumLinerNotes.com http://www.albumlinernotes.com/Tony_Asher_Interview.html
+
+## Art
+
+[![Cover art]({{ site.dropbox-baseurl }}/mindset/images/album-art.jpg)]({{ site.dropbox-baseurl }}/mindset/images/album-art-original.jpg)
+
+♫︎

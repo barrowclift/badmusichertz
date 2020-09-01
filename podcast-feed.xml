@@ -17,7 +17,9 @@ layout: null
 			<itunes:email>badmusichertz@gmail.com</itunes:email>
 		</itunes:owner>
 		<itunes:image href="{{ site.url }}/images/logo/podcast-cover-art-compressed.jpg" />
-		<itunes:category text="Music"/>
+		<itunes:category text="Music">
+			<itunes:category text="Music Commentary"/>
+		</itunes:category>
 		<itunes:explicit>no</itunes:explicit>
 		<lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
 		<generator>Liquid with Jekyll</generator>
