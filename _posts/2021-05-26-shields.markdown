@@ -17,7 +17,7 @@ title: "Shields"
 author: "the Barrowclift Siblings"
 date: 2021-05-26 07:49:57-0400
 excerpt: "Assume a defensive stance with Marc &amp; Michael as they joust over Grizzly Bear's \"Shields\"."
-image: https://dropbox.badmusichertz.com/pure-comedy/images/podcast-art.jpg
+image: https://dropbox.badmusichertz.com/shields/images/podcast-art.jpg
 
 podcast-filename: "bmh15.mp3"
 podcast-duration: "01:22:41"
