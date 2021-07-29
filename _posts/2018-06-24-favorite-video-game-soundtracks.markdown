@@ -4,6 +4,7 @@ layout: podcast
 album-name: "favorite-video-game-soundtracks"
 album-art-hidden-text: ""
 
+theme-color: "#CC693C"
 primary-color: "#393A3E"
 secondary-color: "#FEF8F8"
 color-stop-1: "#7F97E4"

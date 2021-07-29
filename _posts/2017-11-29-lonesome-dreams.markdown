@@ -4,6 +4,7 @@ layout: podcast
 album-name: "lonesome-dreams"
 album-art-hidden-text: ""
 
+theme-color: "#E7E3D6"
 primary-color: "#F6EEDF"
 secondary-color: "#B5AD9C"
 blurred-background: True

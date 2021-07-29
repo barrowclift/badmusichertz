@@ -1,6 +1,8 @@
 ---
 layout: post
 
+theme-color: "#171717"
+
 album-name: "broken-bride"
 
 primary-color: "#E3E3E3"

@@ -4,6 +4,7 @@ layout: podcast
 album-name: "a-sailors-guide-to-earth"
 album-art-hidden-text: ""
 
+theme-color: "#10100E"
 primary-color: "#E2F0F6"
 secondary-color: "#C4A56F"
 blurred-background: True

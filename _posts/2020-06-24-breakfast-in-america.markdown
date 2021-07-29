@@ -4,6 +4,7 @@ layout: podcast
 album-name: "breakfast-in-america"
 album-art-hidden-text: ""
 
+theme-color: "#EBF3EF"
 primary-color: "#E9F3EF"
 secondary-color: "#99BDD9"
 blurred-background: True

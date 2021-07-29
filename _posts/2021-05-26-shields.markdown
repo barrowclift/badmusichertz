@@ -4,6 +4,7 @@ layout: podcast
 album-name: "shields"
 album-art-hidden-text: ""
 
+theme-color: "#F0EEE3"
 primary-color: "#F2EDDF"
 secondary-color: "#CDC9BD"
 blurred-background: False
