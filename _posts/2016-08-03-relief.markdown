@@ -4,6 +4,7 @@ layout: post
 album-name: "relief"
 album-art-hidden-text: "A Relief could mean everything"
 
+theme-color: "#68867F"
 primary-color: "#F9F7D1"
 secondary-color: "#EBF5EA"
 blurred-background: True
