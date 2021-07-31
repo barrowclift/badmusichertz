@@ -736,7 +736,7 @@ audio {
 #bottom-navigation {
 	position: relative;
 	bottom: 0;
-	height: 6em;
+	height: 8em;
 	clear: both;
 	margin-bottom: 0;
 	width: 100%;
@@ -915,6 +915,8 @@ input, textarea {
 	}
 	main {
 		margin-bottom: 1.3em;
+		padding-left: 0;
+		padding-right: 0;
 	}
 
 	/* ----- ARTICLE ----- */
@@ -990,8 +992,8 @@ input, textarea {
 	/* ----- ARTICLE CARDS ----- */
 	#article-cards {
 		margin-top: 1.3em;
-		padding-left: env(safe-area-inset-left);
-		padding-right: env(safe-area-inset-right);
+		padding-left: 0;
+		padding-right: 0;
 	}
 	.article-card {
 		padding-left: 0;
@@ -1206,11 +1208,13 @@ input, textarea {
 		display: none;
 		visibility: hidden;
 	}
-	.show-when-large {
+	.show-when-medium {
 		visibility: visible;
 		display: inline;
 	}
-	.show-when-medium {
+}
+@media (min-width: 1000px) {
+	.show-when-large {
 		visibility: visible;
 		display: inline;
 	}
