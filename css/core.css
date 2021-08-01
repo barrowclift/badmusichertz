@@ -341,12 +341,16 @@ menu {
 	z-index: 200;
 	padding-bottom: 0.075rem;
 }
-.safari menu,
-.chrome menu { /* Use Safari's lovely translucency, if available (see core.js) */
-	-webkit-backdrop-filter: saturate(180%) blur(20px);
-	backdrop-filter: saturate(180%) blur(20px);
-	background-color: rgba(248, 249, 250, 0.7);
+menu {
+	background-color: rgba(248, 249, 250, 0.9);
 }
+	@supports ((-webkit-backdrop-filter: saturate(180%) blur(20px)) or (backdrop-filter: saturate(180%) blur(20px))) {
+		menu {
+			-webkit-backdrop-filter: saturate(180%) blur(20px);
+			backdrop-filter: saturate(180%) blur(20px);
+			background-color: rgba(248, 249, 250, 0.7);
+		}
+	}
 	menu ul {
 		float: right;
 		margin-right: 5%;
