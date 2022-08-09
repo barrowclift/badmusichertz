@@ -1,0 +1,102 @@
+---
+layout: podcast-v2
+
+album-name: "vide-noir"
+album-art-hidden-text: ""
+
+theme-color: "#040405"
+primary-color: "#1FB255"
+secondary-color: "#B1E5D6"
+blurred-background: False
+dark-theme: True
+
+color-stop-1: "#29491C"
+color-stop-2: "#040405"
+blurred-card: False
+
+episode: 16
+title: "Vide Noir"
+author: "the Barrowclift Siblings"
+date: 2022-08-09 19:05:56-0400
+excerpt: "Neutralize your consciousness with Marc &amp; Michael as they sail the astral plane with Lord Huron's most popular product, “Vide Noir”."
+image: https://dropbox.badmusichertz.com/vide-noir/images/podcast-art.jpg
+
+podcast-filename: "bmh16.mp3"
+podcast-duration: "02:06:24"
+podcast-size-in-bytes: 121577645
+
+artist: Lord Huron
+genres:
+  - Alternative pop
+  - Alternative rock
+  - Indie folk
+  - Indie rock
+categories:
+  - Podcast
+  - Album review
+---
+
+You can listen to Lord Huron's *Vide Noir* on:
+
+* [Apple Music](https://music.apple.com/us/album/vide-noir/1440909604)
+* [Spotify](https://open.spotify.com/album/1QBpyjJ4y0Yp0Aj8mOji5o)
+
+Or purchase *Vide Noir* on:
+
+* [Amazon Music](https://www.amazon.com/Vide-Noir-Lord-Huron/dp/B079VD4KS4)
+
+-----
+
+* [Lord Huron](https://music.apple.com/us/artist/lord-huron/393068687)'s discography leading up to *Vide Noir*
+    * [*Mighty* - EP](https://music.apple.com/us/album/mighty-ep/402225899) (2010)
+    * [*Into the Sun* - EP](https://music.apple.com/us/album/into-the-sun-ep/393068685) (2010)
+    * [*Lonesome Dreams*](https://music.apple.com/us/album/lonesome-dreams/970887928) (2012)
+    * [*Strange Trails*](https://music.apple.com/us/album/strange-trails/962688212) (2015)
+* Berkley (Michael and Kailie's dog), certified best doggo in the world [![Michael and Kailie's dog, Berklely]({{ site.dropbox-baseurl }}/vide-noir/images/berkley-is-best-dog.jpg)]({{ site.dropbox-baseurl }}/vide-noir/images/berkley-is-best-dog.jpg)
+* [Riverside Theater](http://www.riverside.theater) in Milwaukee, WI
+* [Lord Huron's "Video Postcard" promotional shorts](https://www.youtube.com/watch?v=kr9CzohjQuY&list=PL26E088D7793E1C27&index=16)
+* ["Fool For Love" music video from 2015's *Strange Trail*](https://www.youtube.com/watch?v=fl1FOuZnOAg)
+* [*Vide Noir* 2 minute album teaser](https://www.youtube.com/watch?v=fg7351zmFvk)
+* [*Vide Noir*'s 30 minute album promo "Products of the Universe with Marsha Tanley"](https://www.youtube.com/watch?v=ou38j2B0OV8), which among many things spoofs [shopping channels from the 80's](https://en.wikipedia.org/wiki/Shopping_channel)
+* [Vide Noir's listing on IMDb](https://www.imdb.com/title/tt11124146/)
+* Mentioned credits
+    * Mixer: [Dave Fridmann](https://en.wikipedia.org/wiki/Dave_Fridmann)
+    * Masterer: [Greg Calbi](https://en.wikipedia.org/wiki/Greg_Calbi)
+* [Fortune teller machines](https://en.wikipedia.org/wiki/Fortune_teller_machine) (the one we remember was "Zoltar")
+* [*Long Lost*](https://music.apple.com/us/album/long-lost/1557584746), Lord Huron's 2021 follow-up to *Vide Noir* (don't worry, we'll get to it at some point)
+* [Direct link to our Episode 2: *Strange Trails*](https://overcast.fm/+LFibBaK9o/2:04:20) conversation where Aimee asked where we thought the band would go next for their then-unannounced third LP.
+* [Jesca Hoop's *Memories Are Now*](https://music.apple.com/us/album/memories-are-now/1169664504)
+* [*The Power Of Habit: Why We Do What We Do in Life and Business* by Charles Duhigg](https://www.goodreads.com/book/show/12609433-the-power-of-habit)
+* [IMDb's *Vide Noir* page](https://www.imdb.com/title/tt11124146/)
+* Michael's Easter Egg Hunt
+    * ["The Night We Met" Official Lyric Video](https://youtu.be/wGF7PswOENQ)
+        * [`CAPTIONING PROVIDED BY: EMERALD STAR CC SERVICES`](https://youtu.be/wGF7PswOENQ?t=5)
+        * [Flash of the Emerald Star at the very end](https://youtu.be/wGF7PswOENQ?t=191) (watch closely!)
+    * ["Products of the Universe with Marsha Tanley"](https://www.youtube.com/watch?v=ou38j2B0OV8)
+        * ["Spiritual Advisor to Ms. Tanley: GEORGE RANGER JOHNSON"](https://youtu.be/ou38j2B0OV8?t=1810)
+* ["Brain Scratch", *Cowboy Bebop*'s 23rd episode](https://cowboybebop.fandom.com/wiki/Brain_Scratch)
+* [Hannah Hillam](https://hannahhillam.com)'s relevant comic [![Void Juice gag]({{ site.dropbox-baseurl }}/vide-noir/images/void-juice.jpg)](https://hannahhillam.com/comics)
+
+## Quotes
+
+> "Balancer's Eye" is one we created ourselves, making up our own myths as we go. We're trying to keep it so all that stuff is still around in this world too. You'll see things that appeared on other records, ideas or names cross over to [Vide Noir]. In movies and literature and comic books, I've always liked where there's connectedness or crossover. We need someone to control the lore and keep tabs on it [laughs].
+>
+> [Inverview with Ben Schneider in Stereogum's "A Look Inside The Insular World Of Lord Huron", by Ian Cohen](https://www.stereogum.com/1991338/a-look-inside-the-insular-world-of-lord-huron/interviews/)
+
+> SCHNEIDER: You know, I guess I haven't had to yet, so I'm not sure, at least with "Strange Trails." On "Lonesome Dreams" there was kind of a central character named George Ranger Johnson, who is this really underappreciated, prolific author.
+>
+> BLOCK: Who you invented, yeah.
+>
+> SCHNEIDER: Who I invented, yes. But he - yeah, I do kind of miss George. You know, he might pop back up again some time.
+>
+> BLOCK: You haven't seen the last of him yet?
+>
+> SCHNEIDER: Haven't seen the last of George Ranger Johnson, no.
+>
+> [Interview with Ben Schneider in NPR's "Lord Huron Wants You To Dance At The Apocalypse", by Melissa Block](https://www.npr.org/transcripts/397364256)
+
+## Art
+
+[![Cover art]({{ site.dropbox-baseurl }}/vide-noir/images/front-cover.jpg)]({{ site.dropbox-baseurl }}/vide-noir/images/front-cover.jpg)
+
+♫︎

@@ -113,9 +113,22 @@ article {
 	border-radius: 0.25em;
 	display: inline-block;
 }
+	article#podcast-v2 {
+		padding-top: 0;
+	}
 	.review-page article {
 		background-color: white;
 	}
+#springboard {
+	background-color: rgba(255, 255, 255, 0.5);
+	box-shadow: 0 14px 26px -10px rgba(0, 0, 0, 0.3);
+	border: solid 1px black;
+	padding: 1.3em;
+	border-radius: 1.3em;
+}
+#shownotes {
+	margin-top: 2.6em;
+}
 
 
 /* TYPOGRAPHY ----------------------------------------------------------------------- */
@@ -223,7 +236,11 @@ small {
 	#podcast ol li,
 	#podcast ul li,
 	#podcast li ol,
-	#podcast li ul {
+	#podcast li ul,
+	#podcast-v2 ol li,
+	#podcast-v2 ul li,
+	#podcast-v2 li ol,
+	#podcast-v2 li ul {
 		margin-bottom: 0;
 	}
 time {
@@ -299,7 +316,8 @@ time {
 a {
 	font-weight: 700;
 }
-#podcast a {
+#podcast a,
+#podcast-v2 a {
 	font-weight: normal;
 }
 
@@ -806,7 +824,7 @@ audio {
 #logo span,
 .anchor,
 a {
-	transition: color .2s ease;
+	transition: color .2s ease, text-shadow .2s ease;
 }
 #logo .record .loud-grooves {
 	transition: stroke 0.2s ease, fill 0.2s ease;
