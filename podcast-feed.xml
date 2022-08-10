@@ -24,7 +24,7 @@ layout: null
 		<lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
 		<generator>Liquid with Jekyll</generator>
 		{% for post in site.posts %}
-		{% if post.layout == 'podcast' %}
+		{% if post.layout == 'podcast' or post.layout == 'podcast-v2' %}
 		<item>
 			<itunes:episodeType>full</itunes:episodeType>
 			<itunes:title>{{ post.title | xml_escape }}</itunes:title>
