@@ -24,10 +24,7 @@ menu {
 menu ul li a:link,
 menu ul li a:visited,
 #logo span {
-/*	color: #1FB255;*/
 	color: #F1FEFE;
-/*	text-shadow: 0 0 2px #F1FEFE, 0 0 80px #1FB255, 0 0 40px #1FB255, 0 0 20px #1FB255, 0 0 10px #1FB255, 0 0 5px #1FB255;*/
-/*	box-shadow: -40px 0 40px #E60000;*/
 }
 menu ul li a:link,
 menu ul li a:visited {
@@ -36,12 +33,6 @@ menu ul li a:visited {
 #logo {
 	filter: drop-shadow(0 0 1px #F1FEFE) drop-shadow(0 0 3px #1FB255) drop-shadow(0 0 20px #1FB255);
 }
-/*#logo .record {
-	filter: drop-shadow(0 0 20px #1FB255) drop-shadow(0 0 3px #1FB255);
-}
-#logo:hover .record {
-	filter: drop-shadow(0 0 20px #1FB255);
-}*/
 #logo .record .loud-grooves {
 	stroke: hsl(180, 87%, 89%);
 	fill: hsl(180, 87%, 97%);
