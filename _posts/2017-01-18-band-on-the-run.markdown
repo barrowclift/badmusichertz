@@ -19,7 +19,7 @@ image: https://dropbox.badmusichertz.com/band-on-the-run/images/album-art.jpg
 artist:
   - Wings
   - Paul McCartney
-  - Paul McCartney & Wings
+  - Paul McCartney &amp; Wings
 genres:
   - Rock
 categories:
