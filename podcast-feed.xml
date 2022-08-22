@@ -6,11 +6,13 @@ layout: null
 	<channel>
 		<title>Bad Music Hertz</title>
 		<link>{{ site.url }}</link>
-		<language>en-US</language>
-		<copyright>© {{ site.time | date: "%Y" }} Marc Barrowclift</copyright>
+		<language>en_US</language>
+		<copyright>© 2017-{{ site.time | date: "%Y" }} Marc Barrowclift</copyright>
+		<itunes:copyright>© 2017-{{ site.time | date: "%Y" }} Marc Barrowclift</itunes:copyright>
 		<itunes:author>The Barrowclift Sibs</itunes:author>
-		<description>Three siblings celebrating and discussing their favorite records.</description>
-		<itunes:summary>Three siblings celebrating and discussing their favorite records.</itunes:summary>
+		<description>Siblings celebrating and borderline obsessing over their favorite records.</description>
+		<itunes:summary>Siblings celebrating and borderline obsessing over their favorite records.</itunes:summary>
+		<itunes:subtitle>Siblings celebrating and borderline obsessing over their favorite records.</itunes:subtitle>
 		<itunes:type>episodic</itunes:type>
 		<itunes:owner>
 			<itunes:name>The Barrowclift Sibs</itunes:name>
@@ -22,12 +24,12 @@ layout: null
 		</itunes:category>
 		<itunes:explicit>no</itunes:explicit>
 		<lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-		<generator>Liquid with Jekyll</generator>
 		{% for post in site.posts %}
 		{% if post.layout == 'podcast' or post.layout == 'podcast-v2' %}
 		<item>
 			<itunes:episodeType>full</itunes:episodeType>
 			<itunes:title>{{ post.title | xml_escape }}</itunes:title>
+			<itunes:author>The Barrowclift Sibs</itunes:author>
 			<title>{{ post.episode }}. {{ post.title | xml_escape }}</title>
 			<itunes:episode>{{ post.episode }}</itunes:episode>
 			<description><![CDATA[{{ post.content | cdata_escape }}]]></description>
