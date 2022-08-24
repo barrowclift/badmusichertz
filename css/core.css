@@ -765,7 +765,7 @@ audio {
 #bottom-navigation {
 	position: relative;
 	bottom: 0;
-	height: 8em;
+	height: 10em;
 	clear: both;
 	margin-bottom: 0;
 	width: 100%;
@@ -780,7 +780,8 @@ audio {
 	#bottom-navigation .more {
 		padding-bottom: 0;
 		margin-bottom: 0;
-		margin-top: 1em;
+		margin-top: 0;
+		padding-top: 3em;
 		display: inline-block;
 		width: 100%;
 		text-align: center;
@@ -1130,7 +1131,7 @@ input, textarea {
 		margin-top: -7.8em;
 	}
 	#bottom-navigation .more {
-		margin-top: 1.95em;
+		padding-top: 1.95em;
 	}
 
 
@@ -1354,10 +1355,10 @@ input, textarea {
 		}
 	}
 	#bottom-navigation a {
-		color: hsl(360, 74%, 96%);
+		color: hsl(360, 84%, 54%);
 	}
 	#bottom-navigation a:hover {
-		color: #e03131;
+		color: hsl(360, 94%, 70%);
 	}
 	input,
 	textarea {

@@ -5,9 +5,7 @@
 		<a href="{{ paginator.next_page_path | replace: 'index.html', '/' | prepend: site.baseurl | replace: '//', '/' }}">See More Reviews</a>
 	</h4>
 	{% else %}
-	<h4 class="more weak">
-		No more reviews :(
-	</h4>
+	<h4 class="more weak">That's all there is!</h4>
 	{% endif %}
 </div>
 {% endif %}

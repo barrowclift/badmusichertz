@@ -6,7 +6,7 @@ album-art-hidden-text: ""
 
 theme-color: "#040405"
 primary-color: "#1FB255"
-secondary-color: "#B1E5D6"
+secondary-color: "#0C7332"
 blurred-background: False
 dark-theme: True
 
