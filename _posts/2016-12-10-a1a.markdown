@@ -5,6 +5,7 @@ album-name: "a1a"
 album-art-hidden-text: ""
 
 theme-color: "#FFFEF8"
+theme-color-dark: "#42392F"
 primary-color: "#AA1C0F"
 secondary-color: "#AFA793"
 color-stop-1: "#F4F1E8"
@@ -16,7 +17,6 @@ title: "A1A"
 author: "Michael Barrowclift"
 date: 2016-12-10 22:58:00
 image: https://dropbox.badmusichertz.com/a1a/images/album-art.jpg
-album-art-article-override: album-art-article-override.jpg
 
 artist: Jimmy Buffett
 genres:

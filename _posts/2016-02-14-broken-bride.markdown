@@ -2,6 +2,7 @@
 layout: post
 
 theme-color: "#171717"
+theme-color-dark: "#171717"
 
 album-name: "broken-bride"
 
@@ -9,6 +10,7 @@ primary-color: "#E3E3E3"
 secondary-color: "#759D9A"
 blurred-background: False
 dark-theme: True
+disable-dark-overlay: True
 
 title: "Broken Bride"
 author: "Michael Barrowclift"

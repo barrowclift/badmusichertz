@@ -4,6 +4,15 @@ html {
 .review-page article {
 	background-color: rgba(248, 249, 250, 0.75);
 }
+@media (prefers-color-scheme: dark) {
+	html {
+		background-color: #3D050A;
+	}
+	.review-page article {
+		color: white;
+		background-color: hsla(359, 50%, 45%, 0.4);
+	}
+}
 
 /* Safari */
 ::selection {
@@ -13,6 +22,17 @@ html {
 ::-moz-selection {
 	background: hsl(359, 63%, 34%, 0.99);
 }
+@media (prefers-color-scheme: dark) {
+	/* Safari */
+	::selection {
+		background: hsl(1, 67%, 19%, 0.99);
+	}
+	/* Firefox */
+	::-moz-selection {
+		background: hsl(1, 67%, 19%, 0.99);
+	}
+}
+
 
 .review-page article a {
 	text-decoration: underline;
@@ -25,13 +45,15 @@ menu ul li a:visited,
 #logo span {
 	color: #CACCCE;
 }
-menu ul li a:hover,
-#logo:hover span {
-	color: #CACCCE;
-}
 #logo:hover span,
 menu ul li a:hover {
 	color: #1A2223;
+}
+.rss {
+	fill: #CACCCE;
+}
+menu a:hover .rss {
+	fill: #1A2223;
 }
 
 #logo .record .loud-grooves {
@@ -77,6 +99,14 @@ a:hover {
 #listen-on-buttons .stop {
 	stop-color: #8F2021;
 }
+@media (prefers-color-scheme: dark) {
+	a, a:link, a:visited {
+		color: hsl(359, 63%, 64%);
+	}
+	a:hover {
+		color: hsl(1, 43%, 76%);
+	}
+}
 
 .bigfoot-footnote__button,
 .bigfoot-footnote__button:link,
@@ -93,7 +123,8 @@ a:hover {
 menu {
 	background-color: hsla(359, 70%, 34%, 0.95);
 }
-.safari menu,
-.chrome menu {
-	background-color: hsla(355, 71%, 0%, 0.25)
+@supports ((-webkit-backdrop-filter: saturate(180%) blur(20px)) or (backdrop-filter: saturate(180%) blur(20px))) {
+	menu {
+		background-color: hsla(355, 71%, 0%, 0.25)
+	}
 }

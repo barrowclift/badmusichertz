@@ -5,7 +5,8 @@ image: https://dropbox.badmusichertz.com/scum-fuck-flower-boy/images/album-art.j
 album-name: "scum-fuck-flower-boy"
 album-art-hidden-text: ""
 
-theme-color: "#515C2F"
+theme-color: "#FFC400"
+theme-color-dark: "#553F0C"
 primary-color: "#F2E4BD"
 secondary-color: "#EC7C43"
 blurred-background: True

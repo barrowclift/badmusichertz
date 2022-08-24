@@ -2,9 +2,7 @@ html {
 	color: #1C2931;
 	background-color: #1D2629;
 }
-menu,
-.safari menu,
-.chrome menu {
+menu {
 	background-color: rgba(245, 238, 220, 0.95);
 }
 .review-page article {
@@ -18,12 +16,12 @@ time {
 /* HIGHLIGHT ----------------------------------------------------------- */
 /* Safari */
 ::selection {
-	background: #9F956B;
+	background: hsla(48, 21%, 52%, 0.99);
 	color: #F8F7F5;
 }
 /* Firefox */
 ::-moz-selection {
-	background: #9F956B;
+	background: hsla(48, 21%, 52%, 0.99);
 	color: #F8F7F5;
 }
 
@@ -33,6 +31,25 @@ a, a:link, a:visited,
 menu ul li a:hover,
 #logo:hover span {
 	color: #A29768;
+}
+.rss {
+	fill: rgba(33, 37, 41, 0.9);
+}
+menu a:hover .rss {
+	fill: #A29768;
+}
+#logo .record .loud-grooves {
+	stroke: hsl(197, 6%, 17%);
+	fill: hsl(197, 6%, 21%);
+}
+#logo .record .quiet-grooves {
+	fill: hsl(197, 6%, 19%);
+}
+#logo .record .flat-grooves {
+	fill: hsl(197, 6%, 17%);
+}
+#logo .record .runout {
+	stroke: hsl(197, 6%, 17%);
 }
 #logo:hover .record .loud-grooves {
 	stroke: hsl(49, 24%, 50%);
@@ -74,4 +91,56 @@ a:hover {
 .bigfoot-footnote__button:active,
 .bigfoot-footnote__button.is-active {
 	background-color: #8ea280;
+}
+
+@media (prefers-color-scheme: dark) {
+	html {
+		background-color: #0E1416;
+		color: #F7F0DE;
+	}
+	menu {
+		background-color: hsla(156, 7%, 27%, 0.95);
+	}
+	.review-page article {
+		background-color: hsla(156, 7%, 27%, 0.95);
+	}
+	menu ul li a,
+	menu ul li a:link,
+	menu ul li a:visited,
+	#logo span {
+		color: #F7F0DE;
+	}
+	.rss {
+		fill: #F7F0DE;
+	}
+	menu a:hover .rss {
+		fill: #A29768;
+	}
+	#logo .record .loud-grooves {
+		stroke: hsl(43, 61%, 88%);
+		fill: hsl(43, 61%, 92%);
+	}
+	#logo .record .quiet-grooves {
+		fill: hsl(43, 61%, 90%);
+	}
+	#logo .record .flat-grooves {
+		fill: hsl(43, 61%, 88%);
+	}
+	#logo .record .runout {
+		stroke: hsl(43, 61%, 88%);
+	}
+	a, a:link, a:visited,
+	menu ul li a:hover,
+	#logo:hover span {
+		color: #A29768;
+	}
+	a:hover {
+		color: #D2C695;
+	}
+	#listen-on-buttons .start {
+		stop-color: #B9AD78;
+	}
+	#listen-on-buttons .stop {
+		stop-color: #7F764E
+	}
 }

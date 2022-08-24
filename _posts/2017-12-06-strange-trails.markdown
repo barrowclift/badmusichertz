@@ -4,7 +4,8 @@ layout: podcast
 album-name: "strange-trails"
 album-art-hidden-text: ""
 
-theme-color: "#1E1E1B"
+theme-color: "#191B1E"
+theme-color-dark: "#161618"
 primary-color: "#bda54d"
 secondary-color: "#88aab2"
 blurred-background: True

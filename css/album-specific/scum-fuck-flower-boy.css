@@ -6,61 +6,113 @@ main {
 .review-page article {
 	background-color: rgba(242, 228, 189, 0.95);
 }
-
 menu {
 	background-color: rgba(243, 185, 79, 0.95);
 }
-.safari menu,
-.chrome menu {
-	background-color: rgba(248, 249, 250, 0.25);
+@supports ((-webkit-backdrop-filter: saturate(180%) blur(20px)) or (backdrop-filter: saturate(180%) blur(20px))) {
+	menu {
+		background-color: rgba(248, 249, 250, 0.25);
+	}
 }
-
 a {
 	font-weight: 400;
 }
-
 main,
 .review-page article {
-	color: rgb(21, 12, 9);
+	color: #3E3620;
 }
-article header h1 span {
-	color: rgb(21, 12, 9);
+article header h1 span,
+h2 {
+	color: #3E3620;
 }
 article header h1 time {
-	color: rgb(186, 64, 49);
+	color: rgba(21, 12, 9, 0.375);
 }
-
 hr {
 	background-color: hsla(75, 39%, 26%, 0.75);
 	background: hsla(75, 39%, 26%, 0.75);
 }
-
 menu ul li a:link,
 menu ul li a:visited,
 #logo span {
-	color: rgb(21, 12, 9);
+	color: #3E3620;
 }
-
-/* Safari */
+.rss {
+	fill: #3E3620;
+}
+menu a:hover .rss {
+	fill: hsl(75, 39%, 26%);
+}
 ::selection {
-	background: hsl(75, 39%, 26%);
+	background: hsla(75, 39%, 26%, 0.99);
 }
-/* Firefox */
 ::-moz-selection {
-	background: hsl(75, 39%, 26%);
+	background: hsla(75, 39%, 26%, 0.99);
 }
-
 a, a:link, a:visited {
-	color: hsl(7, 58%, 46%);
+	color: hsl(7, 90%, 50%);
 }
 a:hover {
-	color: hsl(75, 39%, 26%);
+	color: hsl(7, 90%, 70%);
+}
+.bigfoot-footnote__button,
+.bigfoot-footnote__button:link,
+.bigfoot-footnote__button:visited {
+	background-color: hsl(7, 90%, 50%);
+}
+.bigfoot-footnote__button:hover,
+.bigfoot-footnote__button:focus,
+.bigfoot-footnote__button:active,
+.bigfoot-footnote__button.is-active {
+	background-color: hsl(7, 90%, 70%);
+}
+.bigfoot-footnote__tooltip {
+	background-color: hsla(44, 67%, 90%, 0.95);
+	border: 1px solid #D1BF9B;
+}
+.bigfoot-footnote,
+.bigfoot-footnote__wrapper {
+	background-color: #D1BF9B;
+}
+.bigfoot-footnote__tooltip,
+.bigfoot-footnote__wrapper,
+.bigfoot-footnote__content {
+	background-color: hsla(44, 67%, 90%, 0.95);
+}
+.bigfoot-footnote__content {
+	color: #3E3620;
+}
+.bigfoot-footnote__content a {
+	color: hsl(7, 90%, 50%);
+}
+.bigfoot-footnote__content a:hover {
+	color: hsl(7, 90%, 70%);
+}
+.bigfoot-footnote__button:after,
+.bigfoot-footnote__button.is-active:after,
+.bigfoot-footnote__button:hover:after {
+	color: hsla(44, 67%, 90%, 0.95);
 }
 menu ul li a:hover,
 #logo:hover span {
 	color: hsl(75, 39%, 26%);
 }
-
+#logo .record .loud-grooves {
+	stroke: hsl(44, 32%, 14%);
+	fill: hsl(44, 32%, 18%);
+}
+#logo .record .quiet-grooves {
+	fill: hsl(44, 32%, 16%);
+}
+#logo .record .flat-grooves {
+	fill: hsl(44, 32%, 14%);
+}
+#logo .record .runout {
+	stroke: hsl(44, 32%, 14%);
+}
+#logo .label {
+	fill: hsl(20, 82%, 59%);
+}
 #logo:hover .record .loud-grooves {
 	stroke: hsl(75, 39%, 22%);
 	fill: hsl(75, 39%, 26%);
@@ -74,9 +126,121 @@ menu ul li a:hover,
 #logo:hover .record .runout {
 	stroke: hsl(75, 39%, 22%);
 }
-#logo .label {
-	fill: hsl(20, 82%, 59%);
-}
 #logo:hover .label {
 	fill: rgba(0, 0, 0, 0);
+}
+@media (prefers-color-scheme: dark) {
+	html {
+		background-color: #201F13;
+	}
+	.review-page article {
+		color: white;
+		background-color: hsla(44, 50%, 18%, 0.8);
+	}
+	menu {
+		background-color: hsla(44, 50%, 18%, 0.95);
+	}
+	@supports ((-webkit-backdrop-filter: saturate(180%) blur(20px)) or (backdrop-filter: saturate(180%) blur(20px))) {
+		menu {
+			background-color: hsla(44, 50%, 18%, 0.8);
+		}
+	}
+	article header h1 span,
+	h2 {
+		color: #DDC395;
+	}
+	article header h1 time {
+		color: hsla(38, 51%, 73%, 0.5);
+	}
+	a, a:link, a:visited {
+		color: hsl(9, 96%, 55%);
+	}
+	a:hover {
+		color: hsl(9, 96%, 70%);
+	}
+	.bigfoot-footnote__button,
+	.bigfoot-footnote__button:link,
+	.bigfoot-footnote__button:visited {
+		background-color: hsl(9, 96%, 55%);
+	}
+	.bigfoot-footnote__button:hover,
+	.bigfoot-footnote__button:focus,
+	.bigfoot-footnote__button:active,
+	.bigfoot-footnote__button.is-active {
+		background-color: hsl(9, 96%, 70%);
+	}
+	.bigfoot-footnote__tooltip {
+		background-color: hsla(44, 50%, 22%, 0.9);
+		border: 1px solid #6D5A42;
+	}
+	.bigfoot-footnote,
+	.bigfoot-footnote__wrapper {
+		background-color: #6D5A42;
+	}
+	.bigfoot-footnote__tooltip,
+	.bigfoot-footnote__wrapper,
+	.bigfoot-footnote__content {
+		background-color: hsla(44, 50%, 22%, 0.9);
+	}
+	.bigfoot-footnote__content {
+		color: white;
+	}
+	.bigfoot-footnote__content a {
+		color: hsl(9, 96%, 55%);
+	}
+	.bigfoot-footnote__content a:hover {
+		color: hsl(9, 96%, 70%);
+	}
+	.bigfoot-footnote__button:after,
+	.bigfoot-footnote__button.is-active:after,
+	.bigfoot-footnote__button:hover:after {
+		color: white;
+	}
+	menu ul li a:link,
+	menu ul li a:visited,
+	#logo span {
+		color: #DDC395;
+	}
+	menu ul li a:hover,
+	#logo:hover span {
+		color: hsl(75, 50%, 25%);
+	}
+	.rss {
+		fill: #DDC395;
+	}
+	menu a:hover .rss {
+		fill: hsl(75, 50%, 25%);
+	}
+	::selection {
+		background: hsla(75, 50%, 25%, 0.99);
+	}
+	::-moz-selection {
+		background: hsla(75, 50%, 25%, 0.99);
+	}
+	#logo .record .loud-grooves {
+		stroke: hsl(38, 51%, 69%);
+		fill: hsl(38, 51%, 73%);
+	}
+	#logo .record .quiet-grooves {
+		fill: hsl(38, 51%, 71%);
+	}
+	#logo .record .flat-grooves {
+		fill: hsl(38, 51%, 69%);
+	}
+	#logo .record .runout {
+		stroke: hsl(38, 51%, 69%);
+	}
+	#logo:hover .record .loud-grooves {
+		stroke: hsl(75, 50%, 21%);
+		fill: hsl(75, 50%, 25%);
+	}
+	#logo:hover .record .quiet-grooves {
+		fill: hsl(75, 50%, 23%);
+	}
+	#logo:hover .record .flat-grooves {
+		fill: hsl(75, 50%, 21%);
+	}
+	#logo:hover .record .runout {
+		stroke: hsl(75, 50%, 21%);
+	}
 }

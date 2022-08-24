@@ -4,6 +4,8 @@ layout: podcast
 album-name: "coming-of-age-singles"
 album-art-hidden-text: ""
 
+theme-color: "#FDFEFE"
+theme-color-dark: "#4B4C4D"
 primary-color: "#3F2F27"
 secondary-color: "#a86545"
 blurred-card: True

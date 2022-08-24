@@ -5,6 +5,7 @@ album-name: "helplessness-blues"
 album-art-hidden-text: "By far one of my favorite album covers as well. There's so much abstract scenes, characters, and emotions going on it's hard to know where to look first."
 
 theme-color: "#000000"
+theme-color-dark: "#000000"
 primary-color: "#E0BF70"
 secondary-color: "#C29159"
 blurred-background: True

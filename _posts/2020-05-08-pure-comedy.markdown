@@ -5,6 +5,7 @@ album-name: "pure-comedy"
 album-art-hidden-text: ""
 
 theme-color: "#141B40"
+theme-color-dark: "#121728"
 primary-color: "#FFFFFF"
 secondary-color: "#AAAAAA"
 blurred-background: True

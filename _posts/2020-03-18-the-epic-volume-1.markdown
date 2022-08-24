@@ -4,7 +4,8 @@ layout: podcast
 album-name: "the-epic-volume-1"
 album-art-hidden-text: ""
 
-theme-color: "#595D5F"
+theme-color: "#535C5E"
+theme-color-dark: "#37393A"
 primary-color: "#FFFFFF"
 secondary-color: "#AAAAAA"
 blurred-background: True

@@ -12,10 +12,11 @@ article hr, footer hr {
 menu {
 	background-color: rgba(248, 249, 250, 0.95);
 }
-	.safari menu,
-	.chrome menu {
+@supports ((-webkit-backdrop-filter: saturate(180%) blur(20px)) or (backdrop-filter: saturate(180%) blur(20px))) {
+	menu {
 		background-color: rgba(248, 249, 250, 0.7);
 	}
+}
 article hr, footer hr {
 	background-color: rgba(252, 252, 250, 0.5);
 	background: rgba(252, 252, 250, 0.5); /* Old browsers */
@@ -28,14 +29,21 @@ article hr, footer hr {
 menu {
 	background-color: rgba(14, 14, 14, 0.95);
 }
-.safari menu,
-.chrome menu {
-	background-color: rgba(14, 14, 14, 0.7);
+@supports ((-webkit-backdrop-filter: saturate(180%) blur(20px)) or (backdrop-filter: saturate(180%) blur(20px))) {
+	menu {
+		background-color: rgba(14, 14, 14, 0.7);
+	}
 }
 menu ul li a:link,
 menu ul li a:visited,
 #logo span {
 	color: #FCFCFA;
+}
+.rss {
+	fill: #FCFCFA;
+}
+menu a:hover .rss {
+	fill: #B7845B;
 }
 #logo .record .loud-grooves {
 	stroke: hsl(60, 25%, 94%);
@@ -69,9 +77,28 @@ menu ul li a:visited,
 #logo:hover .label {
 	fill: rgba(0,0,0,0);
 }
+.album-art {
+	margin-bottom: 0;
+}
+article h1 {
+	margin-top: 0;
+}
+article {
+	margin-top: -6vw;
+}
+@media (min-width: 700px) {
+	article {
+		margin-top: -6vw;
+	}
+}
+@media (min-width: 900px) {
+	article {
+		margin-top: -2.6em;
+	}
+}
 
 #content, html {
-	background-color: rgba(9, 8, 10, 1.00);
+	background-color: #080808;
 }
 main, .review-page article {
 	background-color: unset;

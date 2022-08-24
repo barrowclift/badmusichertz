@@ -10,9 +10,10 @@ main {
 menu {
 	background-color: rgba(14, 11, 10, 0.95);
 }
-.safari menu,
-.chrome menu {
-	background-color: rgba(14, 11, 10, 0.7);
+@supports ((-webkit-backdrop-filter: saturate(180%) blur(20px)) or (backdrop-filter: saturate(180%) blur(20px))) {
+	menu {
+		background-color: rgba(14, 11, 10, 0.7);
+	}
 }
 
 main,
@@ -51,6 +52,12 @@ a:hover,
 menu ul li a:hover,
 #logo:hover span {
 	color: hsl(38, 67%, 46%);
+}
+.rss {
+	fill: #F6C879;
+}
+menu a:hover .rss {
+	fill: hsl(38, 67%, 46%);
 }
 
 #listen-on-buttons .start {

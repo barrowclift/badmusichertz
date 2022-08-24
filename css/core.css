@@ -123,8 +123,8 @@ article {
 	background-color: rgba(255, 255, 255, 0.5);
 	box-shadow: 0 14px 26px -10px rgba(0, 0, 0, 0.3);
 	border: solid 1px black;
-	padding: 1.3em;
-	border-radius: 1.3em;
+	padding: 1em;
+	border-radius: 1em;
 }
 #shownotes {
 	margin-top: 2.6em;
@@ -312,9 +312,8 @@ h3,h4,h5,h6 {
 time {
 	font-weight: 700;
 }
-
-a {
-	font-weight: 700;
+.review-page a {
+	text-decoration: underline;
 }
 #podcast a,
 #podcast-v2 a {
@@ -381,6 +380,16 @@ menu {
 			margin-top: 1.25rem;
 			display: inline-block;
 		}
+.rss {
+	fill: #F78321;
+	vertical-align: baseline;
+	top: 0;
+	left: 0;
+	width: 0.835em;
+}
+	menu a:hover .rss {
+		fill: #e03131;
+	}
 
 
 /* ----- LOGO ----- */
@@ -495,7 +504,7 @@ compensate*/
 
 /* ----- ALBUM ART ----- */
 .album-art {
-	border-radius: 0.25em;
+	border-radius: 1em;
 	margin-bottom: 7.9vw;
 	margin-top: 10.1vw;
 	width: 80vw;
@@ -601,11 +610,11 @@ a:hover {
 
 /* Highlight Color */
 ::selection { /* Safari Highlight Color */
-	background: #e03131;
+	background: hsl(360, 74%, 54%, 0.99);
 	color: #f8f9fa;
 }
 ::-moz-selection { /* Firefox Highlight Color*/
-	background: #e03131;
+	background: hsl(360, 74%, 54%, 0.99);
 	color: #f8f9fa;
 }
 .no-select {
@@ -695,9 +704,7 @@ audio {
 .avatar {
 	width: 75%;
 	max-width: 15em;
-	border-radius: 100%;
-	-webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
+	border-radius: 1em;
 }
 .avatar:hover {
 	-webkit-filter: none;
@@ -831,7 +838,8 @@ a {
 }
 #logo .record .quiet-grooves,
 #logo .flat-grooves,
-#logo .label {
+#logo .label,
+.rss {
 	transition: fill 0.2s ease;
 }
 #logo .record .runout {
@@ -869,13 +877,21 @@ input, textarea {
 }
 .hide-when-medium,
 .hide-when-small,
-.show-when-large  {
+.show-when-large,
+.optional-menu-item {
 	display: none;
 	visibility: hidden;
 }
 .show-when-medium {
 	visibility: visible;
 	display: inline;
+}
+.review-page .show-when-dark {
+	background-color: black;
+	opacity: 0.5;
+}
+.show-when-dark {
+    display: none !important;
 }
 .column {
 	display: inline-block;
@@ -923,6 +939,13 @@ input, textarea {
 	}
 	.record {
 		margin-right: 0;
+	}
+}
+
+@media (min-width: 414px) {
+	.optional-menu-item {
+		visibility: visible;
+		display: inline;
 	}
 }
 
@@ -1098,9 +1121,7 @@ input, textarea {
 	}
 
 	/* ----- PAGE NAVIGATION ----- */
-	#bottom-navigation,
-	.safari #bottom-navigation,
-	.chrome #bottom-navigation {
+	#bottom-navigation {
 		-webkit-backdrop-filter: unset;
 		backdrop-filter: unset;
 		background-color: unset;
@@ -1165,7 +1186,7 @@ input, textarea {
 		background-color: rgba(248, 249, 250, 0.9);
 		padding-left: 2.6em;
 		padding-right: 2.6em;
-		border-radius: 0.25em;
+		border-radius: 1em;
 		padding-bottom: 1.3em;
 	}
 	@supports(padding: max(2.6em, env(safe-area-inset-left))) {
@@ -1263,4 +1284,86 @@ input, textarea {
 	.article-card img {
 		width: 13vw;
 	}
+}
+
+@media (prefers-color-scheme: dark) {
+	html {
+		background-color: hsl(360, 74%, 4%);
+		color: hsl(360, 74%, 96%);
+	}
+	menu a,
+	menu a:link,
+	menu a:visited,
+	#logo {
+		color: hsl(360, 74%, 96%);
+	}
+	a,
+	a:link,
+	a:visited {
+		color: hsl(360, 84%, 54%);
+	}
+	a:hover {
+		color: hsl(360, 94%, 70%);
+	}
+	menu a:hover,
+	#logo:hover {
+		color: hsl(360, 84%, 54%);
+	}
+	#logo .record .loud-grooves {
+		stroke: hsl(360, 37%, 84%);
+		fill: hsl(360, 37%, 96%)
+	}
+	#logo .record .quiet-grooves {
+		fill: hsl(360, 37%, 89%);
+	}
+	#logo .record .flat-grooves {
+		fill: hsl(360, 37%, 84%);
+	}
+	#logo .record .runout {
+		stroke: hsl(360, 37%, 84%);
+	}
+	menu {
+		background-color: hsla(360, 0%, 10%, 0.95);
+	}
+	menu {
+		background-color: hsla(360, 0%, 10%, 0.9);
+	}
+		@supports ((-webkit-backdrop-filter: saturate(180%) blur(20px)) or (backdrop-filter: saturate(180%) blur(20px))) {
+			menu {
+				background-color: hsla(360, 0%, 10%, 0.7);
+			}
+		}
+	blockquote {
+		border-color: rgba(255, 255, 255, 0.1);
+	}
+	time,
+	figcaption,
+	.weak {
+		color: rgba(255, 255, 255, 0.5);
+	}
+	hr {
+		background-color: rgba(255, 255, 255, 0.1);
+		background: rgba(255, 255, 255, 0.1);
+	}
+	.show-when-dark {
+	    display: block !important;
+	}
+	#bottom-navigation a {
+		color: hsl(360, 74%, 96%);
+	}
+	#bottom-navigation a:hover {
+		color: #e03131;
+	}
+	input,
+	textarea {
+		background-color: hsla(360, 0%, 10%, 0.7);
+	}
+	input, textarea {
+		border-color: hsla(360, 74%, 96%, 0.1);
+		color: hsl(360, 74%, 96%);
+	}
+		input:focus,
+		textarea:focus {
+			border-color: hsl(360, 84%, 54%);
+		}
 }

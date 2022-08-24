@@ -10,9 +10,10 @@ article hr, footer hr {
 menu {
 	background-color: rgba(25, 25, 25, 0.95);
 }
-.safari menu,
-.chrome menu {
-	background-color: rgba(25, 25, 25, 0.7);
+@supports ((-webkit-backdrop-filter: saturate(180%) blur(20px)) or (backdrop-filter: saturate(180%) blur(20px))) {
+	menu {
+		background-color: rgba(25, 25, 25, 0.7);
+	}
 }
 #content, html {
 	background-color: #101010;
@@ -21,6 +22,12 @@ menu ul li a:link,
 menu ul li a:visited,
 #logo span {
 	color: #FCFDFD;
+}
+.rss {
+	fill: #FCFDFD;
+}
+menu a:hover .rss {
+	fill: #9EC0C0;
 }
 #logo .record .loud-grooves {
 	stroke: hsl(60, 25%, 94%);

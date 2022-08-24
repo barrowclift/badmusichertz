@@ -12,10 +12,18 @@ article hr, footer hr {
 menu {
 	background-color: rgba(4, 4, 5, 0.95);
 }
-	.safari menu,
-	.chrome menu {
+@supports ((-webkit-backdrop-filter: saturate(180%) blur(20px)) or (backdrop-filter: saturate(180%) blur(20px))) {
+	menu {
 		background-color: rgba(4, 4, 5, 0.7);
 	}
+}
+.rss {
+	fill: #F1FEFE;
+	filter: drop-shadow(0 0 2px #F1FEFE) drop-shadow(0 0 10px #1FB255) drop-shadow(0 0 5px #1FB255);
+}
+menu a:hover .rss {
+	fill: #1FB255;
+}
 .album-art {
 	box-shadow: none;
 	-webkit-box-shadow: none;

@@ -4,7 +4,8 @@ layout: podcast
 album-name: "benji"
 album-art-hidden-text: ""
 
-theme-color: "#305F99"
+theme-color: "#498DE1"
+theme-color-dark: "#456491"
 primary-color: "#C69F53"
 secondary-color: "#96BBE9"
 blurred-background: True

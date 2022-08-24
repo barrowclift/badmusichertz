@@ -1,8 +1,17 @@
 html {
-	background-color: #5E9CD0;
+	background-color: #359FE9;
 }
 .review-page article {
 	background-color: hsla(207, 55%, 95%, 0.75);
+}
+@media (prefers-color-scheme: dark) {
+	html {
+		background-color: #324E66;
+	}
+	.review-page article {
+		color: white;
+		background-color: hsla(212,52%,10%,0.4);
+	}
 }
 
 /* Safari */
@@ -12,6 +21,16 @@ html {
 /* Firefox */
 ::-moz-selection {
 	background: hsla(207, 55%, 82%, 0.99);
+}
+@media (prefers-color-scheme: dark) {
+	/* Safari */
+	::selection {
+		background: hsla(207, 55%, 42%, 0.99);
+	}
+	/* Firefox */
+	::-moz-selection {
+		background: hsla(207, 55%, 42%, 0.99);
+	}
 }
 
 .review-page article a {
@@ -29,6 +48,12 @@ menu ul li a:visited,
 #logo:hover span,
 menu ul li a:hover {
 	color: #38515B;
+}
+.rss {
+	fill: #E9F3EF;
+}
+menu a:hover .rss {
+	fill: #38515B;
 }
 #logo .record .flat-grooves {
 	fill: hsl(156, 29%, 93%);
@@ -89,7 +114,8 @@ a:hover {
 menu {
 	background-color: hsla(207, 55%, 59%, 0.95);
 }
-.safari menu,
-.chrome menu {
-	background-color: hsla(207, 55%, 59%, 0.35);
+@supports ((-webkit-backdrop-filter: saturate(180%) blur(20px)) or (backdrop-filter: saturate(180%) blur(20px))) {
+	menu {
+		background-color: hsla(207, 55%, 59%, 0.35);
+	}
 }

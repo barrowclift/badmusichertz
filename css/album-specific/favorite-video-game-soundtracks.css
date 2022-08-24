@@ -44,6 +44,12 @@ menu ul li a:hover,
 #logo:hover span {
 	color: #FFFFFF;
 }
+.rss {
+	fill: #010000;
+}
+menu a:hover .rss {
+	fill: #FFFFFF;
+}
 a, a:link, a:visited {
 	color: #CC693C;
 }
@@ -109,9 +115,10 @@ menu {
 	background-color: #CC693C;
 	border-bottom: 2px solid #010000;
 }
-.safari menu,
-.chrome menu {
-	background-color: #CC693C;
+@supports ((-webkit-backdrop-filter: saturate(180%) blur(20px)) or (backdrop-filter: saturate(180%) blur(20px))) {
+	menu {
+		background-color: #CC693C;
+	}
 }
 
 .album-art,
@@ -135,5 +142,88 @@ menu {
 	.album-art,
 	article {
 		border: 3px solid #010000;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	#wrap {
+		background-color: #1A327D !important;
+		background: -webkit-linear-gradient(#1A327D, #030F38) !important;
+		background: -o-linear-gradient(#1A327D, #030F38) !important;
+		background: -moz-linear-gradient(#1A327D, #030F38) !important;
+		background: linear-gradient(#1A327D, #030F38) !important;
+	}
+	.review-page article {
+		color: white;
+		background-color: hsla(20, 100%, 0%, 0.4);
+	}
+	html {
+		color: #FFF8F7;
+	}
+	hr {
+		background: #FFF8F7;
+		background-color: #FFF8F7;
+	}
+	menu {
+		background-color: #8A3C19;
+		border-bottom: 2px solid #010000;
+	}
+	@supports ((-webkit-backdrop-filter: saturate(180%) blur(20px)) or (backdrop-filter: saturate(180%) blur(20px))) {
+		menu {
+			background-color: #8A3C19;
+		}
+	}
+	menu ul li a:link,
+	menu ul li a:visited,
+	#logo span {
+		color: #FFF8F7;
+	}
+	menu ul li a:hover,
+	#logo:hover span {
+		color: #010000;
+	}
+	.rss {
+		fill: #FFF8F7;
+	}
+	menu a:hover .rss {
+		fill: #010000;
+	}
+	#logo .record .loud-grooves {
+		stroke: hsl(0, 0%, 97%);
+		fill: hsl(0, 0%, 100%);
+	}
+	#logo .record .quiet-grooves {
+		fill: hsl(0, 0%, 100%);
+	}
+	#logo .record .flat-grooves {
+		fill: hsl(0, 0%, 97%);
+	}
+	#logo .record .runout {
+		stroke: hsl(0, 0%, 97%);
+	}
+	#logo:hover .record .loud-grooves {
+		stroke: hsl(0, 100%, 0%);
+		fill: hsl(0, 100%, 5%);
+	}
+	#logo:hover .record .quiet-grooves {
+		fill: hsl(0, 100%, 0%);
+	}
+	#logo:hover .record .flat-grooves {
+		fill: hsl(0, 100%, 0%);
+	}
+	#logo:hover .record .runout {
+		stroke: hsl(0, 100%, 0%);
+	}
+	a, a:link, a:visited {
+		color: hsl(19, 79%, 52%);
+	}
+	a:hover {
+		color: hsl(19, 89%, 72%);
+	}
+	#listen-on-buttons .start {
+		stop-color: hsl(19, 89%, 62%);
+	}
+	#listen-on-buttons .stop {
+		stop-color: #8A3C19;
 	}
 }

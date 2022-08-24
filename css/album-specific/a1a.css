@@ -5,10 +5,11 @@ article hr, footer hr {
 menu {
 	background-color: rgba(255, 254, 249, 0.95);
 }
-	.safari menu,
-	.chrome menu {
+@supports ((-webkit-backdrop-filter: saturate(180%) blur(20px)) or (backdrop-filter: saturate(180%) blur(20px))) {
+	menu {
 		background-color: rgba(255, 254, 249, 0.7);
 	}
+}
 .album-art {
 	box-shadow: none;
 	-webkit-box-shadow: none;
@@ -30,67 +31,83 @@ article header {
 	-webkit-box-shadow: none;
 	-moz-box-shadow: none;
 }
-article header h1 span {
-	color: #AA1C0F !important;
+article header h1 span,
+h2 {
+	color: #3F341C !important;
 }
 article header h1 time {
 	color: #AFA793 !important;
 }
-
-/* Safari */
 ::selection {
-	background: #AA1C0F;
+	background: hsla(6, 84%, 38%, 0.99);
 	color: #FFFEF8;
 }
-/* Firefox */
 ::-moz-selection {
-	background: #AA1C0F;
+	background: hsla(6, 84%, 38%, 0.99);
 	color: #FFFEF8;
 }
-
 a, a:link, a:visited {
-	color: #AA1C0F;
+	color: #B21E0F;
 }
-a:hover,
+a:hover {
+	color: #EF5242;
+}
 menu ul li a:hover,
 #logo:hover {
-	color: #EB2311;
+	color: #B21E0F;
+}
+.rss {
+	fill: rgba(33, 37, 41, 0.9);
+}
+menu a:hover .rss {
+	fill: #B21E0F;
+}
+#logo .record .loud-grooves {
+	stroke: hsl(203, 7%, 18%);
+	fill: hsl(203, 7%, 22%);
+}
+#logo .record .quiet-grooves {
+	fill: hsl(203, 7%, 20%);
+}
+#logo .record .flat-grooves {
+	fill: hsl(203, 7%, 18%);
+}
+#logo .record .runout {
+	stroke: hsl(203, 7%, 18%);
 }
 #logo:hover .record .loud-grooves {
-	stroke: hsl(5, 87%, 47%);
-	fill: hsl(5, 87%, 49%);
+	stroke: hsl(6, 84%, 34%);
+	fill: hsl(6, 84%, 38%);
 }
 #logo:hover .record .quiet-grooves {
-	fill: hsl(5, 87%, 48%);
+	fill: hsl(6, 84%, 36%);
 }
 #logo:hover .record .flat-grooves {
-	fill: hsl(5, 87%, 47%);
+	fill: hsl(6, 84%, 34%);
 }
 #logo:hover .record .runout {
-	stroke: hsl(5, 87%, 47%);
+	stroke: hsl(6, 84%, 34%);
 }
 #logo .label {
-	fill: #AA1C0F;
+	fill: #B21E0F;
 }
 #logo:hover .label {
 	fill: rgba(0,0,0,0);
 }
-
 #logo a,
 menu ul li a {
 	text-decoration: none;
 }
-
 .bigfoot-footnote__button,
 .bigfoot-footnote__button:link,
 .bigfoot-footnote__button:visited {
-	background-color: #AA1C0F;
+	background-color: #B21E0F;
 }
 .bigfoot-footnote__button:hover,
 .bigfoot-footnote__button:focus,
 .bigfoot-footnote__button:active,
 .bigfoot-footnote__button.is-active {
-	background-color: #EB2311;
+	background-color: #EF5242;
 }
 .bigfoot-footnote__tooltip {
 	background-color: #FFFFF7;
@@ -109,13 +126,129 @@ menu ul li a {
 	color: #3F341C;
 }
 .bigfoot-footnote__content a {
-	color: #AA1C0F;
+	color: #B21E0F;
 }
 .bigfoot-footnote__content a:hover {
-	color: #EB2311;
+	color: #EF5242;
 }
 .bigfoot-footnote__button:after,
 .bigfoot-footnote__button.is-active:after,
 .bigfoot-footnote__button:hover:after {
 	color: #FFFEF8;
+}
+.review-page .show-when-dark {
+	display: none !important;
+}
+.album-art {
+	margin-bottom: 0;
+}
+article h1 {
+	margin-top: 0;
+}
+article {
+	margin-top: -21vw;
+}
+@media (min-width: 700px) {
+	article {
+		margin-top: -21vw;
+	}
+}
+@media (min-width: 900px) {
+	article {
+		margin-top: -10em;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	html {
+		background-color: hsl(33, 16%, 22%) !important;
+		color: #F7F0DE;
+	}
+	menu {
+		background-color: hsla(33, 16%, 22%, 0.95);
+	}
+	.review-page article {
+		background-color: hsla(33, 16%, 22%, 0.95);
+	}
+	menu ul li a,
+	menu ul li a:link,
+	menu ul li a:visited,
+	#logo span {
+		color: #F7F0DE;
+	}
+	.rss {
+		fill: #F7F0DE;
+	}
+	menu a:hover .rss {
+		fill: #B21E0F;
+	}
+	article header h1 span,
+	h2 {
+		color: #F7F0DE !important;
+	}
+	#logo .record .loud-grooves {
+		stroke: hsl(43, 61%, 88%);
+		fill: hsl(43, 61%, 92%);
+	}
+	#logo .record .quiet-grooves {
+		fill: hsl(43, 61%, 90%);
+	}
+	#logo .record .flat-grooves {
+		fill: hsl(43, 61%, 88%);
+	}
+	#logo .record .runout {
+		stroke: hsl(43, 61%, 88%);
+	}
+	a, a:link, a:visited,
+	menu ul li a:hover,
+	#logo:hover span {
+		color: #B21E0F;
+	}
+	a:hover {
+		color: #EF5242;
+	}
+	main, .review-page article {
+		color: #F7F0DE;
+	}
+	.bigfoot-footnote__button,
+	.bigfoot-footnote__button:link,
+	.bigfoot-footnote__button:visited {
+		background-color: #B21E0F;
+	}
+	.bigfoot-footnote__button:hover,
+	.bigfoot-footnote__button:focus,
+	.bigfoot-footnote__button:active,
+	.bigfoot-footnote__button.is-active {
+		background-color: #EF5242;
+	}
+	.bigfoot-footnote__tooltip {
+		background-color: hsl(33, 16%, 32%);
+		border: 1px solid #322B24;
+	}
+	.bigfoot-footnote,
+	.bigfoot-footnote__wrapper {
+		background-color: #322B24;
+	}
+	.bigfoot-footnote__tooltip,
+	.bigfoot-footnote__wrapper,
+	.bigfoot-footnote__content {
+		background-color: hsl(33, 16%, 32%);
+	}
+	.bigfoot-footnote__content {
+		color: #F7F0DE;
+	}
+	.bigfoot-footnote__content a {
+		color: #B21E0F;
+	}
+	.bigfoot-footnote__content a:hover {
+		color: #EF5242;
+	}
+	.bigfoot-footnote__button:after,
+	.bigfoot-footnote__button.is-active:after,
+	.bigfoot-footnote__button:hover:after {
+		color: #F7F0DE;
+	}
+	article {
+		margin-top: 0 !important;
+	}
 }

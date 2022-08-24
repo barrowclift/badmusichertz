@@ -4,6 +4,15 @@ html {
 .review-page article {
 	background-color: hsla(180, 1%, 95%, 0.75);
 }
+@media (prefers-color-scheme: dark) {
+	html {
+		background-color: #04071B;
+	}
+	.review-page article {
+		color: white;
+		background-color: hsla(227, 75%, 20%, 0.4);
+	}
+}
 
 /* Safari */
 ::selection {
@@ -12,6 +21,16 @@ html {
 /* Firefox */
 ::-moz-selection {
 	background: hsla(227, 56%, 28%, 0.99);
+}
+@media (prefers-color-scheme: dark) {
+	/* Safari */
+	::selection {
+		background: hsla(227, 56%, 14%, 0.99);
+	}
+	/* Firefox */
+	::-moz-selection {
+		background: hsla(227, 56%, 14%, 0.99);
+	}
 }
 
 .review-page article a {
@@ -25,9 +44,11 @@ menu ul li a:visited,
 #logo span {
 	color: #DFDFDD;
 }
-menu ul li a:hover,
-#logo:hover span {
-	color: #DFDFDD;
+.rss {
+	fill: #DFDFDD;
+}
+menu a:hover .rss {
+	fill: #888A89;
 }
 #logo:hover span,
 menu ul li a:hover {
@@ -77,6 +98,20 @@ a:hover {
 #listen-on-buttons .stop {
 	stop-color: #1F306F;
 }
+@media (prefers-color-scheme: dark) {
+	a, a:link, a:visited {
+		color: hsl(227, 56%, 68%);
+	}
+	a:hover {
+		color: hsl(224, 51%, 82%);
+	}
+	#listen-on-buttons .start {
+		stop-color: hsl(224, 51%, 62%);
+	}
+	#listen-on-buttons .stop {
+		stop-color: hsl(227, 56%, 48%);
+	}
+}
 
 .bigfoot-footnote__button,
 .bigfoot-footnote__button:link,
@@ -93,7 +128,8 @@ a:hover {
 menu {
 	background-color: hsla(227, 75%, 20%, 0.95);
 }
-.safari menu,
-.chrome menu {
-	background-color: hsla(227, 0%, 20%, 0.35);
+@supports ((-webkit-backdrop-filter: saturate(180%) blur(20px)) or (backdrop-filter: saturate(180%) blur(20px))) {
+	menu {
+		background-color: hsla(227, 0%, 20%, 0.35);
+	}
 }

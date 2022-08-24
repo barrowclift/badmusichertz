@@ -2,7 +2,16 @@ html {
 	background-color: #657447;
 }
 .review-page article {
-	background-color: rgba(248, 249, 250, 0.75);
+	background-color: hsla(84, 20%, 90%, 0.95);
+}
+@media (prefers-color-scheme: dark) {
+	html {
+		background-color: #2A311E;
+	}
+	.review-page article {
+		color: white;
+		background-color: hsla(79, 23%, 59%, 0.4);
+	}
 }
 
 /* Safari */
@@ -20,6 +29,25 @@ a, a:link, a:visited {
 #logo:hover span,
 menu ul li a:hover {
 	color: #E7CA4D;
+}
+.rss {
+	fill: rgba(33, 37, 41, 0.9);
+}
+menu a:hover .rss {
+	fill: #E7CA4D;;
+}
+#logo .record .loud-grooves {
+	stroke: hsl(180, 5%, 14%);
+	fill: hsl(180, 5%, 18%);
+}
+#logo .record .quiet-grooves {
+	fill: hsl(180, 5%, 16%);
+}
+#logo .record .flat-grooves {
+	fill: hsl(180, 5%, 14%);
+}
+#logo .record .runout {
+	stroke: hsl(180, 5%, 14%);
 }
 #logo:hover .record .loud-grooves {
 	stroke: hsl(49, 76%, 58%);
@@ -49,6 +77,20 @@ a:hover {
 #listen-on-buttons .stop {
 	stop-color: #657447;
 }
+@media (prefers-color-scheme: dark) {
+	a, a:link, a:visited {
+		color: hsl(79, 44%, 58%);
+	}
+	a:hover {
+		color: hsl(49, 76%, 60%);
+	}
+	#listen-on-buttons .start {
+		stop-color: hsl(79, 44%, 58%);
+	}
+	#listen-on-buttons .stop {
+		stop-color: hsl(79, 54%, 20%);
+	}
+}
 
 .bigfoot-footnote__button,
 .bigfoot-footnote__button:link,
@@ -65,7 +107,53 @@ a:hover {
 menu {
 	background-color: rgba(135, 153, 96, 0.95);
 }
-.safari menu,
-.chrome menu {
-	background-color: rgba(248, 249, 250, 0.25);
+@supports ((-webkit-backdrop-filter: saturate(180%) blur(20px)) or (backdrop-filter: saturate(180%) blur(20px))) {
+	menu {
+		background-color: rgba(248, 249, 250, 0.25);
+	}
+}
+@media (prefers-color-scheme: dark) {
+	/* Safari */
+	::selection {
+		background: hsla(80, 24%, 20%, 0.99);
+	}
+	/* Firefox */
+	::-moz-selection {
+		background: hsla(80, 24%, 20%, 0.99);
+	}
+	article header h1 span,
+	h2 {
+		color: hsl(79, 29%, 77%);
+	}
+	article header h1 time {
+		color: hsla(79, 29%, 77%, 0.375);
+	}
+	menu ul li a:link,
+	menu ul li a:visited,
+	#logo span {
+		color: hsla(79, 19%, 67%, 0.9);
+	}
+	.rss {
+		fill: hsla(79, 19%, 67%, 0.9);
+	}
+	menu a:hover .rss {
+		fill: #E7CA4D;
+	}
+	#logo .record .loud-grooves {
+		stroke: hsl(79, 17%, 56%);
+		fill: hsl(79, 17%, 64%);
+	}
+	#logo .record .quiet-grooves {
+		fill: hsl(79, 17%, 60%);
+	}
+	#logo .record .flat-grooves {
+		fill: hsl(79, 17%, 56%);
+	}
+	#logo .record .runout {
+		stroke: hsl(79, 17%, 56%);
+	}
+	#logo:hover span,
+	menu ul li a:hover {
+		color: #E7CA4D;
+	}
 }
