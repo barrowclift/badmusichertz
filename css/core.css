@@ -498,7 +498,7 @@ compensate*/
 }
 .article-card img {
 	width: 90%;
-	border-radius: 0.25em;
+	border-radius: 1em;
 }
 
 
@@ -1323,9 +1323,6 @@ input, textarea {
 		stroke: hsl(360, 37%, 84%);
 	}
 	menu {
-		background-color: hsla(360, 0%, 10%, 0.95);
-	}
-	menu {
 		background-color: hsla(360, 0%, 10%, 0.9);
 	}
 		@supports ((-webkit-backdrop-filter: saturate(180%) blur(20px)) or (backdrop-filter: saturate(180%) blur(20px))) {
@@ -1347,6 +1344,14 @@ input, textarea {
 	}
 	.show-when-dark {
 	    display: block !important;
+	}
+	#bottom-navigation {
+		background-color: hsl(360, 74%, 4%);
+	}
+	@media (min-width: 700px) {
+		#bottom-navigation {
+			background-color: unset;
+		}
 	}
 	#bottom-navigation a {
 		color: hsl(360, 74%, 96%);
