@@ -485,6 +485,9 @@ compensate*/
 
 
 /* ----- ARTICLE CARDS ----- */
+#article-cards {
+	padding-bottom: 3em;
+}
 .article-card {
 	padding-top: 2.5em;
 	padding-bottom: 1.25em;
@@ -765,23 +768,23 @@ audio {
 #bottom-navigation {
 	position: relative;
 	bottom: 0;
-	height: 10em;
+	height: 7em;
 	clear: both;
 	margin-bottom: 0;
 	width: 100%;
 	background-color: rgb(248, 247, 245);
 }
 	#bottom-navigation a {
-		color: rgba(33, 37, 41, 0.9);
+		color: #e03131;
 	}
 	#bottom-navigation a:hover {
-		color: #e03131;
+		color: #c92a2a;
 	}
 	#bottom-navigation .more {
 		padding-bottom: 0;
 		margin-bottom: 0;
 		margin-top: 0;
-		padding-top: 3em;
+		padding-top: 0em;
 		display: inline-block;
 		width: 100%;
 		text-align: center;
@@ -1071,6 +1074,7 @@ input, textarea {
 		margin-top: 1.3em;
 		padding-left: 0;
 		padding-right: 0;
+		padding-bottom: 0;
 	}
 	.article-card {
 		padding-top: 2.5em;
