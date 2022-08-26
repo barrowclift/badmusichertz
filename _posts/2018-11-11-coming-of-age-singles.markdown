@@ -7,11 +7,11 @@ album-art-hidden-text: ""
 theme-color: "#FDFEFE"
 theme-color-dark: "#4B4C4D"
 primary-color: "#3F2F27"
-secondary-color: "#a86545"
+secondary-color: "#676059"
 blurred-card: True
 
-color-stop-1: "#E4E6E0"
-color-stop-2: "#3D3028"
+color-stop-1: "#AE9484"
+color-stop-2: "#F9FCFF"
 blurred-card: False
 
 title: "Coming-of-Age Singles"
