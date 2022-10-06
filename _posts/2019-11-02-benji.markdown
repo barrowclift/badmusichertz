@@ -54,7 +54,7 @@ Or purchase *Benji* on:
 * ["Mumble Folk"]()
 * [Fleet Foxes *Crack Up*](https://music.apple.com/us/album/crack-up/1209098746)
 * [The Explorer's Club *Grand Hotel*](https://itunes.apple.com/us/album/grand-hotel/520454399)
-    - [Bad Music Hertz Episode 7 "Grand Hotel"](/post/grand-hotel)
+    - [Bad Music Hertz Episode 7 "Grand Hotel"]({{ site.url }}/post/grand-hotel)
 * [Dynamic range compression](https://en.wikipedia.org/wiki/Dynamic_range_compression)
 * [Double tracking](https://en.wikipedia.org/wiki/Double_tracking)
 * ["Do They Know It's Christmas" by Band Aid 1984](https://www.youtube.com/watch?v=bjQzJAKxTrE)

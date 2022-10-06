@@ -50,7 +50,7 @@ Or purchase *The Epic* on:
 * Marc got the bass solos mixed up, the *acoustic bass* solo by Miles Mosley was first (the one he didn't like), then the *electric bass* solo by Stephen Bruner, a.k.a. [Thundercat](https://ninjatune.net/artist/thundercat) (which he did like).
 * [Disney's *Fantasia*](https://en.wikipedia.org/wiki/Fantasia_(1940_film))
 * Kamasi Washington's [*Harmony of Difference* EP](https://music.apple.com/us/album/harmony-of-difference-ep/1263764280)
-* [Bad Music Hertz Episode 9: The Explorers Club's *Grand Hotel*](/post/grand-hotel)
+* [Bad Music Hertz Episode 9: The Explorers Club's *Grand Hotel*]({{ site.url }}/post/grand-hotel)
 * [Henrietta Lacks: the cancer patient whose cells were the starting point of the HeLa immortal cell line used in scientific research](https://en.wikipedia.org/wiki/HeLa).
 * [Jimmy Buffett](https://music.apple.com/us/artist/jimmy-buffett/61232)'s ["A Pirate Looks At Forty"](https://music.apple.com/us/album/a-1-a/1440767919)
 * [Wikipedia article on "authorial intent"](https://en.wikipedia.org/wiki/Authorial_intent)

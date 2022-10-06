@@ -33,7 +33,7 @@ categories:
   - Album review
 ---
 
-* Previous episode - [Bad Music Hertz Episode 1: Lonesome Dreams]({{ site.baseurl }}/post/lonesome-dreams)
+* Previous episode - [Bad Music Hertz Episode 1: Lonesome Dreams]({{ site.url }}/post/lonesome-dreams)
 * Michael the Marmot ![Screenshot of a Skype window with Aimee's avatar as a normal picture and Michael's as that of a fat marmot eating a Cheeto]({{ site.dropbox-baseurl }}/strange-trails/images/michael-the-marmot.png)
 * [Strange Trails "Teaser Trailer"](https://www.youtube.com/watch?v=E-n6HR7lXLY)
 * [Strange Trails No. 7 "The World Ender" Comic Book](https://www.merchbar.com/rock-alternative/lord-huron/lord-huron-strange-trails-comic-book)
