@@ -5,7 +5,7 @@ layout: null
 <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://github.com/Podcastindex-org/podcast-namespace/blob/main/docs/1.0.md">
 	<channel>
 		<title>{{ site.title }}</title>
-		<description>Siblings celebrating and borderline obsessing over their favorite records.</description>
+		<description>{{ site.description }}</description>
 		<link>{{ site.url }}</link>
 		<language>en-US</language>
 		<generator uri="https://jekyllrb.com/" version="{{ jekyll.version }}">Jekyll</generator>
@@ -24,20 +24,20 @@ layout: null
 		<podcast:medium>podcast</podcast:medium>
 		<podcast:images src="{{ site.url }}/images/logo/podcast-cover-art.jpg" srcset="{{ site.url }}/images/logo/podcast-cover-art.jpg x1" />
 
-		<itunes:author>The Barrowclift Sibs</itunes:author>
+		<itunes:author>{{ site.creator }}</itunes:author>
 		<itunes:explicit>no</itunes:explicit>
 		<itunes:type>episodic</itunes:type>
 		<itunes:category text="Music">
 			<itunes:category text="Music Commentary"/>
 		</itunes:category>
 		<itunes:owner>
-			<itunes:name>The Barrowclift Sibs</itunes:name>
+			<itunes:name>{{ site.creator }}</itunes:name>
 			<itunes:email>{{ site.email }}</itunes:email>
 		</itunes:owner>
 		<itunes:image href="{{ site.url }}/images/logo/podcast-cover-art.jpg" />
 		<itunes:copyright>© 2017-{{ site.time | date: "%Y" }} Marc Barrowclift</itunes:copyright>
-		<itunes:summary>Siblings celebrating and borderline obsessing over their favorite records.</itunes:summary>
-		<itunes:subtitle>Siblings celebrating and borderline obsessing over their favorite records.</itunes:subtitle>
+		<itunes:summary>{{ site.description }}</itunes:summary>
+		<itunes:subtitle>{{ site.description }}</itunes:subtitle>
 
 		{% for post in site.posts %}
 		{% if post.layout == 'podcast' or post.layout == 'podcast-v2' %}
@@ -47,7 +47,7 @@ layout: null
 			<link>{{ post.url | prepend: site.url }}</link>
 			<guid isPermaLink="true">{{ site.dropbox-baseurl | xml_escape }}/{{ post.album-name | xml_escape }}/{{ post.podcast-filename | xml_escape }}</guid>
 			<pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-			<author>The Barrowclift Sibs</author>
+			<author>{{ site.creator }}</author>
 			<enclosure url="{{ site.dropbox-baseurl | xml_escape }}/{{ post.album-name | xml_escape }}/{{ post.podcast-filename | xml_escape }}" length="{{ post.podcast-size-in-bytes | xml_escape }}" type="audio/mpeg"/>
 
 			<podcast:images src="{{ site.url }}/images/logo/podcast-cover-art.jpg" srcset="{{ site.dropbox-baseurl | xml_escape }}/{{ post.album-name | xml_escape }}/images/podcast-art.jpg x1" />
@@ -57,7 +57,7 @@ layout: null
 			<itunes:explicit>{% if post.podcast-explicit %}yes{% else %}no{% endif %}</itunes:explicit>
 			<itunes:episodeType>full</itunes:episodeType>
 			<itunes:title>{{ post.title | xml_escape }}</itunes:title>
-			<itunes:author>The Barrowclift Sibs</itunes:author>
+			<itunes:author>{{ site.creator }}</itunes:author>
 			<itunes:episode>{{ post.episode }}</itunes:episode>
 			<itunes:duration>{{ post.podcast-duration | xml_escape }}</itunes:duration>
 			<itunes:subtitle>{{ post.excerpt }}</itunes:subtitle>
