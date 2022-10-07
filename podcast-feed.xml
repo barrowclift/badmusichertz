@@ -11,8 +11,8 @@ layout: null
 		<generator uri="https://jekyllrb.com/" version="{{ jekyll.version }}">Jekyll</generator>
 		<pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
 		<lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-		<managingEditor>badmusichertz@gmail.com (Marc Barrowclift)</managingEditor>
-		<webMaster>badmusichertz@gmail.com (Marc Barrowclift)</webMaster>
+		<managingEditor>{{ site.email }} (Marc Barrowclift)</managingEditor>
+		<webMaster>{{ site.email }} (Marc Barrowclift)</webMaster>
 		<image>
 			<url>{{ site.url }}/images/logo/podcast-cover-art.jpg</url>
 			<title>{{ site.title }}</title>
@@ -32,7 +32,7 @@ layout: null
 		</itunes:category>
 		<itunes:owner>
 			<itunes:name>The Barrowclift Sibs</itunes:name>
-			<itunes:email>badmusichertz@gmail.com</itunes:email>
+			<itunes:email>{{ site.email }}</itunes:email>
 		</itunes:owner>
 		<itunes:image href="{{ site.url }}/images/logo/podcast-cover-art.jpg" />
 		<itunes:copyright>© 2017-{{ site.time | date: "%Y" }} Marc Barrowclift</itunes:copyright>

@@ -53,7 +53,7 @@ With the fire roaring and hot cocoa piping, join the Barrowclift siblings as the
 * The one and __only__ ["White Winter Hymnal" - Fleet Foxes](https://www.youtube.com/watch?v=DrQRS40OKNE)
 * [Dominick the glorious Italian Christmas Donkey](https://www.youtube.com/watch?v=hYlvfX3nwlc)
 
-Be sure to let us know which EP is your favorite! Also, what would *your* Christmas EP be? You can reach out on [Twitter](https://twitter.com/badmusichertz), with an [email](mailto:badmusichertz@gmail.com), or on [badmusichertz.com's contact form](https://badmusichertz.com/contact/). Merry Christmas!
+Be sure to let us know which EP is your favorite! Also, what would *your* Christmas EP be? You can reach out on [Twitter](https://twitter.com/badmusichertz), with an [email](mailto:{{ site.email }}), or on [badmusichertz.com's contact form](https://badmusichertz.com/contact/). Merry Christmas!
 
 ## SPOILERS
 
