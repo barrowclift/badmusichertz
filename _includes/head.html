@@ -11,7 +11,6 @@
 
 	<meta name="application-name" content="Bad Music Hertz" />
 	<meta name="msapplication-TileColor" content="#F7F9FA" />
-	<meta name="msapplication-TileImage" content="{{ site.baseurl }}/images/logo/mstile/mstile-144x144.png" />
 	<meta name="msapplication-config" content="{{ site.baseurl }}/images/logo/browserconfig.xml" />
 	{% if page.theme-color %}
 	{% if page.theme-color-dark %}
@@ -91,7 +90,7 @@
 	{% if page.image %}
 	<meta property="og:image" content="{{ page.image }}"/>
 	{% else %}
-	<meta property="og:image" content="{{ site.url }}/images/logo/share-banner.png"/>
+	<meta property="og:image" content="{{ site.url }}/images/logo/banner.jpg"/>
 	{% endif %}
 	<meta property="og:site_name" content="{{ site.title }}" />
 	<meta property="fb:admins" content="1665270112" />
@@ -103,7 +102,7 @@
 	{% if page.image %}
 	<meta name="twitter:image" content="{{ page.image }}" />
 	{% else %}
-	<meta name="twitter:image" content="{{ site.dropbox-baseurl }}/images/logo/share-banner.png" />
+	<meta name="twitter:image" content="{{ site.dropbox-baseurl }}/images/logo/banner.jpg" />
 	{% endif %}
 	<meta name="twitter:url" content="{{ site.url }}{{ page.url | replace:'index.html','' | prepend: site.baseurl | replace: '//', '/' }}" />
 
