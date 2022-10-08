@@ -19,12 +19,12 @@ episode: 14
 title: "Mindset"
 author: "the Barrowclift Siblings"
 date: 2020-09-01 19:20:54-0400
-excerpt: "Take some meditation time with Marc &amp; Michael as they reflect on Vacationer's \"Mindset\"."
-image: https://dropbox.badmusichertz.com/mindset/images/podcast-art.jpg
+excerpt: "Take some meditation time with Marc &amp; Michael as they reflect on Vacationer’s “Mindset”."
+image: https://dropbox.badmusichertz.com/mindset/images/episode-art.jpg
 
 podcast-filename: "bmh14.mp3"
 podcast-duration: "01:30:04"
-podcast-size-in-bytes: 86810422
+podcast-size-in-bytes: 87053015
 
 artist: Mindset
 genres:
@@ -71,6 +71,6 @@ Or purchase *Breakfast In America* on:
 
 ## Art
 
-[![Cover art]({{ site.dropbox-baseurl }}/mindset/images/album-art.jpg)]({{ site.dropbox-baseurl }}/mindset/images/album-art-original.jpg)
+[![Cover art]({{ site.dropbox-baseurl }}/mindset/images/album-art-1000w.jpg)]({{ site.dropbox-baseurl }}/mindset/images/album-art.jpg)
 
 ♫︎

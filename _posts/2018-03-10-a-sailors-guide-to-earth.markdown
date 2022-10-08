@@ -13,13 +13,13 @@ blurred-background: True
 title: "A Sailor's Guide to Earth"
 author: "the Barrowclift Siblings"
 date: 2018-03-10 13:38:00
-excerpt: "Ahoy, mateys! Join the Barrowclift siblings as they set sail on life's great ocean with Sturgill Simpson's *A Sailor's Guide To Earth*."
-image: https://dropbox.badmusichertz.com/a-sailors-guide-to-earth/images/podcast-art.jpg
+excerpt: "Ahoy, mateys! Join the Barrowclift siblings as they set sail on life’s great ocean with Sturgill Simpson’s “A Sailor's Guide To Earth”."
+image: https://dropbox.badmusichertz.com/a-sailors-guide-to-earth/images/episode-art.jpg
 episode: 4
 
 podcast-filename: "bmh4.mp3"
 podcast-duration: "01:47:32"
-podcast-size-in-bytes: 52106195
+podcast-size-in-bytes: 52107223
 
 artist: Sturgill Simpson
 genres:

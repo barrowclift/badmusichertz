@@ -18,12 +18,12 @@ episode: 9
 title: "The Epic - Volume 1"
 author: "the Barrowclift Siblings"
 date: 2020-03-18 08:36:58-0400
-excerpt: "Join Marc and Michael as they tackle Kamasi Washington's massive 2015 three-disk jazz opus, \"The Epic\", starting with Volume 1: \"The Plan\"."
-image: https://dropbox.badmusichertz.com/the-epic-volume-1/images/podcast-art.jpg
+excerpt: "Join Marc and Michael as they tackle Kamasi Washington’s massive 2015 three-disk jazz opus, “The Epic”, starting with Volume 1: “The Plan”."
+image: https://dropbox.badmusichertz.com/the-epic-volume-1/images/episode-art.jpg
 
 podcast-filename: "bmh9.mp3"
 podcast-duration: "00:56:59"
-podcast-size-in-bytes: 55061607
+podcast-size-in-bytes: 55187594
 
 artist: Kamasi Washington
 genres:
@@ -64,7 +64,7 @@ Or purchase *The Epic* on:
 
 ## Art
 
-[![Cover art]({{ site.dropbox-baseurl }}/the-epic-volume-1/images/album-art.jpg)]({{ site.dropbox-baseurl }}/the-epic-volume-1/images/album-art-original.jpg)
+[![Cover art]({{ site.dropbox-baseurl }}/the-epic-volume-1/images/album-art-1000w.jpg)]({{ site.dropbox-baseurl }}/the-epic-volume-1/images/album-art.jpg)
 [![Liner notes]({{ site.dropbox-baseurl }}/the-epic-volume-1/images/liner-notes-small.jpg)]({{ site.dropbox-baseurl }}/the-epic-volume-1/images/liner-notes.jpg)
 [!["Change of the Guard" art insert]({{ site.dropbox-baseurl }}/the-epic-volume-1/images/change-of-the-guard-small.jpg)]({{ site.dropbox-baseurl }}/the-epic-volume-1/images/change-of-the-guard.jpg)
 [!["The Legend of the Guard" story insert]({{ site.dropbox-baseurl }}/the-epic-volume-1/images/the-legend-of-the-guard-small.jpg)]({{ site.dropbox-baseurl }}/the-epic-volume-1/images/the-legend-of-the-guard.jpg)

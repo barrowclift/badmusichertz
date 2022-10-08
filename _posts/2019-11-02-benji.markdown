@@ -18,12 +18,12 @@ episode: 8
 title: "Benji"
 author: "the Barrowclift Siblings"
 date: 2019-11-02 20:08:16
-excerpt: Take a drive through Ohio with Marc and Michael as they recover from Mark Kozelek's sobering stories in "Benji"
-image: https://dropbox.badmusichertz.com/benji/images/podcast-art.jpg
+excerpt: "Take a drive through Ohio with Marc and Michael as they recover from Mark Kozelek’s sobering stories in “Benji”."
+image: https://dropbox.badmusichertz.com/benji/images/episode-art.jpg
 
 podcast-filename: "bmh8.mp3"
 podcast-duration: "01:42:05"
-podcast-size-in-bytes: 49467544
+podcast-size-in-bytes: 49468572
 
 artist: Sun Kil Moon
 genres:
@@ -65,6 +65,6 @@ Or purchase *Benji* on:
 
 -----
 
-[![Podcast Cover Art]({{ site.dropbox-baseurl }}/{{ page.album-name }}/images/album-art.jpg)]({{ site.dropbox-baseurl }}/{{ page.album-name }}/images/album-art-original.jpg)
+[![Podcast Cover Art]({{ site.dropbox-baseurl }}/{{ page.album-name }}/images/album-art-1000w.jpg)]({{ site.dropbox-baseurl }}/{{ page.album-name }}/images/album-art.jpg)
 
 ♫︎

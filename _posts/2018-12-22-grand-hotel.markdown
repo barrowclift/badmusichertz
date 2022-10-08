@@ -17,13 +17,13 @@ blurred-card: False
 title: "Grand Hotel"
 author: "the Barrowclift Siblings"
 date: 2018-12-22 11:51:00
-excerpt: "Take a brief Christmas vacation with the Barrowclift siblings as they soak up the warm vibes of The Explorers Club's *Grand Hotel*."
-image: https://dropbox.badmusichertz.com/grand-hotel/images/podcast-art.jpg
+excerpt: "Take a brief Christmas vacation with the Barrowclift siblings as they soak up the warm vibes of The Explorers Club’s “Grand Hotel”."
+image: https://dropbox.badmusichertz.com/grand-hotel/images/episode-art.jpg
 episode: 7
 
 podcast-filename: "bmh7.mp3"
 podcast-duration: "01:14:21"
-podcast-size-in-bytes: 71884161
+podcast-size-in-bytes: 71885185
 
 artist: The Explorers Club
 genres:

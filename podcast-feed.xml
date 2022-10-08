@@ -14,7 +14,7 @@ layout: null
 		<managingEditor>{{ site.email }} (Marc Barrowclift)</managingEditor>
 		<webMaster>{{ site.email }} (Marc Barrowclift)</webMaster>
 		<image>
-			<url>{{ site.url }}/images/logo/podcast-cover-art.jpg</url>
+			<url>{{ site.dropbox-baseurl | xml_escape }}/assets/podcast-art.jpg</url>
 			<title>{{ site.title }}</title>
 			<link>{{ site.url }}</link>
 		</image>
@@ -22,7 +22,10 @@ layout: null
 
 		<podcast:guid>7cb2e396-f4e2-5d79-a7a6-584baa119f1e</podcast:guid>
 		<podcast:medium>podcast</podcast:medium>
-		<podcast:images src="{{ site.url }}/images/logo/podcast-cover-art.jpg" srcset="{{ site.url }}/images/logo/podcast-cover-art.jpg x1" />
+		<podcast:images srcset="{{ site.dropbox-baseurl | xml_escape }}/assets/podcast-art-2000w.jpg 2000w,
+		                        {{ site.dropbox-baseurl | xml_escape }}/assets/podcast-art-1000w.jpg 1000w,
+		                        {{ site.dropbox-baseurl | xml_escape }}/assets/podcast-art-500w.jpg 500w,
+		                        {{ site.dropbox-baseurl | xml_escape }}/assets/podcast-art-250w.jpg 250w" />
 
 		<itunes:author>{{ site.creator }}</itunes:author>
 		<itunes:explicit>no</itunes:explicit>
@@ -34,7 +37,7 @@ layout: null
 			<itunes:name>{{ site.creator }}</itunes:name>
 			<itunes:email>{{ site.email }}</itunes:email>
 		</itunes:owner>
-		<itunes:image href="{{ site.url }}/images/logo/podcast-cover-art.jpg" />
+		<itunes:image href="{{ site.dropbox-baseurl | xml_escape }}/assets/podcast-art.jpg" />
 		<itunes:copyright>© 2017-{{ site.time | date: "%Y" }} Marc Barrowclift</itunes:copyright>
 		<itunes:summary>{{ site.description }}</itunes:summary>
 		<itunes:subtitle>{{ site.description }}</itunes:subtitle>
@@ -50,10 +53,13 @@ layout: null
 			<author>{{ site.creator }}</author>
 			<enclosure url="{{ site.dropbox-baseurl | xml_escape }}/{{ post.album-name | xml_escape }}/{{ post.podcast-filename | xml_escape }}" length="{{ post.podcast-size-in-bytes | xml_escape }}" type="audio/mpeg"/>
 
-			<podcast:images src="{{ site.url }}/images/logo/podcast-cover-art.jpg" srcset="{{ site.dropbox-baseurl | xml_escape }}/{{ post.album-name | xml_escape }}/images/podcast-art.jpg x1" />
+			<podcast:images srcset="{{ site.dropbox-baseurl | xml_escape }}/{{ post.album-name | xml_escape }}/images/episode-art-2000w.jpg 2000w,
+				                    {{ site.dropbox-baseurl | xml_escape }}/{{ post.album-name | xml_escape }}/images/episode-art-1000w.jpg 1000w,
+				                    {{ site.dropbox-baseurl | xml_escape }}/{{ post.album-name | xml_escape }}/images/episode-art-500w.jpg 500w,
+				                    {{ site.dropbox-baseurl | xml_escape }}/{{ post.album-name | xml_escape }}/images/episode-art-250w.jpg 250w" />
 			<podcast:episode>{{ post.episode }}</podcast:episode>
 
-			<itunes:image href="{{ site.dropbox-baseurl | xml_escape }}/{{ post.album-name | xml_escape }}/images/podcast-art.jpg" />
+			<itunes:image href="{{ site.dropbox-baseurl | xml_escape }}/{{ post.album-name | xml_escape }}/images/episode-art.jpg" />
 			<itunes:explicit>{% if post.podcast-explicit %}yes{% else %}no{% endif %}</itunes:explicit>
 			<itunes:episodeType>full</itunes:episodeType>
 			<itunes:title>{{ post.title | xml_escape }}</itunes:title>

@@ -18,12 +18,12 @@ episode: 13
 title: "Breakfast In America"
 author: "the Barrowclift Siblings"
 date: 2020-06-24 09:26:51-0400
-excerpt: "Roll out of bed for a spot of breakfast with Marc &amp; Michael as they chew on Supertramp's 1979 classic, \"Breakfast In America\"."
-image: https://dropbox.badmusichertz.com/breakfast-in-america/images/podcast-art.jpg
+excerpt: "Roll out of bed for a spot of breakfast with Marc &amp; Michael as they chew on Supertramp’s 1979 classic, “Breakfast In America”."
+image: https://dropbox.badmusichertz.com/breakfast-in-america/images/episode-art.jpg
 
 podcast-filename: "bmh13.mp3"
 podcast-duration: "01:16:50"
-podcast-size-in-bytes: 74350069
+podcast-size-in-bytes: 74415555
 
 artist: Supertramp
 genres:
@@ -83,7 +83,7 @@ Or purchase *Breakfast In America* on:
 
 ## Art
 
-[![Cover art]({{ site.dropbox-baseurl }}/breakfast-in-america/images/album-art.jpg)]({{ site.dropbox-baseurl }}/breakfast-in-america/images/album-art-original.jpg)
+[![Cover art]({{ site.dropbox-baseurl }}/breakfast-in-america/images/album-art-1000w.jpg)]({{ site.dropbox-baseurl }}/breakfast-in-america/images/album-art.jpg)
 [!["Goodbye Stranger" single art]({{ site.dropbox-baseurl }}/breakfast-in-america/images/goodbye-stranger-single.jpg)]({{ site.dropbox-baseurl }}/breakfast-in-america/images/goodbye-stranger-single.jpg)
 
 ♫︎

@@ -14,13 +14,13 @@ title: "Strange Trails"
 author: "the Barrowclift Siblings"
 date: 2017-12-06 17:10:00
 last_modified_at: 2018-02-08 12:39:00
-excerpt: Join the Barrowclift siblings as they explore the winding road of Lord Huron's sophomore LP, *Strange Trails*.
-image: https://dropbox.badmusichertz.com/strange-trails/images/podcast-art.jpg
+excerpt: "Join the Barrowclift siblings as they explore the winding road of Lord Huron’s sophomore LP, “Strange Trails”."
+image: https://dropbox.badmusichertz.com/strange-trails/images/episode-art.jpg
 episode: 2
 
 podcast-filename: "bmh2.mp3"
 podcast-duration: "02:18:08"
-podcast-size-in-bytes: 66806709
+podcast-size-in-bytes: 66807736
 
 artist: Lord Huron
 genres:

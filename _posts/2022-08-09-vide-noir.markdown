@@ -18,12 +18,12 @@ episode: 16
 title: "Vide Noir"
 author: "the Barrowclift Siblings"
 date: 2022-08-09 19:05:56-0400
-excerpt: "Neutralize your consciousness with Marc &amp; Michael as they sail the astral plane with Lord Huron's most popular product, “Vide Noir”."
-image: https://dropbox.badmusichertz.com/vide-noir/images/podcast-art.jpg
+excerpt: "Neutralize your consciousness with Marc &amp; Michael as they sail the astral plane with Lord Huron’s most popular product, “Vide Noir”."
+image: https://dropbox.badmusichertz.com/vide-noir/images/episode-art.jpg
 
 podcast-filename: "bmh16.mp3"
 podcast-duration: "02:06:24"
-podcast-size-in-bytes: 121577645
+podcast-size-in-bytes: 121613160
 
 artist: Lord Huron
 genres:

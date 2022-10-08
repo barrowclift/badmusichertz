@@ -18,12 +18,12 @@ episode: 10
 title: "The Epic - Volume 2"
 author: "the Barrowclift Siblings"
 date: 2020-03-25 07:18:07-0400
-excerpt: "The discussion continues as Marc and Michael open up Volume 2: \"The Glorious Tale\" from Kamasi Washington's \"The Epic\"."
-image: https://dropbox.badmusichertz.com/the-epic-volume-2/images/podcast-art.jpg
+excerpt: "The discussion continues as Marc and Michael open up Volume 2: “The Glorious Tale” from Kamasi Washington’s “The Epic”."
+image: https://dropbox.badmusichertz.com/the-epic-volume-2/images/episode-art.jpg
 
 podcast-filename: "bmh10.mp3"
 podcast-duration: "01:05:07"
-podcast-size-in-bytes: 62918052
+podcast-size-in-bytes: 62988934
 
 artist: Kamasi Washington
 genres:
@@ -75,7 +75,7 @@ Or purchase *The Epic* on:
 
 ## Art
 
-[![Cover art]({{ site.dropbox-baseurl }}/the-epic-volume-1/images/album-art.jpg)]({{ site.dropbox-baseurl }}/the-epic-volume-1/images/album-art-original.jpg)
+[![Cover art]({{ site.dropbox-baseurl }}/the-epic-volume-1/images/album-art-1000w.jpg)]({{ site.dropbox-baseurl }}/the-epic-volume-1/images/album-art.jpg)
 [![Liner notes]({{ site.dropbox-baseurl }}/the-epic-volume-2/images/liner-notes-small.jpg)]({{ site.dropbox-baseurl }}/the-epic-volume-2/images/liner-notes.jpg)
 
 ♫︎

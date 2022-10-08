@@ -18,12 +18,12 @@ episode: 11
 title: "The Epic - Volume 3"
 author: "the Barrowclift Siblings"
 date: 2020-04-01 07:23:43-0400
-excerpt: "The journey finally reaches its end as Marc and Michael close the book on Kamasi Washington's \"The Epic\" with Volume 3: \"The Historic Repetition\"."
-image: https://dropbox.badmusichertz.com/the-epic-volume-3/images/podcast-art.jpg
+excerpt: "The journey finally reaches its end as Marc and Michael close the book on Kamasi Washington’s “The Epic” with Volume 3: “The Historic Repetition”."
+image: https://dropbox.badmusichertz.com/the-epic-volume-3/images/episode-art.jpg
 
 podcast-filename: "bmh11.mp3"
 podcast-duration: "01:19:04"
-podcast-size-in-bytes: 76280471
+podcast-size-in-bytes: 76488524
 
 artist: Kamasi Washington
 genres:
@@ -121,7 +121,7 @@ Or purchase *The Epic* on:
 
 ## Art
 
-[![Cover art]({{ site.dropbox-baseurl }}/the-epic-volume-1/images/album-art.jpg)]({{ site.dropbox-baseurl }}/the-epic-volume-1/images/album-art-original.jpg)
+[![Cover art]({{ site.dropbox-baseurl }}/the-epic-volume-1/images/album-art-1000w.jpg)]({{ site.dropbox-baseurl }}/the-epic-volume-1/images/album-art.jpg)
 [![Liner notes]({{ site.dropbox-baseurl }}/the-epic-volume-3/images/liner-notes-small.jpg)]({{ site.dropbox-baseurl }}/the-epic-volume-3/images/liner-notes.jpg)
 
 ♫︎

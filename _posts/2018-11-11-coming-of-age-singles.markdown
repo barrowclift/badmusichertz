@@ -18,13 +18,13 @@ title: "Coming-of-Age Singles"
 author: "the Barrowclift Siblings"
 date: 2018-11-11 13:30:00
 last_modified_at: 2018-11-11 13:34:00
-excerpt: "Join the Barrowclift siblings as they reminisce about music from their formative teenage years. Complete with mixtapes, iPod playlists, and a mountain of regrets, it's sure to be a rocky trip down memory lane!"
-image: https://dropbox.badmusichertz.com/coming-of-age-singles/images/podcast-art.jpg
+excerpt: "Join the Barrowclift siblings as they reminisce about music from their formative teenage years. Complete with mixtapes, iPod playlists, and a mountain of regrets, it’s sure to be a rocky trip down memory lane!"
+image: https://dropbox.badmusichertz.com/coming-of-age-singles/images/episode-art.jpg
 episode: 6
 
 podcast-filename: "bmh6.mp3"
 podcast-duration: "01:35:13"
-podcast-size-in-bytes: 91901518
+podcast-size-in-bytes: 91902542
 podcast-explicit: True
 
 categories:

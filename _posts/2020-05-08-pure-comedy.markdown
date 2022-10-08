@@ -18,12 +18,12 @@ episode: 12
 title: "Pure Comedy"
 author: "the Barrowclift Siblings"
 date: 2020-05-08 07:47:18-0400
-excerpt: "Reminisce about 2017 with Marc &amp; Michael on Father John Misty's \"Pure Comedy\""
-image: https://dropbox.badmusichertz.com/pure-comedy/images/podcast-art.jpg
+excerpt: "Reminisce about 2017 with Marc &amp; Michael on Father John Misty’s “Pure Comedy”."
+image: https://dropbox.badmusichertz.com/pure-comedy/images/episode-art.jpg
 
 podcast-filename: "bmh12.mp3"
 podcast-duration: "01:42:13"
-podcast-size-in-bytes: 102560461
+podcast-size-in-bytes: 102678770
 
 artist: Father John Misty
 genres:
@@ -63,7 +63,7 @@ Or purchase *The Epic* on:
 
 ## Art
 
-[![Cover art]({{ site.dropbox-baseurl }}/pure-comedy/images/album-art.jpg)]({{ site.dropbox-baseurl }}/pure-comedy/images/album-art-original.jpg)
+[![Cover art]({{ site.dropbox-baseurl }}/pure-comedy/images/album-art-1000w.jpg)]({{ site.dropbox-baseurl }}/pure-comedy/images/album-art.jpg)
 [![Back cover art]({{ site.dropbox-baseurl }}/pure-comedy/images/back-cover-small.jpg)]({{ site.dropbox-baseurl }}/pure-comedy/images/back-cover.jpg)
 
 ♫︎

@@ -72,7 +72,7 @@ title: "Archive"
 			{% if post.layout == 'post' %}
 			<span class="hint--top hint--rounded hint--bounce" data-hint="{{ post.title }}">
 				<a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
-					<img src="{{ site.dropbox-baseurl }}/{{ post.album-name }}/images/album-art-small.jpg" class="album-art">
+					<img src="{{ site.dropbox-baseurl }}/{{ post.album-name }}/images/album-art-250w.jpg" class="album-art">
 				</a>
 			</span>
 			{% endif %}
@@ -86,7 +86,7 @@ title: "Archive"
 			{% if post.categories contains "Album review" and post.layout == 'podcast' or post.layout == 'podcast-v2' %}
 			<span class="hint--top hint--rounded hint--bounce" data-hint="{{ post.title }}">
 				<a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
-					<img src="{{ site.dropbox-baseurl }}/{{ post.album-name }}/images/podcast-art-small.jpg" class="album-art">
+					<img src="{{ site.dropbox-baseurl }}/{{ post.album-name }}/images/episode-art-250w.jpg" class="album-art">
 				</a>
 			</span>
 			{% endif %}
@@ -100,7 +100,7 @@ title: "Archive"
 			{% if post.categories contains "Special" %}
 			<span class="hint--top hint--rounded hint--bounce" data-hint="{{ post.title }}">
 				<a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
-					<img src="{{ site.dropbox-baseurl }}/{{ post.album-name }}/images/podcast-art-small.jpg" class="album-art">
+					<img src="{{ site.dropbox-baseurl }}/{{ post.album-name }}/images/episode-art-250w.jpg" class="album-art">
 				</a>
 			</span>
 			{% endif %}
