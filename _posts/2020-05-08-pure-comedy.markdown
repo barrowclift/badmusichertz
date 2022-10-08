@@ -22,8 +22,8 @@ excerpt: "Reminisce about 2017 with Marc &amp; Michael on Father John Misty’s 
 image: https://dropbox.badmusichertz.com/pure-comedy/images/episode-art.jpg
 
 podcast-filename: "bmh12.mp3"
-podcast-duration: "01:42:13"
-podcast-size-in-bytes: 102678770
+podcast-duration: "01:42:11"
+podcast-size-in-bytes: 102678216
 
 artist: Father John Misty
 genres:
