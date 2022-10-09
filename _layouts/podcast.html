@@ -2,8 +2,8 @@
 layout: default
 ---
 <div style="display:block;">
-	<a href="{{ site.dropbox-baseurl }}/{{ page.album-name }}/images/episode-art.jpg" {% if page.album-art-hidden-text %}title="{{page.album-art-hidden-text}}"{% endif %}>
-		<img src="{{ site.dropbox-baseurl }}/{{ page.album-name }}/images/episode-art-2000w.jpg" class="album-art" {% if page.title %}alt="{{ page.title }}'s album art"{% else %}alt="The album's cover"{% endif %} />
+	<a href="{{ site.dropbox-url }}/{{ page.album-name }}/images/episode-art.jpg" {% if page.album-art-hidden-text %}title="{{page.album-art-hidden-text}}"{% endif %}>
+		<img src="{{ site.dropbox-url }}/{{ page.album-name }}/images/episode-art-2000w.jpg" class="album-art" {% if page.title %}alt="{{ page.title }}'s album art"{% else %}alt="The album's cover"{% endif %} />
 	</a>
 </div>
 <article id="podcast">
@@ -92,8 +92,8 @@ layout: default
 	</div>
 
 	<audio controls preload="metadata">
-		<!-- <source src="{{ site.dropbox-baseurl}}/{{ page.album-name }}/{{ page.podcast-filename }}" type="audio/ogg"> -->
-		<source src="{{ site.dropbox-baseurl}}/{{ page.album-name }}/{{ page.podcast-filename }}" type="audio/mpeg">
+		<!-- <source src="{{ site.dropbox-url}}/{{ page.album-name }}/{{ page.podcast-filename }}" type="audio/ogg"> -->
+		<source src="{{ site.dropbox-url}}/{{ page.album-name }}/{{ page.podcast-filename }}" type="audio/mpeg">
 		Your browser does not support the audio element, please use a modern browser like <a href="https://www.apple.com/safari/">Safari</a> or listen in your favorite podcast app.
 	</audio>
 

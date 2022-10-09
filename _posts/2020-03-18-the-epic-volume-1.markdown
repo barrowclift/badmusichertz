@@ -64,11 +64,11 @@ Or purchase *The Epic* on:
 
 ## Art
 
-[![Cover art]({{ site.dropbox-baseurl }}/the-epic-volume-1/images/album-art-1000w.jpg)]({{ site.dropbox-baseurl }}/the-epic-volume-1/images/album-art.jpg)
-[![Liner notes]({{ site.dropbox-baseurl }}/the-epic-volume-1/images/liner-notes-small.jpg)]({{ site.dropbox-baseurl }}/the-epic-volume-1/images/liner-notes.jpg)
-[!["Change of the Guard" art insert]({{ site.dropbox-baseurl }}/the-epic-volume-1/images/change-of-the-guard-small.jpg)]({{ site.dropbox-baseurl }}/the-epic-volume-1/images/change-of-the-guard.jpg)
-[!["The Legend of the Guard" story insert]({{ site.dropbox-baseurl }}/the-epic-volume-1/images/the-legend-of-the-guard-small.jpg)]({{ site.dropbox-baseurl }}/the-epic-volume-1/images/the-legend-of-the-guard.jpg)
-[!["The Epic" art insert featuring a circular word cloud]({{ site.dropbox-baseurl }}/the-epic-volume-1/images/the-epic-circle-art-small.jpg)]({{ site.dropbox-baseurl }}/the-epic-volume-1/images/the-epic-circle-art.jpg)
-[!["Volume 1: The Plan" liner notes]({{ site.dropbox-baseurl }}/the-epic-volume-1/images/volume-1-the-plan-small.jpg)]({{ site.dropbox-baseurl }}/the-epic-volume-1/images/volume-1-the-plan.jpg)
+[![Cover art]({{ site.dropbox-url }}/the-epic-volume-1/images/album-art-1000w.jpg)]({{ site.dropbox-url }}/the-epic-volume-1/images/album-art.jpg)
+[![Liner notes]({{ site.dropbox-url }}/the-epic-volume-1/images/liner-notes-small.jpg)]({{ site.dropbox-url }}/the-epic-volume-1/images/liner-notes.jpg)
+[!["Change of the Guard" art insert]({{ site.dropbox-url }}/the-epic-volume-1/images/change-of-the-guard-small.jpg)]({{ site.dropbox-url }}/the-epic-volume-1/images/change-of-the-guard.jpg)
+[!["The Legend of the Guard" story insert]({{ site.dropbox-url }}/the-epic-volume-1/images/the-legend-of-the-guard-small.jpg)]({{ site.dropbox-url }}/the-epic-volume-1/images/the-legend-of-the-guard.jpg)
+[!["The Epic" art insert featuring a circular word cloud]({{ site.dropbox-url }}/the-epic-volume-1/images/the-epic-circle-art-small.jpg)]({{ site.dropbox-url }}/the-epic-volume-1/images/the-epic-circle-art.jpg)
+[!["Volume 1: The Plan" liner notes]({{ site.dropbox-url }}/the-epic-volume-1/images/volume-1-the-plan-small.jpg)]({{ site.dropbox-url }}/the-epic-volume-1/images/volume-1-the-plan.jpg)
 
 ♫︎

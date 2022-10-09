@@ -26,6 +26,8 @@ podcast-filename: "bmh3.mp3"
 podcast-duration: "01:22:18"
 podcast-size-in-bytes: 40009918
 
+includes-aimee: True
+
 categories:
   - Podcast
   - Special

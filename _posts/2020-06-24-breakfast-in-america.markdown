@@ -83,7 +83,7 @@ Or purchase *Breakfast In America* on:
 
 ## Art
 
-[![Cover art]({{ site.dropbox-baseurl }}/breakfast-in-america/images/album-art-1000w.jpg)]({{ site.dropbox-baseurl }}/breakfast-in-america/images/album-art.jpg)
-[!["Goodbye Stranger" single art]({{ site.dropbox-baseurl }}/breakfast-in-america/images/goodbye-stranger-single.jpg)]({{ site.dropbox-baseurl }}/breakfast-in-america/images/goodbye-stranger-single.jpg)
+[![Cover art]({{ site.dropbox-url }}/breakfast-in-america/images/album-art-1000w.jpg)]({{ site.dropbox-url }}/breakfast-in-america/images/album-art.jpg)
+[!["Goodbye Stranger" single art]({{ site.dropbox-url }}/breakfast-in-america/images/goodbye-stranger-single.jpg)]({{ site.dropbox-url }}/breakfast-in-america/images/goodbye-stranger-single.jpg)
 
 ♫︎

@@ -4,7 +4,7 @@ twitter_username: badmusichertz
 description: Siblings celebrating and borderline obsessing over their favorite records.
 baseurl: "" # The subpath of your site, e.g. /blog/
 url: "https://badmusichertz.com" # The base hostname & protocol for your site
-dropbox-baseurl: "https://dropbox.badmusichertz.com"
+dropbox-url: "https://dropbox.badmusichertz.com"
 host: localhost
 creator: The Barrowclift Sibs
 

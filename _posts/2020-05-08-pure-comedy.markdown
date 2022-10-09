@@ -63,7 +63,7 @@ Or purchase *The Epic* on:
 
 ## Art
 
-[![Cover art]({{ site.dropbox-baseurl }}/pure-comedy/images/album-art-1000w.jpg)]({{ site.dropbox-baseurl }}/pure-comedy/images/album-art.jpg)
-[![Back cover art]({{ site.dropbox-baseurl }}/pure-comedy/images/back-cover-small.jpg)]({{ site.dropbox-baseurl }}/pure-comedy/images/back-cover.jpg)
+[![Cover art]({{ site.dropbox-url }}/pure-comedy/images/album-art-1000w.jpg)]({{ site.dropbox-url }}/pure-comedy/images/album-art.jpg)
+[![Back cover art]({{ site.dropbox-url }}/pure-comedy/images/back-cover-small.jpg)]({{ site.dropbox-url }}/pure-comedy/images/back-cover.jpg)
 
 ♫︎

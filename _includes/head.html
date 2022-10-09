@@ -102,7 +102,7 @@
 	{% if page.image %}
 	<meta name="twitter:image" content="{{ page.image }}" />
 	{% else %}
-	<meta name="twitter:image" content="{{ site.dropbox-baseurl }}/images/logo/banner.jpg" />
+	<meta name="twitter:image" content="{{ site.dropbox-url }}/images/logo/banner.jpg" />
 	{% endif %}
 	<meta name="twitter:url" content="{{ site.url }}{{ page.url | replace:'index.html','' | prepend: site.baseurl | replace: '//', '/' }}" />
 

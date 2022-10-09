@@ -22,6 +22,8 @@ podcast-filename: "bmh1.mp3"
 podcast-duration: "01:37:49"
 podcast-size-in-bytes: 47438991
 
+includes-aimee: True
+
 artist: Lord Huron
 genres:
   - Alternative pop
@@ -46,21 +48,21 @@ A celebration and analysis of Lord Huron's debut LP, *Lonesome Dreams*.
 
 -----------
 
-![Album art]({{ site.dropbox-baseurl }}/lonesome-dreams/images/album-art.jpg)
-!["Lullaby" accompanying art]({{ site.dropbox-baseurl }}/lonesome-dreams/images/lullaby.jpg)
-!["She Lit a Fire" accompanying art]({{ site.dropbox-baseurl }}/lonesome-dreams/images/she-lit-a-fire.jpg)
-![Lyrics sheet]({{ site.dropbox-baseurl }}/lonesome-dreams/images/lyrics-sheet.jpg)
+![Album art]({{ site.dropbox-url }}/lonesome-dreams/images/album-art.jpg)
+!["Lullaby" accompanying art]({{ site.dropbox-url }}/lonesome-dreams/images/lullaby.jpg)
+!["She Lit a Fire" accompanying art]({{ site.dropbox-url }}/lonesome-dreams/images/she-lit-a-fire.jpg)
+![Lyrics sheet]({{ site.dropbox-url }}/lonesome-dreams/images/lyrics-sheet.jpg)
 
 -----------
 
-![George Ranger Johnson title art]({{ site.dropbox-baseurl }}/lonesome-dreams/images/george-ranger-johnson-title-art.png)
-![George Ranger Johnson portrait]({{ site.dropbox-baseurl }}/lonesome-dreams/images/george-ranger-johnson-portrait.jpg)
-![The *Lonesome Dreams* adventure novel, *Brother: Last Ride* by G. Ranger Johnson]({{ site.dropbox-baseurl }}/lonesome-dreams/images/book-brother-last-ride.jpg)
-![A *Lonesome Dreams* tale, *Ends of the Earth* by George Ranger Johnson]({{ site.dropbox-baseurl }}/lonesome-dreams/images/book-ends-of-the-earth.jpg)
-![A *Lonesome Dreams* tale, *The Ghost on the Shore* by George Ranger Johnson]({{ site.dropbox-baseurl }}/lonesome-dreams/images/book-the-ghost-on-the-shore.jpg)
-![A *Lonesome Dreams* tale, *The Man Who Lives Forever* by George Ranger Johnson]({{ site.dropbox-baseurl }}/lonesome-dreams/images/book-the-man-who-lives-forever.jpg)
-![A *Lonesome Dreams* tale, *Time to Run* by George Ranger Johnson]({{ site.dropbox-baseurl }}/lonesome-dreams/images/book-time-to-run.jpg)
-![Page 7 of the *Lonesome Dreams* adventure novel]({{ site.dropbox-baseurl }}/lonesome-dreams/images/page-7.jpg)
-![Page 56 of the *Lonesome Dreams* adventure novel]({{ site.dropbox-baseurl }}/lonesome-dreams/images/page-56.jpg)
+![George Ranger Johnson title art]({{ site.dropbox-url }}/lonesome-dreams/images/george-ranger-johnson-title-art.png)
+![George Ranger Johnson portrait]({{ site.dropbox-url }}/lonesome-dreams/images/george-ranger-johnson-portrait.jpg)
+![The *Lonesome Dreams* adventure novel, *Brother: Last Ride* by G. Ranger Johnson]({{ site.dropbox-url }}/lonesome-dreams/images/book-brother-last-ride.jpg)
+![A *Lonesome Dreams* tale, *Ends of the Earth* by George Ranger Johnson]({{ site.dropbox-url }}/lonesome-dreams/images/book-ends-of-the-earth.jpg)
+![A *Lonesome Dreams* tale, *The Ghost on the Shore* by George Ranger Johnson]({{ site.dropbox-url }}/lonesome-dreams/images/book-the-ghost-on-the-shore.jpg)
+![A *Lonesome Dreams* tale, *The Man Who Lives Forever* by George Ranger Johnson]({{ site.dropbox-url }}/lonesome-dreams/images/book-the-man-who-lives-forever.jpg)
+![A *Lonesome Dreams* tale, *Time to Run* by George Ranger Johnson]({{ site.dropbox-url }}/lonesome-dreams/images/book-time-to-run.jpg)
+![Page 7 of the *Lonesome Dreams* adventure novel]({{ site.dropbox-url }}/lonesome-dreams/images/page-7.jpg)
+![Page 56 of the *Lonesome Dreams* adventure novel]({{ site.dropbox-url }}/lonesome-dreams/images/page-56.jpg)
 
 ♫︎

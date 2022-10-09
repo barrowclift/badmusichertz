@@ -76,12 +76,12 @@ Or purchase *Shields* on:
 
 ## Art
 
-[![Cover art]({{ site.dropbox-baseurl }}/shields/images/front-cover.jpg)]({{ site.dropbox-baseurl }}/shields/images/front-cover-large.jpg)
-[![Back cover art]({{ site.dropbox-baseurl }}/shields/images/back-cover.jpg)]({{ site.dropbox-baseurl }}/shields/images/back-cover-large.jpg)
-[![Centerfold art]({{ site.dropbox-baseurl }}/shields/images/centerfold.jpg)]({{ site.dropbox-baseurl }}/shields/images/centerfold-large.jpg)
-[![Sleeve 1 Front]({{ site.dropbox-baseurl }}/shields/images/sleeve-1-front-cover.jpg)]({{ site.dropbox-baseurl }}/shields/images/sleeve-1-front-cover-large.jpg)
-[![Sleeve 1 Back]({{ site.dropbox-baseurl }}/shields/images/sleeve-1-back-cover.jpg)]({{ site.dropbox-baseurl }}/shields/images/sleeve-1-back-cover-large.jpg)
-[![Sleeve 2 Front]({{ site.dropbox-baseurl }}/shields/images/sleeve-2-front-cover.jpg)]({{ site.dropbox-baseurl }}/shields/images/sleeve-2-front-cover-large.jpg)
-[![Sleeve 2 Back]({{ site.dropbox-baseurl }}/shields/images/sleeve-2-back-cover.jpg)]({{ site.dropbox-baseurl }}/shields/images/sleeve-2-back-cover-large.jpg)
+[![Cover art]({{ site.dropbox-url }}/shields/images/front-cover.jpg)]({{ site.dropbox-url }}/shields/images/front-cover-large.jpg)
+[![Back cover art]({{ site.dropbox-url }}/shields/images/back-cover.jpg)]({{ site.dropbox-url }}/shields/images/back-cover-large.jpg)
+[![Centerfold art]({{ site.dropbox-url }}/shields/images/centerfold.jpg)]({{ site.dropbox-url }}/shields/images/centerfold-large.jpg)
+[![Sleeve 1 Front]({{ site.dropbox-url }}/shields/images/sleeve-1-front-cover.jpg)]({{ site.dropbox-url }}/shields/images/sleeve-1-front-cover-large.jpg)
+[![Sleeve 1 Back]({{ site.dropbox-url }}/shields/images/sleeve-1-back-cover.jpg)]({{ site.dropbox-url }}/shields/images/sleeve-1-back-cover-large.jpg)
+[![Sleeve 2 Front]({{ site.dropbox-url }}/shields/images/sleeve-2-front-cover.jpg)]({{ site.dropbox-url }}/shields/images/sleeve-2-front-cover-large.jpg)
+[![Sleeve 2 Back]({{ site.dropbox-url }}/shields/images/sleeve-2-back-cover.jpg)]({{ site.dropbox-url }}/shields/images/sleeve-2-back-cover-large.jpg)
 
 ♫︎

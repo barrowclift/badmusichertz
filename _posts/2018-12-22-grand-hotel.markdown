@@ -25,6 +25,8 @@ podcast-filename: "bmh7.mp3"
 podcast-duration: "01:14:21"
 podcast-size-in-bytes: 71885185
 
+includes-aimee: True
+
 artist: The Explorers Club
 genres:
   - Pop
@@ -58,13 +60,13 @@ Or purchase *Grand Hotel* on:
 * [Mark Linett](https://en.wikipedia.org/wiki/Mark_Linett), one of the producers on *Grand Hotel*.
 * The Explorers Club's debut LP, [*Freedom Wind*](https://theexplorersclub.bandcamp.com/album/freedom-wind)
 
-![*Freedom Wind*'s album art]({{ site.dropbox-baseurl }}/grand-hotel/images/freedom-wind.jpg)
+![*Freedom Wind*'s album art]({{ site.dropbox-url }}/grand-hotel/images/freedom-wind.jpg)
 
 * [What exactly is "music production"?](https://en.wikipedia.org/wiki/Record_producer)
 * [The Last Bison](https://www.thelastbison.com)'s sophomore LP, [*VA*](https://thelastbison.bandcamp.com/album/va) (pronounced "Virginia")
 * [Herb Alpert & the Tijuana Brass](https://en.wikipedia.org/wiki/Herb_Alpert)'s [*Whipped Cream & Other Delights*](https://en.wikipedia.org/wiki/Whipped_Cream_%26_Other_Delights)
 
-![*Whipped Cream & Other Delights*]({{ site.dropbox-baseurl }}/grand-hotel/images/whipped-cream-and-other-delights.jpg)
+![*Whipped Cream & Other Delights*]({{ site.dropbox-url }}/grand-hotel/images/whipped-cream-and-other-delights.jpg)
 
 * ["The Girl From Ipanema"](https://www.youtube.com/watch?v=8PYKOo_jgJo)
 * [Paul Anka](https://en.wikipedia.org/wiki/Paul_Anka)'s ["Times of Your Life"](https://www.youtube.com/watch?v=wtxanSrNdN8)
@@ -110,7 +112,7 @@ Marc's suggested, alternative album order:
 
 -----
 
-![Cover art]({{ site.dropbox-baseurl }}/grand-hotel/images/album-art.jpg)
-![Back cover art]({{ site.dropbox-baseurl }}/grand-hotel/images/back-cover.jpg)
+![Cover art]({{ site.dropbox-url }}/grand-hotel/images/album-art.jpg)
+![Back cover art]({{ site.dropbox-url }}/grand-hotel/images/back-cover.jpg)
 
 ♫︎

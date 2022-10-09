@@ -21,6 +21,8 @@ podcast-filename: "bmh4.mp3"
 podcast-duration: "01:47:32"
 podcast-size-in-bytes: 52107223
 
+includes-aimee: True
+
 artist: Sturgill Simpson
 genres:
   - Alternative country
@@ -57,7 +59,7 @@ categories:
 * Fantastic demonstration of top Pop Country songs from 2014 all using the exact same chord progression - [Sir Mashalot: Mind-Blowing SIX Song Country Mashup](https://www.youtube.com/watch?v=FY8SwIvxj8o).
 * *A Sailor's Guide to Earth* as the [59th Annual Grammy Awards (2016) "Best Country Album" winner](https://www.grammy.com/grammys/artists/sturgill-simpson).
 * [Bo Burnham - Todays Country Songs](https://www.youtube.com/watch?v=MPTKR12cUqc), all Pop Country lyrics are the same.
-* All Country album cover art looks the same. ![A screenshot of the iTunes Country genre section where the album art for all the new releases looks exactly the same]({{ site.dropbox-baseurl }}/a-sailors-guide-to-earth/images/homogenous-country-albums.png)
+* All Country album cover art looks the same. ![A screenshot of the iTunes Country genre section where the album art for all the new releases looks exactly the same]({{ site.dropbox-url }}/a-sailors-guide-to-earth/images/homogenous-country-albums.png)
 * [The Ludo Video Thing Episode 12](https://youtu.be/vAXhg_J1BGo?t=23s) - "There are 5 people who know how to play it. One of them invented it, two of them are in rentals, and the other two are Japanese."
 * [LUDO - "In Space"](https://www.youtube.com/watch?v=ENjLSHcEbdY)
 * [Sharon Jones & The Dap-Kings](http://sharonjonesandthedapkings.com)
@@ -73,10 +75,10 @@ categories:
 
 ---------
 
-![Cover art]({{ site.dropbox-baseurl }}/a-sailors-guide-to-earth/images/album-art.jpg)
-![Back cover art]({{ site.dropbox-baseurl }}/a-sailors-guide-to-earth/images/back-cover.jpg)
-![Nautical centerfold map]({{ site.dropbox-baseurl }}/a-sailors-guide-to-earth/images/nautical-centerfold-map.jpg)
-![Lyrics sleeve]({{ site.dropbox-baseurl }}/a-sailors-guide-to-earth/images/lyrics-sleeve.jpg)
-![Ocean blue vinyl disk]({{ site.dropbox-baseurl }}/a-sailors-guide-to-earth/images/ocean-blue-vinyl.jpg)
+![Cover art]({{ site.dropbox-url }}/a-sailors-guide-to-earth/images/album-art.jpg)
+![Back cover art]({{ site.dropbox-url }}/a-sailors-guide-to-earth/images/back-cover.jpg)
+![Nautical centerfold map]({{ site.dropbox-url }}/a-sailors-guide-to-earth/images/nautical-centerfold-map.jpg)
+![Lyrics sleeve]({{ site.dropbox-url }}/a-sailors-guide-to-earth/images/lyrics-sleeve.jpg)
+![Ocean blue vinyl disk]({{ site.dropbox-url }}/a-sailors-guide-to-earth/images/ocean-blue-vinyl.jpg)
 
 ♫︎

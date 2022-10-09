@@ -27,6 +27,8 @@ podcast-duration: "01:35:13"
 podcast-size-in-bytes: 91902542
 podcast-explicit: True
 
+includes-aimee: True
+
 categories:
   - Podcast
   - Special
@@ -51,7 +53,7 @@ __Note: Some of the singles picked and sampled throughout the episode contain ex
 3. [The Wallflowers - "One Headlight"](https://open.spotify.com/track/04zllSy1QxiamFFwB4KET8?autoplay=true&v=T)
 4. [Looking Glass - "Brandy You're a Fine Girl"](https://open.spotify.com/track/2BY7ALEWdloFHgQZG6VMLA?autoplay=true&v=T)
 
-![The Looking Glass's self-titled album art]({{ site.dropbox-baseurl }}/coming-of-age-singles/images/looking-glass.jpg)
+![The Looking Glass's self-titled album art]({{ site.dropbox-url }}/coming-of-age-singles/images/looking-glass.jpg)
 
 *Mistakes*
 

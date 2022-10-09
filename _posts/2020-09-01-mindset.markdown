@@ -71,6 +71,6 @@ Or purchase *Breakfast In America* on:
 
 ## Art
 
-[![Cover art]({{ site.dropbox-baseurl }}/mindset/images/album-art-1000w.jpg)]({{ site.dropbox-baseurl }}/mindset/images/album-art.jpg)
+[![Cover art]({{ site.dropbox-url }}/mindset/images/album-art-1000w.jpg)]({{ site.dropbox-url }}/mindset/images/album-art.jpg)
 
 ♫︎

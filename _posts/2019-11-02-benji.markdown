@@ -65,6 +65,6 @@ Or purchase *Benji* on:
 
 -----
 
-[![Podcast Cover Art]({{ site.dropbox-baseurl }}/{{ page.album-name }}/images/album-art-1000w.jpg)]({{ site.dropbox-baseurl }}/{{ page.album-name }}/images/album-art.jpg)
+[![Podcast Cover Art]({{ site.dropbox-url }}/{{ page.album-name }}/images/album-art-1000w.jpg)]({{ site.dropbox-url }}/{{ page.album-name }}/images/album-art.jpg)
 
 ♫︎

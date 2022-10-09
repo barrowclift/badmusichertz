@@ -75,7 +75,7 @@ Or purchase *The Epic* on:
 
 ## Art
 
-[![Cover art]({{ site.dropbox-baseurl }}/the-epic-volume-1/images/album-art-1000w.jpg)]({{ site.dropbox-baseurl }}/the-epic-volume-1/images/album-art.jpg)
-[![Liner notes]({{ site.dropbox-baseurl }}/the-epic-volume-2/images/liner-notes-small.jpg)]({{ site.dropbox-baseurl }}/the-epic-volume-2/images/liner-notes.jpg)
+[![Cover art]({{ site.dropbox-url }}/the-epic-volume-1/images/album-art-1000w.jpg)]({{ site.dropbox-url }}/the-epic-volume-1/images/album-art.jpg)
+[![Liner notes]({{ site.dropbox-url }}/the-epic-volume-2/images/liner-notes-small.jpg)]({{ site.dropbox-url }}/the-epic-volume-2/images/liner-notes.jpg)
 
 ♫︎
