@@ -133,41 +133,43 @@ article {
 
 /* TYPOGRAPHY ----------------------------------------------------------------------- */
 
-
 /* ----- TYPEFACE ----- */
+/**
+ * https://fonts.google.com/specimen/Work+Sans
+ */
 @font-face {
-	font-family: "Adelle Sans";
+	font-family: "Work Sans";
 	font-style: normal;
 	font-weight: 400;
-	src: url("/fonts/AdelleSans-Regular.otf");
+	src: url("/fonts/work-sans.ttf");
 }
 @font-face {
-	font-family: "Adelle Sans";
+	font-family: "Work Sans";
 	font-style: italic;
 	font-weight: 400;
-	src: url("/fonts/AdelleSans-Italic.otf");
+	src: url("/fonts/work-sans-italic.ttf");
 }
 @font-face {
-	font-family: "Adelle Sans";
+	font-family: "Work Sans";
 	font-style: normal;
 	font-weight: 700;
-	src: url("/fonts/AdelleSans-Bold.otf");
+	src: url("/fonts/work-sans-bold.ttf");
 }
 @font-face {
-	font-family: "Adelle Sans";
+	font-family: "Work Sans";
 	font-style: italic;
 	font-weight: 700;
-	src: url("/fonts/AdelleSans-BoldItalic.otf");
+	src: url("/fonts/work-sans-bold-italic.ttf");
 }
 @font-face {
-	font-family: "Adelle Sans";
+	font-family: "Work Sans";
 	font-style: normal;
 	font-weight: 900;
-	src: url("/fonts/AdelleSans-Heavy.otf");
+	src: url("/fonts/work-sans-black.ttf");
 }
 html,
 input, textarea { /* Must explicitly add textarea and input for Firefox bug, proving once again it's the worst browser */
-	font-family: "Adelle Sans", "Trebuchet MS", Helvetica, sans-serif;
+	font-family: "Work Sans", sans-serif;
 
 	text-rendering: optimizeLegibility;
 	/* Font rendering in OS X Firefox is TERRIBLE. This makes the browser tolerable */
@@ -183,10 +185,6 @@ input, textarea {
 	/* Better experience for user while entering text */
 	letter-spacing: 1px !important;
 }
-#logo {
-	letter-spacing: 0.011em;
-}
-
 
 /* ----- SIZES, MARGINS, AND WEIGHTS ----- */
 html {
@@ -407,7 +405,7 @@ compensate*/
 		color: #e03131;
 	}
 	#logo span {
-		margin-left: -0.05em;
+		margin-left: -0.15em;
 	}
 
 .vinyl, /* Just the vinyl component of a record, sans label */
@@ -825,7 +823,7 @@ audio {
 /* ----- ANCHORS ----- */
 .anchor {
 	text-decoration: none !important;
-	padding: 0 .34em;
+	padding: 0;
 	opacity: 0;
 	float: none;
 	margin-left: 0em;
@@ -1045,7 +1043,7 @@ input, textarea {
 	menu ul li {
 		margin-right: 0;
 		margin-top: 1.40rem;
-		margin-left: 5vw;
+		margin-left: 4vw;
 	}
 
 	/* ----- LOGO ----- */
@@ -1174,7 +1172,7 @@ input, textarea {
 	/* ----- ANCHORS ----- */
 	.anchor {
 		float: left;
-		margin-left: -1.3em;
+		margin-left: -1.1em;
 	}
 
 	/* ----- POSITIONING & SHOWING ----- */
