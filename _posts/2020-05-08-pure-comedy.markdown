@@ -23,7 +23,7 @@ image: https://dropbox.badmusichertz.com/pure-comedy/images/episode-art.jpg
 
 podcast-filename: "bmh12.mp3"
 podcast-duration: "01:42:11"
-podcast-size-in-bytes: 102678216
+podcast-size-in-bytes: 102683225
 
 artist: Father John Misty
 genres:

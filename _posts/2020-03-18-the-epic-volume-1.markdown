@@ -23,7 +23,7 @@ image: https://dropbox.badmusichertz.com/the-epic-volume-1/images/episode-art.jp
 
 podcast-filename: "bmh9.mp3"
 podcast-duration: "00:56:59"
-podcast-size-in-bytes: 55187594
+podcast-size-in-bytes: 55199150
 
 artist: Kamasi Washington
 genres:

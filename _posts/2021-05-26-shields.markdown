@@ -24,7 +24,7 @@ image: https://dropbox.badmusichertz.com/shields/images/episode-art.jpg
 
 podcast-filename: "bmh15.mp3"
 podcast-duration: "01:22:41"
-podcast-size-in-bytes: 79707245
+podcast-size-in-bytes: 79709229
 
 artist: Father John Misty
 genres:

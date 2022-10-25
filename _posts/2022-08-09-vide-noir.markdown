@@ -23,7 +23,7 @@ image: https://dropbox.badmusichertz.com/vide-noir/images/episode-art.jpg
 
 podcast-filename: "bmh16.mp3"
 podcast-duration: "02:06:24"
-podcast-size-in-bytes: 121613160
+podcast-size-in-bytes: 121630965
 
 artist: Lord Huron
 genres:
