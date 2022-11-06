@@ -1,16 +1,20 @@
 html {
 	background-color: #22211F;
 }
-#content, html, main, .review-page article {
+#content, html, main, .review-page article,
+#springboard {
 	background-color: #22211F;
 }
 main, .review-page article {
 	color: #CCCECA;
 }
 article header h1 span,
-h2 {
+h2,
+#shownotes h1,
+#springboard h1 {
 	color: #9F9444;
 }
+#springboard time,
 article header h1 time {
 	color: #728186;
 }

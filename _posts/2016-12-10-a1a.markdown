@@ -12,11 +12,14 @@ color-stop-1: "#F4F1E8"
 color-stop-2: "#EDEAE1"
 blurred-background: False
 blurred-card: False
+disable-dark-overlay: True
 
 title: "A1A"
 author: "Michael Barrowclift"
 date: 2016-12-10 22:58:00
 image: https://dropbox.badmusichertz.com/a1a/images/album-art.jpg
+album-art-article-override-light: album-art-article-override.jpg
+album-art-article-override-dark: album-art-2000w.jpg
 
 artist: Jimmy Buffett
 genres:

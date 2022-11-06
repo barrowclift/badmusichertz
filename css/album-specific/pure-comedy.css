@@ -1,17 +1,17 @@
 html {
 	background-color: #1F306F;
 }
-.review-page article {
+/*.review-page article {
 	background-color: hsla(180, 1%, 95%, 0.75);
-}
+}*/
 @media (prefers-color-scheme: dark) {
 	html {
 		background-color: #04071B;
 	}
-	.review-page article {
+/*	.review-page article {
 		color: white;
 		background-color: hsla(227, 75%, 20%, 0.4);
-	}
+	}*/
 }
 
 /* Safari */
@@ -33,9 +33,6 @@ html {
 	}
 }
 
-.review-page article a {
-	text-decoration: underline;
-}
 a, a:link, a:visited {
 	color: #1F306F;
 }

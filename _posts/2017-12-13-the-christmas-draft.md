@@ -4,8 +4,8 @@ layout: podcast
 album-name: "the-christmas-draft"
 album-art-hidden-text: ""
 
-theme-color: "#FFEAEB"
-theme-color-dark: "#4A4A4A"
+theme-color: "#F5C5C3"
+theme-color-dark: "#7B6261"
 primary-color: "#4C4C4E"
 secondary-color: "#887878"
 color-stop-1: "#F2BFBD"

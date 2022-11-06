@@ -9,6 +9,7 @@ theme-color-dark: "#000000"
 primary-color: "#E0BF70"
 secondary-color: "#C29159"
 blurred-background: True
+show-menu-background: True
 
 title: "Helplessness Blues"
 author: "Marc Barrowclift"

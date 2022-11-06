@@ -6,14 +6,6 @@ main {
 .review-page article {
 	background-color: rgba(242, 228, 189, 0.95);
 }
-menu {
-	background-color: rgba(243, 185, 79, 0.95);
-}
-@supports ((-webkit-backdrop-filter: saturate(180%) blur(20px)) or (backdrop-filter: saturate(180%) blur(20px))) {
-	menu {
-		background-color: rgba(248, 249, 250, 0.25);
-	}
-}
 a {
 	font-weight: 400;
 }
@@ -27,10 +19,6 @@ h2 {
 }
 article header h1 time {
 	color: rgba(21, 12, 9, 0.375);
-}
-hr {
-	background-color: hsla(75, 39%, 26%, 0.75);
-	background: hsla(75, 39%, 26%, 0.75);
 }
 menu ul li a:link,
 menu ul li a:visited,
@@ -135,15 +123,7 @@ menu ul li a:hover,
 	}
 	.review-page article {
 		color: white;
-		background-color: hsla(44, 50%, 18%, 0.8);
-	}
-	menu {
-		background-color: hsla(44, 50%, 18%, 0.95);
-	}
-	@supports ((-webkit-backdrop-filter: saturate(180%) blur(20px)) or (backdrop-filter: saturate(180%) blur(20px))) {
-		menu {
-			background-color: hsla(44, 50%, 18%, 0.8);
-		}
+		background-color: hsla(39, 66%, 5%, 0.6);
 	}
 	article header h1 span,
 	h2 {

@@ -70,26 +70,10 @@ a:hover {
 .bigfoot-footnote__button.is-active {
 	background-color: #F0BCB9;
 }
-menu {
-	background-color: rgba(255, 227, 227, 0.95);
-}
-@supports ((-webkit-backdrop-filter: saturate(180%) blur(20px)) or (backdrop-filter: saturate(180%) blur(20px))) {
-	menu {
-		background-color: rgba(255, 227, 227, 0.7);
-	}
-}
 @media (prefers-color-scheme: dark) {
-	menu {
-		background-color: rgba(51, 51, 51, 0.95);
-	}
-	@supports ((-webkit-backdrop-filter: saturate(180%) blur(20px)) or (backdrop-filter: saturate(180%) blur(20px))) {
-		menu {
-			background-color: rgba(51, 51, 51, 0.7);
-		}
-	}
-	.review-page article {
-		color: #F6F7F9;
-		background-color: rgba(51, 51, 51, 0.7);
+	.review-page article,
+	#springboard {
+		background-color: hsla(359, 97%, 8%, 0.6);
 	}
 	a, a:link, a:visited,
 	menu ul li a:hover,

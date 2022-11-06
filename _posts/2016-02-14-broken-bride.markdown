@@ -1,8 +1,8 @@
 ---
 layout: post
 
-theme-color: "#171717"
-theme-color-dark: "#171717"
+theme-color: "#101010"
+theme-color-dark: "#101010"
 
 album-name: "broken-bride"
 

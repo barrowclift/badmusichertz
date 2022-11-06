@@ -1,18 +1,6 @@
 html {
 	background-color: #A1C0B8;
 }
-
-menu {
-	background-color: hsla(81, 27%, 90%, 0.85);
-}
-@supports ((-webkit-backdrop-filter: saturate(180%) blur(20px)) or (backdrop-filter: saturate(180%) blur(20px))) {
-	menu {
-		background-color: hsla(81, 27%, 90%, 0.8);
-	}
-}
-.review-page article {
-	background-color: hsla(81, 27%, 90%, 0.95);
-}
 main,
 .review-page article {
 	color: #2B2D27;
@@ -133,7 +121,6 @@ a:hover {
 	}
 	.review-page article {
 		color: white;
-		background-color: hsla(80, 7%, 16%, 0.8);
 	}
 	main,
 	.review-page article {
@@ -145,14 +132,6 @@ a:hover {
 	}
 	article header h1 time {
 		color: hsla(52, 21%, 68%, 0.375);
-	}
-	menu {
-		background-color: hsla(80, 7%, 16%, 0.95);
-	}
-	@supports ((-webkit-backdrop-filter: saturate(180%) blur(20px)) or (backdrop-filter: saturate(180%) blur(20px))) {
-		menu {
-			background-color: hsla(80, 7%, 16%, 0.8);
-		}
 	}
 	.bigfoot-footnote__button,
 	.bigfoot-footnote__button:link,

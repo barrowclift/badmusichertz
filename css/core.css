@@ -77,14 +77,18 @@ main {
 	background-color: transparent;
 	box-shadow: none;
 	border-radius: 0.25em;
+	padding-top: 1.275em;
 }
-#wrap {
-	min-height: 100%;
+.podcast-article-wrapper {
+	padding-left: 1.3em;
+	padding-right: 1.3em;
 }
 #content {
-	/* Pushing all content below floating navbar */
-	padding-top: 3.25em;
+	padding-top: 2.925em; /* The menu's 2.925em */
 	overflow: auto;
+}
+body.show-menu-background:not(.float-menu) main {
+	padding-top: 1.125em;
 }
 .wide-page {
 	max-width: 1640px;
@@ -101,33 +105,64 @@ body:before {
 
 /* ----- ARTICLE ----- */
 article,
-.reading-width {
+.reading-width,
+#springboard {
 	max-width: 35.5em;
 	margin: 0 auto;
+}
+#springboard {
+	max-width: 36.875em;
 }
 article {
 	padding-left: 5%;
 	padding-right: 5%;
-	padding-top: 2.6em;
+	padding-top: 1.3em;
 	padding-bottom: 1.3em;
 	border-radius: 1em;
+	margin-bottom: 2.6em;
 	display: inline-block;
 }
-	article#podcast-v2 {
+	article#podcast {
 		padding-top: 0;
+		margin-top: 1.3em;
 	}
-	.review-page article {
-		background-color: white;
+	article#podcast h1 {
+		margin-top: 0;
 	}
 #springboard {
-	background-color: rgba(255, 255, 255, 0.5);
 	box-shadow: 0 14px 26px -10px rgba(0, 0, 0, 0.3);
-	border: solid 1px black;
-	padding: 1em;
+	padding-left: 1.3em;
+	padding-right: 1.3em;
+	padding-top: 0;
+	padding-bottom: 0;
 	border-radius: 1em;
+	display: block;
+}
+	#springboard h1 {
+		margin-top: 1em;
+	}
+	#springboard audio {
+		margin-bottom: 1.3em;
+	}
+#springboard,
+.review-page article {
+	border: solid 1px rgba(0, 0, 0, 0.15);
+	background-color: rgba(255, 255, 255, 0.75);
+}
+@supports ((-webkit-backdrop-filter: saturate(180%) blur(20px)) or (backdrop-filter: saturate(180%) blur(20px))) {
+	.review-page article,
+	#springboard {
+		-webkit-backdrop-filter: saturate(180%) blur(20px);
+		backdrop-filter: saturate(180%) blur(20px);
+	}
 }
 #shownotes {
 	margin-top: 2.6em;
+}
+#shownotes h1 {
+	text-align: left;
+	padding-left: 0;
+	padding-right: 0;
 }
 
 
@@ -198,17 +233,17 @@ h1 {
 	font-size: 2.074em;
 }
 h2 {
-	font-size: 1.728em;
+	font-size: 1.44em;
 }
 h3 {
-	font-size: 1.44em;
+	font-size: 1.2em;
 }
 h4,
 menu ul {
-	font-size: 1.2em;
+	font-size: 1em;
 }
 h5 {
-	font-size: 1em;
+	font-size: 0.833em;
 }
 h6, small {
 	font-size: 0.833em;
@@ -234,11 +269,7 @@ small {
 	#podcast ol li,
 	#podcast ul li,
 	#podcast li ol,
-	#podcast li ul,
-	#podcast-v2 ol li,
-	#podcast-v2 ul li,
-	#podcast-v2 li ol,
-	#podcast-v2 li ul {
+	#podcast li ul {
 		margin-bottom: 0;
 	}
 time {
@@ -270,7 +301,7 @@ blockquote > :last-child {
 	margin-bottom: 0;
 }
 menu header {
-	font-size: 2.05em;
+	font-size: 1.4em;
 }
 
 h1, time {
@@ -313,8 +344,7 @@ time {
 .review-page a {
 	text-decoration: underline;
 }
-#podcast a,
-#podcast-v2 a {
+#podcast a {
 	font-weight: normal;
 }
 
@@ -349,18 +379,26 @@ menu a:hover,
 
 
 /* ----- MENU ----- */
-menu {
-	background-color: rgba(248, 249, 250, 0.95);
-	width: 100%;
-	position: fixed;
-	z-index: 200;
-	padding-bottom: 0.075rem;
+body:not(.show-menu-background) menu {
+	background-color: transparent;
 }
 menu {
+	width: 100%;
+	position: absolute;
+	z-index: 200;
+	padding-bottom: 0.5rem;
+	padding-top: 1rem;
+	white-space: nowrap;
+}
+.float-menu menu {
+	position: fixed;
 	background-color: rgba(248, 249, 250, 0.9);
 }
+	menu > a {
+		line-height: 1rem;
+	}
 	@supports ((-webkit-backdrop-filter: saturate(180%) blur(20px)) or (backdrop-filter: saturate(180%) blur(20px))) {
-		menu {
+		.float-menu menu {
 			-webkit-backdrop-filter: saturate(180%) blur(20px);
 			backdrop-filter: saturate(180%) blur(20px);
 			background-color: rgba(248, 249, 250, 0.7);
@@ -370,12 +408,11 @@ menu {
 		float: right;
 		margin-right: 5%;
 		margin-bottom: 0;
-		margin-left: 1.3em;
+		margin-left: 0;
 	}
 		menu ul li {
 			margin-bottom: 0;
 			margin-left: 7vw;
-			margin-top: 1.25rem;
 			display: inline-block;
 		}
 .rss {
@@ -394,33 +431,25 @@ menu {
 /* We want the "ad music hertz" to disappear on small devices and pad a bit to
 compensate*/
 #logo {
-	padding-left: 5%;
-	margin-top: 0.65rem;
-	margin-bottom: 0.65rem;
+	margin-left: 5%;
 	display: inline-block;
+	vertical-align: baseline;
 	cursor: pointer;
 	color: rgba(33, 37, 41, 0.9);
 }
 	#logo:hover {
 		color: #e03131;
 	}
-	#logo span {
-		margin-left: -0.15em;
+	#logo > span {
+		margin-left: -0.25em;
 	}
 
-.vinyl, /* Just the vinyl component of a record, sans label */
-.record { /* The whole thing (vinyl + label) */
-	display: inline-block;
-	width: 1.728rem;
-	height: 1.728rem;
-}
-.vinyl {
-	margin-bottom: -1px;
-}
 .record {
-	margin-right: -6px;
-	padding-top: 1px;
+	display: inline-block;
+	width: 1rem;
+	height: auto;
 }
+
 /**
  * Loud grooves make up the bulk of the record. The "base color".
  * The stroke here is the outer edge of the lead-in and runout
@@ -512,15 +541,15 @@ compensate*/
 /* ----- ALBUM ART ----- */
 .album-art {
 	border-radius: 1em;
-	margin-bottom: 8.5vw;
-	margin-top: 9.5vw;
-	width: 80vw;
-	max-width: 40.25em;
+	margin-bottom: 1.3em;
+	width: 100%;
+	max-width: 39.5em;
 }
 
 .shelf {
 	margin-left: 0em;
 	margin-right: 0em;
+	overflow-x: hidden;
 }
 	.shelf .album-art {
 		width: 30vw;
@@ -535,7 +564,7 @@ compensate*/
 hr {
 	clear: both;
 	border: none;
-	height: 1px;
+	height: 2px;
 	display: block;
 	margin: 2.6em 0;
 	padding: 0;
@@ -636,7 +665,7 @@ a:hover {
 
 
 /* ----- SHADOWS ----- */
-menu, #bottom-navigation,
+.float-menu menu, #bottom-navigation,
 .article-card img,
 .shelf .album-art,
 .avatar {
@@ -651,7 +680,8 @@ menu, #bottom-navigation,
 }
 
 .review-page article,
-.album-art {
+.album-art,
+#springboard {
 	box-shadow: 0 14px 26px -10px rgba(0, 0, 0, 0.4);
 }
 
@@ -772,9 +802,8 @@ audio {
 #bottom-navigation {
 	position: relative;
 	bottom: 0;
-	height: 7em;
 	clear: both;
-	margin-bottom: 0;
+	padding-bottom: 5.2em;
 	width: 100%;
 	background-color: rgb(248, 247, 245);
 }
@@ -836,10 +865,10 @@ audio {
 
 
 /* ----- ANIMATIONS ----- */
-#logo span,
+#logo span span,
 .anchor,
 a {
-	transition: color .2s ease, text-shadow .2s ease;
+	transition: color .2s ease, text-shadow .2s ease !important;
 }
 #logo .record .loud-grooves {
 	transition: stroke 0.2s ease, fill 0.2s ease;
@@ -886,7 +915,8 @@ input, textarea {
 .hide-when-medium,
 .hide-when-small,
 .show-when-large,
-.optional-menu-item {
+.optional-menu-item-1,
+.optional-menu-item-2 {
 	display: none;
 	visibility: hidden;
 }
@@ -894,13 +924,17 @@ input, textarea {
 	visibility: visible;
 	display: inline;
 }
-.review-page .show-when-dark {
+.background.show-when-dark {
 	background-color: black;
 	opacity: 0.5;
 }
 .show-when-dark {
     display: none !important;
 }
+.show-when-light {
+	display: inline-block !important;
+}
+
 .column {
 	display: inline-block;
 	vertical-align: top;
@@ -926,7 +960,11 @@ input, textarea {
 
 	/* ----- ROOT ----- */
 	#content {
-		padding-top: 3.3em;
+		padding-top: 2.75em;
+	}
+	.podcast-article-wrapper {
+		padding-left: 0;
+		padding-right: 0;
 	}
 
 
@@ -937,13 +975,18 @@ input, textarea {
 		visibility: hidden;
 		display: none;
 	}
+	menu {
+		white-space: normal;
+		padding-bottom: 0.75rem;
+	}
 
 	/* ----- LOGO ----- */
 	#logo {
 		text-align: center;
 		display: block;
-		padding-left: 0;
-		padding-right: 0;
+		margin-left: 0 !important;
+		padding-left: 5% !important;
+		padding-right: 5% !important;
 	}
 	.record {
 		margin-right: 0;
@@ -976,32 +1019,69 @@ input, textarea {
 		vertical-align: top;
 	}
 }
+@media(max-width: 340px) {
+	.podcast-article-wrapper {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	#springboard,
+	article {
+		border-radius: 0;
+	}
+	.album-art {
+		width: 80%;
+		margin-bottom: 2.225em;
+	}
+	#listen-on-buttons svg {
+		padding-left: 3vw;
+		padding-right: 3vw;
+	}
+	article {
+		margin-bottom: 0;
+	}
+	body.show-menu-background:not(.float-menu) main {
+		padding-top: 2.2em;
+	}
+}
 
-@media (min-width: 414px) {
-	.optional-menu-item {
+@media (min-width: 420px) {
+	.optional-menu-item-1 {
+		visibility: visible;
+		display: inline;
+	}
+}
+@media (min-width: 550px) {
+	.optional-menu-item-2 {
 		visibility: visible;
 		display: inline;
 	}
 }
 
 /* Medium devices (iPads) */
-@media (min-width: 790px) {
+@media (min-width: 720px) {
 	/* CONTAINER ---------------------------------- */
 
 	/* ----- ROOT ----- */
 	#content {
-		padding-top: 3.15em;
-		padding-bottom: 7.8em;
+		padding-top: 2.95em; /* The menu's 2.95em */
+		padding-bottom: 2.95em;
+	}
+	.review-page main {
+		padding-top: 1.3em;
 	}
 	main {
 		margin-bottom: 1.3em;
 		padding-left: 0;
 		padding-right: 0;
 	}
+	body.show-menu-background:not(.float-menu) main {
+		padding-top: 2.1em;
+	}
 
 	/* ----- ARTICLE ----- */
 	article,
-	.reading-width {
+	.reading-width,
+	#springboard {
 		max-width: 34em;
 	}
 	article {
@@ -1009,13 +1089,17 @@ input, textarea {
 		padding-right: 2.6em;
 	}
 	@supports(padding: max(2.6em, env(safe-area-inset-left))) {
-		article {
+		article,
+		#springboard {
 			padding-left: max(2.6em, env(safe-area-inset-left)) !important;
 			padding-right: max(2.6em, env(safe-area-inset-right)) !important;
 		}
 	}
 	.full-page main article {
 		max-width: none;
+	}
+	article {
+		margin-bottom: 0;
 	}
 
 
@@ -1037,12 +1121,18 @@ input, textarea {
 	/* NAVBAR ------------------------------------- */
 
 	/* ----- MENU ----- */
+	menu header {
+		font-size: 1.7em;
+	}
+	#logo > span {
+		margin-left: -0.15em;
+	}
 	menu ul {
 		margin-right: 2vw;
+		margin-left: 1.3em;
 	}
 	menu ul li {
 		margin-right: 0;
-		margin-top: 1.40rem;
 		margin-left: 4vw;
 	}
 
@@ -1050,8 +1140,7 @@ input, textarea {
 	#logo {
 		margin-left: 2vw;
 		padding-left: 0;
-		margin-top: 0.75rem;
-		margin-bottom: 0.5rem;
+		margin-top: -6px;
 		float: left;
 	}
 	@supports(padding-left: max(2vw, env(safe-area-inset-left))) {
@@ -1060,14 +1149,15 @@ input, textarea {
 			margin-left: 0 !important;
 		}
 	}
-	.vinyl,
 	.record {
-		width: 32px;
-		height: 32px;
+		width: 0.75em;
+		height: auto;
 	}
 	.record {
-		margin-right: -0.12rem;
-		padding-top: 0px;
+		margin-right: -0.175rem;
+		padding-right: 1px;
+		padding-top: 2px;
+		padding-bottom: 1px;
 	}
 
 
@@ -1127,7 +1217,9 @@ input, textarea {
 	/* ----- ALBUM ART ----- */
 	.album-art {
 		max-width: 39.25em;
-		margin-top: 2.6em;
+		margin-bottom: 2.1em;
+	}
+	.album-art.v2 {
 		margin-bottom: 2.1em;
 	}
 
@@ -1159,11 +1251,6 @@ input, textarea {
 		backdrop-filter: unset;
 		background-color: unset;
 		box-shadow: unset;
-		height: 7.8em;
-		margin-top: -7.8em;
-	}
-	#bottom-navigation .more {
-		padding-top: 1.95em;
 	}
 
 
@@ -1216,14 +1303,14 @@ input, textarea {
 
 	/* ----- ARTICLE ----- */
 	.review-page article {
-		background-color: rgba(248, 249, 250, 0.9);
 		padding-left: 2.6em;
 		padding-right: 2.6em;
 		border-radius: 1em;
 		padding-bottom: 1.3em;
 	}
 	@supports(padding: max(2.6em, env(safe-area-inset-left))) {
-		.review-page article {
+		.review-page article,
+		#springboard {
 			padding-left: max(2.6em, env(safe-area-inset-left)) !important;
 			padding-right: max(2.6em, env(safe-area-inset-right)) !important;
 		}
@@ -1245,7 +1332,6 @@ input, textarea {
 		margin-right: 1.3rem;
 	}
 	menu ul li {
-		margin-top: 1.3rem;
 		margin-left: 2.5rem;
 	}
 
@@ -1356,11 +1442,16 @@ input, textarea {
 	#logo .record .runout {
 		stroke: hsl(360, 37%, 84%);
 	}
-	menu {
+	.float-menu menu {
 		background-color: hsla(360, 0%, 10%, 0.9);
 	}
+	#springboard,
+	.review-page article {
+		border: solid 1px rgba(0, 0, 0, 0.025);
+		background-color: rgba(0, 0, 0, 0.6); /* background-color: rgba(150, 150, 150, 0.25); */
+	}
 		@supports ((-webkit-backdrop-filter: saturate(180%) blur(20px)) or (backdrop-filter: saturate(180%) blur(20px))) {
-			menu {
+			.float-menu menu {
 				background-color: hsla(360, 0%, 10%, 0.7);
 			}
 		}
@@ -1378,6 +1469,12 @@ input, textarea {
 	}
 	.show-when-dark {
 	    display: block !important;
+	}
+	img.show-when-dark {
+		display: inline-block !important;
+	}
+	.show-when-light {
+		display: none !important;
 	}
 	#bottom-navigation {
 		background-color: hsl(360, 74%, 4%);

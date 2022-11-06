@@ -1,46 +1,37 @@
 html {
 	background-color: #5C8680;
 }
-menu {
+/*.review-page article {
 	background-color: hsla(73, 33%, 92%, 0.95);
-}
-@supports ((-webkit-backdrop-filter: saturate(180%) blur(20px)) or (backdrop-filter: saturate(180%) blur(20px))) {
-	menu {
-		background-color: hsla(73, 33%, 92%, 0.80);
-	}
-}
-.review-page article {
-	background-color: hsla(73, 33%, 92%, 0.95);
-}
+}*/
 ::selection {
 	background: hsla(135, 31%, 67%, 0.99);
 }
 ::-moz-selection {
 	background: hsla(135, 31%, 67%, 0.99);
 }
-a, a:link, a:visited,
-menu ul li a:hover,
-#logo:hover span {
+a, a:link, a:visited {
 	color: #92C69F;
 }
-.rss {
-	fill: rgba(33, 37, 41, 0.9);
+a:hover {
+	color: #586B63;
 }
-menu a:hover .rss {
-	fill: #92C69F;
-}
-#logo .record .loud-grooves {
-	stroke: hsl(213, 10%, 17%);
-	fill: hsl(213, 10%, 21%);
-}
-#logo .record .quiet-grooves {
-	fill: hsl(213, 10%, 19%);
-}
+
+/**
+ * Record Logo
+ */
 #logo .record .flat-grooves {
-	fill: hsl(213, 10%, 17%);
+	fill: hsl(215, 26%, 86%);
 }
 #logo .record .runout {
-	stroke: hsl(213, 10%, 17%);
+	stroke: hsl(215, 26%, 86%);
+}
+#logo .record .loud-grooves {
+	stroke: hsl(215, 26%, 86%);
+	fill: hsl(215, 26%, 91%);
+}
+#logo .record .quiet-grooves {
+	fill: hsl(215, 26%, 81%);
 }
 #logo:hover .record .loud-grooves {
 	stroke: hsl(135, 31%, 63%);
@@ -56,14 +47,32 @@ menu a:hover .rss {
 	stroke: hsl(135, 31%, 63%);
 }
 #logo .label {
-	fill: #92C69F;
+	fill: rgba(0, 0, 0, 0);
 }
 #logo:hover .label {
 	fill: rgba(0,0,0,0);
 }
-a:hover {
-	color: #586B63;
+
+/**
+ * Menu
+ */
+menu ul li a,
+menu ul li a:link,
+menu ul li a:visited,
+#logo span {
+	color: rgba(255, 255, 255, 0.8);
 }
+.rss {
+	fill: rgba(255, 255, 255, 0.8);
+}
+menu ul li a:hover,
+#logo:hover span {
+	color: #92C69F;
+}
+menu a:hover .rss {
+	fill: #92C69F;
+}
+
 .bigfoot-footnote__button,
 .bigfoot-footnote__button:link,
 .bigfoot-footnote__button:visited {
@@ -120,14 +129,6 @@ a:hover {
 	}
 	article header h1 time {
 		color: hsla(135, 31%, 75%, 0.375);
-	}
-	menu {
-		background-color: hsla(155, 10%, 15%, 0.95);
-	}
-	@supports ((-webkit-backdrop-filter: saturate(180%) blur(20px)) or (backdrop-filter: saturate(180%) blur(20px))) {
-		menu {
-			background-color: hsla(155, 10%, 15%, 0.95);
-		}
 	}
 	menu ul li a:link,
 	menu ul li a:visited,

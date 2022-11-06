@@ -2,6 +2,7 @@
 layout: default
 wide-page: true
 anchors: False
+float-menu: true
 title: "Archive"
 ---
 
@@ -10,7 +11,7 @@ title: "Archive"
 
 <style>
 	h1 {
-		margin-top: 1.75em;
+		margin-top: 2.3rem;
 	}
 	.tab-control {
 		margin-bottom: 2.6em;
@@ -83,7 +84,7 @@ title: "Archive"
 	<div class="shelf specials hidden" id="podcasts-view">
 		<p style="text-align:center">
 			{% for post in site.posts %}
-			{% if post.categories contains "Album review" and post.layout == 'podcast' or post.layout == 'podcast-v2' %}
+			{% if post.categories contains "Album review" and post.layout == 'podcast' %}
 			<span class="hint--top hint--rounded hint--bounce" data-hint="{{ post.title }}">
 				<a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
 					<img src="{{ site.dropbox-url }}/{{ post.album-name }}/images/episode-art-500w.jpg" class="album-art">

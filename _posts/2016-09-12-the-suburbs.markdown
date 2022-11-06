@@ -4,8 +4,8 @@ layout: post
 album-name: "the-suburbs"
 album-art-hidden-text: "Another all-time favorite album cover of mine. It looks as if it was printed in a local newspaper, it gives the album’s packaging a sense of purposeful cheapness and disposability."
 
-theme-color: "#EFF0EE"
-theme-color-dark: "#1F1914"
+theme-color: "#1F2F23"
+theme-color-dark: "#0F1813"
 primary-color: "#A7BFB9"
 secondary-color: "#DBD1C1"
 blurred-background: True

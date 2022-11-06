@@ -3,34 +3,18 @@ html,
 main {
 	background-color: #050304;
 }
+#springboard,
 .review-page article {
-	background-color: rgba(11, 10, 8, 0.95)
+	background-color: hsla(203, 38%, 12.5%, 0.6) !important;
 }
-
-menu {
-	background-color: rgba(14, 11, 10, 0.95);
-}
-@supports ((-webkit-backdrop-filter: saturate(180%) blur(20px)) or (backdrop-filter: saturate(180%) blur(20px))) {
-	menu {
-		background-color: rgba(14, 11, 10, 0.7);
-	}
+time {
+	color: rgba(226, 240, 246, 0.5);
 }
 
 main,
 .review-page article,
 .bigfoot-footnote__content {
 	color: #E2F0F6;
-}
-
-article header h1 span {
-	color: #E2F0F6;
-}
-article header h1 time {
-	color: rgba(226, 240, 246, 0.5);
-}
-article hr {
-	background-color: rgba(226, 240, 246, 0.5);
-	background: rgba(226, 240, 246, 0.5);
 }
 
 ::selection {

@@ -10,6 +10,7 @@ theme-color-dark: "#3F3B36"
 primary-color: "#F2EDDF"
 secondary-color: "#CDC9BD"
 blurred-background: False
+show-menu-background: True
 
 color-stop-1: "#949188"
 color-stop-2: "#342F2A"

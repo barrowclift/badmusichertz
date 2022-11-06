@@ -4,8 +4,8 @@ layout: podcast
 album-name: "a-sailors-guide-to-earth"
 album-art-hidden-text: ""
 
-theme-color: "#120C0A"
-theme-color-dark: "#0F0B09"
+theme-color: "#070906"
+theme-color-dark: "#0B0A09"
 primary-color: "#E2F0F6"
 secondary-color: "#C4A56F"
 blurred-background: True
@@ -35,14 +35,6 @@ categories:
   - Album review
 ---
 
-## Sturgill Simpson Discography
-
-1. [*High Top Mountain*](https://itunes.apple.com/us/album/high-top-mountain/657091881) (2013)
-2. [*Metamodern Sounds in Country Music*](https://itunes.apple.com/us/album/metamodern-sounds-in-country-music/865795112) (2014)
-3. [*A Sailor's Guide to Earth*](https://itunes.apple.com/us/album/a-sailors-guide-to-earth/1088518253) (2016)
-
------------
-
 * [TheNeedleDrop - "The Internet's Busiest Music Nerd"](http://www.theneedledrop.com)
 	- [Review of *A Sailor's Guide To Earth*](https://www.youtube.com/watch?v=h_vuv0Oq6jQ)
 * [Cymbal](https://cymbal.fm) - The social media app Marc couldn't remember
@@ -67,13 +59,19 @@ categories:
 * [Toby Keith - "Courtesy of the Red, White and Blue (The Angry American)"](https://www.youtube.com/watch?v=ruNrdmjcNTc)
 * [Father John Misty](https://itunes.apple.com/us/album/pure-comedy/1193788689)
 
+## Sturgill Simpson's Discography
+
+1. [*High Top Mountain*](https://itunes.apple.com/us/album/high-top-mountain/657091881) (2013)
+2. [*Metamodern Sounds in Country Music*](https://itunes.apple.com/us/album/metamodern-sounds-in-country-music/865795112) (2014)
+3. [*A Sailor's Guide to Earth*](https://itunes.apple.com/us/album/a-sailors-guide-to-earth/1088518253) (2016)
+
 ## Referenced Quotes
 
 > My paternal grandfather, when he was in the army in World War II — he was over in the South Pacific and he thought he was gonna die. And he wrote a letter to my grandmother and their newborn son, thinking he wasn't gonna come home. And years later, after he was dead, and then once she'd passed, I was at her house and I just decided, "I'm gonna read this letter." And I probably learned more about him in those few pages than I ever could have sitting in a room with him. I remember going down the road on the [tour] bus one day and thinking, "What if I could just write a letter to my kid, telling him exactly who his dad was?" Like, everything I'm going through right now, at this point in my life. It was just like, "Ok, I'm gonna go make this really pure and beautiful thing for my son and incorporate all this music that I loved, outside of and other than country or bluegrass," which is all I've really had a chance to represent up until now.  
 >  
 > [NPR Interview: Sturgill Simpson Shares His "Guide To Earth"](https://www.npr.org/sections/allsongs/2016/04/15/474220553/all-songs-1-sturgill-simpson-shares-his-guide-to-earth)
 
----------
+-----
 
 ![Cover art]({{ site.dropbox-url }}/a-sailors-guide-to-earth/images/album-art.jpg)
 ![Back cover art]({{ site.dropbox-url }}/a-sailors-guide-to-earth/images/back-cover.jpg)

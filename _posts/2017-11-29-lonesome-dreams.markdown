@@ -9,6 +9,7 @@ theme-color-dark: "#3D4744"
 primary-color: "#F6EEDF"
 secondary-color: "#B5AD9C"
 blurred-background: True
+show-menu-background: True
 
 title: "Lonesome Dreams"
 author: "The Barrowclift Siblings"

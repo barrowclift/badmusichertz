@@ -6,9 +6,11 @@ album-art-hidden-text: ""
 
 theme-color: "#191B1E"
 theme-color-dark: "#161618"
-primary-color: "#bda54d"
-secondary-color: "#88aab2"
-blurred-background: True
+primary-color: "#9F9444"
+secondary-color: "#9F9444"
+blurred-card: False
+color-stop-1: "#1A1B1D"
+color-stop-2: "#383D41"
 
 title: "Strange Trails"
 author: "the Barrowclift Siblings"

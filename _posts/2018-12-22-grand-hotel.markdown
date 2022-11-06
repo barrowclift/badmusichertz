@@ -4,8 +4,8 @@ layout: podcast
 album-name: "grand-hotel"
 album-art-hidden-text: ""
 
-theme-color: "#708B52"
-theme-color-dark: "#596548"
+theme-color: "#4D6136"
+theme-color-dark: "#282E1C"
 primary-color: "#E7CA4D"
 secondary-color: "#C9C8AD"
 blurred-background: True

@@ -4,8 +4,8 @@ layout: podcast
 album-name: "pure-comedy"
 album-art-hidden-text: ""
 
-theme-color: "#141B40"
-theme-color-dark: "#121728"
+theme-color: "#070F2E"
+theme-color-dark: "#040919"
 primary-color: "#FFFFFF"
 secondary-color: "#AAAAAA"
 blurred-background: True

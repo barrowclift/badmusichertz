@@ -1,11 +1,12 @@
-#wrap {
+#content {
 	background-color: #7F97E4 !important;
 	background: -webkit-linear-gradient(#7F97E4, #C5D2FC) !important;
 	background: -o-linear-gradient(#7F97E4, #C5D2FC) !important;
 	background: -moz-linear-gradient(#7F97E4, #C5D2FC) !important;
 	background: linear-gradient(#7F97E4, #C5D2FC) !important;
 }
-.review-page article {
+.review-page article,
+#springboard {
 	background-color: rgb(254, 248, 246);
 }
 html {
@@ -122,16 +123,19 @@ menu {
 }
 
 .album-art,
-article {
-	border: 2px solid #010000;
+article,
+#springboard {
+	border: 2px solid #010000 !important;
 }
 .review-page article,
-.album-art {
+.album-art,
+#springboard {
 	border-radius: 0 !important;
 }
 .review-page article,
 .album-art,
-menu {
+menu,
+#springboard {
 	box-shadow: unset;
 }
 
@@ -140,22 +144,28 @@ menu {
 		border-bottom: 3px solid #010000;
 	}
 	.album-art,
+	article,
+	#springboard {
+		border: 3px solid #010000 !important;
+	}
+	.album-art,
 	article {
 		border: 3px solid #010000;
 	}
 }
 
 @media (prefers-color-scheme: dark) {
-	#wrap {
+	#content {
 		background-color: #1A327D !important;
 		background: -webkit-linear-gradient(#1A327D, #030F38) !important;
 		background: -o-linear-gradient(#1A327D, #030F38) !important;
 		background: -moz-linear-gradient(#1A327D, #030F38) !important;
 		background: linear-gradient(#1A327D, #030F38) !important;
 	}
-	.review-page article {
+	.review-page article,
+	#springboard {
 		color: white;
-		background-color: hsla(20, 100%, 0%, 0.4);
+		background-color: hsla(20, 100%, 0%, 0.6);
 	}
 	html {
 		color: #FFF8F7;

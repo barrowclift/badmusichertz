@@ -1,16 +1,17 @@
 html {
 	background-color: #F2C419;
 }
-.review-page article {
-	background-color: hsla(47, 65%, 95%, 0.75);
+.review-page article,
+#springboard {
+	background-color: hsla(47, 93%, 85%, 0.75);
 }
 @media (prefers-color-scheme: dark) {
 	html {
 		background-color: #776324;
 	}
-	.review-page article {
-		color: white;
-		background-color: hsla(212,52%,10%,0.4);
+	.review-page article,
+	#springboard {
+		background-color: hsla(47, 85%, 5%, 0.4);
 	}
 }
 
@@ -31,9 +32,6 @@ html {
 	::-moz-selection {
 		background: hsla(47, 89%, 26%, 0.99);
 	}
-}
-.review-page article a {
-	text-decoration: underline;
 }
 a, a:link, a:visited {
 	color: #E98635;
@@ -108,13 +106,4 @@ a:hover {
 .bigfoot-footnote__button:active,
 .bigfoot-footnote__button.is-active {
 	background-color: #DE3123;
-}
-
-menu {
-	background-color: hsla(47, 89%, 52%, 0.95);
-}
-@supports ((-webkit-backdrop-filter: saturate(180%) blur(20px)) or (backdrop-filter: saturate(180%) blur(20px))) {
-	menu {
-		background-color: hsla(47, 89%, 52%, 0.35);
-	}
 }

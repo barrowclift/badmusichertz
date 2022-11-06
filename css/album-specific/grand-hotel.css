@@ -1,16 +1,17 @@
 html {
 	background-color: #657447;
 }
-.review-page article {
-	background-color: hsla(84, 20%, 90%, 0.95);
+.review-page article,
+#springboard {
+	background-color: hsla(88, 28%, 97%, 0.75);
 }
 @media (prefers-color-scheme: dark) {
 	html {
 		background-color: #2A311E;
 	}
-	.review-page article {
-		color: white;
-		background-color: hsla(79, 23%, 59%, 0.4);
+	.review-page article,
+	#springboard {
+		background-color: hsla(88, 28%, 5%, 0.6);
 	}
 }
 
@@ -30,24 +31,33 @@ a, a:link, a:visited {
 menu ul li a:hover {
 	color: #E7CA4D;
 }
+menu ul li a:link,
+menu ul li a:visited,
+#logo span {
+	color: #BFC5AA;
+}
 .rss {
-	fill: rgba(33, 37, 41, 0.9);
+	fill: #BFC5AA;
 }
 menu a:hover .rss {
-	fill: #E7CA4D;;
+	fill: #E7CA4D;
+}
+#logo:hover span,
+menu ul li a:hover {
+	color: #E7CA4D;
 }
 #logo .record .loud-grooves {
-	stroke: hsl(180, 5%, 14%);
-	fill: hsl(180, 5%, 18%);
+	stroke: hsl(73, 19%, 72%);
+	fill: hsl(73, 19%, 77%);
 }
 #logo .record .quiet-grooves {
-	fill: hsl(180, 5%, 16%);
+	fill: hsl(73, 19%, 67%);
 }
 #logo .record .flat-grooves {
-	fill: hsl(180, 5%, 14%);
+	fill: hsl(73, 19%, 72%);
 }
 #logo .record .runout {
-	stroke: hsl(180, 5%, 14%);
+	stroke: hsl(73, 19%, 72%);
 }
 #logo:hover .record .loud-grooves {
 	stroke: hsl(49, 76%, 58%);
@@ -120,13 +130,6 @@ menu {
 	/* Firefox */
 	::-moz-selection {
 		background: hsla(80, 24%, 20%, 0.99);
-	}
-	article header h1 span,
-	h2 {
-		color: hsl(79, 29%, 77%);
-	}
-	article header h1 time {
-		color: hsla(79, 29%, 77%, 0.375);
 	}
 	menu ul li a:link,
 	menu ul li a:visited,

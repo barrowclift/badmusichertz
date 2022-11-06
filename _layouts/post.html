@@ -1,17 +1,24 @@
 ---
 layout: default
 ---
-<div style="display:block;">
-	<a href="{{ site.dropbox-url }}/{{ page.album-name }}/images/album-art.jpg" {% if page.album-art-hidden-text %}title="{{page.album-art-hidden-text}}"{% endif %}>
-		<img src="{{ site.dropbox-url }}/{{ page.album-name }}/images/{% if page.album-art-article-override %}{{ page.album-art-article-override }}{% else %}album-art-2000w.jpg{% endif %}" class="album-art" {% if page.title %}alt="{{ page.title }}'s album art"{% else %}alt="The album's cover"{% endif %} />
-	</a>
+<div class="podcast-article-wrapper">
+	<div style="display:block;line-height:0;">
+		<a href="{{ site.dropbox-url }}/{{ page.album-name }}/images/album-art.jpg" {% if page.album-art-hidden-text %}title="{{page.album-art-hidden-text}}"{% endif %}>
+			{% if page.album-art-article-override-light and page.album-art-article-override-dark %}
+			<img src="{{ site.dropbox-url }}/{{ page.album-name }}/images/{{ page.album-art-article-override-light }}" class="show-when-light album-art" {% if page.title %}alt="{{ page.title }}'s album art"{% else %}alt="The album's cover"{% endif %} />
+			<img src="{{ site.dropbox-url }}/{{ page.album-name }}/images/{{ page.album-art-article-override-dark }}" class="show-when-dark album-art" {% if page.title %}alt="{{ page.title }}'s album art"{% else %}alt="The album's cover"{% endif %} />
+			{% else %}
+			<img src="{{ site.dropbox-url }}/{{ page.album-name }}/images/{% if page.album-art-article-override %}{{ page.album-art-article-override }}{% else %}album-art-2000w.jpg{% endif %}" class="album-art" {% if page.title %}alt="{{ page.title }}'s album art"{% else %}alt="The album's cover"{% endif %} />
+			{% endif %}
+		</a>
+	</div>
+	<article>
+		<header role="header">
+			<h1>
+				<span>{{ page.title }}</span>
+				<time itemprop="dateCreated">Review by {{ page.author }}<br>{{ page.date | date: "%A, %B %-d, %Y" }}</time>
+			</h1>
+		</header>
+		{{ content }}
+	</article>
 </div>
-<article>
-	<header role="header">
-		<h1>
-			<span>{{ page.title }}</span>
-			<time itemprop="dateCreated">Review by {{ page.author }}<br>{{ page.date | date: "%A, %B %-d, %Y" }}</time>
-		</h1>
-	</header>
-	{{ content }}
-</article>

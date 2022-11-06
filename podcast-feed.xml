@@ -45,7 +45,7 @@ layout: null
 		<itunes:subtitle>{{ site.description }}</itunes:subtitle>
 
 		{% for post in site.posts %}
-		{% if post.layout == 'podcast' or post.layout == 'podcast-v2' %}
+		{% if post.layout == 'podcast' %}
 		<item>
 			<title>{{ post.episode }}: {{ post.title | xml_escape }}</title>
 			<description><![CDATA[{{ post.content | cdata_escape }}]]></description>

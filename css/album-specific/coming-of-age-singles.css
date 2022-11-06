@@ -1,16 +1,17 @@
 html {
 	background-color: #FFFFFF;
 }
-.review-page article {
-	background-color: rgba(255, 255, 255, 0.9);
+.review-page article,
+#springboard {
+	background-color: #F8FAFB;
 }
 @media (prefers-color-scheme: dark) {
 	html {
 		background-color: #332C2B;
 	}
+	#springboard,
 	.review-page article {
-		color: white;
-		background-color: rgba(0, 0, 0, 0.4);
+		background-color: #332C2B;
 	}
 }
 ::selection {
@@ -140,20 +141,10 @@ a:hover {
 	background-color: #DF9149;
 }
 menu {
-	background-color: rgba(255, 255, 255, 0.95);
-}
-@supports ((-webkit-backdrop-filter: saturate(180%) blur(20px)) or (backdrop-filter: saturate(180%) blur(20px))) {
-	menu {
-		background-color: rgba(255, 255, 255, 0.7);
-	}
+	background-color: #F2FAFD;
 }
 @media (prefers-color-scheme: dark) {
 	menu {
-		background-color: rgba(0, 0, 0, 0.4);
-	}
-	@supports ((-webkit-backdrop-filter: saturate(180%) blur(20px)) or (backdrop-filter: saturate(180%) blur(20px))) {
-		menu {
-			background-color: rgba(0, 0, 0, 0.4);
-		}
+		background-color: #332C2B;
 	}
 }

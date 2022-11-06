@@ -12,6 +12,7 @@ color-stop-1: "#7F97E4"
 color-stop-2: "#FFFFFF"
 blurred-background: False
 blurred-card: False
+show-menu-background: True
 
 title: "Favorite Video Game Soundtracks"
 author: "the Barrowclift Siblings &amp; Caity Cooper"

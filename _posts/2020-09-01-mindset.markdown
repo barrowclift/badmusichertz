@@ -4,8 +4,8 @@ layout: podcast
 album-name: "mindset"
 album-art-hidden-text: ""
 
-theme-color: "#FFC700"
-theme-color-dark: "#B28500"
+theme-color: "#FACC21"
+theme-color-dark: "#7E6414"
 
 primary-color: "#205B64"
 secondary-color: "#6E7B5B"

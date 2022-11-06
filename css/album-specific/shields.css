@@ -1,7 +1,8 @@
 html {
 	background-color: #3F3B36;
 }
-.review-page article {
+.review-page article,
+#springboard {
 	background-color: #F0EEE2;
 }
 
@@ -12,9 +13,6 @@ html {
 /* Firefox */
 ::-moz-selection {
 	background: hsla(200, 41%, 47%, 0.99);
-}
-.review-page article a {
-	text-decoration: underline;
 }
 a, a:link, a:visited {
 	color: #466777;
@@ -122,7 +120,8 @@ menu {
 	.rss {
 		fill: #F0EEE2
 	}
-	.review-page article {
+	.review-page article,
+	#springboard {
 		color: #F0EEE2;
 		background-color: #3F3B36;
 	}

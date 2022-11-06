@@ -1,19 +1,11 @@
-article hr, footer hr {
-	background-color: #9F9F9F;
-	background: #9F9F9F; /* Old browsers */
+hr {
+	background-color: rgba(255, 255, 255, 0.1);
+	background: rgba(255, 255, 255, 0.1);
 }
 .album-art {
 	box-shadow: none;
 	-webkit-box-shadow: none;
 	-moz-box-shadow: none;
-}
-menu {
-	background-color: rgba(25, 25, 25, 0.95);
-}
-@supports ((-webkit-backdrop-filter: saturate(180%) blur(20px)) or (backdrop-filter: saturate(180%) blur(20px))) {
-	menu {
-		background-color: rgba(25, 25, 25, 0.7);
-	}
 }
 #content, html {
 	background-color: #101010;
@@ -144,4 +136,9 @@ menu ul li a {
 }
 .bigfoot-footnote__button:after {
 	color: white;
+}
+.review-page article,
+#springboard {
+	-webkit-backdrop-filter: unset !important;
+	backdrop-filter: unset !important;
 }

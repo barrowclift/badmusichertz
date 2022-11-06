@@ -1,0 +1,212 @@
+/**
+ * Background
+ */
+html {
+	background-color: #196A2C;
+	background-image: url('https://dropbox.badmusichertz.com/shuffle-roulette/images/light-green-felt.png');
+}
+.review-page article,
+#springboard {
+	background-color: hsl(134, 63%, 97%);
+}
+::selection {
+	background: hsla(29, 66%, 54%, 0.99);
+}
+::-moz-selection {
+	background: hsla(29, 66%, 54%, 0.99);
+}
+
+/**
+ * Menu
+ */
+menu ul li a,
+menu ul li a:link,
+menu ul li a:visited,
+#logo span {
+	color: #FBFFEF;
+}
+.rss {
+	fill: #FBFFEF;
+}
+menu ul li a:hover,
+#logo:hover span {
+	color: #D7893E;
+}
+menu a:hover .rss {
+	fill: #D7893E;
+}
+
+/**
+ * Record Logo
+ */
+#logo .record .flat-grooves {
+	fill: hsl(75, 100%, 97%);
+}
+#logo .record .runout {
+	stroke: hsl(75, 100%, 97%);
+}
+#logo .record .loud-grooves {
+	stroke: hsl(75, 100%, 97%);
+	fill: hsl(75, 100%, 100%);
+}
+#logo .record .quiet-grooves {
+	fill: hsl(75, 50%, 90%);
+}
+#logo .label {
+	fill: #D7893E;
+}
+
+#logo:hover .record .flat-grooves {
+	fill: hsl(29, 66%, 54%);
+}
+#logo:hover .record .runout {
+	stroke: hsl(29, 66%, 54%);
+}
+#logo:hover .record .loud-grooves {
+	stroke: hsl(29, 66%, 54%);
+	fill: hsl(29, 66%, 59%);
+}
+#logo:hover .record .quiet-grooves {
+	fill: hsl(29, 66%, 49%);
+}
+#logo:hover .label {
+	fill: rgba(0, 0, 0, 0);
+}
+
+/**
+ * Article Body
+ */
+a, a:link, a:visited {
+	color: #D7893E;
+}
+a:hover {
+	color: #BA5817;
+}
+
+#listen-on-buttons .start {
+	stop-color: #D7893E;
+}
+#listen-on-buttons .stop {
+	stop-color: #BA5817;
+}
+
+.bigfoot-footnote__button,
+.bigfoot-footnote__button:link,
+.bigfoot-footnote__button:visited {
+	background-color: #D7893E;
+}
+.bigfoot-footnote__button:hover,
+.bigfoot-footnote__button:focus,
+.bigfoot-footnote__button:active,
+.bigfoot-footnote__button.is-active {
+	background-color: #D7893E;
+}
+
+@media (prefers-color-scheme: dark) {
+	/**
+     * Background
+     */
+    html {
+    	background-color: #0E3515;
+    	background-image: url('https://dropbox.badmusichertz.com/shuffle-roulette/images/dark-green-felt.png');
+    }
+    .review-page .show-when-dark {
+    	display: none !important;
+    }
+	.review-page article,
+	#springboard {
+		background-color: #1C4E26; /* #0c2010 */
+	}
+	::selection {
+		background: hsla(29, 66%, 54%, 0.99);
+	}
+	::-moz-selection {
+		background: hsla(29, 66%, 54%, 0.99);
+	}
+
+	/**
+	 * Menu
+	 */
+	menu ul li a,
+	menu ul li a:link,
+	menu ul li a:visited,
+	#logo span {
+		color: #F0EEE2;
+	}
+	.rss {
+		fill: #F0EEE2
+	}
+	menu ul li a:hover,
+	#logo:hover span {
+		color: #D7893E;
+	}
+	menu a:hover .rss {
+		fill: #D7893E;
+	}
+
+	/**
+	 * Record Logo
+	 */
+	#logo .record .flat-grooves {
+		fill: hsl(75, 100%, 97%);
+	}
+	#logo .record .runout {
+		stroke: hsl(75, 100%, 97%);
+	}
+	#logo .record .loud-grooves {
+		stroke: hsl(75, 100%, 97%);
+		fill: hsl(75, 100%, 100%);
+	}
+	#logo .record .quiet-grooves {
+		fill: hsl(75, 50%, 90%);
+	}
+	#logo .label {
+		fill: #D7893E;
+	}
+
+	#logo:hover .record .flat-grooves {
+		fill: hsl(29, 66%, 54%);
+	}
+	#logo:hover .record .runout {
+		stroke: hsl(29, 66%, 54%);
+	}
+	#logo:hover .record .loud-grooves {
+		stroke: hsl(29, 66%, 54%);
+		fill: hsl(29, 66%, 59%);
+	}
+	#logo:hover .record .quiet-grooves {
+		fill: hsl(29, 66%, 49%);
+	}
+	#logo:hover .label {
+		fill: rgba(0, 0, 0, 0);
+	}
+
+	/**
+	 * Article Body
+	 */
+	a, a:link, a:visited {
+		color: #6291a8;
+	}
+	a:hover {
+		color: #D7893E;
+	}
+	
+	#listen-on-buttons .start {
+		stop-color: #D7893E;
+	}
+	#listen-on-buttons .stop {
+		stop-color: #BA5817;
+	}
+
+	.bigfoot-footnote__button,
+	.bigfoot-footnote__button:link,
+	.bigfoot-footnote__button:visited {
+		background-color: #D7893E;
+	}
+	.bigfoot-footnote__button:hover,
+	.bigfoot-footnote__button:focus,
+	.bigfoot-footnote__button:active,
+	.bigfoot-footnote__button.is-active {
+		background-color: #D7893E;
+	}
+}

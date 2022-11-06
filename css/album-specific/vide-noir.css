@@ -1,21 +1,13 @@
 article hr, footer hr {
 	background-color: #1B1B1B;
 	background: #1B1B1B; /* Old browsers */
-	background: -moz-linear-gradient(left,  #040405 0%, #1B1B1B 25%, #1B1B1B 50%, #1B1B1B 75%, #040405 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#040405), color-stop(25%,#1B1B1B), color-stop(50%,#1B1B1B), color-stop(75%,#1B1B1B), color-stop(100%,#040405)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(left,  #040405 0%,#1B1B1B 25%,#1B1B1B 50%,#1B1B1B 75%,#040405 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(left,  #040405 0%,#1B1B1B 25%,#1B1B1B 50%,#1B1B1B 75%,#040405 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(left,  #040405 0%,#1B1B1B 25%,#1B1B1B 50%,#1B1B1B 75%,#040405 100%); /* IE10+ */
-	background: linear-gradient(to right,  #040405 0%,#1B1B1B 25%,#1B1B1B 50%,#1B1B1B 75%,#040405 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#040405', endColorstr='#040405',GradientType=1 ); /* IE6-9 */
-}
-menu {
-	background-color: rgba(4, 4, 5, 0.95);
-}
-@supports ((-webkit-backdrop-filter: saturate(180%) blur(20px)) or (backdrop-filter: saturate(180%) blur(20px))) {
-	menu {
-		background-color: rgba(4, 4, 5, 0.7);
-	}
+	background: -moz-linear-gradient(left,  #09100B 0%, #1B1B1B 25%, #1B1B1B 50%, #1B1B1B 75%, #09100B 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#09100B), color-stop(25%,#1B1B1B), color-stop(50%,#1B1B1B), color-stop(75%,#1B1B1B), color-stop(100%,#09100B)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  #09100B 0%,#1B1B1B 25%,#1B1B1B 50%,#1B1B1B 75%,#09100B 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  #09100B 0%,#1B1B1B 25%,#1B1B1B 50%,#1B1B1B 75%,#09100B 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  #09100B 0%,#1B1B1B 25%,#1B1B1B 50%,#1B1B1B 75%,#09100B 100%); /* IE10+ */
+	background: linear-gradient(to right,  #09100B 0%,#1B1B1B 25%,#1B1B1B 50%,#1B1B1B 75%,#09100B 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#09100B', endColorstr='#09100B',GradientType=1 ); /* IE6-9 */
 }
 .rss {
 	fill: #F1FEFE;
@@ -71,22 +63,19 @@ menu ul li a:visited {
 	fill: #1FB255;
 }
 #logo:hover .label {
-	fill: #040405;
+	fill: #09100B;
 }
 
 #content, html {
 	background-color: rgba(9, 8, 10, 1.00);
 }
+.review-page article,
 #springboard {
 	background-color: hsla(142,70%,41%, 0.075);
 	border-color: hsla(142,70%,41%, 0.075);
 }
 main, .review-page article {
-	background-color: unset;
 	color: #B1E5D6;
-	box-shadow: none;
-	-webkit-box-shadow: none;
-	-moz-box-shadow: none;
 }
 article header {
 	background-image: none !important;
@@ -94,11 +83,13 @@ article header {
 	-webkit-box-shadow: none;
 	-moz-box-shadow: none;
 }
-article header h1 > span, h2 {
+#shownotes > h1,
+h2,
+#springboard h1 > span {
 	color: #F1FEFE !important;
 	text-shadow: 0 0 2px #F1FEFE, 0 0 80px #1FB255, 0 0 40px #1FB255, 0 0 20px #1FB255, 0 0 10px #1FB255, 0 0 5px #1FB255;;
 }
-article header h1 time {
+#springboard h1 time {
 	color: #B1E5D6 !important;
 }
 /* Safari */
@@ -173,4 +164,9 @@ menu ul li a {
 .bigfoot-footnote__button.is-active:after,
 .bigfoot-footnote__button:hover:after {
 	color: #1FB255;
+}
+.review-page article,
+#springboard {
+	-webkit-backdrop-filter: unset !important;
+	backdrop-filter: unset !important;
 }

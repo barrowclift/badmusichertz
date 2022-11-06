@@ -1,5 +1,5 @@
 ---
-layout: podcast-v2
+layout: podcast
 
 album-name: "vide-noir"
 album-art-hidden-text: ""

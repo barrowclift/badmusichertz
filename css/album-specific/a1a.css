@@ -2,14 +2,6 @@ article hr, footer hr {
 	background-color: rgba(175, 167, 147, 0.5);
 	background: rgba(175, 167, 147, 0.5); /* Old browsers */
 }
-menu {
-	background-color: rgba(255, 254, 249, 0.95);
-}
-@supports ((-webkit-backdrop-filter: saturate(180%) blur(20px)) or (backdrop-filter: saturate(180%) blur(20px))) {
-	menu {
-		background-color: rgba(255, 254, 249, 0.7);
-	}
-}
 .album-art {
 	box-shadow: none;
 	-webkit-box-shadow: none;
@@ -33,10 +25,10 @@ article header {
 }
 article header h1 span,
 h2 {
-	color: #3F341C !important;
+	color: #B21E0F !important;
 }
 article header h1 time {
-	color: #AFA793 !important;
+	color: hsla(6, 84%, 38%, 0.5) !important;
 }
 ::selection {
 	background: hsla(6, 84%, 38%, 0.99);
@@ -52,44 +44,50 @@ a, a:link, a:visited {
 a:hover {
 	color: #EF5242;
 }
-menu ul li a:hover,
-#logo:hover {
+menu ul li a,
+menu ul li a:link,
+menu ul li a:visited,
+#logo span {
 	color: #B21E0F;
 }
 .rss {
-	fill: rgba(33, 37, 41, 0.9);
+	fill: #B21E0F;
+}
+menu ul li a:hover,
+#logo:hover span {
+	color: #EF5242;
 }
 menu a:hover .rss {
-	fill: #B21E0F;
+	fill: #EF5242;
 }
 #logo .record .loud-grooves {
-	stroke: hsl(203, 7%, 18%);
-	fill: hsl(203, 7%, 22%);
+	stroke: hsl(6, 84%, 38%);
+	fill: hsl(6, 84%, 43%);
 }
 #logo .record .quiet-grooves {
-	fill: hsl(203, 7%, 20%);
+	fill: hsl(6, 84%, 33%);
 }
 #logo .record .flat-grooves {
-	fill: hsl(203, 7%, 18%);
-}
-#logo .record .runout {
-	stroke: hsl(203, 7%, 18%);
-}
-#logo:hover .record .loud-grooves {
-	stroke: hsl(6, 84%, 34%);
 	fill: hsl(6, 84%, 38%);
 }
+#logo .record .runout {
+	stroke: hsl(6, 84%, 38%);
+}
+#logo:hover .record .loud-grooves {
+	stroke: hsl(6, 84%, 60%);
+	fill: hsl(6, 84%, 65%);
+}
 #logo:hover .record .quiet-grooves {
-	fill: hsl(6, 84%, 36%);
+	fill: hsl(6, 84%, 55%);
 }
 #logo:hover .record .flat-grooves {
-	fill: hsl(6, 84%, 34%);
+	fill: hsl(6, 84%, 60%);
 }
 #logo:hover .record .runout {
-	stroke: hsl(6, 84%, 34%);
+	stroke: hsl(6, 84%, 60%);
 }
 #logo .label {
-	fill: #B21E0F;
+	fill: rgba(0, 0, 0, 0);
 }
 #logo:hover .label {
 	fill: rgba(0,0,0,0);
@@ -136,29 +134,30 @@ menu ul li a {
 .bigfoot-footnote__button:hover:after {
 	color: #FFFEF8;
 }
-.review-page .show-when-dark {
-	display: none !important;
-}
 .album-art {
-	margin-bottom: 0;
+	margin-bottom: 0 !important;
 }
-article h1 {
-	margin-top: 0;
+#springboard,
+.review-page article {
+	border: unset !important;
+	background: unset !important;
 }
-article {
-	margin-top: -21vw;
+article hr, footer hr {
+	background-color: #E7DFCB;
+	background: #E7DFCB; /* Old browsers */
+	background: -moz-linear-gradient(left,  #FFFEF8 0%, #E7DFCB 25%, #E7DFCB 50%, #E7DFCB 75%, #FFFEF8 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#FFFEF8), color-stop(25%,#E7DFCB), color-stop(50%,#E7DFCB), color-stop(75%,#E7DFCB), color-stop(100%,#FFFEF8)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  #FFFEF8 0%,#E7DFCB 25%,#E7DFCB 50%,#E7DFCB 75%,#FFFEF8 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  #FFFEF8 0%,#E7DFCB 25%,#E7DFCB 50%,#E7DFCB 75%,#FFFEF8 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  #FFFEF8 0%,#E7DFCB 25%,#E7DFCB 50%,#E7DFCB 75%,#FFFEF8 100%); /* IE10+ */
+	background: linear-gradient(to right,  #FFFEF8 0%,#E7DFCB 25%,#E7DFCB 50%,#E7DFCB 75%,#FFFEF8 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFEF8', endColorstr='#FFFEF8',GradientType=1 ); /* IE6-9 */
 }
-@media (min-width: 700px) {
-	article {
-		margin-top: -21vw;
-	}
+.review-page article,
+#springboard {
+	-webkit-backdrop-filter: unset !important;
+	backdrop-filter: unset !important;
 }
-@media (min-width: 900px) {
-	article {
-		margin-top: -10em;
-	}
-}
-
 @media (prefers-color-scheme: dark) {
 	html {
 		background-color: hsl(33, 16%, 22%) !important;
@@ -185,6 +184,9 @@ article {
 	article header h1 span,
 	h2 {
 		color: #F7F0DE !important;
+	}
+	article header h1 time {
+		color: hsla(43, 61%, 92%, 0.375) !important;
 	}
 	#logo .record .loud-grooves {
 		stroke: hsl(43, 61%, 88%);
@@ -248,7 +250,15 @@ article {
 	.bigfoot-footnote__button:hover:after {
 		color: #F7F0DE;
 	}
-	article {
-		margin-top: 0 !important;
+	article hr, footer hr {
+		background-color: #3B3229;
+		background: #3B3229; /* Old browsers */
+		background: -moz-linear-gradient(left,  #211C17 0%, #3B3229 25%, #3B3229 50%, #3B3229 75%, #211C17 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, right top, color-stop(0%,#211C17), color-stop(25%,#3B3229), color-stop(50%,#3B3229), color-stop(75%,#3B3229), color-stop(100%,#211C17)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(left,  #211C17 0%,#3B3229 25%,#3B3229 50%,#3B3229 75%,#211C17 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(left,  #211C17 0%,#3B3229 25%,#3B3229 50%,#3B3229 75%,#211C17 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(left,  #211C17 0%,#3B3229 25%,#3B3229 50%,#3B3229 75%,#211C17 100%); /* IE10+ */
+		background: linear-gradient(to right,  #211C17 0%,#3B3229 25%,#3B3229 50%,#3B3229 75%,#211C17 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#211C17', endColorstr='#211C17',GradientType=1 ); /* IE6-9 */
 	}
 }

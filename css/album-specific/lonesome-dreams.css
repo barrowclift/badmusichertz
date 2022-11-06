@@ -5,7 +5,8 @@ html {
 menu {
 	background-color: rgba(245, 238, 220, 0.95);
 }
-.review-page article {
+.review-page article,
+#springboard {
 	background-color: rgba(245, 238, 220, 0.95);
 }
 time {
@@ -101,7 +102,8 @@ a:hover {
 	menu {
 		background-color: hsla(156, 7%, 27%, 0.95);
 	}
-	.review-page article {
+	.review-page article,
+	#springboard {
 		background-color: hsla(156, 7%, 27%, 0.95);
 	}
 	menu ul li a,

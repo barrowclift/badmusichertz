@@ -10,7 +10,7 @@ creator: The Barrowclift Sibs
 
 permalink: /post/:title # Permalink posts sorted by date with directories is awful.
 paginate_path: "/page/:num" # Home older/previous pages go here
-paginate: 6 # Number of posts to be shown on each each paginated page.
+paginate: 12 # Number of posts to be shown on each each paginated page.
 
 markdown: kramdown
 highlighter: rouge
