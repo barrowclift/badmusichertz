@@ -43,7 +43,7 @@ html, body {
 }
 html {
 	background-color: #f8f9fa;
-	color: rgba(33, 37, 41, 0.9);
+	color: #171717;
 }
 main {
 	display: inline-block;
@@ -370,7 +370,7 @@ menu a,
 menu a:link,
 menu a:visited,
 #logo {
-	color: rgba(33, 37, 41, 0.9);
+	color: #171717;
 }
 menu a:hover,
 #logo:hover {
@@ -435,7 +435,7 @@ compensate*/
 	display: inline-block;
 	vertical-align: baseline;
 	cursor: pointer;
-	color: rgba(33, 37, 41, 0.9);
+	color: #171717;
 }
 	#logo:hover {
 		color: #e03131;
@@ -481,30 +481,21 @@ compensate*/
 }
 
 #logo:hover .record .loud-grooves {
-	stroke: hsl(0, 74%, 51%);
+	stroke: hsl(0, 74%, 44%);
 	fill: hsl(0, 74%, 54%);
 }
 #logo:hover .record .quiet-grooves {
-	fill: hsl(0, 74%, 52%);
+	fill: hsl(0, 74%, 49%);
 }
 #logo:hover .record .flat-grooves {
-	fill: hsl(0, 74%, 51%);
+	fill: hsl(0, 74%, 44%);
 }
 #logo:hover .record .runout {
-	stroke: hsl(0, 74%, 51%);
+	stroke: hsl(0, 74%, 44%);
 }
 
-/**
- * Unused at the moment
- */
-#logo .label {
-	fill: #fa5252;
-}
 #logo:hover .label {
 	fill: rgba(0,0,0,0);
-}
-#Oval-3-Copy {
-	fill: #f8f9fa;
 }
 
 
@@ -1154,10 +1145,11 @@ input, textarea {
 		height: auto;
 	}
 	.record {
-		margin-right: -0.175rem;
+		vertical-align: middle;
+		margin-right: -0.21rem;
 		padding-right: 1px;
-		padding-top: 2px;
-		padding-bottom: 1px;
+		padding-top: 1px;
+		padding-bottom: 0.4rem;
 	}
 
 
@@ -1431,7 +1423,7 @@ input, textarea {
 	}
 	#logo .record .loud-grooves {
 		stroke: hsl(360, 37%, 84%);
-		fill: hsl(360, 37%, 96%)
+		fill: hsl(360, 37%, 96%);
 	}
 	#logo .record .quiet-grooves {
 		fill: hsl(360, 37%, 89%);
