@@ -14,7 +14,7 @@ layout: null
 		<managingEditor>{{ site.email }} (Marc Barrowclift)</managingEditor>
 		<webMaster>{{ site.email }} (Marc Barrowclift)</webMaster>
 		<image>
-			<url>{{ site.dropbox-url }}/assets/cover-art.jpg</url>
+			<url>{{ site.dropbox-url }}/assets/podcast-art.jpg</url>
 			<title>{{ site.title }}</title>
 			<link>{{ site.url }}</link>
 		</image>
