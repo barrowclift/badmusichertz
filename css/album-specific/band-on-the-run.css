@@ -30,9 +30,9 @@ menu {
 		background-color: rgba(14, 14, 14, 0.7);
 	}
 }
-menu ul li a:link,
-menu ul li a:visited,
-#logo span {
+menu a,
+menu a:link,
+menu a:visited {
 	color: #FCFCFA;
 }
 .rss {
@@ -54,24 +54,22 @@ menu a:hover .rss {
 #logo .record .runout {
 	stroke: hsl(60, 25%, 94%);
 }
-#logo:hover .record .loud-grooves {
+a:hover #logo .record .loud-grooves {
 	stroke: hsl(27, 39%, 52%);
 	fill: hsl(27, 39%, 54%);
 }
-#logo:hover .record .quiet-grooves {
+a:hover #logo .record .quiet-grooves {
 	fill: hsl(27, 39%, 53%);
 }
-#logo:hover .record .flat-grooves {
+a:hover #logo .record .flat-grooves {
 	fill: hsl(27, 39%, 52%);
 }
-#logo:hover .record .runout {
+a:hover #logo .record .runout {
 	stroke: hsl(27, 39%, 52%);
 }
 #logo .label {
 	fill: #E5B780;
-}
-#logo:hover .label {
-	fill: rgba(0,0,0,0);
+	stroke: unset !important;
 }
 .album-art {
 	margin-bottom: 0;
@@ -126,16 +124,11 @@ a, a:link, a:visited, .bigfoot-footnote__content a {
 	color: #E5B780;
 }
 a:hover,
-menu ul li a:hover,
-#logo:hover span,
+menu a:hover,
 .bigfoot-footnote__content a:hover {
 	color: #B7845B;
 }
 
-#logo a,
-menu ul li a {
-	text-decoration: none;
-}
 .bigfoot-footnote__button,
 .bigfoot-footnote__button:link,
 .bigfoot-footnote__button:visited {

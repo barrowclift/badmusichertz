@@ -34,14 +34,13 @@ a, a:link, a:visited {
 .review-page main a, p a {
 	text-decoration: none;
 }
-menu ul li a:link,
-menu ul li a:visited,
-#logo span {
+menu a,
+menu a:link,
+menu a:visited {
 	color: #bda54d;
 }
 a:hover,
-menu ul li a:hover,
-#logo:hover span {
+menu a:hover {
 	color: hsl(47, 46%, 65%);
 }
 .rss {
@@ -72,24 +71,22 @@ menu {
 #logo .record .runout {
 	stroke: hsl(47, 46%, 48%);
 }
-#logo:hover .record .loud-grooves {
+a:hover #logo .record .loud-grooves {
 	stroke: hsl(47, 46%, 61%);
 	fill: hsl(47, 46%, 65%);
 }
-#logo:hover .record .quiet-grooves {
+a:hover #logo .record .quiet-grooves {
 	fill: hsl(47, 46%, 63%);
 }
-#logo:hover .record .flat-grooves {
+a:hover #logo .record .flat-grooves {
 	fill: hsl(47, 46%, 61%);
 }
-#logo:hover .record .runout {
+a:hover #logo .record .runout {
 	stroke: hsl(47, 46%, 61%);
 }
 #logo .label {
 	fill: hsl(193, 7%, 47%);
-}
-#logo:hover .label {
-	fill: rgba(0,0,0,0);
+	stroke: hsl(193, 7%, 47%);
 }
 #listen-on-buttons .start {
 	stop-color: #bda54d;

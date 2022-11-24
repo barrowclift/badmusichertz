@@ -12,9 +12,9 @@ h2 {
 article header h1 time {
 	color: hsla(80, 7%, 16%, 0.375);
 }
-menu ul li a:link,
-menu ul li a:visited,
-#logo span {
+menu a,
+menu a:link,
+menu a:visited {
 	color: hsla(80, 7%, 16%, 0.9);
 }
 
@@ -30,8 +30,7 @@ menu ul li a:visited,
 }
 
 a, a:link, a:visited,
-menu ul li a:hover,
-#logo:hover span {
+menu a:hover {
 	color: hsl(40, 75%, 42%);
 }
 .rss {
@@ -53,24 +52,22 @@ menu a:hover .rss {
 #logo .record .runout {
 	stroke: hsl(90, 7%, 18%);
 }
-#logo:hover .record .loud-grooves {
+a:hover #logo .record .loud-grooves {
 	stroke: hsl(40, 75%, 38%);
 	fill: hsl(40, 75%, 42%);
 }
-#logo:hover .record .quiet-grooves {
+a:hover #logo .record .quiet-grooves {
 	fill: hsl(40, 75%, 40%);
 }
-#logo:hover .record .flat-grooves {
+a:hover #logo .record .flat-grooves {
 	fill: hsl(40, 75%, 38%);
 }
-#logo:hover .record .runout {
+a:hover #logo .record .runout {
 	stroke: hsl(40, 75%, 38%);
 }
 #logo .label {
-	fill: hsl(40, 75%, 42%);
-}
-#logo:hover .label {
-	fill: rgba(0,0,0,0);
+	fill: #C5D9D7;
+	stroke: #C5D9D7;
 }
 a:hover {
 	color: hsl(40, 55%, 32%);
@@ -165,16 +162,15 @@ a:hover {
 	.bigfoot-footnote__button:hover:after {
 		color: hsl(80, 7%, 16%);
 	}
-	menu ul li a:link,
-	menu ul li a:visited,
-	#logo span {
+	menu a,
+	menu a:link,
+	menu a:visited {
 		color: #ACA681;
 	}
 	a, a:link, a:visited {
 		color: #ACA681;
 	}
-	menu ul li a:hover,
-	#logo:hover span {
+	menu a:hover {
 		color: hsl(169, 30%, 82%);
 	}
 	.rss {
@@ -206,19 +202,20 @@ a:hover {
 		stroke: hsl(52, 21%, 55%);
 	}
 	#logo .label {
-		fill: hsl(169, 30%, 82%);
+		fill: #CADAD6;
+		stroke: #CADAD6;
 	}
-	#logo:hover .record .loud-grooves {
+	a:hover #logo .record .loud-grooves {
 		stroke: hsl(169, 30%, 74%);
 		fill: hsl(169, 30%, 82%);
 	}
-	#logo:hover .record .quiet-grooves {
+	a:hover #logo .record .quiet-grooves {
 		fill: hsl(169, 30%, 78%);
 	}
-	#logo:hover .record .flat-grooves {
+	a:hover #logo .record .flat-grooves {
 		fill: hsl(169, 30%, 74%);
 	}
-	#logo:hover .record .runout {
+	a:hover #logo .record .runout {
 		stroke: hsl(169, 30%, 74%);
 	}
 }

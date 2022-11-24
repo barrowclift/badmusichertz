@@ -17,8 +17,7 @@ html {
 
 /* LINKS ----------------------------------------------------------- */
 a, a:link, a:visited,
-menu ul li a:hover,
-#logo:hover span {
+menu a:hover {
 	color: #9A5132;
 }
 .rss {
@@ -27,43 +26,27 @@ menu ul li a:hover,
 menu a:hover .rss {
 	fill: #9A5132;
 }
-#logo .record .loud-grooves {
-	stroke: hsl(90, 2%, 16%);
-	fill: hsl(90, 2%, 20%);
-}
-#logo .record .quiet-grooves {
-	fill: hsl(90, 2%, 18%);
-}
-#logo .record .flat-grooves {
-	fill: hsl(90, 2%, 16%);
-}
-#logo .record .runout {
-	stroke: hsl(90, 2%, 16%);
-}
-#logo:hover .record .loud-grooves {
+a:hover #logo .record .loud-grooves {
 	stroke: hsl(18, 51%, 38%);
 	fill: hsl(18, 51%, 40%);
 }
-#logo:hover .record .quiet-grooves {
+a:hover #logo .record .quiet-grooves {
 	fill: hsl(18, 51%, 39%);
 }
-#logo:hover .record .flat-grooves {
+a:hover #logo .record .flat-grooves {
 	fill: hsl(18, 51%, 38%);
 }
-#logo:hover .record .runout {
+a:hover #logo .record .runout {
 	stroke: hsl(18, 51%, 38%);
 }
 #logo .label {
 	fill: #9A5132;
-}
-#logo:hover .label {
-	fill: rgba(0,0,0,0);
+	stroke: #9A5132;
 }
 a:hover {
 	color: #CD5A39;
 }
 
-#logo .label,
 .bigfoot-footnote__button,
 .bigfoot-footnote__button:link,
 .bigfoot-footnote__button:visited {
@@ -113,9 +96,9 @@ menu {
 			background-color: rgb(0, 0, 0);
 		}
 	}
-	menu ul li a:link,
-	menu ul li a:visited,
-	#logo span {
+	menu a,
+	menu a:link,
+	menu a:visited {
 		color: white;
 	}
 	.rss {
@@ -139,6 +122,7 @@ menu {
 	}
 	#logo .label {
 		fill: #D6AD6C;
+		stroke: #D6AD6C;
 	}
 	a, a:link, a:visited {
 		color: #D6AD6C;
@@ -147,21 +131,20 @@ menu {
 		color: #CD5A39;
 	}
 
-	menu ul li a:hover,
-	#logo:hover span {
+	menu a:hover {
 		color: #D6AD6C;
 	}
-	#logo:hover .record .loud-grooves {
+	a:hover #logo .record .loud-grooves {
 		stroke: hsl(37, 56%, 59%);
 		fill: hsl(37, 56%, 63%);
 	}
-	#logo:hover .record .quiet-grooves {
+	a:hover #logo .record .quiet-grooves {
 		fill: hsl(37, 56%, 61%);
 	}
-	#logo:hover .record .flat-grooves {
+	a:hover #logo .record .flat-grooves {
 		fill: hsl(37, 56%, 59%);
 	}
-	#logo:hover .record .runout {
+	a:hover #logo .record .runout {
 		stroke: hsl(37, 56%, 59%);
 	}
 

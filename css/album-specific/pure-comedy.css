@@ -1,17 +1,10 @@
 html {
 	background-color: #1F306F;
 }
-/*.review-page article {
-	background-color: hsla(180, 1%, 95%, 0.75);
-}*/
 @media (prefers-color-scheme: dark) {
 	html {
 		background-color: #04071B;
 	}
-/*	.review-page article {
-		color: white;
-		background-color: hsla(227, 75%, 20%, 0.4);
-	}*/
 }
 
 /* Safari */
@@ -36,9 +29,9 @@ html {
 a, a:link, a:visited {
 	color: #1F306F;
 }
-menu ul li a:link,
-menu ul li a:visited,
-#logo span {
+menu a,
+menu a:link,
+menu a:visited {
 	color: #DFDFDD;
 }
 .rss {
@@ -47,8 +40,7 @@ menu ul li a:visited,
 menu a:hover .rss {
 	fill: #888A89;
 }
-#logo:hover span,
-menu ul li a:hover {
+menu a:hover {
 	color: #888A89;
 }
 
@@ -69,20 +61,20 @@ menu ul li a:hover {
 	fill: #1F305F;
 }
 
-#logo:hover .record .flat-grooves {
+a:hover #logo .record .flat-grooves {
 	fill: hsl(150, 1%, 54%);
 }
-#logo:hover .record .runout {
+a:hover #logo .record .runout {
 	stroke: hsl(150, 1%, 54%);
 }
-#logo:hover .record .loud-grooves {
+a:hover #logo .record .loud-grooves {
 	stroke: hsl(150, 1%, 54%);
 	fill: hsl(150, 1%, 58%);
 }
-#logo:hover .record .quiet-grooves {
+a:hover #logo .record .quiet-grooves {
 	fill: hsl(150, 1%, 62%);
 }
-#logo:hover .label {
+a:hover #logo .label {
 	fill: rgba(0, 0, 0, 0);
 }
 

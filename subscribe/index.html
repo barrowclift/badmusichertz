@@ -6,14 +6,152 @@ float-menu: true
 title: "Subscribe"
 ---
 
+<style>
+.hint--bottom-left:before,.hint--bottom-right:before,.hint--bottom:before{margin-top:-12px}[data-hint]{position:relative;display:inline-block}[data-hint]:after,[data-hint]:before{position:absolute;-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);transform:translate3d(0,0,0);visibility:hidden;opacity:0;z-index:1000000;pointer-events:none;-webkit-transition:.3s ease;-moz-transition:.3s ease;transition:.3s ease;-webkit-transition-delay:0ms;-moz-transition-delay:0ms;transition-delay:0ms}[data-hint]:hover:after,[data-hint]:hover:before{visibility:visible;opacity:1;-webkit-transition-delay:100ms;-moz-transition-delay:100ms;transition-delay:100ms}[data-hint]:before{content:'';position:absolute;background:0 0;border:6px solid transparent;z-index:1000001}[data-hint]:after{content:attr(data-hint);background:#F9F9F9;color:black;padding:8px 10px;font-size:12px;line-height:12px;white-space:nowrap;box-shadow:4px 4px 8px rgba(0,0,0,.3)}[data-hint='']:after,[data-hint='']:before{display:none !important}.hint--top-left:before,.hint--top-right:before,.hint--top:before{border-top-color:#F9F9F9}.hint--bottom-left:before,.hint--bottom-right:before,.hint--bottom:before{border-bottom-color:#F9F9F9}.hint--top:before{margin-bottom:-12px}.hint--top:after,.hint--top:before{bottom:100%;left:50%;-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);transform:translateX(-50%)}.hint--top:focus:after,.hint--top:focus:before,.hint--top:hover:after,.hint--top:hover:before{-webkit-transform:translateX(-50%) translateY(-8px);-moz-transform:translateX(-50%) translateY(-8px);transform:translateX(-50%) translateY(-8px)}.hint--bottom:after,.hint--bottom:before{top:100%;left:50%;-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);transform:translateX(-50%)}.hint--bottom:focus:after,.hint--bottom:focus:before,.hint--bottom:hover:after,.hint--bottom:hover:before{-webkit-transform:translateX(-50%) translateY(8px);-moz-transform:translateX(-50%) translateY(8px);transform:translateX(-50%) translateY(8px)}.hint--right:before{border-right-color:#F9F9F9;margin-left:-12px;margin-bottom:-6px}.hint--right:after{margin-bottom:-14px}.hint--right:after,.hint--right:before{left:100%;bottom:50%}.hint--right:focus:after,.hint--right:focus:before,.hint--right:hover:after,.hint--right:hover:before{-webkit-transform:translateX(8px);-moz-transform:translateX(8px);transform:translateX(8px)}.hint--left:before{border-left-color:#F9F9F9;margin-right:-12px;margin-bottom:-6px}.hint--left:after{margin-bottom:-14px}.hint--top-left:before,.hint--top-right:before{margin-bottom:-12px}.hint--left:after,.hint--left:before{right:100%;bottom:50%}.hint--left:focus:after,.hint--left:focus:before,.hint--left:hover:after,.hint--left:hover:before{-webkit-transform:translateX(-8px);-moz-transform:translateX(-8px);transform:translateX(-8px)}.hint--top-left:after,.hint--top-left:before{bottom:100%;left:50%;-webkit-transform:translateX(-100%);-moz-transform:translateX(-100%);transform:translateX(-100%)}.hint--top-left:after{margin-left:6px}.hint--top-left:focus:after,.hint--top-left:focus:before,.hint--top-left:hover:after,.hint--top-left:hover:before{-webkit-transform:translateX(-100%) translateY(-8px);-moz-transform:translateX(-100%) translateY(-8px);transform:translateX(-100%) translateY(-8px)}.hint--top-right:after,.hint--top-right:before{bottom:100%;left:50%;-webkit-transform:translateX(0);-moz-transform:translateX(0);transform:translateX(0)}.hint--top-right:after{margin-left:-6px}.hint--top-right:focus:after,.hint--top-right:focus:before,.hint--top-right:hover:after,.hint--top-right:hover:before{-webkit-transform:translateY(-8px);-moz-transform:translateY(-8px);transform:translateY(-8px)}.hint--bottom-left:after,.hint--bottom-left:before{top:100%;left:50%;-webkit-transform:translateX(-100%);-moz-transform:translateX(-100%);transform:translateX(-100%)}.hint--bottom-left:after{margin-left:6px}.hint--bottom-left:focus:after,.hint--bottom-left:focus:before,.hint--bottom-left:hover:after,.hint--bottom-left:hover:before{-webkit-transform:translateX(-100%) translateY(8px);-moz-transform:translateX(-100%) translateY(8px);transform:translateX(-100%) translateY(8px)}.hint--bottom-right:after,.hint--bottom-right:before{top:100%;left:50%;-webkit-transform:translateX(0);-moz-transform:translateX(0);transform:translateX(0)}.hint--bottom-right:after{margin-left:-6px}.hint--bottom-right:focus:after,.hint--bottom-right:focus:before,.hint--bottom-right:hover:after,.hint--bottom-right:hover:before{-webkit-transform:translateY(8px);-moz-transform:translateY(8px);transform:translateY(8px)}.hint--error:after{background-color:#b34e4d;text-shadow:0 -1px 0 #592726}.hint--error.hint--top-left:before,.hint--error.hint--top-right:before,.hint--error.hint--top:before{border-top-color:#b34e4d}.hint--error.hint--bottom-left:before,.hint--error.hint--bottom-right:before,.hint--error.hint--bottom:before{border-bottom-color:#b34e4d}.hint--error.hint--left:before{border-left-color:#b34e4d}.hint--error.hint--right:before{border-right-color:#b34e4d}.hint--warning:after{background-color:#c09854;text-shadow:0 -1px 0 #6c5328}.hint--warning.hint--top-left:before,.hint--warning.hint--top-right:before,.hint--warning.hint--top:before{border-top-color:#c09854}.hint--warning.hint--bottom-left:before,.hint--warning.hint--bottom-right:before,.hint--warning.hint--bottom:before{border-bottom-color:#c09854}.hint--warning.hint--left:before{border-left-color:#c09854}.hint--warning.hint--right:before{border-right-color:#c09854}.hint--info:after{background-color:#3986ac;text-shadow:0 -1px 0 #1a3c4d}.hint--info.hint--top-left:before,.hint--info.hint--top-right:before,.hint--info.hint--top:before{border-top-color:#3986ac}.hint--info.hint--bottom-left:before,.hint--info.hint--bottom-right:before,.hint--info.hint--bottom:before{border-bottom-color:#3986ac}.hint--info.hint--left:before{border-left-color:#3986ac}.hint--info.hint--right:before{border-right-color:#3986ac}.hint--success:after{background-color:#458746;text-shadow:0 -1px 0 #1a321a}.hint--success.hint--top-left:before,.hint--success.hint--top-right:before,.hint--success.hint--top:before{border-top-color:#458746}.hint--success.hint--bottom-left:before,.hint--success.hint--bottom-right:before,.hint--success.hint--bottom:before{border-bottom-color:#458746}.hint--success.hint--left:before{border-left-color:#458746}.hint--success.hint--right:before{border-right-color:#458746}.hint--always:after,.hint--always:before{opacity:1;visibility:visible}.hint--always.hint--top:after,.hint--always.hint--top:before{-webkit-transform:translateX(-50%) translateY(-8px);-moz-transform:translateX(-50%) translateY(-8px);transform:translateX(-50%) translateY(-8px)}.hint--always.hint--top-left:after,.hint--always.hint--top-left:before{-webkit-transform:translateX(-100%) translateY(-8px);-moz-transform:translateX(-100%) translateY(-8px);transform:translateX(-100%) translateY(-8px)}.hint--always.hint--top-right:after,.hint--always.hint--top-right:before{-webkit-transform:translateY(-8px);-moz-transform:translateY(-8px);transform:translateY(-8px)}.hint--always.hint--bottom:after,.hint--always.hint--bottom:before{-webkit-transform:translateX(-50%) translateY(8px);-moz-transform:translateX(-50%) translateY(8px);transform:translateX(-50%) translateY(8px)}.hint--always.hint--bottom-left:after,.hint--always.hint--bottom-left:before{-webkit-transform:translateX(-100%) translateY(8px);-moz-transform:translateX(-100%) translateY(8px);transform:translateX(-100%) translateY(8px)}.hint--always.hint--bottom-right:after,.hint--always.hint--bottom-right:before{-webkit-transform:translateY(8px);-moz-transform:translateY(8px);transform:translateY(8px)}.hint--always.hint--left:after,.hint--always.hint--left:before{-webkit-transform:translateX(-8px);-moz-transform:translateX(-8px);transform:translateX(-8px)}.hint--always.hint--right:after,.hint--always.hint--right:before{-webkit-transform:translateX(8px);-moz-transform:translateX(8px);transform:translateX(8px)}.hint--rounded:after{border-radius:4px}.hint--no-animate:after,.hint--no-animate:before{-webkit-transition-duration:0ms;-moz-transition-duration:0ms;transition-duration:0ms}.hint--bounce:after,.hint--bounce:before{-webkit-transition:opacity .3s ease,visibility .3s ease,-webkit-transform .3s cubic-bezier(.71,1.7,.77,1.24);-moz-transition:opacity .3s ease,visibility .3s ease,-moz-transform .3s cubic-bezier(.71,1.7,.77,1.24);transition:opacity .3s ease,visibility .3s ease,transform .3s cubic-bezier(.71,1.7,.77,1.24)}
+.column {
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+}
+.row {
+	flex-grow: 1;
+}
+.button-group {
+	padding-top: 1.3em;
+	display: inline-block;
+	width: 100%;
+}
+.button-group .button {
+	text-align: center;
+}
+.button img {
+	height: 2em;
+	display: inline-block;
+}
+.button span {
+	display: block;
+}
+[data-hint] {
+	display: block;
+}
+.button {
+	padding: 0.75em 1em;
+}
+button:hover,
+.button:hover {
+    transform: scale(1.05);
+}
+button.active,
+button:active,
+.button.active,
+.button:active {
+    transform: scale(0.95);
+}
+
+.spotify .button {
+	background-color: hsl(125, 56%, 61%);
+	background-image: linear-gradient(#77D97F, #2EA337);
+	box-shadow: inset 0 .65em 1.3em rgba(255, 255, 255, 0.1875), 0 0.43em 0.87em -0.2em hsla(125, 66%, 51%, 0.375);
+}
+	.spotify .button:hover {
+		background-color: hsl(125, 56%, 66%) !important;
+		box-shadow: inset 0 .65em 1.3em rgba(255, 255, 255, 0.25), 0 .65em 1.3em -0.65em hsla(125, 66%, 51%, 0.375);
+	}
+	.spotify .button:active {
+		background-color: hsl(125, 56%, 56%) !important;
+		box-shadow: inset 0 .65em 1.3em rgba(0, 0, 0, 0.0625), 0 0.43em 0.87em -0.2em hsla(125, 56%, 56%, 0.2);
+	}
+.apple .button {
+	background-color: hsl(275, 63%, 59%);
+	background-image: linear-gradient(#C977F4, #7931BA);
+	box-shadow: inset 0 .65em 1.3em rgba(255, 255, 255, 0.1875), 0 0.43em 0.87em -0.2em hsla(275, 73%, 49%, 0.375);
+}
+	.apple .button:hover {
+		background-color: hsl(275, 63%, 64%) !important;
+		box-shadow: inset 0 .65em 1.3em rgba(255, 255, 255, 0.25), 0 .65em 1.3em -0.65em hsla(275, 73%, 49%, 0.375);
+	}
+	.apple .button:active {
+		background-color: hsl(275, 63%, 54%) !important;
+		box-shadow: inset 0 .65em 1.3em rgba(0, 0, 0, 0.0625), 0 0.43em 0.87em -0.2em hsla(275, 63%, 54%, 0.2);
+	}
+.amazon .button {
+	background-color: hsl(254, 96%, 39%);
+	background-image: linear-gradient(#3E06F5, #250291);
+	box-shadow: inset 0 .65em 1.3em rgba(255, 255, 255, 0.1875), 0 0.43em 0.87em -0.2em hsla(254, 100%, 29%, 0.375);
+}
+	.amazon .button:hover {
+		background-color: hsl(254, 96%, 44%) !important;
+		box-shadow: inset 0 .65em 1.3em rgba(255, 255, 255, 0.25), 0 .65em 1.3em -0.65em hsla(254, 100%, 29%, 0.375);
+	}
+	.amazon .button:active {
+		background-color: hsl(254, 96%, 34%) !important;
+		box-shadow: inset 0 .65em 1.3em rgba(0, 0, 0, 0.0625), 0 0.43em 0.87em -0.2em hsla(254, 96%, 34%, 0.2);
+	}
+.youtube .button {
+	background-color: hsl(360, 100%, 50%);
+	background-image: linear-gradient(#FF3333, #E60000);
+	box-shadow: inset 0 .65em 1.3em rgba(255, 255, 255, 0.1875), 0 0.43em 0.87em -0.2em hsla(360, 100%, 40%, 0.375);
+}
+	.youtube .button:hover {
+		background-color: hsl(360, 100%, 55%) !important;
+		box-shadow: inset 0 .65em 1.3em rgba(255, 255, 255, 0.25), 0 .65em 1.3em -0.65em hsla(360, 100%, 40%, 0.375);
+	}
+	.youtube .button:active {
+		background-color: hsl(360, 100%, 45%) !important;
+		box-shadow: inset 0 .65em 1.3em rgba(0, 0, 0, 0.0625), 0 0.43em 0.87em -0.2em hsla(360, 100%, 45%, 0.2);
+	}
+.badmusichertz .button {
+	background-color: hsl(360, 74%, 54%);
+	background-image: linear-gradient(#fa5252, #e03131);
+	box-shadow: inset 0 .65em 1.3em rgba(255, 255, 255, 0.1875), 0 0.43em 0.87em -0.2em hsla(360, 74%, 44%, 0.375);
+}
+	.badmusichertz .button:hover {
+		background-color: hsl(360, 74%, 59%) !important;
+		box-shadow: inset 0 .65em 1.3em rgba(255, 255, 255, 0.25), 0 .65em 1.3em -0.65em hsla(360, 74%, 44%, 0.375);
+	}
+	.badmusichertz .button:active {
+		background-color: hsl(360, 74%, 54%) !important;
+		box-shadow: inset 0 .65em 1.3em rgba(0, 0, 0, 0.0625), 0 0.43em 0.87em -0.2em hsla(360, 74%, 54%, 0.2);
+	}
+@media (min-width: 340px) {
+	.button-group li {
+		margin-left: 1.5vw;
+		margin-right: 1.5vw;
+		width: 45%;
+	}
+}
+@media (min-width: 720px) {
+	.button-group li {
+		margin-left: 0.325em;
+		margin-right: 0.325em;
+		width: 45%;
+	}
+}
+@media (min-width: 550px) {
+	article {
+		width: 35em;
+		max-width: unset;
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+}
+</style>
 <article>
 	<h1>{{ page.title }}</h1>
 
-	<p>Want to be notified whenever new articles or podcasts are published? Subscribe <a href="https://thesweetsetup.com/apps/best-rss-app-ipad/">in your feed reader of choice</a> to any of the following feeds:</p>
+	<!-- <p>Want to be notified whenever new articles or podcasts are published? Subscribe <a href="https://thesweetsetup.com/apps/best-rss-app-ipad/">in your feed reader of choice</a> to any of the following feeds:</p> -->
 
-	<ul>
-	<li><a href="{{ site.baseurl }}/feed.xml">Master feed</a> - Both articles and podcasts</li>
-	<li><a href="{{ site.baseurl }}/article-feed.xml">Article feed</a> - Just articles</li>
-	<li><a href="{{ site.baseurl }}/podcast-feed.xml">Podcast feed</a> - Just podcasts</li>
+	<h4 style="text-align: center;">To our podcast:</h4>
+	<ul class="button-group" style="padding-bottom: 0.5em;">
+		<li class="apple"><span class="hint--top hint--rounded hint--bounce" data-hint="Listen on Apple Podcasts"><a href="https://podcasts.apple.com/us/podcast/bad-music-hertz/id1319023897"><p class="button"><img src="/find-us/images/apple.png" /><span>Apple Podcasts</span></p></a></span></li>
+		<li class="spotify"><span class="hint--top hint--rounded hint--bounce" data-hint="Listen on Spotify"><a href="https://open.spotify.com/show/0vUlaUZmpV8ASUsMupLvIx"><p class="button"><img src="/find-us/images/spotify.png" /><span>Spotify</span></p></a></span></li>
+		<li class="amazon"><span class="hint--top hint--rounded hint--bounce" data-hint="Listen on Amazon Music"><a href="https://music.amazon.com/podcasts/dfcc4a74-8357-4b05-b18b-593ce54f2995/bad-music-hertz"><p class="button"><img src="/find-us/images/amazon.png" /><span>Amazon Music</span></p></a></span></li>
+		<li class="youtube"><span class="hint--top hint--rounded hint--bounce" data-hint="youtube.com/@badmusichertz"><a href="https://www.youtube.com/@badmusichertz"><p class="button"><img src="/find-us/images/youtube.png" /><span>YouTube</span></p></a></span></li>
+	</ul>
+	<h4 style="text-align: center;">To our RSS feeds:</h4>
+	<ul class="button-group" style="padding-bottom: 0.5em;">
+		<li class="badmusichertz"><span class="hint--top hint--rounded hint--bounce" data-hint="{{ site.url }}/article-feed.xml"><a href="{{ site.baseurl }}/article-feed.xml"><p class="button"><span>Just Articles</span></p></a></span></li>
+		<li class="badmusichertz"><span class="hint--top hint--rounded hint--bounce" data-hint="{{ site.url }}/podcast-feed.xml"><a href="{{ site.baseurl }}/podcast-feed.xml"><p class="button"><span>Just Podcasts</span></p></a></span></li>
+		<li class="badmusichertz"><span class="hint--top hint--rounded hint--bounce" data-hint="{{ site.url }}/feed.xml"><a href="{{ site.baseurl }}/feed.xml"><p class="button"><span>Articles &amp; Podcasts</span></p></a></span></li>
 	</ul>
 </article>

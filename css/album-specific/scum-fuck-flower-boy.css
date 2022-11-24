@@ -20,9 +20,9 @@ h2 {
 article header h1 time {
 	color: rgba(21, 12, 9, 0.375);
 }
-menu ul li a:link,
-menu ul li a:visited,
-#logo span {
+menu a,
+menu a:link,
+menu a:visited {
 	color: #3E3620;
 }
 .rss {
@@ -81,8 +81,7 @@ a:hover {
 .bigfoot-footnote__button:hover:after {
 	color: hsla(44, 67%, 90%, 0.95);
 }
-menu ul li a:hover,
-#logo:hover span {
+menu a:hover {
 	color: hsl(75, 39%, 26%);
 }
 #logo .record .loud-grooves {
@@ -100,22 +99,20 @@ menu ul li a:hover,
 }
 #logo .label {
 	fill: hsl(20, 82%, 59%);
+	stroke: hsl(20, 82%, 59%);
 }
-#logo:hover .record .loud-grooves {
+a:hover #logo .record .loud-grooves {
 	stroke: hsl(75, 39%, 22%);
 	fill: hsl(75, 39%, 26%);
 }
-#logo:hover .record .quiet-grooves {
+a:hover #logo .record .quiet-grooves {
 	fill: hsl(75, 39%, 24%);
 }
-#logo:hover .record .flat-grooves {
+a:hover #logo .record .flat-grooves {
 	fill: hsl(75, 39%, 22%);
 }
-#logo:hover .record .runout {
+a:hover #logo .record .runout {
 	stroke: hsl(75, 39%, 22%);
-}
-#logo:hover .label {
-	fill: rgba(0, 0, 0, 0);
 }
 @media (prefers-color-scheme: dark) {
 	html {
@@ -176,13 +173,12 @@ menu ul li a:hover,
 	.bigfoot-footnote__button:hover:after {
 		color: white;
 	}
-	menu ul li a:link,
-	menu ul li a:visited,
-	#logo span {
+	menu a,
+	menu a:link,
+	menu a:visited {
 		color: #DDC395;
 	}
-	menu ul li a:hover,
-	#logo:hover span {
+	menu a:hover {
 		color: hsl(75, 50%, 25%);
 	}
 	.rss {
@@ -210,17 +206,17 @@ menu ul li a:hover,
 	#logo .record .runout {
 		stroke: hsl(38, 51%, 69%);
 	}
-	#logo:hover .record .loud-grooves {
+	a:hover #logo .record .loud-grooves {
 		stroke: hsl(75, 50%, 21%);
 		fill: hsl(75, 50%, 25%);
 	}
-	#logo:hover .record .quiet-grooves {
+	a:hover #logo .record .quiet-grooves {
 		fill: hsl(75, 50%, 23%);
 	}
-	#logo:hover .record .flat-grooves {
+	a:hover #logo .record .flat-grooves {
 		fill: hsl(75, 50%, 21%);
 	}
-	#logo:hover .record .runout {
+	a:hover #logo .record .runout {
 		stroke: hsl(75, 50%, 21%);
 	}
 }

@@ -46,23 +46,23 @@ menu ul li a:visited {
 #logo .record .runout {
 	stroke: hsl(180, 87%, 89%);
 }
-#logo:hover .record .loud-grooves {
+a:hover #logo .record .loud-grooves {
 	stroke: hsl(142, 70%, 37%);
 	fill: hsl(142, 70%, 41%);
 }
-#logo:hover .record .quiet-grooves {
+a:hover #logo .record .quiet-grooves {
 	fill: hsl(142, 70%, 39%);
 }
-#logo:hover .record .flat-grooves {
+a:hover #logo .record .flat-grooves {
 	fill: hsl(142, 70%, 37%);
 }
-#logo:hover .record .runout {
+a:hover #logo .record .runout {
 	stroke: hsl(142, 70%, 37%);
 }
 #logo .label {
 	fill: #1FB255;
 }
-#logo:hover .label {
+a:hover #logo .label {
 	fill: #09100B;
 }
 
@@ -107,12 +107,12 @@ a, a:link, a:visited, .bigfoot-footnote__content a {
 }
 a:hover,
 menu ul li a:hover,
-#logo:hover span,
+a:hover #logo span,
 .bigfoot-footnote__content a:hover {
 	color: #B1E5D6;
 }
 menu ul li a:hover,
-#logo:hover span {
+a:hover #logo span {
 	color: #1FB255;
 }
 menu ul li a:hover {

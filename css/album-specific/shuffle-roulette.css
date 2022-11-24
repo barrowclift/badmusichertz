@@ -19,17 +19,15 @@ html {
 /**
  * Menu
  */
-menu ul li a,
-menu ul li a:link,
-menu ul li a:visited,
-#logo span {
+menu a,
+menu a:link,
+menu a:visited {
 	color: #FBFFEF;
 }
 .rss {
 	fill: #FBFFEF;
 }
-menu ul li a:hover,
-#logo:hover span {
+menu a:hover {
 	color: #D7893E;
 }
 menu a:hover .rss {
@@ -54,22 +52,23 @@ menu a:hover .rss {
 }
 #logo .label {
 	fill: #D7893E;
+	stroke: #D7893E;
 }
 
-#logo:hover .record .flat-grooves {
+a:hover #logo .record .flat-grooves {
 	fill: hsl(29, 66%, 54%);
 }
-#logo:hover .record .runout {
+a:hover #logo .record .runout {
 	stroke: hsl(29, 66%, 54%);
 }
-#logo:hover .record .loud-grooves {
+a:hover #logo .record .loud-grooves {
 	stroke: hsl(29, 66%, 54%);
 	fill: hsl(29, 66%, 59%);
 }
-#logo:hover .record .quiet-grooves {
+a:hover #logo .record .quiet-grooves {
 	fill: hsl(29, 66%, 49%);
 }
-#logo:hover .label {
+a:hover #logo .label {
 	fill: rgba(0, 0, 0, 0);
 }
 
@@ -127,17 +126,15 @@ a:hover {
 	/**
 	 * Menu
 	 */
-	menu ul li a,
-	menu ul li a:link,
-	menu ul li a:visited,
-	#logo span {
+	menu a,
+	menu a:link,
+	menu a:visited {
 		color: #F0EEE2;
 	}
 	.rss {
 		fill: #F0EEE2
 	}
-	menu ul li a:hover,
-	#logo:hover span {
+	menu a:hover{
 		color: #D7893E;
 	}
 	menu a:hover .rss {
@@ -164,20 +161,20 @@ a:hover {
 		fill: #D7893E;
 	}
 
-	#logo:hover .record .flat-grooves {
+	a:hover #logo .record .flat-grooves {
 		fill: hsl(29, 66%, 54%);
 	}
-	#logo:hover .record .runout {
+	a:hover #logo .record .runout {
 		stroke: hsl(29, 66%, 54%);
 	}
-	#logo:hover .record .loud-grooves {
+	a:hover #logo .record .loud-grooves {
 		stroke: hsl(29, 66%, 54%);
 		fill: hsl(29, 66%, 59%);
 	}
-	#logo:hover .record .quiet-grooves {
+	a:hover #logo .record .quiet-grooves {
 		fill: hsl(29, 66%, 49%);
 	}
-	#logo:hover .label {
+	a:hover #logo .label {
 		fill: rgba(0, 0, 0, 0);
 	}
 

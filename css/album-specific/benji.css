@@ -1,9 +1,9 @@
 html {
 	background-color: #6698D4;
 }
-menu ul li a:link,
-menu ul li a:visited,
-#logo span {
+menu a,
+menu a:link,
+menu a:visited {
 	color: hsla(40, 50%, 55%, 0.9);
 }
 #logo .record .loud-grooves {
@@ -58,8 +58,7 @@ h2,
 a, a:link, a:visited {
 	color: #305F99;
 }
-#logo:hover span,
-menu ul li a:hover {
+menu a:hover {
 	color: #7F6631;
 }
 .rss {
@@ -68,24 +67,21 @@ menu ul li a:hover {
 menu a:hover .rss {
 	fill: #7F6631;
 }
-#logo:hover .record .loud-grooves {
+a:hover #logo .record .loud-grooves {
 	stroke: hsl(41, 44%, 31%);
 	fill: hsl(41, 44%, 35%);
 }
-#logo:hover .record .quiet-grooves {
+a:hover #logo .record .quiet-grooves {
 	fill: hsl(41, 44%, 33%);
 }
-#logo:hover .record .flat-grooves {
+a:hover #logo .record .flat-grooves {
 	fill: hsl(41, 44%, 31%);
 }
-#logo:hover .record .runout {
+a:hover #logo .record .runout {
 	stroke: hsl(41, 44%, 31%);
 }
 #logo .label {
-	fill: rgba(0,0,0,0);
-}
-#logo:hover .label {
-	fill: rgba(0,0,0,0);
+	opacity: 0;
 }
 a:hover {
 	color: #6698D4;

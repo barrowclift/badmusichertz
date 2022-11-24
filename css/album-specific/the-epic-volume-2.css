@@ -33,13 +33,12 @@ html {
 a, a:link, a:visited {
 	color: #8F2021;
 }
-menu ul li a:link,
-menu ul li a:visited,
-#logo span {
+menu a,
+menu a:link,
+menu a:visited {
 	color: white;
 }
-#logo:hover span,
-menu ul li a:hover {
+menu a:hover {
 	color: #1A2223;
 }
 .rss {
@@ -63,24 +62,21 @@ menu a:hover .rss {
 	fill: hsl(75, 50%, 90%);
 }
 #logo .label {
-	fill: #8F2021;
+	opacity: 0;
 }
 
-#logo:hover .record .loud-grooves {
+a:hover #logo .record .loud-grooves {
 	stroke: hsl(187, 15%, 10%);
 	fill: hsl(187, 15%, 12%);
 }
-#logo:hover .record .quiet-grooves {
+a:hover #logo .record .quiet-grooves {
 	fill: hsl(187, 15%, 14%);
 }
-#logo:hover .record .flat-grooves {
+a:hover #logo .record .flat-grooves {
 	fill: hsl(187, 15%, 10%);
 }
-#logo:hover .record .runout {
+a:hover #logo .record .runout {
 	stroke: hsl(187, 15%, 10%);
-}
-#logo:hover .label {
-	fill: rgba(0, 0, 0, 0);
 }
 
 a:hover {
@@ -99,24 +95,23 @@ a:hover {
 	a:hover {
 		color: hsl(1, 43%, 76%);
 	}
-	#logo:hover span,
-	menu ul li a:hover {
+	menu a:hover {
 		color: #8F2021;
 	}
 	menu a:hover .rss {
 		fill: #8F2021;
 	}
-	#logo:hover .record .flat-grooves {
+	a:hover #logo .record .flat-grooves {
 		fill: hsl(359, 63%, 34%);
 	}
-	#logo:hover .record .runout {
+	a:hover #logo .record .runout {
 		stroke: hsl(359, 63%, 34%);
 	}
-	#logo:hover .record .loud-grooves {
+	a:hover #logo .record .loud-grooves {
 		stroke: hsl(359, 63%, 34%);
 		fill: hsl(359, 63%, 39%);
 	}
-	#logo:hover .record .quiet-grooves {
+	a:hover #logo .record .quiet-grooves {
 		fill: hsl(359, 63%, 29%);
 	}
 }

@@ -37,14 +37,12 @@ html {
 a, a:link, a:visited {
 	color: #5185b0; /*#5E9CD0;*/
 }
-menu ul li a,
-menu ul li a:link,
-menu ul li a:visited,
-#logo span {
+menu a,
+menu a:link,
+menu a:visited {
 	color: #E9F3EF;
 }
-#logo:hover span,
-menu ul li a:hover {
+menu a:hover {
 	color: #38515B;
 }
 .rss {
@@ -68,23 +66,21 @@ menu a:hover .rss {
 }
 #logo .label {
 	fill: #DB963E;
+	stroke: #DB963E;
 }
 
-#logo:hover .record .flat-grooves {
-	fill: hsl(197, 38%, 26%);
+a:hover #logo .record .flat-grooves {
+	fill: hsl(197, 24%, 24%);
 }
-#logo:hover .record .runout {
-	stroke: hsl(197, 38%, 26%);
+a:hover #logo .record .runout {
+	stroke: hsl(197, 24%, 24%);
 }
-#logo:hover .record .loud-grooves {
-	stroke: hsl(197, 38%, 26%);
-	fill: hsl(197, 38%, 31%);
+a:hover #logo .record .loud-grooves {
+	stroke: hsl(197, 24%, 24%);
+	fill: hsl(197, 24%, 29%);
 }
-#logo:hover .record .quiet-grooves {
-	fill: hsl(197, 38%, 36%);
-}
-#logo:hover .label {
-	fill: rgba(0, 0, 0, 0);
+a:hover #logo .record .quiet-grooves {
+	fill: hsl(197, 24%, 34%);
 }
 
 a:hover {
@@ -107,4 +103,26 @@ a:hover {
 .bigfoot-footnote__button:active,
 .bigfoot-footnote__button.is-active {
 	background-color: #5E9CD0;
+}
+
+@media (prefers-color-scheme: dark) {
+	menu a:hover {
+		color: #5185b0;
+	}
+	menu a:hover .rss {
+		fill: #5185b0;
+	}
+	a:hover #logo .record .flat-grooves {
+		fill: hsl(207, 38%, 45%);
+	}
+	a:hover #logo .record .runout {
+		stroke: hsl(207, 38%, 45%);
+	}
+	a:hover #logo .record .loud-grooves {
+		stroke: hsl(207, 38%, 45%);
+		fill: hsl(207, 38%, 50%);
+	}
+	a:hover #logo .record .quiet-grooves {
+		fill: hsl(207, 38%, 55%);
+	}
 }

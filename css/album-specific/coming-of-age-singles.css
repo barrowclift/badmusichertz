@@ -21,8 +21,7 @@ html {
 	background: rgba(176, 93, 32, 0.9);
 }
 a, a:link, a:visited,
-menu ul li a:hover,
-#logo:hover span {
+menu a:hover {
 	color: #b05d20;
 }
 .rss {
@@ -32,36 +31,34 @@ menu a:hover .rss {
 	fill: #b05d20;
 }
 #logo .record .loud-grooves {
-	stroke: hsl(204, 9%, 18%);
-	fill: hsl(204, 9%, 22%);
+	stroke: hsl(0, 0%, 9%);
+	fill: hsl(0, 0%, 13%);
 }
 #logo .record .quiet-grooves {
-	fill: hsl(204, 9%, 20%);
+	fill: hsl(0, 0%, 11%);
 }
 #logo .record .flat-grooves {
-	fill: hsl(204, 9%, 18%);
+	fill: hsl(0, 0%, 9%);
 }
 #logo .record .runout {
-	stroke: hsl(204, 9%, 18%);
+	stroke: hsl(0, 0%, 9%);
 }
-#logo:hover .record .loud-grooves {
+a:hover #logo .record .loud-grooves {
 	stroke: hsl(25, 69%, 39%);
 	fill: hsl(25, 69%, 42%);
 }
-#logo:hover .record .quiet-grooves {
+a:hover #logo .record .quiet-grooves {
 	fill: hsl(25, 69%, 41%);
 }
-#logo:hover .record .flat-grooves {
+a:hover #logo .record .flat-grooves {
 	fill: hsl(25, 69%, 39%);
 }
-#logo:hover .record .runout {
+a:hover #logo .record .runout {
 	stroke: hsl(25, 69%, 39%);
 }
 #logo .label {
 	fill: #b05d20;
-}
-#logo:hover .label {
-	fill: rgba(0,0,0,0);
+	stroke: #b05d20;
 }
 a:hover {
 	color: #DF9149;
@@ -85,14 +82,12 @@ a:hover {
 	#listen-on-buttons .stop {
 		stop-color: hsl(25, 79%, 51%);
 	}
-	menu ul li a,
-	menu ul li a:link,
-	menu ul li a:visited,
-	#logo span {
+	menu a,
+	menu a:link,
+	menu a:visited {
 		color: white;
 	}
-	#logo:hover span,
-	menu ul li a:hover {
+	menu a:hover {
 		color: #b05d20;
 	}
 	.rss {
@@ -115,18 +110,18 @@ a:hover {
 		stroke: hsl(25, 0%, 95%);
 	}
 
-	#logo:hover .record .loud-grooves {
-		stroke: hsl(25, 79%, 46%);
-		fill: hsl(25, 79%, 51%);
+	a:hover #logo .record .loud-grooves {
+		stroke: hsl(25, 69%, 41%);
+		fill: hsl(25, 69%, 45%);
 	}
-	#logo:hover .record .quiet-grooves {
-		fill: hsl(25, 79%, 48%);
+	a:hover #logo .record .quiet-grooves {
+		fill: hsl(25, 69%, 43%);
 	}
-	#logo:hover .record .flat-grooves {
-		fill: hsl(25, 79%, 46%);
+	a:hover #logo .record .flat-grooves {
+		fill: hsl(25, 69%, 41%);
 	}
-	#logo:hover .record .runout {
-		stroke: hsl(25, 79%, 46%);
+	a:hover #logo .record .runout {
+		stroke: hsl(25, 69%, 41%);
 	}
 }
 .bigfoot-footnote__button,

@@ -281,7 +281,7 @@ time {
 }
 .footnotes ol, .footnotes ol li p, /* Barrowclift.me */
 figcaption,
-input, select, textarea, button,
+input, select, textarea, button, .button,
 small, kbd,
 blockquote {
 	font-size: 0.833em;
@@ -335,6 +335,7 @@ h1, h2 {
 .anchor,
 strong,
 button,
+.button,
 h3,h4,h5,h6 {
 	font-weight: 700;
 }
@@ -351,7 +352,7 @@ time {
 time,
 figcaption,
 .weak {
-	color: rgba(0, 0, 0, 0.25);
+	color: rgba(0, 0, 0, 0.375);
 }
 
 em,
@@ -368,12 +369,10 @@ figcaption {
 
 menu a,
 menu a:link,
-menu a:visited,
-#logo {
+menu a:visited {
 	color: #171717;
 }
-menu a:hover,
-#logo:hover {
+menu a:hover {
 	color: #e03131;
 }
 
@@ -412,7 +411,7 @@ menu {
 	}
 		menu ul li {
 			margin-bottom: 0;
-			margin-left: 7vw;
+			margin-left: 4vw;
 			display: inline-block;
 		}
 .rss {
@@ -434,12 +433,7 @@ compensate*/
 	margin-left: 5%;
 	display: inline-block;
 	vertical-align: baseline;
-	cursor: pointer;
-	color: #171717;
 }
-	#logo:hover {
-		color: #e03131;
-	}
 	#logo > span {
 		margin-left: -0.25em;
 	}
@@ -455,8 +449,8 @@ compensate*/
  * The stroke here is the outer edge of the lead-in and runout
  */
 #logo .record .loud-grooves {
-	stroke: hsl(210, 11%, 13%);
-	fill: hsl(210, 11%, 15%);
+	stroke: hsl(0, 0%, 9%);
+	fill: hsl(0, 0%, 13%);
 }
 /**
  * Quieter portions of music have a different color than the majority
@@ -465,37 +459,41 @@ compensate*/
  * just a solid "loud groove" color
  */
 #logo .record .quiet-grooves {
-	fill: hsl(210, 11%, 14%);
+	fill: hsl(0, 0%, 11%);
 }
 /**
  * The breaks between songs
  */
 #logo .record .flat-grooves {
-	fill: hsl(210, 11%, 13%);
+	fill: hsl(0, 0%, 9%);
 }
 /**
  * The majority of the lead-in and runout.
  */
 #logo .record .runout {
-	stroke: hsl(210, 11%, 13%);
+	stroke: hsl(0, 0%, 9%);
 }
 
-#logo:hover .record .loud-grooves {
+a:hover #logo .record .loud-grooves {
 	stroke: hsl(0, 74%, 44%);
 	fill: hsl(0, 74%, 54%);
 }
-#logo:hover .record .quiet-grooves {
+a:hover #logo .record .quiet-grooves {
 	fill: hsl(0, 74%, 49%);
 }
-#logo:hover .record .flat-grooves {
+a:hover #logo .record .flat-grooves {
 	fill: hsl(0, 74%, 44%);
 }
-#logo:hover .record .runout {
+a:hover #logo .record .runout {
 	stroke: hsl(0, 74%, 44%);
 }
 
-#logo:hover .label {
-	fill: rgba(0,0,0,0);
+.dim {
+	opacity: 0.75;
+}
+a:hover #logo .label,
+a:hover #Rainbow-Label {
+	opacity: 0;
 }
 
 
@@ -574,11 +572,11 @@ form {
 	margin: 0;
 }
 form,
-input, button, textarea, select {
+input, button, .button, textarea, select {
 	display: inline-block;
 	width: 100%;
 }
-input, button, textarea, select {
+input, button, .button, textarea, select {
 	display: block;
 	margin-top: 0;
 	margin-bottom: 0.65em;
@@ -595,7 +593,9 @@ input, textarea {
 		outline: 0;
 		border-color: #e03131;
 	}
-button {
+button,
+.button {
+	border-radius: 1.5em;
 	border: none;
 	text-align: center;
 	padding-left: 0.65em;
@@ -603,7 +603,8 @@ button {
 	background-color: #e03131;
 	color: #f8f9fa;
 }
-	button:hover {
+	button:hover,
+	.button:hover {
 		background-color: #c92a2a;
 	}
 
@@ -624,6 +625,45 @@ input:required {
 	-webkit-box-shadow: none;
 	-o-box-shadow: none;
 	box-shadow: none;
+}
+.button-group li,
+.button-group li a,
+.button-group li a p  {
+    width: 100%;
+}
+    .button-group.autosize li,
+    .button-group.autosize li a,
+    .button-group.autosize li a p {
+        width: auto;
+    }
+    .button-group.autosize li {
+        margin-left: 0.325em;
+        margin-right: 0.325em;
+    }
+.button-group li {
+    display: inline-block;
+    margin: 0.75em 0;
+}
+.button-group {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+    display: block;
+    text-align: center;
+}
+    .button-group.center {
+        text-align: center;
+    }
+    .button-group.left {
+        text-align: left;
+    }
+        .button-group.left li:first-child {
+            margin-left: 0;
+        }
+
+.button-group .button {
+    margin-bottom: 0;
 }
 
 a,
@@ -692,6 +732,7 @@ img {
 	top: 0;
 	width: 100vw;
 	height: 100vh;
+	border-radius: 0 !important;
 }
 .background.blurred {
 	filter: blur(50px);
@@ -856,7 +897,6 @@ audio {
 
 
 /* ----- ANIMATIONS ----- */
-#logo span span,
 .anchor,
 a {
 	transition: color .2s ease, text-shadow .2s ease !important;
@@ -867,8 +907,9 @@ a {
 #logo .record .quiet-grooves,
 #logo .flat-grooves,
 #logo .label,
+#Rainbow-Label,
 .rss {
-	transition: fill 0.2s ease;
+	transition: fill 0.2s ease, opacity 0.2s ease;
 }
 #logo .record .runout {
 	transition: stroke 0.2s ease;
@@ -876,8 +917,9 @@ a {
 .anchor {
 	transition: all 0.2s ease;
 }
-button {
-	transition: background-color 0.2s ease;
+button,
+.button {
+    transition: background .2s ease-out, box-shadow .2s ease-out, transform .2s ease-out;
 }
 input, textarea {
 	transition: all 0.1s ease;
@@ -1035,7 +1077,7 @@ input, textarea {
 	}
 }
 
-@media (min-width: 420px) {
+@media (min-width: 374px) {
 	.optional-menu-item-1 {
 		visibility: visible;
 		display: inline;
@@ -1276,6 +1318,15 @@ input, textarea {
 		line-height: 2.3vw;
 		font-size: 1.45vw;
 	}
+
+	.button-group li {
+	    margin-left: 0.325em;
+	    margin-right: 0.325em;
+	    width: 26%;
+	}
+	.button-group.autosize li {
+	    width: auto;
+	}
 }
 
 /* Large devices (Macs) */
@@ -1405,8 +1456,7 @@ input, textarea {
 	}
 	menu a,
 	menu a:link,
-	menu a:visited,
-	#logo {
+	menu a:visited {
 		color: hsl(360, 74%, 96%);
 	}
 	a,
@@ -1417,8 +1467,7 @@ input, textarea {
 	a:hover {
 		color: hsl(360, 94%, 70%);
 	}
-	menu a:hover,
-	#logo:hover {
+	menu a:hover {
 		color: hsl(360, 84%, 54%);
 	}
 	#logo .record .loud-grooves {

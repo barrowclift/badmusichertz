@@ -27,14 +27,13 @@ main,
 a,
 a:link,
 a:visited,
-menu ul li a:link,
-menu ul li a:visited,
-#logo span {
+menu a,
+menu a:link,
+menu a:visited {
 	color: #F6C879;
 }
 a:hover,
-menu ul li a:hover,
-#logo:hover span {
+menu a:hover {
 	color: hsl(38, 67%, 46%);
 }
 .rss {
@@ -65,22 +64,19 @@ menu a:hover .rss {
 	stroke: hsl(38, 87%, 67%);
 }
 #logo .label {
-	fill: HSL(201, 40%, 10%);
+	opacity: 0;
 }
 
-#logo:hover .record .loud-grooves {
+a:hover #logo .record .loud-grooves {
 	stroke: hsl(38, 67%, 42%);
 	fill: hsl(38, 67%, 46%);
 }
-#logo:hover .record .quiet-grooves {
+a:hover #logo .record .quiet-grooves {
 	fill: hsl(38, 67%, 44%);
 }
-#logo:hover .record .flat-grooves {
+a:hover #logo .record .flat-grooves {
 	fill: hsl(38, 67%, 42%);
 }
-#logo:hover .record .runout {
+a:hover #logo .record .runout {
 	stroke: hsl(38, 67%, 42%);
-}
-#logo:hover .label {
-	fill: rgba(0, 0, 0, 0);
 }

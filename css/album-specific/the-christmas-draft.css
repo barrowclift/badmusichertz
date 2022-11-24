@@ -8,8 +8,7 @@ html {
 	background: rgba(255, 132, 126, 0.50);
 }
 a, a:link, a:visited,
-menu ul li a:hover,
-#logo:hover span {
+menu a:hover {
 	color: #FF847E;
 }
 .rss {
@@ -31,24 +30,22 @@ menu a:hover .rss {
 #logo .record .runout {
 	stroke: hsl(228, 4%, 18%);
 }
-#logo:hover .record .loud-grooves {
+a:hover #logo .record .loud-grooves {
 	stroke: hsl(3, 100%, 71%);
 	fill: hsl(3, 100%, 75%);
 }
-#logo:hover .record .quiet-grooves {
+a:hover #logo .record .quiet-grooves {
 	fill: hsl(3, 100%, 73%);
 }
-#logo:hover .record .flat-grooves {
+a:hover #logo .record .flat-grooves {
 	fill: hsl(3, 100%, 71%);
 }
-#logo:hover .record .runout {
+a:hover #logo .record .runout {
 	stroke: hsl(3, 100%, 71%);
 }
 #logo .label {
 	fill: #E8625B;
-}
-#logo:hover .label {
-	fill: rgba(0,0,0,0);
+	stroke: #E8625B;
 }
 a:hover {
 	color: #FFB8B3;
@@ -76,8 +73,7 @@ a:hover {
 		background-color: hsla(359, 97%, 8%, 0.6);
 	}
 	a, a:link, a:visited,
-	menu ul li a:hover,
-	#logo:hover span {
+	menu a:hover {
 		color: #D7685E;
 	}
 	a:hover {
@@ -95,10 +91,9 @@ a:hover {
 	::-moz-selection {
 		background: rgba(215, 104, 94, 0.375);
 	}
-	menu ul li a,
-	menu ul li a:link,
-	menu ul li a:visited,
-	#logo span {
+	menu a,
+	menu a:link,
+	menu a:visited {
 		color: #F6F7F9;
 	}
 	.rss {
@@ -120,21 +115,20 @@ a:hover {
 	#logo .record .runout {
 		stroke: hsl(220, 20%, 93%);
 	}
-	#logo:hover span,
-	menu ul li a:hover {
+	menu a:hover {
 		color: #D7685E;
 	}
-	#logo:hover .record .loud-grooves {
+	a:hover #logo .record .loud-grooves {
 		stroke: hsl(5, 60%, 57%);
 		fill: hsl(5, 60%, 61%);
 	}
-	#logo:hover .record .quiet-grooves {
+	a:hover #logo .record .quiet-grooves {
 		fill: hsl(5, 60%, 59%);
 	}
-	#logo:hover .record .flat-grooves {
+	a:hover #logo .record .flat-grooves {
 		fill: hsl(5, 60%, 57%);
 	}
-	#logo:hover .record .runout {
+	a:hover #logo .record .runout {
 		stroke: hsl(5, 60%, 57%);
 	}
 }
