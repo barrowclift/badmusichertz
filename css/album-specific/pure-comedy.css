@@ -59,6 +59,11 @@ menu a:hover {
 }
 #logo .label {
 	fill: #1F305F;
+	stroke: unset !important;
+	opacity: 1 !important;
+}
+#logo .label-glow {
+	stroke: unset !important;
 }
 
 a:hover #logo .record .flat-grooves {

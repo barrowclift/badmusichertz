@@ -39,7 +39,11 @@ a:hover #logo .record .flat-grooves {
 a:hover #logo .record .runout {
 	stroke: hsl(18, 51%, 38%);
 }
+#logo .label-glow {
+	stroke: #9A5132;
+}
 #logo .label {
+	opacity: 1 !important;
 	fill: #9A5132;
 	stroke: #9A5132;
 }
@@ -120,7 +124,11 @@ menu {
 	#logo .record .runout {
 		stroke: hsl(0, 0%, 90%);
 	}
+	#logo .label-glow {
+		stroke: #D6AD6C;
+	}
 	#logo .label {
+		opacity: 1 !important;
 		fill: #D6AD6C;
 		stroke: #D6AD6C;
 	}

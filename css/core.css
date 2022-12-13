@@ -47,7 +47,7 @@ html {
 }
 main {
 	display: inline-block;
-	width: auto;
+	width: 100%;
 }
 @supports (padding-left: max(0%, env(safe-area-inset-left))) {
 	menu {
@@ -492,6 +492,7 @@ a:hover #logo .record .runout {
 	opacity: 0.75;
 }
 a:hover #logo .label,
+a:hover #logo .label-glow,
 a:hover #Rainbow-Label {
 	opacity: 0;
 }
@@ -538,7 +539,6 @@ a:hover #Rainbow-Label {
 .shelf {
 	margin-left: 0em;
 	margin-right: 0em;
-	overflow-x: hidden;
 }
 	.shelf .album-art {
 		width: 30vw;
@@ -696,7 +696,7 @@ a:hover {
 
 
 /* ----- SHADOWS ----- */
-.float-menu menu, #bottom-navigation,
+.float-menu menu,
 .article-card img,
 .shelf .album-art,
 .avatar {
@@ -907,6 +907,7 @@ a {
 #logo .record .quiet-grooves,
 #logo .flat-grooves,
 #logo .label,
+#logo .label-glow,
 #Rainbow-Label,
 .rss {
 	transition: fill 0.2s ease, opacity 0.2s ease;
@@ -1429,7 +1430,7 @@ input, textarea {
 @media (min-width: 1298px) {
 	.column {
 		width: 44vw;
-		max-width: 20em;
+		max-width: 19em;
 		padding-left: 0;
 		padding-right: 0;
 		margin-left: 1.3em;

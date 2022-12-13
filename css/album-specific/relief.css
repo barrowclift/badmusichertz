@@ -148,6 +148,11 @@ menu a:hover .rss {
 	}
 	#logo .label {
 		fill: #586B63;
+		stroke: unset !important;
+		opacity: 1 !important;
+	}
+	#logo .label-glow {
+		stroke: unset !important;
 	}
 
 	menu a:hover {

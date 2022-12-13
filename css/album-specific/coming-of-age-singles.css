@@ -56,7 +56,11 @@ a:hover #logo .record .flat-grooves {
 a:hover #logo .record .runout {
 	stroke: hsl(25, 69%, 39%);
 }
+#logo .label-glow {
+	stroke: #b05d20;
+}
 #logo .label {
+	opacity: 1 !important;
 	fill: #b05d20;
 	stroke: #b05d20;
 }

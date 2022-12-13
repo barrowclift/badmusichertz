@@ -97,7 +97,11 @@ menu a:hover {
 #logo .record .runout {
 	stroke: hsl(44, 32%, 14%);
 }
+#logo .label-glow {
+	stroke: hsl(20, 82%, 59%);
+}
 #logo .label {
+	opacity: 1 !important;
 	fill: hsl(20, 82%, 59%);
 	stroke: hsl(20, 82%, 59%);
 }

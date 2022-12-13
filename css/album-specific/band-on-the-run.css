@@ -70,6 +70,10 @@ a:hover #logo .record .runout {
 #logo .label {
 	fill: #E5B780;
 	stroke: unset !important;
+	opacity: 1 !important;
+}
+#logo .label-glow {
+	stroke: unset !important;
 }
 .album-art {
 	margin-bottom: 0;

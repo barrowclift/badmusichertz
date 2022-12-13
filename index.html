@@ -6,7 +6,7 @@ float-menu: true
 <div id="article-cards">
 {% for post in paginator.posts %}
 	<a href="{{ post.url }}">
-		<div class="article-card" style="{% if post.blurred-card %}background-image: url('{{ site.dropbox-url }}/{{ post.album-name }}/images/card-background.jpg');{% else %}background: {{post.color-stop-1}};background: radial-gradient(circle, {{post.color-stop-1}} 35%, {{post.color-stop-2}} 100%);{% endif %}">
+		<div class="article-card" style="{% if post.blurred-card %}background-image: url('{{ site.dropbox-url }}/{{ post.album-name }}/images/card-background.jpg');{% elsif post.card-background-color %}background-color:{{post.card-background-color}};{% else %}background: {{post.color-stop-1}};background: radial-gradient(circle, {{post.color-stop-1}} 35%, {{post.color-stop-2}} 100%);{% endif %}">
 			{% if post.layout == "podcast" %}
 			<img src="{{ site.dropbox-url }}/{{ post.album-name }}/images/episode-art-1000w.jpg" class="inline" {% if post.album-art-hidden-text %}title="{{post.album-art-hidden-text}}"{% endif %} alt="Episode art" />
 			{% else %}

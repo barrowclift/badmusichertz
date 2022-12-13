@@ -61,6 +61,11 @@ a:hover #logo .record .runout {
 }
 #logo .label {
 	fill: #1FB255;
+	stroke: unset !important;
+	opacity: 1 !important;
+}
+#logo .label-glow {
+	stroke: unset !important;
 }
 a:hover #logo .label {
 	fill: #09100B;
