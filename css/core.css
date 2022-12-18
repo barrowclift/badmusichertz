@@ -784,8 +784,8 @@ audio {
 	width: 2.6em;
 	margin-top: 0;
 	padding-bottom: 1.3em;
-	padding-left: 1.75vw;
-	padding-right: 1.75vw;
+	padding-left: 0.65em;
+	padding-right: 0.65em;
 }
 #listen-on-buttons .logo {
 	fill: white;
@@ -1080,8 +1080,8 @@ input, textarea {
 		margin-bottom: 2.225em;
 	}
 	#listen-on-buttons svg {
-		padding-left: 2vw;
-		padding-right: 2vw;
+		padding-left: 3vw;
+		padding-right: 3vw;
 	}
 	article {
 		margin-bottom: 0;
@@ -1340,10 +1340,6 @@ input, textarea {
 	}
 	.button-group.autosize li {
 	    width: auto;
-	}
-	#listen-on-buttons svg {
-		padding-left: 0.65em;
-		padding-right: 0.65em;
 	}
 }
 
