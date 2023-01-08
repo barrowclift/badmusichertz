@@ -10,7 +10,7 @@ float-menu: true
 			{% if post.layout == "podcast" %}
 			<img src="{{ site.dropbox-url }}/{{ post.album-name }}/images/episode-art-1000w.jpg" class="inline" {% if post.album-art-hidden-text %}title="{{post.album-art-hidden-text}}"{% endif %} alt="Episode art" />
 			{% else %}
-			<img src="{{ site.dropbox-url }}/{{ post.album-name }}/images/album-art-1000w.jpg" class="inline" {% if post.album-art-hidden-text %}title="{{post.album-art-hidden-text}}"{% endif %} {% if post.title %}alt="{{ post.title }}'s album art"{% else %}alt="The album's cover"{% endif %} />
+			<img src="{{ site.dropbox-url }}/{{ post.album-name }}/images/album-art-1000w.jpg" class="inline" {% if post.album-art-hidden-text %}title="{{post.album-art-hidden-text}}"{% endif %} {% if post.title %}alt="{{ post.title }}’s album art"{% else %}alt="The album’s cover"{% endif %} />
 			{% endif %}
 			<header role="header">
 				<h1>

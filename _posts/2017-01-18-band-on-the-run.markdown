@@ -2,7 +2,7 @@
 layout: post
 
 album-name: "band-on-the-run"
-album-art-hidden-text: 'Yikes! They found us!'
+album-art-hidden-text: Yikes! They found us!
 
 theme-color: "#0D0D0D"
 primary-color: "#E5B780"
@@ -13,7 +13,7 @@ disable-dark-overlay: True
 title: "Band on the Run"
 author: "Marc Barrowclift"
 date: 2017-01-18 21:50:00
-excerpt: Sure, let's fly out and record our record at Lagos, Nigeria. What could go wrong?
+excerpt: "Sure, lets fly out and record our record at Lagos, Nigeria. What could go wrong?"
 image: https://dropbox.badmusichertz.com/band-on-the-run/images/album-art.jpg
 
 artist:
