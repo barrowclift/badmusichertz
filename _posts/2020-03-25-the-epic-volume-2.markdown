@@ -15,10 +15,11 @@ color-stop-2: "#1A2223"
 blurred-card: False
 
 episode: 10
-title: "The Epic - Volume 2"
+title: "The Epic - Volume II"
 author: "the Barrowclift Siblings"
 date: 2020-03-25 07:18:07-0400
-excerpt: "The discussion continues as Marc and Michael open up Volume 2: “The Glorious Tale” from Kamasi Washington’s “The Epic”."
+last_modified_at: 2023-01-28 13:51:11-0500
+excerpt: "The discussion continues as Marc and Michael open up Volume II: “The Glorious Tale” from Kamasi Washington’s “The Epic”."
 image: https://dropbox.badmusichertz.com/the-epic-volume-2/images/episode-art.jpg
 
 podcast-filename: "bmh10.mp3"

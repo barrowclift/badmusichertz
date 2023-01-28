@@ -17,7 +17,7 @@ blurred-card: False
 title: "The Christmas Draft"
 author: "the Barrowclift Siblings"
 date: 2017-12-13 19:18:00
-last_modified_at: 2018-02-08 11:58:00
+last_modified_at: 2023-01-28 13:51:11-0500
 excerpt: With the fire roaring and hot cocoa piping, join the Barrowclift siblings as they go head-to-head to see who can create the best Christmas EP. Whose is the best? You decide!
 image: https://dropbox.badmusichertz.com/the-christmas-draft/images/episode-art.jpg
 episode: 3

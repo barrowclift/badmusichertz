@@ -18,6 +18,7 @@ episode: 8
 title: "Benji"
 author: "the Barrowclift Siblings"
 date: 2019-11-02 20:08:16
+last_modified_at: 2023-01-28 13:51:11-0500
 excerpt: "Take a drive through Ohio with Marc and Michael as they recover from Mark Kozelek’s sobering stories in “Benji”."
 image: https://dropbox.badmusichertz.com/benji/images/episode-art.jpg
 

@@ -17,6 +17,7 @@ blurred-card: False
 title: "Grand Hotel"
 author: "the Barrowclift Siblings"
 date: 2018-12-22 11:51:00
+last_modified_at: 2023-01-28 13:51:11-0500
 excerpt: "Take a brief Christmas vacation with the Barrowclift siblings as they soak up the warm vibes of The Explorers Club’s “Grand Hotel”."
 image: https://dropbox.badmusichertz.com/grand-hotel/images/episode-art.jpg
 episode: 7

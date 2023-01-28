@@ -15,10 +15,11 @@ color-stop-2: "#322E29"
 blurred-card: False
 
 episode: 11
-title: "The Epic - Volume 3"
+title: "The Epic - Volume III"
 author: "the Barrowclift Siblings"
 date: 2020-04-01 07:23:43-0400
-excerpt: "The journey finally reaches its end as Marc and Michael close the book on Kamasi Washington’s “The Epic” with Volume 3: “The Historic Repetition”."
+last_modified_at: 2023-01-28 13:51:11-0500
+excerpt: "The journey finally reaches its end as Marc and Michael close the book on Kamasi Washington’s “The Epic” with Volume III: “The Historic Repetition”."
 image: https://dropbox.badmusichertz.com/the-epic-volume-3/images/episode-art.jpg
 
 podcast-filename: "bmh11.mp3"
@@ -65,7 +66,7 @@ Or purchase *The Epic* on:
 
 ## Michael's Track Order
 
-**Volume 1: The Plan**
+**Volume I: The Plan**
 
 1. Change of the Guard
 2. Askim
@@ -74,7 +75,7 @@ Or purchase *The Epic* on:
 5. The Next Step
 6. The Rhythm Changes
 
-**Volume 2: The Glorious Tale**
+**Volume II: The Glorious Tale**
 
 1. Miss Understanding
 2. Leroy and Lanisha
@@ -83,7 +84,7 @@ Or purchase *The Epic* on:
 5. Henrietta Our Hero
 6. The Message
 
-**Volume 3: The Historic Repetition**
+**Volume III: The Historic Repetition**
 
 1. Re Run
 2. Cherokee
@@ -93,7 +94,7 @@ Or purchase *The Epic* on:
 
 ## Marc's Track Order
 
-**Volume 1: The Plan**
+**Volume I: The Plan**
 
 1. Change of the Guard
 2. Isabelle
@@ -101,7 +102,7 @@ Or purchase *The Epic* on:
 4. The Next Step
 5. Askim
 
-**Volume 2: The Glorious Tale**
+**Volume II: The Glorious Tale**
 
 1. Miss Understanding
 2. Leroy and Lanisha
@@ -110,7 +111,7 @@ Or purchase *The Epic* on:
 5. Henrietta Our Hero
 6. The Magnificent 7
 
-**Volume 3: The Historic Repetition**
+**Volume III: The Historic Repetition**
 
 1. Re Run
 2. Cherokee

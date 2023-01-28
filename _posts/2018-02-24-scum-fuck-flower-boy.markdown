@@ -15,6 +15,7 @@ show-menu-background: False
 title: "Scum Fuck Flower Boy"
 author: "Marc Barrowclift"
 date: 2018-02-24 11:19:00
+last_modified_at: 2023-01-28 13:51:11-0500
 excerpt: "Is it scummy? Is it flowery? Spoiler: It’s both, and it’s Tyler’s best record to date."
 
 artist: Tyler, The Creator
