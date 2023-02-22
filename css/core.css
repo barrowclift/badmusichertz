@@ -48,6 +48,7 @@ html {
 main {
 	display: inline-block;
 	width: 100%;
+	z-index: 1;
 }
 @supports (padding-left: max(0%, env(safe-area-inset-left))) {
 	menu {
@@ -384,7 +385,7 @@ body:not(.show-menu-background) menu {
 menu {
 	width: 100%;
 	position: absolute;
-	z-index: 200;
+	z-index: 1;
 	padding-bottom: 0.5rem;
 	padding-top: 1rem;
 	white-space: nowrap;
@@ -392,6 +393,10 @@ menu {
 .float-menu menu {
 	position: fixed;
 	background-color: rgba(248, 249, 250, 0.9);
+}
+.post menu {
+	position: fixed;
+	z-index: 0;
 }
 	menu > a {
 		line-height: 1rem;
@@ -1187,7 +1192,7 @@ input, textarea {
 	#logo {
 		margin-left: 2vw;
 		padding-left: 0;
-		margin-top: -6px;
+		margin-top: -5px;
 		float: left;
 	}
 	@supports(padding-left: max(2vw, env(safe-area-inset-left))) {

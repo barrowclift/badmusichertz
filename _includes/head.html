@@ -32,7 +32,7 @@
 	{% else %}
 		<link rel="stylesheet" href="{{ site.baseurl }}/css/min/reset-1513123593.min.css" type="text/css" />
 		<link rel="stylesheet" href="{{ site.baseurl }}/css/min/bigfoot-number-1513123593.min.css" type="text/css" />
-		<link rel="stylesheet" href="{{ site.baseurl }}/css/min/core-1671380320.min.css" type="text/css" />
+		<link rel="stylesheet" href="{{ site.baseurl }}/css/min/core-1677109124.min.css" type="text/css" />
 		<script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
 	{% endif %}
 	{% if page.album-name %}
@@ -76,6 +76,17 @@
 		} else if (!is_safari && !is_ios_safari && !is_opera && is_chrome) {
 			document.getElementsByTagName("html")[0].setAttribute("class", "chrome");
 		}
+		/* Nicely fade the menu when user scrolls down when viewing a post */
+		$(window).scroll(function() {
+		    var scrollTop = $(this).scrollTop();
+		        $('.post menu').css({
+		        opacity: function() {
+		            var elementHeight = $(this).height(),
+		            opacity = ((elementHeight - scrollTop) / elementHeight);
+		            return opacity;
+		        }
+		    });
+		});
 	</script>
 
 	<link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' | prepend: site.baseurl | replace: '//', '/' }}">

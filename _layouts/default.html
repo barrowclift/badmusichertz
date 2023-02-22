@@ -14,8 +14,7 @@
 
 	{% include head.html %}
 
-	<body class="{% if page.float-menu == true %}float-menu{% endif %} {% if page.show-menu-background == true or page.layout == 'default' %}show-menu-background{% endif %}">
-
+	<body class="{% if page.float-menu == true %}float-menu{% endif %} {% if page.show-menu-background == true or page.layout == 'default' %}show-menu-background{% endif %} {% if page.layout == 'podcast' or page.layout == 'post' %}post{% endif %}">
 		{% include header.html %}
 
 		<div id="content" class="center {% if page.review == true %}review-page{% endif %} {% if page.wide-page %}wide-page{% endif %} {% if page.full-page %}full-page{% endif %}">
