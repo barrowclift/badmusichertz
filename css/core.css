@@ -48,7 +48,10 @@ html {
 main {
 	display: inline-block;
 	width: 100%;
+}
+.post main {
 	z-index: 1;
+	position: relative;
 }
 @supports (padding-left: max(0%, env(safe-area-inset-left))) {
 	menu {

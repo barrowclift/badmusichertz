@@ -32,7 +32,7 @@
 	{% else %}
 		<link rel="stylesheet" href="{{ site.baseurl }}/css/min/reset-1513123593.min.css" type="text/css" />
 		<link rel="stylesheet" href="{{ site.baseurl }}/css/min/bigfoot-number-1513123593.min.css" type="text/css" />
-		<link rel="stylesheet" href="{{ site.baseurl }}/css/min/core-1677109124.min.css" type="text/css" />
+		<link rel="stylesheet" href="{{ site.baseurl }}/css/min/core-1677117813.min.css" type="text/css" />
 		<script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
 	{% endif %}
 	{% if page.album-name %}
@@ -79,10 +79,13 @@
 		/* Nicely fade the menu when user scrolls down when viewing a post */
 		$(window).scroll(function() {
 		    var scrollTop = $(this).scrollTop();
-		        $('.post menu').css({
+	        $('.post menu').css({
+	        	top: function() {
+	        		return scrollTop / -4;
+	        	},
 		        opacity: function() {
-		            var elementHeight = $(this).height(),
-		            opacity = ((elementHeight - scrollTop) / elementHeight);
+		            var elementHeight = $(this).height();
+		            opacity = ((50 - scrollTop) / 50);
 		            return opacity;
 		        }
 		    });
