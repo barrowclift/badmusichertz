@@ -5,7 +5,7 @@ description: Siblings celebrating and borderline obsessing over their favorite r
 baseurl: "" # The subpath of your site, e.g. /blog/
 url: "https://badmusichertz.com" # The base hostname & protocol for your site
 dropbox-url: "https://dropbox.badmusichertz.com"
-host: localhost
+host: badmusichertz.com
 creator: The Barrowclift Sibs
 
 permalink: /post/:title # Permalink posts sorted by date with directories is awful.
