@@ -23,7 +23,7 @@ image: https://dropbox.badmusichertz.com/christmas-portrait/images/episode-art.j
 
 podcast-filename: "bmh18.mp3"
 podcast-duration: "01:08:07"
-podcast-size-in-bytes: 65707348
+podcast-size-in-bytes: 65725286
 
 genres:
   - Pop
