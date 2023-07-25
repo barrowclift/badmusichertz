@@ -18,7 +18,7 @@ episode: 16
 title: "Vide Noir"
 author: "the Barrowclift Siblings"
 date: 2022-08-09 19:05:56-0400
-last_modified_at: 2023-01-28 13:51:11-0500
+last_modified_at: 2023-07-24 19:34:16-0400
 excerpt: "Neutralize your consciousness with Marc &amp; Michael as they sail the astral plane with Lord Huron’s most popular product, “Vide Noir”."
 image: https://dropbox.badmusichertz.com/vide-noir/images/episode-art.jpg
 
@@ -53,7 +53,6 @@ Or purchase *Vide Noir* on:
     * [*Into the Sun* - EP](https://music.apple.com/us/album/into-the-sun-ep/393068685) (2010)
     * [*Lonesome Dreams*](https://music.apple.com/us/album/lonesome-dreams/970887928) (2012)
     * [*Strange Trails*](https://music.apple.com/us/album/strange-trails/962688212) (2015)
-* Berkley (Michael and Kailie's dog), certified best doggo in the world [![Michael and Kailie's dog, Berklely]({{ site.dropbox-url }}/vide-noir/images/berkley-is-best-dog.jpg)]({{ site.dropbox-url }}/vide-noir/images/berkley-is-best-dog.jpg)
 * [Riverside Theater](http://www.riverside.theater) in Milwaukee, WI
 * [Lord Huron's "Video Postcard" promotional shorts](https://www.youtube.com/watch?v=kr9CzohjQuY&list=PL26E088D7793E1C27&index=16)
 * ["Fool For Love" music video from 2015's *Strange Trail*](https://www.youtube.com/watch?v=fl1FOuZnOAg)
