@@ -18,13 +18,13 @@ episode: 9
 title: "The Epic - Volume I"
 author: "the Barrowclift Siblings"
 date: 2020-03-18 08:36:58-0400
-last_modified_at: 2023-01-28 13:51:11-0500
+last_modified_at: 2023-07-28 14:22:43-0400
 excerpt: "Join Marc and Michael as they tackle Kamasi Washington’s massive 2015 three-disk jazz opus, “The Epic”, starting with Volume I: “The Plan”."
 image: https://dropbox.badmusichertz.com/the-epic-volume-1/images/episode-art.jpg
 
 podcast-filename: "bmh9.mp3"
 podcast-duration: "00:56:59"
-podcast-size-in-bytes: 55199150
+podcast-size-in-bytes: 55210112
 
 artist: Kamasi Washington
 genres:

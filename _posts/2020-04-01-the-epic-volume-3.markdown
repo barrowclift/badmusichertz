@@ -18,7 +18,7 @@ episode: 11
 title: "The Epic - Volume III"
 author: "the Barrowclift Siblings"
 date: 2020-04-01 07:23:43-0400
-last_modified_at: 2023-01-28 13:51:11-0500
+last_modified_at: 2023-07-28 14:22:43-0400
 excerpt: "The journey finally reaches its end as Marc and Michael close the book on Kamasi Washington’s “The Epic” with Volume III: “The Historic Repetition”."
 image: https://dropbox.badmusichertz.com/the-epic-volume-3/images/episode-art.jpg
 
