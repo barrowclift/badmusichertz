@@ -17,7 +17,8 @@ show-menu-background: True
 title: "Favorite Video Game Soundtracks"
 author: "the Barrowclift Siblings &amp; Caity Cooper"
 date: 2018-06-24 15:30:00
-last_modified_at: 2023-01-28 13:51:11-0500
+last_modified_at: 2023-07-28 19:19:33-0400
+
 excerpt: "Special guest Caity Cooper joins Marc and Michael to celebrate their favorite video game soundtracks of all time."
 image: https://dropbox.badmusichertz.com/favorite-video-game-soundtracks/images/episode-art.jpg
 episode: 5
