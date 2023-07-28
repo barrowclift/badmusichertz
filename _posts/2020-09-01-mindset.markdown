@@ -19,7 +19,7 @@ episode: 14
 title: "Mindset"
 author: "the Barrowclift Siblings"
 date: 2020-09-01 19:20:54-0400
-last_modified_at: 2023-01-28 13:51:11-0500
+last_modified_at: 2023-07-28 07:39:24-0400
 excerpt: "Take some meditation time with Marc &amp; Michael as they reflect on Vacationer’s “Mindset”."
 image: https://dropbox.badmusichertz.com/mindset/images/episode-art.jpg
 

@@ -18,6 +18,7 @@ episode: 18
 title: "Christmas Portrait"
 author: "the Barrowclift Siblings"
 date: 2022-12-13 18:53:58-0500
+last_modified_at: 2023-07-28 07:39:24-0400
 excerpt: "Reminisce with Marc &amp; Michael over the nostalgic soundscape of Carpenters’ 1978 holiday spectacular, “Christmas Portrait”."
 image: https://dropbox.badmusichertz.com/christmas-portrait/images/episode-art.jpg
 
