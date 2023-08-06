@@ -1,0 +1,213 @@
+/**
+ * Background
+ */
+html {
+	background-color: #364459;
+}
+.review-page article,
+#springboard {
+	background-color: hsl(216, 24%, 100%);
+}
+::selection {
+	background: hsla(216, 24%, 36%, 0.99);
+}
+::-moz-selection {
+	background: hsla(216, 24%, 36%, 0.99);
+}
+
+/**
+ * Menu
+ */
+menu a,
+menu a:link,
+menu a:visited {
+	color: #FFFFFF;
+}
+.rss {
+	fill: #FFFFFF;
+}
+menu a:hover {
+	color: #7D8DBC;
+}
+menu a:hover .rss {
+	fill: #7D8DBC;
+}
+
+/**
+ * Record Logo
+ */
+#logo .record .flat-grooves {
+	fill: hsl(210, 25%, 95%);
+}
+#logo .record .runout {
+	stroke: hsl(210, 25%, 95%);
+}
+#logo .record .loud-grooves {
+	stroke: hsl(210, 25%, 95%);
+	fill: hsl(210, 25%, 100%);
+}
+#logo .record .quiet-grooves {
+	fill: hsl(210, 25%, 90%);
+}
+#logo .label-glow {
+	stroke: #7D8DBC;
+}
+#logo .label {
+	opacity: 1 !important;
+	fill: #7D8DBC;
+	stroke: #7D8DBC;
+}
+
+a:hover #logo .record .flat-grooves {
+	fill: hsl(225, 32%, 61%);
+}
+a:hover #logo .record .runout {
+	stroke: hsl(225, 32%, 61%);
+}
+a:hover #logo .record .loud-grooves {
+	stroke: hsl(225, 32%, 61%);
+	fill: hsl(225, 32%, 66%);
+}
+a:hover #logo .record .quiet-grooves {
+	fill: hsl(225, 32%, 56%);
+}
+a:hover #logo .label {
+	fill: rgba(0, 0, 0, 0);
+}
+
+/**
+ * Article Body
+ */
+a, a:link, a:visited {
+	color: #7D8DBC;
+}
+a:hover {
+	color: #3454B2;
+}
+
+#listen-on-buttons .start {
+	stop-color: #92A5D0;
+}
+#listen-on-buttons .stop {
+	stop-color: #243349;
+}
+
+.bigfoot-footnote__button,
+.bigfoot-footnote__button:link,
+.bigfoot-footnote__button:visited {
+	background-color: #7D8DBC;
+}
+.bigfoot-footnote__button:hover,
+.bigfoot-footnote__button:focus,
+.bigfoot-footnote__button:active,
+.bigfoot-footnote__button.is-active {
+	background-color: #7D8DBC;
+}
+
+@media (prefers-color-scheme: dark) {
+	/**
+     * Background
+     */
+    html {
+    	color: white;
+    }
+	.review-page article,
+	#springboard {
+		background-color: hsl(215, 34%, 15%);
+	}
+	::selection {
+		background: hsla(216, 50%, 55%, 0.99);
+	}
+	::-moz-selection {
+		background: hsla(216, 50%, 55%, 0.99);
+	}
+
+	/**
+	 * Menu
+	 */
+	menu a,
+	menu a:link,
+	menu a:visited {
+		color: #FFFFFF;
+	}
+	.rss {
+		fill: #FFFFFF;
+	}
+	menu a:hover {
+		color: hsl(216, 50%, 55%);
+	}
+	menu a:hover .rss {
+		fill: hsl(216, 50%, 55%);
+	}
+
+	/**
+	 * Record Logo
+	 */
+	#logo .record .flat-grooves {
+		fill: hsl(210, 25%, 95%);
+	}
+	#logo .record .runout {
+		stroke: hsl(210, 25%, 95%);
+	}
+	#logo .record .loud-grooves {
+		stroke: hsl(210, 25%, 95%);
+		fill: hsl(210, 25%, 100%);
+	}
+	#logo .record .quiet-grooves {
+		fill: hsl(210, 25%, 90%);
+	}
+	#logo .label-glow {
+		stroke: hsl(216, 50%, 55%);
+	}
+	#logo .label {
+		opacity: 1 !important;
+		fill: hsl(216, 50%, 55%);
+		stroke: hsl(216, 50%, 55%);
+	}
+
+	a:hover #logo .record .flat-grooves {
+		fill: hsl(216, 50%, 55%);
+	}
+	a:hover #logo .record .runout {
+		stroke: hsl(216, 50%, 55%);
+	}
+	a:hover #logo .record .loud-grooves {
+		stroke: hsl(216, 50%, 55%);
+		fill: hsl(216, 50%, 60%);
+	}
+	a:hover #logo .record .quiet-grooves {
+		fill: hsl(216, 50%, 50%);
+	}
+	a:hover #logo .label {
+		fill: rgba(0, 0, 0, 0);
+	}
+
+	/**
+	 * Article Body
+	 */
+	a, a:link, a:visited {
+		color: hsl(216, 50%, 55%);
+	}
+	a:hover {
+		color: hsl(216, 70%, 75%);
+	}
+	
+	#listen-on-buttons .start {
+		stop-color: hsl(216, 50%, 65%);
+	}
+	#listen-on-buttons .stop {
+		stop-color: hsl(216, 44%, 26%);
+	}
+
+	.bigfoot-footnote__button,
+	.bigfoot-footnote__button:link,
+	.bigfoot-footnote__button:visited {
+		background-color: hsl(216, 50%, 55%);
+	}
+	.bigfoot-footnote__button:hover,
+	.bigfoot-footnote__button:focus,
+	.bigfoot-footnote__button:active,
+	.bigfoot-footnote__button.is-active {
+		background-color: hsl(216, 50%, 55%);
+	}
+}

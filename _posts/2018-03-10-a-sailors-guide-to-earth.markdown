@@ -13,16 +13,16 @@ blurred-background: True
 title: "A Sailor’s Guide to Earth"
 author: "the Barrowclift Siblings"
 date: 2018-03-10 13:38:00
-last_modified_at: 2023-01-28 13:51:11-0500
+last_modified_at: 2023-08-06 11:39:47-0400
 excerpt: "Ahoy, mateys! Join the Barrowclift siblings as they set sail on life’s great ocean with Sturgill Simpson’s “A Sailor's Guide To Earth”."
 image: https://dropbox.badmusichertz.com/a-sailors-guide-to-earth/images/episode-art.jpg
-episode: 4
 
-podcast-filename: "bmh4.mp3"
-podcast-duration: "01:47:32"
-podcast-size-in-bytes: 52107223
-
-includes-aimee: True
+podcast:
+  episode: 4
+  filename: "bmh4.mp3"
+  size: 52107223
+  duration: "01:47:32"
+  includes-aimee: True
 
 artist: Sturgill Simpson
 genres:
@@ -35,6 +35,19 @@ categories:
   - Podcast
   - Album review
 ---
+
+## Support the Official Release
+
+You can listen to Sturgill Simpson's *A Sailor's Guide to Earth* on:
+
+* [Apple Music](https://music.apple.com/us/album/a-sailors-guide-to-earth/1088518253)
+* [Spotify](https://open.spotify.com/album/5I3UdCxtIh6hkQ7rMPUvA4?si=54ZFUC_9RNmC1FlxIwUD1Q)
+
+Or purchase *A Sailor's Guide to Earth* on:
+
+* [Amazon Music](https://www.amazon.com/Sailors-Guide-Earth-Vinyl-Bonus/dp/B01CJ1SLNU/ref=sr_1_1?crid=2H9MAXOWEEB3&keywords=A+Sailor%27s+Guide+to+Earth&qid=1691261809&s=music&sprefix=a+sailor%27s+guide+to+earth%2Cpopular%2C210&sr=1-1)
+
+## Links
 
 * [TheNeedleDrop - "The Internet's Busiest Music Nerd"](http://www.theneedledrop.com)
 	- [Review of *A Sailor's Guide To Earth*](https://www.youtube.com/watch?v=h_vuv0Oq6jQ)
@@ -66,13 +79,13 @@ categories:
 2. [*Metamodern Sounds in Country Music*](https://itunes.apple.com/us/album/metamodern-sounds-in-country-music/865795112) (2014)
 3. [*A Sailor's Guide to Earth*](https://itunes.apple.com/us/album/a-sailors-guide-to-earth/1088518253) (2016)
 
-## Referenced Quotes
+## References
 
 > My paternal grandfather, when he was in the army in World War II — he was over in the South Pacific and he thought he was gonna die. And he wrote a letter to my grandmother and their newborn son, thinking he wasn't gonna come home. And years later, after he was dead, and then once she'd passed, I was at her house and I just decided, "I'm gonna read this letter." And I probably learned more about him in those few pages than I ever could have sitting in a room with him. I remember going down the road on the [tour] bus one day and thinking, "What if I could just write a letter to my kid, telling him exactly who his dad was?" Like, everything I'm going through right now, at this point in my life. It was just like, "Ok, I'm gonna go make this really pure and beautiful thing for my son and incorporate all this music that I loved, outside of and other than country or bluegrass," which is all I've really had a chance to represent up until now.  
 >  
 > [NPR Interview: Sturgill Simpson Shares His "Guide To Earth"](https://www.npr.org/sections/allsongs/2016/04/15/474220553/all-songs-1-sturgill-simpson-shares-his-guide-to-earth)
 
------
+## Art
 
 ![Cover art]({{ site.dropbox-url }}/a-sailors-guide-to-earth/images/album-art.jpg)
 ![Back cover art]({{ site.dropbox-url }}/a-sailors-guide-to-earth/images/back-cover.jpg)

@@ -14,17 +14,18 @@ color-stop-1: "#FEF4E3"
 color-stop-2: "#FBD9A5"
 blurred-card: False
 
-episode: 18
 title: "Christmas Portrait"
 author: "the Barrowclift Siblings"
 date: 2022-12-13 18:53:58-0500
-last_modified_at: 2023-07-28 07:39:24-0400
+last_modified_at: 2023-08-06 11:39:47-0400
 excerpt: "Reminisce with Marc &amp; Michael over the nostalgic soundscape of Carpenters’ 1978 holiday spectacular, “Christmas Portrait”."
 image: https://dropbox.badmusichertz.com/christmas-portrait/images/episode-art.jpg
 
-podcast-filename: "bmh18.mp3"
-podcast-duration: "01:08:07"
-podcast-size-in-bytes: 65725286
+podcast:
+  episode: 18
+  filename: "bmh18.mp3"
+  size: 65725286
+  duration: "01:08:07"
 
 genres:
   - Pop
@@ -35,6 +36,8 @@ categories:
   - Holiday
 ---
 
+## Support the Official Release
+
 You can listen to Carpenters' *Christmas Portrait* on:
 
 * [Apple Music](https://music.apple.com/us/album/christmas-portrait-special-edition/1434882633)
@@ -44,7 +47,7 @@ Or purchase *Christmas Portrait* on:
 
 * [Amazon Music](https://www.amazon.com/dp/B07H132VW5/ref=sr_1_1?crid=2163XP8VCI58I&keywords=Christmas+Portrait&qid=1670636968&rnid=2941120011&s=dmusic&sprefix=christmas+portrait%2Caps%2C103&sr=1-1)
 
------
+## Links
 
 * [Carpenters' "Superstar"](https://music.apple.com/us/album/superstar/1429177732?i=1429181338), featured in [this classic car ride karaoke scene](https://www.youtube.com/watch?v=T7ZLIqJ8RN4) from *[Tommy Boy](https://en.wikipedia.org/wiki/Tommy_Boy)*.
 * [Episode 3: "The Christmas Draft"](https://badmusichertz.com/post/the-christmas-draft), where Marc drafts ["Merry Christmas Darling"](https://music.apple.com/us/album/merry-christmas-darling-single-version/1429177732?i=1429179340) & discusses at length with Michael & Aimee. Check it out for a more thorough discussion on the track.

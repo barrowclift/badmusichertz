@@ -14,17 +14,18 @@ color-stop-1: "#8F2021"
 color-stop-2: "#1A2223"
 blurred-card: False
 
-episode: 10
 title: "The Epic - Volume II"
 author: "the Barrowclift Siblings"
 date: 2020-03-25 07:18:07-0400
-last_modified_at: 2023-07-28 14:22:43-0400
+last_modified_at: 2023-08-06 11:39:47-0400
 excerpt: "The discussion continues as Marc and Michael open up Volume II: “The Glorious Tale” from Kamasi Washington’s “The Epic”."
 image: https://dropbox.badmusichertz.com/the-epic-volume-2/images/episode-art.jpg
 
-podcast-filename: "bmh10.mp3"
-podcast-duration: "01:05:07"
-podcast-size-in-bytes: 63015164
+podcast:
+  episode: 10
+  filename: "bmh10.mp3"
+  size: 63015164
+  duration: "01:05:07"
 
 artist: Kamasi Washington
 genres:
@@ -33,6 +34,8 @@ categories:
   - Podcast
   - Album review
 ---
+
+## Support the Official Release
 
 You can listen to Kamasi Washington's *The Epic* on:
 
@@ -44,7 +47,7 @@ Or purchase *The Epic* on:
 * [iTunes](https://music.apple.com/us/album/the-epic/975610456)
 * [Amazon Music](https://www.amazon.com/Epic-Kamasi-Washington/dp/B073JT28S3/ref=tmm_msc_swatch_0?_encoding=UTF8&qid=&sr=)
 
------
+## Links
 
 * [Cherokee (Ray Noble song from 1938)](https://en.wikipedia.org/wiki/Cherokee_(Ray_Noble_song))
 * [Vinyl release track order](https://en.wikipedia.org/wiki/The_Epic_%28album%29#Track_listing)
@@ -58,7 +61,7 @@ Or purchase *The Epic* on:
 * [Lindsay Ellis](https://www.youtube.com/channel/UCG1h-Wqjtwz7uUANw6gazRw)'s video essay on authorial intent, ["Death of the Author"](https://www.youtube.com/watch?v=MGn9x4-Y_7A)
 * [Kill Bill: Volume 1](https://en.wikipedia.org/wiki/Kill_Bill:_Volume_1) & [Kill Bill: Volume 2](https://en.wikipedia.org/wiki/Kill_Bill:_Volume_2)
 
-## Referenced Quotes
+## References
 
 > **I also loved "Leroy and Lanisha," it had a similar calm energy to it. For some reason it reminded me of a lullaby. Like, I had never heard it before, but it felt like I had, like someone had sang it to me, or something.**
 >

@@ -14,17 +14,18 @@ color-stop-1: "#1F305F"
 color-stop-2: "#0F1628"
 blurred-card: False
 
-episode: 12
 title: "Pure Comedy"
 author: "the Barrowclift Siblings"
 date: 2020-05-08 07:47:18-0400
-last_modified_at: 2023-07-28 14:22:43-0400
+last_modified_at: 2023-08-06 11:39:47-0400
 excerpt: "Reminisce about 2017 with Marc &amp; Michael on Father John Misty’s “Pure Comedy”."
 image: https://dropbox.badmusichertz.com/pure-comedy/images/episode-art.jpg
 
-podcast-filename: "bmh12.mp3"
-podcast-duration: "01:42:11"
-podcast-size-in-bytes: 102785654
+podcast:
+  episode: 12
+  filename: "bmh12.mp3"
+  size: 102785654
+  duration: "01:42:11"
 
 artist: Father John Misty
 genres:
@@ -37,6 +38,8 @@ categories:
   - Album review
 ---
 
+## Support the Official Release
+
 You can listen to Father John Misty's *Pure Comedy* on:
 
 * [Apple Music](https://music.apple.com/us/album/pure-comedy/1193788689)
@@ -46,7 +49,7 @@ Or purchase *The Epic* on:
 
 * [Amazon Music](https://www.amazon.com/Pure-Comedy-Father-John-Misty/dp/B01MZCV1YA)
 
------
+## Links
 
 * Father John Misty's other discography mentioned in-show:
     - 2012's [*Fear Fun*](https://music.apple.com/us/album/fear-fun/669285159)

@@ -14,17 +14,18 @@ color-stop-1: "#29491C"
 color-stop-2: "#040405"
 blurred-card: False
 
-episode: 16
 title: "Vide Noir"
 author: "the Barrowclift Siblings"
 date: 2022-08-09 19:05:56-0400
-last_modified_at: 2023-07-28 07:39:24-0400
+last_modified_at: 2023-08-06 11:39:47-0400
 excerpt: "Neutralize your consciousness with Marc &amp; Michael as they sail the astral plane with Lord Huron’s most popular product, “Vide Noir”."
 image: https://dropbox.badmusichertz.com/vide-noir/images/episode-art.jpg
 
-podcast-filename: "bmh16.mp3"
-podcast-duration: "02:06:24"
-podcast-size-in-bytes: 121630965
+podcast:
+  episode: 16
+  filename: "bmh16.mp3"
+  size: 121630965
+  duration: "02:06:24"
 
 artist: Lord Huron
 genres:
@@ -37,6 +38,8 @@ categories:
   - Album review
 ---
 
+## Support the Official Release
+
 You can listen to Lord Huron's *Vide Noir* on:
 
 * [Apple Music](https://music.apple.com/us/album/vide-noir/1440909604)
@@ -46,7 +49,7 @@ Or purchase *Vide Noir* on:
 
 * [Amazon Music](https://www.amazon.com/Vide-Noir-Lord-Huron/dp/B079VD4KS4)
 
------
+## Links
 
 * [Lord Huron](https://music.apple.com/us/artist/lord-huron/393068687)'s discography leading up to *Vide Noir*
     * [*Mighty* - EP](https://music.apple.com/us/album/mighty-ep/402225899) (2010)
@@ -77,7 +80,7 @@ Or purchase *Vide Noir* on:
 * ["Brain Scratch", *Cowboy Bebop*'s 23rd episode](https://cowboybebop.fandom.com/wiki/Brain_Scratch)
 * [Hannah Hillam](https://hannahhillam.com)'s relevant comic [![Void Juice gag]({{ site.dropbox-url }}/vide-noir/images/void-juice.jpg)](https://hannahhillam.com/comics)
 
-## Quotes
+## References
 
 > "Balancer's Eye" is one we created ourselves, making up our own myths as we go. We're trying to keep it so all that stuff is still around in this world too. You'll see things that appeared on other records, ideas or names cross over to [Vide Noir]. In movies and literature and comic books, I've always liked where there's connectedness or crossover. We need someone to control the lore and keep tabs on it [laughs].
 >

@@ -14,17 +14,18 @@ color-stop-1: "#1C7531"
 color-stop-2: "#0A2A12"
 blurred-card: False
 
-episode: 17
 title: "Shuffle Roulette"
 author: "the Barrowclift Siblings"
 date: 2022-11-06 16:14:14-0500
-last_modified_at: 2023-07-28 07:39:24-0400
+last_modified_at: 2023-08-06 11:39:47-0400
 excerpt: "What are we discussing this time? Who knows! Join Marc &amp; Michael as they click the “Shuffle” button and let fate decide."
 image: https://dropbox.badmusichertz.com/shuffle-roulette/images/episode-art.jpg
 
-podcast-filename: "bmh17.mp3"
-podcast-duration: "01:12:26"
-podcast-size-in-bytes: 74064240
+podcast:
+  episode: 17
+  filename: "bmh17.mp3"
+  size: 74064240
+  duration: "01:12:26"
 
 categories:
   - Podcast
@@ -32,7 +33,7 @@ categories:
   - Shuffle
 ---
 
-Our shuffle results (Spoilers!)
+## Shuffle Results (Spoilers!)
 
 1. Marc: ["Michicant", off Bon Ivers' self-titled](https://music.apple.com/us/album/michicant/438685974?i=438685993)
 2. Michael: ["Empty Room", off Arcade Fire's *The Suburbs*](https://music.apple.com/us/album/empty-room/1252757950?i=1252758315)
@@ -45,7 +46,7 @@ Our shuffle results (Spoilers!)
 9. Marc: ["It Was A Pleasure Then", off Niko's *Chelsea Girl*](https://music.apple.com/us/album/it-was-a-pleasure-then/1469551646?i=1469551655)
 10. Michael: ["This Changes Everything", off The Last Bison's *Dorado* EP](https://music.apple.com/us/album/this-changes-everything/966309509?i=966310090)
 
------
+## Links
 
 * [Michael's etched stone slab he calls a laptop](https://apple-history.com/mbp_retina), the 15" Mid 2012 MacBook Pro.
 * [Naughty Dog](https://www.naughtydog.com)'s [*The Last of Us: Part 1*](https://en.wikipedia.org/wiki/The_Last_of_Us_Part_I)

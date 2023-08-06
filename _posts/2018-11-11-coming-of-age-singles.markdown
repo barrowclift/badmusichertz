@@ -17,17 +17,17 @@ blurred-card: False
 title: "Coming-of-Age Singles"
 author: "the Barrowclift Siblings"
 date: 2018-11-11 13:30:00
-last_modified_at: 2023-01-28 13:51:11-0500
+last_modified_at: 2023-08-06 11:39:47-0400
 excerpt: Join the Barrowclift siblings as they reminisce about music from their formative teenage years. Complete with mixtapes, iPod playlists, and a mountain of regrets, it’s sure to be a rocky trip down memory lane!
 image: https://dropbox.badmusichertz.com/coming-of-age-singles/images/episode-art.jpg
-episode: 6
 
-podcast-filename: "bmh6.mp3"
-podcast-duration: "01:35:13"
-podcast-size-in-bytes: 91902542
-podcast-explicit: True
-
-includes-aimee: True
+podcast:
+  episode: 6
+  filename: "bmh6.mp3"
+  size: 91902542
+  duration: "01:35:13"
+  explicit: True
+  includes-aimee: True
 
 categories:
   - Podcast
@@ -37,12 +37,27 @@ categories:
 
 __Note: Some of the singles picked and sampled throughout the episode contain explicit lyrics and/or content.__
 
----
+## Links
 
 * [Marc's first Bad Music Hertz article on *Helplessness Blues*](https://badmusichertz.com/post/helplessness-blues) containing his "Lovers In Japan" story.
 * [Tim Convy on "Trip To The Lou"](http://www.triptothelou.com/2018/01/29/life-rock-band/)
 * [Tommy & The High Pilots → Beta Play Announcement](https://madisonhouseinc.com/beta-play/)
 * [Chris Hadfield performing Space Oddity on the International Space Station](https://youtu.be/KaOC9danxNo)
+* [The J. Geils Band - "Centerfold"](https://open.spotify.com/track/1MwyaG2niVjY9jMZbc3uPk?autoplay=true&v=T)
+* [Coldplay](https://open.spotify.com/artist/4gzpq5DPGxSnKTe4SA8HAU)
+    - [*Mylo Xyloto*](https://open.spotify.com/album/2R7iJz5uaHjLEVnMkloO18)
+    - [*Every Teardrop Is a Waterfall EP*](https://open.spotify.com/album/167lFNaglzjVhEDB7smSFL)
+    - Example electronic "stepping stone", ["Midnight"](https://open.spotify.com/track/0UrvIS9YOQL814w4LCtNGB?autoplay=true&v=T)
+    - Example experimental "stepping stone", ["Easy To Please"](https://open.spotify.com/track/6KHZ9SElsSmjQI7B9D0e4P?autoplay=true&v=T)
+* [Radiohead](https://open.spotify.com/artist/4Z8W4fKeB5YxbusRsdQVPb)
+* [MisterWives](https://open.spotify.com/artist/5ivCbtrcD5N4rD337xIb2z)
+* [LUDO](https://open.spotify.com/artist/6ok7bEDf9CZ0448D59AaNL)
+    - ["Ode to Kevin Arnold"](https://open.spotify.com/track/0nmZEHClXcO7yAI9IwEgu7)
+    - ["Lake Pontchartrain"](https://open.spotify.com/track/1Moyw4cce9rpiXfkyTs31U)
+* [Ninja Sex Party](https://open.spotify.com/artist/3jsyANBBy6gOZUSQhiGclx). They're not good.
+* [Tommy & The High Pilots](https://open.spotify.com/artist/67b9QkZPVWgGiC3xDUk2um)
+    - [*American Riviera*](https://open.spotify.com/album/14ZKPbkTn3FAA7ymj7QcqN)
+    - [*Only Human*](https://open.spotify.com/album/3xeZO5tcb2wsAMFwxfczjv)
 
 ## Aimee's Singles
 
@@ -88,23 +103,5 @@ __Note: Some of the singles picked and sampled throughout the episode contain ex
 *Mistakes*
 
 * [Paula Abdul's "Dance Like There's No Tomorrow"](https://open.spotify.com/track/0D19Npg7RGGTjC9UIqoO0Z?autoplay=true&v=T) & accompanying [music video](https://www.youtube.com/watch?v=ygT4sCJIdVo)
-
-## Referenced Songs, Albums, and Artists
-
-* [The J. Geils Band - "Centerfold"](https://open.spotify.com/track/1MwyaG2niVjY9jMZbc3uPk?autoplay=true&v=T)
-* [Coldplay](https://open.spotify.com/artist/4gzpq5DPGxSnKTe4SA8HAU)
-    - [*Mylo Xyloto*](https://open.spotify.com/album/2R7iJz5uaHjLEVnMkloO18)
-    - [*Every Teardrop Is a Waterfall EP*](https://open.spotify.com/album/167lFNaglzjVhEDB7smSFL)
-    - Example electronic "stepping stone", ["Midnight"](https://open.spotify.com/track/0UrvIS9YOQL814w4LCtNGB?autoplay=true&v=T)
-    - Example experimental "stepping stone", ["Easy To Please"](https://open.spotify.com/track/6KHZ9SElsSmjQI7B9D0e4P?autoplay=true&v=T)
-* [Radiohead](https://open.spotify.com/artist/4Z8W4fKeB5YxbusRsdQVPb)
-* [MisterWives](https://open.spotify.com/artist/5ivCbtrcD5N4rD337xIb2z)
-* [LUDO](https://open.spotify.com/artist/6ok7bEDf9CZ0448D59AaNL)
-    - ["Ode to Kevin Arnold"](https://open.spotify.com/track/0nmZEHClXcO7yAI9IwEgu7)
-    - ["Lake Pontchartrain"](https://open.spotify.com/track/1Moyw4cce9rpiXfkyTs31U)
-* [Ninja Sex Party](https://open.spotify.com/artist/3jsyANBBy6gOZUSQhiGclx). They're not good.
-* [Tommy & The High Pilots](https://open.spotify.com/artist/67b9QkZPVWgGiC3xDUk2um)
-    - [*American Riviera*](https://open.spotify.com/album/14ZKPbkTn3FAA7ymj7QcqN)
-    - [*Only Human*](https://open.spotify.com/album/3xeZO5tcb2wsAMFwxfczjv)
 
 ♫︎

@@ -14,17 +14,18 @@ color-stop-1: "#AD8642"
 color-stop-2: "#322E29"
 blurred-card: False
 
-episode: 11
 title: "The Epic - Volume III"
 author: "the Barrowclift Siblings"
 date: 2020-04-01 07:23:43-0400
-last_modified_at: 2023-07-28 14:22:43-0400
+last_modified_at: 2023-08-06 11:39:47-0400
 excerpt: "The journey finally reaches its end as Marc and Michael close the book on Kamasi Washington’s “The Epic” with Volume III: “The Historic Repetition”."
 image: https://dropbox.badmusichertz.com/the-epic-volume-3/images/episode-art.jpg
 
-podcast-filename: "bmh11.mp3"
-podcast-duration: "01:19:04"
-podcast-size-in-bytes: 76488524
+podcast:
+  episode: 11
+  filename: "bmh11.mp3"
+  size: 76488524
+  duration: "01:19:04"
 
 artist: Kamasi Washington
 genres:
@@ -33,6 +34,8 @@ categories:
   - Podcast
   - Album review
 ---
+
+## Support the Official Release
 
 You can listen to Kamasi Washington's *The Epic* on:
 
@@ -44,7 +47,7 @@ Or purchase *The Epic* on:
 * [iTunes](https://music.apple.com/us/album/the-epic/975610456)
 * [Amazon Music](https://www.amazon.com/Epic-Kamasi-Washington/dp/B073JT28S3/ref=tmm_msc_swatch_0?_encoding=UTF8&qid=&sr=)
 
------
+## Links
 
 * [Thundercat](https://ninjatune.net/artist/thundercat)
 * [Call and Response (music)](https://en.wikipedia.org/wiki/Call_and_response_(music))
@@ -58,7 +61,7 @@ Or purchase *The Epic* on:
 * ["Battery Kinzie", Fleet Foxes *Helplessness Blues*](https://music.apple.com/us/album/battery-kinzie/425059566?i=425059575)
 * Last song wouldn't be complete without us once again getting our instrument solos mixed up; The solo we loved from "The Message" was the electric bass solo played by Stephen Bruner.
 
-## Referenced Quotes
+## References
 
 > "Malcolm's Theme"—when I was younger I got caught up in gangs and I was headed down that path. I had two things that brought me out of that, I had a cousin give me an Art Blakey mixtape and I was in this program and we read Malcolm X's autobiography. I always wanted to give that same thing back. It had such a profound effect on me that maybe I could help someone else. If I could do something that people would look back on the message he was giving during his life, with the music.
 >

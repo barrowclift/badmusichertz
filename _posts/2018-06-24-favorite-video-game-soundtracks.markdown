@@ -17,21 +17,21 @@ show-menu-background: True
 title: "Favorite Video Game Soundtracks"
 author: "the Barrowclift Siblings &amp; Caity Cooper"
 date: 2018-06-24 15:30:00
-last_modified_at: 2023-07-28 19:19:33-0400
+last_modified_at: 2023-08-06 11:39:47-0400
 
 excerpt: "Special guest Caity Cooper joins Marc and Michael to celebrate their favorite video game soundtracks of all time."
 image: https://dropbox.badmusichertz.com/favorite-video-game-soundtracks/images/episode-art.jpg
-episode: 5
 
-podcast-filename: "bmh5.mp3"
-podcast-duration: "02:19:28"
-podcast-size-in-bytes: 134395442
-
-guests:
-  -
-    name: Caity Cooper
-    href: https://twitter.com/CaitySecret
-    img: https://dropbox.badmusichertz.com/assets/guests/caity-cooper.jpg
+podcast:
+  episode: 5
+  filename: "bmh5.mp3"
+  size: 134395442
+  duration: "02:19:28"
+  guests:
+    -
+      name: Caity Cooper
+      href: https://twitter.com/CaitySecret
+      img: https://dropbox.badmusichertz.com/assets/guests/caity-cooper.jpg
 
 categories:
   - Podcast
@@ -42,7 +42,9 @@ categories:
   - Caity Cooper
 ---
 
-You can find Caity Cooper at [caitycooper.com](http://caitycooper.com). You can also find her every Thursday updating her thrilling paranormal investigation web comic, [Bloodhound](http://www.bloodhoundcomic.com).
+You can find Caity Cooper's other work at [caitycooper.com](http://caitycooper.com).
+
+## Links
 
 * [ProZD's YouTube Channel](https://www.youtube.com/channel/UC6MFZAOHXlKK1FI7V0XQVeA)
     - [Going from cutscene graphics to in-game graphics](https://www.youtube.com/watch?v=JnX42OHnuLA)

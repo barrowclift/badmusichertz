@@ -15,16 +15,16 @@ color-stop-2: "#383D41"
 title: "Strange Trails"
 author: "the Barrowclift Siblings"
 date: 2017-12-06 17:10:00
-last_modified_at: 2023-01-28 13:51:11-0500
+last_modified_at: 2023-08-06 11:39:47-0400
 excerpt: "Join the Barrowclift siblings as they explore the winding road of Lord Huron’s sophomore LP, “Strange Trails”."
 image: https://dropbox.badmusichertz.com/strange-trails/images/episode-art.jpg
-episode: 2
 
-podcast-filename: "bmh2.mp3"
-podcast-duration: "02:18:08"
-podcast-size-in-bytes: 66807736
-
-includes-aimee: True
+podcast:
+  episode: 2
+  filename: "bmh2.mp3"
+  size: 66807736
+  duration: "02:18:08"
+  includes-aimee: True
 
 artist: Lord Huron
 genres:
@@ -36,6 +36,19 @@ categories:
   - Podcast
   - Album review
 ---
+
+## Support the Official Release
+
+You can listen to Lord Huron's *Strange Trails* on:
+
+* [Apple Music](https://music.apple.com/us/album/strange-trails/962688212)
+* [Spotify](https://open.spotify.com/album/3yoNZlqerJnsnMN5EDwwBS?si=9AyvoDQdQvyzLcIym-QSvg)
+
+Or purchase *Lonesome Dreams* on:
+
+* [Amazon Music](https://www.amazon.com/Strange-Trails-Lord-Huron/dp/B00TD5RSLW/ref=sr_1_1?crid=23T578N6BCFH8&keywords=Strange+trails&qid=1691261733&s=music&sprefix=strange+tra%2Cpopular%2C178&sr=1-1)
+
+## Links
 
 * Previous episode - [Bad Music Hertz Episode 1: Lonesome Dreams]({{ site.url }}/post/lonesome-dreams)
 * Michael the Marmot ![Screenshot of a Skype window with Aimee's avatar as a normal picture and Michael's as that of a fat marmot eating a Cheeto]({{ site.dropbox-url }}/strange-trails/images/michael-the-marmot.png)
@@ -73,13 +86,13 @@ categories:
 * __Theme__ (Also called "Subject"): "A recognizable melody upon which part or all of a composition is based on." ([Wiki](https://en.wikipedia.org/wiki/Subject_(music)))
 * __Rockabilly__: "One of the earliest styles of rock and roll music, dating back to the early 1950s in the United States, especially the South ... The term 'rockabilly' itself is a portmanteau of 'rock' (from "rock 'n' roll") and 'hillbilly', the latter a reference to the country music that contributed strongly to the style." ([Wiki](https://en.wikipedia.org/wiki/Rockabilly))
 
-## Referenced Quotes
+## References
 
 "Yeah I definitely let things spin off into fiction. But, my sort of approach or philosophy has always been to begin with something that happened to me, or to someone close. There's always something at the centre that's from a real experience. To me that feels like the only way for the work to be true." - [AAA Backstage interview with Ben Schneider](http://aaabackstage.com/interview-ben-schneider-lord-huron/)
 
 "All the stories on the album are either about my life or the lives of people who are close to me. I look at them through a fictional lens, but they all come from stuff that’s happened to us." - [LA Music Blog interview with Ben Schneider](http://lamusicblog.com/2013/03/interview/ben-schneider-lord-huron/)
 
-## Marc's Sophomore LP Categories and Examples:
+## Marc's Sophomore LP Categories and Examples
 
 * Sophomore Slump 👎🏻
 	- [Mumford & Sons](https://open.spotify.com/artist/3gd8FJtBJtkRxdfbTu19U2)
@@ -97,7 +110,7 @@ categories:
 	- [Sturgill Simpson](https://open.spotify.com/artist/3vDpQbGnzRbRVirXlfQagB)
 		* 2014's [*Metamodern Sounds in Country Music*](https://open.spotify.com/album/4makbOuLd5SUdyHMaNM1Ag) → 2016's [*A Sailor's Guide to Earth*](https://open.spotify.com/album/5I3UdCxtIh6hkQ7rMPUvA4)
 
----------
+## Art
 
 ![Album art]({{ site.dropbox-url }}/strange-trails/images/album-art.jpg)
 ![Album back art]({{ site.dropbox-url }}/strange-trails/images/strange-trails-back.jpg)

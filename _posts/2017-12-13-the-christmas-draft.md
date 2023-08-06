@@ -17,16 +17,16 @@ blurred-card: False
 title: "The Christmas Draft"
 author: "the Barrowclift Siblings"
 date: 2017-12-13 19:18:00
-last_modified_at: 2023-01-28 13:51:11-0500
+last_modified_at: 2023-08-06 11:39:47-0400
 excerpt: With the fire roaring and hot cocoa piping, join the Barrowclift siblings as they go head-to-head to see who can create the best Christmas EP. Whose is the best? You decide!
 image: https://dropbox.badmusichertz.com/the-christmas-draft/images/episode-art.jpg
-episode: 3
 
-podcast-filename: "bmh3.mp3"
-podcast-duration: "01:22:18"
-podcast-size-in-bytes: 40009918
-
-includes-aimee: True
+podcast:
+  episode: 3
+  filename: "bmh3.mp3"
+  size: 40009918
+  duration: "01:22:18"
+  includes-aimee: True
 
 categories:
   - Podcast
@@ -42,6 +42,10 @@ It's BOTH!
 
 With the fire roaring and hot cocoa piping, join the Barrowclift siblings as they go head-to-head to see who can create the *best* Christmas EP. Whose is the best? You decide!
 
+Be sure to let us know which EP is your favorite! Also, what would *your* Christmas EP be? You can reach out on [Twitter](https://twitter.com/badmusichertz), with an [email](mailto:{{ site.email }}), or on [badmusichertz.com's contact form](https://badmusichertz.com/contact/). Merry Christmas!
+
+## Links
+
 * [EP ("Extended Play")](https://en.wikipedia.org/wiki/Extended_play) and [LP ("Long Play")](https://en.wikipedia.org/wiki/LP_record) format types.
 * ["The Christmas Song" - Michael Bublé](https://www.youtube.com/watch?v=L70jsue-wEg)
 * ["The Christmas Song" - Amy Grant](https://www.youtube.com/watch?v=PvedXe3nM2U)
@@ -54,8 +58,6 @@ With the fire roaring and hot cocoa piping, join the Barrowclift siblings as the
 * Musical Theme (Also called "Subject"): "A recognizable melody upon which part or all of a composition is based on." ([Wiki](https://en.wikipedia.org/wiki/Subject_(music)))
 * The one and __only__ ["White Winter Hymnal" - Fleet Foxes](https://www.youtube.com/watch?v=DrQRS40OKNE)
 * [Dominick the glorious Italian Christmas Donkey](https://www.youtube.com/watch?v=hYlvfX3nwlc)
-
-Be sure to let us know which EP is your favorite! Also, what would *your* Christmas EP be? You can reach out on [Twitter](https://twitter.com/badmusichertz), with an [email](mailto:{{ site.email }}), or on [badmusichertz.com's contact form](https://badmusichertz.com/contact/). Merry Christmas!
 
 ## SPOILERS
 

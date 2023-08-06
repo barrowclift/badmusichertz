@@ -14,16 +14,16 @@ show-menu-background: True
 title: "Lonesome Dreams"
 author: "The Barrowclift Siblings"
 date: 2017-11-29 21:29:00
-last_modified_at: 2023-01-28 13:51:11-0500
+last_modified_at: 2023-08-06 11:39:47-0400
 excerpt: "Join the Barrowclift siblings in their very first podcast as they analyze and celebrate Lord Huron’s debut LP, “Lonesome Dreams”."
 image: https://dropbox.badmusichertz.com/lonesome-dreams/images/episode-art.jpg
-episode: 1
 
-podcast-filename: "bmh1.mp3"
-podcast-duration: "01:37:49"
-podcast-size-in-bytes: 47438991
-
-includes-aimee: True
+podcast:
+  episode: 1
+  filename: "bmh1.mp3"
+  size: 47438991
+  duration: "01:37:49"
+  includes-aimee: True
 
 artist: Lord Huron
 genres:
@@ -36,7 +36,18 @@ categories:
   - Album review
 ---
 
-A celebration and analysis of Lord Huron's debut LP, *Lonesome Dreams*.
+## Support the Official Release
+
+You can listen to Lord Huron's *Lonesome Dreams* on:
+
+* [Apple Music](https://music.apple.com/us/album/lonesome-dreams-bonus-track-version/1661048523)
+* [Spotify](https://open.spotify.com/album/0AG1T3Wbq7TnYMItBqXp2c?si=vkT84UzXSAy93uQl5QGcjw)
+
+Or purchase *Lonesome Dreams* on:
+
+* [Amazon Music](https://www.amazon.com/Lonesome-Dreams-Lord-Huron/dp/B00914ESZ4)
+
+## Links
 
 * Lord Huron websites
 	- [*Lonesome Dreams* (Internet Archive)](https://web.archive.org/web/20121201170541/http://www.lordhuron.com/)
@@ -47,7 +58,7 @@ A celebration and analysis of Lord Huron's debut LP, *Lonesome Dreams*.
 * [*Strange Trails* comic book](https://www.merchbar.com/rock-alternative/lord-huron/lord-huron-strange-trails-comic-book)
 * [NPR Interview with Lord Huron's Ben Schneider](http://www.npr.org/2015/04/06/397364256/lord-huron-wants-you-to-dance-at-the-apocalypse)
 
------------
+## Art
 
 ![Album art]({{ site.dropbox-url }}/lonesome-dreams/images/album-art.jpg)
 !["Lullaby" accompanying art]({{ site.dropbox-url }}/lonesome-dreams/images/lullaby.jpg)

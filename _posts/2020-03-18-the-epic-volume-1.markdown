@@ -14,17 +14,18 @@ color-stop-1: "#595D5F"
 color-stop-2: "#101417"
 blurred-card: False
 
-episode: 9
 title: "The Epic - Volume I"
 author: "the Barrowclift Siblings"
 date: 2020-03-18 08:36:58-0400
-last_modified_at: 2023-07-28 14:22:43-0400
+last_modified_at: 2023-08-06 11:39:47-0400
 excerpt: "Join Marc and Michael as they tackle Kamasi Washington’s massive 2015 three-disk jazz opus, “The Epic”, starting with Volume I: “The Plan”."
 image: https://dropbox.badmusichertz.com/the-epic-volume-1/images/episode-art.jpg
 
-podcast-filename: "bmh9.mp3"
-podcast-duration: "00:56:59"
-podcast-size-in-bytes: 55210112
+podcast:
+  episode: 9
+  filename: "bmh9.mp3"
+  size: 55210112
+  duration: "00:56:59"
 
 artist: Kamasi Washington
 genres:
@@ -33,6 +34,8 @@ categories:
   - Podcast
   - Album review
 ---
+
+## Support the Official Release
 
 You can listen to Kamasi Washington's *The Epic* on:
 
@@ -44,7 +47,7 @@ Or purchase *The Epic* on:
 * [iTunes](https://music.apple.com/us/album/the-epic/975610456)
 * [Amazon Music](https://www.amazon.com/Epic-Kamasi-Washington/dp/B073JT28S3/ref=tmm_msc_swatch_0?_encoding=UTF8&qid=&sr=)
 
------
+## Links
 
 * [Vinyl release track order](https://en.wikipedia.org/wiki/The_Epic_%28album%29#Track_listing)
 * [Kendrick Lamar](http://www.kendricklamar.com)'s *[To Pimp a Butterfly](https://music.apple.com/us/album/to-pimp-a-butterfly/1440828886)*
@@ -57,7 +60,7 @@ Or purchase *The Epic* on:
 * [Cowboy Bebop](https://en.wikipedia.org/wiki/Cowboy_Bebop)
 * [Fleet Foxes](https://fleetfoxes.co)' [The Shrine / An Argument](https://music.apple.com/us/album/helplessness-blues/425059566)
 
-## Referenced Quotes
+## References
 
 > His recent triple album, "The Epic," is a nearly three-hour suite for a 10-piece jazz band, backed by a 32-piece orchestra and a 20-person choir.
 >

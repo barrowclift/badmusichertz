@@ -17,16 +17,16 @@ blurred-card: False
 title: "Grand Hotel"
 author: "the Barrowclift Siblings"
 date: 2018-12-22 11:51:00
-last_modified_at: 2023-01-28 13:51:11-0500
+last_modified_at: 2023-08-06 11:39:47-0400
 excerpt: "Take a brief Christmas vacation with the Barrowclift siblings as they soak up the warm vibes of The Explorers Club’s “Grand Hotel”."
 image: https://dropbox.badmusichertz.com/grand-hotel/images/episode-art.jpg
-episode: 7
 
-podcast-filename: "bmh7.mp3"
-podcast-duration: "01:14:21"
-podcast-size-in-bytes: 71885185
-
-includes-aimee: True
+podcast:
+  episode: 7
+  filename: "bmh7.mp3"
+  size: 71885185
+  duration: "01:14:21"
+  includes-aimee: True
 
 artist: The Explorers Club
 genres:
@@ -39,6 +39,8 @@ categories:
   - Album review
 ---
 
+## Support the Official Release
+
 You can listen to The Explorers Club's *Grand Hotel* on:
 
 * [Apple Music](https://itunes.apple.com/us/album/grand-hotel/520454399)
@@ -50,7 +52,7 @@ Or purchase *Grand Hotel* on:
 * [iTunes](https://itunes.apple.com/us/album/grand-hotel/520454399)
 * [Amazon Music](https://www.amazon.com/Grand-Hotel-Explorers-Club/dp/B01JH9MGZG/ref=sr_1_1?ie=UTF8&qid=1545494530&sr=8-1&keywords=the+explorers+club+grand+hotel)
 
------
+## Links
 
 * [The Beach Boys](https://en.wikipedia.org/wiki/The_Beach_Boys)
 	- [*SMiLE*](https://en.wikipedia.org/wiki/Smile_(The_Beach_Boys_album))
@@ -87,7 +89,7 @@ Or purchase *Grand Hotel* on:
 * [Electric Light Orchestra (ELO)](https://en.wikipedia.org/wiki/Electric_Light_Orchestra)
 * [Kenny Chesney](https://en.wikipedia.org/wiki/Kenny_Chesney)'s cover of Lord Huron's ["Ends of the Earth"](https://www.youtube.com/watch?v=Nf_qO8BTz1Y) (NOT GOOD)
 
------
+## Alternative Track Order
 
 Marc's suggested, alternative album order:
 
@@ -111,7 +113,7 @@ Marc's suggested, alternative album order:
 13. "Weight of the World"
 14. "Open the Door"
 
------
+## Art
 
 ![Cover art]({{ site.dropbox-url }}/grand-hotel/images/album-art.jpg)
 ![Back cover art]({{ site.dropbox-url }}/grand-hotel/images/back-cover.jpg)
