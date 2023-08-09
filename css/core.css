@@ -1055,9 +1055,6 @@ input, textarea {
         padding-left: 5% !important;
         padding-right: 5% !important;
     }
-    .record {
-        margin-right: 0;
-    }
 }
 
 @media (min-width: 375px) {
