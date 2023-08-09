@@ -15,10 +15,12 @@ menu a:link,
 menu a:visited {
 	color: #FCFDFD;
 }
-.rss {
+menu a .rss,
+menu a .letter {
 	fill: #FCFDFD;
 }
-menu a:hover .rss {
+menu a:hover .rss,
+menu a:hover .letter {
 	fill: #9EC0C0;
 }
 #logo .record .loud-grooves {

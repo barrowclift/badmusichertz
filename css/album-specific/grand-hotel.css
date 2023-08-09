@@ -35,10 +35,12 @@ menu a:link,
 menu a:visited {
 	color: #BFC5AA;
 }
-.rss {
+menu a .rss,
+menu a .letter {
 	fill: #BFC5AA;
 }
-menu a:hover .rss {
+menu a:hover .rss,
+menu a:hover .letter {
 	fill: #E7CA4D;
 }
 menu a:hover {
@@ -131,10 +133,12 @@ menu {
 	menu a:visited {
 		color: hsla(79, 19%, 67%, 0.9);
 	}
-	.rss {
+	menu a .rss,
+	menu a .letter {
 		fill: hsla(79, 19%, 67%, 0.9);
 	}
-	menu a:hover .rss {
+	menu a:hover .rss,
+	menu a:hover .letter {
 		fill: #E7CA4D;
 	}
 	#logo .record .loud-grooves {

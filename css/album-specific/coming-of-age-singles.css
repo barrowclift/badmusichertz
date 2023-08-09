@@ -24,10 +24,12 @@ a, a:link, a:visited,
 menu a:hover {
 	color: #b05d20;
 }
-.rss {
+menu a .rss,
+menu a .letter {
 	fill: rgba(33, 37, 41, 0.9);
 }
-menu a:hover .rss {
+menu a:hover .rss,
+menu a:hover .letter {
 	fill: #b05d20;
 }
 #logo .record .loud-grooves {
@@ -94,10 +96,12 @@ a:hover {
 	menu a:hover {
 		color: #b05d20;
 	}
-	.rss {
+	menu a .rss,
+	menu a .letter {
 		fill: white;
 	}
-	menu a:hover .rss {
+	menu a:hover .rss,
+	menu a:hover .letter {
 		fill: #b05d20;
 	}
 	#logo .record .loud-grooves {

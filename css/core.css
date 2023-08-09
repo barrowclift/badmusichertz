@@ -376,9 +376,17 @@ menu a,
 menu a:link,
 menu a:visited {
     color: #171717;
+    fill: #171717;
 }
+menu .letter {
+    fill: #171717;
+}
+
 menu a:hover {
     color: #e03131;
+}
+menu a:hover .letter {
+    fill: #e03131;
 }
 
 
@@ -449,8 +457,11 @@ compensate*/
 
 .record {
     display: inline-block;
-    width: 1rem;
-    height: auto;
+    width: auto;
+    height: 1rem;
+    margin-bottom: -0.5px;
+    padding-right: 1px;
+    margin-right: -1px;
 }
 
 /**
@@ -1206,14 +1217,14 @@ input, textarea {
         }
     }
     .record {
-        width: 0.75em;
+        width: 0.56em;
         height: auto;
     }
     .record {
         vertical-align: middle;
         margin-right: -0.21rem;
         padding-right: 1px;
-        padding-top: 1px;
+        padding-top: 2.5px;
         padding-bottom: 0.4rem;
     }
 
@@ -1482,6 +1493,9 @@ input, textarea {
     menu a:visited {
         color: hsl(360, 74%, 96%);
     }
+    menu .letter {
+        fill: hsl(360, 74%, 96%);
+    }
     a,
     a:link,
     a:visited {
@@ -1492,6 +1506,9 @@ input, textarea {
     }
     menu a:hover {
         color: hsl(360, 84%, 54%);
+    }
+    menu a:hover .letter {
+        fill: hsl(360, 84%, 54%);
     }
     #logo .record .loud-grooves {
         stroke: hsl(360, 37%, 84%);

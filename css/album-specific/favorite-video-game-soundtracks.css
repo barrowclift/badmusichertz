@@ -44,10 +44,12 @@ menu a:visited {
 menu a:hover {
 	color: #FFFFFF;
 }
-.rss {
+menu a .rss,
+menu a .letter {
 	fill: #010000;
 }
-menu a:hover .rss {
+menu a:hover .rss,
+menu a:hover .letter {
 	fill: #FFFFFF;
 }
 a, a:link, a:visited {
@@ -190,10 +192,12 @@ menu,
 	menu a:hover {
 		color: #010000;
 	}
-	.rss {
+	menu a .rss,
+	menu a .letter {
 		fill: #FFF8F7;
 	}
-	menu a:hover .rss {
+	menu a:hover .rss,
+	menu a:hover .letter {
 		fill: #010000;
 	}
 	#logo .record .loud-grooves {

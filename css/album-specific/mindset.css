@@ -39,29 +39,31 @@ a, a:link, a:visited {
 menu a,
 menu a:link,
 menu a:visited {
-	color: #F2ECD1;
+	color: #FFFFFF;
 }
 menu a:hover {
 	color: #E98635;
 }
-.rss {
-	fill: #F2ECD1;
+menu a .rss,
+menu a .letter {
+	fill: #FFFFFF;
 }
-menu a:hover .rss {
+menu a:hover .rss,
+menu a:hover .letter {
 	fill: #E98635;
 }
 #logo .record .flat-grooves {
-	fill: hsl(47, 65%, 85%);
+	fill: hsl(210, 25%, 95%);
 }
 #logo .record .runout {
-	stroke: hsl(47, 65%, 85%);
+	stroke: hsl(210, 25%, 95%);
 }
 #logo .record .loud-grooves {
-	stroke: hsl(47, 65%, 85%);
-	fill: hsl(47, 65%, 90%);
+	stroke: hsl(210, 25%, 95%);
+	fill: hsl(210, 25%, 100%);
 }
 #logo .record .quiet-grooves {
-	fill: hsl(47, 65%, 80%);
+	fill: hsl(210, 25%, 90%);
 }
 .label {
 	opacity: 0;

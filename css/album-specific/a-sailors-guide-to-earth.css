@@ -36,10 +36,12 @@ a:hover,
 menu a:hover {
 	color: hsl(38, 67%, 46%);
 }
-.rss {
+menu a .rss,
+menu a .letter {
 	fill: #F6C879;
 }
-menu a:hover .rss {
+menu a:hover .rss,
+menu a:hover .letter {
 	fill: hsl(38, 67%, 46%);
 }
 

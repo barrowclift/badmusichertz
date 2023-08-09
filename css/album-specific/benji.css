@@ -61,10 +61,12 @@ a, a:link, a:visited {
 menu a:hover {
 	color: #7F6631;
 }
-.rss {
+menu a .rss,
+menu a .letter {
 	fill: hsla(40, 50%, 55%, 0.9);
 }
-menu a:hover .rss {
+menu a:hover .rss,
+menu a:hover .letter {
 	fill: #7F6631;
 }
 a:hover #logo .record .loud-grooves {

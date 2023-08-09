@@ -49,13 +49,15 @@ menu a:link,
 menu a:visited {
 	color: #B21E0F;
 }
-.rss {
+menu a .rss,
+menu a .letter {
 	fill: #B21E0F;
 }
 menu a:hover {
 	color: #EF5242;
 }
-menu a:hover .rss {
+menu a:hover .rss,
+menu a:hover .letter {
 	fill: #EF5242;
 }
 #logo .record .loud-grooves {
@@ -165,10 +167,12 @@ article hr, footer hr {
 	menu a:visited {
 		color: #F7F0DE;
 	}
-	.rss {
+	menu a .rss,
+	menu a .letter {
 		fill: #F7F0DE;
 	}
-	menu a:hover .rss {
+	menu a:hover .rss,
+	menu a:hover .letter {
 		fill: #B21E0F;
 	}
 	article header h1 span,

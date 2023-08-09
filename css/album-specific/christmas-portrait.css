@@ -23,13 +23,15 @@ menu a:link,
 menu a:visited {
 	color: #000000;
 }
-.rss {
+menu a .rss,
+menu a .letter {
 	fill: #000000;
 }
 menu a:hover {
 	color: #DF0024;
 }
-menu a:hover .rss {
+menu a:hover .rss,
+menu a:hover .letter {
 	fill: #DF0024;
 }
 
@@ -130,13 +132,15 @@ a:hover {
 	menu a:visited {
 		color: #FFFFFF;
 	}
-	.rss {
+	menu a .rss,
+	menu a .letter {
 		fill: #FFFFFF
 	}
 	menu a:hover {
 		color: hsl(350, 100%, 30%);
 	}
-	menu a:hover .rss {
+	menu a:hover .rss,
+	menu a:hover .letter {
 		fill: hsl(350, 100%, 30%);
 	}
 

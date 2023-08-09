@@ -34,10 +34,12 @@ menu a:link,
 menu a:visited {
 	color: #DFDFDD;
 }
-.rss {
+menu a .rss,
+menu a .letter {
 	fill: #DFDFDD;
 }
-menu a:hover .rss {
+menu a:hover .rss,
+menu a:hover .letter {
 	fill: #888A89;
 }
 menu a:hover {

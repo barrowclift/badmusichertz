@@ -25,10 +25,12 @@ menu a:link,
 menu a:visited {
 	color: #3E3620;
 }
-.rss {
+menu a .rss,
+menu a .letter {
 	fill: #3E3620;
 }
-menu a:hover .rss {
+menu a:hover .rss,
+menu a:hover .letter {
 	fill: hsl(75, 39%, 26%);
 }
 ::selection {
@@ -185,10 +187,12 @@ a:hover #logo .record .runout {
 	menu a:hover {
 		color: hsl(75, 50%, 25%);
 	}
-	.rss {
+	menu a .rss,
+	menu a .letter {
 		fill: #DDC395;
 	}
-	menu a:hover .rss {
+	menu a:hover .rss,
+	menu a:hover .letter {
 		fill: hsl(75, 50%, 25%);
 	}
 	::selection {

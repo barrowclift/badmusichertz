@@ -55,13 +55,15 @@ menu a:link,
 menu a:visited {
 	color: rgba(255, 255, 255, 0.8);
 }
-.rss {
+menu a .rss,
+menu a .letter {
 	fill: rgba(255, 255, 255, 0.8);
 }
 menu a:hover {
 	color: #92C69F;
 }
-menu a:hover .rss {
+menu a:hover .rss,
+menu a:hover .letter {
 	fill: #92C69F;
 }
 
@@ -127,10 +129,12 @@ menu a:hover .rss {
 	menu a:visited {
 		color: #92C69F;
 	}
-	.rss {
+	menu a .rss,
+	menu a .letter {
 		fill: #92C69F;
 	}
-	menu a:hover .rss {
+	menu a:hover .rss,
+	menu a:hover .letter {
 		fill: #586B63;
 	}
 	#logo .record .loud-grooves {

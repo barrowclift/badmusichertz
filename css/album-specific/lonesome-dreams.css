@@ -33,7 +33,8 @@ menu a:link,
 menu a:visited {
 	color: #696553;
 }
-.rss {
+menu a .rss,
+menu a .letter {
 	fill: #696553;
 }
 a, a:link, a:visited {
@@ -42,7 +43,8 @@ a, a:link, a:visited {
 menu a:hover {
 	color: #4B646C
 }
-menu a:hover .rss {
+menu a:hover .rss,
+menu a:hover .letter {
 	fill: #4B646C;
 }
 #logo .record .loud-grooves {
@@ -114,10 +116,12 @@ a:hover {
 	menu a:visited {
 		color: #F7F0DE;
 	}
-	.rss {
+	menu a .rss,
+	menu a .letter {
 		fill: #F7F0DE;
 	}
-	menu a:hover .rss {
+	menu a:hover .rss,
+	menu a:hover .letter {
 		fill: #A29768;
 	}
 	#logo .record .loud-grooves {

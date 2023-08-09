@@ -25,10 +25,12 @@ menu a:visited {
 menu a:hover {
 	color: #466777;
 }
-.rss {
+menu a .rss,
+menu a .letter {
 	fill: #3F3B36;
 }
-menu a:hover .rss {
+menu a:hover .rss,
+menu a:hover .letter {
 	fill: #466777;
 }
 #logo .record .flat-grooves {
@@ -115,7 +117,8 @@ menu {
 	menu a:hover {
 		color: #466777;
 	}
-	.rss {
+	menu a .rss,
+	menu a .letter {
 		fill: #F0EEE2
 	}
 	.review-page article,

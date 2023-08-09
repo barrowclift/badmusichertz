@@ -9,11 +9,13 @@ article hr, footer hr {
 	background: linear-gradient(to right,  #09100B 0%,#1B1B1B 25%,#1B1B1B 50%,#1B1B1B 75%,#09100B 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#09100B', endColorstr='#09100B',GradientType=1 ); /* IE6-9 */
 }
-.rss {
+menu a .rss,
+menu a .letter {
 	fill: #F1FEFE;
 	filter: drop-shadow(0 0 2px #F1FEFE) drop-shadow(0 0 10px #1FB255) drop-shadow(0 0 5px #1FB255);
 }
-menu a:hover .rss {
+menu a:hover .rss,
+menu a:hover .letter {
 	fill: #1FB255;
 }
 .album-art {
