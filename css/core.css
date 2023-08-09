@@ -378,7 +378,7 @@ menu a:visited {
     color: #171717;
     fill: #171717;
 }
-menu .letter {
+.letter {
     fill: #171717;
 }
 
@@ -1490,7 +1490,7 @@ input, textarea {
     menu a:visited {
         color: hsl(360, 74%, 96%);
     }
-    menu .letter {
+    .letter {
         fill: hsl(360, 74%, 96%);
     }
     a,
