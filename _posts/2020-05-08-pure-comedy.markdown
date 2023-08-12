@@ -17,7 +17,7 @@ blurred-card: False
 title: "Pure Comedy"
 author: "the Barrowclift Siblings"
 date: 2020-05-08 07:47:18-0400
-last_modified_at: 2023-08-06 11:39:47-0400
+last_modified_at: 2023-08-11 21:47:19-0400
 excerpt: "Reminisce about 2017 with Marc &amp; Michael on Father John Misty’s “Pure Comedy”."
 image: https://dropbox.badmusichertz.com/pure-comedy/images/episode-art.jpg
 

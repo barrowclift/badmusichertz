@@ -13,7 +13,7 @@ blurred-background: True
 title: "A Sailor’s Guide to Earth"
 author: "the Barrowclift Siblings"
 date: 2018-03-10 13:38:00
-last_modified_at: 2023-08-06 11:39:47-0400
+last_modified_at: 2023-08-11 21:47:19-0400
 excerpt: "Ahoy, mateys! Join the Barrowclift siblings as they set sail on life’s great ocean with Sturgill Simpson’s “A Sailor's Guide To Earth”."
 image: https://dropbox.badmusichertz.com/a-sailors-guide-to-earth/images/episode-art.jpg
 

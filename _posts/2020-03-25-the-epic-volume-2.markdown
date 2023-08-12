@@ -17,7 +17,7 @@ blurred-card: False
 title: "The Epic - Volume II"
 author: "the Barrowclift Siblings"
 date: 2020-03-25 07:18:07-0400
-last_modified_at: 2023-08-06 11:39:47-0400
+last_modified_at: 2023-08-11 21:47:19-0400
 excerpt: "The discussion continues as Marc and Michael open up Volume II: “The Glorious Tale” from Kamasi Washington’s “The Epic”."
 image: https://dropbox.badmusichertz.com/the-epic-volume-2/images/episode-art.jpg
 

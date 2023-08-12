@@ -17,7 +17,7 @@ blurred-card: False
 title: "Shuffle Roulette"
 author: "the Barrowclift Siblings"
 date: 2022-11-06 16:14:14-0500
-last_modified_at: 2023-08-06 11:39:47-0400
+last_modified_at: 2023-08-11 21:47:19-0400
 excerpt: "What are we discussing this time? Who knows! Join Marc &amp; Michael as they click the “Shuffle” button and let fate decide."
 image: https://dropbox.badmusichertz.com/shuffle-roulette/images/episode-art.jpg
 

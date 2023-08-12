@@ -17,7 +17,7 @@ blurred-card: False
 title: "Coming-of-Age Singles"
 author: "the Barrowclift Siblings"
 date: 2018-11-11 13:30:00
-last_modified_at: 2023-08-06 11:39:47-0400
+last_modified_at: 2023-08-11 21:47:19-0400
 excerpt: Join the Barrowclift siblings as they reminisce about music from their formative teenage years. Complete with mixtapes, iPod playlists, and a mountain of regrets, it’s sure to be a rocky trip down memory lane!
 image: https://dropbox.badmusichertz.com/coming-of-age-singles/images/episode-art.jpg
 

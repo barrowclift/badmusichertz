@@ -15,7 +15,7 @@ color-stop-2: "#383D41"
 title: "Strange Trails"
 author: "the Barrowclift Siblings"
 date: 2017-12-06 17:10:00
-last_modified_at: 2023-08-06 11:39:47-0400
+last_modified_at: 2023-08-11 21:47:19-0400
 excerpt: "Join the Barrowclift siblings as they explore the winding road of Lord Huron’s sophomore LP, “Strange Trails”."
 image: https://dropbox.badmusichertz.com/strange-trails/images/episode-art.jpg
 
