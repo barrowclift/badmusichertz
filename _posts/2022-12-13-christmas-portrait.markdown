@@ -4,15 +4,19 @@ layout: podcast
 album-name: "christmas-portrait"
 album-art-hidden-text: ""
 
-theme-color: "#FEF4E3"
-theme-color-dark: "#7F7A71"
-primary-color: "#000000"
-secondary-color: "#DF0024"
-blurred-background: False
-
-color-stop-1: "#FEF4E3"
-color-stop-2: "#FBD9A5"
-blurred-card: False
+theme:
+  safari-toolbar-color:
+    light: "#FEF4E3"
+    dark: "#7F7A71"
+  article:
+    blurred: False
+  card:
+    blurred: False
+    title-color: "#000000"
+    subtitle-color: "#DF0024"
+    gradient:
+      center-color: "#FEF4E3"
+      outer-color: "#FBD9A5"
 
 title: "Christmas Portrait"
 author: "the Barrowclift Siblings"

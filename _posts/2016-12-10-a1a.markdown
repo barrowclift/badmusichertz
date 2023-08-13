@@ -4,15 +4,21 @@ layout: post
 album-name: "a1a"
 album-art-hidden-text: ""
 
-theme-color: "#FFFEF8"
-theme-color-dark: "#42392F"
-primary-color: "#AA1C0F"
-secondary-color: "#B47A70"
-color-stop-1: "#F4F1E8"
-color-stop-2: "#EDEAE1"
-blurred-background: False
-blurred-card: False
-disable-dark-overlay: True
+theme:
+  safari-toolbar-color:
+    light: "#FFFEF8"
+    dark: "#42392F"
+  article:
+    blurred: False
+    show-menu-background: False
+    disable-dark-overlay: True
+  card:
+    blurred: False
+    title-color: "#AA1C0F"
+    subtitle-color: "#B47A70"
+    gradient:
+      center-color: "#F4F1E8"
+      outer-color: "#EDEAE1"
 
 title: "A1A"
 author: "Michael Barrowclift"

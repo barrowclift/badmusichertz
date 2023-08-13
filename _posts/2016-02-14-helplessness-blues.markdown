@@ -4,12 +4,20 @@ layout: post
 album-name: "helplessness-blues"
 album-art-hidden-text: "By far one of my favorite album covers as well. There’s so much abstract scenes, characters, and emotions going on it’s hard to know where to look first."
 
-theme-color: "#000000"
-theme-color-dark: "#000000"
-primary-color: "#E0BF70"
-secondary-color: "#C29159"
-blurred-background: True
-show-menu-background: True
+theme:
+  safari-toolbar-color:
+    light: "#E3D0A7"
+    dark: "#000000"
+  article:
+    blurred: True
+    show-menu-background: True
+  card:
+    blurred: True
+    title-color: "#E0BF70"
+    subtitle-color: "#C29159"
+    gradient:
+      center-color: "#465873"
+      outer-color: "#191917"
 
 title: "Helplessness Blues"
 author: "Marc Barrowclift"

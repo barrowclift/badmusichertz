@@ -4,11 +4,19 @@ layout: post
 album-name: "divers"
 album-art-hidden-text: "Another fantastic album cover, I find myself yearning to explore the foggy dream garden every time I look at it"
 
-theme-color: "#867B5C"
-theme-color-dark: "#413B2D"
-primary-color: "#F1D6AA"
-secondary-color: "#BCE0D0"
-blurred-background: True
+theme:
+  safari-toolbar-color:
+    light: "#867B5C"
+    dark: "#37322A"
+  article:
+    blurred: True
+  card:
+    blurred: True
+    title-color: "#F1D6AA"
+    subtitle-color: "#BCE0D0"
+    gradient:
+      center-color: "#465873"
+      outer-color: "#191917"
 
 title: "Divers"
 author: "Marc Barrowclift"

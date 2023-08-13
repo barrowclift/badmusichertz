@@ -1,18 +1,23 @@
 ---
 layout: podcast
 
-theme-color: "#243349"
-theme-color-dark: "#131923"
-blurred-background: True
-
-primary-color: "#FFFFFF"
-secondary-color: "#92A5D0"
-color-stop-1: "#465873"
-color-stop-2: "#191917"
-blurred-card: False
-
 album-name: "infinite-arms"
-album-art-hidden-text: ""
+
+theme:
+  safari-toolbar-color:
+    light: "#243349"
+    dark: "#131923"
+  article:
+    blurred: True
+    show-menu-background: False
+    disable-dark-overlay: False
+  card:
+    blurred: False
+    title-color: "#FFFFFF"
+    subtitle-color: "#92A5D0"
+    gradient:
+      center-color: "#465873"
+      outer-color: "#191917"
 
 title: "Infinite Arms"
 author: "the Barrowclift Siblings"

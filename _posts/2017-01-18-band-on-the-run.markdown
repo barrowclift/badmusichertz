@@ -4,11 +4,17 @@ layout: post
 album-name: "band-on-the-run"
 album-art-hidden-text: Yikes! They found us!
 
-theme-color: "#0D0D0D"
-primary-color: "#E5B780"
-secondary-color: "#B7845B"
-blurred-background: False
-disable-dark-overlay: True
+theme:
+  safari-toolbar-color:
+    light: "#040404"
+  article:
+    blurred: False
+    show-menu-background: False
+    disable-dark-overlay: True
+  card:
+    blurred: True
+    title-color: "#E5B780"
+    subtitle-color: "#B7845B"
 
 title: "Band on the Run"
 author: "Marc Barrowclift"

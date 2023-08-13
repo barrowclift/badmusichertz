@@ -4,11 +4,16 @@ layout: post
 album-name: "the-suburbs"
 album-art-hidden-text: "Another all-time favorite album cover of mine. It looks as if it was printed in a local newspaper, it gives the album’s packaging a sense of purposeful cheapness and disposability."
 
-theme-color: "#1F2F23"
-theme-color-dark: "#0F1813"
-primary-color: "#A7BFB9"
-secondary-color: "#DBD1C1"
-blurred-background: True
+theme:
+  safari-toolbar-color:
+    light: "#1F2F23"
+    dark: "#0F1813"
+  article:
+    blurred: True
+  card:
+    blurred: True
+    title-color: "#A7BFB9"
+    subtitle-color: "#DBD1C1"
 
 title: "The Suburbs"
 author: "Marc Barrowclift"

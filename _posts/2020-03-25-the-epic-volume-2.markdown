@@ -4,15 +4,21 @@ layout: podcast
 album-name: "the-epic-volume-2"
 album-art-hidden-text: ""
 
-theme-color: "#7E0417"
-theme-color-dark: "#3E020B"
-primary-color: "#FFFFFF"
-secondary-color: "#AAAAAA"
-blurred-background: True
-
-color-stop-1: "#8F2021"
-color-stop-2: "#1A2223"
-blurred-card: False
+theme:
+  safari-toolbar-color:
+    light: "#7E0417"
+    dark: "#3E020B"
+  article:
+    blurred: True
+    show-menu-background: False
+    permanently-dark: False
+  card:
+    blurred: False
+    title-color: "#FFFFFF"
+    subtitle-color: "#AAAAAA"
+    gradient:
+      center-color: "#8F2021"
+      outer-color: "#1A2223"
 
 title: "The Epic - Volume II"
 author: "the Barrowclift Siblings"

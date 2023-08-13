@@ -69,9 +69,10 @@ a:hover #logo .record .runout {
 }
 #logo .label-glow {
 	stroke: #C5D9D7;
+	opacity: 0 !important
 }
 #logo .label {
-	opacity: 1 !important;
+	opacity: 0 !important;
 	fill: #C5D9D7;
 	stroke: #C5D9D7;
 }
@@ -210,10 +211,11 @@ a:hover {
 		stroke: hsl(52, 21%, 55%);
 	}
 	#logo .label-glow {
+		opacity: 0 !important
 		stroke: #CADAD6;
 	}
 	#logo .label {
-		opacity: 1 !important;
+		opacity: 0 !important;
 		fill: #CADAD6;
 		stroke: #CADAD6;
 	}

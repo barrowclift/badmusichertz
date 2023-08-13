@@ -12,11 +12,11 @@
 	<meta name="application-name" content="Bad Music Hertz" />
 	<meta name="msapplication-TileColor" content="#F7F9FA" />
 	<meta name="msapplication-config" content="{{ site.baseurl }}/images/logo/browserconfig.xml" />
-	{% if page.theme-color %}
-	{% if page.theme-color-dark %}
-	<meta name="theme-color" content="{{ page.theme-color-dark }}" media="(prefers-color-scheme: dark)" />
+	{% if page.theme.safari-toolbar-color.light %}
+	{% if page.theme.safari-toolbar-color.dark %}
+	<meta name="theme-color" content="{{ page.theme.safari-toolbar-color.dark }}" media="(prefers-color-scheme: dark)" />
 	{% endif %}
-	<meta name="theme-color" content="{{ page.theme-color }}" />
+	<meta name="theme-color" content="{{ page.theme.safari-toolbar-color.light }}" />
 	{% else %}
 	<meta name="theme-color" content="#1A1212" media="(prefers-color-scheme: dark)" />
 	<meta name="theme-color" content="#F7F9FA" />

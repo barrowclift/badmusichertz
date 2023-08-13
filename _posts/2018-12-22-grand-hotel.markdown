@@ -4,15 +4,21 @@ layout: podcast
 album-name: "grand-hotel"
 album-art-hidden-text: ""
 
-theme-color: "#4D6136"
-theme-color-dark: "#282E1C"
-primary-color: "#E7CA4D"
-secondary-color: "#C9C8AD"
-blurred-background: True
-
-color-stop-1: "#667447"
-color-stop-2: "#232B26"
-blurred-card: False
+theme:
+  safari-toolbar-color:
+    light: "#4D6136"
+    dark: "#282E1C"
+  article:
+    blurred: True
+    show-menu-background: False
+    permanently-dark: False
+  card:
+    blurred: False
+    title-color: "#E7CA4D"
+    subtitle-color: "#C9C8AD"
+    gradient:
+      center-color: "#667447"
+      outer-color: "#232B26"
 
 title: "Grand Hotel"
 author: "the Barrowclift Siblings"

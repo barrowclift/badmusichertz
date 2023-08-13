@@ -4,15 +4,21 @@ layout: podcast
 album-name: "favorite-video-game-soundtracks"
 album-art-hidden-text: ""
 
-theme-color: "#CC693C"
-theme-color-dark: "#8A3C19"
-primary-color: "#393A3E"
-secondary-color: "#595E73"
-color-stop-1: "#7F97E4"
-color-stop-2: "#FFFFFF"
-blurred-background: False
-blurred-card: False
-show-menu-background: True
+theme:
+  safari-toolbar-color:
+    light: "#CC693C"
+    dark: "#8A3C19"
+  article:
+    blurred: False
+    show-menu-background: True
+    permanently-dark: False
+  card:
+    blurred: False
+    title-color: "#393A3E"
+    subtitle-color: "#595E73"
+    gradient:
+      center-color: "#7F97E4"
+      outer-color: "#FFFFFF"
 
 title: "Favorite Video Game Soundtracks"
 author: "the Barrowclift Siblings &amp; Caity Cooper"

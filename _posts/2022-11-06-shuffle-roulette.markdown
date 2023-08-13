@@ -4,15 +4,19 @@ layout: podcast
 album-name: "shuffle-roulette"
 album-art-hidden-text: ""
 
-theme-color: "#196A2C"
-theme-color-dark: "#0E3515"
-primary-color: "#FFFFFF"
-secondary-color: "#ADADAD"
-blurred-background: False
-
-color-stop-1: "#1C7531"
-color-stop-2: "#0A2A12"
-blurred-card: False
+theme:
+  safari-toolbar-color:
+    light: "#196A2C"
+    dark: "#0E3515"
+  article:
+    blurred: False
+  card:
+    blurred: False
+    title-color: "#FFFFFF"
+    subtitle-color: "#ADADAD"
+    gradient:
+      center-color: "#1C7531"
+      outer-color: "#0A2A12"
 
 title: "Shuffle Roulette"
 author: "the Barrowclift Siblings"

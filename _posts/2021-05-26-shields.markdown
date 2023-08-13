@@ -4,17 +4,20 @@ layout: podcast
 album-name: "shields"
 album-art-hidden-text: ""
 
-theme-color: "#F0EEE2"
-theme-color-dark: "#3F3B36"
-
-primary-color: "#F2EDDF"
-secondary-color: "#CDC9BD"
-blurred-background: False
-show-menu-background: True
-
-color-stop-1: "#949188"
-color-stop-2: "#342F2A"
-blurred-card: False
+theme:
+  safari-toolbar-color:
+    light: "#F0EEE2"
+    dark: "#3F3B36"
+  article:
+    blurred: False
+    show-menu-background: True
+  card:
+    blurred: False
+    title-color: "#F2EDDF"
+    subtitle-color: "#CDC9BD"
+    gradient:
+      center-color: "#949188"
+      outer-color: "#342F2A"
 
 title: "Shields"
 author: "the Barrowclift Siblings"

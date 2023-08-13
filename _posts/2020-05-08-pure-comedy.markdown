@@ -4,15 +4,21 @@ layout: podcast
 album-name: "pure-comedy"
 album-art-hidden-text: ""
 
-theme-color: "#070F2E"
-theme-color-dark: "#040919"
-primary-color: "#FFFFFF"
-secondary-color: "#AAAAAA"
-blurred-background: True
-
-color-stop-1: "#1F305F"
-color-stop-2: "#0F1628"
-blurred-card: False
+theme:
+  safari-toolbar-color:
+    light: "#070F2E"
+    dark: "#040919"
+  article:
+    blurred: True
+    show-menu-background: False
+    permanently-dark: False
+  card:
+    blurred: False
+    title-color: "#FFFFFF"
+    subtitle-color: "#AAAAAA"
+    gradient:
+      center-color: "#1F305F"
+      outer-color: "#0F1628"
 
 title: "Pure Comedy"
 author: "the Barrowclift Siblings"

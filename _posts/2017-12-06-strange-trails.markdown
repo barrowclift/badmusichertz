@@ -4,13 +4,20 @@ layout: podcast
 album-name: "strange-trails"
 album-art-hidden-text: ""
 
-theme-color: "#191B1E"
-theme-color-dark: "#161618"
-primary-color: "#9F9444"
-secondary-color: "#9F9444"
-blurred-card: False
-color-stop-1: "#1A1B1D"
-color-stop-2: "#383D41"
+theme:
+  safari-toolbar-color:
+    light: "#1D1D20"
+    dark: "#0F0F0E"
+  article:
+    blurred: True
+    show-menu-background: False
+  card:
+    blurred: False
+    title-color: "#9F9444"
+    subtitle-color: "#9F9444"
+    gradient:
+      center-color: "#1A1B1D"
+      outer-color: "#383D41"
 
 title: "Strange Trails"
 author: "the Barrowclift Siblings"

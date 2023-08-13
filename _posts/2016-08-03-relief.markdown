@@ -4,11 +4,16 @@ layout: post
 album-name: "relief"
 album-art-hidden-text: "A Relief could mean everything"
 
-theme-color: "#447582"
-theme-color-dark: "#233B40"
-primary-color: "#F9F7D1"
-secondary-color: "#EBF5EA"
-blurred-background: True
+theme:
+  safari-toolbar-color:
+    light: "#447582"
+    dark: "#233B40"
+  article:
+    blurred: True
+  card:
+    blurred: True
+    title-color: "#F9F7D1"
+    subtitle-color: "#EBF5EA"
 
 title: "Relief"
 author: "Michael Barrowclift"

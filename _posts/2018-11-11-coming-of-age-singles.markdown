@@ -4,15 +4,21 @@ layout: podcast
 album-name: "coming-of-age-singles"
 album-art-hidden-text: ""
 
-theme-color: "#F8FAFB"
-theme-color-dark: "#7E7F7F"
-primary-color: "#3F2F27"
-secondary-color: "#676059"
-blurred-card: True
-
-color-stop-1: "#AE9484"
-color-stop-2: "#F9FCFF"
-blurred-card: False
+theme:
+  safari-toolbar-color:
+    light: "#F8FAFB"
+    dark: "#7E7F7F"
+  article:
+    blurred: True
+    show-menu-background: False
+    permanently-dark: False
+  card:
+    blurred: False
+    title-color: "#3F2F27"
+    subtitle-color: "#676059"
+    gradient:
+      center-color: "#AE9484"
+      outer-color: "#F9FCFF"
 
 title: "Coming-of-Age Singles"
 author: "the Barrowclift Siblings"

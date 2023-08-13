@@ -1,16 +1,18 @@
 ---
 layout: post
 
-theme-color: "#101010"
-theme-color-dark: "#101010"
-
 album-name: "broken-bride"
 
-primary-color: "#E3E3E3"
-secondary-color: "#759D9A"
-blurred-background: False
-dark-theme: True
-disable-dark-overlay: True
+theme:
+  safari-toolbar-color:
+    light: "#101010"
+  article:
+    blurred: False
+    disable-dark-overlay: True
+  card:
+    blurred: True
+    title-color: "#E3E3E3"
+    subtitle-color: "#759D9A"
 
 title: "Broken Bride"
 author: "Michael Barrowclift"

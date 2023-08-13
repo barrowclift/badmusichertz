@@ -5,12 +5,18 @@ image: https://dropbox.badmusichertz.com/scum-fuck-flower-boy/images/album-art.j
 album-name: "scum-fuck-flower-boy"
 album-art-hidden-text: ""
 
-theme-color: "#FEB626"
-theme-color-dark: "#7F5C17"
-primary-color: "#F2E4BD"
-secondary-color: "#EC7C43"
-blurred-background: True
-show-menu-background: False
+theme:
+  safari-toolbar-color:
+    light: "#FEB626"
+    dark: "#7F5C17"
+  article:
+    blurred: True
+    show-menu-background: False
+    permanently-dark: False
+  card:
+    blurred: True
+    title-color: "#F2E4BD"
+    subtitle-color: "#EC7C43"
 
 title: "Scum Fuck Flower Boy"
 author: "Marc Barrowclift"

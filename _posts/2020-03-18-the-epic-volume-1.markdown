@@ -4,15 +4,21 @@ layout: podcast
 album-name: "the-epic-volume-1"
 album-art-hidden-text: ""
 
-theme-color: "#515658"
-theme-color-dark: "#292B2B"
-primary-color: "#FFFFFF"
-secondary-color: "#AAAAAA"
-blurred-background: True
-
-color-stop-1: "#595D5F"
-color-stop-2: "#101417"
-blurred-card: False
+theme:
+  safari-toolbar-color:
+    light: "#515658"
+    dark: "#292B2B"
+  article:
+    blurred: True
+    show-menu-background: False
+    permanently-dark: False
+  card:
+    blurred: False
+    title-color: "#FFFFFF"
+    subtitle-color: "#AAAAAA"
+    gradient:
+      center-color: "#595D5F"
+      outer-color: "#101417"
 
 title: "The Epic - Volume I"
 author: "the Barrowclift Siblings"

@@ -4,15 +4,22 @@ layout: podcast
 album-name: "the-christmas-draft"
 album-art-hidden-text: ""
 
-theme-color: "#F5C5C3"
-theme-color-dark: "#7B6261"
-primary-color: "#4C4C4E"
-secondary-color: "#887878"
-color-stop-1: "#F2BFBD"
-color-stop-2: "#F4F8F9"
-blurred-background: True
-background-image-extension: png
-blurred-card: False
+theme:
+  safari-toolbar-color:
+    light: "#F5C5C3"
+    dark: "#7B6261"
+  article:
+    blurred: True
+    background-image-extension: png
+    show-menu-background: False
+    permanently-dark: False
+  card:
+    blurred: False
+    title-color: "#4C4C4E"
+    subtitle-color: "#887878"
+    gradient:
+      center-color: "#F2BFBD"
+      outer-color: "#F4F8F9"
 
 title: "The Christmas Draft"
 author: "the Barrowclift Siblings"

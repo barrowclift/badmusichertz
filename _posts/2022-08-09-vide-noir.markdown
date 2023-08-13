@@ -4,15 +4,20 @@ layout: podcast
 album-name: "vide-noir"
 album-art-hidden-text: ""
 
-theme-color: "#040405"
-primary-color: "#1FB255"
-secondary-color: "#0C7332"
-blurred-background: False
-dark-theme: True
-
-color-stop-1: "#29491C"
-color-stop-2: "#040405"
-blurred-card: False
+theme:
+  safari-toolbar-color:
+    light: "#040405"
+  article:
+    blurred: False
+    show-menu-background: False
+    disable-dark-overlay: True
+  card:
+    blurred: False
+    title-color: "#1FB255"
+    subtitle-color: "#0C7332"
+    gradient:
+      center-color: "#29491C"
+      outer-color: "#040405"
 
 title: "Vide Noir"
 author: "the Barrowclift Siblings"

@@ -4,11 +4,21 @@ layout: podcast
 album-name: "a-sailors-guide-to-earth"
 album-art-hidden-text: ""
 
-theme-color: "#070906"
-theme-color-dark: "#0B0A09"
-primary-color: "#E2F0F6"
-secondary-color: "#C4A56F"
-blurred-background: True
+theme:
+  safari-toolbar-color:
+    light: "#070906"
+    dark: "#0B0A09"
+  article:
+    blurred: True
+    show-menu-background: False
+    permanently-dark: False
+  card:
+    blurred: True
+    title-color: "#E2F0F6"
+    subtitle-color: "#C4A56F"
+    gradient:
+      center-color: "#465873"
+      outer-color: "#191917"
 
 title: "A Sailor’s Guide to Earth"
 author: "the Barrowclift Siblings"

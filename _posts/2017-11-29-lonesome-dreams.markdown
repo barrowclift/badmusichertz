@@ -4,12 +4,17 @@ layout: podcast
 album-name: "lonesome-dreams"
 album-art-hidden-text: ""
 
-theme-color: "#E9E4D4"
-theme-color-dark: "#3D4744"
-primary-color: "#F6EEDF"
-secondary-color: "#B5AD9C"
-blurred-background: True
-show-menu-background: True
+theme:
+  safari-toolbar-color:
+    light: "#E9E4D4"
+    dark: "#3D4744"
+  article:
+    blurred: True
+    show-menu-background: Trie
+  card:
+    blurred: True
+    title-color: "#F6EEDF"
+    subtitle-color: "#B5AD9C"
 
 title: "Lonesome Dreams"
 author: "The Barrowclift Siblings"

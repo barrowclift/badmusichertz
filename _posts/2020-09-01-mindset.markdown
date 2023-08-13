@@ -4,16 +4,19 @@ layout: podcast
 album-name: "mindset"
 album-art-hidden-text: ""
 
-theme-color: "#FACC21"
-theme-color-dark: "#7E6414"
-
-primary-color: "#205B64"
-secondary-color: "#6E7B5B"
-blurred-background: True
-
-color-stop-1: "#F2C419"
-color-stop-2: "#F2ECD1"
-blurred-card: False
+theme:
+  safari-toolbar-color:
+    light: "#FACC21"
+    dark: "#7E6414"
+  article:
+    blurred: True
+  card:
+    blurred: False
+    title-color: "#205B64"
+    subtitle-color: "#6E7B5B"
+    gradient:
+      center-color: "#F2C419"
+      outer-color: "#F2ECD1"
 
 title: "Mindset"
 author: "the Barrowclift Siblings"

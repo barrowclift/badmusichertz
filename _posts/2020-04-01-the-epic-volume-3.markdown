@@ -4,15 +4,21 @@ layout: podcast
 album-name: "the-epic-volume-3"
 album-art-hidden-text: ""
 
-theme-color: "#604006"
-theme-color-dark: "#2F1E06"
-primary-color: "#FFFFFF"
-secondary-color: "#AAAAAA"
-blurred-background: True
-
-color-stop-1: "#AD8642"
-color-stop-2: "#322E29"
-blurred-card: False
+theme:
+  safari-toolbar-color:
+    light: "#604006"
+    dark: "#2F1E06"
+  article:
+    blurred: True
+    show-menu-background: False
+    permanently-dark: False
+  card:
+    blurred: False
+    title-color: "#FFFFFF"
+    subtitle-color: "#AAAAAA"
+    gradient:
+      center-color: "#AD8642"
+      outer-color: "#322E29"
 
 title: "The Epic - Volume III"
 author: "the Barrowclift Siblings"

@@ -4,16 +4,21 @@ layout: podcast
 album-name: "breakfast-in-america"
 album-art-hidden-text: ""
 
-show-menu-background: False
-theme-color: "#5697C9"
-theme-color-dark: "#2B4C64"
-primary-color: "#E9F3EF"
-secondary-color: "#99BDD9"
-blurred-background: True
-
-color-stop-1: "#5E9CD0"
-color-stop-2: "#38515B"
-blurred-card: False
+theme:
+  safari-toolbar-color:
+    light: "#5697C9"
+    dark: "#2B4C64"
+  article:
+    blurred: True
+    show-menu-background: False
+    permanently-dark: False
+  card:
+    blurred: False
+    title-color: "#E9F3EF"
+    subtitle-color: "#99BDD9"
+    gradient:
+      center-color: "#5E9CD0"
+      outer-color: "#38515B"
 
 title: "Breakfast In America"
 author: "the Barrowclift Siblings"
