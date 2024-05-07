@@ -914,6 +914,7 @@ audio {
 .anchor {
     text-decoration: none !important;
     padding: 0;
+    padding-left: 0.375em;
     opacity: 0;
     float: none;
     margin-left: 0em;
@@ -928,7 +929,7 @@ audio {
 /* ----- ANIMATIONS ----- */
 .anchor,
 a {
-    transition: color .2s ease, text-shadow .2s ease !important;
+    transition: color .2s ease, opacity .2s ease, text-shadow .2s ease !important;
 }
 #logo .record .loud-grooves {
     transition: stroke 0.2s ease, fill 0.2s ease;
@@ -1221,7 +1222,7 @@ input, textarea {
         vertical-align: middle;
         margin-right: -0.21rem;
         padding-right: 1px;
-        padding-top: 2.5px;
+        padding-top: 1.5px;
         padding-bottom: 0.4rem;
     }
 
@@ -1324,7 +1325,9 @@ input, textarea {
     /* ----- ANCHORS ----- */
     .anchor {
         float: left;
-        margin-left: -1.1em;
+        padding-left: 0;
+        margin-left: -1.075em;
+        padding-right: 0.375em;
     }
 
     /* ----- POSITIONING & SHOWING ----- */

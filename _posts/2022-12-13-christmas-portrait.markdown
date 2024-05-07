@@ -15,8 +15,8 @@ theme:
     title-color: "#000000"
     subtitle-color: "#DF0024"
     gradient:
-      center-color: "#FEF4E3"
-      outer-color: "#FBD9A5"
+      center-color: "#FEFCF8"
+      outer-color: "#FDEFD9"
 
 title: "Christmas Portrait"
 author: "the Barrowclift Siblings"
