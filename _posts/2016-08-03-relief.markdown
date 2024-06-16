@@ -18,7 +18,7 @@ theme:
 title: "Relief"
 author: "Michael Barrowclift"
 date: 2016-08-03 19:25:00
-image: https://dropbox.badmusichertz.com/relief/images/album-art.jpg
+image: relief/images/album-art.jpg
 
 artist: Vacationer
 genres:

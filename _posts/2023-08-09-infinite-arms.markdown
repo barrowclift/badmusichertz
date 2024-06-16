@@ -23,7 +23,7 @@ title: "Infinite Arms"
 author: "the Barrowclift Siblings"
 date: 2023-08-06 11:39:47-0400
 excerpt: "Groove to cozy midwest vibes with Marc &amp; Michael as they discuss Band of Horses’ Grammy nominated 2010 record, “Infinite Arms”."
-image: https://dropbox.badmusichertz.com/infinite-arms/images/episode-art.jpg
+image: infinite-arms/images/episode-art.jpg
 
 podcast:
   episode: 19
@@ -62,7 +62,7 @@ Or purchase *Infinite Arms* on:
 
 * [Marvis Pro](https://apps.apple.com/us/app/marvis-pro/id1447768809), the iOS music player Michael mentioned using to see his play counts.
 * [Vacationer](https://vacationer.bandcamp.com/album/wavelengths)'s [*Relief*](https://www.discogs.com/release/5918946-Vacationer-Relief), the only album that came close to *Infinite Arms*'s play count number in Michael's library. You can read Michael's previous review on the record [here](https://badmusichertz.com/post/relief).
-* Michael mentioned having a [Fracture](https://fractureme.com) print of *Infinite Arms*, which is a picture printed directly on glass for a minimal, sleek presentation. This is his current collection. [![Michael's growing collection of Fracture prints of his favorite album's cover art]({{ site.dropbox-url }}/infinite-arms/images/michael-fractures-1000w.jpg)]({{ site.dropbox-url }}/infinite-arms/images/michael-fractures.jpg)
+* Michael mentioned having a [Fracture](https://fractureme.com) print of *Infinite Arms*, which is a picture printed directly on glass for a minimal, sleek presentation. This is his current collection. [![Michael's growing collection of Fracture prints of his favorite album's cover art]({{ site.dropbox }}/infinite-arms/images/michael-fractures-1000w.jpg)]({{ site.dropbox }}/infinite-arms/images/michael-fractures.jpg)
 * [Sun Kil Moon](http://sunkilmoon.com)'s [*Benji*](https://www.discogs.com/master/660647-Sun-Kil-Moon-Benji), the album Marc claimed to be a perfect foil to the easily digestible and repeatable *Infinite Arms*. You can listen to our previous discussion on the record in [Episode 8](https://badmusichertz.com/post/benji).
 * Band of Horses' new lineup during *Infinite Arms*, and would remain unchanged for years—the first "true" Band of Horses lineup:
     * Benjamin Bridwell
@@ -72,7 +72,7 @@ Or purchase *Infinite Arms* on:
     * Tyler Ramsey
 * The star at the center of the pivot point in the album art is [Polaris](https://en.wikipedia.org/wiki/Polaris) (more commonly known as the "North Star"). The star seems to stand still in long exposure photography while the rest of the northern hemisphere stars spin around it due to the North Star being in a (mostly) direct line with the Earth's rotational axis with respect to the North Pole.
 * [Christopher Wilson](https://www.christopherwilsonphotography.com), the Photographer for *Infinite Arms*'s cover art and all the band's album art up to that point. (information courtesy of the [Albums app on iOS](https://apps.apple.com/us/app/albums-album-focused-player/id1469948986)).
-* Michael's insane graph of "vibrancy"/"energy" by track number [![A crudely drawn graph with "energy"/"vibrancy" as the "y" axis and each of the album's tracks in the "x" axis as a measure of time. The plotted lines rise and peak with "Compliments" in the beginning, gradually fall until the low point of "Evening Kitchen" in the middle, then rise back up at the end with "NW Apartment" before finally settling back down with "Neighbor"]({{ site.dropbox-url }}/infinite-arms/images/michael-is-nuts.jpg)]({{ site.dropbox-url }}/infinite-arms/images/michael-is-nuts.jpg)
+* Michael's insane graph of "vibrancy"/"energy" by track number [![A crudely drawn graph with "energy"/"vibrancy" as the "y" axis and each of the album's tracks in the "x" axis as a measure of time. The plotted lines rise and peak with "Compliments" in the beginning, gradually fall until the low point of "Evening Kitchen" in the middle, then rise back up at the end with "NW Apartment" before finally settling back down with "Neighbor"]({{ site.dropbox }}/infinite-arms/images/michael-is-nuts.jpg)]({{ site.dropbox }}/infinite-arms/images/michael-is-nuts.jpg)
 * *Infinite Arms* was nominated for "Best Alternative Music Album" for the [53rd Grammy Awards](https://web.archive.org/web/20120102034138/http://theenvelope.latimes.com/awards/grammys/la-et-env-grammys-nominees-2010-list,0,2463095.htmlstory) in 2011, the same year [Arcade Fire](https://www.arcadefire.com) [famously secured](https://www.npr.org/sections/allsongs/2011/02/14/133747543/what-the-hell-who-is-arcade-fire) Album of the Year with [*The Suburbs*](https://www.discogs.com/master/264742-Arcade-Fire-The-Suburbs). You can read Marc's thoughts on *The Suburbs* [here](https://badmusichertz.com/post/the-suburbs).
 * Marc found "Factory" to share similarities with [Paul McCartney and Wings](https://en.wikipedia.org/wiki/Paul_McCartney_and_Wings)'s ["Let Me Roll It"](https://en.wikipedia.org/wiki/Let_Me_Roll_It) off 1973's [*Band on the Run*](https://www.discogs.com/master/48878-Paul-McCartney-And-Wings-Band-On-The-Run) and Vacationer's "Turning" off 2018's [*Mindset*](https://www.discogs.com/master/1415389-Vacationer-Mindset). You can read Marc's review of *Band on the Run* [here](https://badmusichertz.com/post/band-on-the-run) or listen to our discussion on *Mindset* in [Episode 14](https://badmusichertz.com/post/mindset).
 * "Factory" utilizes both a [Memotron](https://en.wikipedia.org/wiki/Memotron) and [Theremin](https://en.wikipedia.org/wiki/Theremin). The Theremin also appeared in [Lord Huron](https://www.lordhuron.com/)'s "Love Like Ghosts" & "Way Out There" off 2015's [*Strange Trails*](https://music.apple.com/us/album/strange-trails/962688212), and you can listen to our previous discussion on that record in [Episode 2](http://localhost:4000/post/strange-trails).
@@ -134,6 +134,6 @@ Listed in order of reference on the show.
 
 ## Art
 
-[![Cover art]({{ site.dropbox-url }}/infinite-arms/images/album-art-1000w.jpg)]({{ site.dropbox-url }}/infinite-arms/images/album-art.jpg)
+[![Cover art]({{ site.dropbox }}/infinite-arms/images/album-art-1000w.jpg)]({{ site.dropbox }}/infinite-arms/images/album-art.jpg)
 
 ♫︎

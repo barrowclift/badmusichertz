@@ -1,13 +1,15 @@
 title: Bad Music Hertz
-email: the.sibs@badmusichertz.com
-twitter_username: badmusichertz
+author:
+  name: The Barrowclift Sibs
+  email: the.sibs@badmusichertz.com
+  uri: https://badmusichertz.com/about/
+  twitter_handle: badmusichertz
 description: Siblings celebrating and borderline obsessing over their favorite records.
 baseurl: "" # The subpath of your site, e.g. /blog/
 url: "https://badmusichertz.com" # The base hostname & protocol for your site
-dropbox-url: "https://dropbox.badmusichertz.com"
+dropbox: "https://cargo.badmusichertz.com"
 host: localhost
 domain: badmusichertz.com
-creator: The Barrowclift Sibs
 
 permalink: /post/:title # Permalink posts sorted by date with directories is awful.
 paginate_path: "/page/:num" # Home older/previous pages go here
@@ -41,4 +43,3 @@ defaults:
 plugins:
   - jemoji
   - jekyll-paginate
-  - jekyll-feed

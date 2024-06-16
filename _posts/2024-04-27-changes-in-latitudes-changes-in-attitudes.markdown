@@ -24,7 +24,7 @@ author: "the Barrowclift Siblings"
 date: 2024-05-06 20:32:51-0400
 excerpt: |
   Take a flight south with Marc &amp; Michael to enjoy some mood changes with Jimmy Buffett’s 1977 breakthrough, “Changes In Latitudes, Changes In Attitudes”.
-image: https://dropbox.badmusichertz.com/changes-in-latitudes-changes-in-attitudes/images/episode-art.jpg
+image: changes-in-latitudes-changes-in-attitudes/images/episode-art.jpg
 
 podcast:
   episode: 20
@@ -98,10 +98,10 @@ Or purchase *Changes In Latitudes, Changes In Attitudes* on:
 
 ## Art
 
-[![Cover art]({{ site.dropbox-url }}/changes-in-latitudes-changes-in-attitudes/images/album-art-1000w.jpg)]({{ site.dropbox-url }}/changes-in-latitudes-changes-in-attitudes/images/album-art.jpg)
-[![Back cover art]({{ site.dropbox-url }}/changes-in-latitudes-changes-in-attitudes/images/back.jpg)]({{ site.dropbox-url }}/changes-in-latitudes-changes-in-attitudes/images/back-large.jpg)
-[![Gatefold art]({{ site.dropbox-url }}/changes-in-latitudes-changes-in-attitudes/images/gatefold.jpg)]({{ site.dropbox-url }}/changes-in-latitudes-changes-in-attitudes/images/gatefold-large.jpg)
-[![Side 1]({{ site.dropbox-url }}/changes-in-latitudes-changes-in-attitudes/images/side-one.jpg)]({{ site.dropbox-url }}/changes-in-latitudes-changes-in-attitudes/images/side-one-large.jpg)
-[![Side 2]({{ site.dropbox-url }}/changes-in-latitudes-changes-in-attitudes/images/side-two.jpg)]({{ site.dropbox-url }}/changes-in-latitudes-changes-in-attitudes/images/side-two-large.jpg)
+[![Cover art]({{ site.dropbox }}/changes-in-latitudes-changes-in-attitudes/images/album-art-1000w.jpg)]({{ site.dropbox }}/changes-in-latitudes-changes-in-attitudes/images/album-art.jpg)
+[![Back cover art]({{ site.dropbox }}/changes-in-latitudes-changes-in-attitudes/images/back.jpg)]({{ site.dropbox }}/changes-in-latitudes-changes-in-attitudes/images/back-large.jpg)
+[![Gatefold art]({{ site.dropbox }}/changes-in-latitudes-changes-in-attitudes/images/gatefold.jpg)]({{ site.dropbox }}/changes-in-latitudes-changes-in-attitudes/images/gatefold-large.jpg)
+[![Side 1]({{ site.dropbox }}/changes-in-latitudes-changes-in-attitudes/images/side-one.jpg)]({{ site.dropbox }}/changes-in-latitudes-changes-in-attitudes/images/side-one-large.jpg)
+[![Side 2]({{ site.dropbox }}/changes-in-latitudes-changes-in-attitudes/images/side-two.jpg)]({{ site.dropbox }}/changes-in-latitudes-changes-in-attitudes/images/side-two-large.jpg)
 
 ♫︎

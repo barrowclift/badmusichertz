@@ -25,7 +25,7 @@ author: "the Barrowclift Siblings"
 date: 2020-04-01 07:23:43-0400
 last_modified_at: 2023-08-11 21:47:19-0400
 excerpt: "The journey finally reaches its end as Marc and Michael close the book on Kamasi Washington’s “The Epic” with Volume III: “The Historic Repetition”."
-image: https://dropbox.badmusichertz.com/the-epic-volume-3/images/episode-art.jpg
+image: the-epic-volume-3/images/episode-art.jpg
 
 podcast:
   episode: 11
@@ -131,7 +131,7 @@ Or purchase *The Epic* on:
 
 ## Art
 
-[![Cover art]({{ site.dropbox-url }}/the-epic-volume-1/images/album-art-1000w.jpg)]({{ site.dropbox-url }}/the-epic-volume-1/images/album-art.jpg)
-[![Liner notes]({{ site.dropbox-url }}/the-epic-volume-3/images/liner-notes-small.jpg)]({{ site.dropbox-url }}/the-epic-volume-3/images/liner-notes.jpg)
+[![Cover art]({{ site.dropbox }}/the-epic-volume-1/images/album-art-1000w.jpg)]({{ site.dropbox }}/the-epic-volume-1/images/album-art.jpg)
+[![Liner notes]({{ site.dropbox }}/the-epic-volume-3/images/liner-notes-small.jpg)]({{ site.dropbox }}/the-epic-volume-3/images/liner-notes.jpg)
 
 ♫︎

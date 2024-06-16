@@ -20,7 +20,7 @@ title: "Band on the Run"
 author: "Marc Barrowclift"
 date: 2017-01-18 21:50:00
 excerpt: "Sure, lets fly out and record our record at Lagos, Nigeria. What could go wrong?"
-image: https://dropbox.badmusichertz.com/band-on-the-run/images/album-art.jpg
+image: band-on-the-run/images/album-art.jpg
 
 artist:
   - Wings

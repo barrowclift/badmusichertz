@@ -1,7 +1,7 @@
 <head>
 	<title>{{site.title}}{% if page.title %}: {{ page.title }}{% endif %}</title>
 
-	{% feed_meta %}
+	<link rel="alternate" type="application/rss+xml" title="Bad Music Hertz Articles and Podcasts" href="{{ site.baseurl }}/feed.xml">
 	<link rel="alternate" type="application/rss+xml" title="Bad Music Hertz Articles" href="{{ site.baseurl }}/article-feed.xml">
 	<link rel="alternate" type="application/rss+xml" title="Bad Music Hertz Podcast" href="{{ site.baseurl }}/podcast-feed.xml">
 
@@ -102,7 +102,7 @@
 	<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 	<meta property="og:url" content="{{ site.url }}{{ page.url | replace:'index.html','' | prepend: site.baseurl | replace: '//', '/' }}" />
 	{% if page.image %}
-	<meta property="og:image" content="{{ page.image }}"/>
+	<meta property="og:image" content="{{ site.dropbox }}/{{ page.image }}"/>
 	{% else %}
 	<meta property="og:image" content="{{ site.url }}/images/logo/banner.jpg"/>
 	{% endif %}
@@ -110,13 +110,13 @@
 	<meta property="fb:admins" content="1665270112" />
 
 	<meta name="twitter:card" content="summary" />
-	<meta name="twitter:site" content="@{{ site.twitter_username }}" />
+	<meta name="twitter:site" content="@{{ site.author.twitter_handle }}" />
 	<meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{site.title}}{% endif %}" />
 	<meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 200 }}{% else %}{{ site.description }}{% endif %}" />
 	{% if page.image %}
-	<meta name="twitter:image" content="{{ page.image }}" />
+	<meta name="twitter:image" content="{{ site.dropbox }}/{{ page.image }}" />
 	{% else %}
-	<meta name="twitter:image" content="{{ site.dropbox-url }}/images/logo/banner.jpg" />
+	<meta name="twitter:image" content="{{ site.dropbox }}/images/logo/banner.jpg" />
 	{% endif %}
 	<meta name="twitter:url" content="{{ site.url }}{{ page.url | replace:'index.html','' | prepend: site.baseurl | replace: '//', '/' }}" />
 

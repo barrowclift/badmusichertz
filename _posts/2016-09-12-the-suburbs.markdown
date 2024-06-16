@@ -18,7 +18,7 @@ theme:
 title: "The Suburbs"
 author: "Marc Barrowclift"
 date: 2016-09-12 21:40:00
-image: https://dropbox.badmusichertz.com/the-suburbs/images/album-art.jpg
+image: the-suburbs/images/album-art.jpg
 
 artist: Arcade Fire
 genres:

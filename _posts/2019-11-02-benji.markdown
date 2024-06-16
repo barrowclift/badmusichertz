@@ -25,7 +25,7 @@ author: "the Barrowclift Siblings"
 date: 2019-11-02 20:08:16
 last_modified_at: 2023-08-11 21:47:19-0400
 excerpt: "Take a drive through Ohio with Marc and Michael as they recover from Mark Kozelek’s sobering stories in “Benji”."
-image: https://dropbox.badmusichertz.com/benji/images/episode-art.jpg
+image: benji/images/episode-art.jpg
 
 podcast:
   episode: 8
@@ -75,6 +75,6 @@ Or purchase *Benji* on:
 
 ## Art
 
-[![Podcast Cover Art]({{ site.dropbox-url }}/{{ page.album-name }}/images/album-art-1000w.jpg)]({{ site.dropbox-url }}/{{ page.album-name }}/images/album-art.jpg)
+[![Podcast Cover Art]({{ site.dropbox }}/{{ page.album-name }}/images/album-art-1000w.jpg)]({{ site.dropbox }}/{{ page.album-name }}/images/album-art.jpg)
 
 ♫︎

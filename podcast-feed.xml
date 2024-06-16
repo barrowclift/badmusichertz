@@ -14,7 +14,7 @@ layout: null
 		<managingEditor>{{ site.email }} (Marc Barrowclift)</managingEditor>
 		<webMaster>{{ site.email }} (Marc Barrowclift)</webMaster>
 		<image>
-			<url>{{ site.dropbox-url }}/assets/podcast-art.jpg</url>
+			<url>{{ site.dropbox }}/assets/podcast-art.jpg</url>
 			<title>{{ site.title }}</title>
 			<link>{{ site.url }}</link>
 		</image>
@@ -22,24 +22,24 @@ layout: null
 
 		<podcast:guid>7cb2e396-f4e2-5d79-a7a6-584baa119f1e</podcast:guid>
 		<podcast:medium>podcast</podcast:medium>
-		<podcast:images srcset="{{ site.dropbox-url }}/assets/podcast-art-2000w.jpg 2000w,
-								{{ site.dropbox-url }}/assets/podcast-art-1000w.jpg 1000w,
-								{{ site.dropbox-url }}/assets/podcast-art-500w.jpg 500w,
-								{{ site.dropbox-url }}/assets/podcast-art-250w.jpg 250w" />
+		<podcast:images srcset="{{ site.dropbox }}/assets/podcast-art-2000w.jpg 2000w,
+								{{ site.dropbox }}/assets/podcast-art-1000w.jpg 1000w,
+								{{ site.dropbox }}/assets/podcast-art-500w.jpg 500w,
+								{{ site.dropbox }}/assets/podcast-art-250w.jpg 250w" />
 		<podcast:person href="https://barrowclift.me" img="{{ site.url }}/images/about/marc.jpg">Marc Barrowclift</podcast:person>
 		<podcast:person href="{{ site.url }}/about/" img="{{ site.url }}/images/about/michael.jpg">Michael Barrowclift</podcast:person>
 
-		<itunes:author>{{ site.creator }}</itunes:author>
+		<itunes:author>{{ site.author.name }}</itunes:author>
 		<itunes:explicit>no</itunes:explicit>
 		<itunes:type>episodic</itunes:type>
 		<itunes:category text="Music">
 			<itunes:category text="Music Commentary"/>
 		</itunes:category>
 		<itunes:owner>
-			<itunes:name>{{ site.creator }}</itunes:name>
+			<itunes:name>{{ site.author.name }}</itunes:name>
 			<itunes:email>{{ site.email }}</itunes:email>
 		</itunes:owner>
-		<itunes:image href="{{ site.dropbox-url }}/assets/podcast-art.jpg" />
+		<itunes:image href="{{ site.dropbox }}/assets/podcast-art.jpg" />
 		<itunes:copyright>© 2017-{{ site.time | date: "%Y" }} Marc Barrowclift</itunes:copyright>
 		<itunes:summary>{{ site.description }}</itunes:summary>
 		<itunes:subtitle>{{ site.description }}</itunes:subtitle>
@@ -50,17 +50,17 @@ layout: null
 			<title>{{ post.podcast.episode }}: {{ post.title | xml_escape }}</title>
 			<description><![CDATA[{{ post.content | cdata_escape }}]]></description>
 			<link>{{ post.url | prepend: site.url }}</link>
-			<guid isPermaLink="true">{{ site.dropbox-url }}/{{ post.album-name | xml_escape }}/{{ post.podcast.filename | xml_escape }}</guid>
+			<guid isPermaLink="true">{{ site.dropbox }}/{{ post.album-name | xml_escape }}/{{ post.podcast.filename | xml_escape }}</guid>
 			<pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-			<author>{{ site.creator }}</author>
-			<enclosure url="{{ site.dropbox-url }}/{{ post.album-name | xml_escape }}/{{ post.podcast.filename | xml_escape }}" length="{{ post.podcast.size | xml_escape }}" type="audio/mpeg"/>
+			<author>{{ site.author.name }}</author>
+			<enclosure url="{{ site.dropbox }}/{{ post.album-name | xml_escape }}/{{ post.podcast.filename | xml_escape }}" length="{{ post.podcast.size | xml_escape }}" type="audio/mpeg"/>
 
-			<podcast:images srcset="{{ site.dropbox-url }}/{{ post.album-name | xml_escape }}/images/episode-art-2000w.jpg 2000w,
-									{{ site.dropbox-url }}/{{ post.album-name | xml_escape }}/images/episode-art-1000w.jpg 1000w,
-									{{ site.dropbox-url }}/{{ post.album-name | xml_escape }}/images/episode-art-500w.jpg 500w,
-									{{ site.dropbox-url }}/{{ post.album-name | xml_escape }}/images/episode-art-250w.jpg 250w" />
+			<podcast:images srcset="{{ site.dropbox }}/{{ post.album-name | xml_escape }}/images/episode-art-2000w.jpg 2000w,
+									{{ site.dropbox }}/{{ post.album-name | xml_escape }}/images/episode-art-1000w.jpg 1000w,
+									{{ site.dropbox }}/{{ post.album-name | xml_escape }}/images/episode-art-500w.jpg 500w,
+									{{ site.dropbox }}/{{ post.album-name | xml_escape }}/images/episode-art-250w.jpg 250w" />
 			<podcast:episode>{{ post.podcast.episode }}</podcast:episode>
-			<podcast:chapters url="{{ site.dropbox-url }}/{{ post.album-name | xml_escape }}/chapters/toc.json" type="application/json+chapters" />
+			<podcast:chapters url="{{ site.dropbox }}/{{ post.album-name | xml_escape }}/chapters/toc.json" type="application/json+chapters" />
 			{% if post.includes-aimee %}
 			<podcast:person href="https://barrowclift.me" img="{{ site.url }}/images/about/marc.jpg">Marc Barrowclift</podcast:person>
 			<podcast:person href="{{ site.url }}/about/" img="{{ site.url }}/images/about/michael.jpg">Michael Barrowclift</podcast:person>
@@ -70,7 +70,7 @@ layout: null
 			{% for guest in post.podcast.guests %}
 			<podcast:person href="https://barrowclift.me" img="{{ site.url }}/images/about/marc.jpg">Marc Barrowclift</podcast:person>
 			<podcast:person href="{{ site.url }}/about/" img="{{ site.url }}/images/about/michael.jpg">Michael Barrowclift</podcast:person>
-			<podcast:person role="guest" href="{{ guest.href }}" img="{{ guest.img }}">{{ guest.name }}</podcast:person>
+			<podcast:person role="guest" href="{{ guest.href }}" img="{{ site.dropbox }}/assets/guests/{{ guest.img }}">{{ guest.name }}</podcast:person>
 			{% endfor %}
 			{% endif %}
 
@@ -78,11 +78,11 @@ layout: null
 			<podcast:soundbite startTime="{{ post.podcast.soundbite.start }}" duration="{{ post.podcast.soundbite.duration }}">{{ post.podcast.soundbite.title }}</podcast:soundbite>
 			{% endif %}
 
-			<itunes:image href="{{ site.dropbox-url }}/{{ post.album-name | xml_escape }}/images/episode-art.jpg" />
+			<itunes:image href="{{ site.dropbox }}/{{ post.album-name | xml_escape }}/images/episode-art.jpg" />
 			<itunes:explicit>{% if post.podcast.explicit %}yes{% else %}no{% endif %}</itunes:explicit>
 			<itunes:episodeType>full</itunes:episodeType>
 			<itunes:title>{{ post.title | xml_escape }}</itunes:title>
-			<itunes:author>{{ site.creator }}</itunes:author>
+			<itunes:author>{{ site.author.name }}</itunes:author>
 			<itunes:episode>{{ post.podcast.episode }}</itunes:episode>
 			<itunes:duration>{{ post.podcast.duration | xml_escape }}</itunes:duration>
 			<itunes:subtitle>{{ post.excerpt }}</itunes:subtitle>

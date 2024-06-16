@@ -23,7 +23,7 @@ author: "the Barrowclift Siblings"
 date: 2022-11-06 16:14:14-0500
 last_modified_at: 2023-08-11 21:47:19-0400
 excerpt: "What are we discussing this time? Who knows! Join Marc &amp; Michael as they click the “Shuffle” button and let fate decide."
-image: https://dropbox.badmusichertz.com/shuffle-roulette/images/episode-art.jpg
+image: shuffle-roulette/images/episode-art.jpg
 
 podcast:
   episode: 17
@@ -54,9 +54,9 @@ categories:
 
 * [Michael's etched stone slab he calls a laptop](https://apple-history.com/mbp_retina), the 15" Mid 2012 MacBook Pro.
 * [Naughty Dog](https://www.naughtydog.com)'s [*The Last of Us: Part 1*](https://en.wikipedia.org/wiki/The_Last_of_Us_Part_I)
-* The iRiver iFP-390T, the old MP3 player our sister & honorable co-host, Aimee, bestowed onto Michael many years ago ![The iRiver iFP-390T]({{ site.dropbox-url }}/shuffle-roulette/images/iriver-ifp-390t.jpg)
+* The iRiver iFP-390T, the old MP3 player our sister & honorable co-host, Aimee, bestowed onto Michael many years ago ![The iRiver iFP-390T]({{ site.dropbox }}/shuffle-roulette/images/iriver-ifp-390t.jpg)
   * Bewilderingly in a triangular [Toblerone](https://en.wikipedia.org/wiki/Toblerone) shape. What a wild time that was.
-* [Link to high resolution *Bon Iver* artwork](https://dropbox.badmusichertz.com/shuffle-roulette/images/bon-iver.jpg) to explore the details discussed on the show
+* [Link to high resolution *Bon Iver* artwork]({{ site.dropbox }}/shuffle-roulette/images/bon-iver.jpg) to explore the details discussed on the show
 * [Deep Blue](https://en.wikipedia.org/wiki/Deep_Blue_(chess_computer)), the Chess artificial intelligence that was the first to beat [Grant Master Garry Kasperof](https://en.wikipedia.org/wiki/Garry_Kasparov) in a game on February 1996 (though Kasparov did indeed pull through and win the overall match that year)
 * [No Dumb Questions, Episode 141: "Weak People Make Bad Times"](https://www.nodumbquestions.fm/listen/2022/9/15/141-weak-people-make-bad-times)
 * [The Incomparable Episode 173z: "Human Santapede"](https://www.theincomparable.com/theincomparable/173z/), the undisputed king of all Christmas music podcast episodes where Tony Bennett & Bill Evans' *Together Again* was mentioned.

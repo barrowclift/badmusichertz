@@ -23,7 +23,7 @@ author: "the Barrowclift Siblings"
 date: 2020-09-01 19:20:54-0400
 last_modified_at: 2023-08-11 21:47:19-0400
 excerpt: "Take some meditation time with Marc &amp; Michael as they reflect on Vacationer’s “Mindset”."
-image: https://dropbox.badmusichertz.com/mindset/images/episode-art.jpg
+image: mindset/images/episode-art.jpg
 
 podcast:
   episode: 14
@@ -78,6 +78,6 @@ Or purchase *Vacationer* on:
 
 ## Art
 
-[![Cover art]({{ site.dropbox-url }}/mindset/images/album-art-1000w.jpg)]({{ site.dropbox-url }}/mindset/images/album-art.jpg)
+[![Cover art]({{ site.dropbox }}/mindset/images/album-art-1000w.jpg)]({{ site.dropbox }}/mindset/images/album-art.jpg)
 
 ♫︎

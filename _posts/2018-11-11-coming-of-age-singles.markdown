@@ -25,7 +25,7 @@ author: "the Barrowclift Siblings"
 date: 2018-11-11 13:30:00
 last_modified_at: 2023-08-11 21:47:19-0400
 excerpt: Join the Barrowclift siblings as they reminisce about music from their formative teenage years. Complete with mixtapes, iPod playlists, and a mountain of regrets, it’s sure to be a rocky trip down memory lane!
-image: https://dropbox.badmusichertz.com/coming-of-age-singles/images/episode-art.jpg
+image: coming-of-age-singles/images/episode-art.jpg
 
 podcast:
   episode: 6
@@ -74,7 +74,7 @@ __Note: Some of the singles picked and sampled throughout the episode contain ex
 3. [The Wallflowers - "One Headlight"](https://open.spotify.com/track/04zllSy1QxiamFFwB4KET8?autoplay=true&v=T)
 4. [Looking Glass - "Brandy You're a Fine Girl"](https://open.spotify.com/track/2BY7ALEWdloFHgQZG6VMLA?autoplay=true&v=T)
 
-![The Looking Glass's self-titled album art]({{ site.dropbox-url }}/coming-of-age-singles/images/looking-glass.jpg)
+![The Looking Glass's self-titled album art]({{ site.dropbox }}/coming-of-age-singles/images/looking-glass.jpg)
 
 *Mistakes*
 

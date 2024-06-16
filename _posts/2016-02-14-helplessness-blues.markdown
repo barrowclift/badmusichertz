@@ -22,7 +22,7 @@ theme:
 title: "Helplessness Blues"
 author: "Marc Barrowclift"
 date: 2016-02-14 11:47:30
-image: https://dropbox.badmusichertz.com/helplessness-blues/images/album-art.jpg
+image: helplessness-blues/images/album-art.jpg
 
 artist: Fleet Foxes
 genres:

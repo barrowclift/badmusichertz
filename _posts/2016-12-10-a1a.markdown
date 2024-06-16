@@ -23,7 +23,7 @@ theme:
 title: "A1A"
 author: "Michael Barrowclift"
 date: 2016-12-10 22:58:00
-image: https://dropbox.badmusichertz.com/a1a/images/album-art.jpg
+image: a1a/images/album-art.jpg
 album-art-article-override-light: album-art-article-override.jpg
 album-art-article-override-dark: album-art-2000w.jpg
 

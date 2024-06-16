@@ -24,7 +24,7 @@ author: "the Barrowclift Siblings"
 date: 2017-12-06 17:10:00
 last_modified_at: 2023-08-11 21:47:19-0400
 excerpt: "Join the Barrowclift siblings as they explore the winding road of Lord Huron’s sophomore LP, “Strange Trails”."
-image: https://dropbox.badmusichertz.com/strange-trails/images/episode-art.jpg
+image: strange-trails/images/episode-art.jpg
 
 podcast:
   episode: 2
@@ -58,7 +58,7 @@ Or purchase *Lonesome Dreams* on:
 ## Links
 
 * Previous episode - [Bad Music Hertz Episode 1: Lonesome Dreams]({{ site.url }}/post/lonesome-dreams)
-* Michael the Marmot ![Screenshot of a Skype window with Aimee's avatar as a normal picture and Michael's as that of a fat marmot eating a Cheeto]({{ site.dropbox-url }}/strange-trails/images/michael-the-marmot.png)
+* Michael the Marmot ![Screenshot of a Skype window with Aimee's avatar as a normal picture and Michael's as that of a fat marmot eating a Cheeto]({{ site.dropbox }}/strange-trails/images/michael-the-marmot.png)
 * [Strange Trails "Teaser Trailer"](https://www.youtube.com/watch?v=E-n6HR7lXLY)
 * [Strange Trails No. 7 "The World Ender" Comic Book](https://www.merchbar.com/rock-alternative/lord-huron/lord-huron-strange-trails-comic-book)
 * [Paul McCartney's *RAM*](https://itunes.apple.com/us/album/ram/id525824484)
@@ -119,23 +119,23 @@ Or purchase *Lonesome Dreams* on:
 
 ## Art
 
-![Album art]({{ site.dropbox-url }}/strange-trails/images/album-art.jpg)
-![Album back art]({{ site.dropbox-url }}/strange-trails/images/strange-trails-back.jpg)
-![Sleeve art "The bravest men return with darkened hearts and phantom pain"]({{ site.dropbox-url }}/strange-trails/images/bravest-men.jpg)
-![Sleeve art "Oh, you fool, there are rules"]({{ site.dropbox-url }}/strange-trails/images/oh-you-fool.jpg)
-![Digital booklet cover art and LP centerfold]({{ site.dropbox-url }}/strange-trails/images/cover.jpg)
-!["Until the Night Turns" cover art]({{ site.dropbox-url }}/strange-trails/images/until-the-night-turns.jpg)
-!["Dead Man's Hand" cover art]({{ site.dropbox-url }}/strange-trails/images/dead-mans-hand.jpg)
-!["Hurricane (Johnnie's Theme)" cover art]({{ site.dropbox-url }}/strange-trails/images/hurricane.jpg)
-!["La Belle Fleur Sauvage" cover art]({{ site.dropbox-url }}/strange-trails/images/la-belle-fleur-sauvage.jpg)
-!["Fool for Love" cover art]({{ site.dropbox-url }}/strange-trails/images/fool-for-love.jpg)
-!["The World Ender" cover art]({{ site.dropbox-url }}/strange-trails/images/the-world-ender.jpg)
-!["Meet Me in the Woods" cover art]({{ site.dropbox-url }}/strange-trails/images/meet-me-in-the-woods.jpg)
-!["The Yawning Grave" cover art]({{ site.dropbox-url }}/strange-trails/images/the-yawning-grave.jpg)
-!["Frozen Pines" cover art]({{ site.dropbox-url }}/strange-trails/images/frozen-pines.jpg)
-!["Cursed" cover art]({{ site.dropbox-url }}/strange-trails/images/cursed.jpg)
-!["Way Out There" cover art]({{ site.dropbox-url }}/strange-trails/images/way-out-there.jpg)
-!["Louisa" cover art]({{ site.dropbox-url }}/strange-trails/images/louisa.jpg)
-!["The Night We Met" cover art]({{ site.dropbox-url }}/strange-trails/images/the-night-we-met.jpg)
+![Album art]({{ site.dropbox }}/strange-trails/images/album-art.jpg)
+![Album back art]({{ site.dropbox }}/strange-trails/images/strange-trails-back.jpg)
+![Sleeve art "The bravest men return with darkened hearts and phantom pain"]({{ site.dropbox }}/strange-trails/images/bravest-men.jpg)
+![Sleeve art "Oh, you fool, there are rules"]({{ site.dropbox }}/strange-trails/images/oh-you-fool.jpg)
+![Digital booklet cover art and LP centerfold]({{ site.dropbox }}/strange-trails/images/cover.jpg)
+!["Until the Night Turns" cover art]({{ site.dropbox }}/strange-trails/images/until-the-night-turns.jpg)
+!["Dead Man's Hand" cover art]({{ site.dropbox }}/strange-trails/images/dead-mans-hand.jpg)
+!["Hurricane (Johnnie's Theme)" cover art]({{ site.dropbox }}/strange-trails/images/hurricane.jpg)
+!["La Belle Fleur Sauvage" cover art]({{ site.dropbox }}/strange-trails/images/la-belle-fleur-sauvage.jpg)
+!["Fool for Love" cover art]({{ site.dropbox }}/strange-trails/images/fool-for-love.jpg)
+!["The World Ender" cover art]({{ site.dropbox }}/strange-trails/images/the-world-ender.jpg)
+!["Meet Me in the Woods" cover art]({{ site.dropbox }}/strange-trails/images/meet-me-in-the-woods.jpg)
+!["The Yawning Grave" cover art]({{ site.dropbox }}/strange-trails/images/the-yawning-grave.jpg)
+!["Frozen Pines" cover art]({{ site.dropbox }}/strange-trails/images/frozen-pines.jpg)
+!["Cursed" cover art]({{ site.dropbox }}/strange-trails/images/cursed.jpg)
+!["Way Out There" cover art]({{ site.dropbox }}/strange-trails/images/way-out-there.jpg)
+!["Louisa" cover art]({{ site.dropbox }}/strange-trails/images/louisa.jpg)
+!["The Night We Met" cover art]({{ site.dropbox }}/strange-trails/images/the-night-we-met.jpg)
 
 ♫︎

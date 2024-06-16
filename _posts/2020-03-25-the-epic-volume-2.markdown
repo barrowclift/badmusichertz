@@ -25,7 +25,7 @@ author: "the Barrowclift Siblings"
 date: 2020-03-25 07:18:07-0400
 last_modified_at: 2023-08-11 21:47:19-0400
 excerpt: "The discussion continues as Marc and Michael open up Volume II: “The Glorious Tale” from Kamasi Washington’s “The Epic”."
-image: https://dropbox.badmusichertz.com/the-epic-volume-2/images/episode-art.jpg
+image: the-epic-volume-2/images/episode-art.jpg
 
 podcast:
   episode: 10
@@ -85,7 +85,7 @@ Or purchase *The Epic* on:
 
 ## Art
 
-[![Cover art]({{ site.dropbox-url }}/the-epic-volume-1/images/album-art-1000w.jpg)]({{ site.dropbox-url }}/the-epic-volume-1/images/album-art.jpg)
-[![Liner notes]({{ site.dropbox-url }}/the-epic-volume-2/images/liner-notes-small.jpg)]({{ site.dropbox-url }}/the-epic-volume-2/images/liner-notes.jpg)
+[![Cover art]({{ site.dropbox }}/the-epic-volume-1/images/album-art-1000w.jpg)]({{ site.dropbox }}/the-epic-volume-1/images/album-art.jpg)
+[![Liner notes]({{ site.dropbox }}/the-epic-volume-2/images/liner-notes-small.jpg)]({{ site.dropbox }}/the-epic-volume-2/images/liner-notes.jpg)
 
 ♫︎

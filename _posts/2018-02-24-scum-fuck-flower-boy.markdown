@@ -1,7 +1,7 @@
 ---
 layout: post
 
-image: https://dropbox.badmusichertz.com/scum-fuck-flower-boy/images/album-art.jpg
+image: scum-fuck-flower-boy/images/album-art.jpg
 album-name: "scum-fuck-flower-boy"
 album-art-hidden-text: ""
 

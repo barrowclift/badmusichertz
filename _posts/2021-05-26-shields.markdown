@@ -24,7 +24,7 @@ author: "the Barrowclift Siblings"
 date: 2021-05-26 07:49:57-0400
 last_modified_at: 2023-08-11 21:47:19-0400
 excerpt: "Assume a defensive stance with Marc &amp; Michael as they joust over Grizzly Bear’s “Shields”."
-image: https://dropbox.badmusichertz.com/shields/images/episode-art.jpg
+image: shields/images/episode-art.jpg
 
 podcast:
   episode: 15
@@ -84,12 +84,12 @@ Or purchase *Shields* on:
 
 ## Art
 
-[![Cover art]({{ site.dropbox-url }}/shields/images/front-cover.jpg)]({{ site.dropbox-url }}/shields/images/front-cover-large.jpg)
-[![Back cover art]({{ site.dropbox-url }}/shields/images/back-cover.jpg)]({{ site.dropbox-url }}/shields/images/back-cover-large.jpg)
-[![Centerfold art]({{ site.dropbox-url }}/shields/images/centerfold.jpg)]({{ site.dropbox-url }}/shields/images/centerfold-large.jpg)
-[![Sleeve 1 Front]({{ site.dropbox-url }}/shields/images/sleeve-1-front-cover.jpg)]({{ site.dropbox-url }}/shields/images/sleeve-1-front-cover-large.jpg)
-[![Sleeve 1 Back]({{ site.dropbox-url }}/shields/images/sleeve-1-back-cover.jpg)]({{ site.dropbox-url }}/shields/images/sleeve-1-back-cover-large.jpg)
-[![Sleeve 2 Front]({{ site.dropbox-url }}/shields/images/sleeve-2-front-cover.jpg)]({{ site.dropbox-url }}/shields/images/sleeve-2-front-cover-large.jpg)
-[![Sleeve 2 Back]({{ site.dropbox-url }}/shields/images/sleeve-2-back-cover.jpg)]({{ site.dropbox-url }}/shields/images/sleeve-2-back-cover-large.jpg)
+[![Cover art]({{ site.dropbox }}/shields/images/front-cover.jpg)]({{ site.dropbox }}/shields/images/front-cover-large.jpg)
+[![Back cover art]({{ site.dropbox }}/shields/images/back-cover.jpg)]({{ site.dropbox }}/shields/images/back-cover-large.jpg)
+[![Centerfold art]({{ site.dropbox }}/shields/images/centerfold.jpg)]({{ site.dropbox }}/shields/images/centerfold-large.jpg)
+[![Sleeve 1 Front]({{ site.dropbox }}/shields/images/sleeve-1-front-cover.jpg)]({{ site.dropbox }}/shields/images/sleeve-1-front-cover-large.jpg)
+[![Sleeve 1 Back]({{ site.dropbox }}/shields/images/sleeve-1-back-cover.jpg)]({{ site.dropbox }}/shields/images/sleeve-1-back-cover-large.jpg)
+[![Sleeve 2 Front]({{ site.dropbox }}/shields/images/sleeve-2-front-cover.jpg)]({{ site.dropbox }}/shields/images/sleeve-2-front-cover-large.jpg)
+[![Sleeve 2 Back]({{ site.dropbox }}/shields/images/sleeve-2-back-cover.jpg)]({{ site.dropbox }}/shields/images/sleeve-2-back-cover-large.jpg)
 
 ♫︎

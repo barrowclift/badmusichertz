@@ -26,7 +26,7 @@ date: 2018-06-24 15:30:00
 last_modified_at: 2023-08-06 11:39:47-0400
 
 excerpt: "Special guest Caity Cooper joins Marc and Michael to celebrate their favorite video game soundtracks of all time."
-image: https://dropbox.badmusichertz.com/favorite-video-game-soundtracks/images/episode-art.jpg
+image: favorite-video-game-soundtracks/images/episode-art.jpg
 
 podcast:
   episode: 5
@@ -37,7 +37,7 @@ podcast:
     -
       name: Caity Cooper
       href: https://twitter.com/CaitySecret
-      img: https://dropbox.badmusichertz.com/assets/guests/caity-cooper.jpg
+      img: caity-cooper.jpg
 
 categories:
   - Podcast
@@ -59,7 +59,7 @@ You can find Caity Cooper's other work at [caitycooper.com](http://caitycooper.c
 
 ## Caity's Top 3
 
-![Mario running away from a fire breathing dragon]({{ site.dropbox-url }}/favorite-video-game-soundtracks/images/mario-odyssey.jpg)
+![Mario running away from a fire breathing dragon]({{ site.dropbox }}/favorite-video-game-soundtracks/images/mario-odyssey.jpg)
 
 __1st Pick:__ *Final Fantasy X (Remastered)*
 
@@ -106,7 +106,7 @@ __Honorable Mentions:__
 
 ## Michael's Top 3
 
-![Sackboy smiling with his tongue out]({{ site.dropbox-url }}/favorite-video-game-soundtracks/images/littlebigplanet.jpg)
+![Sackboy smiling with his tongue out]({{ site.dropbox }}/favorite-video-game-soundtracks/images/littlebigplanet.jpg)
 
 __1st Pick:__ *The Last of Us*
 
@@ -142,7 +142,7 @@ __Honorable Mentions:__
 
 ## Marc's Top 3
 
-![Darth Maul with his lightsaber out on a skateboard]({{ site.dropbox-url }}/favorite-video-game-soundtracks/images/tony-hawk-pro-skater-3.jpg)
+![Darth Maul with his lightsaber out on a skateboard]({{ site.dropbox }}/favorite-video-game-soundtracks/images/tony-hawk-pro-skater-3.jpg)
 
 __1st Pick:__ *Tony Hawk's Pro Skater 3*
 

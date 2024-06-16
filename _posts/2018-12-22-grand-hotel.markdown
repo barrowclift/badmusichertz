@@ -25,7 +25,7 @@ author: "the Barrowclift Siblings"
 date: 2018-12-22 11:51:00
 last_modified_at: 2023-08-06 11:39:47-0400
 excerpt: "Take a brief Christmas vacation with the Barrowclift siblings as they soak up the warm vibes of The Explorers Club’s “Grand Hotel”."
-image: https://dropbox.badmusichertz.com/grand-hotel/images/episode-art.jpg
+image: grand-hotel/images/episode-art.jpg
 
 podcast:
   episode: 7
@@ -69,13 +69,13 @@ Or purchase *Grand Hotel* on:
 * [Mark Linett](https://en.wikipedia.org/wiki/Mark_Linett), one of the producers on *Grand Hotel*.
 * The Explorers Club's debut LP, [*Freedom Wind*](https://theexplorersclub.bandcamp.com/album/freedom-wind)
 
-![*Freedom Wind*'s album art]({{ site.dropbox-url }}/grand-hotel/images/freedom-wind.jpg)
+![*Freedom Wind*'s album art]({{ site.dropbox }}/grand-hotel/images/freedom-wind.jpg)
 
 * [What exactly is "music production"?](https://en.wikipedia.org/wiki/Record_producer)
 * [The Last Bison](https://www.thelastbison.com)'s sophomore LP, [*VA*](https://thelastbison.bandcamp.com/album/va) (pronounced "Virginia")
 * [Herb Alpert & the Tijuana Brass](https://en.wikipedia.org/wiki/Herb_Alpert)'s [*Whipped Cream & Other Delights*](https://en.wikipedia.org/wiki/Whipped_Cream_%26_Other_Delights)
 
-![*Whipped Cream & Other Delights*]({{ site.dropbox-url }}/grand-hotel/images/whipped-cream-and-other-delights.jpg)
+![*Whipped Cream & Other Delights*]({{ site.dropbox }}/grand-hotel/images/whipped-cream-and-other-delights.jpg)
 
 * ["The Girl From Ipanema"](https://www.youtube.com/watch?v=8PYKOo_jgJo)
 * [Paul Anka](https://en.wikipedia.org/wiki/Paul_Anka)'s ["Times of Your Life"](https://www.youtube.com/watch?v=wtxanSrNdN8)
@@ -121,7 +121,7 @@ Marc's suggested, alternative album order:
 
 ## Art
 
-![Cover art]({{ site.dropbox-url }}/grand-hotel/images/album-art.jpg)
-![Back cover art]({{ site.dropbox-url }}/grand-hotel/images/back-cover.jpg)
+![Cover art]({{ site.dropbox }}/grand-hotel/images/album-art.jpg)
+![Back cover art]({{ site.dropbox }}/grand-hotel/images/back-cover.jpg)
 
 ♫︎

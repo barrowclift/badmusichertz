@@ -25,7 +25,7 @@ author: "the Barrowclift Siblings"
 date: 2020-05-08 07:47:18-0400
 last_modified_at: 2023-08-11 21:47:19-0400
 excerpt: "Reminisce about 2017 with Marc &amp; Michael on Father John Misty’s “Pure Comedy”."
-image: https://dropbox.badmusichertz.com/pure-comedy/images/episode-art.jpg
+image: pure-comedy/images/episode-art.jpg
 
 podcast:
   episode: 12
@@ -73,7 +73,7 @@ Or purchase *The Epic* on:
 
 ## Art
 
-[![Cover art]({{ site.dropbox-url }}/pure-comedy/images/album-art-1000w.jpg)]({{ site.dropbox-url }}/pure-comedy/images/album-art.jpg)
-[![Back cover art]({{ site.dropbox-url }}/pure-comedy/images/back-cover-small.jpg)]({{ site.dropbox-url }}/pure-comedy/images/back-cover.jpg)
+[![Cover art]({{ site.dropbox }}/pure-comedy/images/album-art-1000w.jpg)]({{ site.dropbox }}/pure-comedy/images/album-art.jpg)
+[![Back cover art]({{ site.dropbox }}/pure-comedy/images/back-cover-small.jpg)]({{ site.dropbox }}/pure-comedy/images/back-cover.jpg)
 
 ♫︎

@@ -3,7 +3,7 @@
  */
 html {
 	background-color: #196A2C;
-	background-image: url('https://dropbox.badmusichertz.com/shuffle-roulette/images/light-green-felt.png');
+	background-image: url('{{ site.dropbox }}/shuffle-roulette/images/light-green-felt.png');
 }
 .review-page article,
 #springboard {
@@ -113,7 +113,7 @@ a:hover {
      */
     html {
     	background-color: #0E3515;
-    	background-image: url('https://dropbox.badmusichertz.com/shuffle-roulette/images/dark-green-felt.png');
+    	background-image: url('{{ site.dropbox }}/shuffle-roulette/images/dark-green-felt.png');
     }
     .review-page .show-when-dark {
     	display: none !important;

@@ -25,7 +25,7 @@ author: "the Barrowclift Siblings"
 date: 2020-06-24 09:26:51-0400
 last_modified_at: 2023-08-06 11:39:47-0400
 excerpt: "Roll out of bed for a spot of breakfast with Marc &amp; Michael as they chew on Supertramp’s 1979 classic, “Breakfast In America”."
-image: https://dropbox.badmusichertz.com/breakfast-in-america/images/episode-art.jpg
+image: breakfast-in-america/images/episode-art.jpg
 
 podcast:
   episode: 13
@@ -93,7 +93,7 @@ Or purchase *Breakfast In America* on:
 
 ## Art
 
-[![Cover art]({{ site.dropbox-url }}/breakfast-in-america/images/album-art-1000w.jpg)]({{ site.dropbox-url }}/breakfast-in-america/images/album-art.jpg)
-[!["Goodbye Stranger" single art]({{ site.dropbox-url }}/breakfast-in-america/images/goodbye-stranger-single.jpg)]({{ site.dropbox-url }}/breakfast-in-america/images/goodbye-stranger-single.jpg)
+[![Cover art]({{ site.dropbox }}/breakfast-in-america/images/album-art-1000w.jpg)]({{ site.dropbox }}/breakfast-in-america/images/album-art.jpg)
+[!["Goodbye Stranger" single art]({{ site.dropbox }}/breakfast-in-america/images/goodbye-stranger-single.jpg)]({{ site.dropbox }}/breakfast-in-america/images/goodbye-stranger-single.jpg)
 
 ♫︎

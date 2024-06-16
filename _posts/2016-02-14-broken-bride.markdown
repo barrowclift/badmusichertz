@@ -17,7 +17,7 @@ theme:
 title: "Broken Bride"
 author: "Michael Barrowclift"
 date: 2016-02-14 11:48:15
-image: https://dropbox.badmusichertz.com/broken-bride/images/album-art.jpg
+image: broken-bride/images/album-art.jpg
 
 artist: LUDO
 genres:
