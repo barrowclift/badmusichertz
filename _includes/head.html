@@ -116,7 +116,8 @@
 	{% if page.image %}
 	<meta name="twitter:image" content="{{ site.dropbox }}/{{ page.image }}" />
 	{% else %}
-	<meta name="twitter:image" content="{{ site.dropbox }}/images/logo/banner.jpg" />
+	<meta name="twitter:image" content="{{ site.url }}/images/logo/apple-touch-icon.png" />
+	<meta name="twitter:image:alt" content="A record player and tonearm that together clearly form a lower case letter ‘b’ for “Bad Music Hertz”.">
 	{% endif %}
 	<meta name="twitter:url" content="{{ site.url }}{{ page.url | replace:'index.html','' | prepend: site.baseurl | replace: '//', '/' }}" />
 
