@@ -49,7 +49,7 @@ It's BOTH!
 
 With the fire roaring and hot cocoa piping, join the Barrowclift siblings as they go head-to-head to see who can create the *best* Christmas EP. Whose is the best? You decide!
 
-Be sure to let us know which EP is your favorite! Also, what would *your* Christmas EP be? You can reach out on [Twitter](https://twitter.com/badmusichertz), with an [email](mailto:{{ site.email }}), or on [badmusichertz.com's contact form](https://badmusichertz.com/contact/). Merry Christmas!
+Be sure to let us know which EP is your favorite! Also, what would *your* Christmas EP be? You can reach out on [Twitter](https://twitter.com/badmusichertz), with an [email](mailto:{{ site.author.email }}), or on [badmusichertz.com's contact form](https://badmusichertz.com/contact/). Merry Christmas!
 
 ## Links
 

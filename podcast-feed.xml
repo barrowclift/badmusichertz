@@ -2,17 +2,21 @@
 layout: null
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://github.com/Podcastindex-org/podcast-namespace/blob/main/docs/1.0.md">
+<rss version="2.0"
+	 xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+	 xmlns:podcast="https://github.com/Podcastindex-org/podcast-namespace/blob/main/docs/1.0.md"
+	 xmlns:atom="http://w3.org/2005/Atom">
 	<channel>
 		<title>{{ site.title }}</title>
 		<description>{{ site.description }}</description>
 		<link>{{ site.url }}</link>
+		<atom:link href="{{ site.url }}/podcast-feed.xml" rel="self" type="application/rss+xml" />
 		<language>en-US</language>
 		<generator uri="https://jekyllrb.com/" version="{{ jekyll.version }}">Jekyll</generator>
 		<pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
 		<lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-		<managingEditor>{{ site.email }} (Marc Barrowclift)</managingEditor>
-		<webMaster>{{ site.email }} (Marc Barrowclift)</webMaster>
+		<managingEditor>{{ site.author.email }} (Marc Barrowclift)</managingEditor>
+		<webMaster>{{ site.author.email }} (Marc Barrowclift)</webMaster>
 		<image>
 			<url>{{ site.dropbox }}/assets/podcast-art.jpg</url>
 			<title>{{ site.title }}</title>
@@ -37,7 +41,7 @@ layout: null
 		</itunes:category>
 		<itunes:owner>
 			<itunes:name>{{ site.author.name }}</itunes:name>
-			<itunes:email>{{ site.email }}</itunes:email>
+			<itunes:email>{{ site.author.email }}</itunes:email>
 		</itunes:owner>
 		<itunes:image href="{{ site.dropbox }}/assets/podcast-art.jpg" />
 		<itunes:copyright>© 2017-{{ site.time | date: "%Y" }} Marc Barrowclift</itunes:copyright>
