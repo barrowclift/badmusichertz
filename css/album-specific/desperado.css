@@ -1,0 +1,240 @@
+/**
+ * Background
+ */
+html {
+	background-color: #3B2E2D;
+}
+.review-page article,
+#springboard {
+	background-color: hsla(5, 14%, 90%, 0.95);
+}
+::selection {
+	background: hsla(9, 37%, 56%, 0.99);
+}
+::-moz-selection {
+	background: hsla(9, 37%, 56%, 0.99);
+}
+
+/**
+ * Menu
+ */
+menu a,
+menu a:link,
+menu a:visited {
+	color: #D34739;
+}
+menu a .rss,
+menu a .letter {
+	fill: #D34739;
+}
+menu a:hover {
+	color: #EC6356;
+}
+menu a:hover .letter,
+menu a:hover .rss {
+	fill: #EC6356;
+}
+
+/**
+ * Record Logo
+ */
+#logo .record .flat-grooves {
+	fill: hsl(5, 64%, 53%);
+}
+#logo .record .runout {
+	stroke: hsl(5, 64%, 53%);
+}
+#logo .record .loud-grooves {
+	stroke: hsl(5, 64%, 53%);
+	fill: hsl(5, 64%, 56%);
+}
+#logo .record .quiet-grooves {
+	fill: hsl(5, 64%, 51%);
+}
+#logo .label-glow {
+	stroke: #7B8D96;
+}
+#logo .label {
+	opacity: 1 !important;
+	fill: #7B8D96;
+	stroke: #7B8D96;
+}
+
+a:hover #logo .record .flat-grooves {
+	fill: hsl(5, 80%, 63%);
+}
+a:hover #logo .record .runout {
+	stroke: hsl(5, 80%, 63%);
+}
+a:hover #logo .record .loud-grooves {
+	stroke: hsl(5, 80%, 63%);
+	fill: hsl(5, 80%, 66%);
+}
+a:hover #logo .record .quiet-grooves {
+	fill: hsl(5, 80%, 60%);
+}
+a:hover #logo .label {
+	fill: rgba(0, 0, 0, 0);
+}
+
+/**
+ * Article Body
+ */
+a, a:link, a:visited {
+	color: #AD5E50;
+}
+a:hover {
+	color: #D34739;
+}
+.bigfoot-footnote__button, .bigfoot-footnote__button:link, .bigfoot-footnote__button:visited {
+	background-color: #AD5E50;
+}
+.bigfoot-footnote__button:hover, .bigfoot-footnote__button:focus, .bigfoot-footnote__button:active, .bigfoot-footnote__button.is-active {
+	background-color: #D34739;
+}
+.bigfoot-footnote__tooltip,
+.bigfoot-footnote {
+	border-color: hsl(5, 14%, 80%);
+}
+.bigfoot-footnote__tooltip,
+.bigfoot-footnote__wrapper {
+	background-color: hsla(5, 14%, 95%, 0.98);
+}
+.bigfoot-footnote__content a {
+	color: #AD5E50;
+}
+.bigfoot-footnote__content a:hover {
+	color: #D34739;
+}
+
+/**
+ * Comment back in to return to separate light & dark mode flavors
+ */
+/*@media (prefers-color-scheme: dark) {*/
+	/**
+     * Background
+     */
+    html {
+    	color: white;
+    	background-color: #2A2020;
+    }
+	.review-page article,
+	#springboard {
+		background-color: #3A2D2C;
+	}
+	::selection {
+		background: hsla(9, 47%, 60%, 0.99);
+	}
+	::-moz-selection {
+		background: hsla(9, 47%, 60%, 0.99);
+	}
+
+	/**
+	 * Menu
+	 */
+	menu a,
+	menu a:link,
+	menu a:visited {
+		color: #D34739;
+	}
+	menu a .rss,
+	menu a .letter {
+		fill: #D34739;
+	}
+	menu a:hover {
+		color: #EC6356;
+	}
+	menu a:hover .letter,
+	menu a:hover .rss {
+		fill: #EC6356;
+	}
+
+	/**
+	 * Record Logo
+	 */
+	#logo .record .flat-grooves {
+		fill: hsl(5, 64%, 53%);
+	}
+	#logo .record .runout {
+		stroke: hsl(5, 64%, 53%);
+	}
+	#logo .record .loud-grooves {
+		stroke: hsl(5, 64%, 53%);
+		fill: hsl(5, 64%, 56%);
+	}
+	#logo .record .quiet-grooves {
+		fill: hsl(5, 64%, 51%);
+	}
+	#logo .label-glow {
+		stroke: #7B8D96;
+	}
+	#logo .label {
+		opacity: 1 !important;
+		fill: #7B8D96;
+		stroke: #7B8D96;
+	}
+
+	a:hover #logo .record .flat-grooves {
+		fill: hsl(5, 80%, 63%);
+	}
+	a:hover #logo .record .runout {
+		stroke: hsl(5, 80%, 63%);
+	}
+	a:hover #logo .record .loud-grooves {
+		stroke: hsl(5, 80%, 63%);
+		fill: hsl(5, 80%, 66%);
+	}
+	a:hover #logo .record .quiet-grooves {
+		fill: hsl(5, 80%, 60%);
+	}
+	a:hover #logo .label {
+		fill: rgba(0, 0, 0, 0);
+	}
+
+	/**
+	 * Article Body
+	 */
+	a, a:link, a:visited {
+		color: #C97869;
+	}
+	a:hover {
+		color: #F05142;
+	}
+	.bigfoot-footnote__button, .bigfoot-footnote__button:link, .bigfoot-footnote__button:visited {
+		background-color: #C97869;
+	}
+	.bigfoot-footnote__button:hover, .bigfoot-footnote__button:focus, .bigfoot-footnote__button:active, .bigfoot-footnote__button.is-active {
+		background-color: #F05142;
+	}
+	.bigfoot-footnote__tooltip,
+	.bigfoot-footnote {
+		border-color: hsl(4, 14%, 25%);
+	}
+	.bigfoot-footnote__tooltip,
+	.bigfoot-footnote__wrapper {
+		background-color: hsla(4, 14%, 16%, 0.98);
+	}
+	.bigfoot-footnote__content a {
+		color: #C97869;
+	}
+	.bigfoot-footnote__content a:hover {
+		color: #F05142;
+	}
+
+	.bigfoot-footnote.is-scrollable:after {
+	    background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTJweCIgaGVpZ2h0PSIxNXB4IiB2aWV3Qm94PSIwIDAgMTIgMTUiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pbllNaW4iPgogICAgPGcgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPGcgaWQ9IkFycm93IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxLjAwMDAwMCwgMS4wMDAwMDApIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJzcXVhcmUiPgogICAgICAgICAgICA8cGF0aCBkPSJNNSwwIEw1LDExLjUiIGlkPSJMaW5lIj48L3BhdGg+CiAgICAgICAgICAgIDxwYXRoIGQ9Ik0wLjUsNy41IEw1LjAyNzY5Mjc5LDEyLjAyNzY5MjgiIGlkPSJMaW5lIj48L3BhdGg+CiAgICAgICAgICAgIDxwYXRoIGQ9Ik00LjUsNy41IEw5LjAyNzY5Mjc5LDEyLjAyNzY5MjgiIGlkPSJMaW5lLTIiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDcuMDAwMDAwLCAxMC4wMDAwMDApIHNjYWxlKC0xLCAxKSB0cmFuc2xhdGUoLTcuMDAwMDAwLCAtMTAuMDAwMDAwKSAiPjwvcGF0aD4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPg==");
+	    opacity: 0.2;
+	}
+	time, figcaption, .weak {
+		color: rgba(255, 255, 255, 0.5);
+	}
+	hr {
+		background: rgba(255, 255, 255, 0.1);
+	}
+	blockquote {
+		border-color: rgba(255, 255, 255, 0.1);
+	}
+	.podcast-article-wrapper .article-mime-icon path {
+	    fill: rgba(255, 255, 255, 0.5);
+	}
+/*}*/

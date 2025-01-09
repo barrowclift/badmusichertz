@@ -62,9 +62,8 @@ title: "Archive"
 	}
 </style>
 <div class="tab-control">
-	<button id="articles-tab" class="tab left" onclick="showTabView(event,'articles-view')">Article <span class="hide-when-small">Reviews</span></button>
-	<button id="podcasts-tab" class="tab" onclick="showTabView(event,'podcasts-view')">Podcast <span class="hide-when-small">Reviews</span></button>
-	<button id="specials-tab" class="tab right" onclick="showTabView(event, 'specials-view')">Specials</button>
+	<button id="articles-tab" class="tab left" onclick="showTabView(event,'articles-view')">Articles</button>
+	<button id="podcasts-tab" class="tab right" onclick="showTabView(event,'podcasts-view')">Podcast</button>
 </div>
 <div>
 	<div class="shelf archive" id="articles-view">
@@ -80,26 +79,11 @@ title: "Archive"
 			{% endfor %}
 		</p>
 	</div>
-
 	<div class="shelf specials hidden" id="podcasts-view">
 		<p style="text-align:center">
 			{% for post in site.posts %}
-			{% if post.categories contains "Album review" and post.layout == 'podcast' %}
-			<span class="hint--top hint--rounded hint--bounce" data-hint="{{ post.title }}">
-				<a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
-					<img src="{{ site.dropbox }}/{{ post.album-name }}/images/episode-art-500w.jpg" class="album-art">
-				</a>
-			</span>
-			{% endif %}
-			{% endfor %}
-		</p>
-	</div>
-
-	<div class="shelf hidden" id="specials-view">
-		<p style="text-align:center">
-			{% for post in site.posts %}
-			{% if post.categories contains "Special" %}
-			<span class="hint--top hint--rounded hint--bounce" data-hint="{{ post.title }}">
+			{% if post.layout == 'podcast' %}
+			<span class="hint--top hint--rounded hint--bounce" data-hint="{{ post.podcast.episode }}: {{ post.title }}">
 				<a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
 					<img src="{{ site.dropbox }}/{{ post.album-name }}/images/episode-art-500w.jpg" class="album-art">
 				</a>

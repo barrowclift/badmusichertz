@@ -92,18 +92,13 @@ a:hover {
 .bigfoot-footnote__button.is-active {
 	background-color: hsl(40, 55%, 32%);
 }
-.bigfoot-footnote__tooltip {
-	background-color: hsla(81, 27%, 93%, 0.95);
-	border: 1px solid #BBBDB1;
-}
-.bigfoot-footnote,
-.bigfoot-footnote__wrapper {
-	background-color: #BBBDB1;
+.bigfoot-footnote__tooltip,
+.bigfoot-footnote {
+	border-color: #BBBDB1;
 }
 .bigfoot-footnote__tooltip,
-.bigfoot-footnote__wrapper,
-.bigfoot-footnote__content {
-	background-color: hsla(81, 27%, 93%, 0.95);
+.bigfoot-footnote__wrapper {
+	background-color: hsla(81, 27%, 93%, 0.98);
 }
 .bigfoot-footnote__content {
 	color: rgba(33, 37, 41, 0.9);
@@ -142,18 +137,13 @@ a:hover {
 	.bigfoot-footnote__button:visited {
 		background-color: #ACA681;
 	}
-	.bigfoot-footnote__tooltip {
-		background-color: hsla(80, 7%, 22%, 0.9);
-		border: 1px solid #51514E;
-	}
-	.bigfoot-footnote,
-	.bigfoot-footnote__wrapper {
-		background-color: #51514E;
+	.bigfoot-footnote__tooltip,
+	.bigfoot-footnote {
+		border-color: #51514E;
 	}
 	.bigfoot-footnote__tooltip,
-	.bigfoot-footnote__wrapper,
-	.bigfoot-footnote__content {
-		background-color: hsla(80, 7%, 22%, 0.9);
+	.bigfoot-footnote__wrapper {
+		background-color: hsla(80, 7%, 22%, 0.98);
 	}
 	.bigfoot-footnote__content {
 		color: hsl(52, 21%, 95%);

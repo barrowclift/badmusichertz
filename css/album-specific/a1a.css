@@ -100,17 +100,12 @@ a:hover #logo .record .runout {
 .bigfoot-footnote__button.is-active {
 	background-color: #EF5242;
 }
-.bigfoot-footnote__tooltip {
-	background-color: #FFFFF7;
-	border: 1px solid #FBFBF2;
-}
-.bigfoot-footnote,
-.bigfoot-footnote__wrapper {
-	background-color: #FBFBF2;
+.bigfoot-footnote__tooltip,
+.bigfoot-footnote {
+	border-color: hsl(60, 30%, 85%);
 }
 .bigfoot-footnote__tooltip,
-.bigfoot-footnote__wrapper,
-.bigfoot-footnote__content {
+.bigfoot-footnote__wrapper {
 	background-color: #FFFFF7;
 }
 .bigfoot-footnote__content {
@@ -229,17 +224,12 @@ article hr, footer hr {
 	.bigfoot-footnote__button.is-active {
 		background-color: #EF5242;
 	}
-	.bigfoot-footnote__tooltip {
-		background-color: hsl(33, 16%, 32%);
-		border: 1px solid #322B24;
-	}
-	.bigfoot-footnote,
-	.bigfoot-footnote__wrapper {
-		background-color: #322B24;
+	.bigfoot-footnote__tooltip,
+	.bigfoot-footnote {
+		border-color: #322B24;
 	}
 	.bigfoot-footnote__tooltip,
-	.bigfoot-footnote__wrapper,
-	.bigfoot-footnote__content {
+	.bigfoot-footnote__wrapper {
 		background-color: hsl(33, 16%, 32%);
 	}
 	.bigfoot-footnote__content {

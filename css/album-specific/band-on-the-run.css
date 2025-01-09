@@ -146,20 +146,12 @@ menu a:hover,
 .bigfoot-footnote__button.is-active {
 	background-color: #B7845B;
 }
-.bigfoot-footnote__tooltip {
-	background-color: #222222;
-	border: 1px solid rgba(255,255,255,0.05);
-}
+.bigfoot-footnote__tooltip,
 .bigfoot-footnote {
-	border: 1px solid rgba(255,255,255,0.025);
-}
-.bigfoot-footnote,
-.bigfoot-footnote__wrapper {
-	background-color: #292929;
+	border-color: rgba(255,255,255,0.05);
 }
 .bigfoot-footnote__tooltip,
-.bigfoot-footnote__wrapper,
-.bigfoot-footnote__content {
+.bigfoot-footnote__wrapper {
 	background-color: #222222;
 }
 .bigfoot-footnote__content {

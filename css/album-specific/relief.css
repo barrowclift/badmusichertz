@@ -78,18 +78,13 @@ menu a:hover .letter {
 .bigfoot-footnote__button.is-active {
 	background-color: #586B63;
 }
-.bigfoot-footnote__tooltip {
-	background-color: hsla(73, 43%, 95%, 0.95);
-	border: 1px solid #C4C9BD;
-}
-.bigfoot-footnote,
-.bigfoot-footnote__wrapper {
-	background-color: #C4C9BD;
+.bigfoot-footnote__tooltip,
+.bigfoot-footnote {
+	border-color: #C4C9BD;
 }
 .bigfoot-footnote__tooltip,
-.bigfoot-footnote__wrapper,
-.bigfoot-footnote__content {
-	background-color: hsla(73, 43%, 95%, 0.95);
+.bigfoot-footnote__wrapper {
+	background-color: hsla(73, 43%, 95%, 0.98);
 }
 .bigfoot-footnote__content {
 	color: rgba(33, 37, 41, 0.9);
@@ -175,17 +170,12 @@ menu a:hover .letter {
 	a:hover #logo .record .runout {
 		stroke: hsl(155, 10%, 32%);
 	}
-	.bigfoot-footnote__tooltip {
-		background-color: hsla(155, 10%, 18%, 0.95);
-		border: 1px solid #36403C;
-	}
-	.bigfoot-footnote,
-	.bigfoot-footnote__wrapper {
-		background-color: #36403C;
+	.bigfoot-footnote__tooltip,
+	.bigfoot-footnote {
+		border-color: #36403C;
 	}
 	.bigfoot-footnote__tooltip,
-	.bigfoot-footnote__wrapper,
-	.bigfoot-footnote__content {
+	.bigfoot-footnote__wrapper {
 		background-color: hsla(155, 10%, 18%, 0.95);
 	}
 	.bigfoot-footnote__content {

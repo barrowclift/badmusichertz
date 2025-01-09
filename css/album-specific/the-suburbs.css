@@ -135,18 +135,13 @@ a:hover #logo .label {
 	.bigfoot-footnote__button.is-active {
 		background-color: hsl(9, 96%, 70%);
 	}
-	.bigfoot-footnote__tooltip {
-		background-color: hsla(27, 21%, 15%, 0.8);
-		border: 1px solid #38332E;
-	}
-	.bigfoot-footnote,
-	.bigfoot-footnote__wrapper {
-		background-color: #38332E;
+	.bigfoot-footnote__tooltip,
+	.bigfoot-footnote {
+		border-color: #38332E;
 	}
 	.bigfoot-footnote__tooltip,
-	.bigfoot-footnote__wrapper,
-	.bigfoot-footnote__content {
-		background-color: hsla(27, 21%, 15%, 0.8);
+	.bigfoot-footnote__wrapper {
+		background-color: hsla(0, 0%, 12.5%, 0.98);
 	}
 	.bigfoot-footnote__content {
 		color: #EFF0EE;

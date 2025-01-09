@@ -109,7 +109,10 @@ menu a:hover {
 }
 .bigfoot-footnote__tooltip {
 	background-color: #222222;
-	border: 1px solid #292929;
+}
+.bigfoot-footnote__tooltip,
+.bigfoot-footnote {
+    border-color: hsl(0, 0%, 30%);
 }
 .bigfoot-footnote,
 .bigfoot-footnote__wrapper {
