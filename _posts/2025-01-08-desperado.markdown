@@ -26,9 +26,10 @@ excerpt: |
   Dive into the late 1800’s Western Territories with Michael as he explores Eagle’s sophomore LP, *Desperado*.
 album-art-hidden-text: |
   “It was more than the end of Bill Dalton. It was the end of a breed, and, in a way, the end of the Old West—because the West never produced another Bill Dalton.”
-image: desperado/images/album-art.jpg
 
   —Harrell McCullough
+image: desperado/images/album-art.jpg
+  
 artist: Eagles
 genres:
   - Rock
