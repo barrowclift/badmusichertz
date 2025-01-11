@@ -902,6 +902,7 @@ audio {
 .bigfoot-footnote,
 .bigfoot-footnote__content {
     background-color: transparent;
+    font-style: normal;
 }
 .bigfoot-footnote__tooltip {
     background: hsl(40, 43%, 99%);

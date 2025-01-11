@@ -5,7 +5,7 @@ album-name: "desperado"
 
 theme:
   safari-toolbar-color:
-    light: "#392F2D"
+    light: "#282020"
     dark: "#282020"
   article:
     blurred: False
