@@ -35,7 +35,7 @@ title: "Carpenters"
 author: "the Barrowclift Siblings"
 date: 2025-05-04 19:19:17-0400
 excerpt: |
-  Mail’s here! Check out what arrived with Marc &amp; Michael as they unpack the heartfelt delivery from Karen &amp; Richard's 1971 self-titled LP, “Carpenters”.
+  Mail’s here! Check out what arrived with Marc &amp; Michael as they unpack the heartfelt delivery from Karen &amp; Richard’s 1971 self-titled LP, “Carpenters”.
 image: carpenters/images/episode-art.jpg
 
 podcast:
