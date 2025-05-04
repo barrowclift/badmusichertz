@@ -6,8 +6,8 @@ album-art-hidden-text: ""
 
 theme:
   safari-toolbar-color:
-    light: "#E9E4D4"
-    dark: "#3D4744"
+    light: "#1F292E"
+    dark: "#0F1417"
   article:
     blurred: True
     show-menu-background: Trie

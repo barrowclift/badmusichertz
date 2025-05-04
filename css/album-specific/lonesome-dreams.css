@@ -31,11 +31,11 @@ time {
 menu a,
 menu a:link,
 menu a:visited {
-	color: #696553;
+	color: #E9E4D4;
 }
 menu a .rss,
 menu a .letter {
-	fill: #696553;
+	fill: #E9E4D4;
 }
 a, a:link, a:visited {
 	color: #A29768;
@@ -48,17 +48,17 @@ menu a:hover .letter {
 	fill: #4B646C;
 }
 #logo .record .loud-grooves {
-	stroke: hsl(49, 12%, 37%);
-	fill: hsl(49, 12%, 41%);
+	stroke: hsl(46, 32%, 87%);
+	fill: hsl(46, 32%, 92%);
 }
 #logo .record .quiet-grooves {
-	fill: hsl(49, 12%, 39%);
+	fill: hsl(46, 32%, 82%);
 }
 #logo .record .flat-grooves {
-	fill: hsl(49, 12%, 37%);
+	fill: hsl(46, 32%, 87%);
 }
 #logo .record .runout {
-	stroke: hsl(49, 12%, 37%);
+	stroke: hsl(46, 32%, 87%);
 }
 a:hover #logo .record .loud-grooves {
 	stroke: hsl(195, 18%, 36%);

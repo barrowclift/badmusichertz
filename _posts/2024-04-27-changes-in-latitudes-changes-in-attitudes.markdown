@@ -6,18 +6,25 @@ album-name: "changes-in-latitudes-changes-in-attitudes"
 theme:
   safari-toolbar-color:
     light: "#EDD6BA"
-    dark: "#806A4D"
+    dark: "#493012"
   article:
     blurred: False
     show-menu-background: False
     disable-dark-overlay: True
   card:
     blurred: False
-    title-color: "#773E39"
-    subtitle-color: "#773E3981"
-    gradient:
-      center-color: "#EED7BA"
-      outer-color: "#CCA87F"
+    light:
+        title-color: "#773E39"
+        subtitle-color: "#773E3981"
+        gradient:
+          center-color: "#EED7BA"
+          outer-color: "#CCA87F"
+    dark:
+        title-color: "#EED7BA"
+        subtitle-color: "#EED7BA7F"
+        gradient:
+          center-color: "#513715"
+          outer-color: "#33220D"
 
 title: "Changes In Latitudes, Changes In Attitudes"
 author: "the Barrowclift Siblings"

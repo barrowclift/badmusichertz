@@ -14,11 +14,18 @@ theme:
     permanently-dark: False
   card:
     blurred: False
-    title-color: "#393A3E"
-    subtitle-color: "#595E73"
-    gradient:
-      center-color: "#7F97E4"
-      outer-color: "#FFFFFF"
+    light:
+        title-color: "#393A3E"
+        subtitle-color: "#595E73"
+        gradient:
+          center-color: "#7F97E4"
+          outer-color: "#FFFFFF"
+    dark:
+        title-color: "#FFFFFF"
+        subtitle-color: "#FFFFFF80"
+        gradient:
+          center-color: "#7F97E4"
+          outer-color: "#FFFFFF"
 
 title: "Favorite Video Game Soundtracks"
 author: "the Barrowclift Siblings &amp; Caity Cooper"

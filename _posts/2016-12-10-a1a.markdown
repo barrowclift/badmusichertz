@@ -14,11 +14,18 @@ theme:
     disable-dark-overlay: True
   card:
     blurred: False
-    title-color: "#AA1C0F"
-    subtitle-color: "#B47A70"
-    gradient:
-      center-color: "#F4F1E8"
-      outer-color: "#EDEAE1"
+    light:
+        title-color: "#AA1C0F"
+        subtitle-color: "#B47A70"
+        gradient:
+          center-color: "#F4F1E8"
+          outer-color: "#EDEAE1"
+    dark:
+        title-color: "#F7F0DE"
+        subtitle-color: "#D7675D"
+        gradient:
+          center-color: "hsl(32, 16%, 32%)"
+          outer-color: "hsl(33, 16%, 22%)"
 
 title: "A1A"
 author: "Michael Barrowclift"

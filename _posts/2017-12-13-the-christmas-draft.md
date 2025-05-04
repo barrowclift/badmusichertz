@@ -15,11 +15,18 @@ theme:
     permanently-dark: False
   card:
     blurred: False
-    title-color: "#4C4C4E"
-    subtitle-color: "#887878"
-    gradient:
-      center-color: "#F2BFBD"
-      outer-color: "#F4F8F9"
+    light:
+        title-color: "#4C4C4E"
+        subtitle-color: "#887878"
+        gradient:
+          center-color: "#F2BFBD"
+          outer-color: "#F4F8F9"
+    dark:
+        title-color: "#F6F7F9"
+        subtitle-color: "#E59F98"
+        gradient:
+          center-color: "#F2BFBD"
+          outer-color: "#F4F8F9"
 
 title: "The Christmas Draft"
 author: "the Barrowclift Siblings"

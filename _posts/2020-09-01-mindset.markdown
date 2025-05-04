@@ -12,11 +12,18 @@ theme:
     blurred: True
   card:
     blurred: False
-    title-color: "#205B64"
-    subtitle-color: "#6E7B5B"
-    gradient:
-      center-color: "#F2C419"
-      outer-color: "#F2ECD1"
+    light:
+        title-color: "#FFFFFF"
+        subtitle-color: "#FFFFFFBF"
+        gradient:
+          center-color: "#F2C419"
+          outer-color: "#F2ECD1"
+    dark:
+        title-color: "#FFFFFF"
+        subtitle-color: "#FFFFFFBF"
+        gradient:
+          center-color: "#D3AB2C"
+          outer-color: "#846A17"
 
 title: "Mindset"
 author: "the Barrowclift Siblings"

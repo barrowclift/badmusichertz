@@ -14,11 +14,18 @@ theme:
     permanently-dark: False
   card:
     blurred: False
-    title-color: "#3F2F27"
-    subtitle-color: "#676059"
-    gradient:
-      center-color: "#AE9484"
-      outer-color: "#F9FCFF"
+    light:
+        title-color: "#3F2F27"
+        subtitle-color: "#676059"
+        gradient:
+          center-color: "#AE9484"
+          outer-color: "#F9FCFF"
+    dark:
+        title-color: "#FFFFFF"
+        subtitle-color: "#FFFFFF80"
+        gradient:
+          center-color: "#A66F5A"
+          outer-color: "#B1B2B2"
 
 title: "Coming-of-Age Singles"
 author: "the Barrowclift Siblings"

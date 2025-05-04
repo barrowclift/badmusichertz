@@ -12,11 +12,18 @@ theme:
     blurred: False
   card:
     blurred: False
-    title-color: "#000000"
-    subtitle-color: "#DF0024"
-    gradient:
-      center-color: "#FEFCF8"
-      outer-color: "#FDEFD9"
+    light:
+        title-color: "#000000"
+        subtitle-color: "#DF0024"
+        gradient:
+          center-color: "#FEFCF8"
+          outer-color: "#FDEFD9"
+    dark:
+        title-color: "#FFFFFF"
+        subtitle-color: "hsl(350, 80%, 35%)"
+        gradient:
+          center-color: "#FEFCF8"
+          outer-color: "#FDEFD9"
 
 title: "Christmas Portrait"
 author: "the Barrowclift Siblings"
