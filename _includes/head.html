@@ -1,5 +1,5 @@
 <head>
-	<title>{{site.title}}{% if page.title %}: {{ page.title }}{% endif %}</title>
+	<title>{{site.title}}{% if page.title %}{% if page.podcast.episode %} {{ page.podcast.episode }}{% endif %}: {{ page.title }}{% endif %}</title>
 
 	<link rel="alternate" type="application/atom+xml" title="Bad Music Hertz Articles and Podcasts" href="{{ site.baseurl }}/feed.xml">
 	<link rel="alternate" type="application/atom+xml" title="Bad Music Hertz Articles" href="{{ site.baseurl }}/article-feed.xml">
@@ -98,7 +98,7 @@
 
 	<meta property="og:locale" content="en_US" />
 	<meta property="og:type" content="{% if page.article %}article{% else %}website{% endif %}" />
-	<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{site.title}}{% endif %}" />
+	<meta property="og:title" content="{% if page.title %}{% if page.podcast.episode %}Episode {{ page.podcast.episode }}: {% endif %}{{ page.title }}{% else %}{{site.title}}{% endif %}" />
 	<meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
 	<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 	<meta property="og:url" content="{{ site.url }}{{ page.url | replace:'index.html','' | prepend: site.baseurl | replace: '//', '/' }}" />
@@ -112,7 +112,8 @@
 
 	<meta name="twitter:card" content="summary" />
 	<meta name="twitter:site" content="@{{ site.author.twitter_handle }}" />
-	<meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{site.title}}{% endif %}" />
+	<meta name="twitter:creator:id" contents="4805916375" />
+	<meta name="twitter:title" content="{% if page.title %}{% if page.podcast.episode %}Episode {{ page.podcast.episode }}: {% endif %}{{ page.title }}{% else %}{{site.title}}{% endif %}" />
 	<meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 200 }}{% else %}{{ site.description }}{% endif %}" />
 	{% if page.image %}
 	<meta name="twitter:image" content="{{ site.dropbox }}/{{ page.image }}" />
@@ -120,7 +121,6 @@
 	<meta name="twitter:image" content="{{ site.url }}/images/logo/apple-touch-icon.png" />
 	<meta name="twitter:image:alt" content="A record player and tonearm that together clearly form a lower case letter ‘b’ for “Bad Music Hertz”.">
 	{% endif %}
-	<meta name="twitter:url" content="{{ site.url }}{{ page.url | replace:'index.html','' | prepend: site.baseurl | replace: '//', '/' }}" />
 
 	{% if page.redirect %}
 	<meta http-equiv="refresh" content="0; url={{ page.redirect }}" />
