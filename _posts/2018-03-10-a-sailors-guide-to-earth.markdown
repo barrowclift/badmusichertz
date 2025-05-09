@@ -60,16 +60,16 @@ Or purchase *A Sailor's Guide to Earth* on:
 ## Links
 
 * [TheNeedleDrop - "The Internet's Busiest Music Nerd"](http://www.theneedledrop.com)
-	- [Review of *A Sailor's Guide To Earth*](https://www.youtube.com/watch?v=h_vuv0Oq6jQ)
+    - [Review of *A Sailor's Guide To Earth*](https://www.youtube.com/watch?v=h_vuv0Oq6jQ)
 * [Cymbal](https://cymbal.fm) - The social media app Marc couldn't remember
 * [Phoenix - *Ti Amo*](https://itunes.apple.com/us/album/ti-amo/1228683729) (NOT GOOD 👎🏻)
 * [Pop Country](https://en.wikipedia.org/wiki/Country_pop)
 * Traditional Country artists mentioned
-	- [Merle Haggard](https://itunes.apple.com/us/artist/merle-haggard/170987)
-	- [Johnny Cash](https://itunes.apple.com/us/artist/johnny-cash/70936)
+    - [Merle Haggard](https://itunes.apple.com/us/artist/merle-haggard/170987)
+    - [Johnny Cash](https://itunes.apple.com/us/artist/johnny-cash/70936)
 * Pop Country artists mentioned
-	- [Luke Bryan](https://itunes.apple.com/us/artist/luke-bryan/20131064)
-	- [Dierks Bentley](https://itunes.apple.com/us/artist/dierks-bentley/3088872)
+    - [Luke Bryan](https://itunes.apple.com/us/artist/luke-bryan/20131064)
+    - [Dierks Bentley](https://itunes.apple.com/us/artist/dierks-bentley/3088872)
 * [Kenny Chesney](https://itunes.apple.com/us/artist/kenny-chesney/205322)
 * [Nelly - "Over and Over ft. Tim McGraw"](https://www.youtube.com/watch?v=n3htOCjafTc) (Trust us, you've heard it)
 * Fantastic demonstration of top Pop Country songs from 2014 all using the exact same chord progression - [Sir Mashalot: Mind-Blowing SIX Song Country Mashup](https://www.youtube.com/watch?v=FY8SwIvxj8o).

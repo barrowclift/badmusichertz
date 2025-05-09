@@ -1,212 +1,212 @@
 html {
-	background-color: #A1C0B8;
+    background-color: #A1C0B8;
 }
 main,
 .review-page article {
-	color: #2B2D27;
+    color: #2B2D27;
 }
 article header h1 span,
 h2 {
-	color: #2B2D27;
+    color: #2B2D27;
 }
 article header h1 time {
-	color: hsla(80, 7%, 16%, 0.375);
+    color: hsla(80, 7%, 16%, 0.375);
 }
 .podcast-article-wrapper .article-mime-icon path {
-	fill: hsla(80, 7%, 16%, 0.375);
+    fill: hsla(80, 7%, 16%, 0.375);
 }
 menu a,
 menu a:link,
 menu a:visited {
-	color: hsla(80, 7%, 16%, 0.9);
+    color: hsla(80, 7%, 16%, 0.9);
 }
 
 /* Safari */
 ::selection {
-	background: hsla(169, 30%, 82%, 0.99);
-	color: rgba(33, 37, 41, 0.9);
+    background: hsla(169, 30%, 82%, 0.99);
+    color: rgba(33, 37, 41, 0.9);
 }
 /* Firefox */
 ::-moz-selection {
-	background: hsla(169, 30%, 82%, 0.99);
-	color: rgba(33, 37, 41, 0.9);
+    background: hsla(169, 30%, 82%, 0.99);
+    color: rgba(33, 37, 41, 0.9);
 }
 
 a, a:link, a:visited,
 menu a:hover {
-	color: hsl(40, 75%, 42%);
+    color: hsl(40, 75%, 42%);
 }
 menu a .rss,
 menu a .letter {
-	fill: hsla(80, 7%, 16%, 0.9);
+    fill: hsla(80, 7%, 16%, 0.9);
 }
 menu a:hover .rss,
 menu a:hover .letter {
-	fill: hsl(40, 75%, 42%);
+    fill: hsl(40, 75%, 42%);
 }
 #logo .record .loud-grooves {
-	stroke: hsl(90, 7%, 18%);
-	fill: hsl(90, 7%, 22%);
+    stroke: hsl(90, 7%, 18%);
+    fill: hsl(90, 7%, 22%);
 }
 #logo .record .quiet-grooves {
-	fill: hsl(90, 7%, 20%);
+    fill: hsl(90, 7%, 20%);
 }
 #logo .record .flat-grooves {
-	fill: hsl(90, 7%, 18%);
+    fill: hsl(90, 7%, 18%);
 }
 #logo .record .runout {
-	stroke: hsl(90, 7%, 18%);
+    stroke: hsl(90, 7%, 18%);
 }
 a:hover #logo .record .loud-grooves {
-	stroke: hsl(40, 75%, 38%);
-	fill: hsl(40, 75%, 42%);
+    stroke: hsl(40, 75%, 38%);
+    fill: hsl(40, 75%, 42%);
 }
 a:hover #logo .record .quiet-grooves {
-	fill: hsl(40, 75%, 40%);
+    fill: hsl(40, 75%, 40%);
 }
 a:hover #logo .record .flat-grooves {
-	fill: hsl(40, 75%, 38%);
+    fill: hsl(40, 75%, 38%);
 }
 a:hover #logo .record .runout {
-	stroke: hsl(40, 75%, 38%);
+    stroke: hsl(40, 75%, 38%);
 }
 #logo .label-glow {
-	stroke: #C5D9D7;
-	opacity: 0 !important
+    stroke: #C5D9D7;
+    opacity: 0 !important
 }
 #logo .label {
-	opacity: 0 !important;
-	fill: #C5D9D7;
-	stroke: #C5D9D7;
+    opacity: 0 !important;
+    fill: #C5D9D7;
+    stroke: #C5D9D7;
 }
 a:hover {
-	color: hsl(40, 55%, 32%);
+    color: hsl(40, 55%, 32%);
 }
 #logo .label {
-	background-color: hsl(40, 75%, 42%);
+    background-color: hsl(40, 75%, 42%);
 }
 .littlefoot__button,
 .littlefoot__button:link,
 .littlefoot__button:visited {
-	background-color: hsl(40, 75%, 42%);
+    background-color: hsl(40, 75%, 42%);
 }
 .littlefoot__button:hover,
 .littlefoot__button:focus,
 .littlefoot__button:active,
 .littlefoot__button.is-active {
-	background-color: hsl(40, 55%, 32%);
+    background-color: hsl(40, 55%, 32%);
 }
 .littlefoot {
-	--popover-text-color: rgba(33, 37, 41, 0.9);
-	--popover-background-color: hsl(81, 27%, 93%);
-	--popover-border: 1px solid #BBBDB1;
-	--popover-scroll-indicator-color: rgba(255, 255, 255, 0.5);
+    --popover-text-color: rgba(33, 37, 41, 0.9);
+    --popover-background-color: hsl(81, 27%, 93%);
+    --popover-border: 1px solid #BBBDB1;
+    --popover-scroll-indicator-color: rgba(255, 255, 255, 0.5);
 }
 .littlefoot__content a {
-	color: hsl(40, 75%, 42%);
+    color: hsl(40, 75%, 42%);
 }
 .littlefoot__content a:hover {
-	color: hsl(40, 55%, 32%);
+    color: hsl(40, 55%, 32%);
 }
 @media (prefers-color-scheme: dark) {
-	html {
-		background-color: #1D1913;
-	}
-	.review-page article {
-		color: white;
-	}
-	main,
-	.review-page article {
-		color: hsl(52, 21%, 95%);
-	}
-	article header h1 span,
-	h2 {
-		color: hsl(52, 21%, 59%);
-	}
-	article header h1 time {
-		color: hsla(52, 21%, 68%, 0.375);
-	}
-	.podcast-article-wrapper .article-mime-icon path {
-		fill: hsla(52, 21%, 68%, 0.375);
-	}
-	.littlefoot__button,
-	.littlefoot__button:link,
-	.littlefoot__button:visited {
-		background-color: #ACA681;
-	}
-	.littlefoot__button:hover,
-	.littlefoot__button:focus,
-	.littlefoot__button:active,
-	.littlefoot__button.is-active {
-		background-color: hsl(169, 30%, 82%);
-	}
-	.littlefoot {
-		--popover-text-color: hsl(52, 21%, 95%);
-		--popover-background-color: hsl(80, 7%, 22%);
-		--popover-border: 1px solid #51514E;
-		--popover-scroll-indicator-color: rgba(255, 255, 255, 0.5);
-	}
-	.littlefoot__content a {
-		color: #ACA681;
-	}
-	.littlefoot__content a:hover {
-		color: hsl(169, 30%, 82%);
-	}
-	menu a,
-	menu a:link,
-	menu a:visited {
-		color: #ACA681;
-	}
-	a, a:link, a:visited {
-		color: #ACA681;
-	}
-	menu a:hover {
-		color: hsl(169, 30%, 82%);
-	}
-	menu a .rss,
-	menu a .letter {
-		fill: #ACA681;
-	}
-	menu a:hover .rss,
-	menu a:hover .letter {
-		fill: hsl(169, 30%, 82%);
-	}
-	a:hover {
-		color: hsl(169, 30%, 82%);
-	}
-	#logo .record .loud-grooves {
-		stroke: hsl(52, 21%, 55%);
-		fill: hsl(52, 21%, 59%);
-	}
-	#logo .record .quiet-grooves {
-		fill: hsl(52, 21%, 57%);
-	}
-	#logo .record .flat-grooves {
-		fill: hsl(52, 21%, 55%);
-	}
-	#logo .record .runout {
-		stroke: hsl(52, 21%, 55%);
-	}
-	#logo .label-glow {
-		opacity: 0 !important
-		stroke: #CADAD6;
-	}
-	#logo .label {
-		opacity: 0 !important;
-		fill: #CADAD6;
-		stroke: #CADAD6;
-	}
-	a:hover #logo .record .loud-grooves {
-		stroke: hsl(169, 30%, 74%);
-		fill: hsl(169, 30%, 82%);
-	}
-	a:hover #logo .record .quiet-grooves {
-		fill: hsl(169, 30%, 78%);
-	}
-	a:hover #logo .record .flat-grooves {
-		fill: hsl(169, 30%, 74%);
-	}
-	a:hover #logo .record .runout {
-		stroke: hsl(169, 30%, 74%);
-	}
+    html {
+        background-color: #1D1913;
+    }
+    .review-page article {
+        color: white;
+    }
+    main,
+    .review-page article {
+        color: hsl(52, 21%, 95%);
+    }
+    article header h1 span,
+    h2 {
+        color: hsl(52, 21%, 59%);
+    }
+    article header h1 time {
+        color: hsla(52, 21%, 68%, 0.375);
+    }
+    .podcast-article-wrapper .article-mime-icon path {
+        fill: hsla(52, 21%, 68%, 0.375);
+    }
+    .littlefoot__button,
+    .littlefoot__button:link,
+    .littlefoot__button:visited {
+        background-color: #ACA681;
+    }
+    .littlefoot__button:hover,
+    .littlefoot__button:focus,
+    .littlefoot__button:active,
+    .littlefoot__button.is-active {
+        background-color: hsl(169, 30%, 82%);
+    }
+    .littlefoot {
+        --popover-text-color: hsl(52, 21%, 95%);
+        --popover-background-color: hsl(80, 7%, 22%);
+        --popover-border: 1px solid #51514E;
+        --popover-scroll-indicator-color: rgba(255, 255, 255, 0.5);
+    }
+    .littlefoot__content a {
+        color: #ACA681;
+    }
+    .littlefoot__content a:hover {
+        color: hsl(169, 30%, 82%);
+    }
+    menu a,
+    menu a:link,
+    menu a:visited {
+        color: #ACA681;
+    }
+    a, a:link, a:visited {
+        color: #ACA681;
+    }
+    menu a:hover {
+        color: hsl(169, 30%, 82%);
+    }
+    menu a .rss,
+    menu a .letter {
+        fill: #ACA681;
+    }
+    menu a:hover .rss,
+    menu a:hover .letter {
+        fill: hsl(169, 30%, 82%);
+    }
+    a:hover {
+        color: hsl(169, 30%, 82%);
+    }
+    #logo .record .loud-grooves {
+        stroke: hsl(52, 21%, 55%);
+        fill: hsl(52, 21%, 59%);
+    }
+    #logo .record .quiet-grooves {
+        fill: hsl(52, 21%, 57%);
+    }
+    #logo .record .flat-grooves {
+        fill: hsl(52, 21%, 55%);
+    }
+    #logo .record .runout {
+        stroke: hsl(52, 21%, 55%);
+    }
+    #logo .label-glow {
+        opacity: 0 !important
+        stroke: #CADAD6;
+    }
+    #logo .label {
+        opacity: 0 !important;
+        fill: #CADAD6;
+        stroke: #CADAD6;
+    }
+    a:hover #logo .record .loud-grooves {
+        stroke: hsl(169, 30%, 74%);
+        fill: hsl(169, 30%, 82%);
+    }
+    a:hover #logo .record .quiet-grooves {
+        fill: hsl(169, 30%, 78%);
+    }
+    a:hover #logo .record .flat-grooves {
+        fill: hsl(169, 30%, 74%);
+    }
+    a:hover #logo .record .runout {
+        stroke: hsl(169, 30%, 74%);
+    }
 }

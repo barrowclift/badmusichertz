@@ -12,27 +12,27 @@
 <html lang="en-US" prefix="og: http://ogp.me/ns#">
 <!--<![endif]-->
 
-	{% include head.html %}
+    {% include head.html %}
 
-	<body class="{% if page.float-menu == true %}float-menu{% endif %} {% if page.theme.article.show-menu-background == true or page.layout == 'default' %}show-menu-background{% endif %} {% if page.layout == 'podcast' or page.layout == 'post' %}post{% endif %}">
-		{% include header.html %}
+    <body class="{% if page.float-menu == true %}float-menu{% endif %} {% if page.theme.article.show-menu-background == true or page.layout == 'default' %}show-menu-background{% endif %} {% if page.layout == 'podcast' or page.layout == 'post' %}post{% endif %}">
+        {% include header.html %}
 
-		<div id="content" class="center {% if page.post == true %}review-page{% endif %} {% if page.wide-page %}wide-page{% endif %} {% if page.full-page %}full-page{% endif %}">
-			{% unless page.theme.article.disable-dark-overlay %}
-				<div class="background show-when-dark" style="z-index:-1;"></div>
-			{% endunless %}
-			{% if page.theme.article.blurred %}
-				<img class="background" style="z-index:-2;" src="{{ site.dropbox }}/{{ page.album-name }}/images/album-art-tiny.{% if page.theme.article.background-image-extension %}{{page.theme.article.background-image-extension}}{% else %}jpg{% endif %}"/>
-				<img class="background blurred" style="z-index:-2;" src="{{ site.dropbox }}/{{ page.album-name }}/images/album-art-tiny.{% if page.theme.article.background-image-extension %}{{page.theme.article.background-image-extension}}{% else %}jpg{% endif %}"/>
-			{% endif %}
-			<main>
+        <div id="content" class="center {% if page.post == true %}review-page{% endif %} {% if page.wide-page %}wide-page{% endif %} {% if page.full-page %}full-page{% endif %}">
+            {% unless page.theme.article.disable-dark-overlay %}
+                <div class="background show-when-dark" style="z-index:-1;"></div>
+            {% endunless %}
+            {% if page.theme.article.blurred %}
+                <img class="background" style="z-index:-2;" src="{{ site.dropbox }}/{{ page.album-name }}/images/album-art-tiny.{% if page.theme.article.background-image-extension %}{{page.theme.article.background-image-extension}}{% else %}jpg{% endif %}"/>
+                <img class="background blurred" style="z-index:-2;" src="{{ site.dropbox }}/{{ page.album-name }}/images/album-art-tiny.{% if page.theme.article.background-image-extension %}{{page.theme.article.background-image-extension}}{% else %}jpg{% endif %}"/>
+            {% endif %}
+            <main>
 
-				{{ content }}
+                {{ content }}
 
-			</main>
-		</div>
+            </main>
+        </div>
 
-		{% include footer.html %}
+        {% include footer.html %}
 
-	</body>
+    </body>
 </html>

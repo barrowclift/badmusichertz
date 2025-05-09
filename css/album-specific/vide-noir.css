@@ -1,146 +1,146 @@
 article hr, footer hr {
-	background-color: #1B1B1B;
-	background: #1B1B1B; /* Old browsers */
-	background: -moz-linear-gradient(left,  #09100B 0%, #1B1B1B 25%, #1B1B1B 50%, #1B1B1B 75%, #09100B 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#09100B), color-stop(25%,#1B1B1B), color-stop(50%,#1B1B1B), color-stop(75%,#1B1B1B), color-stop(100%,#09100B)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(left,  #09100B 0%,#1B1B1B 25%,#1B1B1B 50%,#1B1B1B 75%,#09100B 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(left,  #09100B 0%,#1B1B1B 25%,#1B1B1B 50%,#1B1B1B 75%,#09100B 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(left,  #09100B 0%,#1B1B1B 25%,#1B1B1B 50%,#1B1B1B 75%,#09100B 100%); /* IE10+ */
-	background: linear-gradient(to right,  #09100B 0%,#1B1B1B 25%,#1B1B1B 50%,#1B1B1B 75%,#09100B 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#09100B', endColorstr='#09100B',GradientType=1 ); /* IE6-9 */
+    background-color: #1B1B1B;
+    background: #1B1B1B; /* Old browsers */
+    background: -moz-linear-gradient(left,  #09100B 0%, #1B1B1B 25%, #1B1B1B 50%, #1B1B1B 75%, #09100B 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#09100B), color-stop(25%,#1B1B1B), color-stop(50%,#1B1B1B), color-stop(75%,#1B1B1B), color-stop(100%,#09100B)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left,  #09100B 0%,#1B1B1B 25%,#1B1B1B 50%,#1B1B1B 75%,#09100B 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left,  #09100B 0%,#1B1B1B 25%,#1B1B1B 50%,#1B1B1B 75%,#09100B 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left,  #09100B 0%,#1B1B1B 25%,#1B1B1B 50%,#1B1B1B 75%,#09100B 100%); /* IE10+ */
+    background: linear-gradient(to right,  #09100B 0%,#1B1B1B 25%,#1B1B1B 50%,#1B1B1B 75%,#09100B 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#09100B', endColorstr='#09100B',GradientType=1 ); /* IE6-9 */
 }
 menu a .rss,
 menu a .letter {
-	fill: #F1FEFE;
-	filter: drop-shadow(0 0 2px #F1FEFE) drop-shadow(0 0 10px #1FB255) drop-shadow(0 0 5px #1FB255);
+    fill: #F1FEFE;
+    filter: drop-shadow(0 0 2px #F1FEFE) drop-shadow(0 0 10px #1FB255) drop-shadow(0 0 5px #1FB255);
 }
 menu a:hover .rss,
 menu a:hover .letter {
-	fill: #1FB255;
+    fill: #1FB255;
 }
 .album-art {
-	box-shadow: none;
-	-webkit-box-shadow: none;
-	-moz-box-shadow: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
 }
 menu ul li a:link,
 menu ul li a:visited,
 #logo span {
-	color: #F1FEFE;
+    color: #F1FEFE;
 }
 menu ul li a:link,
 menu ul li a:visited {
-	text-shadow: 0 0 2px #F1FEFE, 0 0 80px #1FB255, 0 0 40px #1FB255, 0 0 20px #1FB255, 0 0 10px #1FB255, 0 0 5px #1FB255;
+    text-shadow: 0 0 2px #F1FEFE, 0 0 80px #1FB255, 0 0 40px #1FB255, 0 0 20px #1FB255, 0 0 10px #1FB255, 0 0 5px #1FB255;
 }
 #logo {
-	filter: drop-shadow(0 0 1px #F1FEFE) drop-shadow(0 0 3px #1FB255) drop-shadow(0 0 20px #1FB255);
+    filter: drop-shadow(0 0 1px #F1FEFE) drop-shadow(0 0 3px #1FB255) drop-shadow(0 0 20px #1FB255);
 }
 #logo .record .loud-grooves {
-	stroke: hsl(180, 87%, 89%);
-	fill: hsl(180, 87%, 97%);
+    stroke: hsl(180, 87%, 89%);
+    fill: hsl(180, 87%, 97%);
 }
 #logo .record .quiet-grooves {
-	fill: hsl(180, 87%, 93%);
+    fill: hsl(180, 87%, 93%);
 }
 #logo .record .flat-grooves {
-	fill: hsl(180, 87%, 89%);
+    fill: hsl(180, 87%, 89%);
 }
 #logo .record .runout {
-	stroke: hsl(180, 87%, 89%);
+    stroke: hsl(180, 87%, 89%);
 }
 a:hover #logo .record .loud-grooves {
-	stroke: hsl(142, 70%, 37%);
-	fill: hsl(142, 70%, 41%);
+    stroke: hsl(142, 70%, 37%);
+    fill: hsl(142, 70%, 41%);
 }
 a:hover #logo .record .quiet-grooves {
-	fill: hsl(142, 70%, 39%);
+    fill: hsl(142, 70%, 39%);
 }
 a:hover #logo .record .flat-grooves {
-	fill: hsl(142, 70%, 37%);
+    fill: hsl(142, 70%, 37%);
 }
 a:hover #logo .record .runout {
-	stroke: hsl(142, 70%, 37%);
+    stroke: hsl(142, 70%, 37%);
 }
 #logo .label {
-	fill: #1FB255;
-	stroke: unset !important;
-	opacity: 1 !important;
+    fill: #1FB255;
+    stroke: unset !important;
+    opacity: 1 !important;
 }
 #logo .label-glow {
-	stroke: unset !important;
+    stroke: unset !important;
 }
 a:hover #logo .label {
-	fill: #09100B;
+    fill: #09100B;
 }
 
 #content, html {
-	background-color: rgba(9, 8, 10, 1.00);
+    background-color: rgba(9, 8, 10, 1.00);
 }
 .review-page article,
 #springboard {
-	background-color: hsla(142,70%,41%, 0.075);
-	border-color: hsla(142,70%,41%, 0.075);
+    background-color: hsla(142,70%,41%, 0.075);
+    border-color: hsla(142,70%,41%, 0.075);
 }
 main, .review-page article {
-	color: #B1E5D6;
+    color: #B1E5D6;
 }
 article header {
-	background-image: none !important;
-	box-shadow: none;
-	-webkit-box-shadow: none;
-	-moz-box-shadow: none;
+    background-image: none !important;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
 }
 #shownotes > h1,
 h2,
 #springboard h1 > span {
-	color: #F1FEFE !important;
-	text-shadow: 0 0 2px #F1FEFE, 0 0 80px #1FB255, 0 0 40px #1FB255, 0 0 20px #1FB255, 0 0 10px #1FB255, 0 0 5px #1FB255;;
+    color: #F1FEFE !important;
+    text-shadow: 0 0 2px #F1FEFE, 0 0 80px #1FB255, 0 0 40px #1FB255, 0 0 20px #1FB255, 0 0 10px #1FB255, 0 0 5px #1FB255;;
 }
 #springboard h1 time {
-	color: #B1E5D6 !important;
+    color: #B1E5D6 !important;
 }
 .podcast-article-wrapper .article-mime-icon path {
-	fill: #B1E5D6;
+    fill: #B1E5D6;
 }
 /* Safari */
 ::selection {
-	background: #1FB255;
-	color: #B1E5D6;
+    background: #1FB255;
+    color: #B1E5D6;
 }
 /* Firefox */
 ::-moz-selection {
-	background: #1FB255;
-	color: #B1E5D6;
+    background: #1FB255;
+    color: #B1E5D6;
 }
 a, a:link, a:visited {
-	color: #1FB255;
+    color: #1FB255;
 }
 a:hover,
 menu ul li a:hover,
 a:hover #logo span {
-	color: #B1E5D6;
+    color: #B1E5D6;
 }
 menu ul li a:hover,
 a:hover #logo span {
-	color: #1FB255;
+    color: #1FB255;
 }
 menu ul li a:hover {
-	text-shadow: 0 0 2px #1FB255, 0 0 80px #1FB255, 0 0 40px #1FB255;
+    text-shadow: 0 0 2px #1FB255, 0 0 80px #1FB255, 0 0 40px #1FB255;
 }
 
 #listen-on-buttons .start {
-	stop-color: #1FB255;
+    stop-color: #1FB255;
 }
 #listen-on-buttons .stop {
-	stop-color: #062C0E;
+    stop-color: #062C0E;
 }
 
 #logo a,
 menu ul li a {
-	text-decoration: none;
+    text-decoration: none;
 }
 .review-page article,
 #springboard {
-	-webkit-backdrop-filter: unset !important;
-	backdrop-filter: unset !important;
+    -webkit-backdrop-filter: unset !important;
+    backdrop-filter: unset !important;
 }

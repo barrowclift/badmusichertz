@@ -1,98 +1,98 @@
 <head>
-	<title>{{site.title}}{% if page.title %}{% if page.podcast.episode %} {{ page.podcast.episode }}{% endif %}: {{ page.title }}{% endif %}</title>
+    <title>{{site.title}}{% if page.title %}{% if page.podcast.episode %} {{ page.podcast.episode }}{% endif %}: {{ page.title }}{% endif %}</title>
 
-	<link rel="alternate" type="application/atom+xml" title="Bad Music Hertz Articles and Podcasts" href="{{ site.baseurl }}/feed.xml">
-	<link rel="alternate" type="application/atom+xml" title="Bad Music Hertz Articles" href="{{ site.baseurl }}/article-feed.xml">
-	<link rel="alternate" type="application/rss+xml" title="Bad Music Hertz Podcast" href="{{ site.baseurl }}/podcast-feed.xml">
+    <link rel="alternate" type="application/atom+xml" title="Bad Music Hertz Articles and Podcasts" href="{{ site.baseurl }}/feed.xml">
+    <link rel="alternate" type="application/atom+xml" title="Bad Music Hertz Articles" href="{{ site.baseurl }}/article-feed.xml">
+    <link rel="alternate" type="application/rss+xml" title="Bad Music Hertz Podcast" href="{{ site.baseurl }}/podcast-feed.xml">
 
-	<link rel="mask-icon" href="{{ site.baseurl }}/images/logo/pinned-tab.svg" color="#e03131" />
-	<link rel="shortcut icon" href="{{ site.baseurl }}/favicon.ico" />
-	<link rel="apple-touch-icon" href="{{ site.baseurl }}/images/logo/apple-touch-icon.png" />
+    <link rel="mask-icon" href="{{ site.baseurl }}/images/logo/pinned-tab.svg" color="#e03131" />
+    <link rel="shortcut icon" href="{{ site.baseurl }}/favicon.ico" />
+    <link rel="apple-touch-icon" href="{{ site.baseurl }}/images/logo/apple-touch-icon.png" />
 
-	<meta name="application-name" content="Bad Music Hertz" />
-	<meta name="msapplication-TileColor" content="#F7F9FA" />
-	<meta name="msapplication-config" content="{{ site.baseurl }}/images/logo/browserconfig.xml" />
-	{% if page.theme.safari-toolbar-color.light %}
-		{% if page.theme.safari-toolbar-color.dark %}
-			<meta name="theme-color" content="{{ page.theme.safari-toolbar-color.dark }}" media="(prefers-color-scheme: dark)" />
-		{% endif %}
-		<meta name="theme-color" content="{{ page.theme.safari-toolbar-color.light }}" />
-	{% else %}
-		<meta name="theme-color" content="#1A1212" media="(prefers-color-scheme: dark)" />
-		<meta name="theme-color" content="#F7F9FA" />
-	{% endif %}
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<meta name="viewport" content="initial-scale=1, viewport-fit=cover">
+    <meta name="application-name" content="Bad Music Hertz" />
+    <meta name="msapplication-TileColor" content="#F7F9FA" />
+    <meta name="msapplication-config" content="{{ site.baseurl }}/images/logo/browserconfig.xml" />
+    {% if page.theme.safari-toolbar-color.light %}
+        {% if page.theme.safari-toolbar-color.dark %}
+            <meta name="theme-color" content="{{ page.theme.safari-toolbar-color.dark }}" media="(prefers-color-scheme: dark)" />
+        {% endif %}
+        <meta name="theme-color" content="{{ page.theme.safari-toolbar-color.light }}" />
+    {% else %}
+        <meta name="theme-color" content="#1A1212" media="(prefers-color-scheme: dark)" />
+        <meta name="theme-color" content="#F7F9FA" />
+    {% endif %}
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="initial-scale=1, viewport-fit=cover">
 
-	{% if jekyll.environment == "dev" %}
-		<link rel="stylesheet" href="{{ site.baseurl }}/css/reset.css" type="text/css" />
-		<link rel="stylesheet" href="{{ site.baseurl }}/css/littlefoot-4.1.1.css" type="text/css" />
-		<link rel="stylesheet" href="{{ site.baseurl }}/css/hint.css" type="text/css" />
-		<link rel="stylesheet" href="{{ site.baseurl }}/css/core.css" type="text/css" />
-	{% else %}
-		<link rel="stylesheet" href="{{ site.baseurl }}/css/min/core-1.min.css" type="text/css" />
-	{% endif %}
-	{% if page.album-name %}
-		<link rel="stylesheet" href="{{ site.baseurl }}/css/album-specific/{{ page.album-name }}.css" type="text/css" />
-	{% endif %}
+    {% if jekyll.environment == "dev" %}
+        <link rel="stylesheet" href="{{ site.baseurl }}/css/reset.css" type="text/css" />
+        <link rel="stylesheet" href="{{ site.baseurl }}/css/littlefoot-4.1.1.css" type="text/css" />
+        <link rel="stylesheet" href="{{ site.baseurl }}/css/hint.css" type="text/css" />
+        <link rel="stylesheet" href="{{ site.baseurl }}/css/core.css" type="text/css" />
+    {% else %}
+        <link rel="stylesheet" href="{{ site.baseurl }}/css/min/core-1.min.css" type="text/css" />
+    {% endif %}
+    {% if page.album-name %}
+        <link rel="stylesheet" href="{{ site.baseurl }}/css/album-specific/{{ page.album-name }}.css" type="text/css" />
+    {% endif %}
 
-	{% if jekyll.environment == "dev" %}
-		<script async src="{{ site.baseurl }}/scripts/littlefoot-4.1.1.min.js"></script>
-		<script async src="{{ site.baseurl }}/scripts/core.js"></script>
-	{% else %}
-		<script async src="{{ site.baseurl }}/scripts/core-1.min.js"></script>
-	{% endif %}
-	<!--
-	Anchor offset:
-	Without this, if you click the "back"/↩ button on a footnote to go back to
-	the article, browsers will scroll the top of the page to be precisely
-	where the footnote is, but that means the floating toolbar will stupidly
-	float right on over it! If we detect this is happening, correct the scroll
-	adjustment so the footnote remains comfortably viewable in spite of the
-	floating menubar
+    {% if jekyll.environment == "dev" %}
+        <script async src="{{ site.baseurl }}/scripts/littlefoot-4.1.1.min.js"></script>
+        <script async src="{{ site.baseurl }}/scripts/core.js"></script>
+    {% else %}
+        <script async src="{{ site.baseurl }}/scripts/core-1.min.js"></script>
+    {% endif %}
+    <!--
+    Anchor offset:
+    Without this, if you click the "back"/↩ button on a footnote to go back to
+    the article, browsers will scroll the top of the page to be precisely
+    where the footnote is, but that means the floating toolbar will stupidly
+    float right on over it! If we detect this is happening, correct the scroll
+    adjustment so the footnote remains comfortably viewable in spite of the
+    floating menubar
 
-	Thanks to Ian Clark for his clever solution on Stack Overflow https://stackoverflow.com/a/13067009
-	-->
-	<script>!function(t,e,n){var i=!(!e||!e.pushState),o={ANCHOR_REGEX:/^#[^ ]+$/,OFFSET_HEIGHT_PX:75,init:function(){this.scrollToCurrent(),window.addEventListener("hashchange",this.scrollToCurrent.bind(this)),t.body.addEventListener("click",this.delegateAnchors.bind(this))},getFixedOffset:function(){return this.OFFSET_HEIGHT_PX},scrollIfAnchor:function(o,r){var s,d,c;return this.ANCHOR_REGEX.test(o)?(s=t.getElementById(o.slice(1)),s&&(d=s.getBoundingClientRect(),c=window.pageYOffset+d.top-this.getFixedOffset(),window.scrollTo(window.pageXOffset,c),i&&r&&e.pushState({},t.title,n.pathname+o)),!!s):!1},scrollToCurrent:function(){this.scrollIfAnchor(window.location.hash)},delegateAnchors:function(t){var e=t.target;"A"===e.nodeName&&this.scrollIfAnchor(e.getAttribute("href"),!0)&&t.preventDefault()}};window.addEventListener("DOMContentLoaded",o.init.bind(o))}(window.document,window.history,window.location);</script>
-	<!-- Nicely fade the menu when user scrolls down while viewing a post -->
-	<script>
-		addEventListener("scroll", (event) => {
-			let scrollTop = document.getElementsByTagName("html")[0].scrollTop;
-			document.getElementsByTagName("menu")[0].style.setProperty("top", (scrollTop / -4) + "px");
-			document.getElementsByTagName("menu")[0].style.setProperty("opacity", (50 - scrollTop) / 50);
-		});
-	</script>
+    Thanks to Ian Clark for his clever solution on Stack Overflow https://stackoverflow.com/a/13067009
+    -->
+    <script>!function(t,e,n){var i=!(!e||!e.pushState),o={ANCHOR_REGEX:/^#[^ ]+$/,OFFSET_HEIGHT_PX:75,init:function(){this.scrollToCurrent(),window.addEventListener("hashchange",this.scrollToCurrent.bind(this)),t.body.addEventListener("click",this.delegateAnchors.bind(this))},getFixedOffset:function(){return this.OFFSET_HEIGHT_PX},scrollIfAnchor:function(o,r){var s,d,c;return this.ANCHOR_REGEX.test(o)?(s=t.getElementById(o.slice(1)),s&&(d=s.getBoundingClientRect(),c=window.pageYOffset+d.top-this.getFixedOffset(),window.scrollTo(window.pageXOffset,c),i&&r&&e.pushState({},t.title,n.pathname+o)),!!s):!1},scrollToCurrent:function(){this.scrollIfAnchor(window.location.hash)},delegateAnchors:function(t){var e=t.target;"A"===e.nodeName&&this.scrollIfAnchor(e.getAttribute("href"),!0)&&t.preventDefault()}};window.addEventListener("DOMContentLoaded",o.init.bind(o))}(window.document,window.history,window.location);</script>
+    <!-- Nicely fade the menu when user scrolls down while viewing a post -->
+    <script>
+        addEventListener("scroll", (event) => {
+            let scrollTop = document.getElementsByTagName("html")[0].scrollTop;
+            document.getElementsByTagName("menu")[0].style.setProperty("top", (scrollTop / -4) + "px");
+            document.getElementsByTagName("menu")[0].style.setProperty("opacity", (50 - scrollTop) / 50);
+        });
+    </script>
 
-	<link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' | prepend: site.baseurl | replace: '//', '/' }}">
-	<link rel="next" href="{{ site.url }}/page/2/" />
+    <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' | prepend: site.baseurl | replace: '//', '/' }}">
+    <link rel="next" href="{{ site.url }}/page/2/" />
 
-	<meta property="og:locale" content="en_US" />
-	<meta property="og:type" content="{% if page.article %}article{% else %}website{% endif %}" />
-	<meta property="og:title" content="{% if page.title %}{% if page.podcast.episode %}Episode {{ page.podcast.episode }}: {% endif %}{{ page.title }}{% else %}{{site.title}}{% endif %}" />
-	<meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
-	<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-	<meta property="og:url" content="{{ site.url }}{{ page.url | replace:'index.html','' | prepend: site.baseurl | replace: '//', '/' }}" />
-	{% if page.image %}
-		<meta property="og:image" content="{{ site.dropbox }}/{{ page.image }}"/>
-	{% else %}
-		<meta property="og:image" content="{{ site.url }}/images/logo/banner.jpg"/>
-	{% endif %}
-	<meta property="og:site_name" content="{{ site.title }}" />
-	<meta property="fb:admins" content="1665270112" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="{% if page.article %}article{% else %}website{% endif %}" />
+    <meta property="og:title" content="{% if page.title %}{% if page.podcast.episode %}Episode {{ page.podcast.episode }}: {% endif %}{{ page.title }}{% else %}{{site.title}}{% endif %}" />
+    <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
+    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    <meta property="og:url" content="{{ site.url }}{{ page.url | replace:'index.html','' | prepend: site.baseurl | replace: '//', '/' }}" />
+    {% if page.image %}
+        <meta property="og:image" content="{{ site.dropbox }}/{{ page.image }}"/>
+    {% else %}
+        <meta property="og:image" content="{{ site.url }}/images/logo/banner.jpg"/>
+    {% endif %}
+    <meta property="og:site_name" content="{{ site.title }}" />
+    <meta property="fb:admins" content="1665270112" />
 
-	<meta name="twitter:card" content="summary" />
-	<meta name="twitter:site" content="@{{ site.author.twitter_handle }}" />
-	<meta name="twitter:creator:id" contents="4805916375" />
-	<meta name="twitter:title" content="{% if page.title %}{% if page.podcast.episode %}Episode {{ page.podcast.episode }}: {% endif %}{{ page.title }}{% else %}{{site.title}}{% endif %}" />
-	<meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 200 }}{% else %}{{ site.description }}{% endif %}" />
-	{% if page.image %}
-		<meta name="twitter:image" content="{{ site.dropbox }}/{{ page.image }}" />
-	{% else %}
-		<meta name="twitter:image" content="{{ site.url }}/images/logo/apple-touch-icon.png" />
-		<meta name="twitter:image:alt" content="A record player and tonearm that together clearly form a lower case letter ‘b’ for “Bad Music Hertz”.">
-	{% endif %}
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@{{ site.author.twitter_handle }}" />
+    <meta name="twitter:creator:id" contents="4805916375" />
+    <meta name="twitter:title" content="{% if page.title %}{% if page.podcast.episode %}Episode {{ page.podcast.episode }}: {% endif %}{{ page.title }}{% else %}{{site.title}}{% endif %}" />
+    <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 200 }}{% else %}{{ site.description }}{% endif %}" />
+    {% if page.image %}
+        <meta name="twitter:image" content="{{ site.dropbox }}/{{ page.image }}" />
+    {% else %}
+        <meta name="twitter:image" content="{{ site.url }}/images/logo/apple-touch-icon.png" />
+        <meta name="twitter:image:alt" content="A record player and tonearm that together clearly form a lower case letter ‘b’ for “Bad Music Hertz”.">
+    {% endif %}
 
-	{% if page.redirect %}
-		<meta http-equiv="refresh" content="0; url={{ page.redirect }}" />
-	{% endif %}
+    {% if page.redirect %}
+        <meta http-equiv="refresh" content="0; url={{ page.redirect }}" />
+    {% endif %}
 </head>

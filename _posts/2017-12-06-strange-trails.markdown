@@ -62,27 +62,27 @@ Or purchase *Lonesome Dreams* on:
 * [Strange Trails "Teaser Trailer"](https://www.youtube.com/watch?v=E-n6HR7lXLY)
 * [Strange Trails No. 7 "The World Ender" Comic Book](https://www.merchbar.com/rock-alternative/lord-huron/lord-huron-strange-trails-comic-book)
 * [Paul McCartney's *RAM*](https://itunes.apple.com/us/album/ram/id525824484)
-	- [3. Ram On](https://www.youtube.com/watch?v=2Swl9Iqh6DQ)
-	- [11. Ram On](https://www.youtube.com/watch?v=4Yv_Od1pPIE)
+    - [3. Ram On](https://www.youtube.com/watch?v=2Swl9Iqh6DQ)
+    - [11. Ram On](https://www.youtube.com/watch?v=4Yv_Od1pPIE)
 * [Stephen King's *11/22/63*](https://www.amazon.com/11-22-63-Stephen-King/dp/1501120603)
 * [William Blake's *Songs of Innocence and of Experience*](https://en.wikipedia.org/wiki/Songs_of_Innocence_and_of_Experience)
 * ["The World Ender" - Official Music Video](https://www.youtube.com/watch?v=-TGld4a5Mb4)
 * [Major, minor, and diminished chords explained (with examples)](https://www.thoughtco.com/understanding-diminished-chords-2701092)
 * Song titles to lyrical speaker, as noted on the LP labels:
-	1. "Love Like Ghosts" - Francine Lu
-	2. "Until the Night Turns" - D. Redmayne/Phantom Riders
-	3. "Dead Man's Hand" - Buck Vernon
-	4. "Hurricane (Johnnie's Theme)" - D. Redmayne/Phantom Riders
-	5. "La Belle Fleur Sauvage" - Remy Fusil
-	6. "Fool For Love" - Buck Vernon
-	7. "The World Ender" - D. Redmayne/Phantom Riders
-	8. "Meet Me in the Woods" - Francine Lu/Claude Fox
-	9. "The Yawning Grave" - Traditional
-	10. "Frozen Pines" - H.W. Justine
-	11. "Cursed" - Buck Vernon
-	12. "Way Out There" - Traditional
-	13. "Louisa" - Buck Vernon
-	14. "The Night We Met" - Francine Lu
+    1. "Love Like Ghosts" - Francine Lu
+    2. "Until the Night Turns" - D. Redmayne/Phantom Riders
+    3. "Dead Man's Hand" - Buck Vernon
+    4. "Hurricane (Johnnie's Theme)" - D. Redmayne/Phantom Riders
+    5. "La Belle Fleur Sauvage" - Remy Fusil
+    6. "Fool For Love" - Buck Vernon
+    7. "The World Ender" - D. Redmayne/Phantom Riders
+    8. "Meet Me in the Woods" - Francine Lu/Claude Fox
+    9. "The Yawning Grave" - Traditional
+    10. "Frozen Pines" - H.W. Justine
+    11. "Cursed" - Buck Vernon
+    12. "Way Out There" - Traditional
+    13. "Louisa" - Buck Vernon
+    14. "The Night We Met" - Francine Lu
 * ["Fool For Love" - Official Music Video](https://www.youtube.com/watch?v=fl1FOuZnOAg)
 * [*The Count of Monte Cristo* by Alexandre Dumas](https://www.amazon.com/dp/B00FMWDA8A/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1)
 * [*Planetarium* by Sufjan Stevens, Bryce Dessner, Nico Muhly, and James McAlister](https://itunes.apple.com/us/album/planetarium/id1214400194)
@@ -102,20 +102,20 @@ Or purchase *Lonesome Dreams* on:
 ## Marc's Sophomore LP Categories and Examples
 
 * Sophomore Slump 👎🏻
-	- [Mumford & Sons](https://open.spotify.com/artist/3gd8FJtBJtkRxdfbTu19U2)
-		* 2009's [*Sigh No More*](https://open.spotify.com/album/7GiLJfRPHARQrRJf01P2Tt) → 2012's [*Babel*](https://open.spotify.com/album/7rlmzEQPP4b6T6OhlnTdRn)
-	- [Florence + The Machine](https://open.spotify.com/artist/1moxjboGR7GNWYIMWsRjgG)
-		* 2010's [*Between Two Lungs*](https://open.spotify.com/album/1iA9sq6Ldnw1HP1YXpa8jh) → 2011's [*Ceremonials*](https://open.spotify.com/album/5DMgU1P55Su3EVXGvgID1p)
+    - [Mumford & Sons](https://open.spotify.com/artist/3gd8FJtBJtkRxdfbTu19U2)
+        * 2009's [*Sigh No More*](https://open.spotify.com/album/7GiLJfRPHARQrRJf01P2Tt) → 2012's [*Babel*](https://open.spotify.com/album/7rlmzEQPP4b6T6OhlnTdRn)
+    - [Florence + The Machine](https://open.spotify.com/artist/1moxjboGR7GNWYIMWsRjgG)
+        * 2010's [*Between Two Lungs*](https://open.spotify.com/album/1iA9sq6Ldnw1HP1YXpa8jh) → 2011's [*Ceremonials*](https://open.spotify.com/album/5DMgU1P55Su3EVXGvgID1p)
 * Sequelitis 😐
-	- [Real Estate](https://open.spotify.com/artist/41SQP16hv1TioVYqdckmxT)
-		* 2011's [*Days*](https://open.spotify.com/album/7e6bDoD8VD0549bu69UTEF) → 2014's [*Atlas*](https://open.spotify.com/album/5k7WCAZPSbJYzjW5SCQ5sn)
-	- [Phoenix](https://open.spotify.com/artist/1xU878Z1QtBldR7ru9owdU)
-		* 2009's [*Wolfgang Amadeus Phoenix*](https://open.spotify.com/album/6YXmQrXOjJoMheJ2IA5NqK) → 2013's [*Bankrupt!*](https://open.spotify.com/album/6LWQbomcYVtk6GReV2ZXhC)
+    - [Real Estate](https://open.spotify.com/artist/41SQP16hv1TioVYqdckmxT)
+        * 2011's [*Days*](https://open.spotify.com/album/7e6bDoD8VD0549bu69UTEF) → 2014's [*Atlas*](https://open.spotify.com/album/5k7WCAZPSbJYzjW5SCQ5sn)
+    - [Phoenix](https://open.spotify.com/artist/1xU878Z1QtBldR7ru9owdU)
+        * 2009's [*Wolfgang Amadeus Phoenix*](https://open.spotify.com/album/6YXmQrXOjJoMheJ2IA5NqK) → 2013's [*Bankrupt!*](https://open.spotify.com/album/6LWQbomcYVtk6GReV2ZXhC)
 * Transformative 👍🏻
-	- [Fleet Foxes](https://open.spotify.com/artist/4EVpmkEwrLYEg6jIsiPMIb)
-		* 2008's [*Fleet Foxes*](https://open.spotify.com/album/6spTDEWQfiSsKjkR9NmuDX) → 2011's [*Helplessness Blues*](https://open.spotify.com/album/7LKzVm90JnhNMPF6qX21fS)
-	- [Sturgill Simpson](https://open.spotify.com/artist/3vDpQbGnzRbRVirXlfQagB)
-		* 2014's [*Metamodern Sounds in Country Music*](https://open.spotify.com/album/4makbOuLd5SUdyHMaNM1Ag) → 2016's [*A Sailor's Guide to Earth*](https://open.spotify.com/album/5I3UdCxtIh6hkQ7rMPUvA4)
+    - [Fleet Foxes](https://open.spotify.com/artist/4EVpmkEwrLYEg6jIsiPMIb)
+        * 2008's [*Fleet Foxes*](https://open.spotify.com/album/6spTDEWQfiSsKjkR9NmuDX) → 2011's [*Helplessness Blues*](https://open.spotify.com/album/7LKzVm90JnhNMPF6qX21fS)
+    - [Sturgill Simpson](https://open.spotify.com/artist/3vDpQbGnzRbRVirXlfQagB)
+        * 2014's [*Metamodern Sounds in Country Music*](https://open.spotify.com/album/4makbOuLd5SUdyHMaNM1Ag) → 2016's [*A Sailor's Guide to Earth*](https://open.spotify.com/album/5I3UdCxtIh6hkQ7rMPUvA4)
 
 ## Art
 

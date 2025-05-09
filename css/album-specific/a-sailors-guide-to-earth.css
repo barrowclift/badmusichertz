@@ -1,29 +1,29 @@
 #content,
 html,
 main {
-	background-color: #050304;
+    background-color: #050304;
 }
 #springboard,
 .review-page article {
-	background-color: hsla(203, 38%, 12.5%, 0.6) !important;
+    background-color: hsla(203, 38%, 12.5%, 0.6) !important;
 }
 time {
-	color: rgba(226, 240, 246, 0.5);
+    color: rgba(226, 240, 246, 0.5);
 }
 .podcast-article-wrapper .article-mime-icon path {
-	fill: rgba(226, 240, 246, 0.5);
+    fill: rgba(226, 240, 246, 0.5);
 }
 
 main,
 .review-page article {
-	color: #E2F0F6;
+    color: #E2F0F6;
 }
 
 ::selection {
-	background: #F6C879;
+    background: #F6C879;
 }
 ::-moz-selection {
-	background: #F6C879;
+    background: #F6C879;
 }
 
 a,
@@ -32,55 +32,55 @@ a:visited,
 menu a,
 menu a:link,
 menu a:visited {
-	color: #F6C879;
+    color: #F6C879;
 }
 a:hover,
 menu a:hover {
-	color: hsl(38, 67%, 46%);
+    color: hsl(38, 67%, 46%);
 }
 menu a .rss,
 menu a .letter {
-	fill: #F6C879;
+    fill: #F6C879;
 }
 menu a:hover .rss,
 menu a:hover .letter {
-	fill: hsl(38, 67%, 46%);
+    fill: hsl(38, 67%, 46%);
 }
 
 #listen-on-buttons .start {
-	stop-color: #F6C879;
+    stop-color: #F6C879;
 }
 #listen-on-buttons .stop {
-	stop-color: hsl(38, 67%, 46%);
+    stop-color: hsl(38, 67%, 46%);
 }
 
 #logo .record .loud-grooves {
-	stroke: hsl(38, 87%, 67%);
-	fill: hsl(38, 87%, 72%);
+    stroke: hsl(38, 87%, 67%);
+    fill: hsl(38, 87%, 72%);
 }
 #logo .record .quiet-grooves {
-	fill: hsl(38, 87%, 69%);
+    fill: hsl(38, 87%, 69%);
 }
 #logo .record .flat-grooves {
-	fill: hsl(38, 87%, 67%);
+    fill: hsl(38, 87%, 67%);
 }
 #logo .record .runout {
-	stroke: hsl(38, 87%, 67%);
+    stroke: hsl(38, 87%, 67%);
 }
 #logo .label {
-	opacity: 0;
+    opacity: 0;
 }
 
 a:hover #logo .record .loud-grooves {
-	stroke: hsl(38, 67%, 42%);
-	fill: hsl(38, 67%, 46%);
+    stroke: hsl(38, 67%, 42%);
+    fill: hsl(38, 67%, 46%);
 }
 a:hover #logo .record .quiet-grooves {
-	fill: hsl(38, 67%, 44%);
+    fill: hsl(38, 67%, 44%);
 }
 a:hover #logo .record .flat-grooves {
-	fill: hsl(38, 67%, 42%);
+    fill: hsl(38, 67%, 42%);
 }
 a:hover #logo .record .runout {
-	stroke: hsl(38, 67%, 42%);
+    stroke: hsl(38, 67%, 42%);
 }

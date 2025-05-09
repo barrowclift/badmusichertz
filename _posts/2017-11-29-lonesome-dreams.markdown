@@ -55,11 +55,11 @@ Or purchase *Lonesome Dreams* on:
 ## Links
 
 * Lord Huron websites
-	- [*Lonesome Dreams* (Internet Archive)](https://web.archive.org/web/20121201170541/http://www.lordhuron.com/)
-	- [George Ranger Johnson's webpage](http://www.georgerangerjohnson.com)
+    - [*Lonesome Dreams* (Internet Archive)](https://web.archive.org/web/20121201170541/http://www.lordhuron.com/)
+    - [George Ranger Johnson's webpage](http://www.georgerangerjohnson.com)
 * Video "postcards"
-	- ["The Ghost on the Shore" music video / postcard](https://www.youtube.com/watch?v=BCYmDwAckNg)
-	- [Youtube Playlist (includes those from *Strange Trails*)](https://www.youtube.com/playlist?list=PL26E088D7793E1C27)
+    - ["The Ghost on the Shore" music video / postcard](https://www.youtube.com/watch?v=BCYmDwAckNg)
+    - [Youtube Playlist (includes those from *Strange Trails*)](https://www.youtube.com/playlist?list=PL26E088D7793E1C27)
 * [*Strange Trails* comic book](https://www.merchbar.com/rock-alternative/lord-huron/lord-huron-strange-trails-comic-book)
 * [NPR Interview with Lord Huron's Ben Schneider](http://www.npr.org/2015/04/06/397364256/lord-huron-wants-you-to-dance-at-the-apocalypse)
 

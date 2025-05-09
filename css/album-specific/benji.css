@@ -1,125 +1,125 @@
 html {
-	background-color: #6698D4;
+    background-color: #6698D4;
 }
 menu a,
 menu a:link,
 menu a:visited {
-	color: hsla(40, 50%, 55%, 0.9);
+    color: hsla(40, 50%, 55%, 0.9);
 }
 #logo .record .loud-grooves {
-	stroke: hsl(40, 50%, 51%);
-	fill: hsl(40, 50%, 55%);
+    stroke: hsl(40, 50%, 51%);
+    fill: hsl(40, 50%, 55%);
 }
 #logo .record .quiet-grooves {
-	fill: hsl(40, 50%, 53%);
+    fill: hsl(40, 50%, 53%);
 }
 #logo .record .flat-grooves {
-	fill: hsl(40, 50%, 51%);
+    fill: hsl(40, 50%, 51%);
 }
 #logo .record .runout {
-	stroke: hsl(40, 50%, 51%);
+    stroke: hsl(40, 50%, 51%);
 }
 h1,
 h2,
 #springboard h1 > span {
-	color: hsl(40, 69%, 55%);
+    color: hsl(40, 69%, 55%);
 }
 #springboard h1 time {
-	color: hsla(40, 79%, 45%, 0.7);
+    color: hsla(40, 79%, 45%, 0.7);
 }
 .podcast-article-wrapper .article-mime-icon path {
-	fill: hsla(40, 79%, 45%, 0.7);
+    fill: hsla(40, 79%, 45%, 0.7);
 }
 @media (prefers-color-scheme: dark) {
-	html {
-		background-color: #354F6F;
-	}
-	article header h1 time {
-		color: hsla(40, 50%, 80%, 0.375);
-	}
-	.podcast-article-wrapper .article-mime-icon path {
-		fill: hsla(40, 79%, 45%, 0.7);
-	}
+    html {
+        background-color: #354F6F;
+    }
+    article header h1 time {
+        color: hsla(40, 50%, 80%, 0.375);
+    }
+    .podcast-article-wrapper .article-mime-icon path {
+        fill: hsla(40, 79%, 45%, 0.7);
+    }
 }
 
 /* Safari */
 ::selection {
-	background: hsla(213, 56%, 62%, 0.99);
+    background: hsla(213, 56%, 62%, 0.99);
 }
 /* Firefox */
 ::-moz-selection {
-	background: hsla(213, 56%, 62%, 0.99);
+    background: hsla(213, 56%, 62%, 0.99);
 }
 @media (prefers-color-scheme: dark) {
-	/* Safari */
-	::selection {
-		background: hsla(213, 56%, 31%, 0.9);
-	}
-	/* Firefox */
-	::-moz-selection {
-		background: hsla(213, 56%, 31%, 0.9);
-	}
+    /* Safari */
+    ::selection {
+        background: hsla(213, 56%, 31%, 0.9);
+    }
+    /* Firefox */
+    ::-moz-selection {
+        background: hsla(213, 56%, 31%, 0.9);
+    }
 }
 
 a, a:link, a:visited {
-	color: #305F99;
+    color: #305F99;
 }
 menu a:hover {
-	color: #7F6631;
+    color: #7F6631;
 }
 menu a .rss,
 menu a .letter {
-	fill: hsla(40, 50%, 55%, 0.9);
+    fill: hsla(40, 50%, 55%, 0.9);
 }
 menu a:hover .rss,
 menu a:hover .letter {
-	fill: #7F6631;
+    fill: #7F6631;
 }
 a:hover #logo .record .loud-grooves {
-	stroke: hsl(41, 44%, 31%);
-	fill: hsl(41, 44%, 35%);
+    stroke: hsl(41, 44%, 31%);
+    fill: hsl(41, 44%, 35%);
 }
 a:hover #logo .record .quiet-grooves {
-	fill: hsl(41, 44%, 33%);
+    fill: hsl(41, 44%, 33%);
 }
 a:hover #logo .record .flat-grooves {
-	fill: hsl(41, 44%, 31%);
+    fill: hsl(41, 44%, 31%);
 }
 a:hover #logo .record .runout {
-	stroke: hsl(41, 44%, 31%);
+    stroke: hsl(41, 44%, 31%);
 }
 #logo .label {
-	opacity: 0;
+    opacity: 0;
 }
 a:hover {
-	color: #6698D4;
+    color: #6698D4;
 }
 #listen-on-buttons .start {
-	stop-color: #6698D4;
+    stop-color: #6698D4;
 }
 #listen-on-buttons .stop {
-	stop-color: #305F99;
+    stop-color: #305F99;
 }
 @media (prefers-color-scheme: dark) {
-	a, a:link, a:visited {
-		color: hsl(213, 60%, 70%);
-	}
-	a:hover {
-		color: hsl(213, 70%, 80%);
-	}
-	#listen-on-buttons .start {
-		stop-color: hsl(213, 50%, 60%);
-	}
-	#listen-on-buttons .stop {
-		stop-color: hsl(213, 50%, 30%);
-	}
+    a, a:link, a:visited {
+        color: hsl(213, 60%, 70%);
+    }
+    a:hover {
+        color: hsl(213, 70%, 80%);
+    }
+    #listen-on-buttons .start {
+        stop-color: hsl(213, 50%, 60%);
+    }
+    #listen-on-buttons .stop {
+        stop-color: hsl(213, 50%, 30%);
+    }
 }
 
 menu {
-	background-color: rgba(102, 152, 212, 0.95);
+    background-color: rgba(102, 152, 212, 0.95);
 }
 @supports ((-webkit-backdrop-filter: saturate(180%) blur(20px)) or (backdrop-filter: saturate(180%) blur(20px))) {
-	menu {
-		background-color: rgba(248, 249, 250, 0.25);
-	}
+    menu {
+        background-color: rgba(248, 249, 250, 0.25);
+    }
 }

@@ -1,50 +1,50 @@
 html {
-	background-color: #5C8680;
+    background-color: #5C8680;
 }
 ::selection {
-	background: hsla(135, 31%, 67%, 0.99);
+    background: hsla(135, 31%, 67%, 0.99);
 }
 ::-moz-selection {
-	background: hsla(135, 31%, 67%, 0.99);
+    background: hsla(135, 31%, 67%, 0.99);
 }
 a, a:link, a:visited {
-	color: #92C69F;
+    color: #92C69F;
 }
 a:hover {
-	color: #586B63;
+    color: #586B63;
 }
 
 /**
  * Record Logo
  */
 #logo .record .flat-grooves {
-	fill: hsl(215, 26%, 86%);
+    fill: hsl(215, 26%, 86%);
 }
 #logo .record .runout {
-	stroke: hsl(215, 26%, 86%);
+    stroke: hsl(215, 26%, 86%);
 }
 #logo .record .loud-grooves {
-	stroke: hsl(215, 26%, 86%);
-	fill: hsl(215, 26%, 91%);
+    stroke: hsl(215, 26%, 86%);
+    fill: hsl(215, 26%, 91%);
 }
 #logo .record .quiet-grooves {
-	fill: hsl(215, 26%, 81%);
+    fill: hsl(215, 26%, 81%);
 }
 a:hover #logo .record .loud-grooves {
-	stroke: hsl(135, 31%, 63%);
-	fill: hsl(135, 31%, 67%);
+    stroke: hsl(135, 31%, 63%);
+    fill: hsl(135, 31%, 67%);
 }
 a:hover #logo .record .quiet-grooves {
-	fill: hsl(135, 31%, 65%);
+    fill: hsl(135, 31%, 65%);
 }
 a:hover #logo .record .flat-grooves {
-	fill: hsl(135, 31%, 63%);
+    fill: hsl(135, 31%, 63%);
 }
 a:hover #logo .record .runout {
-	stroke: hsl(135, 31%, 63%);
+    stroke: hsl(135, 31%, 63%);
 }
 .label {
-	opacity: 0;
+    opacity: 0;
 }
 
 /**
@@ -53,118 +53,118 @@ a:hover #logo .record .runout {
 menu a,
 menu a:link,
 menu a:visited {
-	color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 0.8);
 }
 menu a .rss,
 menu a .letter {
-	fill: rgba(255, 255, 255, 0.8);
+    fill: rgba(255, 255, 255, 0.8);
 }
 menu a:hover {
-	color: #92C69F;
+    color: #92C69F;
 }
 menu a:hover .rss,
 menu a:hover .letter {
-	fill: #92C69F;
+    fill: #92C69F;
 }
 .littlefoot__button,
 .littlefoot__button:link,
 .littlefoot__button:visited {
-	background-color: #92C69F;
+    background-color: #92C69F;
 }
 .littlefoot__button:hover,
 .littlefoot__button:focus,
 .littlefoot__button:active,
 .littlefoot__button.is-active {
-	background-color: #586B63;
+    background-color: #586B63;
 }
 .littlefoot {
-	--popover-text-color: rgba(33, 37, 41, 0.9);
-	--popover-background-color: hsl(73, 43%, 95%);
-	--popover-border: 1px solid #C4C9BD;
-	--popover-scroll-indicator-color: rgba(255, 255, 255, 0.5);
+    --popover-text-color: rgba(33, 37, 41, 0.9);
+    --popover-background-color: hsl(73, 43%, 95%);
+    --popover-border: 1px solid #C4C9BD;
+    --popover-scroll-indicator-color: rgba(255, 255, 255, 0.5);
 }
 .littlefoot__content a {
-	color: #92C69F;
+    color: #92C69F;
 }
 .littlefoot__content a:hover {
-	color: #586B63;
+    color: #586B63;
 }
 @media (prefers-color-scheme: dark) {
-	html {
-		background-color: #586B63;
-	}
-	.review-page article {
-		color: #EEF1E3;
-		background-color: hsla(155, 10%, 15%, 0.8);
-	}
-	main,
-	.review-page article {
-		color: hsl(135, 31%, 95%);
-	}
-	article header h1 span,
-	h2 {
-		color: hsl(135, 31%, 67%);
-	}
-	article header h1 time {
-		color: hsla(135, 31%, 75%, 0.375);
-	}
-	.podcast-article-wrapper .article-mime-icon path {
-		fill: hsla(135, 31%, 75%, 0.375);
-	}
-	menu a,
-	menu a:link,
-	menu a:visited {
-		color: #92C69F;
-	}
-	menu a .rss,
-	menu a .letter {
-		fill: #92C69F;
-	}
-	menu a:hover .rss,
-	menu a:hover .letter {
-		fill: #586B63;
-	}
-	#logo .record .loud-grooves {
-		stroke: hsl(135, 31%, 61%);
-		fill: hsl(135, 31%, 67%);
-	}
-	#logo .record .quiet-grooves {
-		fill: hsl(135, 31%, 64%);
-	}
-	#logo .record .flat-grooves {
-		fill: hsl(135, 31%, 61%);
-	}
-	#logo .record .runout {
-		stroke: hsl(135, 31%, 61%);
-	}
-	#logo .label {
-		fill: #586B63;
-		stroke: unset !important;
-		opacity: 1 !important;
-	}
-	#logo .label-glow {
-		stroke: unset !important;
-	}
+    html {
+        background-color: #586B63;
+    }
+    .review-page article {
+        color: #EEF1E3;
+        background-color: hsla(155, 10%, 15%, 0.8);
+    }
+    main,
+    .review-page article {
+        color: hsl(135, 31%, 95%);
+    }
+    article header h1 span,
+    h2 {
+        color: hsl(135, 31%, 67%);
+    }
+    article header h1 time {
+        color: hsla(135, 31%, 75%, 0.375);
+    }
+    .podcast-article-wrapper .article-mime-icon path {
+        fill: hsla(135, 31%, 75%, 0.375);
+    }
+    menu a,
+    menu a:link,
+    menu a:visited {
+        color: #92C69F;
+    }
+    menu a .rss,
+    menu a .letter {
+        fill: #92C69F;
+    }
+    menu a:hover .rss,
+    menu a:hover .letter {
+        fill: #586B63;
+    }
+    #logo .record .loud-grooves {
+        stroke: hsl(135, 31%, 61%);
+        fill: hsl(135, 31%, 67%);
+    }
+    #logo .record .quiet-grooves {
+        fill: hsl(135, 31%, 64%);
+    }
+    #logo .record .flat-grooves {
+        fill: hsl(135, 31%, 61%);
+    }
+    #logo .record .runout {
+        stroke: hsl(135, 31%, 61%);
+    }
+    #logo .label {
+        fill: #586B63;
+        stroke: unset !important;
+        opacity: 1 !important;
+    }
+    #logo .label-glow {
+        stroke: unset !important;
+    }
 
-	menu a:hover {
-		color: #586B63;
-	}
-	a:hover #logo .record .loud-grooves {
-		stroke: hsl(155, 10%, 32%);
-		fill: hsl(155, 10%, 38%);
-	}
-	a:hover #logo .record .quiet-grooves {
-		fill: hsl(155, 10%, 35%);
-	}
-	a:hover #logo .record .flat-grooves {
-		fill: hsl(155, 10%, 32%);
-	}
-	a:hover #logo .record .runout {
-		stroke: hsl(155, 10%, 32%);
-	}
-	.littlefoot {
-		--popover-text-color: #EEF1E3;
-		--popover-background-color: hsl(155, 10%, 18%);
-		--popover-border: 1px solid #36403C;
-	}
+    menu a:hover {
+        color: #586B63;
+    }
+    a:hover #logo .record .loud-grooves {
+        stroke: hsl(155, 10%, 32%);
+        fill: hsl(155, 10%, 38%);
+    }
+    a:hover #logo .record .quiet-grooves {
+        fill: hsl(155, 10%, 35%);
+    }
+    a:hover #logo .record .flat-grooves {
+        fill: hsl(155, 10%, 32%);
+    }
+    a:hover #logo .record .runout {
+        stroke: hsl(155, 10%, 32%);
+    }
+    .littlefoot {
+        --popover-text-color: #EEF1E3;
+        --popover-background-color: hsl(155, 10%, 18%);
+        --popover-border: 1px solid #36403C;
+    }
 }

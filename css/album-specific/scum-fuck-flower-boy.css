@@ -1,160 +1,160 @@
 #content,
 html,
 main {
-	background-color: rgb(243, 185, 79);
+    background-color: rgb(243, 185, 79);
 }
 .review-page article {
-	background-color: rgba(242, 228, 189, 0.95);
+    background-color: rgba(242, 228, 189, 0.95);
 }
 a {
-	font-weight: 400;
+    font-weight: 400;
 }
 main,
 .review-page article {
-	color: #3E3620;
+    color: #3E3620;
 }
 article header h1 span,
 h2 {
-	color: #3E3620;
+    color: #3E3620;
 }
 article header h1 time {
-	color: rgba(21, 12, 9, 0.375);
+    color: rgba(21, 12, 9, 0.375);
 }
 .podcast-article-wrapper .article-mime-icon path {
-	fill: rgba(21, 12, 9, 0.375);
+    fill: rgba(21, 12, 9, 0.375);
 }
 menu a,
 menu a:link,
 menu a:visited {
-	color: #3E3620;
+    color: #3E3620;
 }
 menu a .rss,
 menu a .letter {
-	fill: #3E3620;
+    fill: #3E3620;
 }
 menu a:hover .rss,
 menu a:hover .letter {
-	fill: hsl(75, 39%, 26%);
+    fill: hsl(75, 39%, 26%);
 }
 ::selection {
-	background: hsla(75, 39%, 26%, 0.99);
+    background: hsla(75, 39%, 26%, 0.99);
 }
 ::-moz-selection {
-	background: hsla(75, 39%, 26%, 0.99);
+    background: hsla(75, 39%, 26%, 0.99);
 }
 a, a:link, a:visited {
-	color: hsl(7, 90%, 50%);
+    color: hsl(7, 90%, 50%);
 }
 a:hover {
-	color: hsl(7, 90%, 70%);
+    color: hsl(7, 90%, 70%);
 }
 menu a:hover {
-	color: hsl(75, 39%, 26%);
+    color: hsl(75, 39%, 26%);
 }
 #logo .record .loud-grooves {
-	stroke: hsl(44, 32%, 14%);
-	fill: hsl(44, 32%, 18%);
+    stroke: hsl(44, 32%, 14%);
+    fill: hsl(44, 32%, 18%);
 }
 #logo .record .quiet-grooves {
-	fill: hsl(44, 32%, 16%);
+    fill: hsl(44, 32%, 16%);
 }
 #logo .record .flat-grooves {
-	fill: hsl(44, 32%, 14%);
+    fill: hsl(44, 32%, 14%);
 }
 #logo .record .runout {
-	stroke: hsl(44, 32%, 14%);
+    stroke: hsl(44, 32%, 14%);
 }
 #logo .label-glow {
-	stroke: hsl(20, 82%, 59%);
+    stroke: hsl(20, 82%, 59%);
 }
 #logo .label {
-	opacity: 1 !important;
-	fill: hsl(20, 82%, 59%);
-	stroke: hsl(20, 82%, 59%);
+    opacity: 1 !important;
+    fill: hsl(20, 82%, 59%);
+    stroke: hsl(20, 82%, 59%);
 }
 a:hover #logo .record .loud-grooves {
-	stroke: hsl(75, 39%, 22%);
-	fill: hsl(75, 39%, 26%);
+    stroke: hsl(75, 39%, 22%);
+    fill: hsl(75, 39%, 26%);
 }
 a:hover #logo .record .quiet-grooves {
-	fill: hsl(75, 39%, 24%);
+    fill: hsl(75, 39%, 24%);
 }
 a:hover #logo .record .flat-grooves {
-	fill: hsl(75, 39%, 22%);
+    fill: hsl(75, 39%, 22%);
 }
 a:hover #logo .record .runout {
-	stroke: hsl(75, 39%, 22%);
+    stroke: hsl(75, 39%, 22%);
 }
 @media (prefers-color-scheme: dark) {
-	html {
-		background-color: #201F13;
-	}
-	.review-page article {
-		color: white;
-		background-color: hsla(39, 66%, 5%, 0.6);
-	}
-	article header h1 span,
-	h2 {
-		color: #DDC395;
-	}
-	article header h1 time {
-		color: hsla(38, 51%, 73%, 0.5);
-	}
-	.podcast-article-wrapper .article-mime-icon path {
-		fill: hsla(38, 51%, 73%, 0.5);
-	}
-	a, a:link, a:visited {
-		color: hsl(9, 96%, 55%);
-	}
-	a:hover {
-		color: hsl(9, 96%, 70%);
-	}
-	menu a,
-	menu a:link,
-	menu a:visited {
-		color: #DDC395;
-	}
-	menu a:hover {
-		color: hsl(75, 50%, 25%);
-	}
-	menu a .rss,
-	menu a .letter {
-		fill: #DDC395;
-	}
-	menu a:hover .rss,
-	menu a:hover .letter {
-		fill: hsl(75, 50%, 25%);
-	}
-	::selection {
-		background: hsla(75, 50%, 25%, 0.99);
-	}
-	::-moz-selection {
-		background: hsla(75, 50%, 25%, 0.99);
-	}
-	#logo .record .loud-grooves {
-		stroke: hsl(38, 51%, 69%);
-		fill: hsl(38, 51%, 73%);
-	}
-	#logo .record .quiet-grooves {
-		fill: hsl(38, 51%, 71%);
-	}
-	#logo .record .flat-grooves {
-		fill: hsl(38, 51%, 69%);
-	}
-	#logo .record .runout {
-		stroke: hsl(38, 51%, 69%);
-	}
-	a:hover #logo .record .loud-grooves {
-		stroke: hsl(75, 50%, 21%);
-		fill: hsl(75, 50%, 25%);
-	}
-	a:hover #logo .record .quiet-grooves {
-		fill: hsl(75, 50%, 23%);
-	}
-	a:hover #logo .record .flat-grooves {
-		fill: hsl(75, 50%, 21%);
-	}
-	a:hover #logo .record .runout {
-		stroke: hsl(75, 50%, 21%);
-	}
+    html {
+        background-color: #201F13;
+    }
+    .review-page article {
+        color: white;
+        background-color: hsla(39, 66%, 5%, 0.6);
+    }
+    article header h1 span,
+    h2 {
+        color: #DDC395;
+    }
+    article header h1 time {
+        color: hsla(38, 51%, 73%, 0.5);
+    }
+    .podcast-article-wrapper .article-mime-icon path {
+        fill: hsla(38, 51%, 73%, 0.5);
+    }
+    a, a:link, a:visited {
+        color: hsl(9, 96%, 55%);
+    }
+    a:hover {
+        color: hsl(9, 96%, 70%);
+    }
+    menu a,
+    menu a:link,
+    menu a:visited {
+        color: #DDC395;
+    }
+    menu a:hover {
+        color: hsl(75, 50%, 25%);
+    }
+    menu a .rss,
+    menu a .letter {
+        fill: #DDC395;
+    }
+    menu a:hover .rss,
+    menu a:hover .letter {
+        fill: hsl(75, 50%, 25%);
+    }
+    ::selection {
+        background: hsla(75, 50%, 25%, 0.99);
+    }
+    ::-moz-selection {
+        background: hsla(75, 50%, 25%, 0.99);
+    }
+    #logo .record .loud-grooves {
+        stroke: hsl(38, 51%, 69%);
+        fill: hsl(38, 51%, 73%);
+    }
+    #logo .record .quiet-grooves {
+        fill: hsl(38, 51%, 71%);
+    }
+    #logo .record .flat-grooves {
+        fill: hsl(38, 51%, 69%);
+    }
+    #logo .record .runout {
+        stroke: hsl(38, 51%, 69%);
+    }
+    a:hover #logo .record .loud-grooves {
+        stroke: hsl(75, 50%, 21%);
+        fill: hsl(75, 50%, 25%);
+    }
+    a:hover #logo .record .quiet-grooves {
+        fill: hsl(75, 50%, 23%);
+    }
+    a:hover #logo .record .flat-grooves {
+        fill: hsl(75, 50%, 21%);
+    }
+    a:hover #logo .record .runout {
+        stroke: hsl(75, 50%, 21%);
+    }
 }

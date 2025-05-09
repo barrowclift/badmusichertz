@@ -61,10 +61,10 @@ Or purchase *Grand Hotel* on:
 ## Links
 
 * [The Beach Boys](https://en.wikipedia.org/wiki/The_Beach_Boys)
-	- [*SMiLE*](https://en.wikipedia.org/wiki/Smile_(The_Beach_Boys_album))
-	- [*The SMiLE Sessions*](https://en.wikipedia.org/wiki/The_Smile_Sessions)
-	- Carl Wilson singing ["God Only Know"](https://en.wikipedia.org/wiki/God_Only_Knows)
-	- [*Surf's Up*](https://en.wikipedia.org/wiki/Surf%27s_Up_(album))
+    - [*SMiLE*](https://en.wikipedia.org/wiki/Smile_(The_Beach_Boys_album))
+    - [*The SMiLE Sessions*](https://en.wikipedia.org/wiki/The_Smile_Sessions)
+    - Carl Wilson singing ["God Only Know"](https://en.wikipedia.org/wiki/God_Only_Knows)
+    - [*Surf's Up*](https://en.wikipedia.org/wiki/Surf%27s_Up_(album))
 * [Boston](https://en.wikipedia.org/wiki/Boston_(band))'s self-titled LP, [*Boston*](https://en.wikipedia.org/wiki/Boston_(album))
 * [Mark Linett](https://en.wikipedia.org/wiki/Mark_Linett), one of the producers on *Grand Hotel*.
 * The Explorers Club's debut LP, [*Freedom Wind*](https://theexplorersclub.bandcamp.com/album/freedom-wind)
@@ -86,12 +86,12 @@ Or purchase *Grand Hotel* on:
 * [Guitar World's interview](https://www.guitarworld.com/features/interview-jason-brewer-explorers-club-discusses-their-new-album-grand-hotel) with Jason Brewer.
 * [Sturgill Simpson](https://en.wikipedia.org/wiki/Sturgill_Simpson) and ["Welcome To Earth (Pollywog)"](https://www.youtube.com/watch?v=LBEAyFHlSAo) from [*A Sailor's Guide to the World*](https://en.wikipedia.org/wiki/A_Sailor%27s_Guide_to_Earth)
 * Other "vingette" songs:
-	- [The Beatles' "Her Majesty"](https://www.youtube.com/watch?v=Mh1hKt5kQ_4) from [*Abbey Road*](https://en.wikipedia.org/wiki/Abbey_Road)
-	- [WALK THE MOON's "Lions"](https://www.youtube.com/watch?v=ZGSRWwfwaWU) from their [self-titled record](https://en.wikipedia.org/wiki/Walk_the_Moon_(album)).
-	- [The Beatles' "Wild Honey Pie"](https://www.youtube.com/watch?v=l-ekNlk5VDM) from [*The Beatles* (The White Album)](https://en.wikipedia.org/wiki/The_Beatles_(album))
-	- [Paul & Linda McCartney's "Ram On"](https://www.youtube.com/watch?v=2Swl9Iqh6DQ) from [*RAM*](https://en.wikipedia.org/wiki/Ram_(album))
-	- [Tame Impala's "She Just Won't Believe Me"](https://www.youtube.com/watch?v=NY2LDVPu0Kc) from [*Lonerism*](https://en.wikipedia.org/wiki/Lonerism)
-	- [Vacationer's "Farther"](https://www.youtube.com/watch?v=nOXUBxzrYrQ) from [*Gone*](https://en.wikipedia.org/wiki/Gone_(Vacationer_album))
+    - [The Beatles' "Her Majesty"](https://www.youtube.com/watch?v=Mh1hKt5kQ_4) from [*Abbey Road*](https://en.wikipedia.org/wiki/Abbey_Road)
+    - [WALK THE MOON's "Lions"](https://www.youtube.com/watch?v=ZGSRWwfwaWU) from their [self-titled record](https://en.wikipedia.org/wiki/Walk_the_Moon_(album)).
+    - [The Beatles' "Wild Honey Pie"](https://www.youtube.com/watch?v=l-ekNlk5VDM) from [*The Beatles* (The White Album)](https://en.wikipedia.org/wiki/The_Beatles_(album))
+    - [Paul & Linda McCartney's "Ram On"](https://www.youtube.com/watch?v=2Swl9Iqh6DQ) from [*RAM*](https://en.wikipedia.org/wiki/Ram_(album))
+    - [Tame Impala's "She Just Won't Believe Me"](https://www.youtube.com/watch?v=NY2LDVPu0Kc) from [*Lonerism*](https://en.wikipedia.org/wiki/Lonerism)
+    - [Vacationer's "Farther"](https://www.youtube.com/watch?v=nOXUBxzrYrQ) from [*Gone*](https://en.wikipedia.org/wiki/Gone_(Vacationer_album))
 * [Electric Light Orchestra (ELO)](https://en.wikipedia.org/wiki/Electric_Light_Orchestra)
 * [Kenny Chesney](https://en.wikipedia.org/wiki/Kenny_Chesney)'s cover of Lord Huron's ["Ends of the Earth"](https://www.youtube.com/watch?v=Nf_qO8BTz1Y) (NOT GOOD)
 

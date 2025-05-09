@@ -1,148 +1,148 @@
 html {
-	background-color: #657447;
+    background-color: #657447;
 }
 .review-page article,
 #springboard {
-	background-color: hsla(88, 28%, 97%, 0.75);
+    background-color: hsla(88, 28%, 97%, 0.75);
 }
 @media (prefers-color-scheme: dark) {
-	html {
-		background-color: #2A311E;
-	}
-	.review-page article,
-	#springboard {
-		background-color: hsla(88, 28%, 5%, 0.6);
-	}
+    html {
+        background-color: #2A311E;
+    }
+    .review-page article,
+    #springboard {
+        background-color: hsla(88, 28%, 5%, 0.6);
+    }
 }
 
 /* Safari */
 ::selection {
-	background: hsla(80, 24%, 37%, 0.9);
+    background: hsla(80, 24%, 37%, 0.9);
 }
 /* Firefox */
 ::-moz-selection {
-	background: hsla(80, 24%, 37%, 0.9);
+    background: hsla(80, 24%, 37%, 0.9);
 }
 
 a, a:link, a:visited {
-	color: #85985d;
+    color: #85985d;
 }
 menu a:hover {
-	color: #E7CA4D;
+    color: #E7CA4D;
 }
 menu a,
 menu a:link,
 menu a:visited {
-	color: #BFC5AA;
+    color: #BFC5AA;
 }
 menu a .rss,
 menu a .letter {
-	fill: #BFC5AA;
+    fill: #BFC5AA;
 }
 menu a:hover .rss,
 menu a:hover .letter {
-	fill: #E7CA4D;
+    fill: #E7CA4D;
 }
 menu a:hover {
-	color: #E7CA4D;
+    color: #E7CA4D;
 }
 #logo .record .loud-grooves {
-	stroke: hsl(73, 19%, 72%);
-	fill: hsl(73, 19%, 77%);
+    stroke: hsl(73, 19%, 72%);
+    fill: hsl(73, 19%, 77%);
 }
 #logo .record .quiet-grooves {
-	fill: hsl(73, 19%, 67%);
+    fill: hsl(73, 19%, 67%);
 }
 #logo .record .flat-grooves {
-	fill: hsl(73, 19%, 72%);
+    fill: hsl(73, 19%, 72%);
 }
 #logo .record .runout {
-	stroke: hsl(73, 19%, 72%);
+    stroke: hsl(73, 19%, 72%);
 }
 a:hover #logo .record .loud-grooves {
-	stroke: hsl(49, 76%, 58%);
-	fill: hsl(49, 76%, 60%);
+    stroke: hsl(49, 76%, 58%);
+    fill: hsl(49, 76%, 60%);
 }
 a:hover #logo .record .quiet-grooves {
-	fill: hsl(49, 76%, 59%);
+    fill: hsl(49, 76%, 59%);
 }
 a:hover #logo .record .flat-grooves {
-	fill: hsl(49, 76%, 58%);
+    fill: hsl(49, 76%, 58%);
 }
 a:hover #logo .record .runout {
-	stroke: hsl(49, 76%, 58%);
+    stroke: hsl(49, 76%, 58%);
 }
 .label {
-	opacity: 0;
+    opacity: 0;
 }
 a:hover {
-	color: #E7CA4D;
+    color: #E7CA4D;
 }
 #listen-on-buttons .start {
-	stop-color: #85985d;
+    stop-color: #85985d;
 }
 #listen-on-buttons .stop {
-	stop-color: #657447;
+    stop-color: #657447;
 }
 @media (prefers-color-scheme: dark) {
-	a, a:link, a:visited {
-		color: hsl(79, 44%, 58%);
-	}
-	a:hover {
-		color: hsl(49, 76%, 60%);
-	}
-	#listen-on-buttons .start {
-		stop-color: hsl(79, 44%, 58%);
-	}
-	#listen-on-buttons .stop {
-		stop-color: hsl(79, 54%, 20%);
-	}
+    a, a:link, a:visited {
+        color: hsl(79, 44%, 58%);
+    }
+    a:hover {
+        color: hsl(49, 76%, 60%);
+    }
+    #listen-on-buttons .start {
+        stop-color: hsl(79, 44%, 58%);
+    }
+    #listen-on-buttons .stop {
+        stop-color: hsl(79, 54%, 20%);
+    }
 }
 
 menu {
-	background-color: rgba(135, 153, 96, 0.95);
+    background-color: rgba(135, 153, 96, 0.95);
 }
 @supports ((-webkit-backdrop-filter: saturate(180%) blur(20px)) or (backdrop-filter: saturate(180%) blur(20px))) {
-	menu {
-		background-color: rgba(248, 249, 250, 0.25);
-	}
+    menu {
+        background-color: rgba(248, 249, 250, 0.25);
+    }
 }
 @media (prefers-color-scheme: dark) {
-	/* Safari */
-	::selection {
-		background: hsla(80, 24%, 20%, 0.99);
-	}
-	/* Firefox */
-	::-moz-selection {
-		background: hsla(80, 24%, 20%, 0.99);
-	}
-	menu a,
-	menu a:link,
-	menu a:visited {
-		color: hsla(79, 19%, 67%, 0.9);
-	}
-	menu a .rss,
-	menu a .letter {
-		fill: hsla(79, 19%, 67%, 0.9);
-	}
-	menu a:hover .rss,
-	menu a:hover .letter {
-		fill: #E7CA4D;
-	}
-	#logo .record .loud-grooves {
-		stroke: hsl(79, 17%, 56%);
-		fill: hsl(79, 17%, 64%);
-	}
-	#logo .record .quiet-grooves {
-		fill: hsl(79, 17%, 60%);
-	}
-	#logo .record .flat-grooves {
-		fill: hsl(79, 17%, 56%);
-	}
-	#logo .record .runout {
-		stroke: hsl(79, 17%, 56%);
-	}
-	menu a:hover {
-		color: #E7CA4D;
-	}
+    /* Safari */
+    ::selection {
+        background: hsla(80, 24%, 20%, 0.99);
+    }
+    /* Firefox */
+    ::-moz-selection {
+        background: hsla(80, 24%, 20%, 0.99);
+    }
+    menu a,
+    menu a:link,
+    menu a:visited {
+        color: hsla(79, 19%, 67%, 0.9);
+    }
+    menu a .rss,
+    menu a .letter {
+        fill: hsla(79, 19%, 67%, 0.9);
+    }
+    menu a:hover .rss,
+    menu a:hover .letter {
+        fill: #E7CA4D;
+    }
+    #logo .record .loud-grooves {
+        stroke: hsl(79, 17%, 56%);
+        fill: hsl(79, 17%, 64%);
+    }
+    #logo .record .quiet-grooves {
+        fill: hsl(79, 17%, 60%);
+    }
+    #logo .record .flat-grooves {
+        fill: hsl(79, 17%, 56%);
+    }
+    #logo .record .runout {
+        stroke: hsl(79, 17%, 56%);
+    }
+    menu a:hover {
+        color: #E7CA4D;
+    }
 }

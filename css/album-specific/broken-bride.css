@@ -1,127 +1,127 @@
 hr {
-	background-color: rgba(255, 255, 255, 0.1);
-	background: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.1);
 }
 .album-art {
-	box-shadow: none;
-	-webkit-box-shadow: none;
-	-moz-box-shadow: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
 }
 #content, html {
-	background-color: #101010;
+    background-color: #101010;
 }
 menu a,
 menu a:link,
 menu a:visited {
-	color: #FCFDFD;
+    color: #FCFDFD;
 }
 menu a .rss,
 menu a .letter {
-	fill: #FCFDFD;
+    fill: #FCFDFD;
 }
 menu a:hover .rss,
 menu a:hover .letter {
-	fill: #9EC0C0;
+    fill: #9EC0C0;
 }
 #logo .record .loud-grooves {
-	stroke: hsl(60, 25%, 94%);
-	fill: hsl(60, 25%, 98%);
+    stroke: hsl(60, 25%, 94%);
+    fill: hsl(60, 25%, 98%);
 }
 #logo .record .quiet-grooves {
-	fill: hsl(60, 25%, 96%);
+    fill: hsl(60, 25%, 96%);
 }
 #logo .record .flat-grooves {
-	fill: hsl(60, 25%, 94%);
+    fill: hsl(60, 25%, 94%);
 }
 #logo .record .runout {
-	stroke: hsl(60, 25%, 94%);
+    stroke: hsl(60, 25%, 94%);
 }
 a:hover #logo .record .loud-grooves {
-	stroke: hsl(180, 21%, 65%);
-	fill: hsl(180, 21%, 69%);
+    stroke: hsl(180, 21%, 65%);
+    fill: hsl(180, 21%, 69%);
 }
 a:hover #logo .record .quiet-grooves {
-	fill: hsl(180, 21%, 67%);
+    fill: hsl(180, 21%, 67%);
 }
 a:hover #logo .record .flat-grooves {
-	fill: hsl(180, 21%, 65%);
+    fill: hsl(180, 21%, 65%);
 }
 a:hover #logo .record .runout {
-	stroke: hsl(180, 21%, 65%);
+    stroke: hsl(180, 21%, 65%);
 }
 #logo .label-glow {
-	stroke: #759D9A;
+    stroke: #759D9A;
 }
 #logo .label {
-	opacity: 1 !important;
-	fill: #759D9A;
-	stroke: #759D9A;
+    opacity: 1 !important;
+    fill: #759D9A;
+    stroke: #759D9A;
 }
 main, .review-page article {
-	background-color: unset;
-	color: #FCFDFD;
-	box-shadow: none;
-	-webkit-box-shadow: none;
-	-moz-box-shadow: none;
+    background-color: unset;
+    color: #FCFDFD;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
 }
 article header {
-	background-image: none !important;
-	box-shadow: none;
-	-webkit-box-shadow: none;
-	-moz-box-shadow: none;
+    background-image: none !important;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
 }
 article header h1 span {
-	color: #E3E3E3 !important;
+    color: #E3E3E3 !important;
 }
 article header h1 time {
-	color: #759D9A !important;
+    color: #759D9A !important;
 }
 .podcast-article-wrapper .article-mime-icon path {
-	fill: #759D9A;
+    fill: #759D9A;
 }
 /* Safari */
 ::selection {
-	background: #99CECB;
-	color: #FCFDFD;
+    background: #99CECB;
+    color: #FCFDFD;
 }
 /* Firefox */
 ::-moz-selection {
-	background: #99CECB;
-	color: #FCFDFD;
+    background: #99CECB;
+    color: #FCFDFD;
 }
 
 a, a:link, a:visited {
-	color: #759D9A;
+    color: #759D9A;
 }
 a:hover,
 menu a:hover {
-	color: #9EC0C0;
+    color: #9EC0C0;
 }
 .littlefoot__button,
 .littlefoot__button:link,
 .littlefoot__button:visited {
-	background-color: #759D9A;
+    background-color: #759D9A;
 }
 .littlefoot__button:hover,
 .littlefoot__button:focus,
 .littlefoot__button:active,
 .littlefoot__button.is-active {
-	background-color: #9EC0C0;
+    background-color: #9EC0C0;
 }
 .littlefoot {
-	--popover-text-color: #FCFDFD !important;
-	--popover-background-color: #222222 !important;
-	--popover-border: 1px solid hsl(0, 0%, 30%) !important;
-	--popover-scroll-indicator-color: rgba(255, 255, 255, 0.5) !important;
+    --popover-text-color: #FCFDFD !important;
+    --popover-background-color: #222222 !important;
+    --popover-border: 1px solid hsl(0, 0%, 30%) !important;
+    --popover-scroll-indicator-color: rgba(255, 255, 255, 0.5) !important;
 }
 .littlefoot__content a {
-	color: #759D9A;
+    color: #759D9A;
 }
 .littlefoot__content a:hover {
-	color: #9EC0C0;
+    color: #9EC0C0;
 }
 .review-page article,
 #springboard {
-	-webkit-backdrop-filter: unset !important;
-	backdrop-filter: unset !important;
+    -webkit-backdrop-filter: unset !important;
+    backdrop-filter: unset !important;
 }

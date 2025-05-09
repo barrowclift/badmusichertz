@@ -1,29 +1,29 @@
 html {
-	color: #1C2931;
-	background-color: #1D2629;
+    color: #1C2931;
+    background-color: #1D2629;
 }
 menu {
-	background-color: rgba(245, 238, 220, 0.95);
+    background-color: rgba(245, 238, 220, 0.95);
 }
 .review-page article,
 #springboard {
-	background-color: rgba(245, 238, 220, 0.95);
+    background-color: rgba(245, 238, 220, 0.95);
 }
 time {
-	color: #898B87;
+    color: #898B87;
 }
 
 
 /* HIGHLIGHT ----------------------------------------------------------- */
 /* Safari */
 ::selection {
-	background: hsla(48, 21%, 52%, 0.99);
-	color: #F8F7F5;
+    background: hsla(48, 21%, 52%, 0.99);
+    color: #F8F7F5;
 }
 /* Firefox */
 ::-moz-selection {
-	background: hsla(48, 21%, 52%, 0.99);
-	color: #F8F7F5;
+    background: hsla(48, 21%, 52%, 0.99);
+    color: #F8F7F5;
 }
 
 
@@ -31,127 +31,127 @@ time {
 menu a,
 menu a:link,
 menu a:visited {
-	color: #E9E4D4;
+    color: #E9E4D4;
 }
 menu a .rss,
 menu a .letter {
-	fill: #E9E4D4;
+    fill: #E9E4D4;
 }
 a, a:link, a:visited {
-	color: #A29768;
+    color: #A29768;
 }
 menu a:hover {
-	color: #4B646C
+    color: #4B646C
 }
 menu a:hover .rss,
 menu a:hover .letter {
-	fill: #4B646C;
+    fill: #4B646C;
 }
 #logo .record .loud-grooves {
-	stroke: hsl(46, 32%, 87%);
-	fill: hsl(46, 32%, 92%);
+    stroke: hsl(46, 32%, 87%);
+    fill: hsl(46, 32%, 92%);
 }
 #logo .record .quiet-grooves {
-	fill: hsl(46, 32%, 82%);
+    fill: hsl(46, 32%, 82%);
 }
 #logo .record .flat-grooves {
-	fill: hsl(46, 32%, 87%);
+    fill: hsl(46, 32%, 87%);
 }
 #logo .record .runout {
-	stroke: hsl(46, 32%, 87%);
+    stroke: hsl(46, 32%, 87%);
 }
 a:hover #logo .record .loud-grooves {
-	stroke: hsl(195, 18%, 36%);
-	fill: hsl(195, 18%, 40%);
+    stroke: hsl(195, 18%, 36%);
+    fill: hsl(195, 18%, 40%);
 }
 a:hover #logo .record .quiet-grooves {
-	fill: hsl(195, 18%, 38%);
+    fill: hsl(195, 18%, 38%);
 }
 a:hover #logo .record .flat-grooves {
-	fill: hsl(195, 18%, 36%);
+    fill: hsl(195, 18%, 36%);
 }
 a:hover #logo .record .runout {
-	stroke: hsl(195, 18%, 36%);
+    stroke: hsl(195, 18%, 36%);
 }
 .label {
-	opacity: 0;
+    opacity: 0;
 }
 a:hover {
-	color: #8ea280;
+    color: #8ea280;
 }
 #listen-on-buttons .start {
-	stop-color: #9F956B;
+    stop-color: #9F956B;
 }
 #listen-on-buttons .stop {
-	stop-color: #84794B;
+    stop-color: #84794B;
 }
 
 #logo .label {
-	background-color: #A29768;
+    background-color: #A29768;
 }
 
 @media (prefers-color-scheme: dark) {
-	html {
-		background-color: #0E1416;
-		color: #F7F0DE;
-	}
-	menu {
-		background-color: hsla(156, 7%, 27%, 0.95);
-	}
-	.review-page article,
-	#springboard {
-		background-color: hsla(156, 7%, 27%, 0.95);
-	}
-	menu a,
-	menu a:link,
-	menu a:visited {
-		color: #F7F0DE;
-	}
-	menu a .rss,
-	menu a .letter {
-		fill: #F7F0DE;
-	}
-	menu a:hover .rss,
-	menu a:hover .letter {
-		fill: #A29768;
-	}
-	#logo .record .loud-grooves {
-		stroke: hsl(43, 61%, 88%);
-		fill: hsl(43, 61%, 92%);
-	}
-	#logo .record .quiet-grooves {
-		fill: hsl(43, 61%, 90%);
-	}
-	#logo .record .flat-grooves {
-		fill: hsl(43, 61%, 88%);
-	}
-	#logo .record .runout {
-		stroke: hsl(43, 61%, 88%);
-	}
-	a:hover #logo .record .loud-grooves {
-		stroke: hsl(49, 24%, 50%);
-		fill: hsl(49, 24%, 52%);
-	}
-	a:hover #logo .record .quiet-grooves {
-		fill: hsl(49, 24%, 51%);
-	}
-	a:hover #logo .record .flat-grooves {
-		fill: hsl(49, 24%, 50%);
-	}
-	a:hover #logo .record .runout {
-		stroke: hsl(49, 24%, 50%);
-	}
-	a, a:link, a:visited,
-	menu a:hover {
-		color: #A29768;
-	}
-	a:hover {
-		color: #D2C695;
-	}
-	#listen-on-buttons .start {
-		stop-color: #B9AD78;
-	}
-	#listen-on-buttons .stop {
-		stop-color: #7F764E
-	}
+    html {
+        background-color: #0E1416;
+        color: #F7F0DE;
+    }
+    menu {
+        background-color: hsla(156, 7%, 27%, 0.95);
+    }
+    .review-page article,
+    #springboard {
+        background-color: hsla(156, 7%, 27%, 0.95);
+    }
+    menu a,
+    menu a:link,
+    menu a:visited {
+        color: #F7F0DE;
+    }
+    menu a .rss,
+    menu a .letter {
+        fill: #F7F0DE;
+    }
+    menu a:hover .rss,
+    menu a:hover .letter {
+        fill: #A29768;
+    }
+    #logo .record .loud-grooves {
+        stroke: hsl(43, 61%, 88%);
+        fill: hsl(43, 61%, 92%);
+    }
+    #logo .record .quiet-grooves {
+        fill: hsl(43, 61%, 90%);
+    }
+    #logo .record .flat-grooves {
+        fill: hsl(43, 61%, 88%);
+    }
+    #logo .record .runout {
+        stroke: hsl(43, 61%, 88%);
+    }
+    a:hover #logo .record .loud-grooves {
+        stroke: hsl(49, 24%, 50%);
+        fill: hsl(49, 24%, 52%);
+    }
+    a:hover #logo .record .quiet-grooves {
+        fill: hsl(49, 24%, 51%);
+    }
+    a:hover #logo .record .flat-grooves {
+        fill: hsl(49, 24%, 50%);
+    }
+    a:hover #logo .record .runout {
+        stroke: hsl(49, 24%, 50%);
+    }
+    a, a:link, a:visited,
+    menu a:hover {
+        color: #A29768;
+    }
+    a:hover {
+        color: #D2C695;
+    }
+    #listen-on-buttons .start {
+        stop-color: #B9AD78;
+    }
+    #listen-on-buttons .stop {
+        stop-color: #7F764E
+    }
 }

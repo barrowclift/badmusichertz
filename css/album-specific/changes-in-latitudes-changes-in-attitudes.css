@@ -2,17 +2,17 @@
  * Background
  */
 html {
-	background-color: #EED7BA;
+    background-color: #EED7BA;
 }
 .review-page article,
 #springboard {
-	background-color: hsla(33, 75%, 95%, 0.95);
+    background-color: hsla(33, 75%, 95%, 0.95);
 }
 ::selection {
-	background: hsla(5, 35%, 35%, 0.99);
+    background: hsla(5, 35%, 35%, 0.99);
 }
 ::-moz-selection {
-	background: hsla(5, 35%, 35%, 0.99);
+    background: hsla(5, 35%, 35%, 0.99);
 }
 
 /**
@@ -21,174 +21,174 @@ html {
 menu a,
 menu a:link,
 menu a:visited {
-	color: #773E39;
+    color: #773E39;
 }
 menu a .rss,
 menu a .letter {
-	fill: #773E39;
+    fill: #773E39;
 }
 menu a:hover {
-	color: #DA110B;
+    color: #DA110B;
 }
 menu a:hover .letter,
 menu a:hover .rss {
-	fill: #DA110B;
+    fill: #DA110B;
 }
 
 /**
  * Record Logo
  */
 #logo .record .flat-grooves {
-	fill: hsl(5, 35%, 35%);
+    fill: hsl(5, 35%, 35%);
 }
 #logo .record .runout {
-	stroke: hsl(5, 35%, 35%);
+    stroke: hsl(5, 35%, 35%);
 }
 #logo .record .loud-grooves {
-	stroke: hsl(5, 35%, 35%);
-	fill: hsl(5, 35%, 40%);
+    stroke: hsl(5, 35%, 35%);
+    fill: hsl(5, 35%, 40%);
 }
 #logo .record .quiet-grooves {
-	fill: hsl(5, 35%, 30%);
+    fill: hsl(5, 35%, 30%);
 }
 #logo .label-glow {
-	stroke: #B08452;
+    stroke: #B08452;
 }
 #logo .label {
-	opacity: 1 !important;
-	fill: #B08452;
-	stroke: #B08452;
+    opacity: 1 !important;
+    fill: #B08452;
+    stroke: #B08452;
 }
 
 a:hover #logo .record .flat-grooves {
-	fill: hsl(2, 90%, 45%);
+    fill: hsl(2, 90%, 45%);
 }
 a:hover #logo .record .runout {
-	stroke: hsl(2, 90%, 45%);
+    stroke: hsl(2, 90%, 45%);
 }
 a:hover #logo .record .loud-grooves {
-	stroke: hsl(2, 90%, 45%);
-	fill: hsl(2, 90%, 50%);
+    stroke: hsl(2, 90%, 45%);
+    fill: hsl(2, 90%, 50%);
 }
 a:hover #logo .record .quiet-grooves {
-	fill: hsl(2, 90%, 40%);
+    fill: hsl(2, 90%, 40%);
 }
 a:hover #logo .label {
-	fill: rgba(0, 0, 0, 0);
+    fill: rgba(0, 0, 0, 0);
 }
 
 /**
  * Article Body
  */
 a, a:link, a:visited {
-	color: #B8312D;
+    color: #B8312D;
 }
 a:hover {
-	color: #F3120C;
+    color: #F3120C;
 }
 
 #listen-on-buttons .start {
-	stop-color: #B85047;
+    stop-color: #B85047;
 }
 #listen-on-buttons .stop {
-	stop-color: #773E39;
+    stop-color: #773E39;
 }
 
 @media (prefers-color-scheme: dark) {
-	/**
+    /**
      * Background
      */
     html {
-    	color: white;
-    	background-color: #493012;
+        color: white;
+        background-color: #493012;
     }
-	.review-page article,
-	#springboard {
-		background-color: #33220D;
-	}
-	::selection {
-		background: hsla(2, 75%, 60%, 0.99);
-	}
-	::-moz-selection {
-		background: hsla(2, 75%, 60%, 0.99);
-	}
+    .review-page article,
+    #springboard {
+        background-color: #33220D;
+    }
+    ::selection {
+        background: hsla(2, 75%, 60%, 0.99);
+    }
+    ::-moz-selection {
+        background: hsla(2, 75%, 60%, 0.99);
+    }
 
-	/**
-	 * Menu
-	 */
-	menu a,
-	menu a:link,
-	menu a:visited {
-		color: #EED7BA;
-	}
-	menu a .rss,
-	menu a .letter {
-		fill: #EED7BA;
-	}
-	menu a:hover {
-		color: #E6524D;
-	}
-	menu a:hover .rss,
-	menu a:hover .letter {
-		fill: #E6524D;
-	}
+    /**
+     * Menu
+     */
+    menu a,
+    menu a:link,
+    menu a:visited {
+        color: #EED7BA;
+    }
+    menu a .rss,
+    menu a .letter {
+        fill: #EED7BA;
+    }
+    menu a:hover {
+        color: #E6524D;
+    }
+    menu a:hover .rss,
+    menu a:hover .letter {
+        fill: #E6524D;
+    }
 
-	/**
-	 * Record Logo
-	 */
-	#logo .record .flat-grooves {
-		fill: hsl(33, 60%, 83%);
-	}
-	#logo .record .runout {
-		stroke: hsl(33, 60%, 83%);
-	}
-	#logo .record .loud-grooves {
-		stroke: hsl(33, 60%, 83%);
-		fill: hsl(33, 60%, 88%);
-	}
-	#logo .record .quiet-grooves {
-		fill: hsl(33, 60%, 78%);
-	}
-	#logo .label-glow {
-		stroke: #773E39;
-	}
-	#logo .label {
-		opacity: 1 !important;
-		fill: #773E39;
-		stroke: #773E39;
-	}
+    /**
+     * Record Logo
+     */
+    #logo .record .flat-grooves {
+        fill: hsl(33, 60%, 83%);
+    }
+    #logo .record .runout {
+        stroke: hsl(33, 60%, 83%);
+    }
+    #logo .record .loud-grooves {
+        stroke: hsl(33, 60%, 83%);
+        fill: hsl(33, 60%, 88%);
+    }
+    #logo .record .quiet-grooves {
+        fill: hsl(33, 60%, 78%);
+    }
+    #logo .label-glow {
+        stroke: #773E39;
+    }
+    #logo .label {
+        opacity: 1 !important;
+        fill: #773E39;
+        stroke: #773E39;
+    }
 
-	a:hover #logo .record .flat-grooves {
-		fill: hsl(2, 75%, 60%);
-	}
-	a:hover #logo .record .runout {
-		stroke: hsl(2, 75%, 60%);
-	}
-	a:hover #logo .record .loud-grooves {
-		stroke: hsl(2, 75%, 60%);
-		fill: hsl(2, 75%, 65%);
-	}
-	a:hover #logo .record .quiet-grooves {
-		fill: hsl(2, 75%, 55%);
-	}
-	a:hover #logo .label {
-		fill: rgba(0, 0, 0, 0);
-	}
+    a:hover #logo .record .flat-grooves {
+        fill: hsl(2, 75%, 60%);
+    }
+    a:hover #logo .record .runout {
+        stroke: hsl(2, 75%, 60%);
+    }
+    a:hover #logo .record .loud-grooves {
+        stroke: hsl(2, 75%, 60%);
+        fill: hsl(2, 75%, 65%);
+    }
+    a:hover #logo .record .quiet-grooves {
+        fill: hsl(2, 75%, 55%);
+    }
+    a:hover #logo .label {
+        fill: rgba(0, 0, 0, 0);
+    }
 
-	/**
-	 * Article Body
-	 */
-	a, a:link, a:visited {
-		color: #E6524D;
-	}
-	a:hover {
-		color: #B7392E;
-	}
-	
-	#listen-on-buttons .start {
-		stop-color: #B85047;
-	}
-	#listen-on-buttons .stop {
-		stop-color: #773E39;
-	}
+    /**
+     * Article Body
+     */
+    a, a:link, a:visited {
+        color: #E6524D;
+    }
+    a:hover {
+        color: #B7392E;
+    }
+    
+    #listen-on-buttons .start {
+        stop-color: #B85047;
+    }
+    #listen-on-buttons .stop {
+        stop-color: #773E39;
+    }
 }

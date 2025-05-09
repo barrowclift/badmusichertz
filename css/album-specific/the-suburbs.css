@@ -1,38 +1,38 @@
 html {
-	background-color: #5D5D42;
-	background-position: right;
+    background-color: #5D5D42;
+    background-position: right;
 }
 .review-page article {
-	background-color: rgba(255, 255, 255, 0.85);
+    background-color: rgba(255, 255, 255, 0.85);
 }
 #logo .record .loud-grooves {
-	stroke: hsl(210, 7%, 18%);
-	fill: hsl(210, 7%, 22%);
+    stroke: hsl(210, 7%, 18%);
+    fill: hsl(210, 7%, 22%);
 }
 #logo .record .quiet-grooves {
-	fill: hsl(210, 7%, 20%);
+    fill: hsl(210, 7%, 20%);
 }
 #logo .record .flat-grooves {
-	fill: hsl(210, 7%, 18%);
+    fill: hsl(210, 7%, 18%);
 }
 #logo .record .runout {
-	stroke: hsl(210, 7%, 18%);
+    stroke: hsl(210, 7%, 18%);
 }
 
 ::selection {
-	background: hsla(101, 43%, 22%, 0.99);
-	color: white;
+    background: hsla(101, 43%, 22%, 0.99);
+    color: white;
 }
 ::-moz-selection {
-	background: hsla(101, 43%, 22%, 0.99);
-	color: white;
+    background: hsla(101, 43%, 22%, 0.99);
+    color: white;
 }
 
 a, a:link, a:visited {
-	color: #DF161B;
+    color: #DF161B;
 }
 a:hover {
-	color: hsl(9, 96%, 70%);
+    color: hsl(9, 96%, 70%);
 }
 /**
  * Menu
@@ -40,143 +40,143 @@ a:hover {
 menu a,
 menu a:link,
 menu a:visited {
-	color: white;
+    color: white;
 }
 menu a .rss,
 menu a .letter {
-	fill: white;
+    fill: white;
 }
 menu a:hover {
-	color: #DF161B;
+    color: #DF161B;
 }
 menu a:hover .rss,
 menu a:hover .letter {
-	fill: #DF161B;
+    fill: #DF161B;
 }
 
 #logo .record .flat-grooves {
-	fill: hsl(0, 0%, 95%);
+    fill: hsl(0, 0%, 95%);
 }
 #logo .record .runout {
-	stroke: hsl(0, 0%, 95%);
+    stroke: hsl(0, 0%, 95%);
 }
 #logo .record .loud-grooves {
-	stroke: hsl(0, 0%, 95%);
-	fill: hsl(0, 0%, 100%);
+    stroke: hsl(0, 0%, 95%);
+    fill: hsl(0, 0%, 100%);
 }
 #logo .record .quiet-grooves {
-	fill: hsl(0, 0%, 90%);
+    fill: hsl(0, 0%, 90%);
 }
 
 
 a:hover #logo .record .loud-grooves {
-	stroke: hsl(359, 82%, 44%);
-	fill: hsl(359, 82%, 48%);
+    stroke: hsl(359, 82%, 44%);
+    fill: hsl(359, 82%, 48%);
 }
 a:hover #logo .record .quiet-grooves {
-	fill: hsl(359, 82%, 46%);
+    fill: hsl(359, 82%, 46%);
 }
 a:hover #logo .record .flat-grooves {
-	fill: hsl(359, 82%, 44%);
+    fill: hsl(359, 82%, 44%);
 }
 a:hover #logo .record .runout {
-	stroke: hsl(359, 82%, 44%);
+    stroke: hsl(359, 82%, 44%);
 }
 #logo .label {
-	fill: #DF161B;
-	stroke: unset !important;
-	opacity: 1 !important;
+    fill: #DF161B;
+    stroke: unset !important;
+    opacity: 1 !important;
 }
 #logo .label-glow {
-	stroke: unset !important;
+    stroke: unset !important;
 }
 a:hover #logo .label {
-	fill: rgba(0,0,0,0);
+    fill: rgba(0,0,0,0);
 }
 .littlefoot__button,
 .littlefoot__button:link,
 .littlefoot__button:visited {
-	background-color: #DF161B;
+    background-color: #DF161B;
 }
 .littlefoot__button:hover,
 .littlefoot__button:focus,
 .littlefoot__button:active,
 .littlefoot__button.is-active {
-	background-color: hsl(9, 96%, 70%);
+    background-color: hsl(9, 96%, 70%);
 }
 @media (prefers-color-scheme: dark) {
-	html {
-		background-color: #201A15;
-	}
-	.review-page article {
-		color: #EFF0EE;
-		background-color: rgba(0, 0, 0, 0.6);
-	}
-	article header h1 span,
-	h2 {
-		color: #D3C6B5;
-	}
-	article header h1 time {
-		color: hsla(34, 25%, 77%, 0.375);
-	}
-	.podcast-article-wrapper .article-mime-icon path {
-		fill: hsla(34, 25%, 77%, 0.375);
-	}
-	.littlefoot__button,
-	.littlefoot__button:link,
-	.littlefoot__button:visited {
-		background-color: #DF161B;
-	}
-	.littlefoot__button:hover,
-	.littlefoot__button:focus,
-	.littlefoot__button:active,
-	.littlefoot__button.is-active {
-		background-color: hsl(9, 96%, 70%);
-	}
-	.littlefoot {
-		--popover-text-color: #EFF0EE;
-		--popover-background-color: hsla(0, 0%, 12.5%, 0.98);
-		--popover-border: 1px solid #38332E;
-	}
-	.littlefoot__content a {
-		color: #AD5E50;
-	}
-	.littlefoot__content a:hover {
-		color: #D34739;
-	}
-	.littlefoot__content a {
-		color: #DF161B;
-	}
-	.littlefoot__content a:hover {
-		color: hsl(9, 96%, 70%);
-	}
-	menu a,
-	menu a:link,
-	menu a:visited {
-		color: #D3C6B5;
-	}
-	menu a:hover {
-		color: #DF161B;
-	}
-	menu a .rss,
-	menu a .letter {
-		fill: #D3C6B5;
-	}
-	menu a:hover .rss,
-	menu a:hover .letter {
-		fill: #DF161B;
-	}
-	#logo .record .loud-grooves {
-		stroke: hsl(34, 25%, 73%);
-		fill: hsl(34, 25%, 77%);
-	}
-	#logo .record .quiet-grooves {
-		fill: hsl(34, 25%, 75%);
-	}
-	#logo .record .flat-grooves {
-		fill: hsl(34, 25%, 73%);
-	}
-	#logo .record .runout {
-		stroke: hsl(34, 25%, 73%);
-	}
+    html {
+        background-color: #201A15;
+    }
+    .review-page article {
+        color: #EFF0EE;
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+    article header h1 span,
+    h2 {
+        color: #D3C6B5;
+    }
+    article header h1 time {
+        color: hsla(34, 25%, 77%, 0.375);
+    }
+    .podcast-article-wrapper .article-mime-icon path {
+        fill: hsla(34, 25%, 77%, 0.375);
+    }
+    .littlefoot__button,
+    .littlefoot__button:link,
+    .littlefoot__button:visited {
+        background-color: #DF161B;
+    }
+    .littlefoot__button:hover,
+    .littlefoot__button:focus,
+    .littlefoot__button:active,
+    .littlefoot__button.is-active {
+        background-color: hsl(9, 96%, 70%);
+    }
+    .littlefoot {
+        --popover-text-color: #EFF0EE;
+        --popover-background-color: hsla(0, 0%, 12.5%, 0.98);
+        --popover-border: 1px solid #38332E;
+    }
+    .littlefoot__content a {
+        color: #AD5E50;
+    }
+    .littlefoot__content a:hover {
+        color: #D34739;
+    }
+    .littlefoot__content a {
+        color: #DF161B;
+    }
+    .littlefoot__content a:hover {
+        color: hsl(9, 96%, 70%);
+    }
+    menu a,
+    menu a:link,
+    menu a:visited {
+        color: #D3C6B5;
+    }
+    menu a:hover {
+        color: #DF161B;
+    }
+    menu a .rss,
+    menu a .letter {
+        fill: #D3C6B5;
+    }
+    menu a:hover .rss,
+    menu a:hover .letter {
+        fill: #DF161B;
+    }
+    #logo .record .loud-grooves {
+        stroke: hsl(34, 25%, 73%);
+        fill: hsl(34, 25%, 77%);
+    }
+    #logo .record .quiet-grooves {
+        fill: hsl(34, 25%, 75%);
+    }
+    #logo .record .flat-grooves {
+        fill: hsl(34, 25%, 73%);
+    }
+    #logo .record .runout {
+        stroke: hsl(34, 25%, 73%);
+    }
 }

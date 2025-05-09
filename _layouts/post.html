@@ -2,24 +2,24 @@
 layout: default
 ---
 <div class="podcast-article-wrapper">
-	<div style="display:block;line-height:0;">
-		<a href="{{ site.dropbox }}/{{ page.album-name }}/images/album-art.jpg" {% if page.album-art-hidden-text %}title="{{page.album-art-hidden-text | strip }}"{% endif %}>
-			{% if page.album-art-article-override-light and page.album-art-article-override-dark %}
-				<img src="{{ site.dropbox }}/{{ page.album-name }}/images/{{ page.album-art-article-override-light }}" class="show-when-light album-art" {% if page.title %}alt="{{ page.title }}'s album art"{% else %}alt="The album's cover"{% endif %} />
-				<img src="{{ site.dropbox }}/{{ page.album-name }}/images/{{ page.album-art-article-override-dark }}" class="show-when-dark album-art" {% if page.title %}alt="{{ page.title }}'s album art"{% else %}alt="The album's cover"{% endif %} />
-			{% else %}
-				<img src="{{ site.dropbox }}/{{ page.album-name }}/images/{% if page.album-art-article-override %}{{ page.album-art-article-override }}{% else %}album-art-2000w.jpg{% endif %}" class="album-art" {% if page.title %}alt="{{ page.title }}'s album art"{% else %}alt="The album's cover"{% endif %} />
-			{% endif %}
-		</a>
-	</div>
-	<article>
-		<header role="header">
-			<h1>
-				<span>{{ page.title }}</span>
-				<time itemprop="dateCreated"><!--https://razor-icons.vercel.app/icons--><svg class="article-mime-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 514 514">
+    <div style="display:block;line-height:0;">
+        <a href="{{ site.dropbox }}/{{ page.album-name }}/images/album-art.jpg" {% if page.album-art-hidden-text %}title="{{page.album-art-hidden-text | strip }}"{% endif %}>
+            {% if page.album-art-article-override-light and page.album-art-article-override-dark %}
+                <img src="{{ site.dropbox }}/{{ page.album-name }}/images/{{ page.album-art-article-override-light }}" class="show-when-light album-art" {% if page.title %}alt="{{ page.title }}'s album art"{% else %}alt="The album's cover"{% endif %} />
+                <img src="{{ site.dropbox }}/{{ page.album-name }}/images/{{ page.album-art-article-override-dark }}" class="show-when-dark album-art" {% if page.title %}alt="{{ page.title }}'s album art"{% else %}alt="The album's cover"{% endif %} />
+            {% else %}
+                <img src="{{ site.dropbox }}/{{ page.album-name }}/images/{% if page.album-art-article-override %}{{ page.album-art-article-override }}{% else %}album-art-2000w.jpg{% endif %}" class="album-art" {% if page.title %}alt="{{ page.title }}'s album art"{% else %}alt="The album's cover"{% endif %} />
+            {% endif %}
+        </a>
+    </div>
+    <article>
+        <header role="header">
+            <h1>
+                <span>{{ page.title }}</span>
+                <time itemprop="dateCreated"><!--https://razor-icons.vercel.app/icons--><svg class="article-mime-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 514 514">
   <path fill="{{ post.theme.card.subtitle-color }}" d="M 413 231 L 425 220 L 413 231 L 425 220 L 391 186 L 391 186 L 329 124 L 329 124 L 295 90 L 295 90 L 283 101 L 283 101 L 261 124 L 261 124 L 62 323 L 62 323 Q 46 339 39 360 L 4 481 L 4 481 Q 0 494 10 504 Q 20 514 34 511 L 154 475 L 154 475 Q 176 469 192 453 L 391 254 L 391 254 L 413 231 L 413 231 Z M 163 399 L 154 422 L 163 399 L 154 422 Q 148 427 141 429 L 62 452 L 62 452 L 85 374 L 85 374 Q 88 367 92 361 L 115 352 L 115 352 L 115 384 L 115 384 Q 116 398 131 400 L 163 400 L 163 399 Z M 366 19 L 351 33 L 366 19 L 351 33 L 329 56 L 329 56 L 317 67 L 317 67 L 351 101 L 351 101 L 413 163 L 413 163 L 447 197 L 447 197 L 458 186 L 458 186 L 481 163 L 481 163 L 496 149 L 496 149 Q 514 129 514 103 Q 514 78 496 58 L 456 19 L 456 19 Q 437 0 411 0 Q 386 0 366 19 L 366 19 Z M 318 187 L 174 331 L 318 187 L 174 331 Q 163 340 152 331 Q 142 319 152 308 L 296 164 L 296 164 Q 307 155 318 164 Q 328 175 318 187 L 318 187 Z" /></svg> Review by {{ page.author }}<br>{{ page.date | date: "%A, %B %-d, %Y" }}</time>
-			</h1>
-		</header>
-		{{ content }}
-	</article>
+            </h1>
+        </header>
+        {{ content }}
+    </article>
 </div>

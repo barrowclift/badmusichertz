@@ -2,18 +2,18 @@
  * Background
  */
 html {
-	background-color: #196A2C;
-	background-image: url('{{ site.dropbox }}/shuffle-roulette/images/light-green-felt.png');
+    background-color: #196A2C;
+    background-image: url('{{ site.dropbox }}/shuffle-roulette/images/light-green-felt.png');
 }
 .review-page article,
 #springboard {
-	background-color: hsl(134, 63%, 97%);
+    background-color: hsl(134, 63%, 97%);
 }
 ::selection {
-	background: hsla(29, 66%, 54%, 0.99);
+    background: hsla(29, 66%, 54%, 0.99);
 }
 ::-moz-selection {
-	background: hsla(29, 66%, 54%, 0.99);
+    background: hsla(29, 66%, 54%, 0.99);
 }
 
 /**
@@ -22,177 +22,177 @@ html {
 menu a,
 menu a:link,
 menu a:visited {
-	color: #FBFFEF;
+    color: #FBFFEF;
 }
 menu a .rss,
 menu a .letter {
-	fill: #FBFFEF;
+    fill: #FBFFEF;
 }
 menu a:hover {
-	color: #D7893E;
+    color: #D7893E;
 }
 menu a:hover .rss,
 menu a:hover .letter {
-	fill: #D7893E;
+    fill: #D7893E;
 }
 
 /**
  * Record Logo
  */
 #logo .record .flat-grooves {
-	fill: hsl(75, 100%, 97%);
+    fill: hsl(75, 100%, 97%);
 }
 #logo .record .runout {
-	stroke: hsl(75, 100%, 97%);
+    stroke: hsl(75, 100%, 97%);
 }
 #logo .record .loud-grooves {
-	stroke: hsl(75, 100%, 97%);
-	fill: hsl(75, 100%, 100%);
+    stroke: hsl(75, 100%, 97%);
+    fill: hsl(75, 100%, 100%);
 }
 #logo .record .quiet-grooves {
-	fill: hsl(75, 50%, 90%);
+    fill: hsl(75, 50%, 90%);
 }
 #logo .label-glow {
-	stroke: #D7893E;
+    stroke: #D7893E;
 }
 #logo .label {
-	opacity: 1 !important;
-	fill: #D7893E;
-	stroke: #D7893E;
+    opacity: 1 !important;
+    fill: #D7893E;
+    stroke: #D7893E;
 }
 
 a:hover #logo .record .flat-grooves {
-	fill: hsl(29, 66%, 54%);
+    fill: hsl(29, 66%, 54%);
 }
 a:hover #logo .record .runout {
-	stroke: hsl(29, 66%, 54%);
+    stroke: hsl(29, 66%, 54%);
 }
 a:hover #logo .record .loud-grooves {
-	stroke: hsl(29, 66%, 54%);
-	fill: hsl(29, 66%, 59%);
+    stroke: hsl(29, 66%, 54%);
+    fill: hsl(29, 66%, 59%);
 }
 a:hover #logo .record .quiet-grooves {
-	fill: hsl(29, 66%, 49%);
+    fill: hsl(29, 66%, 49%);
 }
 a:hover #logo .label {
-	fill: rgba(0, 0, 0, 0);
+    fill: rgba(0, 0, 0, 0);
 }
 
 /**
  * Article Body
  */
 a, a:link, a:visited {
-	color: #D7893E;
+    color: #D7893E;
 }
 a:hover {
-	color: #BA5817;
+    color: #BA5817;
 }
 
 #listen-on-buttons .start {
-	stop-color: #D7893E;
+    stop-color: #D7893E;
 }
 #listen-on-buttons .stop {
-	stop-color: #BA5817;
+    stop-color: #BA5817;
 }
 
 @media (prefers-color-scheme: dark) {
-	/**
+    /**
      * Background
      */
     html {
-    	background-color: #0E3515;
-    	background-image: url('{{ site.dropbox }}/shuffle-roulette/images/dark-green-felt.png');
+        background-color: #0E3515;
+        background-image: url('{{ site.dropbox }}/shuffle-roulette/images/dark-green-felt.png');
     }
     .review-page .show-when-dark {
-    	display: none !important;
+        display: none !important;
     }
-	.review-page article,
-	#springboard {
-		background-color: #1C4E26; /* #0c2010 */
-	}
-	::selection {
-		background: hsla(29, 66%, 54%, 0.99);
-	}
-	::-moz-selection {
-		background: hsla(29, 66%, 54%, 0.99);
-	}
+    .review-page article,
+    #springboard {
+        background-color: #1C4E26; /* #0c2010 */
+    }
+    ::selection {
+        background: hsla(29, 66%, 54%, 0.99);
+    }
+    ::-moz-selection {
+        background: hsla(29, 66%, 54%, 0.99);
+    }
 
-	/**
-	 * Menu
-	 */
-	menu a,
-	menu a:link,
-	menu a:visited {
-		color: #F0EEE2;
-	}
-	menu a .rss,
-	menu a .letter {
-		fill: #F0EEE2
-	}
-	menu a:hover{
-		color: #D7893E;
-	}
-	menu a:hover .rss,
-	menu a:hover .letter {
-		fill: #D7893E;
-	}
+    /**
+     * Menu
+     */
+    menu a,
+    menu a:link,
+    menu a:visited {
+        color: #F0EEE2;
+    }
+    menu a .rss,
+    menu a .letter {
+        fill: #F0EEE2
+    }
+    menu a:hover{
+        color: #D7893E;
+    }
+    menu a:hover .rss,
+    menu a:hover .letter {
+        fill: #D7893E;
+    }
 
-	/**
-	 * Record Logo
-	 */
-	#logo .record .flat-grooves {
-		fill: hsl(75, 100%, 97%);
-	}
-	#logo .record .runout {
-		stroke: hsl(75, 100%, 97%);
-	}
-	#logo .record .loud-grooves {
-		stroke: hsl(75, 100%, 97%);
-		fill: hsl(75, 100%, 100%);
-	}
-	#logo .record .quiet-grooves {
-		fill: hsl(75, 50%, 90%);
-	}
-	#logo .label-glow {
-		stroke: #D7893E;
-	}
-	#logo .label {
-		opacity: 1 !important;
-		fill: #D7893E;
-		stroke: #D7893E;
-	}
+    /**
+     * Record Logo
+     */
+    #logo .record .flat-grooves {
+        fill: hsl(75, 100%, 97%);
+    }
+    #logo .record .runout {
+        stroke: hsl(75, 100%, 97%);
+    }
+    #logo .record .loud-grooves {
+        stroke: hsl(75, 100%, 97%);
+        fill: hsl(75, 100%, 100%);
+    }
+    #logo .record .quiet-grooves {
+        fill: hsl(75, 50%, 90%);
+    }
+    #logo .label-glow {
+        stroke: #D7893E;
+    }
+    #logo .label {
+        opacity: 1 !important;
+        fill: #D7893E;
+        stroke: #D7893E;
+    }
 
-	a:hover #logo .record .flat-grooves {
-		fill: hsl(29, 66%, 54%);
-	}
-	a:hover #logo .record .runout {
-		stroke: hsl(29, 66%, 54%);
-	}
-	a:hover #logo .record .loud-grooves {
-		stroke: hsl(29, 66%, 54%);
-		fill: hsl(29, 66%, 59%);
-	}
-	a:hover #logo .record .quiet-grooves {
-		fill: hsl(29, 66%, 49%);
-	}
-	a:hover #logo .label {
-		fill: rgba(0, 0, 0, 0);
-	}
+    a:hover #logo .record .flat-grooves {
+        fill: hsl(29, 66%, 54%);
+    }
+    a:hover #logo .record .runout {
+        stroke: hsl(29, 66%, 54%);
+    }
+    a:hover #logo .record .loud-grooves {
+        stroke: hsl(29, 66%, 54%);
+        fill: hsl(29, 66%, 59%);
+    }
+    a:hover #logo .record .quiet-grooves {
+        fill: hsl(29, 66%, 49%);
+    }
+    a:hover #logo .label {
+        fill: rgba(0, 0, 0, 0);
+    }
 
-	/**
-	 * Article Body
-	 */
-	a, a:link, a:visited {
-		color: #6291a8;
-	}
-	a:hover {
-		color: #D7893E;
-	}
-	
-	#listen-on-buttons .start {
-		stop-color: #D7893E;
-	}
-	#listen-on-buttons .stop {
-		stop-color: #BA5817;
-	}
+    /**
+     * Article Body
+     */
+    a, a:link, a:visited {
+        color: #6291a8;
+    }
+    a:hover {
+        color: #D7893E;
+    }
+    
+    #listen-on-buttons .start {
+        stop-color: #D7893E;
+    }
+    #listen-on-buttons .stop {
+        stop-color: #BA5817;
+    }
 }

@@ -9,103 +9,103 @@ title: "Archive"
 <h1>{{ page.title }}</h1>
 
 <style>
-	h1 {
-		margin-top: 2.3rem;
-	}
-	.tab-control {
-		margin-bottom: 2.6em;
-	}
-	.tab {
-		width: 31.5vw;
-		display: inline-block;
-		margin-left: -2px;
-		margin-right: -2px;
-		border-radius: 0em;
-		background: linear-gradient(#fa5252, #e03131);
-		cursor: pointer;
-		margin-bottom: 0;
-	}
-	.tab:focus {
-		outline: 0;
-	}
-	.tab.active {
-		background: linear-gradient(hsl(360, 95%, 35%), hsl(360, 95%, 68%));
-	}
-	.shelf {
-		transition: opacity 0.2s ease;
-		position: absolute;
-		left: 0;
-		width: 100%;
-		margin-left: env(safe-area-inset-left);
-		margin-right: env(safe-area-inset-right);
-	}
-	.hidden {
-		pointer-events: none;
-		opacity: 0;
-	}
-		.tab.left {
-			border-top-left-radius: 1.5em;
-			border-bottom-left-radius: 1.5em;
-		}
-		.tab.right {
-			border-top-right-radius: 1.5em;
-			border-bottom-right-radius: 1.5em;
-		}
-	@media (min-width: 700px) {
-		.tab {
-			width: 13em;
-		}
-		.shelf {
-			width: calc(100% - env(safe-area-inset-left) - env(safe-area-inset-right));
-		}
-	}
+    h1 {
+        margin-top: 2.3rem;
+    }
+    .tab-control {
+        margin-bottom: 2.6em;
+    }
+    .tab {
+        width: 31.5vw;
+        display: inline-block;
+        margin-left: -2px;
+        margin-right: -2px;
+        border-radius: 0em;
+        background: linear-gradient(#fa5252, #e03131);
+        cursor: pointer;
+        margin-bottom: 0;
+    }
+    .tab:focus {
+        outline: 0;
+    }
+    .tab.active {
+        background: linear-gradient(hsl(360, 95%, 35%), hsl(360, 95%, 68%));
+    }
+    .shelf {
+        transition: opacity 0.2s ease;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        margin-left: env(safe-area-inset-left);
+        margin-right: env(safe-area-inset-right);
+    }
+    .hidden {
+        pointer-events: none;
+        opacity: 0;
+    }
+        .tab.left {
+            border-top-left-radius: 1.5em;
+            border-bottom-left-radius: 1.5em;
+        }
+        .tab.right {
+            border-top-right-radius: 1.5em;
+            border-bottom-right-radius: 1.5em;
+        }
+    @media (min-width: 700px) {
+        .tab {
+            width: 13em;
+        }
+        .shelf {
+            width: calc(100% - env(safe-area-inset-left) - env(safe-area-inset-right));
+        }
+    }
 </style>
 <div class="tab-control">
-	<button id="articles-tab" class="tab left" onclick="showTabView(event,'articles-view')">Articles</button>
-	<button id="podcasts-tab" class="tab right" onclick="showTabView(event,'podcasts-view')">Podcast</button>
+    <button id="articles-tab" class="tab left" onclick="showTabView(event,'articles-view')">Articles</button>
+    <button id="podcasts-tab" class="tab right" onclick="showTabView(event,'podcasts-view')">Podcast</button>
 </div>
 <div>
-	<div class="shelf archive" id="articles-view">
-		<p style="text-align:center">
-			{% for post in site.posts %}
-				{% if post.layout == 'post' %}
-					<span class="hint--top hint--rounded hint--bounce" data-hint="{{ post.title }}">
-						<a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
-							<img src="{{ site.dropbox }}/{{ post.album-name }}/images/album-art-500w.jpg" class="album-art">
-						</a>
-					</span>
-				{% endif %}
-			{% endfor %}
-		</p>
-	</div>
-	<div class="shelf specials hidden" id="podcasts-view">
-		<p style="text-align:center">
-			{% for post in site.posts %}
-				{% if post.layout == 'podcast' %}
-					<span class="hint--top hint--rounded hint--bounce" data-hint="{{ post.podcast.episode }}: {{ post.title }}">
-						<a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
-							<img src="{{ site.dropbox }}/{{ post.album-name }}/images/episode-art-500w.jpg" class="album-art">
-						</a>
-					</span>
-				{% endif %}
-			{% endfor %}
-		</p>
-	</div>
+    <div class="shelf archive" id="articles-view">
+        <p style="text-align:center">
+            {% for post in site.posts %}
+                {% if post.layout == 'post' %}
+                    <span class="hint--top hint--rounded hint--bounce" data-hint="{{ post.title }}">
+                        <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
+                            <img src="{{ site.dropbox }}/{{ post.album-name }}/images/album-art-500w.jpg" class="album-art">
+                        </a>
+                    </span>
+                {% endif %}
+            {% endfor %}
+        </p>
+    </div>
+    <div class="shelf specials hidden" id="podcasts-view">
+        <p style="text-align:center">
+            {% for post in site.posts %}
+                {% if post.layout == 'podcast' %}
+                    <span class="hint--top hint--rounded hint--bounce" data-hint="{{ post.podcast.episode }}: {{ post.title }}">
+                        <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
+                            <img src="{{ site.dropbox }}/{{ post.album-name }}/images/episode-art-500w.jpg" class="album-art">
+                        </a>
+                    </span>
+                {% endif %}
+            {% endfor %}
+        </p>
+    </div>
 </div>
 <script>
-	// https://www.w3schools.com/w3css/w3css_tabulators.asp
-	function showTabView(evt, tabName) {
-	    var i, x, tablinks;
-	    x = document.getElementsByClassName("shelf");
-	    for (i = 0; i < x.length; i++) {
-	    	x[i].classList.add("hidden");
-	    }
-	    tablinks = document.getElementsByClassName("tab");
-	    for (i = 0; i < x.length; i++) {
-	        tablinks[i].classList.remove("active");
-	    }
-	    document.getElementById(tabName).classList.remove("hidden");
-	    evt.currentTarget.classList.add("active");
-	}
-	document.getElementById("articles-tab").click();
+    // https://www.w3schools.com/w3css/w3css_tabulators.asp
+    function showTabView(evt, tabName) {
+        var i, x, tablinks;
+        x = document.getElementsByClassName("shelf");
+        for (i = 0; i < x.length; i++) {
+            x[i].classList.add("hidden");
+        }
+        tablinks = document.getElementsByClassName("tab");
+        for (i = 0; i < x.length; i++) {
+            tablinks[i].classList.remove("active");
+        }
+        document.getElementById(tabName).classList.remove("hidden");
+        evt.currentTarget.classList.add("active");
+    }
+    document.getElementById("articles-tab").click();
 </script>

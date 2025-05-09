@@ -1,119 +1,119 @@
 html {
-	background-color: #359FE9;
+    background-color: #359FE9;
 }
 .review-page article,
 #springboard {
-	background-color: hsla(205, 80%, 98%, 0.75);
+    background-color: hsla(205, 80%, 98%, 0.75);
 }
 @media (prefers-color-scheme: dark) {
-	html {
-		background-color: #324E66;
-	}
-	.review-page article,
-	#springboard {
-		background-color: hsla(206, 41%, 10%, 0.5);
-	}
+    html {
+        background-color: #324E66;
+    }
+    .review-page article,
+    #springboard {
+        background-color: hsla(206, 41%, 10%, 0.5);
+    }
 }
 
 /* Safari */
 ::selection {
-	background: hsla(207, 55%, 82%, 0.99);
+    background: hsla(207, 55%, 82%, 0.99);
 }
 /* Firefox */
 ::-moz-selection {
-	background: hsla(207, 55%, 82%, 0.99);
+    background: hsla(207, 55%, 82%, 0.99);
 }
 @media (prefers-color-scheme: dark) {
-	/* Safari */
-	::selection {
-		background: hsla(207, 55%, 42%, 0.99);
-	}
-	/* Firefox */
-	::-moz-selection {
-		background: hsla(207, 55%, 42%, 0.99);
-	}
+    /* Safari */
+    ::selection {
+        background: hsla(207, 55%, 42%, 0.99);
+    }
+    /* Firefox */
+    ::-moz-selection {
+        background: hsla(207, 55%, 42%, 0.99);
+    }
 }
 
 a, a:link, a:visited {
-	color: #5185b0; /*#5E9CD0;*/
+    color: #5185b0; /*#5E9CD0;*/
 }
 menu a,
 menu a:link,
 menu a:visited {
-	color: #E9F3EF;
+    color: #E9F3EF;
 }
 menu a:hover {
-	color: #38515B;
+    color: #38515B;
 }
 menu a .rss,
 menu a .letter {
-	fill: #E9F3EF;
+    fill: #E9F3EF;
 }
 menu a:hover .rss,
 menu a:hover .letter {
-	fill: #38515B;
+    fill: #38515B;
 }
 #logo .record .flat-grooves {
-	fill: hsl(156, 29%, 93%);
+    fill: hsl(156, 29%, 93%);
 }
 #logo .record .runout {
-	stroke: hsl(156, 29%, 93%);
+    stroke: hsl(156, 29%, 93%);
 }
 #logo .record .loud-grooves {
-	stroke: hsl(156, 29%, 93%);
-	fill: hsl(156, 29%, 98%);
+    stroke: hsl(156, 29%, 93%);
+    fill: hsl(156, 29%, 98%);
 }
 #logo .record .quiet-grooves {
-	fill: hsl(156, 29%, 88%);
+    fill: hsl(156, 29%, 88%);
 }
 #logo .label {
-	fill: #DB963E;
-	stroke: #DB963E;
+    fill: #DB963E;
+    stroke: #DB963E;
 }
 
 a:hover #logo .record .flat-grooves {
-	fill: hsl(197, 24%, 24%);
+    fill: hsl(197, 24%, 24%);
 }
 a:hover #logo .record .runout {
-	stroke: hsl(197, 24%, 24%);
+    stroke: hsl(197, 24%, 24%);
 }
 a:hover #logo .record .loud-grooves {
-	stroke: hsl(197, 24%, 24%);
-	fill: hsl(197, 24%, 29%);
+    stroke: hsl(197, 24%, 24%);
+    fill: hsl(197, 24%, 29%);
 }
 a:hover #logo .record .quiet-grooves {
-	fill: hsl(197, 24%, 34%);
+    fill: hsl(197, 24%, 34%);
 }
 
 a:hover {
-	color: #38515B;
+    color: #38515B;
 }
 #listen-on-buttons .start {
-	stop-color: #5E9CD0;
+    stop-color: #5E9CD0;
 }
 #listen-on-buttons .stop {
-	stop-color: #38515B;
+    stop-color: #38515B;
 }
 
 @media (prefers-color-scheme: dark) {
-	menu a:hover {
-		color: #5185b0;
-	}
-	menu a:hover .rss,
-	menu a:hover .letter {
-		fill: #5185b0;
-	}
-	a:hover #logo .record .flat-grooves {
-		fill: hsl(207, 38%, 45%);
-	}
-	a:hover #logo .record .runout {
-		stroke: hsl(207, 38%, 45%);
-	}
-	a:hover #logo .record .loud-grooves {
-		stroke: hsl(207, 38%, 45%);
-		fill: hsl(207, 38%, 50%);
-	}
-	a:hover #logo .record .quiet-grooves {
-		fill: hsl(207, 38%, 55%);
-	}
+    menu a:hover {
+        color: #5185b0;
+    }
+    menu a:hover .rss,
+    menu a:hover .letter {
+        fill: #5185b0;
+    }
+    a:hover #logo .record .flat-grooves {
+        fill: hsl(207, 38%, 45%);
+    }
+    a:hover #logo .record .runout {
+        stroke: hsl(207, 38%, 45%);
+    }
+    a:hover #logo .record .loud-grooves {
+        stroke: hsl(207, 38%, 45%);
+        fill: hsl(207, 38%, 50%);
+    }
+    a:hover #logo .record .quiet-grooves {
+        fill: hsl(207, 38%, 55%);
+    }
 }
