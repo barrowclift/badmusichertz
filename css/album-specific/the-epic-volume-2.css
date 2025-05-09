@@ -119,18 +119,6 @@ a:hover {
 	}
 }
 
-.bigfoot-footnote__button,
-.bigfoot-footnote__button:link,
-.bigfoot-footnote__button:visited {
-	background-color: #CE8584;
-}
-.bigfoot-footnote__button:hover,
-.bigfoot-footnote__button:focus,
-.bigfoot-footnote__button:active,
-.bigfoot-footnote__button.is-active {
-	background-color: #8F2021;
-}
-
 menu {
 	background-color: hsla(359, 70%, 34%, 0.95);
 }

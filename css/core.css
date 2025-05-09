@@ -234,9 +234,6 @@ html {
 body {
     line-height: 1.45em;
 }
-.footnotes {
-    line-height: 1.3em;
-}
 h1 {
     font-size: 2.074em;
 }
@@ -287,7 +284,11 @@ time {
     line-height: 1.45em;
     display: block;
 }
-.footnotes ol, .footnotes ol li p, /* Barrowclift.me */
+.footnotes ol li p {
+    font-size: 0.833em;
+    margin-top: 0;
+    line-height: 1.35rem;
+}
 figcaption,
 input, select, textarea, button, .button,
 small, kbd,
@@ -904,48 +905,88 @@ audio {
 
 
 /* ----- FOOTNOTE BUTTONS ----- */
-.bigfoot-footnote,
-.bigfoot-footnote__content {
-    background-color: transparent;
-    font-style: normal;
+/**
+ * Ensure that the footnotes at the bottom are still visible (but ONLY
+ * those footnotes, don't show the standard footnote numbers in the
+ * article proper).
+ */
+.footnotes,
+.footnotes .littlefoot--print {
+    display: revert;
 }
-.bigfoot-footnote__tooltip {
-    background: hsl(40, 43%, 99%);
-}
-.bigfoot-footnote__tooltip,
-.bigfoot-footnote {
-    border: 1px solid hsl(40, 43%, 80%);
-}
-.bigfoot-footnote.is-scrollable:after {
-    opacity: 0.2;
-}
-.bigfoot-footnote.is-fully-scrolled:after,
-.bigfoot-footnote.is-fully-scrolled:before {
-    opacity: 0 !important;
-}
+/**
+ * littlefoot.js: Offers a substantially improved footnote experience where
+ *                you can read the footnote in a handy popup without having to
+ *                change your position in the article at all.
+ */
+.littlefoot {
+    --button-height: 1.45em;
+    --button-margin: 0 0.15em;
+    --button-padding: 0 0.75em;
+    --button-text-color: white;
 
-.bigfoot-footnote__button,
-.bigfoot-footnote__button:link,
-.bigfoot-footnote__button:visited {
-    background-color: #e03131;
-}
-.bigfoot-footnote__button:hover,
-.bigfoot-footnote__button:focus,
-.bigfoot-footnote__button:active,
-.bigfoot-footnote__button.is-active {
-    background-color: #c92a2a;
-}
-.bigfoot-footnote__button:hover,
-.bigfoot-footnote__button:focus {
-    outline: none;
-}
+    --popover-text-color: #171717;
+    --popover-border-radius: 0.5rem;
+    --popover-border: 1px solid hsl(40, 43%, 80%);
+    --popover-font-size: 0.833rem;
+    --popover-horizontal-padding: 1.3em;
+    --popover-max-height: 25em;
+    --popover-scroll-indicator-color: rgba(0, 0, 0, 0.375);
+    --popover-shadow: 0 14px 26px -10px rgba(0, 0, 0, 0.4);
+    --popover-text-color: var(--primary-foreground-color);
+    --popover-vertical-padding: 1.3em;
 
+    display: inline-block !important;
+}
 @media (prefers-color-scheme: dark) {
-    .bigfoot-footnote.is-scrollable:after {
-        background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTJweCIgaGVpZ2h0PSIxNXB4IiB2aWV3Qm94PSIwIDAgMTIgMTUiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pbllNaW4iPgogICAgPGcgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPGcgaWQ9IkFycm93IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxLjAwMDAwMCwgMS4wMDAwMDApIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJzcXVhcmUiPgogICAgICAgICAgICA8cGF0aCBkPSJNNSwwIEw1LDExLjUiIGlkPSJMaW5lIj48L3BhdGg+CiAgICAgICAgICAgIDxwYXRoIGQ9Ik0wLjUsNy41IEw1LjAyNzY5Mjc5LDEyLjAyNzY5MjgiIGlkPSJMaW5lIj48L3BhdGg+CiAgICAgICAgICAgIDxwYXRoIGQ9Ik00LjUsNy41IEw5LjAyNzY5Mjc5LDEyLjAyNzY5MjgiIGlkPSJMaW5lLTIiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDcuMDAwMDAwLCAxMC4wMDAwMDApIHNjYWxlKC0xLCAxKSB0cmFuc2xhdGUoLTcuMDAwMDAwLCAtMTAuMDAwMDAwKSAiPjwvcGF0aD4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPg==");
-        opacity: 0.2;
+    .littlefoot {
+        --popover-text-color: hsl(360, 74%, 96%);
+        --popover-scroll-indicator-color: rgba(255, 255, 255, 0.5);
+        --popover-text-color: hsl(360, 74%, 96%);
     }
 }
+.littlefoot__content {
+    border-radius: calc(0.5rem - 1px);
+}
+    .littlefoot__content > p:last-child {
+        margin-bottom: 0;
+    }
+/**
+ * The article div:has(img) & article div:has(video) styling screws with
+ * footnote rendering. Ensure that styling is scrubbed for rendering footnote
+ * popup contents.
+ */
+.littlefoot div {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.littlefoot img {
+    line-height: 1.45em;
+}
+.littlefoot__popover p:last-child {
+    margin-bottom: 0;
+}
+.littlefoot__button,
+.littlefoot__button.is-active,
+.littlefoot__button:active,
+.littlefoot__button:focus,
+.littlefoot__button:hover {
+    background-color: #e03131;
+}
+.littlefoot__button {
+    font-size: 0.625em;
+    font-weight: 600;
+    line-height: 1em;
+    margin-top: -3px;
+    box-shadow: inset 0 .325em 0.65em rgba(255, 255, 255, 0.375), 0 0.215em 0.435em -0.1em hsla(360, 74%, 51%, 0.2);
+}
+    .littlefoot__button:hover {
+        box-shadow: inset 0 .325em 0.65em rgba(255, 255, 255, 0.5), 0 .325em 0.65em -0.325em hsla(360, 84%, 56%, 0.375);
+    }
+    .littlefoot__button:active,
+    .littlefoot__button.is-active {
+        box-shadow: inset 0 .325em 0.65em rgba(0, 0, 0, 0.125), 0 0.215em 0.435em -0.1em hsla(360, 74%, 62%, 0.2);
+    }
 
 
 /* MISC ----------------------------------------------------------------------------- */

@@ -12,6 +12,9 @@ h2 {
 article header h1 time {
 	color: hsla(80, 7%, 16%, 0.375);
 }
+.podcast-article-wrapper .article-mime-icon path {
+	fill: hsla(80, 7%, 16%, 0.375);
+}
 menu a,
 menu a:link,
 menu a:visited {
@@ -79,40 +82,31 @@ a:hover #logo .record .runout {
 a:hover {
 	color: hsl(40, 55%, 32%);
 }
-
-#logo .label,
-.bigfoot-footnote__button,
-.bigfoot-footnote__button:link,
-.bigfoot-footnote__button:visited {
+#logo .label {
 	background-color: hsl(40, 75%, 42%);
 }
-.bigfoot-footnote__button:hover,
-.bigfoot-footnote__button:focus,
-.bigfoot-footnote__button:active,
-.bigfoot-footnote__button.is-active {
+.littlefoot__button,
+.littlefoot__button:link,
+.littlefoot__button:visited {
+	background-color: hsl(40, 75%, 42%);
+}
+.littlefoot__button:hover,
+.littlefoot__button:focus,
+.littlefoot__button:active,
+.littlefoot__button.is-active {
 	background-color: hsl(40, 55%, 32%);
 }
-.bigfoot-footnote__tooltip,
-.bigfoot-footnote {
-	border-color: #BBBDB1;
+.littlefoot {
+	--popover-text-color: rgba(33, 37, 41, 0.9);
+	--popover-background-color: hsl(81, 27%, 93%);
+	--popover-border: 1px solid #BBBDB1;
+	--popover-scroll-indicator-color: rgba(255, 255, 255, 0.5);
 }
-.bigfoot-footnote__tooltip,
-.bigfoot-footnote__wrapper {
-	background-color: hsla(81, 27%, 93%, 0.98);
-}
-.bigfoot-footnote__content {
-	color: rgba(33, 37, 41, 0.9);
-}
-.bigfoot-footnote__content a {
+.littlefoot__content a {
 	color: hsl(40, 75%, 42%);
 }
-.bigfoot-footnote__content a:hover {
+.littlefoot__content a:hover {
 	color: hsl(40, 55%, 32%);
-}
-.bigfoot-footnote__button:after,
-.bigfoot-footnote__button.is-active:after,
-.bigfoot-footnote__button:hover:after {
-	color: hsla(81, 27%, 90%, 0.95);
 }
 @media (prefers-color-scheme: dark) {
 	html {
@@ -132,32 +126,31 @@ a:hover {
 	article header h1 time {
 		color: hsla(52, 21%, 68%, 0.375);
 	}
-	.bigfoot-footnote__button,
-	.bigfoot-footnote__button:link,
-	.bigfoot-footnote__button:visited {
+	.podcast-article-wrapper .article-mime-icon path {
+		fill: hsla(52, 21%, 68%, 0.375);
+	}
+	.littlefoot__button,
+	.littlefoot__button:link,
+	.littlefoot__button:visited {
 		background-color: #ACA681;
 	}
-	.bigfoot-footnote__tooltip,
-	.bigfoot-footnote {
-		border-color: #51514E;
+	.littlefoot__button:hover,
+	.littlefoot__button:focus,
+	.littlefoot__button:active,
+	.littlefoot__button.is-active {
+		background-color: hsl(169, 30%, 82%);
 	}
-	.bigfoot-footnote__tooltip,
-	.bigfoot-footnote__wrapper {
-		background-color: hsla(80, 7%, 22%, 0.98);
+	.littlefoot {
+		--popover-text-color: hsl(52, 21%, 95%);
+		--popover-background-color: hsl(80, 7%, 22%);
+		--popover-border: 1px solid #51514E;
+		--popover-scroll-indicator-color: rgba(255, 255, 255, 0.5);
 	}
-	.bigfoot-footnote__content {
-		color: hsl(52, 21%, 95%);
-	}
-	.bigfoot-footnote__content a {
+	.littlefoot__content a {
 		color: #ACA681;
 	}
-	.bigfoot-footnote__content a:hover {
+	.littlefoot__content a:hover {
 		color: hsl(169, 30%, 82%);
-	}
-	.bigfoot-footnote__button:after,
-	.bigfoot-footnote__button.is-active:after,
-	.bigfoot-footnote__button:hover:after {
-		color: hsl(80, 7%, 16%);
 	}
 	menu a,
 	menu a:link,
@@ -180,12 +173,6 @@ a:hover {
 	}
 	a:hover {
 		color: hsl(169, 30%, 82%);
-	}
-	.bigfoot-footnote__button:hover,
-	.bigfoot-footnote__button:focus,
-	.bigfoot-footnote__button:active,
-	.bigfoot-footnote__button.is-active {
-		background-color: hsl(169, 30%, 82%);
 	}
 	#logo .record .loud-grooves {
 		stroke: hsl(52, 21%, 55%);

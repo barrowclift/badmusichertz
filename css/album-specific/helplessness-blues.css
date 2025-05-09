@@ -53,18 +53,6 @@ a:hover {
 	color: #CD5A39;
 }
 
-.bigfoot-footnote__button,
-.bigfoot-footnote__button:link,
-.bigfoot-footnote__button:visited {
-	background-color: #9A5132;
-}
-.bigfoot-footnote__button:hover,
-.bigfoot-footnote__button:focus,
-.bigfoot-footnote__button:active,
-.bigfoot-footnote__button.is-active {
-	background-color: #CD5A39;
-}
-
 .review-page article {
 	background-color: hsla(41, 57%, 80%, 0.85);
 }
@@ -93,6 +81,9 @@ menu {
 	}
 	article header h1 time {
 		color: rgba(255, 255, 255, 0.375);
+	}
+	.podcast-article-wrapper .article-mime-icon path {
+		fill: rgba(255, 255, 255, 0.375);
 	}
 	menu {
 		background-color: rgb(0, 0, 0);

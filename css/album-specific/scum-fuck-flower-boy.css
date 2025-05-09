@@ -20,6 +20,9 @@ h2 {
 article header h1 time {
 	color: rgba(21, 12, 9, 0.375);
 }
+.podcast-article-wrapper .article-mime-icon path {
+	fill: rgba(21, 12, 9, 0.375);
+}
 menu a,
 menu a:link,
 menu a:visited {
@@ -44,39 +47,6 @@ a, a:link, a:visited {
 }
 a:hover {
 	color: hsl(7, 90%, 70%);
-}
-.bigfoot-footnote__button,
-.bigfoot-footnote__button:link,
-.bigfoot-footnote__button:visited {
-	background-color: hsl(7, 90%, 50%);
-}
-.bigfoot-footnote__button:hover,
-.bigfoot-footnote__button:focus,
-.bigfoot-footnote__button:active,
-.bigfoot-footnote__button.is-active {
-	background-color: hsl(7, 90%, 70%);
-}
-.bigfoot-footnote__tooltip,
-.bigfoot-footnote {
-	border-color: hsl(40, 37%, 77%);
-}
-.bigfoot-footnote__tooltip,
-.bigfoot-footnote__wrapper {
-	background-color: hsla(44, 67%, 90%, 0.98);
-}
-.bigfoot-footnote__content {
-	color: #3E3620;
-}
-.bigfoot-footnote__content a {
-	color: hsl(7, 90%, 50%);
-}
-.bigfoot-footnote__content a:hover {
-	color: hsl(7, 90%, 70%);
-}
-.bigfoot-footnote__button:after,
-.bigfoot-footnote__button.is-active:after,
-.bigfoot-footnote__button:hover:after {
-	color: hsla(44, 67%, 90%, 0.95);
 }
 menu a:hover {
 	color: hsl(75, 39%, 26%);
@@ -130,44 +100,14 @@ a:hover #logo .record .runout {
 	article header h1 time {
 		color: hsla(38, 51%, 73%, 0.5);
 	}
+	.podcast-article-wrapper .article-mime-icon path {
+		fill: hsla(38, 51%, 73%, 0.5);
+	}
 	a, a:link, a:visited {
 		color: hsl(9, 96%, 55%);
 	}
 	a:hover {
 		color: hsl(9, 96%, 70%);
-	}
-	.bigfoot-footnote__button,
-	.bigfoot-footnote__button:link,
-	.bigfoot-footnote__button:visited {
-		background-color: hsl(9, 96%, 55%);
-	}
-	.bigfoot-footnote__button:hover,
-	.bigfoot-footnote__button:focus,
-	.bigfoot-footnote__button:active,
-	.bigfoot-footnote__button.is-active {
-		background-color: hsl(9, 96%, 70%);
-	}
-	.bigfoot-footnote__tooltip,
-	.bigfoot-footnote {
-		border-color: #6D5A42;
-	}
-	.bigfoot-footnote__tooltip,
-	.bigfoot-footnote__wrapper {
-		background-color: hsla(44, 50%, 22%, 0.98);
-	}
-	.bigfoot-footnote__content {
-		color: white;
-	}
-	.bigfoot-footnote__content a {
-		color: hsl(9, 96%, 55%);
-	}
-	.bigfoot-footnote__content a:hover {
-		color: hsl(9, 96%, 70%);
-	}
-	.bigfoot-footnote__button:after,
-	.bigfoot-footnote__button.is-active:after,
-	.bigfoot-footnote__button:hover:after {
-		color: white;
 	}
 	menu a,
 	menu a:link,

@@ -79,18 +79,6 @@ a:hover {
 	stop-color: #466777;
 }
 
-.bigfoot-footnote__button,
-.bigfoot-footnote__button:link,
-.bigfoot-footnote__button:visited {
-	background-color: #3589B1;
-}
-.bigfoot-footnote__button:hover,
-.bigfoot-footnote__button:focus,
-.bigfoot-footnote__button:active,
-.bigfoot-footnote__button.is-active {
-	background-color: #3589B1;
-}
-
 menu {
 	background-color: #F0EEE2;
 	-webkit-backdrop-filter: unset;

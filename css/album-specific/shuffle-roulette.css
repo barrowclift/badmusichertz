@@ -95,18 +95,6 @@ a:hover {
 	stop-color: #BA5817;
 }
 
-.bigfoot-footnote__button,
-.bigfoot-footnote__button:link,
-.bigfoot-footnote__button:visited {
-	background-color: #D7893E;
-}
-.bigfoot-footnote__button:hover,
-.bigfoot-footnote__button:focus,
-.bigfoot-footnote__button:active,
-.bigfoot-footnote__button.is-active {
-	background-color: #D7893E;
-}
-
 @media (prefers-color-scheme: dark) {
 	/**
      * Background
@@ -206,17 +194,5 @@ a:hover {
 	}
 	#listen-on-buttons .stop {
 		stop-color: #BA5817;
-	}
-
-	.bigfoot-footnote__button,
-	.bigfoot-footnote__button:link,
-	.bigfoot-footnote__button:visited {
-		background-color: #D7893E;
-	}
-	.bigfoot-footnote__button:hover,
-	.bigfoot-footnote__button:focus,
-	.bigfoot-footnote__button:active,
-	.bigfoot-footnote__button.is-active {
-		background-color: #D7893E;
 	}
 }

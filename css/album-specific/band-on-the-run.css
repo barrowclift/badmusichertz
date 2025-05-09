@@ -116,6 +116,9 @@ article header {
 time {
 	color: rgba(250, 250, 250, 0.5) !important;
 }
+.podcast-article-wrapper .article-mime-icon path {
+	fill: rgba(250, 250, 250, 0.5);
+}
 /* Safari */
 ::selection {
 	background: #E5B780;
@@ -126,39 +129,30 @@ time {
 	background: #E5B780;
 	color: #FCFCFA;
 }
-a, a:link, a:visited, .bigfoot-footnote__content a {
+a,
+a:link,
+a:visited,
+.littlefoot__content a {
 	color: #E5B780;
 }
 a:hover,
 menu a:hover,
-.bigfoot-footnote__content a:hover {
+.littlefoot__content a:hover {
 	color: #B7845B;
 }
-
-.bigfoot-footnote__button,
-.bigfoot-footnote__button:link,
-.bigfoot-footnote__button:visited {
-	background-color: #E5B780;
+.littlefoot__button,
+.littlefoot__button:link,
+.littlefoot__button:visited {
+	background-color: hsl(33, 66%, 50%);
 }
-.bigfoot-footnote__button:hover,
-.bigfoot-footnote__button:focus,
-.bigfoot-footnote__button:active,
-.bigfoot-footnote__button.is-active {
-	background-color: #B7845B;
+.littlefoot__button:hover,
+.littlefoot__button:focus,
+.littlefoot__button:active,
+.littlefoot__button.is-active {
+	background-color: hsl(33, 66%, 60%);
 }
-.bigfoot-footnote__tooltip,
-.bigfoot-footnote {
-	border-color: rgba(255,255,255,0.05);
-}
-.bigfoot-footnote__tooltip,
-.bigfoot-footnote__wrapper {
-	background-color: #222222;
-}
-.bigfoot-footnote__content {
-	color: #FCFCFA;
-}
-.bigfoot-footnote__button:after,
-.bigfoot-footnote__button.is-active:after,
-.bigfoot-footnote__button:hover:after {
-	color: #080808;
+.littlefoot {
+	--popover-text-color: #FCFCFA;
+	--popover-background-color: #222222;
+	--popover-border: 1px solid rgba(255,255,255,0.05);
 }

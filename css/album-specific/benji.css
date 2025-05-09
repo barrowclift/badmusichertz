@@ -27,12 +27,18 @@ h2,
 #springboard h1 time {
 	color: hsla(40, 79%, 45%, 0.7);
 }
+.podcast-article-wrapper .article-mime-icon path {
+	fill: hsla(40, 79%, 45%, 0.7);
+}
 @media (prefers-color-scheme: dark) {
 	html {
 		background-color: #354F6F;
 	}
 	article header h1 time {
 		color: hsla(40, 50%, 80%, 0.375);
+	}
+	.podcast-article-wrapper .article-mime-icon path {
+		fill: hsla(40, 79%, 45%, 0.7);
 	}
 }
 
@@ -107,18 +113,6 @@ a:hover {
 	#listen-on-buttons .stop {
 		stop-color: hsl(213, 50%, 30%);
 	}
-}
-
-.bigfoot-footnote__button,
-.bigfoot-footnote__button:link,
-.bigfoot-footnote__button:visited {
-	background-color: #305F99;
-}
-.bigfoot-footnote__button:hover,
-.bigfoot-footnote__button:focus,
-.bigfoot-footnote__button:active,
-.bigfoot-footnote__button.is-active {
-	background-color: #6698D4;
 }
 
 menu {

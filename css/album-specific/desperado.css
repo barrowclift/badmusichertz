@@ -86,24 +86,25 @@ a, a:link, a:visited {
 a:hover {
 	color: #D34739;
 }
-.bigfoot-footnote__button, .bigfoot-footnote__button:link, .bigfoot-footnote__button:visited {
+.littlefoot__button,
+.littlefoot__button:link,
+.littlefoot__button:visited {
 	background-color: #AD5E50;
 }
-.bigfoot-footnote__button:hover, .bigfoot-footnote__button:focus, .bigfoot-footnote__button:active, .bigfoot-footnote__button.is-active {
+.littlefoot__button:hover,
+.littlefoot__button:focus,
+.littlefoot__button:active,
+.littlefoot__button.is-active {
 	background-color: #D34739;
 }
-.bigfoot-footnote__tooltip,
-.bigfoot-footnote {
-	border-color: hsl(5, 14%, 80%);
+.littlefoot {
+	--popover-background-color: hsl(5, 14%, 95%);
+	--popover-border: 1px solid hsl(4, 14%, 25%);
 }
-.bigfoot-footnote__tooltip,
-.bigfoot-footnote__wrapper {
-	background-color: hsla(5, 14%, 95%, 0.98);
-}
-.bigfoot-footnote__content a {
+.littlefoot__content a {
 	color: #AD5E50;
 }
-.bigfoot-footnote__content a:hover {
+.littlefoot__content a:hover {
 	color: #D34739;
 }
 
@@ -195,35 +196,33 @@ a:hover {
 	 * Article Body
 	 */
 	a, a:link, a:visited {
-		color: #C97869;
+		color: #D34739;
 	}
 	a:hover {
-		color: #F05142;
+		color: #EC6356;
 	}
-	.bigfoot-footnote__button, .bigfoot-footnote__button:link, .bigfoot-footnote__button:visited {
-		background-color: #C97869;
+	.littlefoot__button,
+	.littlefoot__button:link,
+	.littlefoot__button:visited {
+		background-color: #D34739;
 	}
-	.bigfoot-footnote__button:hover, .bigfoot-footnote__button:focus, .bigfoot-footnote__button:active, .bigfoot-footnote__button.is-active {
-		background-color: #F05142;
+	.littlefoot__button:hover,
+	.littlefoot__button:focus,
+	.littlefoot__button:active,
+	.littlefoot__button.is-active {
+		background-color: #EC6356;
 	}
-	.bigfoot-footnote__tooltip,
-	.bigfoot-footnote {
-		border-color: hsl(4, 14%, 25%);
+	.littlefoot {
+		--popover-text-color: white !important;
+		--popover-background-color: hsla(4, 14%, 16%, 0.98) !important;
+		--popover-border: 1px solid hsl(4, 14%, 25%) !important;
+		--popover-scroll-indicator-color: rgba(255, 255, 255, 0.5) !important;
 	}
-	.bigfoot-footnote__tooltip,
-	.bigfoot-footnote__wrapper {
-		background-color: hsla(4, 14%, 16%, 0.98);
+	.littlefoot__content a {
+		color: #D34739;
 	}
-	.bigfoot-footnote__content a {
-		color: #C97869;
-	}
-	.bigfoot-footnote__content a:hover {
-		color: #F05142;
-	}
-
-	.bigfoot-footnote.is-scrollable:after {
-	    background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTJweCIgaGVpZ2h0PSIxNXB4IiB2aWV3Qm94PSIwIDAgMTIgMTUiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pbllNaW4iPgogICAgPGcgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPGcgaWQ9IkFycm93IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxLjAwMDAwMCwgMS4wMDAwMDApIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJzcXVhcmUiPgogICAgICAgICAgICA8cGF0aCBkPSJNNSwwIEw1LDExLjUiIGlkPSJMaW5lIj48L3BhdGg+CiAgICAgICAgICAgIDxwYXRoIGQ9Ik0wLjUsNy41IEw1LjAyNzY5Mjc5LDEyLjAyNzY5MjgiIGlkPSJMaW5lIj48L3BhdGg+CiAgICAgICAgICAgIDxwYXRoIGQ9Ik00LjUsNy41IEw5LjAyNzY5Mjc5LDEyLjAyNzY5MjgiIGlkPSJMaW5lLTIiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDcuMDAwMDAwLCAxMC4wMDAwMDApIHNjYWxlKC0xLCAxKSB0cmFuc2xhdGUoLTcuMDAwMDAwLCAtMTAuMDAwMDAwKSAiPjwvcGF0aD4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPg==");
-	    opacity: 0.2;
+	.littlefoot__content a:hover {
+		color: #EC6356;
 	}
 	time, figcaption, .weak {
 		color: rgba(255, 255, 255, 0.5);

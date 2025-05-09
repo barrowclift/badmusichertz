@@ -66,39 +66,28 @@ menu a:hover .rss,
 menu a:hover .letter {
 	fill: #92C69F;
 }
-
-.bigfoot-footnote__button,
-.bigfoot-footnote__button:link,
-.bigfoot-footnote__button:visited {
+.littlefoot__button,
+.littlefoot__button:link,
+.littlefoot__button:visited {
 	background-color: #92C69F;
 }
-.bigfoot-footnote__button:hover,
-.bigfoot-footnote__button:focus,
-.bigfoot-footnote__button:active,
-.bigfoot-footnote__button.is-active {
+.littlefoot__button:hover,
+.littlefoot__button:focus,
+.littlefoot__button:active,
+.littlefoot__button.is-active {
 	background-color: #586B63;
 }
-.bigfoot-footnote__tooltip,
-.bigfoot-footnote {
-	border-color: #C4C9BD;
+.littlefoot {
+	--popover-text-color: rgba(33, 37, 41, 0.9);
+	--popover-background-color: hsl(73, 43%, 95%);
+	--popover-border: 1px solid #C4C9BD;
+	--popover-scroll-indicator-color: rgba(255, 255, 255, 0.5);
 }
-.bigfoot-footnote__tooltip,
-.bigfoot-footnote__wrapper {
-	background-color: hsla(73, 43%, 95%, 0.98);
-}
-.bigfoot-footnote__content {
-	color: rgba(33, 37, 41, 0.9);
-}
-.bigfoot-footnote__content a {
+.littlefoot__content a {
 	color: #92C69F;
 }
-.bigfoot-footnote__content a:hover {
+.littlefoot__content a:hover {
 	color: #586B63;
-}
-.bigfoot-footnote__button:after,
-.bigfoot-footnote__button.is-active:after,
-.bigfoot-footnote__button:hover:after {
-	color: hsla(73, 33%, 92%, 0.95);
 }
 @media (prefers-color-scheme: dark) {
 	html {
@@ -118,6 +107,9 @@ menu a:hover .letter {
 	}
 	article header h1 time {
 		color: hsla(135, 31%, 75%, 0.375);
+	}
+	.podcast-article-wrapper .article-mime-icon path {
+		fill: hsla(135, 31%, 75%, 0.375);
 	}
 	menu a,
 	menu a:link,
@@ -170,20 +162,9 @@ menu a:hover .letter {
 	a:hover #logo .record .runout {
 		stroke: hsl(155, 10%, 32%);
 	}
-	.bigfoot-footnote__tooltip,
-	.bigfoot-footnote {
-		border-color: #36403C;
-	}
-	.bigfoot-footnote__tooltip,
-	.bigfoot-footnote__wrapper {
-		background-color: hsla(155, 10%, 18%, 0.95);
-	}
-	.bigfoot-footnote__content {
-		color: #EEF1E3;
-	}
-	.bigfoot-footnote__button:after,
-	.bigfoot-footnote__button.is-active:after,
-	.bigfoot-footnote__button:hover:after {
-		color: #EEF1E3;
+	.littlefoot {
+		--popover-text-color: #EEF1E3;
+		--popover-background-color: hsl(155, 10%, 18%);
+		--popover-border: 1px solid #36403C;
 	}
 }

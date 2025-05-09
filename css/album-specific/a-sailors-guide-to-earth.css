@@ -10,10 +10,12 @@ main {
 time {
 	color: rgba(226, 240, 246, 0.5);
 }
+.podcast-article-wrapper .article-mime-icon path {
+	fill: rgba(226, 240, 246, 0.5);
+}
 
 main,
-.review-page article,
-.bigfoot-footnote__content {
+.review-page article {
 	color: #E2F0F6;
 }
 

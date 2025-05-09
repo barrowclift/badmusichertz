@@ -18,6 +18,9 @@ h2,
 article header h1 time {
 	color: #728186;
 }
+.podcast-article-wrapper .article-mime-icon path {
+	fill: #728186;
+}
 
 /* Safari */
 ::selection {
@@ -99,40 +102,4 @@ a:hover #logo .record .runout {
 }
 #listen-on-buttons .stop {
 	stop-color: #9b873f;
-}
-
-.bigfoot-footnote__button,
-.bigfoot-footnote__button:link,
-.bigfoot-footnote__button:visited {
-	background-color: #bda54d;
-}
-.bigfoot-footnote__button:hover,
-.bigfoot-footnote__button:focus,
-.bigfoot-footnote__button:active,
-.bigfoot-footnote__button.is-active {
-	background-color: hsl(47, 46%, 65%);
-}
-.bigfoot-footnote__tooltip {
-	background-color: #222222;
-	border: 1px solid rgba(255,255,255,0.05);
-}
-.bigfoot-footnote {
-	border: 1px solid rgba(255,255,255,0.025);
-}
-.bigfoot-footnote,
-.bigfoot-footnote__wrapper {
-	background-color: #292929;
-}
-.bigfoot-footnote__tooltip,
-.bigfoot-footnote__wrapper,
-.bigfoot-footnote__content {
-	background-color: #222222;
-}
-.bigfoot-footnote__content {
-	color: #CCCECA;
-}
-.bigfoot-footnote__button:after,
-.bigfoot-footnote__button.is-active:after,
-.bigfoot-footnote__button:hover:after {
-	color: #020202;
 }

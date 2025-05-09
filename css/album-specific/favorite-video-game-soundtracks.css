@@ -101,18 +101,6 @@ a:hover #logo .record .runout {
 	stop-color: #CC693C;
 }
 
-.bigfoot-footnote__button,
-.bigfoot-footnote__button:link,
-.bigfoot-footnote__button:visited {
-	background-color: #E8625B;
-}
-.bigfoot-footnote__button:hover,
-.bigfoot-footnote__button:focus,
-.bigfoot-footnote__button:active,
-.bigfoot-footnote__button.is-active {
-	background-color: #F0BCB9;
-}
-
 menu {
 	background-color: #CC693C;
 	border-bottom: 2px solid #010000;

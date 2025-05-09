@@ -92,15 +92,3 @@ a:hover {
 #listen-on-buttons .stop {
 	stop-color: #E98635;
 }
-
-.bigfoot-footnote__button,
-.bigfoot-footnote__button:link,
-.bigfoot-footnote__button:visited {
-	background-color: #DE3123;
-}
-.bigfoot-footnote__button:hover,
-.bigfoot-footnote__button:focus,
-.bigfoot-footnote__button:active,
-.bigfoot-footnote__button.is-active {
-	background-color: #DE3123;
-}

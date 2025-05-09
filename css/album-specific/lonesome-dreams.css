@@ -86,17 +86,8 @@ a:hover {
 	stop-color: #84794B;
 }
 
-#logo .label,
-.bigfoot-footnote__button,
-.bigfoot-footnote__button:link,
-.bigfoot-footnote__button:visited {
+#logo .label {
 	background-color: #A29768;
-}
-.bigfoot-footnote__button:hover,
-.bigfoot-footnote__button:focus,
-.bigfoot-footnote__button:active,
-.bigfoot-footnote__button.is-active {
-	background-color: #8ea280;
 }
 
 @media (prefers-color-scheme: dark) {

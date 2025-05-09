@@ -99,6 +99,9 @@ h2,
 #springboard h1 time {
 	color: #B1E5D6 !important;
 }
+.podcast-article-wrapper .article-mime-icon path {
+	fill: #B1E5D6;
+}
 /* Safari */
 ::selection {
 	background: #1FB255;
@@ -109,13 +112,12 @@ h2,
 	background: #1FB255;
 	color: #B1E5D6;
 }
-a, a:link, a:visited, .bigfoot-footnote__content a {
+a, a:link, a:visited {
 	color: #1FB255;
 }
 a:hover,
 menu ul li a:hover,
-a:hover #logo span,
-.bigfoot-footnote__content a:hover {
+a:hover #logo span {
 	color: #B1E5D6;
 }
 menu ul li a:hover,
@@ -136,41 +138,6 @@ menu ul li a:hover {
 #logo a,
 menu ul li a {
 	text-decoration: none;
-}
-.bigfoot-footnote__button,
-.bigfoot-footnote__button:link,
-.bigfoot-footnote__button:visited {
-	background-color: #1FB255;
-}
-.bigfoot-footnote__button:hover,
-.bigfoot-footnote__button:focus,
-.bigfoot-footnote__button:active,
-.bigfoot-footnote__button.is-active {
-	background-color: #B1E5D6;
-}
-.bigfoot-footnote__tooltip {
-	background-color: #222222;
-	border: 1px solid rgba(255,255,255,0.05);
-}
-.bigfoot-footnote {
-	border: 1px solid rgba(255,255,255,0.025);
-}
-.bigfoot-footnote,
-.bigfoot-footnote__wrapper {
-	background-color: #292929;
-}
-.bigfoot-footnote__tooltip,
-.bigfoot-footnote__wrapper,
-.bigfoot-footnote__content {
-	background-color: #222222;
-}
-.bigfoot-footnote__content {
-	color: #B1E5D6;
-}
-.bigfoot-footnote__button:after,
-.bigfoot-footnote__button.is-active:after,
-.bigfoot-footnote__button:hover:after {
-	color: #1FB255;
 }
 .review-page article,
 #springboard {

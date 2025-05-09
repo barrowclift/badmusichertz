@@ -62,17 +62,6 @@ a:hover {
 #listen-on-buttons .stop {
 	stop-color: #FF847E;
 }
-.bigfoot-footnote__button,
-.bigfoot-footnote__button:link,
-.bigfoot-footnote__button:visited {
-	background-color: #E8625B;
-}
-.bigfoot-footnote__button:hover,
-.bigfoot-footnote__button:focus,
-.bigfoot-footnote__button:active,
-.bigfoot-footnote__button.is-active {
-	background-color: #F0BCB9;
-}
 @media (prefers-color-scheme: dark) {
 	.review-page article,
 	#springboard {
