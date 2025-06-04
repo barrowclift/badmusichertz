@@ -566,8 +566,8 @@ a:hover #Rainbow-Label {
     margin-right: 0em;
 }
     .shelf .album-art {
-        width: 30vw;
-        margin: 0em .13em;
+        width: 28vw;
+        margin: 0.2em 0.2em;
     }
     span.hint--top:hover .album-art {
         transform: scale(1.06);
