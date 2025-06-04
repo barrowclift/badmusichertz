@@ -30,7 +30,7 @@
         <link rel="stylesheet" href="{{ site.baseurl }}/css/hint.css" type="text/css" />
         <link rel="stylesheet" href="{{ site.baseurl }}/css/core.css" type="text/css" />
     {% else %}
-        <link rel="stylesheet" href="{{ site.baseurl }}/css/core-2.min.css" type="text/css" />
+        <link rel="stylesheet" href="{{ site.baseurl }}/css/core-3.min.css" type="text/css" />
     {% endif %}
     {% if page.album-name %}
         <link rel="stylesheet" href="{{ site.baseurl }}/css/album-specific/{{ page.album-name }}.css" type="text/css" />
@@ -40,7 +40,7 @@
         <script async src="{{ site.baseurl }}/scripts/littlefoot-4.1.1.min.js"></script>
         <script async src="{{ site.baseurl }}/scripts/core.js"></script>
     {% else %}
-        <script async src="{{ site.baseurl }}/scripts/core-1.min.js"></script>
+        <script src="{{ site.baseurl }}/scripts/core-2.min.js"></script>
     {% endif %}
     <!--
     Anchor offset:
@@ -61,6 +61,17 @@
             document.getElementsByTagName("menu")[0].style.setProperty("top", (scrollTop / -4) + "px");
             document.getElementsByTagName("menu")[0].style.setProperty("opacity", (50 - scrollTop) / 50);
         });
+    </script>
+    <!-- Generate hoverable anchor links (when applicable) -->
+    <script>
+        {% if page.anchors %}
+        ready(function() {
+            insertAnchors({
+                symbol: "¶",
+                query: "h2"
+            });
+        });
+        {% endif %}
     </script>
 
     <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' | prepend: site.baseurl | replace: '//', '/' }}">

@@ -70,11 +70,5 @@ function ready(fn) {
     document.addEventListener('DOMContentLoaded', fn);
 }
 ready(function() {
-    // Generate hoverable anchor links (when applicable)
-    insertAnchors({
-        symbol: "¶",
-        query: "h2"
-    });
-
-    // Other processing to apply AFTER initial DOM load goes here.
+    // Processing to apply AFTER initial DOM load goes here.
 });
