@@ -34,6 +34,7 @@ theme:
 title: "Carpenters"
 author: "the Barrowclift Siblings"
 date: 2025-05-04 19:19:17-0400
+last_modified_at: 2025-06-08 11:39:07-0400
 excerpt: |
   Mail’s here! Check out what arrived with Marc &amp; Michael as they unpack the heartfelt delivery from Karen &amp; Richard’s 1971 self-titled LP, “Carpenters”.
 image: carpenters/images/episode-art.jpg
@@ -41,8 +42,8 @@ image: carpenters/images/episode-art.jpg
 podcast:
   episode: 21
   filename: "bmh21.mp3"
-  size: 65011851
-  duration: "01:07:18"
+  size: 66161632
+  duration: "01:08:30"
   # soundbite:
   #   start: 3183
   #   duration: 44
