@@ -1,0 +1,117 @@
+---
+layout: podcast
+
+album-name: "cherish"
+
+theme:
+  safari-toolbar-color:
+    light: "#EFD6B6"
+    dark: "#482906"
+  article:
+    blurred: False
+    show-menu-background: False
+    disable-dark-overlay: True
+  card:
+    blurred: False
+    # title-color: "#77221F"
+    # subtitle-color: "#346486"
+    # gradient:
+    #   center-color: "#FBEEE0"
+    #   outer-color: "#FBD5AB"
+    light:
+        title-color: "#77221F"
+        subtitle-color: "#346486"
+        gradient:
+          center-color: "#FBEEE0"
+          outer-color: "#FBD5AB"
+    dark:
+        title-color: "#F4D5B2"
+        subtitle-color: "#F4D5B280"
+        gradient:
+          center-color: "#5F3608"
+          outer-color: "#482906"
+
+title: "Cherish"
+author: "the Barrowclift Siblings"
+date: 2025-10-04 18:04:31-0400
+excerpt: |
+  Take a “trip” with Marc &amp; Michael as they chill out with Vacationer’s 5th LP, 2023’s “Cherish”.
+image: cherish/images/episode-art.jpg
+
+podcast:
+  episode: 22
+  filename: "bmh22.mp3"
+  size: 57111625
+  duration: "00:58:54"
+  # soundbite:
+  #   start: 3183
+  #   duration: 44
+  #   title: "The “George Lucas” of Buffett's catalog"
+
+artist: Vacationer
+genres:
+  - Electronic
+  - Chillwave
+categories:
+  - Podcast
+  - Album review
+---
+
+## Support the Official Release
+
+You can listen to Vacationer's *Cherish* on:
+
+* [Apple Music](https://music.apple.com/us/album/cherish/1701773410)
+* [Spotify](https://open.spotify.com/album/5CHZD9I0LTF6Jfclc8zXbo)
+
+Or purchase the LP on:
+
+* [Amazon Music](https://amazon.com/music/player/albums/B0CF4YS38T?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_1nGhu3aLFBTNj5778UkLpgFvB)
+
+## Notes
+
+* [Chomps](https://chomps.com/collections/chomps), our meat stick of choice.
+* ["I Need *NOURISHMENT*"](https://www.newgrounds.com/portal/view/585336) (start ~1:13)
+* Vacationer LPs prior to *Cherish*:
+    * 2012's [Gone](https://music.apple.com/us/album/gone/732929944)
+    * 2014's [Relief](https://music.apple.com/us/album/relief/1683441701) ([Michael's article](/post/relief))
+    * 2018's [Mindset](https://music.apple.com/us/album/mindset/1669523135) ([Episode 14](/post/mindset))
+    * 2019's [Wavelengths](https://music.apple.com/us/album/wavelengths/1474095799)
+* Michael mentioned Mindset's ["Companionship"](https://music.apple.com/us/album/companionship/1669523135?i=1669523340) is coincidentally positioned as a narrative "lead in" for *Cherish*.
+* [Official *Cherish* documentary](https://youtu.be/ra2tGhNx8Zw), from which we referenced many times throughout the record, including...
+    * Kenny: "I was listening to a ton of Bill Evans while making this record"
+    * Kenny: "What matters to me is being up here making inarguably beautiful music"
+    * Kenny: "If there's anything that I want to improve on myself it's really showing the people that I appreciate *how much* I appreciate them, and that's kind of the story of this record."
+* Producing Credits thus far:
+    * *Gone* & *Relief*
+        * Matthew Young
+        * Grant Wheeler
+    * *Mindset*
+        * Principle Producer: Daniel Schlett
+        * Co-Producers: Includes Matthew Young, Grant Wheeler, and Kenny Vasoli
+    * *Wavelengths*
+        * Kenny Vasoli (though notably and arguably this is a Vacationer record in name only, and feels more as an instrumental-only side project)
+    * *Cherish*
+        * Kenny Vasoli (first "true" Vacationer record as the sole producer!)
+* Michael found the *Cherish*'s warm, soft art direction to be reminiscent of the color grading used in Spike Jonze's [*Her*](https://en.wikipedia.org/wiki/Her_(2013_film)).
+* [Feng Shui](https://en.wikipedia.org/wiki/Feng_shui)
+* [AT-LP120](https://www.audio-technica.com/en-us/at-lp120), what appears to Marc's eyes to be the turntable model featured in the album art (which just so happens to also be his personal turntable, as well).
+* The LP [*Environments - new concepts in stereo sound • Disk 1*](https://music.apple.com/us/album/environments-1/1340482555) (a small collection of ambient nature sounds) is featured prominently in *Cherish*'s album art and happens to sport a cover design strikingly similar to *Cherish*'s, hmmmm...
+    ![Environments LP Cover Art]({{ site.dropbox }}/{{ page.album-name }}/images/environments.jpg)
+* [Last Bison](https://music.apple.com/us/artist/the-last-bison/570615842)'s [*Quill*](https://thelastbison.bandcamp.com/album/quill), whose production ethos Michael found similar to *Cherish* (that being, "blemishes" and all were included)
+* [*Carpenters*](https://music.apple.com/us/artist/carpenters/117982008), which Marc & Michael noticed had some similarities to *Cherish* (similar short length, similar message in the last track, similarly intimate). See their discussion at length on that record in [Episode 21](/post/carpenters).
+* [Kenny's Tweet](https://x.com/VacationerBand/status/1271110461430390788), including a clip from the "Love & Mercy" biopic on Brian Wilson and Kenny saying "Writing lyrics for the new songs..."
+    * "I can't go back in time! We're not surfers, we never have been, and real surfers don't dig our music anyway. Okay, I can't write about summer, and fun and summer and summer and fun and cars! I got different stuff inside me, I gotta get it out."
+    * ![Tweet Screenshot]({{ site.dropbox }}/{{ page.album-name }}/images/tweet-screenshot.jpg)
+    * [Paul Dano](https://en.wikipedia.org/wiki/Paul_Dano), the actor bringing life to "past" Brian in the clip
+* Marc found "Entertainment" fit a similar narrative and instrumental role that [Father John Misty](https://music.apple.com/us/artist/father-john-misty/514361724)'s ["Leaving LA"](https://music.apple.com/us/album/leaving-la/1193788689?i=1193789271) did on [*Pure Comedy*](https://music.apple.com/us/album/pure-comedy/1193788689). Check out our full discussion on that record in [Episode 12](/post/pure-comedy).
+* Brett & Kate McKay's ["Twenty Lessons From Twenty Years of Marriage"](https://www.dyingbreed.net/p/20-lessons-from-20-years-of-marriage), which Michael found had similar ethos to "Comforter".
+
+## Art
+
+![Cover art]({{ site.dropbox }}/{{ page.album-name }}/images/album-art.jpg)
+[![Back cover]({{ site.dropbox }}/{{ page.album-name }}/images/back-cover-small.heic)]({{ site.dropbox }}/{{ page.album-name }}/images/back-cover.heic)
+[![Inner Sleeve Front]({{ site.dropbox }}/{{ page.album-name }}/images/inner-sleeve-front-small.heic)]({{ site.dropbox }}/{{ page.album-name }}/images/inner-sleeve-front.heic)
+[![Inner Sleeve Back]({{ site.dropbox }}/{{ page.album-name }}/images/inner-sleeve-back-small.heic)]({{ site.dropbox }}/{{ page.album-name }}/images/inner-sleeve-back.heic)
+
+♫︎

@@ -1,0 +1,219 @@
+/**
+ * Background
+ */
+html {
+    background-color: #F4D5B2;
+}
+.review-page article,
+#springboard {
+    background-color: hsla(32, 76%, 90%, 0.95);
+}
+::selection {
+    background: hsla(205, 44%, 36%, 0.99);
+}
+::-moz-selection {
+    background: hsla(205, 44%, 36%, 0.99);
+}
+
+/**
+ * Menu
+ */
+menu a,
+menu a:link,
+menu a:visited {
+    color: #77221F;
+}
+menu a .rss,
+menu a .letter {
+    fill: #77221F;
+}
+menu a:hover {
+    color: #CA3A35;
+}
+menu a:hover .letter,
+menu a:hover .rss {
+    fill: #CA3A35;
+}
+
+/**
+ * Record Logo
+ */
+#logo .record .flat-grooves {
+    fill: hsl(2, 59%, 29%);
+}
+#logo .record .runout {
+    stroke: hsl(2, 59%, 29%);
+}
+#logo .record .loud-grooves {
+    stroke: hsl(2, 59%, 29%);
+    fill: hsl(2, 59%, 34%);
+}
+#logo .record .quiet-grooves {
+    fill: hsl(2, 59%, 24%);
+}
+#logo .label-glow {
+    stroke: #346486;
+}
+#logo .label {
+    opacity: 1 !important;
+    fill: #346486;
+    stroke: #346486;
+}
+
+a:hover #logo .record .flat-grooves {
+    fill: hsl(2, 58%, 50%);
+}
+a:hover #logo .record .runout {
+    stroke: hsl(2, 58%, 50%);
+}
+a:hover #logo .record .loud-grooves {
+    stroke: hsl(2, 58%, 50%);
+    fill: hsl(2, 58%, 55%);
+}
+a:hover #logo .record .quiet-grooves {
+    fill: hsl(2, 58%, 45%);
+}
+a:hover #logo .label {
+    fill: rgba(0, 0, 0, 0);
+}
+
+/**
+ * Article Body
+ */
+a, a:link, a:visited {
+    color: #346486;
+}
+a:hover {
+    color: #3680B5;
+}
+
+#listen-on-buttons .start {
+    stop-color: #4398D6;
+}
+#listen-on-buttons .stop {
+    stop-color: #346486;
+}
+
+#springboard header h1 span,
+#shownotes h1,
+#shownotes h2 {
+    color: #77221F !important;
+}
+.podcast-article-wrapper .article-mime-icon path {
+    fill: hsla(2, 59%, 29%, 0.6);
+}
+#springboard header h1 time,
+#springboard header h1 time span {
+    color: hsla(2, 59%, 29%, 0.6) !important;
+}
+
+@media (prefers-color-scheme: dark) {
+    /**
+     * Background
+     */
+    html {
+        color: white;
+        background-color: #482906;
+    }
+    .review-page article,
+    #springboard {
+        background-color: #2C1904;
+    }
+    ::selection {
+        background: hsla(205, 44%, 36%, 0.99);
+    }
+    ::-moz-selection {
+        background: hsla(205, 44%, 36%, 0.99);
+    }
+
+    /**
+     * Menu
+     */
+    menu a,
+    menu a:link,
+    menu a:visited {
+        color: #F4D5B2;
+    }
+    menu a .rss,
+    menu a .letter {
+        fill: #F4D5B2;
+    }
+    menu a:hover {
+        color: #DA9970;
+    }
+    menu a:hover .rss,
+    menu a:hover .letter {
+        fill: #DA9970;
+    }
+
+    /**
+     * Record Logo
+     */
+    #logo .record .flat-grooves {
+        fill: hsl(32, 75%, 83%);
+    }
+    #logo .record .runout {
+        stroke: hsl(32, 75%, 83%);
+    }
+    #logo .record .loud-grooves {
+        stroke: hsl(32, 75%, 83%);
+        fill: hsl(32, 75%, 88%);
+    }
+    #logo .record .quiet-grooves {
+        fill: hsl(32, 75%, 78%);
+    }
+    #logo .label-glow {
+        stroke: #346486;
+    }
+    #logo .label {
+        opacity: 1 !important;
+        fill: #346486;
+        stroke: #346486;
+    }
+
+    a:hover #logo .record .flat-grooves {
+        fill: hsl(23, 59%, 65%);
+    }
+    a:hover #logo .record .runout {
+        stroke: hsl(23, 59%, 65%);
+    }
+    a:hover #logo .record .loud-grooves {
+        stroke: hsl(23, 59%, 65%);
+        fill: hsl(23, 59%, 70%);
+    }
+    a:hover #logo .record .quiet-grooves {
+        fill: hsl(23, 59%, 60%);
+    }
+    a:hover #logo .label {
+        fill: rgba(0, 0, 0, 0);
+    }
+
+    /**
+     * Article Body
+     */
+    a, a:link, a:visited {
+        color: #50ABEB;
+    }
+    a:hover {
+        color: #3680B5;
+    }
+    #listen-on-buttons .start {
+        stop-color: #F4D5B2;
+    }
+    #listen-on-buttons .stop {
+        stop-color: #DA9970;
+    }
+
+    #springboard header h1 span,
+    #shownotes h1,
+    #shownotes h2 {
+        color: #F4D5B2 !important;
+    }
+    .podcast-article-wrapper .article-mime-icon path {
+        fill: hsla(32, 75%, 83%, 0.6);
+    }
+    #springboard header h1 time,
+    #springboard header h1 time span {
+        color: hsla(32, 75%, 83%, 0.6) !important;
+    }
+}
